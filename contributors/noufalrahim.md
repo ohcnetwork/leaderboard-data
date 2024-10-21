@@ -2,11 +2,11 @@
 name: Noufal Rahim
 title: Contributor
 github: noufalrahim
-twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
-role : contributor
+twitter: "NoufalRahim1612"
+linkedin: "noufalrahim"
+slack: "noufalrahim"
+joining_date: "22/10/2024"
+role : intern
 ---
 
 Still waiting for this
