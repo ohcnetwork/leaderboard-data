@@ -1,6 +1,6 @@
 ---
 name: Noufal Rahim
-title: Contributor
+title: Intern
 github: noufalrahim
 twitter: "NoufalRahim1612"
 linkedin: "noufalrahim"
