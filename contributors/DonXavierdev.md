@@ -1,12 +1,12 @@
 ---
 name: Don Xavier
-title: Contributor
+title: Intern
 github: DonXavierdev
 twitter: ""
 linkedin: ""
 slack: ""
-joining_date: ""
-role : contributor
+joining_date: "16/12/2024"
+role : intern
 ---
 
 Still waiting for this
