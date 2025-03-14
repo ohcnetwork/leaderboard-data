@@ -1,12 +1,12 @@
 ---
-name: spandev
+name: Spandan Mishra
 title: Contributor
 github: Spandan-Mishra
-twitter: ""
-linkedin: ""
-slack: ""
+twitter: spandev_
+linkedin: Spandan Mishra
+slack: U08GT94AHFA
 joining_date: ""
 role : contributor
 ---
 
-Still waiting for this
+Hello! I'm Spandan Mishra. Excited to make contributions to the OHC Network.
