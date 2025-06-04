@@ -1,9 +1,9 @@
 ---
-name: shubham yadav
+name: Shubham Yadav
 title: Intern
 github: yadavshubham01
-twitter: ""
-linkedin: ""
+twitter: "yadavshubham_1"
+linkedin: "shubham-yadav01"
 slack: U08GYM1PJUQ
 joining_date: ""
 role: intern
