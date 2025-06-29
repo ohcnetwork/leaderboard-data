@@ -3,10 +3,12 @@ name: Tanuj Nainwal
 title: Intern
 github: Tanuj1718
 twitter: ""
-linkedin: ""
+linkedin: tanujn
 slack: U082GUAL80N
-joining_date: ""
+joining_date: 03/02/2025
 role: intern
 ---
 
-Still waiting for this
+Contributing in CARE for your care...👨🏻‍💻
+
+
