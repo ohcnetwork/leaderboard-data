@@ -1,12 +1,16 @@
 ---
-name: Devisridadi
-title: Contributor
+add-devisri-profile
+
+name: Devi Sri
+title: Intern
 github: Devisridadi
-twitter: ""
-linkedin: ""
-slack: ""
-joining_date: ""
+twitter:
+linkedin: devisridadi
+slack:  U092L49MXUM
+joining\_date: 23/06/2025
 role: contributor
+
 ---
 
-Still waiting for this
+
+
