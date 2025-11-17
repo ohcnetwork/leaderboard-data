@@ -1,0 +1,356 @@
+[
+  {
+    "id": 1736141474891989,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-01-06T00:01:14.891Z",
+    "text": "<strong>Jan 2 &amp;amp; 3</strong><br>• Pre-fill Searched Phone Number in Patient Creation form<br>• Medication Request | Convert dosage instruction to array with refactor<br>• Fix Date Picker not consistently showing up in Chrome<br>• AllergyQuestion component | Move Last occurrence field, and fit table without scroll<br>• EMR types restructure for Symptoms, Diagnosis, Allergy<br>• Structured response view | Symptom, Diagnosis, Allergy<br>• Issue Created - <strong><a href=\"https://github.com/ohcnetwork/care_fe/issues/9641\">Cleanup Keyboard Shortcut implementation</a></strong><br><strong>Next</strong><br>• Structured response view for the remaining types"
+  },
+  {
+    "id": 1737360753880039,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-01-20T02:42:33.880Z",
+    "text": "Jan 6th - 17th<br>• Desktop and Mobile Redesign based on Figma for<br>    ◦ Medication Request UI<br>    ◦ Medication Statement UI<br>    ◦ Prescription and Prescription Print Preview Page UI<br>• Allergy Intolerance pre-fill with upsert and some UI changes<br>• MultiValueSet field created for reducing horizontal space usage by clubbing related ValueSet fields<br>• Time spent researching <br>    ◦ FHIR for request types, examples etc. <br>    ◦ Snomed to pre-fill Medication Request form fields like strength, unit etc<br>• Created view for Structured Response (which eventually got ditched as we&#x27;re displaying only non-structured responses now)<br>• Multiple discussions with Vinu regarding designs<br>Next:<br>• Structured Pre-fill for Diagnosis and Symptoms<br>• Research using ValueSet expand to receive India Specific Data (similar to Snomed CT Indian version)<br>• Medication Administration UI redesign based on Figma"
+  },
+  {
+    "id": 1737448466609159,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-01-21T03:04:26.609Z",
+    "text": "Jan 20<br>• Structured pre-fill for Symptom and Diagnosis<br>• Research and explore Snomed CT Indian version and discussion with Bodhi and Vignesh - found an API that returns Indian data but might need further research<br>Next:<br>• Participate in migration<br>• Check and complete Structured edit PR<br>• Continue Research on Snomed CT Indian version<br>• Medication Administration UI redesign based on Figma"
+  },
+  {
+    "id": 1737522764450409,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-01-21T23:42:44.450Z",
+    "text": "Jan 21<br>• Data Migration for <br>    ◦ Patient Notes<br>    ◦ Facility Org<br>    ◦ Facility Users<br>• Wrap Structured responses pre-fill &amp;amp; Edit PR<br>Next:<br>• Medication Administration UI based on Figma<br>• Continue Research on Snomed CT Indian version"
+  },
+  {
+    "id": 1737958633067229,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-01-27T00:47:13.067Z",
+    "text": "Jan 22-24<br>• Rewrite Questionnaire update handler to fix race condition on Form load<br>• Fix Medication Request, Statement pre-fill and update<br>• UI changes for Entered-in-error records and other minor UI fixes in Encounter overview<br>• Allow update only for selected fields in existing records of structured form<br>• UI for Medicine Administration chart view (60%)<br>Next<br>• Medicine Administration UI <br>    ◦ Complete chart UI<br>    ◦ Administer UI<br>    ◦ Mobile UI"
+  },
+  {
+    "id": 1738312320743839,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-01-31T03:02:00.743Z",
+    "text": "<strong>Jan 27 to 30, 2025</strong><br><strong>Done</strong><br>• Medication Administration Desktop &amp;amp; Mobile UI as per Figma<br>• Visited 3 Palliative Care homes accompanied by the nurses<br>• Structured Responses filter by Encounter<br>• Patient Updates Tab<br>• Other minor fixes<br>Next<br>• Complete requested changes on MAR PR<br>• Fix missing data on Questionnaire Response view"
+  },
+  {
+    "id": 1738560775154049,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-03T00:02:55.154Z",
+    "text": "<strong>Jan 31, 2025</strong><br><strong>Done</strong><br>• Fix missing data on Questionnaire Response view with slight redesign<br>• Fix Location Update<br>• Minor fixes on Structured Responses filter by Encounter PR<br><strong>Next</strong><br>• Complete requested changes on MAR PR"
+  },
+  {
+    "id": 1738738718337329,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-05T01:28:38.337Z",
+    "text": "<strong>Feb 3 &amp;amp; 4, 2025</strong><br><strong>Done</strong><br>• Completed requested changes on MAR PR and got it merged<br>• Working on Encounter Overview redesign<br>• Reviewed few PRs<br><strong>Next</strong><br>• Complete Encounter Overview Redesign<br>• Treatment Summary<br>• Discharge Summary"
+  },
+  {
+    "id": 1738906948345419,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-07T00:12:28.345Z",
+    "text": "<strong>Feb 5 &amp; 6, 2025</strong><br><strong>Done</strong><br>• Merged Encounter Overview redesign<br>• Wrapped v1 of Treatment Summary<br>• Fixed Questionnaire Response view for multi values<br>• Minor cleanup in Questionnaire Response view<br>• Fixed Location search<br>• Questionnaire hide tooltip<br>• Logout API wiring with Bodhi<br>• Reviewed few PRs<br>• Working on Location in Encounter overview<br><strong>Next</strong><br>• Wrap Location in Encounter overview<br>• Discharge Summary"
+  },
+  {
+    "id": 1739166562143639,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-10T00:19:22.143Z",
+    "text": "<strong>Feb 7, 2025</strong><br><strong>Done</strong><br>• Working on Location with history UI in Encounter overview<br>• Minor fixes in Encounter overview, Medication, Administration<br>• Minor fixes in Treatment Summary PR<br><strong>Next</strong><br>• Further requested changes in Treatment Summary PR <br>• Wrap Location in Encounter overview<br>• Discharge Summary"
+  },
+  {
+    "id": 1739253860368669,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-11T00:34:20.368Z",
+    "text": "<strong>Feb 10, 2025</strong><br><strong>Done</strong><br>• Complete requested changes in Treatment Summary PR<br>• Opened PR for Location in Encounter overview<br>• Discussion with Rithvik on <a href=\"https://github.com/ohcnetwork/care_fe/pull/10529\">#10529</a><br>• Reviewed PR<br><strong>Next</strong><br>• Requested changes in Location PR<br>• Discharge Summary"
+  },
+  {
+    "id": 1739512920122289,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-14T00:32:00.122Z",
+    "text": "<strong>Feb 11 - 13</strong><br><strong>Done</strong><br>• Got Location PR merged<br>• Discharge Summary PR<br>• ValueSet options in Gigin&#x27;s PR<br>• Questionnaire List Redesign<br>• Reviewed PR<br>• WIP: Questionnaire Edit/Preview Redesign<br><strong>Next</strong><br>• Minor requested change in Discharge Summary PR<br>• Wrap Questionnaire Edit/Preview Redesign"
+  },
+  {
+    "id": 1739944570126849,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-19T00:26:10.126Z",
+    "text": "<strong>Feb 17 - Leave</strong><br><strong>Feb 14 &amp;amp; 18</strong><br><strong>Done</strong><br>• Completed changes &amp;amp; merged Discharge Summary PR<br>• Questionnaire List/Edit Redesign PR opened (Issue opened for Preview UI)<br>• Reviewed PR"
+  },
+  {
+    "id": 1740373592966539,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-02-23T23:36:32.966Z",
+    "text": "<strong>Feb 19 - 21</strong><br><strong>Done</strong><br>• Location availability display bug fix<br>• Requested changes in Questionnaire List/Edit, merged<br>• Encounter create | Organization required<br>• Reviewed PRs<br>• Location Questionnaire | Prefill with current location (Not the right approach though)<br>• WIP : Enhance Location Questionnaire with current, planned, reserved locations"
+  },
+  {
+    "id": 1740983081251059,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-03-03T00:54:41.251Z",
+    "text": "<strong>Feb 24 &amp;amp; 25 (Slow, down with a cold), 27 &amp;amp; 28</strong><br><strong>Done</strong><br>• Encounter Info Card<br>• Added Location manage sheet with history, removed Location Question<br>• Removed Questionnaire show screen<br>• Patient | Mark as deceased<br>• Enabled Patient edit for patient marked as deceased<br>• Reviewed PRs<br><strong>Next</strong><br>• WIP: Encounter Locations screen"
+  },
+  {
+    "id": 1741584418226649,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-03-09T23:56:58.226Z",
+    "text": "<strong>Mar  3-7</strong><br><strong>Done</strong><br>• PR opened - Encounter Locations screen<br>• Encounter id null in Subquestions fix<br>• Remove Questionnaire show screen usages<br>• PR opened - Validation added for Appointment, Medication Request, Medication Statement<br>• Discussions on redesign of Location association management with Vinu<br>• Reviewed PRs<br><strong>Next</strong><br>• Review PRs<br>• New version of Location Association Management"
+  },
+  {
+    "id": 1743571523571139,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-04-01T23:55:23.571Z",
+    "text": "<strong>April 1</strong><br><strong>Done</strong><br>• Review &amp;amp; merge PRs<br>• Engineering sync call<br>• Lunch &amp;amp; Milano with the team<br>• Discussion with Jeevan &amp;amp; Nihal on Patient reg bug<br>• Sync with Yaswanth &amp;amp; Abhimanyu on their PRs<br><strong>Next</strong><br>• Review &amp;amp; merge more PRs"
+  },
+  {
+    "id": 1744005640070819,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-04-07T00:30:40.070Z",
+    "text": "April 2-4<br>Done<br>• Facility Archive for SuperAdmins<br>• Set Care Team for Encounter<br>• Care Team followup fixes<br>• Facility Creation - Fix Organization Required<br>• Assign issues and sync with Yaswanth &amp;amp; Abhimanyu"
+  },
+  {
+    "id": 1744096767902589,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-04-08T01:49:27.902Z",
+    "text": "<strong>April 7</strong><br>• Mostly discussion on Discharge Summary<br>• Reviewing PRs<br>• Sync with Yash &amp;amp; Manyu<br>• PR raised on adding Encounter start date with Bodhi<br><strong>Next</strong><br>• Discharge summary advice<br>• Review PRs"
+  },
+  {
+    "id": 1744180425823299,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-04-09T01:03:45.823Z",
+    "text": "<strong>April 8</strong><br>• Reviewing PRs<br>• Assign issues &amp;amp; Sync with Yash &amp;amp; Manyu<br>• Questionnaire Download &amp;amp; Import from URL<br><strong>Next</strong><br>• Review PRs"
+  },
+  {
+    "id": 1744354029705769,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-04-11T01:17:09.705Z",
+    "text": "<strong>April 9, 10</strong><br>• Minor changes on Questionnaire Import<br>• PR Reviews<br>• Calls with Manyu &amp;amp; Yash<br>• WIP: Medication Request - Add from History<br><strong>Next</strong><br>• Complete WIP"
+  },
+  {
+    "id": 1744788877226589,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-04-16T02:04:37.226Z",
+    "text": "<strong>April 11</strong><br>• PR up for medication Request, statement, diagnosis, symptom from history<br>• Sync with Manyu &amp;amp; Yash<br>• Review PRs<br><strong>April 15</strong><br>• Reversed logic used in history PR as per Dr. Athul&#x27;s request<br>• Sync with Manyu &amp;amp; Yash<br>• Review PRs<br><strong>Next</strong><br>• GSoC Reviews"
+  },
+  {
+    "id": 1746333177884369,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-03T23:02:57.884Z",
+    "text": "<strong>April 28th</strong> - Sick Leave<br><strong>April 29, 30, May 2nd</strong> - (Slow, recovering)<br>• Encounter Diagnosis Reports List &amp;amp; View<br>• Charge Item Definition<br>• Diagnostic Report Review<br>• Diagnostic Report Code for Activity Definition, Service Request<br>• Xray AD - File Upload<br>• Service Request Show UI <a href=\"http://w.r.to\">w.r.to</a> Figma<br>• Other minor fixes in Labs<br>• Changes in Structured History PR<br>• Multiple discussion and sync calls<br><strong>Next</strong><br>• Pickup items from Labs"
+  },
+  {
+    "id": 1746603482481809,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-07T02:08:02.481Z",
+    "text": "<strong>May 5, 6</strong><br>• Changes &amp;amp; fixes in Billing across invoices, account, payments<br>• Assigning out labs &amp;amp; billing tasks from the ToDo<br>• Reviewing completed items<br>• Multiple sync &amp;amp; discussion calls<br><strong>Next</strong><br>• Get the items in ToDo completed"
+  },
+  {
+    "id": 1746685718568009,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-08T00:58:38.568Z",
+    "text": "<strong>May 7</strong><br>• SR - Workflow timeline<br>• Invoice show &amp;amp; print - Price display Fixes<br>• Assign and track items from ToDo<br>• Discussion with the team regarding assigned items<br>• Discuss with Vinu regarding Specimen QR<br><strong>Next</strong><br>• ToDo list has grown"
+  },
+  {
+    "id": 1747030943420079,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-12T00:52:23.420Z",
+    "text": "<strong>May 8,9</strong><br>• Invoice create - Charge items fix, default statuses<br>• Cleanup and complete Manyu&#x27;s print specimen QR PR<br>• Other minor fixes in labs and billing<br>• Assign and track items from ToDo<br>• Discussion with the team regarding assigned items<br>• Discussion with Aravind &amp;amp; Bill on setting up relevant data in labs for testing<br><strong>Next</strong><br>• Pharmacy"
+  },
+  {
+    "id": 1747636259301679,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-19T01:00:59.301Z",
+    "text": "<strong>May 12-16</strong><br><strong>Done</strong><br>• Invoice - Tax &amp;amp; Discount as columns<br>• Invoice show - remove status from charge items<br>• SR - Charge Item display &amp;amp; add<br>• Medication Request - Add product knowledge - Desktop view<br>• Supply Request<br>• Supply Delivery, move supply to location nav<br>• Supply Delivery - List inventory item during creation<br>• Pharmacy Medications list<br>• Medication Dispense<br>• Dispense - Days supply, remove patient in endpoint<br>• Create Invoice while dispensing<br>• Other minor changes<br><strong>Next</strong><br>• Mark medications complete after dispensing<br>• Cleanup pharmacy"
+  },
+  {
+    "id": 1747809431541359,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-21T01:07:11.541Z",
+    "text": "<strong>May 19, 20</strong><br>• Dispense flow cleanup<br>• Dispense summary list view<br>• Huddles &amp;amp; discussion regarding Billing &amp;amp; pharmacy<br>• Other minor fixes<br><strong>Next</strong><br>• Cleanup ToDo items reported by Nihal"
+  },
+  {
+    "id": 1748239158916859,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-26T00:29:18.916Z",
+    "text": "<strong>May 21, 22, 23</strong><br>• Activity definition form changes<br>• SR Question changes<br>• Account end date<br>• Account show minor changes<br>• Dispense - dosage minor changes<br>• Spec Def, Activity def, Prod knowledge form validations<br>• Supply delivery details - minor changes<br>• Other minor changes<br><strong>Next</strong><br>• Pharmacy UX"
+  },
+  {
+    "id": 1748584865772939,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-05-30T00:31:05.772Z",
+    "text": "<strong>May 26, 27</strong><br>• Minor cleanup in Invoice show<br>• Product Knowledge status filter<br>• Create Invoice changes<br>• Minor cleanup in Bill medications form<br>• Multiple huddles with Yash and Manyu <a href=\"http://w.r.to\">w.r.to</a> ToDo items<br><strong>May 28</strong><br>• Visited Sudheendra hospital<br>• Discussion with team regarding the visit<br><strong>May 29 - Leave</strong>"
+  },
+  {
+    "id": 1750054596889969,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-06-16T00:46:36.889Z",
+    "text": "9-13 June (Slow week - sick, leave on 11th)<br>• Discussions with Vinu on new Pharmacy UI<br>• Discussions with Yash, Manyu, Rithvik, Jeevan assigning and reviewing the tasks<br>• GDC interviews<br>• Go through the todo items and test out the flows<br>• Other calls and minor items"
+  },
+  {
+    "id": 1750836441150399,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-06-25T01:57:21.150Z",
+    "text": "Past Week (<em>Will add EODs regularly hereon</em>)<br>• Multiple discussions with Vinu regarding Purchase Orders &amp;amp; receiving stock<br>• Discussions with Vignesh regarding pharmacy<br>• Multiple discussions with the team on issues assigned to them<br>• GSOC discussion with Yashwanth going through models &amp;amp; FHIR<br>• Going through Scribe repo &amp;amp; reviewing it&#x27;s optimization changes<br>Next<br>• Purchase Order UI<br>• Merge Labs"
+  },
+  {
+    "id": 1750919789041049,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-06-26T01:06:29.041Z",
+    "text": "June 25<br>• Discussions with Yashwanth, Manyu, Nikhila on the tasks they&#x27;re working on<br>• Discussion with Aravind on testing Pharmacy flow<br>• Looking for and assigning out bugs in labs branch<br><strong>Next</strong><br>• Purchase Order UI<br>• Merge Labs"
+  },
+  {
+    "id": 1751261838801369,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-06-30T00:07:18.801Z",
+    "text": "June 26, 27<br>• Discussions with Yashwanth, Manyu, Nikhila on the tasks they&#x27;re working on<br>• Go through ToDo and clean it up<br>• Huddles with Jeevan on Purchase Order receive UI<br>• Discussion with Yashwanth on GSOC<br><strong>Next</strong><br>• Purchase Order UI<br>• Merge Labs"
+  },
+  {
+    "id": 1751868940501879,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-07-07T00:45:40.501Z",
+    "text": "June 30 - July 4<br>• Multiple discussions with the team<br>• Testing labs, billing &amp;amp; pharmacy<br>• Added items in ToDo<br>• Inventory branch merged<br>• Minor GSOC discussion<br><strong>Next</strong><br>• Cleanup &amp;amp; merge Labs"
+  },
+  {
+    "id": 1753684136134819,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-07-28T00:58:56.134Z",
+    "text": "<strong>July 21-25</strong><br>• Patient form - pincode optional fixes<br>• Apply charge item definition in SR &amp;amp; Charge item question<br>• Questionnaire - Remove formatting for custom options<br>• Merged refactoring amounts in accounts from decimal to string to match BE<br>• Reviewed few PRs<br>• Going through odoo trying to figure out commission<br>• Added OCA commissions addons to deployment<br>• GSOC discussions"
+  },
+  {
+    "id": 1761630089657469,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-10-28T00:11:29.657Z",
+    "text": "Oct 27<br>• Review and test out couple PRs like Playwright, Medication history, Analytics<br>• Few discussions with the team<br>Next<br>• Wire Odoo User create, Category create, clean up &amp;amp; deploy"
+  },
+  {
+    "id": 1761630089657,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-10-28T00:11:29.657Z",
+    "text": "Oct 27<br>• Review and test out couple PRs like Playwright, Medication history, Analytics<br>• Few discussions with the team<br>Next<br>• Wire Odoo User create, Category create, clean up &amp;amp; deploy"
+  },
+  {
+    "id": 1761728848201389,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-10-29T03:37:28.201Z",
+    "text": "Oct 28<br>• Discussions &amp;amp; follow ups with Visakh on Odoo<br>• Wrap and deploy v1 integration on User, Product, Category, Invoice, Payment to develop (some pending like product taxes, discounts, credit note)<br>• Other calls &amp;amp; discussions<br>Next<br>• Follow up and wire remaining odoo apis"
+  },
+  {
+    "id": 1761728848201,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-10-29T03:37:28.201Z",
+    "text": "Oct 28<br>• Discussions &amp;amp; follow ups with Visakh on Odoo<br>• Wrap and deploy v1 integration on User, Product, Category, Invoice, Payment to develop (some pending like product taxes, discounts, credit note)<br>• Other calls &amp;amp; discussions<br>Next<br>• Follow up and wire remaining odoo apis"
+  },
+  {
+    "id": 1762078824946739,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-02T04:50:24.946Z",
+    "text": "Oct 29-31<br>• Discussions &amp;amp; follow ups with Visakh on Odoo<br>• Review and update Odoo checklist and add revised deadlines with Aravind and Visakh<br>• Apply changes made in already wired APIs, wire supplier end point<br>• Other discussions with team<br>• Review Odoo with Vignesh and added new checklist items<br>Next<br>• continue Odoo"
+  },
+  {
+    "id": 1762078824946,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-02T04:50:24.946Z",
+    "text": "Oct 29-31<br>• Discussions &amp;amp; follow ups with Visakh on Odoo<br>• Review and update Odoo checklist and add revised deadlines with Aravind and Visakh<br>• Apply changes made in already wired APIs, wire supplier end point<br>• Other discussions with team<br>• Review Odoo with Vignesh and added new checklist items<br>Next<br>• continue Odoo"
+  },
+  {
+    "id": 1762238445394369,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-04T01:10:45.394Z",
+    "text": "Nov 3<br>• Discussions &amp;amp; follow ups with Visakh on Odoo done &amp;amp; pending items<br>• Testing and making minor changes<br>• Discussions with Nihal on testing odoo flow<br>Next<br>• continue Odoo"
+  },
+  {
+    "id": 1762238445394,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-04T01:10:45.394Z",
+    "text": "Nov 3<br>• Discussions &amp;amp; follow ups with Visakh on Odoo done &amp;amp; pending items<br>• Testing and making minor changes<br>• Discussions with Nihal on testing odoo flow<br>Next<br>• continue Odoo"
+  },
+  {
+    "id": 1762321853712919,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-05T00:20:53.712Z",
+    "text": "Nov 4<br>• Discussions &amp; follow ups with Visakh on Odoo done &amp; pending items<br>• Testing and making minor changes<br>• PR for Invoice edit tax bug, also added the option to select discount from CID discounts then edit value<br>Next<br>• Demo-able Odoo"
+  },
+  {
+    "id": 1762321853712,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-05T00:20:53.712Z",
+    "text": "Nov 4<br>• Discussions &amp; follow ups with Visakh on Odoo done &amp; pending items<br>• Testing and making minor changes<br>• PR for Invoice edit tax bug, also added the option to select discount from CID discounts then edit value<br>Next<br>• Demo-able Odoo "
+  },
+  {
+    "id": 1762497270905529,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-07T01:04:30.905Z",
+    "text": "Nov 5<br>• Discussions &amp;amp; follow ups with Visakh on Odoo done &amp;amp; pending items<br>• Testing and making minor changes<br>• Go through flow with Aravind &amp;amp; Nihal for Sudheendra demo<br>Next<br>• Sudheendra demo"
+  },
+  {
+    "id": 1762497270905,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-07T01:04:30.905Z",
+    "text": "Nov 5<br>• Discussions &amp;amp; follow ups with Visakh on Odoo done &amp;amp; pending items<br>• Testing and making minor changes<br>• Go through flow with Aravind &amp;amp; Nihal for Sudheendra demo<br>Next<br>• Sudheendra demo"
+  },
+  {
+    "id": 1762497442034839,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-07T01:07:22.034Z",
+    "text": "Nov 6<br>• Sudheendra Odoo demo with Aravind, Vignesh, Gigin, Visakh. <br>• Discussion on flow, find fixes needed, find gaps, take new requirements for HR<br>Next<br>• Pending odoo items"
+  },
+  {
+    "id": 1762497442034,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-07T01:07:22.034Z",
+    "text": "Nov 6<br>• Sudheendra Odoo demo with Aravind, Vignesh, Gigin, Visakh. <br>• Discussion on flow, find fixes needed, find gaps, take new requirements for HR<br>Next<br>• Pending odoo items"
+  },
+  {
+    "id": 1762752503966449,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-09T23:58:23.966Z",
+    "text": "Nov 7 (<em>slow day - down with cold</em>)<br>• Discussion with Visakh on Odoo<br>• Changes in Invoice edit PR<br>Next<br>• Pending odoo items"
+  },
+  {
+    "id": 1762752503966,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-09T23:58:23.966Z",
+    "text": "Nov 7 (<em>slow day - down with cold</em>)<br>• Discussion with Visakh on Odoo<br>• Changes in Invoice edit PR<br>Next<br>• Pending odoo items"
+  },
+  {
+    "id": 1762866518885959,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-11T07:38:38.885Z",
+    "text": "Nov 10<br>• Go through Odoo checklist with Visakh, Aravind, Bodhi and get timelines<br>• Few other discussions regarding odoo and other bugs<br>• Made odoo endpoints transactional instead of signals<br>• Trying to get Odoo sudeendhra DO test instance up<br>Next -<br>• Get instance up and test"
+  },
+  {
+    "id": 1762866518885,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-11T07:38:38.885Z",
+    "text": "Nov 10<br>• Go through Odoo checklist with Visakh, Aravind, Bodhi and get timelines<br>• Few other discussions regarding odoo and other bugs<br>• Made odoo endpoints transactional instead of signals<br>• Trying to get Odoo sudeendhra DO test instance up<br>Next -<br>• Get instance up and test"
+  },
+  {
+    "id": 1762935860489909,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-12T02:54:20.489Z",
+    "text": "Nov 11<br>• Configure Odoo sudeendhra DO test instance and test<br>• Discussion with Visakh on bugs faced, Aravind regarding odoo stuff<br>• Other huddles with team<br>Next -<br>• Product Commission module not showing up in SSMM - check"
+  },
+  {
+    "id": 1762935860489,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-12T02:54:20.489Z",
+    "text": "Nov 11<br>• Configure Odoo sudeendhra DO test instance and test<br>• Discussion with Visakh on bugs faced, Aravind regarding odoo stuff<br>• Other huddles with team<br>Next -<br>• Product Commission module not showing up in SSMM - check"
+  },
+  {
+    "id": 1763018748382859,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-13T01:55:48.382Z",
+    "text": "Nov 12<br>• Fix commission module load in ssmm, which fixed user create<br>• Add multi discount edit support in Invoice Edit PR<br>• Few calls &amp;amp; discussions<br>• PR reviews<br>Next -<br>• Follow up on SSMM instance config<br>• Modify Odoo User create - type based on role<br>• Odoo Mail server"
+  },
+  {
+    "id": 1763018748382,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-13T01:55:48.382Z",
+    "text": "Nov 12<br>• Fix commission module load in ssmm, which fixed user create<br>• Add multi discount edit support in Invoice Edit PR<br>• Few calls &amp;amp; discussions<br>• PR reviews<br>Next -<br>• Follow up on SSMM instance config<br>• Modify Odoo User create - type based on role<br>• Odoo Mail server"
+  },
+  {
+    "id": 1763104218125,
+    "user_id": "U0168MBTGL8",
+    "timestamp": "2025-11-14T01:40:18.125Z",
+    "text": "Nov 13<br>• Checkout SSMM invoice create odoo bug<br>• Make a db fix for registration fee category<br>• Default category creation in SSMM be plug<br>• Setup analytics in care.ohc.network<br>• Discussions and calls<br>Next -<br>• Modify Odoo User create - type based on role<br>• Odoo Mail server"
+  }
+]

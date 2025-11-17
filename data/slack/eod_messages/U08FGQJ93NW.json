@@ -1,0 +1,386 @@
+[
+  {
+    "id": 1748970209627269,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-03T11:33:29.627Z",
+    "text": "June 02<br> Done<br>-Attended the weekly review call<br>-Completed analysis comparing a custom HR management module vs a backend plugin approach<br>-Continued deep dive into Django REST Framework<br>Next<br>-Explore Odoo’s open-source HR module in depth<br>-Analyze how well it supports the features and workflows outlined in my designs"
+  },
+  {
+    "id": 1749094960472569,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-04T22:12:40.472Z",
+    "text": "4th june<br> • Explored Odoo platform – verified it includes core HR features like leave management, document uploads, and reporting.<br> • Watched Django + DRF tutorials to refresh backend fundamentals.<br>Next<br>• Will plan next steps based on mentor <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> guidance on plugin direction and integration plan."
+  },
+  {
+    "id": 1749489149719159,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-09T11:42:29.719Z",
+    "text": "<strong>June 9</strong><br>• Had a discussion with mentor.<br>• Set up the <strong>care_plugin_hrm</strong> repo using the <strong>care_hello</strong> boilerplate and connected it locally with Care.<br>• Started building <strong>Employee CRUD</strong> and <strong>Leave Request APIs</strong> following Care’s current architecture.<br><strong>Next:</strong><br>• Continue building and refining the APIs."
+  },
+  {
+    "id": 1749617795087369,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-10T23:26:35.087Z",
+    "text": "June 10th<br>• Focused on running the Django server locally with the plugin integrated.<br>• Encountered and resolved a <code>ModuleNotFoundError</code> by linking the plugin using <code>pip install -e</code>.<br>• Faced challenges with <code>ImproperlyConfigured: Application labels aren&#x27;t unique</code> errors while setting up the plugin. Spent time debugging and trying various fixes.<br>• Currently, the server runs locally, but the label configuration issue persists despite multiple attempts to resolve it."
+  },
+  {
+    "id": 1749705444027569,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-11T23:47:24.027Z",
+    "text": "June 11th<br>• Focused on resolving the <code>Application labels aren&#x27;t unique</code> issue in the HR Management plugin. Explored debugging techniques.<br>• Started implementing the <strong>LeaveRequest</strong> model and its CRUD operations in the ViewSets for employee leave requests."
+  },
+  {
+    "id": 1749837010064189,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-13T12:20:10.064Z",
+    "text": "June 12th-13th<br>• huddle with <span class=\"s-mention s-user\">@U02TB83Q5V0</span> to troubleshoot and resolve issues with linking the care_plugin_hrm plugin to the main care project. Successfully integrated the plugin with his guidance. <br>• Worked on designing and implementing APIs for managing Employee and LeaveRequest models in the care_plugin_hrm"
+  },
+  {
+    "id": 1750054441251359,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-16T00:44:01.251Z",
+    "text": "June 14th<br>• Understood the <strong>care</strong> base <code>ViewSet</code> to design the <strong>HR management plugin ViewSet</strong> accordingly.<br>• Tried accessing and testing the <strong>care</strong> APIs using Postman to familiarize myself with the endpoints and workflows."
+  },
+  {
+    "id": 1750142897819529,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-17T01:18:17.819Z",
+    "text": "June 16<br>• Worked on and Implemented the basic veiwsets for Employee and Leaverequest APIs <br>• Daily EOD call<br>Next<br>• Will continue refining and adding features."
+  },
+  {
+    "id": 1750224755986519,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-18T00:02:35.986Z",
+    "text": "june 17<br>• Tested the basic implemented  APIs for HR Management using postman and worked on debugging the errors <br>• Weekly review Meet"
+  },
+  {
+    "id": 1750394173689869,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-19T23:06:13.689Z",
+    "text": "june 18-19th<br>• Worked on API for fresh employee creation by HR ( focused on testing and debugging)<br>• Successfully Implemented and tested the POST API for creating a new employee along with associated user.<br>next<br>• Currently working on refining the update logic and handling edge cases."
+  },
+  {
+    "id": 1750508335314239,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-21T06:48:55.314Z",
+    "text": "June 20<br>• Implemented and debugged nested user updates within the employee profile update endpoint, ensuring only related user fields are updated and unique constraints are respected."
+  },
+  {
+    "id": 1750735680690469,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-23T21:58:00.690Z",
+    "text": "June 23<br>• Completed leave management feature implementation for the HRM module.<br>• Resolved Django/Postgres migration issues for the HRM plugin, including fixing broken migration dependencies and handling default values for new fields.<br>next<br>• planning to test the leave management APIs using Postman."
+  },
+  {
+    "id": 1750874724264169,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-25T12:35:24.264Z",
+    "text": "june 24th - 25<br>• cleaned up and tested the Pydantic specs for leave type, leave balance, and leave request.<br>• made sure updates and responses work as expected.<br>• added signals so leave balances are auto-created when a new leave type or employee is added.<br><strong>next:</strong><br>Start on employee document upload, then move to the frontend."
+  },
+  {
+    "id": 1750997597413929,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-26T22:43:17.413Z",
+    "text": "<strong>June 26</strong><br>• Implemented APIs for employee document upload by leveraging the existing file upload system from care.<br>• <strong>Next:</strong><br>    ◦ Test the API<br>    ◦ Start on the frontend for HR management"
+  },
+  {
+    "id": 1751302775401569,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-06-30T11:29:35.401Z",
+    "text": "30 june<br>• Started the frontend implementation for the HRM plugin<br>• Set up the HRM plugin development environment Installed Vite, added build/dev scripts<br>• Preparing sidebar navigation and initial UI components"
+  },
+  {
+    "id": 1751428829536719,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-01T22:30:29.536Z",
+    "text": "July 1<br>• Weekly review call<br>• Implemented the sidebar and other core components for the HR Management frontend."
+  },
+  {
+    "id": 1751521906476079,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-03T00:21:46.476Z",
+    "text": "July 2nd<br>• Started integrating the HR Management frontend plugin with <code>care_fe</code>.<br>• Implemented UI components for the Employees list, including table layout and navigation to employee details."
+  },
+  {
+    "id": 1751610418386189,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-04T00:56:58.386Z",
+    "text": "July 3rd:<br> Implemented the Employee List and Employee Profile UI components."
+  },
+  {
+    "id": 1751691085253419,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-04T23:21:25.253Z",
+    "text": "July 4<br>• Implemented ui components for the leave tab in the employee profile section"
+  },
+  {
+    "id": 1751775742582619,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-05T22:52:22.582Z",
+    "text": "July 5th<br>• Worked on Implementing Dashboard UI for the HR"
+  },
+  {
+    "id": 1751909232666119,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-07T11:57:12.666Z",
+    "text": "<strong>July 7th</strong> <br>• Implemented a new table component to list employees.<br>• Refined UI components for the dashboard HR view for improved consistency and usability."
+  },
+  {
+    "id": 1752000279033059,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-08T13:14:39.033Z",
+    "text": "July 8<br>• Implemented employee dashboard UI with leave request, celebrations, and holidays sections.<br>• Refactored dashboard navbar for employee view.<br><strong>Next:</strong><br>• Implement leave request form<br>• Refactor employee profile"
+  },
+  {
+    "id": 1752124629557849,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-09T23:47:09.557Z",
+    "text": "July 9th<br>• Implemented employee request form components, including calendar fields, and made some UI modifications in the employee details HR view.<br>Next:<br>• Share the code in care_product and ask for a review."
+  },
+  {
+    "id": 1752217973294779,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-11T01:42:53.294Z",
+    "text": "10th july<br>• Refined the UI components in the dashboard, including adding scroll areas for better usability.<br>• Improved the Leave tab in the Employee Profile for clearer leave information.<br>• Enhanced the Information tab in the Employee Profile for a more organized display."
+  },
+  {
+    "id": 1752289622160199,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-11T21:37:02.160Z",
+    "text": "July 11th<br>• Shared the HR Management module initial UI in care_product for review<br>• Limited progressive due to traveling"
+  },
+  {
+    "id": 1752552461065549,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-14T22:37:41.065Z",
+    "text": "July 13-14th<br>• Started working on new features, including the HR Settings section (e.g., adding leave categories) and the Employee Documents tab.<br>• Was traveling during this period.<br>• Spent time figuring out how to properly route and access the HR module from the main CARE frontend"
+  },
+  {
+    "id": 1752642740172439,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-15T23:42:20.172Z",
+    "text": "July 15th<br>• Attended the weekly EOD call.<br>• Investigated and analyzed the role-based access control and permissions system in the backend, focusing on requirements for HR management integration.<br>• Reviewed and documented pending implementation tasks for the HRM module, including API integration patterns and permission handling."
+  },
+  {
+    "id": 1752732390799579,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-17T00:36:30.799Z",
+    "text": "July 16th<br>• Submitted GSOC Midterm evaluation.<br>• Explored Care&#x27;s authentication and user permission architecture, focusing on how user data and permissions are managed and accessed in both the main app and plugins.<br>• Researched role-based permissions for HR management, including how to define HR specific permissions and assign them to roles in the backend."
+  },
+  {
+    "id": 1752819330540529,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-18T00:45:30.540Z",
+    "text": "<strong>July 17th</strong> <br>• Refined the navigation bar to use permission-based rendering for HR and Employee views.<br>• Improved UI logic to dynamically display navigation options and action buttons based on user permissions.<br>• Attended the eod call."
+  },
+  {
+    "id": 1752905054510199,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-19T00:34:14.510Z",
+    "text": "July 18th:<br>• Fixed a long-standing date selection bug in the UI.<br>• Started integrating Leave Request APIs to enable employees to submit leave ."
+  },
+  {
+    "id": 1753121490864949,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-21T12:41:30.864Z",
+    "text": "<strong>July 19, 20, 21</strong><br>• Reviewed mentor feedback from the GSoC midterm evaluation and analyzed how to proceed based on the suggestions.<br>• Studied how API integration is implemented in care_fe.<br>• Started integrating the API to submit leave requests in the HRM plugin.<br>• Traveled back to campus."
+  },
+  {
+    "id": 1753261667223519,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-23T03:37:47.223Z",
+    "text": "<strong>July 22</strong> <br>• Attended the weekly EOD call.<br>• Integrated the leave request API with the frontend, enabling users to submit leave requests directly from the UI."
+  },
+  {
+    "id": 1753330400651729,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-23T22:43:20.651Z",
+    "text": "<strong>july 23</strong> <br>• Worked on the manifest file to connect the plugin to care_fe.<br>• Encountered a &quot;page not found&quot; issue when accessing routes from the plugin and spent time debugging it.<br>Next:<br>Resolve the issue to ensure plugin routes are accessible from the care_fe."
+  },
+  {
+    "id": 1753505730967759,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-25T23:25:30.967Z",
+    "text": "July 25, 26<br>• Successfully accessed the dashboard through care_fe after resolving previous build issues.<br>• Explored how to retrieve the employee ID of the currently logged-in user for leave application functionality.<br>• Participated in a volleyball tournament.<br>Next Steps<br>• Modify the UI to align with Care&#x27;s design guidelines.<br>• Update the employee model with relevant fields.<br>• Integrate all leave-related APIs."
+  },
+  {
+    "id": 1753597057732909,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-27T00:47:37.732Z",
+    "text": "July 26<br>• Implemented and integrated role-based permissions for leave type APIs in the HRM plugin.<br>• added authorization checks for create, update, delete, and list actions on leave types.<br>• Tested permission enforcement for different user roles."
+  },
+  {
+    "id": 1753756745438499,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-28T21:09:05.438Z",
+    "text": "July 28<br>• Understood how permissions are defined, assigned, and exposed via the API for both users and employees.<br>• Implemented and verified the <code>/api/hrm/employees/current/</code> endpoint integration in the HRM plugin.<br>• Ensured the frontend correctly fetches the current employee data for the logged-in user using the getCurrentEmployee API.<br>• Confirmed that the employee context is available throughout the app, enabling accurate permission checks and dashboard rendering based on employee information."
+  },
+  {
+    "id": 1753811495741479,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-29T12:21:35.741Z",
+    "text": "July 29<br>• Attended the EOD call.<br>• Investigated and debugged the issue where permissions were coming as empty in the API responses.<br>• Spent time tracing and fixing the permissions serialization logic to ensure correct permissions are returned."
+  },
+  {
+    "id": 1753944553551449,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-07-31T01:19:13.551Z",
+    "text": "July 30<br>• Continued debugging the permissions issue where permissions were returning empty in API responses.<br>• Verified role assignments by assigning the existing staff role to users.<br>• Noted that the assigned facility is not visible on the dashboard when logging in with this user."
+  },
+  {
+    "id": 1754030450686579,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-01T01:10:50.686Z",
+    "text": "July 31<br>• Updated the frontend permission constants to exactly match the backend permission strings<br>• Investigated and worked on isolating Tailwind CSS styles within the care_hrm_fe plugin to prevent CSS bleed into the host application.<br>• Refactored the permissions utility and getHRMPermissions logic to use the new permission keys."
+  },
+  {
+    "id": 1754070122714419,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-01T12:12:02.714Z",
+    "text": "Aug 1<br>• Continued integration and testing of API endpoints for employee and leave management features.<br>• upgraded Tailwind CSS to the latest version and updated related dependencies.<br>• discussions with <span class=\"s-mention s-user\">@U02TB83Q5V0</span> to implement scoping of Tailwind utilities to the plugin container, preventing style bleed into the host application."
+  },
+  {
+    "id": 1754330560824929,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-04T12:32:40.824Z",
+    "text": "Aug 3, 4<br>• Integrated and tested leave request approval, rejection, and cancellation endpoints for HR.<br>• Implemented logic to prevent approving or cancelling leave requests in invalid states.<br>• Ensured employees can only edit/cancel their own leave requests before the leave starts, and cannot change status directly.<br>• Added backend checks for leave balance before approval.<br>• Improved API responses to include can_edit and can_cancel flags for frontend control.<br>• Cleaned up and clarified update logic in both viewsets and Pydantic specs."
+  },
+  {
+    "id": 1754415297237059,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-05T12:04:57.237Z",
+    "text": "Aug 5<br>• Had a huddle with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> to resolve the permission sync issue (permissions array was empty) and successfully fixed it.<br>• Attended the weekly EOD call."
+  },
+  {
+    "id": 1754538605960389,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-06T22:20:05.960Z",
+    "text": "Aug 6<br>• Ensured all permissions of HRM properly listed in the permissions array<br>• Updated sidebar navigation to align with Care Ui<br>• Enhanced the leave activity component with proper data handling and error states<br>Next<br>• Modify the complete Ui to align with care<br>• Integrate leave cancel and edit api&#x27;s"
+  },
+  {
+    "id": 1754630614793949,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-07T23:53:34.793Z",
+    "text": "Aug 7<br>• fixed an issue where the leave type was incorrectly defaulting to the first option when editing an existing leave request, instead of showing the user&#x27;s originally selected leave type.<br>• The fix ensures the dropdown respects existing values during edit mode, and only sets a default during create mode.<br>• Also worked on UI improvements to enhance overall form clarity."
+  },
+  {
+    "id": 1754710940739049,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-08T22:12:20.739Z",
+    "text": "Aug 8<br>• Debugged a Tailwind CSS issue where custom hex colors were not being applied in the plugin after connecting with Care.<br>• Updated the backend API to return null for superusers (or users without an employee profile) instead of an error, and adjusted the frontend logic to handle these cases gracefully without breaking the dashboard or showing errors."
+  },
+  {
+    "id": 1754883829844689,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-10T22:13:49.844Z",
+    "text": "Aug 10<br>• refactored the mutation logic to use our mutate utility, ensuring correct path param replacement for endpoints like /api/hrm/leaves/{id}/approve/.<br>• Fixed issues with API call signatures and clarified usage of the mutate utility for POST actions.<br>• Added toast notifications and query invalidation for a better user experience after each action.<br>• Debugged and confirmed that the correct leave request id is passed in all mutation URLs."
+  },
+  {
+    "id": 1754990443726859,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-12T03:50:43.726Z",
+    "text": "Aug 11<br>• Moved navigation from the top navbar to a sidebar for better alignment with the care_fe design system.<br>• Fixed plugin routing by ensuring the host app forwards all /hrm/* routes to the plugin and configured correct basePath handling within the plugin."
+  },
+  {
+    "id": 1755059915955979,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-12T23:08:35.955Z",
+    "text": "aug 12<br>• Refactored and extended the badge component  using class-variance-authority for consistent styling.<br>• Improved sidebar and user navigation logic for HR and employee roles in the plugin, ensuring correct avatar and username display.<br>• Attended Weekly review call"
+  },
+  {
+    "id": 1755149708151709,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-14T00:05:08.151Z",
+    "text": "August 13<br>• Refactored the employee summary to use a new column-based layout, so it matches the care_fe  and looks way cleaner.<br>• Fixed some navigation and routing issues for employee details and tabs."
+  },
+  {
+    "id": 1755233130891629,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-14T23:15:30.891Z",
+    "text": "Aug 14<br>• Integrated the employee creation flow in the HRM plugin, including an &quot;Add Employee&quot; button on the dashboard. <br>Next<br>•  ’ll finish the major plugin functionalities and share them with my mentor for review."
+  },
+  {
+    "id": 1755449168570209,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-17T11:16:08.570Z",
+    "text": "Aug 16–17<br>• Wrapped up the core functionalities of the HRM plugin and shared them in the care_product channel for mentor review and feedback.<br>Next<br>• Fix issues in the HRM plugin, refine the implementation, and incorporate changes based on the feedback received."
+  },
+  {
+    "id": 1755576453434089,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-18T22:37:33.434Z",
+    "text": "Aug 18<br>•  added translations<br>• added pagination to the leave request lists<br>• fixed API issue where current employee call was triggered unnecessarily by adding retry and enabled options"
+  },
+  {
+    "id": 1755670587130149,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-20T00:46:27.130Z",
+    "text": "Aug 19<br>• Updated Employee spec: moved skills, qualification, weekly_working_hours, and date_of_birth to user-level retrieve spec.<br>• Refactored frontend EmployeeForm to reflect new fields structure.<br>• Fixed form defaults and validations for DOB, skills, qualification, and working hours.<br>• Attended weekly EOD call"
+  },
+  {
+    "id": 1755745804399399,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-20T21:40:04.399Z",
+    "text": "<strong>August 20</strong><br>• Refined the Employee Creation <strong>Form</strong> with section navigation<br>• Debugging the Profile Picture Upload error<br>next<br>• Refine the <strong>Holidays Section</strong> in the dashboard"
+  },
+  {
+    "id": 1755888429294519,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-22T13:17:09.294Z",
+    "text": "Aug 22<br>• Implemented the holidays feature for HRM.<br>• Resolved the employee document upload API issue.<br>• Fixed bugs in the leave list, including limitations found during testing.<br><strong>Next:</strong><br>• Complete and verify translations across the plugin."
+  },
+  {
+    "id": 1755969218191369,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-23T11:43:38.191Z",
+    "text": "Aug 23<br>• Refactored the UI of the settings page for consistency and improved usability.<br>• Added translations for previously missing keys"
+  },
+  {
+    "id": 1756043679981099,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-24T08:24:39.981Z",
+    "text": "Aug 24<br>• Improved employee form validation UX<br>• Backend validation errors are now mapped to the correct form fields.<br>• Refactored API error handling for consistency with the care app."
+  },
+  {
+    "id": 1756187301514219,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-26T00:18:21.514Z",
+    "text": "<strong>Aug 25</strong><br>• Focused on testing and debugging the HRM module<br>• Implemented translation keys<br>• Spent time preparing for exams"
+  },
+  {
+    "id": 1756288586781519,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-27T04:26:26.781Z",
+    "text": "Aug 26<br>• Improved leave request detail card UI with clear status badges and action buttons for approve, reject, and cancellation.<br>• Implemented organization and role assignment for users created via the HRM employee endpoint, ensuring correct permissions are set.<br>• Fixed employee profile retrieval to include user permissions, matching the core app behavior."
+  },
+  {
+    "id": 1756376569751989,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-28T04:52:49.751Z",
+    "text": "Aug 27<br>• Refactored the leave type dialog to ensure the edit form pre-fills with existing data.<br>• Made the leave activity table mobile-friendly and visually aligned with the employee list table.<br>• Removed unused translation logic from the leave request form for code clarity."
+  },
+  {
+    "id": 1756450532102169,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-29T01:25:32.102Z",
+    "text": "Aug 28<br>• Worked on preparing the product submission link for GSoC by creating a repository under my GitHub account. The repo includes detailed information about the project, documentation, and demo screenshots for review."
+  },
+  {
+    "id": 1756531612766459,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-08-29T23:56:52.766Z",
+    "text": "Aug 29<br>• Updated the README files for both care_hrm_fe and care_hrm_be to improve clarity and setup instructions.<br>• Fixed a build issue encountered in a fresh environment.<br>• Submitted the final GSoC submission"
+  },
+  {
+    "id": 1756927325738809,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-09-03T13:52:05.738Z",
+    "text": "Sep 3<br>• Worked on deploying the CARE backend on Render to test the HRM plugin.<br>• Spent time debugging issues during deployment like migration errors."
+  },
+  {
+    "id": 1757010807663589,
+    "user_id": "U08FGQJ93NW",
+    "timestamp": "2025-09-04T13:03:27.663Z",
+    "text": "Sept 4<br>• Deployed the HRM plugin successfully(on Render) along with all the necessary components (Care backend and Care FE).<br>• Verified accessibility through <code>care_fe</code> and shared the link for testing."
+  }
+]

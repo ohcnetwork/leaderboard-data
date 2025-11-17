@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1685693849092699,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-06-02T02:47:29.092Z",
+    "text": "EOD 01/06/2023<br>How did the day go?<br>• Add some documentation for Metabase; Not completed<br>• Calls with eGov IT for getting Azure account; On hold from eGov IT<br>• Interviewed candidates for Hub admin roles in Assam and Meghalaya"
+  },
+  {
+    "id": 1686319268493939,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-06-09T08:31:08.493Z",
+    "text": "EOD 09/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Made Netmaker (self-hosted) work as an alternative to cloudflare tunnel.<br>    ◦ Hosted a middleware; Camera feed and vitals are accessible from Care<br>    ◦ Next week&#x27;s task would be adding secondary hosts for production spoke servers to slowly rollout the changes.<br>• Shared scripts for GH Aland spoke with Nagnath<br>What&#x27;s Next?<br>• Follow-ups - Cloud billing accounts from eGov; Billing issues; Budget issues for staging.<br>• Deploy-preview<br>• Terraform"
+  },
+  {
+    "id": 1686629516730949,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-06-12T22:41:56.730Z",
+    "text": "EOD 12/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>Done:<br>• Updated terraform code to correct service account issues; added NAT component.<br>• worked on removing nginx server info from responses.<br>To Do:<br>• Update terraform to add outputs."
+  },
+  {
+    "id": 1688396336097579,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-07-03T09:28:56.097Z",
+    "text": "EOD 03/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Meeting with Prof Ayushi on metrics in Dashboard. Meeting concluded on topics to improve and decided to have 3 subsequent meetings to improve the metrics on metabase dashboard.<br>• Meeting with Deepjyothi to offload some documentation on Networking of Spokes. Explained expectations and shared existing docs.<br>• Follow ups with Harish/Manish to get Azure account details corrected for Billing related issues.<br>• Attended Weekly Hub Admin call; Cleared some issues for Gayan.<br>Whats Next?<br>• Metabase dashboard <br>    ◦ Categorize items to hospital view, cluster view, state view; Make field filter work for Hospital Names.<br>• Clear invoices for last month."
+  },
+  {
+    "id": 1688486858680459,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-07-04T10:37:38.680Z",
+    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Call with Gayan regarding reports and Metabase dashboard.<br>• Follow up calls with Harish to resolve Azure billing Issues.<br>• Clearing cloud bills for previous month.<br>What&#x27;s Next?<br>• Metabase dashboard v3 (with State View, Cluster View, Hospital View)<br>• Clear out a few small tasks, and do some followups.<br>• Look into whats new with Sunbird."
+  },
+  {
+    "id": 1688568895593669,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-07-05T09:24:55.593Z",
+    "text": "EOD 05/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Updated SSL for Sikkim instance<br>• Cleared cloud bills, prepared reimbursement form, drafted email<br>• a few short calls for troubleshooting issues.<br>What&#x27;s next?<br>• Try metabase sync made by <span class=\"s-mention s-user\">@U02T4HFA07Q</span> <br>• Make new dashboards<br>• Look into Sunbird Obsrv"
+  },
+  {
+    "id": 1688676298906639,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-07-06T15:14:58.906Z",
+    "text": "EOD 06/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Meeting with Sanketika team for a demo of Sunbird Obsrv.<br>• Done Metabase changes requested by Gayan.<br>• Troubleshot issues with Plexus Care instance. Upgraded the instance because it was under-provisioned.<br>• Fixed issue with Maps on care.ohc.network.<br>• Offloaded a Ops documentation to James.<br>• Call with Naganath for clearing concerns on Mesh Network setup in Hubli. Send an email explaining steps with diagram.<br>What&#x27;s Next?<br>• Metabase dashboard V3. The dashboard needs to have a hospital filter and a date filter."
+  },
+  {
+    "id": 1688743673910929,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-07-07T09:57:53.910Z",
+    "text": "EOD 07/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Added changes to metabase items to add a Field Filter for hospital names.<br>• Meeting with Prof. Ayushi and Ops team regd. Metabase dashboard.<br>• Assisted Hubli Hub Admin to update LAN network.<br>• Fixed minor issues of redirection and CORS updates in staging.<br>• Couple of emails and followups on procurement and billing.<br>What&#x27;s next?<br>• Collate requirements from Dashboard discussion meeting, review and file issues.<br>• Metabase dashboard updates.<br>• Clear out some of the quick and easy tasks.<br>• Checkout Whisper for deployment."
+  },
+  {
+    "id": 1689054301857319,
+    "user_id": "UPW6XDGDD",
+    "timestamp": "2023-07-11T00:15:01.857Z",
+    "text": "EOD 10/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• The day was mostly working with Naganath to connect SmartICU Adaptors to new mesh network.<br>• Deployed care instance for hcx troubleshoot and demo.<br>• Monday Meetings.<br>What&#x27;s next?<br>• Reports in Metabase"
+  }
+]

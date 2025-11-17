@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1684047627326739,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-05-14T01:30:27.326Z",
+    "text": "EOD 13/05/2023<br>• Completed todo list of capstone<br>• Added images and tags for tasks in kanban board<br>• Working on my rejected Level 8 submission"
+  },
+  {
+    "id": 1684229004364579,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-05-16T03:53:24.364Z",
+    "text": "EOD 15/05/2023<br>• Resubmitted Level 8 milestone<br>• Went through some issues and checked if I can work on an issue where text in search box of drop-down disappears on losing focus"
+  },
+  {
+    "id": 1684270970465179,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-05-16T15:32:50.465Z",
+    "text": "EOD 16/05/2023<br>• Mostly tried to work on an issue I started yesterday by going through documentation of combobox component of headlessui/react but did not go as expected. So I left it.<br>• Picked up a good first issue to replace material ui with custom components"
+  },
+  {
+    "id": 1685384551336229,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-05-29T12:52:31.336Z",
+    "text": "EOD 27/05/2023<br>• Completed the issue #5470 which I started earlier<br>• Adjusted death report page for mobile view<br>EOD 29/05/2023<br>• Completed couple of Material UI issues"
+  },
+  {
+    "id": 1685693770498889,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-06-02T02:46:10.498Z",
+    "text": "EOD 30/05/2023<br>• Fixed problem similar to issue 5470 with location field<br>• Worked on a MaterialUI issue<br>EOD 31/05/2023<br>Location wasn&#x27;t getting updated internally on charging the facility even though it is reflected correctly in the field because of previous day&#x27;s work. So fixed it and created pr<br><br>EOD 01/06/2023<br>Could not spend much time because of exam.<br>Was looking into issue 4750 - to replace the notes field with a markdown editor. Was looking how markdown works.<br><br>I was thinking of posting today after making up for yesterday&#x27;s low time as I did almost nothing yesterday."
+  },
+  {
+    "id": 1686190197489689,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-06-07T20:39:57.489Z",
+    "text": "EOD 03/06/2023 and 05/06/2023<br>• Created a markdown text editor component<br>EOD 06/06/2023<br>• Tried different ways to remove markdown part and display only preview part. The only method that worked had strange cursor behaviour and symbols while typing.<br>• So changed it markup editor with bold, italics, list view and text highlight features.<br>EOD 07/06/2023<br>• Worked on replacing the deprecated execCommand JS method in this editor component with my own logic as no alternative was available.<br>• Explored different methods for modifying dom to implement it.<br>• Completed bold text functionality partially. Will apply the same logic to remaining functionalities once this is completed."
+  },
+  {
+    "id": 1686507960382619,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-06-11T12:56:00.382Z",
+    "text": "EOD 08/06/2023<br>• Worked on 1 material UI issue<br>EOD 09/06/2023<br>• Worked on 2 more material UI issues"
+  },
+  {
+    "id": 1686804183317289,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-06-14T23:13:03.317Z",
+    "text": "EOD 10/06/2023<br>• Created a new component for Linear progress to replace Material UI&#x27;s equivalent component in my previous day&#x27;s issue.<br>EOD 12/06/2023:<br>• Fixed buttons overflowing in File upload.tsx<br>EOD 13/06/2023:<br>• Hot reload did not work properly. Realised it after trying a lot of time. Then cloned again and copied all branches to new folder."
+  },
+  {
+    "id": 1687446584944689,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-06-22T09:39:44.944Z",
+    "text": "EOD 19/06/2023 and 20/06/2023<br>• Created FilePreviewDialog component based on the feedback of my last PR for a material UI issue (just refactored existing code to get this component)"
+  },
+  {
+    "id": 1688012823630739,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-06-28T22:57:03.630Z",
+    "text": "EOD 24, 26, 27/06/2023<br>• Created new component for LinearProgress. Tried to make it similar like material ui&#x27;s LinearProgress. (Was occupied with packing and shifting to hostel on previous days)<br>EOD 28/06/2023<br>• Adjusted button width in mobile view in FileUpload page.<br>• Fixed buttons overflowing for smaller width for the same page."
+  },
+  {
+    "id": 1691387918331249,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-07T00:28:38.331Z",
+    "text": "EOD 05-08-2023<br>Worked on issue 5948"
+  },
+  {
+    "id": 1691582965741059,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-09T06:39:25.741Z",
+    "text": "EOD 07/08/2023 and 08/08/2023<br>• Gone through docs for headlessui listbox and render props and tried to fix a UI bug resulting due to my previous week&#x27;s work on issue 5944(closing drop-down conditionally)"
+  },
+  {
+    "id": 1691871059196819,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-12T14:40:59.196Z",
+    "text": "EOD 10 and 11/08/2023<br>• Worked on bugs arising out of my current issues(couldn&#x27;t work much because of exam)"
+  },
+  {
+    "id": 1692164186753269,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-16T00:06:26.753Z",
+    "text": "EOD 12/08/2023 and 14/082023<br>• Replaced libphonenumber-js&#x27;s functions with new functions in most of the files. Two more files are remaining."
+  },
+  {
+    "id": 1692424100685169,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-19T00:18:20.685Z",
+    "text": "EOD 16/08/2023<br>• Implemented alternative methods for AsYouType and isValid of libphonenumber-js<br>EOD 17/08/2023<br>• Made some changes to previous methods by checking some rules for phone number display formats and validity. Currently implemented the methods only for Indian numbers as the rules for all countries&#x27; numbers vary widely.(couldn&#x27;t work much due to college work)<br>EOD 18/08/2023<br>• Tested all most of the pages except 1 before creating PR.<br>• Explored date-fns documentation to take it up next"
+  },
+  {
+    "id": 1692679416026969,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-21T23:13:36.026Z",
+    "text": "EOD 19/08/2023<br>• Resolved a bug in selecting countries which have same country code(like US, Canada and few others) which resulted as part of my previous day&#x27;s work on replacing libphonenumber-js.(will test all 16 pages again and create PR by Tuesday)<br>EOD 21/08/2023<br>• Worked on replacing date-fns library"
+  },
+  {
+    "id": 1693428941409119,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-08-30T15:25:41.409Z",
+    "text": "EOD 28/08/2023<br>• Tested some pages(out of 14 pages) to check removing libphonenumber-js library and found some bugs and additional requirements like having +91 by default is not working for some pages, some pages were not rendered where the initial value of phone number was set to undefined or null, sending empty phone number in post request when a form is submitted instead of &quot;+91&quot; which appears by default.<br>• Kept testing all those pages again and again as soon as I fixed anything I mentioned above.<br>EOD 29/08/2023<br>• Tested remaining pages<br>• Got 440 linting errors when I tried to commit it.Tried to find the reason as its difficult to solve all 440 errors but couldn&#x27;t find any. I will check later<br>• Got started with issue #6101 - removing default empty filters phone number filters. Went through the PatientManager component code to find the reason for the bug.<br>EOD 30/08/2023<br>• Learnt about custom hooks in React.<br>• Got the bug and fixed issue #6101"
+  },
+  {
+    "id": 1693594529536289,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-09-01T13:25:29.536Z",
+    "text": "EOD 31/08/2023<br>I messed up my local repo. Since the libphonenumber issue&#x27;s commit failed due to linting errors I stashed my work, switched to develop, pulled, created a new branch, completed another issue on the previous day, when I came back to libphonenumber branch, I found others&#x27; work in diff of some files. So I was trying to fix that.<br><br>EOD 01/08/2023<br>• Continued above work<br>• Fixed the linting errors and created PR<br>• Working on using previously available validator for phone numbers pointed by Rithvik for the same PR.<br>What&#x27;s next:<br>I am getting some unexpected spaces in field while using the validator, I will check that with Rithvik tomorrow."
+  },
+  {
+    "id": 1693853893400269,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-09-04T13:28:13.400Z",
+    "text": "EOD 02/08/2023<br>• After replacing my method with already available PhoneNumberValidator, landline numbers were not getting fit in the input field, fixed that<br>• Tried to resolve merge conflict of the same issue<br>EOD 04/08/2023<br>• Merge commit was showing diff of 3k+ lines, so I tried different ways to resolve the merge conflict and create a commit without showing others&#x27; work as diff of my PR<br>• Finally got the conflict resolved with rebase and VS code&#x27;s GUI for git as the command line was giving strange error complaining about atom ide. Now I am getting an error regarding @tailwindcss/container-queries module."
+  },
+  {
+    "id": 1693857851144759,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-09-04T14:34:11.144Z",
+    "text": "• It got fixed after restarting the server and I created a PR for the same"
+  },
+  {
+    "id": 1695078268431629,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-09-18T17:34:28.431Z",
+    "text": "EOD 13/09/2023<br>Couldn&#x27;t work because of final exam - only for 1 subject.<br><br>EOD 14/09/2023<br>• Seperated phone number utils into new file as suggested in PR 6222<br>• Resolved merge conflict for same PR caused due to some other PR getting merged<br>EOD 15/09/2023 and 16/09/2023<br>• Completed Assigning patient to doctor and nurse issue(<a href=\"https://github.com/ohcnetwork/care_fe/issues/6276\">6276</a>) except for 1 bug."
+  },
+  {
+    "id": 1695162059533219,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-09-19T16:50:59.533Z",
+    "text": "EOD 19/09/2023<br>• Got stuck while working on Assigning patient to doctor and nurse issue, resolved in the call<br>• Fixing cypress tests"
+  },
+  {
+    "id": 1695666063162819,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-09-25T12:51:03.162Z",
+    "text": "EOD 23/09/2023 and 25/09/2023<br>• Completed issue <a href=\"https://github.com/ohcnetwork/care_fe/issues/6323\">#6323</a> - To limit the medicine administration table time slots to latest administered date of any medicine<br>• Found a bug and fixed it - 1st administration is not being displayed in the table when the 1st administration was sent into &amp;gt;=2nd page of the paginated table as clearly described in PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/6345\">#6345</a>"
+  },
+  {
+    "id": 1696281445829899,
+    "user_id": "U052CV9HBR6",
+    "timestamp": "2023-10-02T15:47:25.829Z",
+    "text": "EOD 30/09/2023<br>• Working on a sub issue related to replacing useDispatch with useQuery/request"
+  }
+]

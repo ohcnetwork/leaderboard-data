@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1749061012834259,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-06-04T12:46:52.834Z",
+    "text": "4th June<br><br><span class=\"s-emoji\">✅</span> Completed:<br>    •    Set up the development environment<br>    •    Created the basic file structure<br>    •    Wrote initial code for core components<br><br><span class=\"s-emoji\">🔜</span> Next Steps:<br>    •    Implement code for foundation classes"
+  },
+  {
+    "id": 1749229258181389,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-06-06T11:30:58.181Z",
+    "text": "<strong>June 5-6</strong><br>• Django settings and .env configured<br>• Session manager added<br>• WhatsApp API integrated<br>• Basic message handler done<br>• Webhook views created<br>• Message send/receive functions added<br><strong>Next</strong><br>• Test webhook<br>• Add message router<br>• Manage conversation state<br>• Add Django cache sessions<br>• Add basic commands (/start, /help, /menu)"
+  },
+  {
+    "id": 1752604103772539,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-07-15T12:58:23.772Z",
+    "text": "July 14-15<br>• Completed WhatsApp bot implementation with secure authentication system<br>• Implemented patient functionality (medical records, medications, appointments, procedures)<br>• Implemented staff functionality (patient search, patient info, appointment scheduling)<br>• Created privacy filter for HIPAA compliance and data security<br>• Developed message router with command pattern recognition<br>• Built WhatsApp API integration with webhook verification<br>• Created comprehensive data formatting utilities for WhatsApp messages<br>• Implemented database models for sessions, messages, commands, and notifications<br>• Added demo script for testing and demonstration without full CARE platform"
+  },
+  {
+    "id": 1752690889475439,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-07-16T13:04:49.475Z",
+    "text": "• July 16:<br>• Submitted midterm evaluation form for GSoC<br>• Sent a video of the whatsapp bot responding to mentors<br>• Implemented SMS-based OTP authentication for WhatsApp bot<br>•  Created system to generate and verify 6-digit OTPs<br>•  Added rate limiting to prevent abuse (max 3 attempts)<br>•  Implemented phone number normalization for Indian numbers<br>•  Set up caching system with proper expiry for OTPs<br>•  Added user type identification (patient vs hospital staff)"
+  },
+  {
+    "id": 1752887121216749,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-07-18T19:35:21.216Z",
+    "text": "July 18th:<br>• Had huddle regarding the Whatsapp bot with Shivank and Nihal<br>• Shown them working of the bot<br>• Gave a revised timeline as per reviews by them"
+  },
+  {
+    "id": 1753050914558649,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-07-20T17:05:14.558Z",
+    "text": "19 and 20 July<br>• Worked on understanding few work flows<br>• Migrating my current code base files to a separate one<br>• Integrating CARE plugin code with Bot<br>• Shifting to my hostel as classes starts today <br>Next:<br>• Will test the bot once and then apply the changes<br>• Study for the exam on 23"
+  },
+  {
+    "id": 1753733311961839,
+    "user_id": "U08HA3ZBW8H",
+    "timestamp": "2025-07-28T14:38:31.961Z",
+    "text": "July 28<br>• Appointment Notifications:<br>• Schedule notifications (patient + practitioner)<br>• Reschedule notifications (patient + practitioner)<br>• Discharge summary notifications<br>• Inbound Message Handling:<br>• Welcome messages<br>• Menu system<br>• View appointments<br>• About CARE information<br>• Message Tracking:<br>• Delivery receipts<br>• Read receipts<br>• Message status tracking<br>• Configurable System:<br>• Customizable message templates<br>• Enable/disable notifications<br>• Variable support in messages"
+  }
+]

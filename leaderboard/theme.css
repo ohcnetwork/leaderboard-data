@@ -1,0 +1,103 @@
+/* Custom CSS - Sage Green Color Theme */
+@theme {
+  /* Sage Green Color Scale */
+  --color-sage-50: #f6f7f4;
+  --color-sage-100: #e8ebe3;
+  --color-sage-200: #d1d8c7;
+  --color-sage-300: #b3bea3;
+  --color-sage-400: #93a47e;
+  --color-sage-500: #778a5f;
+  --color-sage-600: #5d6e49;
+  --color-sage-700: #4a573a;
+  --color-sage-800: #3d4831;
+  --color-sage-900: #343d2a;
+  --color-sage-950: #1a2016;
+}
+
+/* 
+ * People Page Avatar Grid Configuration
+ * Override these values to customize the grid size based on your organization size
+ * 
+ * Examples:
+ * - For large orgs (500+ contributors): Use 12-24 columns for dense grid
+ * - For medium orgs (100-500): Use 8-16 columns for balanced view  
+ * - For small orgs (<100): Use 4-8 columns for larger, more visible avatars
+ */
+:root {
+  /* Grid configuration for ~1000 contributors */
+  --people-grid-cols-mobile: 10;
+  --people-grid-cols-sm: 12;
+  --people-grid-cols-md: 16;
+  --people-grid-cols-lg: 20;
+  --people-grid-cols-xl: 28;
+  --people-grid-cols-2xl: 44;
+  --people-grid-gap: 0.125rem;
+}
+:root {
+  /* Light Mode Theme - Sage Green Color Scheme */
+  --background: var(--color-sage-50); /* sage-50 */
+  --foreground: var(--color-sage-900); /* sage-900 */
+  --card: #ffffff;
+  --card-foreground: var(--color-sage-900);
+  --popover: #ffffff;
+  --popover-foreground: var(--color-sage-900);
+  --primary: var(--color-sage-600); /* sage-600 */
+  --primary-foreground: #ffffff;
+  --secondary: var(--color-sage-100); /* sage-100 */
+  --secondary-foreground: var(--color-sage-800); /* sage-800 */
+  --muted: var(--color-sage-100); /* sage-100 */
+  --muted-foreground: var(--color-sage-700); /* sage-700 */
+  --accent: var(--color-sage-200); /* sage-200 */
+  --accent-foreground: var(--color-sage-800); /* sage-800 */
+  --destructive: #ef4444; /* red-500 for destructive actions */
+  --border: var(--color-sage-200); /* sage-200 */
+  --input: var(--color-sage-200);
+  --ring: var(--color-sage-500); /* sage-500 */
+  --chart-1: var(--color-sage-500); /* sage-500 */
+  --chart-2: var(--color-sage-400); /* sage-400 */
+  --chart-3: var(--color-sage-600); /* sage-600 */
+  --chart-4: var(--color-sage-300); /* sage-300 */
+  --chart-5: var(--color-sage-700); /* sage-700 */
+  --sidebar: var(--color-sage-50);
+  --sidebar-foreground: var(--color-sage-900);
+  --sidebar-primary: var(--color-sage-600);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: var(--color-sage-100);
+  --sidebar-accent-foreground: var(--color-sage-800);
+  --sidebar-border: var(--color-sage-200);
+  --sidebar-ring: var(--color-sage-500);
+}
+.dark {
+  /* Dark Mode Theme - Sage Green Color Scheme */
+  --background: oklch(0.18 0.01 140); /* Dark sage background */
+  --foreground: oklch(0.95 0.01 140); /* Light sage foreground */
+  --card: oklch(0.22 0.01 140); /* Slightly lighter dark sage */
+  --card-foreground: oklch(0.95 0.01 140);
+  --popover: oklch(0.22 0.01 140);
+  --popover-foreground: oklch(0.95 0.01 140);
+  --primary: oklch(0.75 0.06 140); /* Sage green primary */
+  --primary-foreground: oklch(0.18 0.01 140); /* Dark text on sage */
+  --secondary: oklch(0.28 0.02 140); /* Muted sage */
+  --secondary-foreground: oklch(0.95 0.01 140);
+  --muted: oklch(0.28 0.02 140);
+  --muted-foreground: oklch(0.68 0.03 140); /* Mid-tone sage */
+  --accent: oklch(0.32 0.03 140); /* Accent sage */
+  --accent-foreground: oklch(0.95 0.01 140);
+  --destructive: oklch(0.704 0.191 22.216); /* Keep red for destructive */
+  --border: oklch(0.95 0.01 140 / 12%); /* Subtle sage border */
+  --input: oklch(0.95 0.01 140 / 18%); /* Subtle sage input */
+  --ring: oklch(0.65 0.05 140); /* Sage ring */
+  --chart-1: oklch(0.75 0.06 140); /* Sage charts */
+  --chart-2: oklch(0.68 0.08 135);
+  --chart-3: oklch(0.62 0.07 145);
+  --chart-4: oklch(0.72 0.05 150);
+  --chart-5: oklch(0.58 0.06 138);
+  --sidebar: oklch(0.2 0.01 140);
+  --sidebar-foreground: oklch(0.95 0.01 140);
+  --sidebar-primary: oklch(0.75 0.06 140);
+  --sidebar-primary-foreground: oklch(0.18 0.01 140);
+  --sidebar-accent: oklch(0.28 0.02 140);
+  --sidebar-accent-foreground: oklch(0.95 0.01 140);
+  --sidebar-border: oklch(0.95 0.01 140 / 12%);
+  --sidebar-ring: oklch(0.65 0.05 140);
+}

@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1707405040740029,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-08T09:40:40.740Z",
+    "text": "EOD 08/02/2024:<br>• setup a terraform server to manage gcp from  anywhere. <br>• test run terraform commands to spin up a basic vpc and destroy the same."
+  },
+  {
+    "id": 1707579007262569,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-10T10:00:07.262Z",
+    "text": "<strong>EOD 10/02/2024</strong><br><br>• worked on vpc creation using terraform <br>• setup gcs / storage buckets on gcp to manage terraform state."
+  },
+  {
+    "id": 1707943090226549,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-14T15:08:10.226Z",
+    "text": "EOD 14/02/2023<br>• setup encrypted storage bucket for terraform state<br>• worked on terraform configs for setting up vpc and db for care"
+  },
+  {
+    "id": 1708005581657759,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-15T08:29:41.657Z",
+    "text": "EOD 14/02/2023<br>• Completed the VPC terraform script with remote state <br>• familiarised with middleware update script with ansible <br>• understood how to configure new spoke installation scripts."
+  },
+  {
+    "id": 1708112643749919,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-16T14:14:03.749Z",
+    "text": "EOD 16/02/2023<br>• Started working on db script"
+  },
+  {
+    "id": 1708348576933409,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-19T07:46:16.933Z",
+    "text": "EOD 19/02/2023<br>• worked on terraform-gcp <br>• added few carestatus monitors"
+  },
+  {
+    "id": 1708553828089519,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-21T16:47:08.089Z",
+    "text": "EOD 21/02/2023<br>• finalized db section in terraform"
+  },
+  {
+    "id": 1708634715124979,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-22T15:15:15.124Z",
+    "text": "EOD 22/02/2023<br>• started working on jumpserver for middlewares<br>• worked more on cleaning up terraform script"
+  },
+  {
+    "id": 1708709656557819,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-23T12:04:16.557Z",
+    "text": "EOD 23/02/2023<br>• started working on documenting the terraform-gcp"
+  },
+  {
+    "id": 1709155783397079,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-28T15:59:43.397Z",
+    "text": "<strong>EOD</strong> 28/1/2024<br>• tried debugging the terraform statebucket config.<br>• deployed metabase / care dbs to newly migrated instance."
+  },
+  {
+    "id": 1709241565284339,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-02-29T15:49:25.284Z",
+    "text": "<strong>EOD</strong> 29/1/2024<br>• finished setting up the K8s Cluster <br>• working on translating infra_template to terraform."
+  },
+  {
+    "id": 1709582263085179,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-04T14:27:43.085Z",
+    "text": "<strong>EOD 5</strong>/03/2024<br>• wrote gke-workload section of terraform gcp<br>• started working on helm scripts for gke"
+  },
+  {
+    "id": 1709746852767809,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-06T12:10:52.767Z",
+    "text": "<strong>EOD 6</strong>/03/2024<br>• worked on rewriting infra_template to helm<br>• helped with debugging middleware instance."
+  },
+  {
+    "id": 1709845420240439,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-07T15:33:40.240Z",
+    "text": "<strong>EOD 7</strong>/03/2024<br>• finished migrating infra_templates to helm_chart.<br>• worked debugging issues with deployment chart"
+  },
+  {
+    "id": 1710279078171969,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-12T16:01:18.171Z",
+    "text": "<strong>EOD 12</strong>/03/2024<br>• rewrote infra_template to terraform and pushed changes."
+  },
+  {
+    "id": 1710363065687599,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-13T15:21:05.687Z",
+    "text": "EOD 13/03/2024<br>• Fixed config issues for care_fe deployment in terraform."
+  },
+  {
+    "id": 1710543464474489,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-15T17:27:44.474Z",
+    "text": "EOD 15/03/2024<br>• improved K8s and VPC sections of Terraform Script."
+  },
+  {
+    "id": 1710803818740649,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-18T17:46:58.740Z",
+    "text": "EOD 18/03/2024<br>• finished tidying up the VPC directory of Terraform <br>• almost done with database section too."
+  },
+  {
+    "id": 1710952154485269,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-20T10:59:14.485Z",
+    "text": "EOD 20/03/2024<br>• Wrote a middleware script for an instance. <br>• Started working on middleware script generator"
+  },
+  {
+    "id": 1711560377472789,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-03-27T11:56:17.472Z",
+    "text": "EOD 27/03/2024<br>• Pushed working draft of terraform scripts and gave a demo for the same."
+  },
+  {
+    "id": 1712168104494979,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-03T12:45:04.494Z",
+    "text": "EOD 03/04/2024<br>• pushed draft script to convert the existing middleware scripts to single yaml file.<br>• bug fixes on the middleware generating python script."
+  },
+  {
+    "id": 1712338140873079,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-05T11:59:00.873Z",
+    "text": "EOD 05/04/2024<br>• Made PR from terraform testing branch to master. <br>• Worked on improving middleware generating scripts."
+  },
+  {
+    "id": 1712612821766309,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-08T16:17:01.766Z",
+    "text": "EOD 08/04/2024<br>• drafted a obsidian vault for documenting dev-ops docs<br>• worked on ansible script for migrating middleware to cert based auth"
+  },
+  {
+    "id": 1712872610078549,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-11T16:26:50.078Z",
+    "text": "EOD 11/04/2024<br>• pushed Docusaurus devops-docs to 10bedicu<br>• tested ansible script for cert authentication. <br>• worked on terraform script to manage cloudflare access applications"
+  },
+  {
+    "id": 1713206754596379,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-15T13:15:54.596Z",
+    "text": "EOD 15/04/2024<br>• pushed final draft of DevOps Docs <br>• rewrote and tested ansible script to add provided ssh pub key to middleware instances."
+  },
+  {
+    "id": 1713386634943439,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-17T15:13:54.943Z",
+    "text": "EOD 17/04/2024<br>• Added ssh-key ansible script to devops docs. <br>• finished working on the midlleware ssh-key script"
+  },
+  {
+    "id": 1713469332824459,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-04-18T14:12:12.824Z",
+    "text": "EOD 18/04/2024<br>• test deployed care-devops-docs.<br>• helped with ssh-key migration.<br>• configured hosts.yml required for jumpserver ansible scripts."
+  },
+  {
+    "id": 1731441855152489,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-12T14:34:15.152Z",
+    "text": "12 November 2024<br><br>• Setup Non-Core member Question workflow <a href=\"https://github.com/ohcnetwork/care_fe/pull/8889\">#8889</a><br>• Tested out deploying <a href=\"https://github.com/ohcnetwork/landing\">OHC Landing</a>  to test cloudflare account. <br>• Resolved Arike downtime and prepared an estimate for upgrading ec2 to next tier.<br>• finished working on a working draft of terraform script to deploy care on digitalocean app platform<br>Next<br>• clean up the terraform setup <br>• update the docs.<br>• finish deploying the OHC Landing page"
+  },
+  {
+    "id": 1731519737369929,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-13T12:12:17.369Z",
+    "text": "13 Nov 2024<br>• did cleanup on the DO-Terraform script and pushed to gh-repo<br>• enabled scribe and abdm plugs in staging fe. <br>• Deployed OHC Landing to test domain"
+  },
+  {
+    "id": 1731598313931559,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-14T10:01:53.931Z",
+    "text": "14th November<br>• Moved ohc.network to cloudflare pages. <br>• made more clean up and got review from <span class=\"s-mention s-user\">@UC9JELJEP</span> on DO-Terraform setup <br>• Made a bash script to generate jwks needed for new deployments. <br>• Drafted cloud costing report for new state<br>Up Next<br>• Apply suggested changes to DO-Terraform Setup<br>• Update Docs for DO-Terraform setup."
+  },
+  {
+    "id": 1731705683357509,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-15T15:51:23.357Z",
+    "text": "Nov 15 EOD<br>• Updated Docs for DigitalOcean <a href=\"https://github.com/ohcnetwork/docs/pull/80\">#80</a> .<br>• Drafted Cloud Cost Sheet.<br>• Had call with Datadog rep. <br>• Worked on DO-Terraform folder structuring.<br>Next<br>• Complete cloud cost sheet<br>• finish structuring terraform.<br>• get  <a href=\"https://github.com/ohcnetwork/docs/pull/80\">#80</a> reviewed and merged."
+  },
+  {
+    "id": 1731953390829329,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-18T12:39:50.829Z",
+    "text": "18th November<br>• Updated <a href=\"https://github.com/ohcnetwork/docs/pull/80/\">#80</a> by adding structure to images and adding JWKS generator component. <br>• performed v24.47.0 Release. <br>Up Next<br>• Clean up and publish DO-Terraform Script. <br>• work on Improving non-core-qn workflow."
+  },
+  {
+    "id": 1732046468839629,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-19T14:31:08.839Z",
+    "text": "19th November<br>• restructured DO terraform scripts to modules.<br>• Updated cloud Costing Sheet. <br>• Resized ohifviewer VM to smaller one to reduce cost. <br>• Played around with <a href=\"https://instatus.com/\">instatus</a> for uptime monitoring. <br>next<br>• Test and verify working of modules in terraform <br>• complete cloud costing sheet and perform measures to reduce cloud cost."
+  },
+  {
+    "id": 1732134314049429,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-20T14:55:14.049Z",
+    "text": "20th November<br>• Debugged care_scribe issue with arike deployment.<br>• created usage / cloud cost sheet for new state.<br>Next<br>• Verify care_scribe is working as expected"
+  },
+  {
+    "id": 1732214078572919,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-21T13:04:38.572Z",
+    "text": "21st November 2024<br>• fixed version mismatch error for care_scribe in arike<br>• finished drafting the cloud cost sheet AWS | GCP | DigitalOcean <br>• switched terraform setup from modules to folder based structure <br>• implemented storage spaces based remote state for terraform<br>Up Next:<br>• test and push final changes to the digitalOcean terraform script"
+  },
+  {
+    "id": 1732301557868289,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-22T13:22:37.868Z",
+    "text": "22nd November 2024<br>• Customized cloud Requirement docs for new state.<br>• had a call with State rep for cloud procurement. <br>• disabled unused users in Arike based on request from Dr. Nithin <br>• Migrated cloud cost report for palliative to notion.<br>• improved Cloud Infra Diagram for Care generic Infra and Care on DigitalOcean App Platform.<br>Next<br><br>• Finalize the network architecture for care in ecs and update the cloud cost report <br>• push the corrections for do docs PR. <br>• Draft JD for new role."
+  },
+  {
+    "id": 1732561686805459,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-25T13:38:06.805Z",
+    "text": "25 November 2024<br>• Pushed minor fixes for digitalocean docs. <br>• Got Palliative Care cloud cost reviewed. <br>• Performed weekly release for production. <br>• updated non-core GitHub notification to reduce the message content to the commentUrl. <br>next.<br>• test and draft a PR for non-core GitHub notification Improvement. <br>• Update production scale cost for care palliative based on dev."
+  },
+  {
+    "id": 1732648912398729,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-26T13:51:52.398Z",
+    "text": "26 November 2024<br>• Finished drafting Palliative care cost.<br>• Tried to test out improved non-core-qn workflow. Workflow edits are now disabled for non admin users. <br>• refactored the workflow to use slack webhook directly instead of workflow, observed no popup/opengraph info are being shown. <br>• Deployed Hotfix to solve address field bug. <br>• Tried out modules from scratch again with terraform to see if I can reduce redundancy in existing script. <br>Next<br>• decide between slack app webhook / workflow webhook for non-core questions<br>• clean up and push terraform script."
+  },
+  {
+    "id": 1732738354988009,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-27T14:42:34.988Z",
+    "text": "November 27 2024<br>• Edited the Slack Workflow to solve <a href=\"https://github.com/ohcnetwork/care_fe/issues/9113\">#9113</a> and tested the GitHub Action.<br>• Drafted <a href=\"https://github.com/ohcnetwork/care_fe/pull/9220\">#9220</a> for improving non core user qn workflow. <br>• Imported LOINC to snowstorm instance. <br>• had a call with hub admin to fix shiggaon spoke. <br>• Had intro call with <span class=\"s-mention s-user\">@U0576PEACG0</span> <br>Next<br>• Start Drafting the Middleware Reliability doc. <br>• clean up state management for do-terraform"
+  },
+  {
+    "id": 1732820684347619,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-11-28T13:34:44.347Z",
+    "text": "29 November 2024<br>• Pushed the restructured terraform script with folder structure that can deploy components individually. <br>• Drafted <a href=\"https://github.com/ohcnetwork/care_fe/pull/9237\">#9237</a> to fix build failure in DigitalOcean app platform. <br>Next<br>• New state SDC call with sdc rep<br>• review and cleanup Terraform script."
+  },
+  {
+    "id": 1733164816460499,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-02T13:10:16.460Z",
+    "text": "2nd December 2024<br>• Worked on grafana dashboards for community deployments. <br>• Performed production release.<br>• worked on fixing dh-loong / dmmdh-wokha middleware issues.<br>Next<br>• fix the Staging/production CI/CD pipeline to show build / deploy status."
+  },
+  {
+    "id": 1733423581454359,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-05T13:03:01.454Z",
+    "text": "December 3 2024<br>• resolved coderabbit comments on <a href=\"https://github.com/ohcnetwork/care_fe/pull/9220\">#9220</a> <br>• Drafted new GCP workflow to send build status notification to slack.<br>• tested out Coolify. <br>• Performed delayed weekly Production release<br>December 4 2024<br>• Merged <a href=\"https://github.com/ohcnetwork/care_fe/pull/9220\">#9220</a>  and tested the updated Questions from github workflow. <br>• Updated <a href=\"https://github.com/ohcnetwork/care_fe/pull/9237\">#9237</a> to use ^22.11.0 <br>• fixed middlewares longleng and wokha<br>December 5<br>• deployed Medispeak to Coolify, figuring out how to proxy it. <br>• Created Slack notification channel for GCP-Staging Build/deploy pipeline and configured the cloudbuild to send updates. <br>Next<br>• Fix digitalocean build failure that&#x27;s happening because of wrong buildpack<br>• Proxy to make medispeak available <br>• Attend Gnome Asia Summit 2024 BLR."
+  },
+  {
+    "id": 1733724128660509,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-09T00:32:08.660Z",
+    "text": "Nov 06 2024<br>• Attended Gnome Asia Summit 2024. <br>• Fixed Longleng and Wokha Middlewares<br>Next<br>• Deploy Snowstorm on Coolify<br>• Update palliative cloud docs."
+  },
+  {
+    "id": 1733767395171949,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-09T12:33:15.171Z",
+    "text": "9 December 2024<br>• Went to the Office. <br>• Played around with coolify and deployed snowstorm <br>• made updates to palliative cloud cost doc. <br>• Performed weekly Production release. <br>Next<br>• Document coolify deployments. <br>• Improve slack notification for staging build. <br>• fix digitalocean deployment with proper node version."
+  },
+  {
+    "id": 1733853342109899,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-10T12:25:42.109Z",
+    "text": "10 December 2024<br>• Loaded ICD 10 to coolify snowstorm instance. <br>• Worked on setting up wildcard domains for coolify<br>• Debugged Medispeak. <br>Next<br>• Fix medispeak on coolify. <br>• Update terminology server docs for loading extensions."
+  },
+  {
+    "id": 1733983247859939,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-12T00:30:47.859Z",
+    "text": "11 December <br>• Troubleshooted ssmm middleware for plexus deployment.<br>• Debugged medispeak backend image <br>Next <br>• Take db backups for prod <br>• Update prod db versions to latest."
+  },
+  {
+    "id": 1734383206754319,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-16T15:36:46.754Z",
+    "text": "Dec 13<br>• Drafted Network requirements for spoke hospitals. <br>• Tested out SNS for sending SMS <br>Dec 15<br>• Tried to enable HCX to DO deployment. <br>• found pydantic version issues with HCX notified <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> <br>Dec 16<br>• Opened Limit increase request for SNS <br>• tried out more ways to debug medispeak in coolify. <br>• performed weekly production release, rescheduled to tomorrow due to NPM server issues. <br>Next<br>• Hope NPM issues get resolved and perform weekly prod release<br>• Get SNS ready to go and setup SMS Gateway for DO Deployment<br>• Get <a href=\"https://github.com/ohcnetwork/care_hcx/pull/8\">#8</a> and <a href=\"https://github.com/ohcnetwork/care/pull/2652\">#2652</a> merged to enable HCX on DO Deployment."
+  },
+  {
+    "id": 1734462716345449,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-17T13:41:56.345Z",
+    "text": "December 17 2024<br>• Kept checking <a href=\"https://github.com/npm/cli/issues/7893\">#7893</a> and <a href=\"https://status.npmjs.org/incidents/bxvmmvlqzfds\">Incident Report npmjs</a> and performed delayed weekly release succesfully <br>• Setup SNS SMS Gateway for DO Deployment and verified working from sandbox.<br>• Followed up on resource quota increase. <br>Next<br>• Improve AWS pipeline and gcp staging pipelines."
+  },
+  {
+    "id": 1734631562190669,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-19T12:36:02.190Z",
+    "text": "18 December 2024<br>• Restored Sudheendra middleware for plexus deployment after smps outage. <br>• Identified cdn issue with coronasafe domain restricting loading of css elements, verified it in dev middleware. <br>• fixed plausible OHC deployment with adding a new volume mount for docker volumes. <br>19 December 2024<br>• Performed resource labelling in gcp for granular billing details. <br>• Updated GCP and AWS Pipelines to fix minor bugs. <br>• Updated the Egov Costing Sheet. <br>• Brushed through GIGW for compliance standards. <br>• Restored staging-metabase instance, performed the initial setup and gave access to <span class=\"s-mention s-user\">@U02D0NA6RHR</span> <br>• Got rid of Care Dashboard from staging.<br>Next.<br>• Deploy updated django middleware to dev server. <br>• Investigate cdn issues with coronasafe.xyz<br>• Ensure reliability of Plausible deployment. <br>• Schedule deprecation of care dashboard from production."
+  },
+  {
+    "id": 1734979855839539,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-23T13:20:55.839Z",
+    "text": "23 December 2024<br>• Helped recover user creds in arike instance. <br>• Deployed Possibly the last Production release of 2024 :squirrel: <br>• Performed Staging Metabase DB upgrade from PG 15 to 17"
+  },
+  {
+    "id": 1735237019379799,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-26T12:46:59.379Z",
+    "text": "26 December 2024<br>• Drafted Cloudfront Deployment workflow for palliative deployment.<br>• Drafted ECS workflow for palliative deployment. <br>• enabled care_scribe in DO-Deployment<br>Next<br>• finish and merge Cloudfront, ECS PR&#x27;s"
+  },
+  {
+    "id": 1735582836971099,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2024-12-30T12:50:36.971Z",
+    "text": "30 December 2024<br>• Updated care_fe at keralacare to the new api url. <br>• updated ECS workflow to use official github action instead of bash scripts. <br>• Performed production release. <br>Next.<br>• create db backup buckets in staging and production to take cloudsql backup before the HMIS rollout."
+  },
+  {
+    "id": 1735836076331409,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-02T11:11:16.331Z",
+    "text": "2nd January 2025<br>• Updated infra templates to get rid of care dashboard which is deprecated. <br>• Applied the changes to care staging<br>• Fixed CORS issue in care-dev deployment. <br>• Setup community deployment statuspage / dashboard with grafana in coolify. <br>Up next. <br>• Secure and publish public dashboard. <br>• Devic debug care dev deployment."
+  },
+  {
+    "id": 1736185670030889,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-06T12:17:50.030Z",
+    "text": "January 3 2025<br>• Deployed staging.ohc.network in digitalocean + cloudflare pages, <br>• broke and restored terminology server <span class=\"s-emoji\">💀</span><br>• Disabled GCS Builds for care-staging and preserved<br>• had discussion with bodhi and gigin to plan staging, develop deployments. <br>January 6 2025<br>• Configured Captcha keys for dev/staging deployments. <br>• Did a db reset on staging.ohc.network and deployed the updated staging branch with care scribe. <br>• Drafted and got the pr to disable gcp triggers merged. <br>Up next. <br>• Figure out captcha specs and open issue to update if required. <br>• Get AWS dev deployment working."
+  },
+  {
+    "id": 1736284810754079,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-07T15:50:10.754Z",
+    "text": "Jan 7 2025<br>• loaded organisation for the staging instance. <br>• Debugged and setup Jowai MCH <br>• made a script to migrate all the external urls to ohc cdn for training page<br>• cleared old images from plexus instance and updated pipelines to include app verision as a build argument. <br>• added care fe DO Develop and kerala care fe to sentry. <br>• Added Care staging backend to sentry. <br>Next.<br>• update GCP and aws pipelines to include app version as build time argument. <br>• setup metabase instance for krishna and ssmm. <br>• help Aravind migrate course image materials to ohc cdn."
+  },
+  {
+    "id": 1736797282321389,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-13T14:11:22.321Z",
+    "text": "Last of last week.<br>• Deployed Care_scribe MFE to cloudflare pages <br>• configured metabase for krishna and ssmm <br>• Wrote a script to bulk download / upload images to ohc cdn and replace the links for care 101<br>• Had multiple calles with Jowai MCH admin and others to debug camera issue<br>• Configured staging.ohc.network with scribe for KA scribe Field Test  <br>• Drafted PR to fix deploy-failed tags not getting removed.<br>Jan 13 2025<br>• Moved care-staging.ohc.network to teleicu-staging.ohc.network<br>• switched care.ohc.network to use careapi.ohc.network Dev ECS backend<br>• Fixed sentry issues with Staging FE <br>Up next<br>• Get deploy-tag PR merged<br>• Finish up DevOps Intern JD"
+  },
+  {
+    "id": 1737367040679299,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-20T04:27:20.679Z",
+    "text": "Jan 14 2025<br>• Drafted Update for ECS deploy workflow to reuse the existing task definition<br>Jan 15 2025<br>• Got the ECS Deploy workflow merged<br>• added adminurl for do backend for enabling scribe. <br>• Set the USE_SMS flag to false in develop to enable patient login for the dev instance. <br>• updated logos in kerala gov deployment. <br>Jan 16 2025<br>• Call with howni to debug jowai mch middleware. frequent issues due to power fluctuations. <br>• Went through the care HMIS demo video and setup appointments in develop for testing. <br>Jan 17 2025<br>• Redid the ECS workflow PR to add the Image updates for Celery Beat and solved the issues with Taskdefinition.<br>Next<br>• test and share the sql RDS 31&#x27;st December backup for Migrathon. <br>• verify ECS workflow worked after tests stop failing."
+  },
+  {
+    "id": 1737409776829689,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-20T16:19:36.829Z",
+    "text": "Jan 20 2025<br>• Generated the Backup.sql and shared access to test migrations. <br>• Debugged and fixed coolify instancy having troubles. <br>• Updated artifact deletion policies to keep the latest 2 version instead of deletion after timeout.<br>• Performed updates on ssdnodes server. <br>• Disabled Care scribe MFE active in care develop. <br>Next.<br>• Secure and cleanup ssdnodes find reason for throttling."
+  },
+  {
+    "id": 1737571758105739,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-22T13:19:18.105Z",
+    "text": "Jan 21 2025<br>• Enabled ABDM in staging.ohc.network<br>• Deployed ABDM FE to CF pages. <br>• Added Dev/Staging setups to Oneuptime. <br>Jan 22 2025<br>• Debugged Coolify Instance. <br>• Setup CSNOtk on local. <br>• Redeployed Snowstorm based on Docs by vignesh on DO. <br>• Created Terminology server snapshot and destroyed test instance. <br>Next<br>• Fix SSDNodes Instance and setup coolify or Dokploy<br>• Figure out CSNOtk"
+  },
+  {
+    "id": 1737660872161459,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-23T14:04:32.161Z",
+    "text": "Jan 23 2025<br>• Turned <span class=\"s-mention s-user\">@U02D0NA6RHR</span>’s Laptop into a <a href=\"https://www.cdac.in/index.aspx?id=hi_hs_medinfo_csno_overview\">CSNOtk</a> Server <br>• helped Recover suspended AWS account for instance. <br>• Helped <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> with HCX and ABDM <br>• Played badminton with <span class=\"s-mention s-user\">@UC8TSEGCQ</span> and <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> :rp: <span class=\"s-emoji\">🏸</span> <br>• Fixed workflow fails with <a href=\"https://github.com/ohcnetwork/care_fe/pull/9884\">9884</a> and <a href=\"https://github.com/ohcnetwork/care_fe/pull/10026\">10026</a> <br>• Performed restoration for suspended Instance.<br>Next<br>• Figure out Newrelic and setup comprehensive monitoring for all resources. <br>• Setup CF tunnel for CSNOtk Server for test access. <br>• Resolve SBOM issues."
+  },
+  {
+    "id": 1738010022661579,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-01-27T15:03:42.661Z",
+    "text": "• Restored Access to Arike Metabase portal                                                                                                                                                           <br>• Fixed deploy fails in staging.ohc.network api due to ABDM Issues                                                                                                                                   <br>• Drafted DO estimate for new deployment                                                                                                                                                             <br>• Deployed teleicu-staging updates to teleicu-staging.ohc.network                                                                                                                                    <br>• Update teleicu-staging backend to use latest abdm.                                                                                                                                                 <br>• Performed minor production <a href=\"https://github.com/ohcnetwork/care_fe/pull/10211\">release</a> fixing <a href=\"https://github.com/ohcnetwork/care_fe/issues/10078\">#10078</a> with <a href=\"https://github.com/ohcnetwork/care_fe/pull/10091\">#10091</a><br>Up Next<br>• Configure and secure new coolify deployment. <br>• seperate out sbom generation workflow and keep it in repo."
+  },
+  {
+    "id": 1738695788093099,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-02-04T13:33:08.093Z",
+    "text": "<strong>Jan 29 2025</strong><br>• Explored  App spec based deployment for care<br>    ◦  Raised a ticket to support to resolve, and got response that it&#x27;s not supported.<br>•  Updated metabase.ohc.network and gave access to Aravind<br>•  Broke and fixed CORS to allow local network connections<br><strong>Jan 30 2025</strong><br>•  Got Arike DB Dump for migrations.<br>• Deployed Care KCDH <br>• Setup IAM Identity Gateway and added users including billing admin for KCDH AWS<br>•  seeded Karnataka and Kerala data in KCDH<br>• Shared access to billing account and admin account to KCDH<br>• Verify Metabase Access in 1Password and added them to the vault.<br>• TODO Updated the ecs setup to increase the deployment speed.<br><strong>Feb 3 2025</strong><br>•  Analyze DigitalOcean current cost<br>• explore option for setting up a K8s cluster for monitoring.<br>• Setup a prom-grafana dash with blackbox exporter.<br><strong>Feb 4 2025</strong><br>• Temporary Fix issue automation fails (I move around all the issues on project board now with my PAT) :shipit: <br>•  PY draft created and sent for review by <span class=\"s-mention s-user\">@UC8TSEGCQ</span> and <span class=\"s-mention s-user\">@UC9JELJEP</span> <br>• Had Interview call with <span class=\"s-mention s-user\">@U07UB6TQWRE</span> for DevOps Intern<br>Next<br>• get github actions bot back up by using GITHUB_TOKEN <br>• finalize and publish Grafana Dashboards."
+  },
+  {
+    "id": 1739347231646189,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-02-12T02:30:31.646Z",
+    "text": "Feb 5 2025<br>• Debugged ABDM issues in Staging. <br>• restored staging branch and updated branch protection rules for staging<br>• finalized PY draft <br>Feb 6 2025<br>• Deployed Care Cats of Kochi Instance. <br>• Explored options for enforcing security headers.<br>Feb 7,8.9 2025<br>• tested out different methods for applying secure headers to cf pages including _headers file and cloudflare worker<br>• Reconfigured and set csp-logger to monitor the csp violations. <br>• Restored Access to coolify and debugged disk write issues. <br>Feb 10 2025<br>• reworked security headers with env variables. tested in personal account to get it working.<br>• generated CSP with <a href=\"https://csper.io/\">csper</a> <br>• Sent PR to enforce security headers defined in env<br>Feb 11<br>• Merged the Headers PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/10535\">#10535</a> to dev and setup the env variables to <a href=\"https://securityheaders.com/?q=care.ohc.network&amp;amp;followRedirects=on\">enforce Headers</a>. <br>• Migrated kcdh to muhs domain, updated the ecs image-build workflow to support auto rollback. <br>Next<br>• Update docs on FE deployment including policy headers and recaptcha<br>• Update cats of kochi logo<br>• fix and verify working of netflify deploy previews in the new custom domain."
+  },
+  {
+    "id": 1742825437794639,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-03-24T08:40:37.794Z",
+    "text": "24 March 2025<br>Misseedddd a lottt of EOD&#x27;s<br>• Had call with <span class=\"s-mention s-user\">@U07UB6TQWRE</span> to provide feedback for azure / gcs setups, <br>• Engineering review call<br>• <span class=\"s-emoji\">🎧</span> with bodhi and rithvik to fix sbom fetch workflow. (ready for merge)<br>• made <span class=\"s-mention s-user\">@U07UB6TQWRE</span> refactor sbom repo multiple times. :&quot; )<br>• enabled scribe on arike. <br>• raised an issue <a href=\"https://github.com/10bedicu/care_scribe/issues/21\">21</a> <br>• Caught <span class=\"s-emoji\">👂</span><span class=\"s-emoji\">🏾</span> pain, got <span class=\"s-emoji\">💊</span> s <br>Up next<br>• Move care.ohc.network to do from cf<br>• fix <span class=\"s-emoji\">👂</span><span class=\"s-emoji\">🏾</span> pain :&quot;)<br>• make scribe available for the required users. will be a pain adding it without <a href=\"https://github.com/10bedicu/care_scribe/issues/21\">21</a>."
+  },
+  {
+    "id": 1742970413897839,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-03-26T00:56:53.897Z",
+    "text": "March 25<br>Slow day<br>• Updated arike fe with scribe fixes, pinged Dr Nithin to see if scribe is working. <br>• Switched care.ohc.network from cf to do<br>Next<br>• Delete care-fe deployments from cf <br>• fix metabase access issues in dev and staging."
+  },
+  {
+    "id": 1746616830484569,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-05-07T05:50:30.484Z",
+    "text": "May 6<br>• Drafted opentofu script for care in GCP. <br>• responded to MUHS for scheduling a call. <br>• verified labels in 10bedicu GCP accounts<br>Next<br>• publish open-tofu and setup docs<br>• update k8s architecture for GKE<br>• explore App engine<br>• explore Cloud CDN"
+  },
+  {
+    "id": 1746682618033229,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-05-08T00:06:58.033Z",
+    "text": "May 7<br>• Continuation of tofu setup and published the working setup to repo<br>• speedrun creation and deletion of resource to verify working (running low on credits)<br>• drafted new K8s infra architecture. <br>Next<br>• Call With MUHS<br>• Spin up gke to test new architecture. <br>• migrate crds to tofu."
+  },
+  {
+    "id": 1747025524470279,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-05-11T23:22:04.470Z",
+    "text": "May 8<br>• Call with MUHS <br>• Huddle with Neil and aakash about db schema issues<br>• Deployed ABDM to demo.ohc.network<br>• Made a PR to <a href=\"https://github.com/terraform-iaac/terraform-kubernetes-deployment/pull/10\">terraform-kubernetes-deployment</a> module to support env_from field."
+  },
+  {
+    "id": 1747102791954189,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-05-12T20:49:51.954Z",
+    "text": "May 12. <br>• Short calls for abdm and hcx with Khavin<br>• Completed writing tofu for backend, cloud dns, and fixed all the connections in between. <br>• Switched from key based auth to service based auth in gke. <br>• Tried out fe GCS setup and initial brainstorming about the workflow. <br>Next<br>• Finish up fe tofu<br>• Cleanup and publish docs."
+  },
+  {
+    "id": 1747245735771519,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-05-14T12:32:15.771Z",
+    "text": "May 14.<br>• Finished working on GCS based care deployment and deployed care from ground up in GCP purely with tofu <br>• Got PR to <a href=\"https://github.com/terraform-iaac/terraform-kubernetes-deployment/pull/10\">terraform-iaac/deployment</a> module merged and they made their first <a href=\"https://github.com/terraform-iaac/terraform-kubernetes-deployment/releases/tag/v1.4.4\">release</a> in 2 years<br>• Call with implementation partners. <br>• Switched develop.ohc.network frontend to labs V2 <br>Next<br>• Tofu cleanup and moving the repo to ohcnetwork <br>• Setting up waf with cloud armour"
+  },
+  {
+    "id": 1758990991184119,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-09-27T11:06:31.184Z",
+    "text": "Sep 27<br><br>Kool Day.<br>• had call with <span class=\"s-mention s-user\">@UV5PPBE2D</span> to discuss how we can improve teleicu monitoring. <br>• Setup <br>    ◦ Prometheus <br>    ◦ headscale<br>    ◦ headplane (headscale UI similar to tailscale control plane) <br>    ◦ grafana <span class=\"s-emoji\">⌛</span> <br>    ◦ node-exporter <span class=\"s-emoji\">⌛</span> <br>next.<br><br>• Run POC with one hospital for the node exporter and maybe cAdvisor<br>• try streaming video via funnel ?"
+  },
+  {
+    "id": 1758990991184,
+    "user_id": "U06CY7RUZ9S",
+    "timestamp": "2025-09-27T11:06:31.184Z",
+    "text": "Sep 27<br><br>Kool Day.<br>• had call with <span class=\"s-mention s-user\">@UV5PPBE2D</span> to discuss how we can improve teleicu monitoring. <br>• Setup <br>    ◦ Prometheus <br>    ◦ headscale<br>    ◦ headplane (headscale UI similar to tailscale control plane) <br>    ◦ grafana <span class=\"s-emoji\">⌛</span> <br>    ◦ node-exporter <span class=\"s-emoji\">⌛</span> <br>next.<br><br>• Run POC with one hospital for the node exporter and maybe cAdvisor<br>• try streaming video via funnel ? "
+  }
+]
