@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2022-09-21_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-21T04:25:52.902Z",
+    "link": null,
+    "text": "Fixed the issue with cypress local care&#x27;s devdistrictadmin account creation. Working on issue with state options not being shown in user add page.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-09-22_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-22T06:32:47.647Z",
+    "link": null,
+    "text": "Made the sidebar persistent and current section highlight in asset reg v2. Implemented utility hook: <code>useVisibility</code> to achieve current section awareness.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-11-02_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -370,6 +392,17 @@
     "occured_at": "2022-06-09T02:36:14.339Z",
     "link": null,
     "text": "• Raised three PR&#x27;s and closed all three of them, to debug the netlify cache issue. (2660, 2662, 2663)<br>• Configured personal email with custom domain.<br>• Worked on side project, mostly ideating things...",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-09-24_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-24T06:13:46.937Z",
+    "link": null,
+    "text": "Nothing for today. Was not feeling well morning. Prepared and attended technical interview of <a href=\"https://galaxeye.space\">https://galaxeye.space</a>. Got shortlisted for HR round tomorrow.",
     "points": null,
     "meta": null
   },
@@ -887,39 +920,6 @@
     "occured_at": "2022-09-20T04:16:39.042Z",
     "link": null,
     "text": "Made single column layout for <a href=\"https://github.com/ohcnetwork/care_fe/pull/3458\">Asset Registration V2</a><br>Yet to make the current section highlight and sidebar persistent.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-09-21_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-21T04:25:52.902Z",
-    "link": null,
-    "text": "Fixed the issue with cypress local care&#x27;s devdistrictadmin account creation. Working on issue with state options not being shown in user add page.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-09-22_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-22T06:32:47.647Z",
-    "link": null,
-    "text": "Made the sidebar persistent and current section highlight in asset reg v2. Implemented utility hook: <code>useVisibility</code> to achieve current section awareness.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-09-24_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-24T06:13:46.937Z",
-    "link": null,
-    "text": "Nothing for today. Was not feeling well morning. Prepared and attended technical interview of <a href=\"https://galaxeye.space\">https://galaxeye.space</a>. Got shortlisted for HR round tomorrow.",
     "points": null,
     "meta": null
   },
@@ -4396,6 +4396,17 @@
     "occured_at": "2025-11-14T22:23:50.405Z",
     "link": null,
     "text": "<strong>nov 14</strong><br>• built a workflow file generator based on leaderboard config (<a href=\"https://github.com/ohcnetwork/leaderboard/commit/37475295d095c773bcae3673c17c19d318800a5a\">commit</a>)<br>• deployed leaderboard to cf pages via gh actions, worked. (just to test, with minimal data) <a href=\"https://contributors-beta.pages.dev/\">https://contributors-beta.pages.dev/</a><br>• debugging weird issue where all roles were excluded except bot... thanks to <span class=\"s-mention s-user\">@U083HFWFESD</span> for figuring it out...<br><strong>next</strong><br>• figure out how to do remote leaderboard configs.<br>• migrate old leaderboard data, and deploy.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-18_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-18T05:52:26.504Z",
+    "link": null,
+    "text": "<strong>nov 17</strong><br>• attempted deploying leaderboard to cf pages... hit blockers such as file size limits and file size count limits...<br>• switch to csr instead of ssg rendering for activity timeline component to reduce the profile page&#x27;s size (<a href=\"https://github.com/ohcnetwork/leaderboard/commit/e8fc9a7e1e21528ef2d70428d7850fed0b364ef3\">commit</a>)<br>• optimize redirects to reduce number of files generated by build output (<a href=\"https://github.com/ohcnetwork/leaderboard/commit/bacc7858db42d12b52e6e5ea5450e8951b699962\">commit</a>)<br>• deployed to <a href=\"https://contributors-beta.pages.dev\">https://contributors-beta.pages.dev</a><br><strong>next</strong><br>• fix build and deploy workflow not triggering when pushed using github tokens, probably switch to a github app.<br>• refine leaderboard",
     "points": null,
     "meta": null
   }

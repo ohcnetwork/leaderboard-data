@@ -121,17 +121,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14184",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14184",
-    "occured_at": "2025-10-29T08:34:20.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14184",
-    "text": "Workflow: close PRs if PR author isn't same as assignee",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care_fe#13141",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -2662,6 +2651,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#10782",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #10782",
+    "occured_at": "2025-02-24T22:51:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/10782",
+    "text": "Bug while changing User Role",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#11755",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -4572,17 +4572,6 @@
     "occured_at": "2025-02-24T22:57:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10769",
     "text": "Bugs in Encounters page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#10782",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #10782",
-    "occured_at": "2025-02-24T22:51:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/10782",
-    "text": "Bug while changing User Role",
     "points": null,
     "meta": {}
   },
@@ -6831,6 +6820,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#14018_IC_kwDODtfaXs7PSMSC",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14018",
+    "occured_at": "2025-11-02T04:14:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14018#issuecomment-3477652610",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#10698_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_assigned",
@@ -7893,17 +7893,6 @@
     "title": "Commented on #14209",
     "occured_at": "2025-11-03T02:05:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14209#issuecomment-3479256229",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14018_IC_kwDODtfaXs7PSMSC",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14018",
-    "occured_at": "2025-11-02T04:14:35.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14018#issuecomment-3477652610",
     "text": null,
     "points": null,
     "meta": {}
@@ -21076,6 +21065,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#12804_CHANGES_REQUESTED_PRR_kwDODtfaXs66oKpK",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #12804",
+    "occured_at": "2025-08-19T02:32:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12804#pullrequestreview-3131091530",
+    "text": "Redesign Facility Organization Selector",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14197_APPROVED_PRR_kwDODtfaXs7K0Kn3",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -21692,13 +21692,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#12804_CHANGES_REQUESTED_PRR_kwDODtfaXs66oKpK",
+    "slug": "pr_merged_care_fe#13562",
     "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #12804",
-    "occured_at": "2025-08-19T02:32:03.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12804#pullrequestreview-3131091530",
-    "text": "Redesign Facility Organization Selector",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #13562",
+    "occured_at": "2025-09-16T05:17:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13562",
+    "text": "Multi Filter V2",
     "points": null,
     "meta": {}
   },
@@ -22302,17 +22302,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #13562",
     "occured_at": "2025-08-30T07:16:42.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13562",
-    "text": "Multi Filter V2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#13562",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #13562",
-    "occured_at": "2025-09-16T05:17:09.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13562",
     "text": "Multi Filter V2",
     "points": null,
@@ -22935,6 +22924,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#10703",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #10703",
+    "occured_at": "2025-02-19T08:08:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10703",
+    "text": "Questionnaire tags search and popover",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13491_APPROVED_PRR_kwDODtfaXs680wHZ",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -23228,6 +23228,17 @@
     "occured_at": "2025-08-14T05:02:10.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13119#pullrequestreview-3120047074",
     "text": "fix: Update form submission button states to disable when no changes are made in tag config and patient identifier config forms",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#10703",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #10703",
+    "occured_at": "2025-02-21T05:07:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10703",
+    "text": "Questionnaire tags search and popover",
     "points": null,
     "meta": {}
   },
@@ -25058,6 +25069,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#12174",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #12174",
+    "occured_at": "2025-04-29T08:51:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12174",
+    "text": "Dept Select: Auto confirm if no children",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#12914_APPROVED_PRR_kwDODtfaXs60yxKZ",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -25351,6 +25373,17 @@
     "occured_at": "2025-07-09T04:38:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12604#pullrequestreview-3000909731",
     "text": "feat: make URLs clickable in patient address fields",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#12173",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #12173",
+    "occured_at": "2025-04-29T08:16:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12173",
+    "text": "Add filter for encounter actions",
     "points": null,
     "meta": {}
   },
@@ -25736,28 +25769,6 @@
     "occured_at": "2025-02-19T00:26:21.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10642#pullrequestreview-2625699478",
     "text": "Patient Tabs Fixes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#10703",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #10703",
-    "occured_at": "2025-02-19T08:08:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10703",
-    "text": "Questionnaire tags search and popover",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#10703",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #10703",
-    "occured_at": "2025-02-21T05:07:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10703",
-    "text": "Questionnaire tags search and popover",
     "points": null,
     "meta": {}
   },
@@ -27962,28 +27973,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care_fe#12174",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #12174",
-    "occured_at": "2025-04-29T08:51:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12174",
-    "text": "Dept Select: Auto confirm if no children",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#12173",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #12173",
-    "occured_at": "2025-04-29T08:16:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12173",
-    "text": "Add filter for encounter actions",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#12173",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_merged",
@@ -28574,6 +28563,17 @@
     "occured_at": "2025-04-08T04:40:05.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/11287#pullrequestreview-2749422979",
     "text": "Fix: Minor Questionnaire Edit bugs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#10613_APPROVED_PRR_kwDODtfaXs6cwKvu",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #10613",
+    "occured_at": "2025-02-20T08:05:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10613#pullrequestreview-2629872622",
+    "text": "Fix: Medicine Section Bugs ",
     "points": null,
     "meta": {}
   },
@@ -30382,6 +30382,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#9748",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #9748",
+    "occured_at": "2025-01-14T01:05:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9748",
+    "text": "Public Facilities Filters",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#11168_APPROVED_PRR_kwDODtfaXs6fxGnt",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -30983,6 +30994,17 @@
     "occured_at": "2025-03-04T04:59:15.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10899#pullrequestreview-2656849967",
     "text": "Fix : Auto Comment Box Expansion",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#9368",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #9368",
+    "occured_at": "2024-12-11T02:30:25.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9368",
+    "text": "Users Manage Test Fix",
     "points": null,
     "meta": {}
   },
@@ -32516,6 +32538,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#9368",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #9368",
+    "occured_at": "2024-12-11T03:33:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9368",
+    "text": "Users Manage Test Fix",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10755_CHANGES_REQUESTED_PRR_kwDODtfaXs6dXr0H",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -32830,17 +32863,6 @@
     "title": "Changes requested on PR #10613",
     "occured_at": "2025-02-20T05:16:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10613#pullrequestreview-2629440927",
-    "text": "Fix: Medicine Section Bugs ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#10613_APPROVED_PRR_kwDODtfaXs6cwKvu",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #10613",
-    "occured_at": "2025-02-20T08:05:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10613#pullrequestreview-2629872622",
     "text": "Fix: Medicine Section Bugs ",
     "points": null,
     "meta": {}
@@ -33192,17 +33214,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #9748",
     "occured_at": "2025-01-04T11:16:50.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9748",
-    "text": "Public Facilities Filters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#9748",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #9748",
-    "occured_at": "2025-01-14T01:05:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9748",
     "text": "Public Facilities Filters",
     "points": null,
@@ -35739,6 +35750,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#9145",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #9145",
+    "occured_at": "2024-11-17T05:57:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
+    "text": "Facility bed capacity verification test",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9749_COMMENTED_PRR_kwDODtfaXs6XBXZp",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -36707,39 +36729,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#9368",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #9368",
-    "occured_at": "2024-12-11T02:30:25.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9368",
-    "text": "Users Manage Test Fix",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#9368",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #9368",
-    "occured_at": "2024-12-11T03:33:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9368",
-    "text": "Users Manage Test Fix",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#9145",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #9145",
-    "occured_at": "2024-11-17T05:57:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9145",
-    "text": "Facility bed capacity verification test",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#9145",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_merged",
@@ -37664,6 +37653,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#7914",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #7914",
+    "occured_at": "2024-05-27T09:01:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
+    "text": "Consultation Form Enhancement: No home facility docs",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9190_COMMENTED_PRR_kwDODtfaXs6T2jTW",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -37957,6 +37957,17 @@
     "occured_at": "2024-12-19T22:45:33.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9503#pullrequestreview-2516751432",
     "text": "Fixed facility selection issue in UserAddEditForm",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#7914",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7914",
+    "occured_at": "2024-08-01T00:16:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
+    "text": "Consultation Form Enhancement: No home facility docs",
     "points": null,
     "meta": {}
   },
@@ -39182,6 +39193,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#8603",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8603",
+    "occured_at": "2024-09-24T00:16:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8603",
+    "text": "Show IV/NIV Badge only for active consultations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9200_CHANGES_REQUESTED_PRR_kwDODtfaXs6Skgvw",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -39816,39 +39838,6 @@
     "occured_at": "2024-10-10T02:29:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8756",
     "text": "Discharged patients for stateAdmin facility page: consistent sort and advanced filters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#7914",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #7914",
-    "occured_at": "2024-05-27T09:01:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
-    "text": "Consultation Form Enhancement: No home facility docs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#7914",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7914",
-    "occured_at": "2024-08-01T00:16:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7914",
-    "text": "Consultation Form Enhancement: No home facility docs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8603",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8603",
-    "occured_at": "2024-09-24T00:16:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8603",
-    "text": "Show IV/NIV Badge only for active consultations",
     "points": null,
     "meta": {}
   },
@@ -40964,17 +40953,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_analytics_sql#4_CHANGES_REQUESTED_PRR_kwDOQHnf1c7MPgv-",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #4",
-    "occured_at": "2025-11-06T02:01:06.000Z",
-    "link": "https://github.com/ohcnetwork/care_analytics_sql/pull/4#pullrequestreview-3426618366",
-    "text": "Added Couple of cards in arike ",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_roadmap#68_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_assigned",
@@ -40986,13 +40964,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#13842",
+    "slug": "pr_reviewed_care_analytics_sql#4_CHANGES_REQUESTED_PRR_kwDOQHnf1c7MPgv-",
     "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13842",
-    "occured_at": "2025-09-25T06:28:50.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13842",
-    "text": "observation interpretation: form integration/errors and styling",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #4",
+    "occured_at": "2025-11-06T07:31:06.000Z",
+    "link": "https://github.com/ohcnetwork/care_analytics_sql/pull/4#pullrequestreview-3426618366",
+    "text": "Added Couple of cards in arike ",
     "points": null,
     "meta": {}
   },
@@ -41173,17 +41151,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14244",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14244",
-    "occured_at": "2025-11-05T06:29:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14244",
-    "text": "Inventory Redesign",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#12010",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_opened",
@@ -41191,17 +41158,6 @@
     "occured_at": "2025-04-21T00:49:02.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12010",
     "text": "Permission based rendering across the platform",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14244_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14244 assigned",
-    "occured_at": "2025-11-05T06:29:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14244",
-    "text": "Inventory Redesign",
     "points": null,
     "meta": {}
   },
@@ -41272,6 +41228,149 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#14333",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14333",
+    "occured_at": "2025-11-17T07:29:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14333",
+    "text": "Minor bug fixes: date filter translations, invoice url and more",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13925_CHANGES_REQUESTED_PRR_kwDODtfaXs7NjNF1",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #13925",
+    "occured_at": "2025-11-11T15:32:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13925#pullrequestreview-3448557941",
+    "text": "update other agent instruction files",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_fix-encounter-list-type_021f4ebcd91a8639e155ed4249a33e6a82e0adc2",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix-encounter-list-type",
+    "occured_at": "2025-11-17T16:35:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/021f4ebcd91a8639e155ed4249a33e6a82e0adc2",
+    "text": "Inventory redesign (#14245)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14184",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14184",
+    "occured_at": "2025-10-29T14:04:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14184",
+    "text": "Workflow: close PRs if PR author isn't same as assignee",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14392",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14392",
+    "occured_at": "2025-11-18T00:24:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14392",
+    "text": "Missing Dependencies in `useEffect` Hook",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14244",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14244",
+    "occured_at": "2025-11-05T06:29:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14244",
+    "text": "Inventory Redesign",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14399",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14399",
+    "occured_at": "2025-11-18T07:45:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14399",
+    "text": "Added delivery status update functionality (inventory)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14244_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14244 assigned",
+    "occured_at": "2025-11-05T06:29:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14244",
+    "text": "Inventory Redesign",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14397_IC_kwDODtfaXs7TRMjG",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14397",
+    "occured_at": "2025-11-18T00:27:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14397#issuecomment-3544500422",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14398_IC_kwDODtfaXs7TRIDt",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14398",
+    "occured_at": "2025-11-18T00:25:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14398#issuecomment-3544482029",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14392_IC_kwDODtfaXs7TRFtu",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14392",
+    "occured_at": "2025-11-18T00:24:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14392#issuecomment-3544472430",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14395_IC_kwDODtfaXs7TRB5F",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14395",
+    "occured_at": "2025-11-18T00:22:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14395#issuecomment-3544456773",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#13842",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13842",
+    "occured_at": "2025-09-25T06:28:50.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13842",
+    "text": "observation interpretation: form integration/errors and styling",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14341",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_opened",
@@ -41279,6 +41378,17 @@
     "occured_at": "2025-11-14T08:47:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14341",
     "text": "Refactor charge item definition picker to use resource definition picker",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14098_APPROVED_PRR_kwDODtfaXs7PLhnk",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14098",
+    "occured_at": "2025-11-18T07:44:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14098#pullrequestreview-3475904996",
+    "text": "feat: add delivery status update functionality ",
     "points": null,
     "meta": {}
   },
@@ -41312,39 +41422,6 @@
     "occured_at": "2025-11-06T10:22:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14245#pullrequestreview-3427390062",
     "text": "Inventory redesign",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14333",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14333",
-    "occured_at": "2025-11-17T07:29:17.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14333",
-    "text": "Minor bug fixes: date filter translations, invoice url and more",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#13925_CHANGES_REQUESTED_PRR_kwDODtfaXs7NjNF1",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #13925",
-    "occured_at": "2025-11-11T15:32:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13925#pullrequestreview-3448557941",
-    "text": "update other agent instruction files",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_fix-encounter-list-type_021f4ebcd91a8639e155ed4249a33e6a82e0adc2",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to fix-encounter-list-type",
-    "occured_at": "2025-11-17T16:35:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/021f4ebcd91a8639e155ed4249a33e6a82e0adc2",
-    "text": "Inventory redesign (#14245)",
     "points": null,
     "meta": {}
   }
