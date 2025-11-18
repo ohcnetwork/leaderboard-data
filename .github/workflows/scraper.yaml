@@ -142,7 +142,7 @@ jobs:
       - name: 📤 Export SQL Dump
         run: |
           cd ${{ env.LEADERBOARD_PATH }}
-          tsx scripts/db-sql-dump.ts > ${{ github.workspace }}/db-dump.sql
+          pnpm tsx scripts/db-sql-dump.ts > ${{ github.workspace }}/db-dump.sql
           echo "✅ SQL dump exported to db-dump.sql"
 
       - name: 📦 Upload SQL Dump Artifact
