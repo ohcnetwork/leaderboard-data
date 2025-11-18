@@ -187,6 +187,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-12_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-12T18:20:30.928Z",
+    "link": null,
+    "text": "May 12.<br>• Couple of huddles with Vysakh to deploy ABDM and HCX<br>• Few minor improvements in labs pr<br>    ◦ Added all status filter in invoice and payment data page and charge items<br>    ◦ Fixed the factor calculation logic in charge items table<br>    ◦ Fixed pagination issues invoice and payments table<br>    ◦ Convert tabs to dropdowns in mobile view in billing pages<br>• Looked in billing spec and pharmacy spec<br>• Discussion with Saurabh from hcx on callback issue<br>Next<br>• Integrate charge items into hcx workflow<br>• Follow up on hcx callback issue<br>• Connect with Siva on ABDM PHR GSoC planning",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-21_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -286,6 +297,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-01_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-31T20:59:08.266Z",
+    "link": null,
+    "text": "<strong>27th &amp;amp; 28th March</strong><br>• Reviewed Tailwind V4 migration PR<br>• Randomly tested platform after tailwind migration<br>• Fixed blinking issue caused by migration<br>• Added condition to disable patient discharge in care 2.0 if abha is not linked<br>• Created docs for setting up plug<br>• Went through the labs specs in notion, understood the missing pieces from previous spec, should look into it more<br>• Tried fixing autocomplete usability issue in ios, passed it on to Jacob<br>• More reviews<br><strong>Next</strong><br>• Look in depth into labs specs and ui, and get started with the missing components<br>• Look into adding required validations for abdm&#x27;s abhanumber.health_id and abhanumber.abha_number<br>• Checkout care ig spec",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-09_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -381,28 +403,6 @@
     "occured_at": "2025-03-24T13:40:41.216Z",
     "link": null,
     "text": "24th March<br>• Weekly engineering sync<br>• Fixed i18n config for plugs<br>• Added support for questionnaire responses print in org routes<br>• Randomly reviewed PRs<br>• Partially added translations to teleicu devices plug",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-01_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-31T20:59:08.266Z",
-    "link": null,
-    "text": "<strong>27th &amp;amp; 28th March</strong><br>• Reviewed Tailwind V4 migration PR<br>• Randomly tested platform after tailwind migration<br>• Fixed blinking issue caused by migration<br>• Added condition to disable patient discharge in care 2.0 if abha is not linked<br>• Created docs for setting up plug<br>• Went through the labs specs in notion, understood the missing pieces from previous spec, should look into it more<br>• Tried fixing autocomplete usability issue in ios, passed it on to Jacob<br>• More reviews<br><strong>Next</strong><br>• Look in depth into labs specs and ui, and get started with the missing components<br>• Look into adding required validations for abdm&#x27;s abhanumber.health_id and abhanumber.abha_number<br>• Checkout care ig spec",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-12_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-12T18:20:30.928Z",
-    "link": null,
-    "text": "May 12.<br>• Couple of huddles with Vysakh to deploy ABDM and HCX<br>• Few minor improvements in labs pr<br>    ◦ Added all status filter in invoice and payment data page and charge items<br>    ◦ Fixed the factor calculation logic in charge items table<br>    ◦ Fixed pagination issues invoice and payments table<br>    ◦ Convert tabs to dropdowns in mobile view in billing pages<br>• Looked in billing spec and pharmacy spec<br>• Discussion with Saurabh from hcx on callback issue<br>Next<br>• Integrate charge items into hcx workflow<br>• Follow up on hcx callback issue<br>• Connect with Siva on ABDM PHR GSoC planning",
     "points": null,
     "meta": null
   },

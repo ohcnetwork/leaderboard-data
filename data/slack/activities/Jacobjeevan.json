@@ -88,6 +88,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-06_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-06T07:45:44.879Z",
+    "link": null,
+    "text": "Jan 3rd/6th<br>• Organization Filter<br>    ◦ Need to tweak the FE design a bit, pinged Vinu for feedback on that.<br>• Patient Files<br>Next<br>• Modify the user create form to support user edits (prob need a PUT route on BE first <span class=\"s-emoji\">🤔</span> )<br>• Look for new issues<br>• Review contributor PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-19_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -440,13 +451,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-06_Jacobjeevan",
+    "slug": "eod_update_2025-06-04_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-01-06T07:45:44.879Z",
+    "occured_at": "2025-06-03T18:52:46.572Z",
     "link": null,
-    "text": "Jan 3rd/6th<br>• Organization Filter<br>    ◦ Need to tweak the FE design a bit, pinged Vinu for feedback on that.<br>• Patient Files<br>Next<br>• Modify the user create form to support user edits (prob need a PUT route on BE first <span class=\"s-emoji\">🤔</span> )<br>• Look for new issues<br>• Review contributor PRs",
+    "text": "june 3<br>• more reviewing<br>• medication dispense status update (need to push)<br>next<br>• priority items if any",
     "points": null,
     "meta": null
   },
@@ -623,6 +634,17 @@
     "occured_at": "2025-02-05T16:46:18.580Z",
     "link": null,
     "text": "Feb 4-5<br>done<br>• finished archiving modifications (waiting for multi-file to pdf pr to get merged first) + print preview fix<br>• reviewed prs<br>    ◦ helped Tanuj with debugging a date-field issue (pushed a fix yesterday)<br>next<br>• revisit user perms rendering, qualifications and new issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-10-31_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-31T02:18:08.773Z",
+    "link": null,
+    "text": "October 31<br>• finished observation interp tests + minor adjustments/styling changes<br>next<br>• catch up w/ reviews\n\nOctober 31<br>• finished observation interp tests + minor adjustments/styling changes<br>next<br>• catch up w/ reviews",
     "points": null,
     "meta": null
   },
@@ -946,6 +968,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-08_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-08T15:40:38.614Z",
+    "link": null,
+    "text": "june 4-5th<br>• reviewing<br>• adjusted repeatable qn type render logic to support other qn types<br>• huddle w/ Nihal on both repeatable qns and enableWhen UI<br>• additional changes for enableWhen<br>• leave on june 6th<br>next<br>• finish up + test additional changes for enableWhen<br>• new issues/circle back on old issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-15_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1173,39 +1206,6 @@
     "occured_at": "2025-06-02T19:05:50.656Z",
     "link": null,
     "text": "june 2<br>• reviewing PRs + gsoc<br>• questionnaire choice fix<br>next<br>• pick up any priorities<br>• circle back on older issues<br>• <span class=\"s-emoji\">🛫</span>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-04_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-03T18:52:46.572Z",
-    "link": null,
-    "text": "june 3<br>• more reviewing<br>• medication dispense status update (need to push)<br>next<br>• priority items if any",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-31_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-31T02:18:08.773Z",
-    "link": null,
-    "text": "October 31<br>• finished observation interp tests + minor adjustments/styling changes<br>next<br>• catch up w/ reviews\n\nOctober 31<br>• finished observation interp tests + minor adjustments/styling changes<br>next<br>• catch up w/ reviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-08_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-08T15:40:38.614Z",
-    "link": null,
-    "text": "june 4-5th<br>• reviewing<br>• adjusted repeatable qn type render logic to support other qn types<br>• huddle w/ Nihal on both repeatable qns and enableWhen UI<br>• additional changes for enableWhen<br>• leave on june 6th<br>next<br>• finish up + test additional changes for enableWhen<br>• new issues/circle back on old issues",
     "points": null,
     "meta": null
   },
