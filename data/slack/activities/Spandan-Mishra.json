@@ -1,5 +1,38 @@
 [
   {
+    "slug": "eod_update_2025-06-06_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-06T08:18:07.388Z",
+    "link": null,
+    "text": "June 4-6<br>• connected with mentors and discussed features &amp;amp; workflows<br>• researched how diet management module can be integrated into the CARE system<br>• read about the existing resources in CARE, the billing system and other ongoing features<br>• explored the FHIR resources and their fields which are relevant for this project<br>• compiled a document explaining all features, workflows, and implementation",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-20_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-19T19:34:24.890Z",
+    "link": null,
+    "text": "June 18-19<br>• Added labels and markings for workflows in the figma designs<br>• Finished writing about the models which will be required for the project<br>Next<br>• Get feedback for the figma designs<br>• Iterate on the model designs with mentors",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-08-10_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-10T10:16:46.099Z",
+    "link": null,
+    "text": "August 10th<br>• fixed params in all components and removed placeholders from them.<br>• added nutrition product item under settings <br>• made changes in care_fe so that the above functionality works<br>• worked on the tailwind issue",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-07-17_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -128,28 +161,6 @@
     "occured_at": "2025-05-24T08:34:37.643Z",
     "link": null,
     "text": "May 24<br>• Read about the remaining resources in FHIR R5 <br>• Read the Nutritional Module in FHIR and got to know about NutritionOrder, NutritionIntake and NutritionProduct<br>• Finally completed reading of FHIR docs<br>Next<br>• Learn about BE Plugs<br>• Explore EMR implementation in CARE<br>• Practice Django",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-06_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-06T08:18:07.388Z",
-    "link": null,
-    "text": "June 4-6<br>• connected with mentors and discussed features &amp;amp; workflows<br>• researched how diet management module can be integrated into the CARE system<br>• read about the existing resources in CARE, the billing system and other ongoing features<br>• explored the FHIR resources and their fields which are relevant for this project<br>• compiled a document explaining all features, workflows, and implementation",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-20_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-19T19:34:24.890Z",
-    "link": null,
-    "text": "June 18-19<br>• Added labels and markings for workflows in the figma designs<br>• Finished writing about the models which will be required for the project<br>Next<br>• Get feedback for the figma designs<br>• Iterate on the model designs with mentors",
     "points": null,
     "meta": null
   },
@@ -363,6 +374,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-30_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-29T21:20:25.126Z",
+    "link": null,
+    "text": "29th August:<br>• added endpoint in be for batch requests to be used by questionnaire<br>• updated NO form to send values to questionnaire state and fixed it<br>• fixed TS errors in the frontend and updated NP form<br>• communicated with the QA team",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-07-22_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -528,17 +550,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-08-10_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-10T10:16:46.099Z",
-    "link": null,
-    "text": "August 10th<br>• fixed params in all components and removed placeholders from them.<br>• added nutrition product item under settings <br>• made changes in care_fe so that the above functionality works<br>• worked on the tailwind issue",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-08-12_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -678,17 +689,6 @@
     "occured_at": "2025-08-28T21:10:11.091Z",
     "link": null,
     "text": "28th August <br>• Went through feedback received from mentors on various issues<br>• Understood how the questionnaire react state is working<br>• Worked on fixing the NO questionnaire and created backend endpoints for handling batch requests.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-30_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-29T21:20:25.126Z",
-    "link": null,
-    "text": "29th August:<br>• added endpoint in be for batch requests to be used by questionnaire<br>• updated NO form to send values to questionnaire state and fixed it<br>• fixed TS errors in the frontend and updated NP form<br>• communicated with the QA team",
     "points": null,
     "meta": null
   },

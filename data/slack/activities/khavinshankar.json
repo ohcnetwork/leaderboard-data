@@ -220,6 +220,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-27_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-27T16:54:38.400Z",
+    "link": null,
+    "text": "May 26 &amp;amp; 27<br>• Debugged and fixed abdm migrations being out of sync in Manipur<br>• Added fallbacks to handle date of birth missing month and day<br>• Calls with hub admins to debug above issues<br>• Long huddle with Vyshak to test the changes made<br>• Partially reviewed Siva&#x27;s PR on PHR Enrollment<br>Next<br>• Finish reviewing PHR Enrollment and plan further<br>• Pickup open issues on labs-v2",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-27_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -315,6 +326,17 @@
     "occured_at": "2024-12-16T16:37:29.891Z",
     "link": null,
     "text": "<strong>16th December</strong><br>• Replaced useQuery and request utils with tanstack query in abdm<br>    ◦ Created a custom request util to handle api calls<br>    ◦ Created api functions instead of using routes structure<br>    ◦ Replaced all occurrences<br>•  Synced with Yashwanth on Labs frontend code refactor (creating atomic components)<br>• Started with Labs frontend code refactor<br><strong>Next</strong><br>• Try to complete converting ABDM fe into micro fe<br>    ◦ Convert pending form field components into shadcn components<br>    ◦ Make pubsub util used in patient register form work (consider using rxjs)",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-10-27_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-27T16:10:12.597Z",
+    "link": null,
+    "text": "Oct 27<br>• huddle with Neil to discuss the requirements for aliasing the discharge disposition values for teleicu instances only<br>• created a backend plug to auto tag missing consents<br>Next<br>• create a pypi package create-care-app\n\nOct 27<br>• huddle with Neil to discuss the requirements for aliasing the discharge disposition values for teleicu instances only<br>• created a backend plug to auto tag missing consents<br>Next<br>• create a pypi package create-care-app",
     "points": null,
     "meta": null
   },
@@ -447,28 +469,6 @@
     "occured_at": "2025-05-21T21:20:11.416Z",
     "link": null,
     "text": "May 21<br>• recorded abdm demo for deck<br>• added diagnosis instructions in medication bill form<br>• followed up on biometric auth issue<br>• random huddles with Nihal on fixing couple of issues and cypress reviews<br>Next<br>• setup fingerprint scanner and windows machine <br>• try out the changes suggested by abdm support<br>• sync with Siva",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-27_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-27T16:54:38.400Z",
-    "link": null,
-    "text": "May 26 &amp;amp; 27<br>• Debugged and fixed abdm migrations being out of sync in Manipur<br>• Added fallbacks to handle date of birth missing month and day<br>• Calls with hub admins to debug above issues<br>• Long huddle with Vyshak to test the changes made<br>• Partially reviewed Siva&#x27;s PR on PHR Enrollment<br>Next<br>• Finish reviewing PHR Enrollment and plan further<br>• Pickup open issues on labs-v2",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-27_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-27T16:10:12.597Z",
-    "link": null,
-    "text": "Oct 27<br>• huddle with Neil to discuss the requirements for aliasing the discharge disposition values for teleicu instances only<br>• created a backend plug to auto tag missing consents<br>Next<br>• create a pypi package create-care-app\n\nOct 27<br>• huddle with Neil to discuss the requirements for aliasing the discharge disposition values for teleicu instances only<br>• created a backend plug to auto tag missing consents<br>Next<br>• create a pypi package create-care-app",
     "points": null,
     "meta": null
   },

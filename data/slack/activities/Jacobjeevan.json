@@ -44,6 +44,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-30_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-30T08:04:52.800Z",
+    "link": null,
+    "text": "30th December<br>• form-field-v1 bug fixes, deletions and refactorings. <br>Next<br>• same thing as above",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-15_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -392,17 +403,6 @@
     "occured_at": "2024-12-27T03:55:50.685Z",
     "link": null,
     "text": "December 27th<br>• Additional tweaks and bug fixes for otp flow<br>    ◦ Occasionally triggering error boundary for appointment success (it was due to formatTime being called on appointment time slot; got that fixed)<br>    ◦ WIP: Added a dialog for editing appointments (need to ping Vignesh about adding OTP BE routes for editing existing appointments)<br>    ◦ Local storage support for patient chooser to retain the choice on page reload<br>    ◦ Some minor tweaks, renaming (user -&amp;gt; patient for OTP sidebar and contexts).<br>Next<br>• Probably more work on the otp flow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-30_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-30T08:04:52.800Z",
-    "link": null,
-    "text": "30th December<br>• form-field-v1 bug fixes, deletions and refactorings. <br>Next<br>• same thing as above",
     "points": null,
     "meta": null
   },
@@ -759,6 +759,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-27_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-26T18:44:44.433Z",
+    "link": null,
+    "text": "may 26<br>• modified files related components to use new api for fetching/previewing reports (PR open)<br>• minor billing todos<br>next<br>• treat <span class=\"s-emoji\">🍽️</span>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-14_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -909,6 +920,17 @@
     "occured_at": "2025-04-08T19:51:41.669Z",
     "link": null,
     "text": "April 8<br>• FE pr: replacing autocomplete in tags/orgs for create questionnaire<br>• Started on an issue assigned about batch req failure, ended up getting back to permissions<br>    ◦ added device perms for FE/BE, location perms BE mixins<br>next<br>• changes req: modify user page to display geo org details<br>• location perms FE (and test location perms BE more)<br>• review older prs<br>• adding so I&#x27;ll remember tomorrow:  follow up on dept delete/archive BE",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-28_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-28T17:22:56.308Z",
+    "link": null,
+    "text": "may 27-28<br>• treat/office lunch + <span class=\"s-emoji\">🍨</span> <br>• pending to-dos in billing<br>• review prs<br>next<br>• any other to-dos in billing<br>• circle back on old issues",
     "points": null,
     "meta": null
   },
@@ -1129,28 +1151,6 @@
     "occured_at": "2025-05-25T19:35:15.462Z",
     "link": null,
     "text": "May 23<br>• billing<br>next<br>• billing stuff<br>• review gsoc demo/pr<br>• review PRs<br>• circle back on older PRs (this week)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-27_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-26T18:44:44.433Z",
-    "link": null,
-    "text": "may 26<br>• modified files related components to use new api for fetching/previewing reports (PR open)<br>• minor billing todos<br>next<br>• treat <span class=\"s-emoji\">🍽️</span>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-28_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-28T17:22:56.308Z",
-    "link": null,
-    "text": "may 27-28<br>• treat/office lunch + <span class=\"s-emoji\">🍨</span> <br>• pending to-dos in billing<br>• review prs<br>next<br>• any other to-dos in billing<br>• circle back on old issues",
     "points": null,
     "meta": null
   },
