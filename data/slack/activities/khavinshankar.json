@@ -559,5 +559,16 @@
     "text": "Nov 13<br>• Added encounter filter to consent requests in abdm<br>• Replaced the usage of get_facility_queryset with updated logic<br>• Went over the ABDM demo flow with Amrutha",
     "points": null,
     "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-18_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-18T03:16:31.605Z",
+    "link": null,
+    "text": "Nov 17<br>• Addressed minor P1 issues (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14386\">#14386</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14383\">#14383</a>, and <a href=\"https://github.com/ohcnetwork/care_fe/pull/14379\">#14379</a>)<br>• Cleaned up <a href=\"https://github.com/10bedicu/care_abdm/pull/44\">#44</a> (ABHA number patient identifier) and merged it<br>• Synced develop and phr branches and fixed migration conflicts in phr branch<br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
+    "points": null,
+    "meta": null
   }
 ]
