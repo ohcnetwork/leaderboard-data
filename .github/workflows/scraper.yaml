@@ -138,3 +138,16 @@ jobs:
 
           # Ensure pushing to the correct branch (default = main)
           git push origin HEAD:main
+
+      - name: 📤 Export SQL Dump
+        run: |
+          cd ${{ env.LEADERBOARD_PATH }}
+          tsx scripts/db-sql-dump.ts > ${{ github.workspace }}/db-dump.sql
+          echo "✅ SQL dump exported to db-dump.sql"
+
+      - name: 📦 Upload SQL Dump Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: db-dump.sql
+          path: ${{ github.workspace }}/db-dump.sql
+          retention-days: 30
