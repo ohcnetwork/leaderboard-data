@@ -85,6 +85,8 @@ jobs:
 
       - name: 🛠️ Build Leaderboard
         working-directory: ${{ env.LEADERBOARD_PATH }}
+        env:
+          LEADERBOARD_CONFIG: ${{ env.LEADERBOARD_DATA_PATH }}/leaderboard/config.yaml
         run: pnpm build
 
       - name: 🌐 Deploy to Cloudflare Pages
