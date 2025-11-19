@@ -26,7 +26,7 @@ jobs:
       LEADERBOARD_DATA_PATH: ${{ github.workspace }}/leaderboard-data
       SCRAPER_PATHS: ${{ github.workspace }}/leaderboard-github-scraper ${{ github.workspace }}/leaderboard-slack-scraper
 
-      SCRAPE_DAYS: ${{ inputs.days }}
+      SCRAPE_DAYS: ${{ inputs.days || 1 }}
 
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_ORG: ${{ github.repository_owner }}
