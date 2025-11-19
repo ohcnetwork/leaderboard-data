@@ -616,6 +616,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-22_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-22T06:01:55.292Z",
+    "link": null,
+    "text": "<strong>21st November</strong><br><strong>Done</strong><br>• Designed and published tech tip SME poster<br>• ongoing e2e testing of upcoming release<br>• Tested Doctor Notes PR raised by uday<br><strong>22nd November</strong><br><strong>Done</strong><br>• Achieved parallel testing using single machine with cypress-parallel package, Results not satisfactory, need to look better alternative<br>• ongoing the e2e testing<br>• Scheduled all SME contents till Sunday<br>• Removed cypress env hardcoded fallback<br>• Fixed skipping of cypress file upload test <br><strong>Next</strong><br>• Have a random check to wrap e2e testing<br>• Work on the test coverage documentation<br>• Find a better alternative for parallel testing<br>• Review and test the opened PR&#x27;s<br>• Start QA Intern Hiring Process",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-09-07_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -715,13 +726,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-11-22_nihal467",
+    "slug": "eod_update_2025-01-16_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2024-11-22T06:01:55.292Z",
+    "occured_at": "2025-01-16T17:56:21.068Z",
     "link": null,
-    "text": "<strong>21st November</strong><br><strong>Done</strong><br>• Designed and published tech tip SME poster<br>• ongoing e2e testing of upcoming release<br>• Tested Doctor Notes PR raised by uday<br><strong>22nd November</strong><br><strong>Done</strong><br>• Achieved parallel testing using single machine with cypress-parallel package, Results not satisfactory, need to look better alternative<br>• ongoing the e2e testing<br>• Scheduled all SME contents till Sunday<br>• Removed cypress env hardcoded fallback<br>• Fixed skipping of cypress file upload test <br><strong>Next</strong><br>• Have a random check to wrap e2e testing<br>• Work on the test coverage documentation<br>• Find a better alternative for parallel testing<br>• Review and test the opened PR&#x27;s<br>• Start QA Intern Hiring Process",
+    "text": "<strong>16th Jan 2025</strong><br>• Tested all need testing marked PR&#x27;s<br>• Moved cypress backend from DO to develop branch<br>• Pushed Minor cypress fix to get multiple PR&#x27;s merged<br><strong>Next</strong><br>• Push dummy data to backend<br>• Add test for questionnaire and say bye to Happy workflow issue (1)<br>• Freeze a CARE version and complete the docs<br>• Test all need testing PR&#x27;s",
     "points": null,
     "meta": null
   },
@@ -843,6 +854,17 @@
     "occured_at": "2024-12-14T07:20:12.545Z",
     "link": null,
     "text": "<strong>12 Dec</strong><br>• On Leave<br><strong>13 Dec</strong><br>• Shipped out the Tech Tip and Weekly Progress SME Post<br>• Completed the e2e testing for upcoming release<br>• Downgraded cypress version due to randomly failure",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-15_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-14T19:53:29.231Z",
+    "link": null,
+    "text": "<strong>14th Jan 2025</strong><br>• Pushed Minor Fixes to frontend #9952 , #9963<br>• Setup backend to create dummy data<br>• Tested CARE Partially and worked on docs<br>• Triaged all necessary PR to immediate review and testing<br><strong>Next</strong><br>• Push dummy data to backend<br>• Complete the Happy workflow<br>• Freeze a CARE version and complete the docs<br>• Test all need testing PR&#x27;s\n\n<strong>15th Jan 2025</strong><br>• Pushed cypress test for user creation<br>• Refactored cypress command function<br>• Implemented search debounce management function to bypass cypress inbuilt behavior<br>• Pushed Techtip poster<br>• tested all need testing PR&#x27;s<br><strong>Next</strong><br>• Push dummy data to backend<br>• Add test for questionnaire and say bye to Happy workflow issue (1)<br>• Freeze a CARE version and complete the docs<br>• Test all need testing PR&#x27;s",
     "points": null,
     "meta": null
   },
@@ -979,28 +1001,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-15_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-14T19:53:29.231Z",
-    "link": null,
-    "text": "<strong>14th Jan 2025</strong><br>• Pushed Minor Fixes to frontend #9952 , #9963<br>• Setup backend to create dummy data<br>• Tested CARE Partially and worked on docs<br>• Triaged all necessary PR to immediate review and testing<br><strong>Next</strong><br>• Push dummy data to backend<br>• Complete the Happy workflow<br>• Freeze a CARE version and complete the docs<br>• Test all need testing PR&#x27;s\n\n<strong>15th Jan 2025</strong><br>• Pushed cypress test for user creation<br>• Refactored cypress command function<br>• Implemented search debounce management function to bypass cypress inbuilt behavior<br>• Pushed Techtip poster<br>• tested all need testing PR&#x27;s<br><strong>Next</strong><br>• Push dummy data to backend<br>• Add test for questionnaire and say bye to Happy workflow issue (1)<br>• Freeze a CARE version and complete the docs<br>• Test all need testing PR&#x27;s",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-16_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-16T17:56:21.068Z",
-    "link": null,
-    "text": "<strong>16th Jan 2025</strong><br>• Tested all need testing marked PR&#x27;s<br>• Moved cypress backend from DO to develop branch<br>• Pushed Minor cypress fix to get multiple PR&#x27;s merged<br><strong>Next</strong><br>• Push dummy data to backend<br>• Add test for questionnaire and say bye to Happy workflow issue (1)<br>• Freeze a CARE version and complete the docs<br>• Test all need testing PR&#x27;s",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-01-21_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -1133,6 +1133,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-10_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-10T06:33:12.085Z",
+    "link": null,
+    "text": "Nov 10<br>• Followup with <span class=\"s-mention s-user\">@U07NXCASM89</span> on the observation interpretation<br>• Followup and test P1 issues &amp;amp; PRs<br>• Had a quick test of v3.0.27\n\nNov 10<br>• Followup with <span class=\"s-mention s-user\">@U07NXCASM89</span> on the observation interpretation<br>• Followup and test P1 issues &amp;amp; PRs<br>• Had a quick test of v3.0.27",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-02-20_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -1239,6 +1250,17 @@
     "occured_at": "2025-03-17T19:43:59.513Z",
     "link": null,
     "text": "March 10th - 12th<br>Done<br>• Tested all the open PR&#x27;s<br>• Tested the workflow in mobile devices<br>• Fixed all cypress failure due to recent backend changes<br>• Tested staging release and updated the product board<br>March 13th<br>• Created a custom video on OHC journey for SME and got it rejected <span class=\"s-emoji\">😞</span><br>March 17th<br>• Supported palliative care training @ District Hospital Kasaragod<br>Next<br>• Get back to work and clean all pending works",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-04-21_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-21T01:03:16.249Z",
+    "link": null,
+    "text": "April 17<br>Done<br>• Tested scribe, priority and need testing marked PR&#x27;s<br>• Followed-up with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on MN Migration issues<br>April 21<br>Done<br>• Cleaned up the project board with tonight release<br>• Completed the GSoC Proposal reviews and followed-up with others on the same<br>Next<br>• Get well from red eyes and vision issues<br>• Review all the PR marked need testing<br>• Setup QA board and review existing issue<br>• Discuss and plan next rounds of GSoC proposal review",
     "points": null,
     "meta": null
   },
@@ -1371,17 +1393,6 @@
     "occured_at": "2025-04-15T20:24:20.800Z",
     "link": null,
     "text": "April 14th<br>• Tested the MN Migration with TeleICU and 3.0 workflow combined<br>April 15th<br>• Cleaned the project board<br>• Tested all PR marked need testing<br>• Exported all GSoC Proposal and allocated them to mentors for review<br>Next<br>• Verify MN data migration and test v3.9\n\nApril 16<br>Done<br>• reviewed few PR’s marked need testing<br>• Had the monthly call with cypress product team<br>• Reviewed all MN migration data<br>• Reviewed all changed in v3.0.9<br>Next<br>• GSoC Proposal review<br>• Review all pending PR’s",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-21_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-21T01:03:16.249Z",
-    "link": null,
-    "text": "April 17<br>Done<br>• Tested scribe, priority and need testing marked PR&#x27;s<br>• Followed-up with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on MN Migration issues<br>April 21<br>Done<br>• Cleaned up the project board with tonight release<br>• Completed the GSoC Proposal reviews and followed-up with others on the same<br>Next<br>• Get well from red eyes and vision issues<br>• Review all the PR marked need testing<br>• Setup QA board and review existing issue<br>• Discuss and plan next rounds of GSoC proposal review",
     "points": null,
     "meta": null
   },
@@ -1745,17 +1756,6 @@
     "occured_at": "2025-11-07T04:10:19.450Z",
     "link": null,
     "text": "Nov 7<br>• Followed up with <span class=\"s-mention s-user\">@U07NXCASM89</span> on observation interpretation fix<br>• Tested most of the PR marked need testing and priority<br>• Pushed new playwright test for facility device creation<br>• Followed up on discharge reason custom behaviour with <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> <br>Next<br>• Followed up on the scribe with <span class=\"s-mention s-user\">@U02TB83Q5V0</span><br>• Wrap up the new testing doc<br>• Look into social media plan\n\nNov 7<br>• Followed up with <span class=\"s-mention s-user\">@U07NXCASM89</span> on observation interpretation fix<br>• Tested most of the PR marked need testing and priority<br>• Pushed new playwright test for facility device creation<br>• Followed up on discharge reason custom behaviour with <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> <br>Next<br>• Followed up on the scribe with <span class=\"s-mention s-user\">@U02TB83Q5V0</span><br>• Wrap up the new testing doc<br>• Look into social media plan",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-10_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-10T06:33:12.085Z",
-    "link": null,
-    "text": "Nov 10<br>• Followup with <span class=\"s-mention s-user\">@U07NXCASM89</span> on the observation interpretation<br>• Followup and test P1 issues &amp;amp; PRs<br>• Had a quick test of v3.0.27\n\nNov 10<br>• Followup with <span class=\"s-mention s-user\">@U07NXCASM89</span> on the observation interpretation<br>• Followup and test P1 issues &amp;amp; PRs<br>• Had a quick test of v3.0.27",
     "points": null,
     "meta": null
   },
