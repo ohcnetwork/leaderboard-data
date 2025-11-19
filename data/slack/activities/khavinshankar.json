@@ -209,6 +209,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-13_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-13T18:06:46.110Z",
+    "link": null,
+    "text": "May 13<br>• Fixed production knowlege edit form<br>• Few minor ui improvements<br>• ABDM demographic auth demo<br>• Fixed styling and dependency conflicts in hcx<br>Next<br>• Fix abdm path issue in staging and get demographic auth tested by Nihal<br>• Integrate charge items into hcx workflow<br>• Follow up on hcx callback issue<br>• Connect with Siva on ABDM PHR GSoC planning",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-16_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-15T19:11:27.929Z",
+    "link": null,
+    "text": "May 15<br>• Fixed hcx fhir mapping mismatches<br>• Planned out integrating charge items into hcx claims flow along with other details like care_team, diagnosis, ...<br>Next<br>• Make changes to abha number linking ui suggested by Vinu<br>• Biometrics auth in abdm<br>• Integrate charge items into hcx workflow<br>• Review PHR Enrollment PR by Siva",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-25_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -308,6 +330,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-15_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-14T19:23:28.474Z",
+    "link": null,
+    "text": "May 14<br>• ABDM PHR (GSoC): Call with Siva to plan this week and next week<br>• Fixed static file path issue in abdm<br>• Minor ui fix suggested by Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12251\">#12251</a><br>• Synced changes suggested in demographic auth across v3 and v2<br>• Huddle with Nihal to test abdm demographic auth<br>• Followed up with hcx team to fix coverage eligibility callback issue<br>• Added conditional check to hide demographic auth for instances without benefit id<br>• Huddle with Vinu to discuss abha number linking ui<br>Next<br>• Fix hcx fhir mapping mismatches<br>• Integrate charge items into hcx workflow<br>• Make changes to abha number linking ui suggested by Vinu",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-09_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -403,39 +436,6 @@
     "occured_at": "2025-03-24T13:40:41.216Z",
     "link": null,
     "text": "24th March<br>• Weekly engineering sync<br>• Fixed i18n config for plugs<br>• Added support for questionnaire responses print in org routes<br>• Randomly reviewed PRs<br>• Partially added translations to teleicu devices plug",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-13_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-13T18:06:46.110Z",
-    "link": null,
-    "text": "May 13<br>• Fixed production knowlege edit form<br>• Few minor ui improvements<br>• ABDM demographic auth demo<br>• Fixed styling and dependency conflicts in hcx<br>Next<br>• Fix abdm path issue in staging and get demographic auth tested by Nihal<br>• Integrate charge items into hcx workflow<br>• Follow up on hcx callback issue<br>• Connect with Siva on ABDM PHR GSoC planning",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-15_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-14T19:23:28.474Z",
-    "link": null,
-    "text": "May 14<br>• ABDM PHR (GSoC): Call with Siva to plan this week and next week<br>• Fixed static file path issue in abdm<br>• Minor ui fix suggested by Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12251\">#12251</a><br>• Synced changes suggested in demographic auth across v3 and v2<br>• Huddle with Nihal to test abdm demographic auth<br>• Followed up with hcx team to fix coverage eligibility callback issue<br>• Added conditional check to hide demographic auth for instances without benefit id<br>• Huddle with Vinu to discuss abha number linking ui<br>Next<br>• Fix hcx fhir mapping mismatches<br>• Integrate charge items into hcx workflow<br>• Make changes to abha number linking ui suggested by Vinu",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-16_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-15T19:11:27.929Z",
-    "link": null,
-    "text": "May 15<br>• Fixed hcx fhir mapping mismatches<br>• Planned out integrating charge items into hcx claims flow along with other details like care_team, diagnosis, ...<br>Next<br>• Make changes to abha number linking ui suggested by Vinu<br>• Biometrics auth in abdm<br>• Integrate charge items into hcx workflow<br>• Review PHR Enrollment PR by Siva",
     "points": null,
     "meta": null
   },
@@ -568,6 +568,17 @@
     "occured_at": "2025-11-18T03:16:31.605Z",
     "link": null,
     "text": "Nov 17<br>• Addressed minor P1 issues (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14386\">#14386</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14383\">#14383</a>, and <a href=\"https://github.com/ohcnetwork/care_fe/pull/14379\">#14379</a>)<br>• Cleaned up <a href=\"https://github.com/10bedicu/care_abdm/pull/44\">#44</a> (ABHA number patient identifier) and merged it<br>• Synced develop and phr branches and fixed migration conflicts in phr branch<br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-19_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-19T06:11:02.262Z",
+    "link": null,
+    "text": "Nov 18<br>• Went through UHI and possible integration with scheduling module<br>• gracefully handle runtime errors from plugins <a href=\"https://github.com/ohcnetwork/care_fe/pull/14422\">#14422</a><br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
     "points": null,
     "meta": null
   }

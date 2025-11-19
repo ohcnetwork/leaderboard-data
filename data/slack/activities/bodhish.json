@@ -99,6 +99,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-02_bodhish",
+    "contributor": "bodhish",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-02T08:10:54.181Z",
+    "link": null,
+    "text": "<strong>Last many day’s</strong> <br>• Rebuild care fully, anything that’s pending will also be cleaned up. <br><strong>Next</strong><br>• Assets Page rebuild with FHIR device<br>• Create new UX for Death Report <br>• Discharge Summary <br>• Convert Virtual nursing assistant to create observations<br>• Move Hl7 Monitor as a Plug<br>• Move Camera and Config into Plug<br>• Alternative for investigations <br>• Rebuild Notifications <br>• Location <br>• Bed<br>• Bed Activity timeline<br>• Pressure sore diagram<br>• Pain Diagram<br>• Nerological monitoring <br>• Facility inventory <br>• Doctor notes?<br>• Prescription Print preview<br>• Spoke facilities <br>• mews<br>• Camera Feed<br>• Push Notifications <br>• Notice Board<br>• Create encounter end button",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-22_bodhish",
     "contributor": "bodhish",
     "activity_definition": "eod_update",
@@ -161,6 +172,17 @@
     "occured_at": "2024-11-29T20:55:22.535Z",
     "link": null,
     "text": "<strong>29th November</strong><br><strong>Done</strong><br>• Followed up with Lab teams to get the size of thermal printed stickers and details of QR code scanner <br>• Followed up with another lab to get a demo of their systems in Kochi, connected via Dr. Athul<br>• Created a viewer and form for the FHIR questionnaire based on the API&#x27;s that Vignesh created, mostly done by AI which needs to be refactored <br>• Reviewed couple of PR&#x27;s and responded to questions across Slack, Whatsapp and GitHub<br>• Spend a long time checking out spaces to work out of in Kochi along Gigin and Aravind<br>• Reviewed changes made by Bhamni team on Medispeak <br>• Shared the DO docs with Digital Ocean and got it posted on our linked based on a request from DO team. <br>• Sync with Rajesh on multiple admin related topics<br>• Updated cursorrules, all our custom hooks are becoming an issue with AI generated code. <br><strong>Next</strong><br>• Create a stable form builder for the FHIR Form",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-06_bodhish",
+    "contributor": "bodhish",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-06T11:41:14.419Z",
+    "link": null,
+    "text": "<em>Missing logs for the previous days, mostly fixing issues and building fancy features</em> <br><strong>Jan 6<br>Done</strong><br>• Added permission check logic to organisation layout for nav buttons <br>• Reviewed, updated and merged patient notes in encounter <br>• disabled encounter create button on save <br>• added encounter id to all requests in encounter show page<br>• Added a public flag for facility and recreated the facility create form<br>• Reviewed issues and PRs<br>• Participated on the engineering review call<br>• Long debugging with Aravind, Vignesh, Athul dr and Gigin <br>• Reached out to Kai from snowstorm on issues we are facing <br>• Call with Sanjay and Balaji on progress <br>• Lot of minor fixes on the new pages <br>• Looked into FHIR consent and procedures, looks like we will have to build it out. <br>Next <br>Unlock everything blocking the launch",
     "points": null,
     "meta": null
   },
@@ -260,28 +282,6 @@
     "occured_at": "2024-12-23T15:00:02.692Z",
     "link": null,
     "text": "23 December <br>Done<br>• Participated on the engineering review call<br>• Reviewed multiple PRs<br>• Added a description field for facility with markdown support <br>• Long review call with Srikanth <br>• Sync with Vignesh on security <br>• Sync with <span class=\"s-mention s-user\">@UC9JELJEP</span> on 1password and tf<br>• Sync with Athul dr on progress <br>• Multiple calls with Gigin <br>Next <br>• continue clean up",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-02_bodhish",
-    "contributor": "bodhish",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-02T08:10:54.181Z",
-    "link": null,
-    "text": "<strong>Last many day’s</strong> <br>• Rebuild care fully, anything that’s pending will also be cleaned up. <br><strong>Next</strong><br>• Assets Page rebuild with FHIR device<br>• Create new UX for Death Report <br>• Discharge Summary <br>• Convert Virtual nursing assistant to create observations<br>• Move Hl7 Monitor as a Plug<br>• Move Camera and Config into Plug<br>• Alternative for investigations <br>• Rebuild Notifications <br>• Location <br>• Bed<br>• Bed Activity timeline<br>• Pressure sore diagram<br>• Pain Diagram<br>• Nerological monitoring <br>• Facility inventory <br>• Doctor notes?<br>• Prescription Print preview<br>• Spoke facilities <br>• mews<br>• Camera Feed<br>• Push Notifications <br>• Notice Board<br>• Create encounter end button",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-06_bodhish",
-    "contributor": "bodhish",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-06T11:41:14.419Z",
-    "link": null,
-    "text": "<em>Missing logs for the previous days, mostly fixing issues and building fancy features</em> <br><strong>Jan 6<br>Done</strong><br>• Added permission check logic to organisation layout for nav buttons <br>• Reviewed, updated and merged patient notes in encounter <br>• disabled encounter create button on save <br>• added encounter id to all requests in encounter show page<br>• Added a public flag for facility and recreated the facility create form<br>• Reviewed issues and PRs<br>• Participated on the engineering review call<br>• Long debugging with Aravind, Vignesh, Athul dr and Gigin <br>• Reached out to Kai from snowstorm on issues we are facing <br>• Call with Sanjay and Balaji on progress <br>• Lot of minor fixes on the new pages <br>• Looked into FHIR consent and procedures, looks like we will have to build it out. <br>Next <br>Unlock everything blocking the launch",
     "points": null,
     "meta": null
   },
