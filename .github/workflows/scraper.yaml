@@ -35,6 +35,13 @@ jobs:
       SLACK_CHANNEL: ${{ vars.SLACK_EOD_CHANNEL }}
 
     steps:
+      - name: Authenticate as leaderboard-bot[bot]
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.LEADERBOARD_BOT_ID }}
+          private-key: ${{ secrets.LEADERBOARD_BOT_PRIVATE_KEY }}
+
       - name: 📥 Checkout Leaderboard
         uses: actions/checkout@v5
         with:
@@ -61,7 +68,8 @@ jobs:
         with:
           path: ${{ env.LEADERBOARD_DATA_PATH }}
           fetch-depth: 1
-          persist-credentials: true
+          persist-credentials: false
+          token: ${{ steps.app-token.outputs.token }}
 
       - name: 📦 Setup pnpm
         uses: pnpm/action-setup@v4
@@ -120,8 +128,8 @@ jobs:
 
       - name: Setup Git Identity
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "leaderboard-bot[bot]"
+          git config --global user.email "${{ vars.LEADERBOARD_BOT_ID }}+leaderboard-bot[bot]@users.noreply.github.com"
 
       - name: 📤 Commit and Push Changes to Leaderboard Data
         run: |
