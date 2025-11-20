@@ -83,6 +83,11 @@ jobs:
             pnpm db:import
           done
 
+          for repo in ${{ env.SCRAPER_PATHS }}; do
+            cd $repo
+            pnpm db:pre-build
+          done
+
       - name: 🛠️ Build Leaderboard
         working-directory: ${{ env.LEADERBOARD_PATH }}
         env:
