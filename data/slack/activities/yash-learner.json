@@ -253,6 +253,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-15_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-15T00:40:58.256Z",
+    "link": null,
+    "text": "<strong>January 13</strong><br>• Participated in Weekly engineering review call.<br>• Going through &amp; understanding labs BE updated changes and updating the Labs FE and continued refactoring based on suggestions.<br>• Calls with Khavin  regarding Labs updates, BE errors and debugging.<br>• Had a call with Anagha regarding an issue she was facing with patient registration form.<br><strong>January 14</strong><br>• Went through review comments on Labs FE PR.<br>• Calls with Khavin on review comments &amp; required backend changes.<br>• Fixing review comments and refactor, extraction cleanup, fixing merge conflicts and wiring.<br>• Joined Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Try completing required things for merging the Labs FE.<br>• Try github copilot workspace to generate the i18ln strings across Labs FE. Also try cursor sometime this week.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-16_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -337,17 +348,6 @@
     "occured_at": "2025-01-11T01:31:54.483Z",
     "link": null,
     "text": "<strong>January 07 - 10</strong><br>• Joined Weekly call.<br>• DPG review call<br>• Continued working on  Labs<br>    ◦ lot of refactor and rewiring and wiring things <br>    ◦ Calls with Khavin on debugging backend errors/clearing questions and made some changes.<br>    ◦ Made ServiceRequestTimeline component to support multiple active orders.<br>    ◦ Understanding lot of code and working of packages.<br>    ◦ Replacing requests/useQuery with tanstack useMutation/useQuery.<br>    ◦ Replacing and using zod and useForm.<br>    ◦ For the first time looked into Hl7 to understand condition in specimen and wired it.<br>    ◦ Sync with Khavin on new BE changes.<br><strong>Next</strong><br>Starting of next week can be slow.<br>• Understand new BE changes and update the labs FE and finish refactor.<br>• Fix merge conflicts in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9711\">PR#9711</a>.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-15_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-15T00:40:58.256Z",
-    "link": null,
-    "text": "<strong>January 13</strong><br>• Participated in Weekly engineering review call.<br>• Going through &amp; understanding labs BE updated changes and updating the Labs FE and continued refactoring based on suggestions.<br>• Calls with Khavin  regarding Labs updates, BE errors and debugging.<br>• Had a call with Anagha regarding an issue she was facing with patient registration form.<br><strong>January 14</strong><br>• Went through review comments on Labs FE PR.<br>• Calls with Khavin on review comments &amp; required backend changes.<br>• Fixing review comments and refactor, extraction cleanup, fixing merge conflicts and wiring.<br>• Joined Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Try completing required things for merging the Labs FE.<br>• Try github copilot workspace to generate the i18ln strings across Labs FE. Also try cursor sometime this week.",
     "points": null,
     "meta": null
   },
@@ -528,6 +528,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-22_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-22T02:58:47.112Z",
+    "link": null,
+    "text": "<strong>April 21</strong><br>• Attended engineering review call.<br>• Fixed review comments on  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11993\">PR#11993</a> from Jeevan.<br>• Daily huddle with Amjith.<br>• Worked on <a href=\"https://github.com/ohcnetwork/care_fe/issues/11730\">issue#11730</a> <br>    ◦ Moved dialog to a sheet.<br>    ◦ Wired to call verification endpoint, <a href=\"https://github.com/ohcnetwork/care_fe/issues/12042\">issue#12042</a>.<br>    ◦ Some other minor changes which I do not remember.<br>• Long huddle with Vinu for getting feedback on design and style on. <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033\">PR#12033</a>.<br>• GDC<br>    ◦ Looked into why VTA stopped reporting grading/feedback to LMS and looped in Bodhi to check some things on github org and possible reasons why it stopped and we made a fix.<br>    ◦ Re-triggered runs from backend for pending submissions so that VTA will review and grade them.<br>    ◦ Replied to all the pending support emails.<br>    ◦ Looked into a old capstone submission pending made back in October during pause and added additional feedback.<br><strong>Next</strong><br><em>Short on energy</em> <br>• Wrap up <a href=\"https://github.com/ohcnetwork/care_fe/issues/11730\">issue#11730</a>, Fix the crash that is happening with filepreview with pdf<br>• File issues, <a href=\"https://github.com/ohcnetwork/care_fe/issues/12042\">issue#12042</a> ,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/12041\">issue#12041</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/12045\">issue#12045</a><br>• Clear <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1745269867137029?thread_ts=1744207192.430929&amp;cid=C06KGMUAB0V\">Q/</a>.<br>• Review remaining gsoc proposals.<br>• Sync with Vinu and Amjith.<br>• Send the GDC session mailer to GDC students and look into a GDC chore",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-02_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -660,6 +671,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-30_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-30T08:21:25.071Z",
+    "link": null,
+    "text": "<strong>May 28</strong><br>• Reopened one of my stale PR and discussion with Amjith about it.<br>• Long pair debugging and pair coding with Abhimanyu (<em>It&#x27;s been a while I debugged and pair coded for this long with a Human</em> <span class=\"s-emoji\">😅</span><em>,..it was fun because it been mostly me &amp; LLM&#x27;s)</em><br>    ◦ Some issues with <code>SDF</code> , which I taken over.<br>    ◦ import questionnaire error, and it turned out to be <code>CORS</code> error figured out how to import a JSON using url, eventually raw github url worked.<br>    ◦ Questionnaire editor Form not getting submitted after import it turned out to be state sync issue between <code>RHF</code> and <code>useState</code><br>    ◦ Repeatable options not working - because of missing unique <code>id</code>&#x27;s for newly added options.<br>    ◦ Guided him on creating some issues.<br>• Quick DPG review call.<br>• Replied to some GDC support emails and looked into Suma&#x27;s question and went through some targets and automated tests. - (Didn&#x27;t reply yet, need to)<br>• Started working on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a><br><strong>May 29</strong><br>• Quick GSoC chat with Spandan<br>• Completed <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a> and tested it and at same time playing with types.<br>• Replied to some messages on slack and a review comment on a PR.<br>• Huddle with Abhimanyu<br>    ◦ Regarding testing of <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a> and replication of a bug<br>    ◦ debugging a issue with SR update, it turned out to be a <code>BE</code> issue.<br>• Async chat with Aravind regarding the <code>GDC</code> task and upcoming steps.<br><br><strong>Next</strong><br>• Send out the email draft prepared by Aravind to GDC-KTU students.<br>• Create andShare the data asked by Suma.<br>• Reply to GDC support emails.<br>• Fix <code>rc</code> on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a><br>• Discuss with Bodhi - GDC task.<br>• Merge my stale PR.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-04_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -722,28 +744,6 @@
     "occured_at": "2025-04-16T06:29:40.389Z",
     "link": null,
     "text": "<strong>April 16</strong><br>• Fixed <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642#issuecomment-2807315220\">tiny bugs</a> reported by Nihal in <a href=\"https://github.com/ohcnetwork/care_fe/pull/11740#commits-pushed-87bcdbd\">PR#11740</a> and some testing.<br>• Quick huddle with Nihal and Shivank regarding GSoC proposal reviews.<br>• Daily sync huddle with Amjith and discussion regarding my open PR&#x27;s.<br>• DPG review call.<br>• Huddle with Jeevan regarding consents API.<br>• Worked for a while on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11740#commits-pushed-87bcdbd\">PR#11740</a>.<br>• Huddle with Gigin regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>, decided to close it and open a new PR.<br>• Worked for a while on opening a new PR for <span class=\"s-emoji\">☝️</span>.<br>• Reviewed nearly half of GSoC proposal assigned  to me.<br><strong>Next</strong><br>• Work on my open PR&#x27;s.<br>• Review remaining GSoC proposals.<br>• Reply to GDC support emails.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-22_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-22T02:58:47.112Z",
-    "link": null,
-    "text": "<strong>April 21</strong><br>• Attended engineering review call.<br>• Fixed review comments on  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11993\">PR#11993</a> from Jeevan.<br>• Daily huddle with Amjith.<br>• Worked on <a href=\"https://github.com/ohcnetwork/care_fe/issues/11730\">issue#11730</a> <br>    ◦ Moved dialog to a sheet.<br>    ◦ Wired to call verification endpoint, <a href=\"https://github.com/ohcnetwork/care_fe/issues/12042\">issue#12042</a>.<br>    ◦ Some other minor changes which I do not remember.<br>• Long huddle with Vinu for getting feedback on design and style on. <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033\">PR#12033</a>.<br>• GDC<br>    ◦ Looked into why VTA stopped reporting grading/feedback to LMS and looped in Bodhi to check some things on github org and possible reasons why it stopped and we made a fix.<br>    ◦ Re-triggered runs from backend for pending submissions so that VTA will review and grade them.<br>    ◦ Replied to all the pending support emails.<br>    ◦ Looked into a old capstone submission pending made back in October during pause and added additional feedback.<br><strong>Next</strong><br><em>Short on energy</em> <br>• Wrap up <a href=\"https://github.com/ohcnetwork/care_fe/issues/11730\">issue#11730</a>, Fix the crash that is happening with filepreview with pdf<br>• File issues, <a href=\"https://github.com/ohcnetwork/care_fe/issues/12042\">issue#12042</a> ,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/12041\">issue#12041</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/12045\">issue#12045</a><br>• Clear <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1745269867137029?thread_ts=1744207192.430929&amp;cid=C06KGMUAB0V\">Q/</a>.<br>• Review remaining gsoc proposals.<br>• Sync with Vinu and Amjith.<br>• Send the GDC session mailer to GDC students and look into a GDC chore",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-30_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-30T08:21:25.071Z",
-    "link": null,
-    "text": "<strong>May 28</strong><br>• Reopened one of my stale PR and discussion with Amjith about it.<br>• Long pair debugging and pair coding with Abhimanyu (<em>It&#x27;s been a while I debugged and pair coded for this long with a Human</em> <span class=\"s-emoji\">😅</span><em>,..it was fun because it been mostly me &amp; LLM&#x27;s)</em><br>    ◦ Some issues with <code>SDF</code> , which I taken over.<br>    ◦ import questionnaire error, and it turned out to be <code>CORS</code> error figured out how to import a JSON using url, eventually raw github url worked.<br>    ◦ Questionnaire editor Form not getting submitted after import it turned out to be state sync issue between <code>RHF</code> and <code>useState</code><br>    ◦ Repeatable options not working - because of missing unique <code>id</code>&#x27;s for newly added options.<br>    ◦ Guided him on creating some issues.<br>• Quick DPG review call.<br>• Replied to some GDC support emails and looked into Suma&#x27;s question and went through some targets and automated tests. - (Didn&#x27;t reply yet, need to)<br>• Started working on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a><br><strong>May 29</strong><br>• Quick GSoC chat with Spandan<br>• Completed <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a> and tested it and at same time playing with types.<br>• Replied to some messages on slack and a review comment on a PR.<br>• Huddle with Abhimanyu<br>    ◦ Regarding testing of <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a> and replication of a bug<br>    ◦ debugging a issue with SR update, it turned out to be a <code>BE</code> issue.<br>• Async chat with Aravind regarding the <code>GDC</code> task and upcoming steps.<br><br><strong>Next</strong><br>• Send out the email draft prepared by Aravind to GDC-KTU students.<br>• Create andShare the data asked by Suma.<br>• Reply to GDC support emails.<br>• Fix <code>rc</code> on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a><br>• Discuss with Bodhi - GDC task.<br>• Merge my stale PR.",
     "points": null,
     "meta": null
   },
@@ -1408,6 +1408,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-10-21_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-21T06:49:29.890Z",
+    "link": null,
+    "text": "<strong>October 15-17</strong><br>• Reviewed and merged contributors PR&#x27;s and triaged some issues.<br>• Merged PR#13918, PR#13839, PR#14058.<br>• Huddle with Areeb for testing PR#14063, PR#14067 -- Which would automatically set sprint and team when a PR is opened and adds label <code>changes required</code> and removes <code>needs review</code>  when changes are requested.<br>•  and later huddle for debugging why workflow is failing for non-core and fixed some of them and later reading  a bit about actions.<br>• Fixed review comments from Gigin on PR#13568.<br>• Spent sometime exploring whether valueset filtering is working based on displayLanguage<br>• Read a bit about valuesets <br>• Some huddles and discussion with Khavin while reviewing PR&#x27;s<br>• EOD calls, DPG review.<br>• Debugging <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760548325578259\">tag error on patient home</a><br><strong>Next</strong><br>• Engg review call.<br>• Fix merge conflicts <br>• Sync with Vinu, Manyu\n\n<strong>October 15-17</strong><br>• Reviewed and merged contributors PR&#x27;s and triaged some issues.<br>• Merged PR#13918, PR#13839, PR#14058.<br>• Huddle with Areeb for testing PR#14063, PR#14067 -- Which would automatically set sprint and team when a PR is opened and adds label <code>changes required</code> and removes <code>needs review</code>  when changes are requested.<br>•  and later huddle for debugging why workflow is failing for non-core and fixed some of them and later reading  a bit about actions.<br>• Fixed review comments from Gigin on PR#13568.<br>• Spent sometime exploring whether valueset filtering is working based on displayLanguage<br>• Read a bit about valuesets <br>• Some huddles and discussion with Khavin while reviewing PR&#x27;s<br>• EOD calls, DPG review.<br>• Debugging <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760548325578259\">tag error on patient home</a><br><strong>Next</strong><br>• Engg review call.<br>• Fix merge conflicts <br>• Sync with Vinu, Manyu",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-10-08_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1459,17 +1470,6 @@
     "occured_at": "2025-10-15T06:45:00.808Z",
     "link": null,
     "text": "<strong>October 13</strong><br>• Engineering review call.<br>• Reviewed PR&#x27;s &amp;amp; triaged some issues and quick <a href=\"https://github.com/ohcnetwork/care_fe/tree/quick-check-if-we-can-reuse-lms-for-13934\">play</a> whether <code>LocationMultiSelect</code> and <code>RequirementsSelector</code> be used in payment location picker instead of all new component while having glance on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13934\">PR#13934</a>.<br>• Addressed review <a href=\"https://github.com/ohcnetwork/care_fe/pull/13839#discussion_r2421664742\">comment</a> from Aditya and follow up huddles for testing some things based on changes made.<br>• Answered Anagha&#x27;s question regarding valueset rules and filters and then reading about them with chatgpt.<br>• Async discussion with Bodhi regarding actions button under some tables.<br>• Replying some questions on slack.<br>• ...<br><strong>October 14</strong><br>• Tuesday&#x27;s weekly call.<br>• Reviewed PR&#x27;s<br>• Had a call with Areeb for testing and merging of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14024\">PR#14024</a> and discussion around <a href=\"https://github.com/ohcnetwork/care_fe/issues/14018\">issue#14018</a>.<br>• Huddle with Praff regarding a deadlock <a href=\"https://coronasafe-network.sentry.io/issues/6595025446/?project=5182842&amp;amp;query=is%3Aunresolved%20deadlock&amp;amp;referrer=issue-stream\">issue</a>.<br>• Made  <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a>.<br>• Huddle with Siddanth regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13934/files/ee1317336514bc7cb7ba15d729c6fe24463fb28a#r2426676356\">[1]</a> and some PR review.<br>• As usual clearing merge conflicts on PR&#x27;s <br><strong>Next</strong><br>• Review PR&#x27;s<br>• Get some of my PR&#x27;s merged<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-21_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-21T06:49:29.890Z",
-    "link": null,
-    "text": "<strong>October 15-17</strong><br>• Reviewed and merged contributors PR&#x27;s and triaged some issues.<br>• Merged PR#13918, PR#13839, PR#14058.<br>• Huddle with Areeb for testing PR#14063, PR#14067 -- Which would automatically set sprint and team when a PR is opened and adds label <code>changes required</code> and removes <code>needs review</code>  when changes are requested.<br>•  and later huddle for debugging why workflow is failing for non-core and fixed some of them and later reading  a bit about actions.<br>• Fixed review comments from Gigin on PR#13568.<br>• Spent sometime exploring whether valueset filtering is working based on displayLanguage<br>• Read a bit about valuesets <br>• Some huddles and discussion with Khavin while reviewing PR&#x27;s<br>• EOD calls, DPG review.<br>• Debugging <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760548325578259\">tag error on patient home</a><br><strong>Next</strong><br>• Engg review call.<br>• Fix merge conflicts <br>• Sync with Vinu, Manyu\n\n<strong>October 15-17</strong><br>• Reviewed and merged contributors PR&#x27;s and triaged some issues.<br>• Merged PR#13918, PR#13839, PR#14058.<br>• Huddle with Areeb for testing PR#14063, PR#14067 -- Which would automatically set sprint and team when a PR is opened and adds label <code>changes required</code> and removes <code>needs review</code>  when changes are requested.<br>•  and later huddle for debugging why workflow is failing for non-core and fixed some of them and later reading  a bit about actions.<br>• Fixed review comments from Gigin on PR#13568.<br>• Spent sometime exploring whether valueset filtering is working based on displayLanguage<br>• Read a bit about valuesets <br>• Some huddles and discussion with Khavin while reviewing PR&#x27;s<br>• EOD calls, DPG review.<br>• Debugging <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760548325578259\">tag error on patient home</a><br><strong>Next</strong><br>• Engg review call.<br>• Fix merge conflicts <br>• Sync with Vinu, Manyu",
     "points": null,
     "meta": null
   },

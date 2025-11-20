@@ -517,6 +517,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#13916",
+    "contributor": "nandkishorr",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #13916",
+    "occured_at": "2025-10-01T13:58:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13916",
+    "text": "Navigation bug in Tag Config component on mobile: entire card navigates instead of only the View button",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_supply_delivery/delivery_orders/filters_c28251415ff68a19bfc9326d1d1d206fd2ff5009",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -1107,17 +1118,6 @@
     "occured_at": "2025-09-29T07:44:15.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13872",
     "text": "Change Payment Page Cancel/Error Buttons to Use Cancel API Endpoint",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#13916",
-    "contributor": "nandkishorr",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #13916",
-    "occured_at": "2025-10-01T13:58:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13916",
-    "text": "Navigation bug in Tag Config component on mobile: entire card navigates instead of only the View button",
     "points": null,
     "meta": {}
   },
@@ -2585,6 +2585,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_test/token_queue_610a4b91225c9f43143f89b9a1673440f21a3140",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to test/token_queue",
+    "occured_at": "2025-11-10T12:23:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/610a4b91225c9f43143f89b9a1673440f21a3140",
+    "text": "Test cases for the roles api (#3067)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_b1bb1c35727db1440e6f52f28ff87a1c9c168362",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -2856,17 +2867,6 @@
     "occured_at": "2025-11-10T12:29:49.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/9ea179e2c83d58df5bcccd67b5e134814882ec4e",
     "text": "Test cases for supply request api (#3314)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_test/token_queue_610a4b91225c9f43143f89b9a1673440f21a3140",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to test/token_queue",
-    "occured_at": "2025-11-10T12:23:25.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/610a4b91225c9f43143f89b9a1673440f21a3140",
-    "text": "Test cases for the roles api (#3067)",
     "points": null,
     "meta": {}
   },
@@ -3201,28 +3201,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3338",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3338",
-    "occured_at": "2025-11-03T13:47:49.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3338",
-    "text": "Test cases for token category api",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3353",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3353",
-    "occured_at": "2025-11-10T21:05:57.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3353",
-    "text": "Test cases for Token sub queue api",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3231",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -3278,17 +3256,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3330",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3330",
-    "occured_at": "2025-10-29T12:01:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3330",
-    "text": "Test cases for dispense order api",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3348",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -3311,17 +3278,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3366",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3366",
-    "occured_at": "2025-11-19T08:47:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3366",
-    "text": "Added date filter to account api",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3120",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -3340,6 +3296,226 @@
     "occured_at": "2025-07-12T06:36:32.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3120#pullrequestreview-3012740500",
     "text": "fix:added field validator for onset datatime in allergy intolerance",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_odoo_be#1",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1",
+    "occured_at": "2025-11-19T08:49:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
+    "text": "Initial plugin setup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_odoo_be#1",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1",
+    "occured_at": "2025-11-20T10:25:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
+    "text": "Initial plugin setup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_a799b4f684a49b784001ec589b2d4e06614866c6",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-11-19T05:53:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/commit/a799b4f684a49b784001ec589b2d4e06614866c6",
+    "text": "plugin implemented",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_3c03a9998aac74d35ea2c7ab2fa5990b6824e734",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-11-19T08:15:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/commit/3c03a9998aac74d35ea2c7ab2fa5990b6824e734",
+    "text": "updated readme",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_84a15b42f5607aaf9cf355e11e58f71a0b6deeb0",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-11-19T08:20:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/commit/84a15b42f5607aaf9cf355e11e58f71a0b6deeb0",
+    "text": "Revise Care Odoo configuration details in README",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3330",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3330",
+    "occured_at": "2025-10-29T12:01:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3330",
+    "text": "Test cases for dispense order api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3330",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3330",
+    "occured_at": "2025-11-20T10:21:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3330",
+    "text": "Test cases for dispense order api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3338",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3338",
+    "occured_at": "2025-11-03T13:47:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3338",
+    "text": "Test cases for token category api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3338",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3338",
+    "occured_at": "2025-11-20T10:18:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3338",
+    "text": "Test cases for token category api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3353",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3353",
+    "occured_at": "2025-11-10T21:05:57.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3353",
+    "text": "Test cases for Token sub queue api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3353",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3353",
+    "occured_at": "2025-11-20T10:18:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3353",
+    "text": "Test cases for Token sub queue api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3366",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3366",
+    "occured_at": "2025-11-19T08:47:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3366",
+    "text": "Added date filter to account api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3366_COMMENTED_PRR_kwDODsgdF87PyJQ6",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3366",
+    "occured_at": "2025-11-20T07:07:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3366#pullrequestreview-3486028858",
+    "text": "Added date filter to account api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_a05ec28c0f595ab50f293eafa264820df3f7ada2",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-11-20T10:21:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/a05ec28c0f595ab50f293eafa264820df3f7ada2",
+    "text": "Test cases for dispense order api (#3330)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_439216980a3ab7b3597bbf6026b3142691890cf6",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-11-20T10:18:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/439216980a3ab7b3597bbf6026b3142691890cf6",
+    "text": "Test cases for token category api (#3338)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_7eaf20729983ece9bdfa293895f7b7e0e0987170",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-11-20T10:18:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/7eaf20729983ece9bdfa293895f7b7e0e0987170",
+    "text": "Test cases for Token sub queue api (#3353)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_account/date_filter_857aae09f4e4aeb98a8c034ca197f4092423fc61",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to account/date_filter",
+    "occured_at": "2025-11-20T07:03:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/857aae09f4e4aeb98a8c034ca197f4092423fc61",
+    "text": "Merge branch 'account/date_filter' of https://github.com/ohcnetwork/care into account/date_filter",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_account/date_filter_9e015aed5f5625e06ba1c39012c679104dca3da1",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to account/date_filter",
+    "occured_at": "2025-11-20T07:05:24.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/9e015aed5f5625e06ba1c39012c679104dca3da1",
+    "text": "Merge branch 'account/date_filter' of https://github.com/ohcnetwork/care into account/date_filter",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_account/date_filter_e1aa7f867306d154a1d411438ea80d5a26d65b69",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to account/date_filter",
+    "occured_at": "2025-11-20T07:01:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/e1aa7f867306d154a1d411438ea80d5a26d65b69",
+    "text": "added date filter",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_account/date_filter_5b8684fa6baeff484dc7f0f2803010a8c3b09827",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to account/date_filter",
+    "occured_at": "2025-11-20T07:02:24.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/5b8684fa6baeff484dc7f0f2803010a8c3b09827",
+    "text": "Merge branch 'account/date_filter' of https://github.com/ohcnetwork/care into account/date_filter",
     "points": null,
     "meta": {}
   }

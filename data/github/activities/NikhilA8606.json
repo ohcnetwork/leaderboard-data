@@ -4422,6 +4422,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#13982",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13982",
+    "occured_at": "2025-10-07T12:01:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13982",
+    "text": "Added Pagination for encounter list in PatientHome",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14268_COMMENTED_PRR_kwDODtfaXs7NJtoN",
     "contributor": "NikhilA8606",
     "activity_definition": "pr_reviewed",
@@ -4752,6 +4763,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_landing#96",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #96",
+    "occured_at": "2025-10-29T14:24:19.000Z",
+    "link": "https://github.com/ohcnetwork/landing/pull/96",
+    "text": "Updated plugins ui",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13912_COMMENTED_PRR_kwDODtfaXs7HRzv0",
     "contributor": "NikhilA8606",
     "activity_definition": "pr_reviewed",
@@ -5078,17 +5100,6 @@
     "occured_at": "2025-10-07T12:33:19.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13986",
     "text": "Removed unwanted file",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#13982",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13982",
-    "occured_at": "2025-10-07T12:01:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13982",
-    "text": "Added Pagination for encounter list in PatientHome",
     "points": null,
     "meta": {}
   },
@@ -8514,17 +8525,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_landing#96",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #96",
-    "occured_at": "2025-10-29T14:24:19.000Z",
-    "link": "https://github.com/ohcnetwork/landing/pull/96",
-    "text": "Updated plugins ui",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_landing#100",
     "contributor": "NikhilA8606",
     "activity_definition": "pr_opened",
@@ -8910,50 +8910,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#13842_APPROVED_PRR_kwDODtfaXs7PkcWc",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #13842",
-    "occured_at": "2025-11-19T12:24:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13842#pullrequestreview-3482437020",
-    "text": "observation interpretation: form integration/errors and styling",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14434",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14434",
-    "occured_at": "2025-11-19T12:16:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14434",
-    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14434_COMMENTED_PRR_kwDODtfaXs7Pkm7w",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14434",
-    "occured_at": "2025-11-19T12:36:18.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3482480368",
-    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14431",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14431",
-    "occured_at": "2025-11-19T10:45:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14431",
-    "text": "Playwright test for user creation",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14413",
     "contributor": "NikhilA8606",
     "activity_definition": "pr_opened",
@@ -9016,6 +8972,237 @@
     "occured_at": "2025-11-18T06:47:37.000Z",
     "link": "https://github.com/ohcnetwork/leaderboard/issues/639",
     "text": "Fix scroll issue with Top Contributors section in leaderboard page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13842_APPROVED_PRR_kwDODtfaXs7PkcWc",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #13842",
+    "occured_at": "2025-11-19T12:24:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13842#pullrequestreview-3482437020",
+    "text": "observation interpretation: form integration/errors and styling",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14431",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14431",
+    "occured_at": "2025-11-19T10:45:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14431",
+    "text": "Playwright test for user creation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14434",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14434",
+    "occured_at": "2025-11-19T12:16:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14434",
+    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14434_COMMENTED_PRR_kwDODtfaXs7Pkm7w",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14434",
+    "occured_at": "2025-11-19T12:36:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3482480368",
+    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard-scraper-template#2_APPROVED_PRR_kwDOQU3cbc7P1e6r",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #2",
+    "occured_at": "2025-11-20T10:21:29.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-scraper-template/pull/2#pullrequestreview-3486903979",
+    "text": "add example for badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard-scraper-template#1_APPROVED_PRR_kwDOQU3cbc7P1cYy",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #1",
+    "occured_at": "2025-11-20T10:19:47.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-scraper-template/pull/1#pullrequestreview-3486893618",
+    "text": "adds aggregates example",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_42bd04afe89cb0339247c618093835e6d30699f9",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:22:22.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-scraper-template/commit/42bd04afe89cb0339247c618093835e6d30699f9",
+    "text": "Merge pull request #2 from ohcnetwork/badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_c1050770427173015af31154cc559f86ed7bc3fe",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:20:53.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-scraper-template/commit/c1050770427173015af31154cc559f86ed7bc3fe",
+    "text": "Merge pull request #1 from ohcnetwork/aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard-slack-scraper#4_APPROVED_PRR_kwDOQU4yws7P1Ytx",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #4",
+    "occured_at": "2025-11-20T10:17:11.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-slack-scraper/pull/4#pullrequestreview-3486878577",
+    "text": "implement eod consistency aggregate",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_1d18f76bac6889462407091aa2281a2e399fd385",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:18:19.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-slack-scraper/commit/1d18f76bac6889462407091aa2281a2e399fd385",
+    "text": "Merge pull request #4 from ohcnetwork/aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard-github-scraper#10_APPROVED_PRR_kwDOQU3x1M7P1TpL",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #10",
+    "occured_at": "2025-11-20T10:13:33.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/pull/10#pullrequestreview-3486857803",
+    "text": "implement badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard-github-scraper#9_APPROVED_PRR_kwDOQU3x1M7P1SDJ",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #9",
+    "occured_at": "2025-11-20T10:12:23.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/pull/9#pullrequestreview-3486851273",
+    "text": "Implement aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_833b43f1500cdbf33e1053ca1df96d10e6e0bd6e",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:14:02.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/commit/833b43f1500cdbf33e1053ca1df96d10e6e0bd6e",
+    "text": "Merge pull request #10 from ohcnetwork/badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_7201e4f736b112a831d89aaa897332d6cd275c8b",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:12:59.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/commit/7201e4f736b112a831d89aaa897332d6cd275c8b",
+    "text": "Merge pull request #9 from ohcnetwork/aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard#644_APPROVED_PRR_kwDOHYGCwM7P1Pv6",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #644",
+    "occured_at": "2025-11-20T10:10:41.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/pull/644#pullrequestreview-3486841850",
+    "text": "adds support for badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_leaderboard#643_APPROVED_PRR_kwDOHYGCwM7P1Ojh",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #643",
+    "occured_at": "2025-11-20T10:09:44.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/pull/643#pullrequestreview-3486836961",
+    "text": "adds support for global and contributor aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_3327578f8daaddde7e71f9f4f46b54b37d0cc1cb",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:10:54.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/commit/3327578f8daaddde7e71f9f4f46b54b37d0cc1cb",
+    "text": "Merge pull request #644 from ohcnetwork/badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_3e38fec60a822ede0630a944b5eb4654fce773a0",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-20T10:09:59.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/commit/3e38fec60a822ede0630a944b5eb4654fce773a0",
+    "text": "Merge pull request #643 from ohcnetwork/aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_master_948e1bf7203982f1262afdd5495d55f134710977",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to master",
+    "occured_at": "2025-11-20T08:44:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_be_plug_config_generator/commit/948e1bf7203982f1262afdd5495d55f134710977",
+    "text": "some minor fix",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_master_b637fb9bbc1bd7eeb9c1ffa7f22126c247e44aa7",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to master",
+    "occured_at": "2025-11-20T08:33:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_be_plug_config_generator/commit/b637fb9bbc1bd7eeb9c1ffa7f22126c247e44aa7",
+    "text": "copy button creates single-line and store newly added configs in session",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_master_5e89170f5ce53d3a146bfcc4926221486665b73d",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to master",
+    "occured_at": "2025-11-20T07:17:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_be_plug_config_generator/commit/5e89170f5ce53d3a146bfcc4926221486665b73d",
+    "text": "dynamic plugin selector",
     "points": null,
     "meta": {}
   }
