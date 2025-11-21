@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-11-20_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-20T14:43:01.419Z",
+    "link": null,
+    "text": "<strong>November 19</strong><br>• Dealing with Soar throat and cold<br>• Looked into cause of <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1763530785055059\">[1]</a> and pinged Bodhi for further steps.<br>• Addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>• DPG review.<br>• Reviewed a PR<br>• Discussion with Amjith regarding whether to disable the print all qr codes when SR is on hold or not.<br><strong>Next</strong><br>• Wrap up addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-19_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -374,6 +385,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-21_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-21T02:06:43.873Z",
+    "link": null,
+    "text": "<strong>April 17</strong><br>• Worked on opening a new PR, <a href=\"https://github.com/ohcnetwork/care_fe/pull/11993\">PR#11993</a>, made changes suggested by Gigin and cleaned up unnecessary code.<br>•  Replied to GDC support of emails and looked into submissions.<br><strong>Next</strong><br>• Engg review call.<br>• Work on open PR&#x27;s.<br>• Review remaining gsoc proposals.<br>• Look into why VTA all of sudden stopped running properly for many submissions. (Probably some dependent package got upgraded) <span class=\"s-emoji\">🤷‍♂️</span>.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-22_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -469,17 +491,6 @@
     "occured_at": "2025-02-13T06:57:16.646Z",
     "link": null,
     "text": "<strong>Feb 12</strong><br>• Wrote code for integrating the MFA into login flow and then felt my approach is odd so asked gpt even it felt odd so asked Vignesh is the approaches correct, his response made things simpler and re-wrote it. Probably I thought in authorization way instead of just thinking it is authentication.<br>• Refactored and cleanup some of the code in MFA<br>• Glance through the pre-read doc created by Bodhi on models for sustainable governance of care and short browsing Bahmani OpenMRS demo.<br>• DPG review call.<br><strong>Next</strong><br>• Wrap-up remaining things in MFA-BE -&amp;gt; sending email, disable, re-generate-backup-codes endpoint.<br>• VTA <br>• Review PR&#x27;s.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-21_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-21T02:06:43.873Z",
-    "link": null,
-    "text": "<strong>April 17</strong><br>• Worked on opening a new PR, <a href=\"https://github.com/ohcnetwork/care_fe/pull/11993\">PR#11993</a>, made changes suggested by Gigin and cleaned up unnecessary code.<br>•  Replied to GDC support of emails and looked into submissions.<br><strong>Next</strong><br>• Engg review call.<br>• Work on open PR&#x27;s.<br>• Review remaining gsoc proposals.<br>• Look into why VTA all of sudden stopped running properly for many submissions. (Probably some dependent package got upgraded) <span class=\"s-emoji\">🤷‍♂️</span>.",
     "points": null,
     "meta": null
   },
@@ -821,6 +832,17 @@
     "occured_at": "2025-06-22T18:34:29.796Z",
     "link": null,
     "text": "<strong>June 19 &amp;amp; 20</strong><br>• Testing, adding some screens and clean up the flow in supply internal transfers, <a href=\"https://github.com/ohcnetwork/care_fe/commits/inventory-internal-transfers/?author=yash-learner&amp;amp;since=2025-06-19&amp;amp;until=2025-06-21\">[1]</a>.<br>• Huddles with Amjith, Abhimanyu, Jeevan and Vinu regarding <span class=\"s-emoji\">☝️</span>.<br>• Cleared a question with Vignesh<br>• Huddles and discussion with Aravind on somethings related to GDC-KTU cohort ending.<br>• Some things related to GDC -&amp;gt; Sent KTU-GDC-AI course and task phase ending mailer and some tiny things related to it.<br>• EOD calls<br><strong>Next</strong><br>• Engg review call.<br>• Wrap up testing and clean of internal transfers.<br>• Review the WD capstone submissions and look at support emails.<br>• GDC-KTU close up things.<br>• Review PR&#x27;s",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-08-12_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-11T20:19:21.638Z",
+    "link": null,
+    "text": "<strong>August 11</strong><br>• Cleaning up routes and types related to Schedule/appointments, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/12909/migrate-from-cr-osr-pr4/?author=yash-learner&amp;amp;since=2025-08-11&amp;amp;until=2025-08-12\">[1]</a>.<br>• Exploring and understanding code related to Schedule/appointments in BE/FE while doing above <span class=\"s-emoji\">☝️</span>.<br>• Huddle with Abhimnayu for clearing couple of questions related to appointments.<br>• Reviewed a PR and some discussions with interns.<br>• Follow up with Spandan on GSoC<br><strong>Next</strong><br>• Engg review call.<br>• Wrap up schedule/appointments type cleanup.",
     "points": null,
     "meta": null
   },
@@ -1199,17 +1221,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-08-12_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-11T20:19:21.638Z",
-    "link": null,
-    "text": "<strong>August 11</strong><br>• Cleaning up routes and types related to Schedule/appointments, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/12909/migrate-from-cr-osr-pr4/?author=yash-learner&amp;amp;since=2025-08-11&amp;amp;until=2025-08-12\">[1]</a>.<br>• Exploring and understanding code related to Schedule/appointments in BE/FE while doing above <span class=\"s-emoji\">☝️</span>.<br>• Huddle with Abhimnayu for clearing couple of questions related to appointments.<br>• Reviewed a PR and some discussions with interns.<br>• Follow up with Spandan on GSoC<br><strong>Next</strong><br>• Engg review call.<br>• Wrap up schedule/appointments type cleanup.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-08-13_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1261,6 +1272,17 @@
     "occured_at": "2025-08-19T19:19:16.495Z",
     "link": null,
     "text": "<strong>August 19</strong><br>• Looked into demo video created the Spandan for care diet, shared some feedback.<br>• Discussion with Amjith on above.<br>• Fixed merge conflicts on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13247#issuecomment-3200260233\">PR#13247</a> and replied to Nihal&#x27;s comments.<br>• Worked a bit on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13357\">PR#13357</a>, still just in my local.<br>• Replied to a <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1755610229605299\">query</a> and looked into understanding the FacilityLocation related code.<br>• Attended Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Work on my PR&#x27;s.<br>• DPG review call.<br>• Follow up on different things (This is little vague <span class=\"s-emoji\">😁</span>)",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-09-24_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-24T07:16:04.669Z",
+    "link": null,
+    "text": "<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745<br>\n\n<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745",
     "points": null,
     "meta": null
   },
@@ -1342,17 +1364,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-09-24_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-24T07:16:04.669Z",
-    "link": null,
-    "text": "<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745<br>\n\n<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-09-28_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1419,6 +1430,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-10-23_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-22T22:44:31.824Z",
+    "link": null,
+    "text": "<strong>October 21</strong><br>• Engineering review call.<br>• Huddle with Manyu regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14037#issuecomment-3412590127\">issue#14037</a>.<br>• Huddle with Vinu regarding multiple things <br>    ◦ filter-tabs design, <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1760474523283419\">[2]</a>, encounter tabs, service and location switcher<br>    ◦ Filed <a href=\"https://github.com/ohcnetwork/design/issues/26\">design/issues/26</a><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/commits/fix-encounter-list-type/?author=yash-learner&amp;since=2025-10-21&amp;until=2025-10-22\">PR#13603</a>.<br>• Quick Huddle with Siddanth regarding a query  he had related to locations.<br>• Tuesday weekly call.<br>• Discussion with Manyu regarding outdated stats on leaderboard.<br><br><strong>October 22</strong><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> and addressed Aditya&#x27;s review comment and then looking  why build is <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054#issuecomment-3431597826\">failing</a> mostly related to Netlify<br>• Setting up playwright -&gt; Do not know why it took that long for installation and so many packages and do not know why it did not run for sometime using the same command and it started working using the same command and it took forever for first run and then it was fast.<br>• Added some tests for Labs flow, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">PR#14108</a> and reading a bit about playwright and playing around.<br>• DPG review call.<br>• Replied to the query of Praneeth regarding documentation and exploring features in Care.<br><strong>Next</strong> <br>• Continue writing tests for labs flow.\n\n<strong>October 21</strong><br>• Engineering review call.<br>• Huddle with Manyu regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14037#issuecomment-3412590127\">issue#14037</a>.<br>• Huddle with Vinu regarding multiple things <br>    ◦ filter-tabs design, <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1760474523283419\">[2]</a>, encounter tabs, service and location switcher<br>    ◦ Filed <a href=\"https://github.com/ohcnetwork/design/issues/26\">design/issues/26</a><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/commits/fix-encounter-list-type/?author=yash-learner&amp;since=2025-10-21&amp;until=2025-10-22\">PR#13603</a>.<br>• Quick Huddle with Siddanth regarding a query  he had related to locations.<br>• Tuesday weekly call.<br>• Discussion with Manyu regarding outdated stats on leaderboard.<br><br><strong>October 22</strong><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> and addressed Aditya&#x27;s review comment and then looking  why build is <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054#issuecomment-3431597826\">failing</a> mostly related to Netlify<br>• Setting up playwright -&gt; Do not know why it took that long for installation and so many packages and do not know why it did not run for sometime using the same command and it started working using the same command and it took forever for first run and then it was fast.<br>• Added some tests for Labs flow, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">PR#14108</a> and reading a bit about playwright and playing around.<br>• DPG review call.<br>• Replied to the query of Praneeth regarding documentation and exploring features in Care.<br><strong>Next</strong> <br>• Continue writing tests for labs flow.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-10-08_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1470,17 +1492,6 @@
     "occured_at": "2025-10-15T06:45:00.808Z",
     "link": null,
     "text": "<strong>October 13</strong><br>• Engineering review call.<br>• Reviewed PR&#x27;s &amp;amp; triaged some issues and quick <a href=\"https://github.com/ohcnetwork/care_fe/tree/quick-check-if-we-can-reuse-lms-for-13934\">play</a> whether <code>LocationMultiSelect</code> and <code>RequirementsSelector</code> be used in payment location picker instead of all new component while having glance on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13934\">PR#13934</a>.<br>• Addressed review <a href=\"https://github.com/ohcnetwork/care_fe/pull/13839#discussion_r2421664742\">comment</a> from Aditya and follow up huddles for testing some things based on changes made.<br>• Answered Anagha&#x27;s question regarding valueset rules and filters and then reading about them with chatgpt.<br>• Async discussion with Bodhi regarding actions button under some tables.<br>• Replying some questions on slack.<br>• ...<br><strong>October 14</strong><br>• Tuesday&#x27;s weekly call.<br>• Reviewed PR&#x27;s<br>• Had a call with Areeb for testing and merging of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14024\">PR#14024</a> and discussion around <a href=\"https://github.com/ohcnetwork/care_fe/issues/14018\">issue#14018</a>.<br>• Huddle with Praff regarding a deadlock <a href=\"https://coronasafe-network.sentry.io/issues/6595025446/?project=5182842&amp;amp;query=is%3Aunresolved%20deadlock&amp;amp;referrer=issue-stream\">issue</a>.<br>• Made  <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a>.<br>• Huddle with Siddanth regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13934/files/ee1317336514bc7cb7ba15d729c6fe24463fb28a#r2426676356\">[1]</a> and some PR review.<br>• As usual clearing merge conflicts on PR&#x27;s <br><strong>Next</strong><br>• Review PR&#x27;s<br>• Get some of my PR&#x27;s merged<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-23_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-22T22:44:31.824Z",
-    "link": null,
-    "text": "<strong>October 21</strong><br>• Engineering review call.<br>• Huddle with Manyu regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14037#issuecomment-3412590127\">issue#14037</a>.<br>• Huddle with Vinu regarding multiple things <br>    ◦ filter-tabs design, <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1760474523283419\">[2]</a>, encounter tabs, service and location switcher<br>    ◦ Filed <a href=\"https://github.com/ohcnetwork/design/issues/26\">design/issues/26</a><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/commits/fix-encounter-list-type/?author=yash-learner&amp;since=2025-10-21&amp;until=2025-10-22\">PR#13603</a>.<br>• Quick Huddle with Siddanth regarding a query  he had related to locations.<br>• Tuesday weekly call.<br>• Discussion with Manyu regarding outdated stats on leaderboard.<br><br><strong>October 22</strong><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> and addressed Aditya&#x27;s review comment and then looking  why build is <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054#issuecomment-3431597826\">failing</a> mostly related to Netlify<br>• Setting up playwright -&gt; Do not know why it took that long for installation and so many packages and do not know why it did not run for sometime using the same command and it started working using the same command and it took forever for first run and then it was fast.<br>• Added some tests for Labs flow, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">PR#14108</a> and reading a bit about playwright and playing around.<br>• DPG review call.<br>• Replied to the query of Praneeth regarding documentation and exploring features in Care.<br><strong>Next</strong> <br>• Continue writing tests for labs flow.\n\n<strong>October 21</strong><br>• Engineering review call.<br>• Huddle with Manyu regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14037#issuecomment-3412590127\">issue#14037</a>.<br>• Huddle with Vinu regarding multiple things <br>    ◦ filter-tabs design, <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1760474523283419\">[2]</a>, encounter tabs, service and location switcher<br>    ◦ Filed <a href=\"https://github.com/ohcnetwork/design/issues/26\">design/issues/26</a><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/commits/fix-encounter-list-type/?author=yash-learner&amp;since=2025-10-21&amp;until=2025-10-22\">PR#13603</a>.<br>• Quick Huddle with Siddanth regarding a query  he had related to locations.<br>• Tuesday weekly call.<br>• Discussion with Manyu regarding outdated stats on leaderboard.<br><br><strong>October 22</strong><br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> and addressed Aditya&#x27;s review comment and then looking  why build is <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054#issuecomment-3431597826\">failing</a> mostly related to Netlify<br>• Setting up playwright -&gt; Do not know why it took that long for installation and so many packages and do not know why it did not run for sometime using the same command and it started working using the same command and it took forever for first run and then it was fast.<br>• Added some tests for Labs flow, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">PR#14108</a> and reading a bit about playwright and playing around.<br>• DPG review call.<br>• Replied to the query of Praneeth regarding documentation and exploring features in Care.<br><strong>Next</strong> <br>• Continue writing tests for labs flow.",
     "points": null,
     "meta": null
   },
