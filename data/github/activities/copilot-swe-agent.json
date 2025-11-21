@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_opened_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14250",
+    "occured_at": "2025-11-05T09:34:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14250",
+    "occured_at": "2025-11-12T19:44:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14229",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14229",
+    "occured_at": "2025-11-03T15:43:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14229",
+    "text": "Clarify duplicate code location in EncounterQuestion discharge logic",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14216",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -84,39 +117,6 @@
     "occured_at": "2025-09-03T06:57:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13598",
     "text": "Fix breadcrumb hydration errors by removing invalid nested li elements",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14250",
-    "occured_at": "2025-11-05T09:34:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14250",
-    "occured_at": "2025-11-12T19:44:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14229",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14229",
-    "occured_at": "2025-11-03T15:43:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14229",
-    "text": "Clarify duplicate code location in EncounterQuestion discharge logic",
     "points": null,
     "meta": {}
   },
@@ -2035,17 +2035,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14438",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14438",
-    "occured_at": "2025-11-20T05:50:35.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14438",
-    "text": "refactor: Remove internal translations from FilterSelect component",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14315",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2075,6 +2064,72 @@
     "occured_at": "2025-11-18T13:06:31.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14401#pullrequestreview-3477760761",
     "text": "Add archive patient functionality to patient update page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14455_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14455 assigned",
+    "occured_at": "2025-11-21T07:22:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14455",
+    "text": "Remove All `data-cy` and `data-testid` Attributes From CARE_FE",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14453_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14453 assigned",
+    "occured_at": "2025-11-21T07:18:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14453",
+    "text": "Migrate the encounter questionnaire submission related test file from cypress to playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14454",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14454",
+    "occured_at": "2025-11-21T07:18:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14454",
+    "text": "Migrate patient questionnaire tests from Cypress to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14456",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14456",
+    "occured_at": "2025-11-21T07:22:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14456",
+    "text": "Remove data-cy and data-testid attributes from codebase",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14456",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14456",
+    "occured_at": "2025-11-21T09:51:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14456",
+    "text": "Remove data-cy and data-testid attributes from codebase",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14438",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14438",
+    "occured_at": "2025-11-20T05:50:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14438",
+    "text": "refactor: Remove internal translations from FilterSelect component",
     "points": null,
     "meta": {}
   }

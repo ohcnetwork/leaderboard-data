@@ -1,16 +1,5 @@
 [
   {
-    "slug": "eod_update_2025-11-20_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-20T14:43:01.419Z",
-    "link": null,
-    "text": "<strong>November 19</strong><br>• Dealing with Soar throat and cold<br>• Looked into cause of <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1763530785055059\">[1]</a> and pinged Bodhi for further steps.<br>• Addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>• DPG review.<br>• Reviewed a PR<br>• Discussion with Amjith regarding whether to disable the print all qr codes when SR is on hold or not.<br><strong>Next</strong><br>• Wrap up addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-11-19_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -429,6 +418,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-07-10_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-09T20:59:15.588Z",
+    "link": null,
+    "text": "<strong>July 9</strong><br>• Worked with team to get labs/pharmacy/billing/inventory/tags branch merged, <a href=\"https://github.com/ohcnetwork/care_fe/commits/develop/?since=2025-07-09&amp;until=2025-07-10&amp;author=yash-learner\">[1]</a>, <a href=\"https://github.com/ohcnetwork/care/commits/develop/?author=yash-learner&amp;since=2025-07-09&amp;until=2025-07-10\">[2]</a>.<br>• Discussion&#x27;s with team on <span class=\"s-emoji\">☝️</span>.<br>• DPG review call.<br>• Vibing/partying after merge :dancingparrot:<br><strong>Next</strong><br>• Fix/review .<br>• Look at GDC things -&gt; Support emails/submissions.<br>• Give a quick demo to Spandan of current billing flow.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-02-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -517,13 +517,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-07-10_yash-learner",
+    "slug": "eod_update_2025-05-27_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-07-09T20:59:15.588Z",
+    "occured_at": "2025-05-26T21:56:32.489Z",
     "link": null,
-    "text": "<strong>July 9</strong><br>• Worked with team to get labs/pharmacy/billing/inventory/tags branch merged, <a href=\"https://github.com/ohcnetwork/care_fe/commits/develop/?since=2025-07-09&amp;until=2025-07-10&amp;author=yash-learner\">[1]</a>, <a href=\"https://github.com/ohcnetwork/care/commits/develop/?author=yash-learner&amp;since=2025-07-09&amp;until=2025-07-10\">[2]</a>.<br>• Discussion&#x27;s with team on <span class=\"s-emoji\">☝️</span>.<br>• DPG review call.<br>• Vibing/partying after merge :dancingparrot:<br><strong>Next</strong><br>• Fix/review .<br>• Look at GDC things -&gt; Support emails/submissions.<br>• Give a quick demo to Spandan of current billing flow.",
+    "text": "<strong>May 26</strong><br>• Engineering review call.<br>• Reviewed the WD201 capstone submission and re-triggered a student submission that didn&#x27;t get reviewed by VTA.<br>• Updated the UI of the <code>Patient Prescriptions</code>  page and later updated the table styling at couple of places and then some extraction and some tiny cleanup and fixes, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;since=2025-05-26&amp;until=2025-05-27\">[i]</a>.<br>• Huddles with Amjith.<br><strong>Next</strong><br>• Reply to GDC support emails.<br>• Brief sync with Suma.<br>• Re-open a closed stale PR.<br>• Pick things from Todo",
     "points": null,
     "meta": null
   },
@@ -579,6 +579,17 @@
     "occured_at": "2025-03-06T09:13:13.423Z",
     "link": null,
     "text": "<strong>March 03</strong> <br>• Replied to a PF support email assigned to me.<br>• Updated the text records for some PF domains for DO, which are about to expire.<br>• Huddle with Abhimanyu regarding MFA-FE.<br>• Huddle with Aravind regarding the GDC-KTU things.<br>• Setting the prerequisites for WD101, WD201, WD301 and updating the content of some targets and config&#x27;s to match latest operational changes.<br>• Went through CoC, student-handbook and discussion with Aravind on possible changes.<br>• Went through GDC website content, fixed some typos and disabled link for  a while.<br>• Made some final changes to form config and added more questions to FAQ and requested a check from Aravind &amp; Suma.<br>• Updated the onboarding mailer on Brevo with latest one shared by Aravind<br>• Tested the flow from apply flow and some automated feedback forms<br><strong>March 04 - 06</strong><br>• Wrapped up things for GDC-KTU launch<br>• Calls with Suma regarding the CoC update/handbook<br>• Updated the Course ops changelog.<br>• Tuesday weekly call.<br>• async discussion with Aravind, Bodhi, Suma regarding CoC update.<br>• Quick chat with Raj Kumar regarding the BE setup.<br>• Made a tiny change to get user endpoint for sending the mfa state.<br>• Wrapped up tests and tiny refactor for MFA and requested a re-review.<br>• Scout through care-fe PR&#x27;s and reviewed some.<br><strong>Next</strong><br>• Review PR&#x27;s<br>• Check &amp; get MFA-FE ready for merge.<br>• Fix any review comments.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-04-02_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-01T23:14:53.169Z",
+    "link": null,
+    "text": "<strong>April 01</strong><br>• Continued working on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>. Added more drawers and extracted the repeating code into a reusable component along with cursor.<br>• Discussion with Amjith on my open PR&#x27;s.<br>• Discussion with Aravind on GDC ops and created an automation on Brevo to semi-automate a thing.<br>• Weekly Tuesday call.<br>• I was supposed to close but went on browsing FOSS united <span class=\"s-emoji\">😅</span>.<br><strong>Next</strong><br>• GDC things &amp;amp; DPG review call.<br>• Wrap up the <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>.<br>• Work on <a href=\"https://github.com/ohcnetwork/care/issues/2911\">care-be-2911</a>.<br>• Review PR&#x27;s.",
     "points": null,
     "meta": null
   },
@@ -656,28 +667,6 @@
     "occured_at": "2025-03-31T07:37:45.592Z",
     "link": null,
     "text": "<strong>Last week ( <em>I forgot to post my EOD&#x27;s last week )</em></strong><br>• Wrapped up UI/UX enhancements and made more changes <a href=\"https://github.com/ohcnetwork/care_fe/pull/11428\">PR#11428</a> <br>• Fixed review comments and fixed additional issues noticed outside my PR in testing, fixed them.<br>• Huddles with Nihal and discussions with Amjith.<br>• Reviewing PR&#x27;s  &amp; Fixing merge conflicts in my PR and in PR&#x27;s I tried closing while reviewing.<br>• Taking care of GDC support mails and made a PR for fixing some outdated automation for WD101 and sending mailer for GDC-KTU application close  and updated some dashboard questions and created new based on Aravind request.<br>• Quick test of dialog for datepicker instead of popover and spent time figuring out cause of crash and parked it as there is a another PR&#x27;s which might cause conflicts.<br>• Started working on improving remaining questionnaire UI/UX for mobile,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>.<br>• Calls - engg review call, DPG review, 1:1, call with Vinu and other.<br>• watched Bodhi go live along with Shivank, 100x engineer.<br>• Deep <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1743073299167169\">discussion</a>  with Shivank and Khavin regarding the cursor-default and cursor pointer.<br>• Travel back.<br><strong>Next</strong><br>• Wrap up the <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>.<br>• Work on <a href=\"https://github.com/ohcnetwork/care/issues/2911\">care-be-2911</a>.<br>• GDC things.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-02_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-01T23:14:53.169Z",
-    "link": null,
-    "text": "<strong>April 01</strong><br>• Continued working on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>. Added more drawers and extracted the repeating code into a reusable component along with cursor.<br>• Discussion with Amjith on my open PR&#x27;s.<br>• Discussion with Aravind on GDC ops and created an automation on Brevo to semi-automate a thing.<br>• Weekly Tuesday call.<br>• I was supposed to close but went on browsing FOSS united <span class=\"s-emoji\">😅</span>.<br><strong>Next</strong><br>• GDC things &amp;amp; DPG review call.<br>• Wrap up the <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>.<br>• Work on <a href=\"https://github.com/ohcnetwork/care/issues/2911\">care-be-2911</a>.<br>• Review PR&#x27;s.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-27_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-26T21:56:32.489Z",
-    "link": null,
-    "text": "<strong>May 26</strong><br>• Engineering review call.<br>• Reviewed the WD201 capstone submission and re-triggered a student submission that didn&#x27;t get reviewed by VTA.<br>• Updated the UI of the <code>Patient Prescriptions</code>  page and later updated the table styling at couple of places and then some extraction and some tiny cleanup and fixes, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;since=2025-05-26&amp;until=2025-05-27\">[i]</a>.<br>• Huddles with Amjith.<br><strong>Next</strong><br>• Reply to GDC support emails.<br>• Brief sync with Suma.<br>• Re-open a closed stale PR.<br>• Pick things from Todo",
     "points": null,
     "meta": null
   },
@@ -957,6 +946,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-07-14_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-13T22:58:42.407Z",
+    "link": null,
+    "text": "<strong>July 10</strong><br>• Discussion with Gigin regarding some bad i18n keys and made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12859\">PR#12859</a> for fixing them.<br>• Huddle with Spandan for demoing the current billing flows in labs and pharmacy.<br>• Replied to couple of intern queries and some tips, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1752148322889019\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1752153998383679\">[2]</a>.<br>• EOD call.<br>• Filed a long <a href=\"https://github.com/ohcnetwork/leaderboard/issues/625\">issue#625</a> on leaderboard.<br>• Reviewed a intern&#x27;s WD201 capstone submission.<br><strong>July 11</strong><br><br><em>on leave</em><br><br>Next<br>•  Engg review call<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/12906\">PR#12906</a>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-06-12_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1045,17 +1045,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-07-14_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-13T22:58:42.407Z",
-    "link": null,
-    "text": "<strong>July 10</strong><br>• Discussion with Gigin regarding some bad i18n keys and made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12859\">PR#12859</a> for fixing them.<br>• Huddle with Spandan for demoing the current billing flows in labs and pharmacy.<br>• Replied to couple of intern queries and some tips, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1752148322889019\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1752153998383679\">[2]</a>.<br>• EOD call.<br>• Filed a long <a href=\"https://github.com/ohcnetwork/leaderboard/issues/625\">issue#625</a> on leaderboard.<br>• Reviewed a intern&#x27;s WD201 capstone submission.<br><strong>July 11</strong><br><br><em>on leave</em><br><br>Next<br>•  Engg review call<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/12906\">PR#12906</a>",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-07-15_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1129,6 +1118,17 @@
     "occured_at": "2025-09-15T21:01:33.400Z",
     "link": null,
     "text": "<strong>Sept 15</strong><br>• Engineering review call.<br>• explored medication request summary for <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1757921328155479\">[1]</a>.<br>• Cleaned up somethings during self-review, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674/commits/6f6f3aed1f0afd9d4a6eaf83c2fea3185ad20814\">[1]</a>.<br>• Made a tiny BE <a href=\"https://github.com/ohcnetwork/care/pull/3262\">PR#3262</a> for fixing a field while cleaning up above.<br>• Quick huddle with Amjith and Praff.<br>• Huddle with Siddhanth regarding picking up next issues.<br>• Replied on some threads.<br>• Created some draft SM posts that would probably never go live.<br><strong>Next</strong><br>• Fix merge conflicts on my PR&#x27;s and wrap up <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674\">PR#13674</a>.<br>• Triage issues and review pr&#x27;s.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-09-10_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-09T19:45:28.277Z",
+    "link": null,
+    "text": "Sept 4,8,9<br>• Being a rubber duck for Khavin while he was debugging some things on hcx and ABDM.<br>• Fixed some merge conflicts on my PR&#x27;s.<br>• Worked and marked <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a> ready for review, fixed some copilot review comments.<br>• Back and forth with Amjith and Spandan on GSoC final evaluation and testing the work.<br>• Some discussions and calls, <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1757404459136579\">[1]</a>.<br>• Triaging, testing and merge of  a PR. <br><strong>Next</strong><br>• Work and open one last PR for <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a>.<br>• DPG review call.<br>• Review PR&#x27;s",
     "points": null,
     "meta": null
   },
@@ -1254,6 +1254,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-09-17_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-17T04:12:55.532Z",
+    "link": null,
+    "text": "<strong>Sept 16</strong><br>• Huddle with Praff, regarding <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1758002071389049?thread_ts=1758002071.389049&amp;amp;cid=C06KGMUAB0V\">[1]</a>.<br>• Most of time spent understanding observations and diagnostic report.<br>    ◦ Huddle with Jeevan regarding <span class=\"s-emoji\">☝️</span>.<br>    ◦ Trying to clear as type casting at some places.<br>    ◦ Made <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.<br>• Fixed a tiny review from Aditya and discussion, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674#discussion_r2351680084\">[1]</a>.<br>• Huddle with Siddanth <br>• Tuesday weekly call.<br>• Triaging issues and understanding code around UpdateApp for triaging a issue.<br>• Replied <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758049514951699?thread_ts=1758040545.494849&amp;amp;cid=C010GQBMFJ9\">here</a>.<br><strong>Next</strong><br>• Sync with Jeevan regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-08-19_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1327,28 +1338,6 @@
     "occured_at": "2025-09-04T00:03:08.216Z",
     "link": null,
     "text": "<strong>Sept 3</strong> <br>• Went through the q reports of MSDF, made some changes, some questions and discussions with Suma and Aravind.<br>• DPG review call.<br>• Setup cf tunnel for my local care so that it can used by Nihal for GSoC testing.<br>• Discussion with Amjith regarding the GSoC diet flows.<br>• Some discussions with Siddanth.<br>• Quick huddle with Praff.<br>• Made P1 <a href=\"https://github.com/ohcnetwork/care_fe/pull/13607\">PR#13607</a> and fixed review comments from Jeevan and Khavin.<br><strong>Next</strong><br>• Fix some merge conflicts.<br>• Look into fixed things by Spandan from my QA and ask Nihal for test when he is available.<br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a>.<br>• Self review and mark <a href=\"https://github.com/ohcnetwork/care_fe/pull/13568\">PR#13568</a> ready for review.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-09-10_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-09T19:45:28.277Z",
-    "link": null,
-    "text": "Sept 4,8,9<br>• Being a rubber duck for Khavin while he was debugging some things on hcx and ABDM.<br>• Fixed some merge conflicts on my PR&#x27;s.<br>• Worked and marked <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a> ready for review, fixed some copilot review comments.<br>• Back and forth with Amjith and Spandan on GSoC final evaluation and testing the work.<br>• Some discussions and calls, <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1757404459136579\">[1]</a>.<br>• Triaging, testing and merge of  a PR. <br><strong>Next</strong><br>• Work and open one last PR for <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a>.<br>• DPG review call.<br>• Review PR&#x27;s",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-09-17_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-17T04:12:55.532Z",
-    "link": null,
-    "text": "<strong>Sept 16</strong><br>• Huddle with Praff, regarding <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1758002071389049?thread_ts=1758002071.389049&amp;amp;cid=C06KGMUAB0V\">[1]</a>.<br>• Most of time spent understanding observations and diagnostic report.<br>    ◦ Huddle with Jeevan regarding <span class=\"s-emoji\">☝️</span>.<br>    ◦ Trying to clear as type casting at some places.<br>    ◦ Made <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.<br>• Fixed a tiny review from Aditya and discussion, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674#discussion_r2351680084\">[1]</a>.<br>• Huddle with Siddanth <br>• Tuesday weekly call.<br>• Triaging issues and understanding code around UpdateApp for triaging a issue.<br>• Replied <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758049514951699?thread_ts=1758040545.494849&amp;amp;cid=C010GQBMFJ9\">here</a>.<br><strong>Next</strong><br>• Sync with Jeevan regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.",
     "points": null,
     "meta": null
   },
@@ -1485,6 +1474,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-16_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-16T08:20:53.108Z",
+    "link": null,
+    "text": "<strong>November 13</strong><br>• Made changes on PR#14301, asked a <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1763030275331339\">query</a>.<br>• Commented on some PR&#x27;s.<br>• Just trying to understand discussion in <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1762785399965499\">thread</a> related to Patient Identifier.<br>• Playing sometime with GitHub MCP.<br>• Discussion with copilot to build MCP server for care.<br>• EOD call - Just me &amp;amp; Bots\n\n<strong>November 14</strong><br>• Quick huddle with Amjith regarding  <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1763030275331339\">query</a>.<br>• Discussion and Huddle with Siddanth regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14328\">issue#14328</a>.<br>• Worked and Made changes on PR#14301.<br>• Updated <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;since=2025-11-14&amp;until=2025-11-14\">PR#14108</a> based on new changes in Develop, after ping from Nihal after failing tests.<br>• Quick huddle with Manyu regarding a <a href=\"https://github.com/ohcnetwork/care_fe/pull/14308/files#diff-d120f97dc8f2f2c516a2ea69a046e008947dbbc26e5a77467a102837c665f923\">change</a>.<br>• Made a <a href=\"https://github.com/ohcnetwork/care/pull/3359\">PR#3359</a> for fixing BE fixtures for some AD codes.<br>• Added test plan in issue#14304 after ping from NIhal and resolved some queries of OSS contributor.<br>• Prompted copilot to build <a href=\"https://github.com/yash-learner/care_mcp_server/pull/1\">a MCP server</a> for care using swagger schema and based on a <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1744404198296289?thread_ts=1743969130.889829&amp;cid=C010GQC5UE9\">old message</a> from Bodhi.<br>• EOD call - Just me, Bots &amp; Aditya.<br>Next<br><br>• Get my old long sitting PR&#x27;s reviewed, resolve and merge.<br>• Engineering review call.<br>• File issue for <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1763132731032049\">[1]</a>.<br>• Review PR&#x27;s.<br>• Write specs<br>• Check whether mcp server built by copilot working or not <span class=\"s-emoji\">🤞</span>.<br>• Reply to slack DM&#x27;s and threads.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-10-15_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1551,13 +1551,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-11-16_yash-learner",
+    "slug": "eod_update_2025-11-20_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-11-16T08:20:53.108Z",
+    "occured_at": "2025-11-20T14:43:01.419Z",
     "link": null,
-    "text": "<strong>November 13</strong><br>• Made changes on PR#14301, asked a <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1763030275331339\">query</a>.<br>• Commented on some PR&#x27;s.<br>• Just trying to understand discussion in <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1762785399965499\">thread</a> related to Patient Identifier.<br>• Playing sometime with GitHub MCP.<br>• Discussion with copilot to build MCP server for care.<br>• EOD call - Just me &amp;amp; Bots\n\n<strong>November 14</strong><br>• Quick huddle with Amjith regarding  <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1763030275331339\">query</a>.<br>• Discussion and Huddle with Siddanth regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14328\">issue#14328</a>.<br>• Worked and Made changes on PR#14301.<br>• Updated <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;since=2025-11-14&amp;until=2025-11-14\">PR#14108</a> based on new changes in Develop, after ping from Nihal after failing tests.<br>• Quick huddle with Manyu regarding a <a href=\"https://github.com/ohcnetwork/care_fe/pull/14308/files#diff-d120f97dc8f2f2c516a2ea69a046e008947dbbc26e5a77467a102837c665f923\">change</a>.<br>• Made a <a href=\"https://github.com/ohcnetwork/care/pull/3359\">PR#3359</a> for fixing BE fixtures for some AD codes.<br>• Added test plan in issue#14304 after ping from NIhal and resolved some queries of OSS contributor.<br>• Prompted copilot to build <a href=\"https://github.com/yash-learner/care_mcp_server/pull/1\">a MCP server</a> for care using swagger schema and based on a <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1744404198296289?thread_ts=1743969130.889829&amp;cid=C010GQC5UE9\">old message</a> from Bodhi.<br>• EOD call - Just me, Bots &amp; Aditya.<br>Next<br><br>• Get my old long sitting PR&#x27;s reviewed, resolve and merge.<br>• Engineering review call.<br>• File issue for <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1763132731032049\">[1]</a>.<br>• Review PR&#x27;s.<br>• Write specs<br>• Check whether mcp server built by copilot working or not <span class=\"s-emoji\">🤞</span>.<br>• Reply to slack DM&#x27;s and threads.",
+    "text": "<strong>November 19</strong><br>• Dealing with Soar throat and cold<br>• Looked into cause of <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1763530785055059\">[1]</a> and pinged Bodhi for further steps.<br>• Addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>• DPG review.<br>• Reviewed a PR<br>• Discussion with Amjith regarding whether to disable the print all qr codes when SR is on hold or not.<br><strong>Next</strong><br>• Wrap up addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>",
     "points": null,
     "meta": null
   }

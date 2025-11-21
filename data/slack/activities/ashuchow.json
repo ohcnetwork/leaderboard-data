@@ -1,12 +1,23 @@
 [
   {
-    "slug": "eod_update_2025-05-09_ashuchow",
+    "slug": "eod_update_2024-02-27_ashuchow",
     "contributor": "ashuchow",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-05-08T23:36:07.522Z",
+    "occured_at": "2024-02-27T07:01:30.730Z",
     "link": null,
-    "text": "EOD for 8th May, 20225<br>• Got on call with Vysakh and Aakash about blocks in ETL pipeline. Figured out an alternative approach for the same - using spec sheets in the resources directory for setting up flattening sql queries.<br>• Working on setting up a queryable view for using the date filter on the dashboard.",
+    "text": "EOD 27 Feb:<br>Consolidated all features from Issue 9 (<a href=\"https://github.com/ohcnetwork/metabase_manager/issues/9\">https://github.com/ohcnetwork/metabase_manager/issues/9</a>) and set up a pull request for the same.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-02-29_ashuchow",
+    "contributor": "ashuchow",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-02-29T03:28:56.039Z",
+    "link": null,
+    "text": "EOD Feb 28:<br>Attempted to consolidate the sorting function for the status column for metabase manager.<br>EOD Feb 29:<br>Completed integrating the feature into the main branch. Have updated the pull request to inform the same.<br>Updated a Care Providers Metric query in metabase across all instances.",
     "points": null,
     "meta": null
   },
@@ -55,24 +66,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-02-27_ashuchow",
+    "slug": "eod_update_2025-05-09_ashuchow",
     "contributor": "ashuchow",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2024-02-27T07:01:30.730Z",
+    "occured_at": "2025-05-08T23:36:07.522Z",
     "link": null,
-    "text": "EOD 27 Feb:<br>Consolidated all features from Issue 9 (<a href=\"https://github.com/ohcnetwork/metabase_manager/issues/9\">https://github.com/ohcnetwork/metabase_manager/issues/9</a>) and set up a pull request for the same.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-02-29_ashuchow",
-    "contributor": "ashuchow",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-02-29T03:28:56.039Z",
-    "link": null,
-    "text": "EOD Feb 28:<br>Attempted to consolidate the sorting function for the status column for metabase manager.<br>EOD Feb 29:<br>Completed integrating the feature into the main branch. Have updated the pull request to inform the same.<br>Updated a Care Providers Metric query in metabase across all instances.",
+    "text": "EOD for 8th May, 20225<br>• Got on call with Vysakh and Aakash about blocks in ETL pipeline. Figured out an alternative approach for the same - using spec sheets in the resources directory for setting up flattening sql queries.<br>• Working on setting up a queryable view for using the date filter on the dashboard.",
     "points": null,
     "meta": null
   },

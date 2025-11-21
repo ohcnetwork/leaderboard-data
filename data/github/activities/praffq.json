@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_opened_care#3261",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3261",
+    "occured_at": "2025-09-15T12:19:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3261",
+    "text": "fix test cases for slugs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3261",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3261",
+    "occured_at": "2025-09-15T12:25:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3261",
+    "text": "fix test cases for slugs",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#2361",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -106,28 +128,6 @@
     "occured_at": "2025-09-16T09:23:47.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3264",
     "text": "charge item def tests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3261",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3261",
-    "occured_at": "2025-09-15T12:19:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3261",
-    "text": "fix test cases for slugs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3261",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3261",
-    "occured_at": "2025-09-15T12:25:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3261",
-    "text": "fix test cases for slugs",
     "points": null,
     "meta": {}
   },
@@ -1074,17 +1074,6 @@
     "occured_at": "2024-08-25T09:56:50.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2361#issuecomment-2308758637",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3333",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3333",
-    "occured_at": "2025-10-31T01:31:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3333",
-    "text": "Reports and Templates v2",
     "points": null,
     "meta": {}
   },
@@ -6864,17 +6853,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#3348_APPROVED_PRR_kwDODsgdF87MeU76",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3348",
-    "occured_at": "2025-11-06T20:51:14.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3348#pullrequestreview-3430502138",
-    "text": "fix: enabled removal of definitional field on product knowledge update",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3350_APPROVED_PRR_kwDODsgdF87Mvo9P",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -6904,6 +6882,72 @@
     "occured_at": "2025-07-16T12:03:55.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3120#pullrequestreview-3024593074",
     "text": "fix:added field validator for onset datatime in allergy intolerance",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3333",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3333",
+    "occured_at": "2025-10-31T01:31:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3333",
+    "text": "Reports and Templates v2",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3348_APPROVED_PRR_kwDODsgdF87MeU76",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3348",
+    "occured_at": "2025-11-06T20:51:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3348#pullrequestreview-3430502138",
+    "text": "fix: enabled removal of definitional field on product knowledge update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-21T09:36:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
+    "text": "cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_04b3257566372647c4ef5538cc8dd6c60bb5bfad",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-21T09:30:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/04b3257566372647c4ef5538cc8dd6c60bb5bfad",
+    "text": "ai reviews",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_acb3b6904ff896d47cb30ed5197838dd5a1352ce",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-21T08:39:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/acb3b6904ff896d47cb30ed5197838dd5a1352ce",
+    "text": "some design changes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishorr/fix/product_knowledge_spec_20c8ce9eb4c20264372dd1d6b32147dfe450a257",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishorr/fix/product_knowledge_spec",
+    "occured_at": "2025-11-10T12:28:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/20c8ce9eb4c20264372dd1d6b32147dfe450a257",
+    "text": "adding configrable limit to patient name (#3321)",
     "points": null,
     "meta": {}
   }
