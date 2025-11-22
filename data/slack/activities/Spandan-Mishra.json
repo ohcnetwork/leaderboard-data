@@ -1,5 +1,38 @@
 [
   {
+    "slug": "eod_update_2025-08-10_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-10T10:16:46.099Z",
+    "link": null,
+    "text": "August 10th<br>• fixed params in all components and removed placeholders from them.<br>• added nutrition product item under settings <br>• made changes in care_fe so that the above functionality works<br>• worked on the tailwind issue",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-17_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-17T07:56:41.980Z",
+    "link": null,
+    "text": "July 17th<br>• fixed manifest file for frontend<br>• configured diet fe plug to work correctly with care_fe<br>• discussion and feedback from Amjith &amp;amp; Yaswanth<br>Next<br>• implement dietician backend routes",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-07_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-07T10:20:07.208Z",
+    "link": null,
+    "text": "5th-7th March<br>• Found out one issue in the user card<br>• Took up a task to redesign the user organization dashboard<br>• Raised 2 PRs which fix both the issues<br>• Made the design mobile responsive for both features<br>Next<br>• Will try to find out more frontend issues in care_fe<br>• Fix atleast 3-4 issues in the next week<br>• Try to take up any task given by the members",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-07-24_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -117,39 +150,6 @@
     "occured_at": "2025-05-19T07:18:03.747Z",
     "link": null,
     "text": "May 19<br>• Completed parts of L7 of DjangoForAll course<br>• Read about CarePlan in FHIR R5 and looked at other resources <br>• Explored the EMR implementation docs and went through different features<br>Next<br>• Continue DjangoForAll course and work with Django<br>• Continue reading FHIR R5 docs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-10_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-10T10:16:46.099Z",
-    "link": null,
-    "text": "August 10th<br>• fixed params in all components and removed placeholders from them.<br>• added nutrition product item under settings <br>• made changes in care_fe so that the above functionality works<br>• worked on the tailwind issue",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-17_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-17T07:56:41.980Z",
-    "link": null,
-    "text": "July 17th<br>• fixed manifest file for frontend<br>• configured diet fe plug to work correctly with care_fe<br>• discussion and feedback from Amjith &amp;amp; Yaswanth<br>Next<br>• implement dietician backend routes",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-07_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-07T10:20:07.208Z",
-    "link": null,
-    "text": "5th-7th March<br>• Found out one issue in the user card<br>• Took up a task to redesign the user organization dashboard<br>• Raised 2 PRs which fix both the issues<br>• Made the design mobile responsive for both features<br>Next<br>• Will try to find out more frontend issues in care_fe<br>• Fix atleast 3-4 issues in the next week<br>• Try to take up any task given by the members",
     "points": null,
     "meta": null
   },
@@ -539,6 +539,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-26_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-25T22:23:01.276Z",
+    "link": null,
+    "text": "25th August:<br>• fixed the NO card to display nutrition and billing details.<br>• worked on fixing the error caused when FE fetches data from CID api.<br>• shared the details of the error in NO questionnaire to mentors.<br>• tested the existing routes after making changes and worked on solving the bugs.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-08-09_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -667,17 +678,6 @@
     "occured_at": "2025-08-24T21:16:26.100Z",
     "link": null,
     "text": "24th August<br>• added billing related types in the care_diet_fe<br>• created api routes for listing ChargeItemDefinitions and ChargeItems<br>• updated NutritionProductForm to select CID<br>• updated NutritionOrderCard to show billing information",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-26_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-25T22:23:01.276Z",
-    "link": null,
-    "text": "25th August:<br>• fixed the NO card to display nutrition and billing details.<br>• worked on fixing the error caused when FE fetches data from CID api.<br>• shared the details of the error in NO questionnaire to mentors.<br>• tested the existing routes after making changes and worked on solving the bugs.",
     "points": null,
     "meta": null
   },

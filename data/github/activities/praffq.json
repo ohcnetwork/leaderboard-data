@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_merged_care#2434",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2434",
+    "occured_at": "2024-09-19T14:28:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2434",
+    "text": "added timeout to middleware requests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2532",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2532",
+    "occured_at": "2024-11-14T14:15:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2532",
+    "text": "added test cases for asset bed",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3261",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -51,28 +73,6 @@
     "occured_at": "2024-09-07T17:55:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2434",
     "text": "added timeout to middleware requests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2434",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2434",
-    "occured_at": "2024-09-19T14:28:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2434",
-    "text": "added timeout to middleware requests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2532",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2532",
-    "occured_at": "2024-11-14T14:15:02.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2532",
-    "text": "added test cases for asset bed",
     "points": null,
     "meta": {}
   },
@@ -480,6 +480,17 @@
     "occured_at": "2025-08-18T13:58:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13403",
     "text": "Replace external id with id in AuthUser",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2790",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2790",
+    "occured_at": "2025-01-29T09:00:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2790",
+    "text": "Adding cache for swagger",
     "points": null,
     "meta": {}
   },
@@ -1316,17 +1327,6 @@
     "occured_at": "2025-01-30T15:58:02.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2793",
     "text": "Fix the incorrect req and res schema for swagger",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2790",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2790",
-    "occured_at": "2025-01-29T09:00:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2790",
-    "text": "Adding cache for swagger",
     "points": null,
     "meta": {}
   },
@@ -6886,17 +6886,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3333",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3333",
-    "occured_at": "2025-10-31T01:31:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3333",
-    "text": "Reports and Templates v2",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3348_APPROVED_PRR_kwDODsgdF87MeU76",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -6904,6 +6893,17 @@
     "occured_at": "2025-11-06T20:51:14.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3348#pullrequestreview-3430502138",
     "text": "fix: enabled removal of definitional field on product knowledge update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3333",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3333",
+    "occured_at": "2025-10-31T01:31:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3333",
+    "text": "Reports and Templates v2",
     "points": null,
     "meta": {}
   },

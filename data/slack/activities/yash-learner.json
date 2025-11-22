@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-11-21_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-21T18:05:56.410Z",
+    "link": null,
+    "text": "<strong>November 20</strong><br>• Addressed <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;since=2025-11-19&amp;until=2025-11-20\">all review comments</a> from Nihal related to AD create, delete and edit on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>• Addressed some copilot and coderabbit review comments.<br>• EOD call -&gt; just me &amp; bots.<br>• Started moving the AD list specs to a separate PR from <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>, as conversations on PR went over 200, it is struggling to load smoothly, with FE, BE and PW tests running locally and to reduce TAT for PR.<br><strong>Next</strong><br>• Address review comments from Nihal related to AD list.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-21_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-21T00:55:28.173Z",
+    "link": null,
+    "text": "<strong>November 20</strong><br><br>• Had an intro call with Khavin.<br>• Joined the DPG review call.<br>• Updated the <a href=\"https://github.com/ohcnetwork/docs/pull/81\">MFA-CEP</a> and requested feedback from Vignesh.<br>• Joined EOD call.<br>• Exploring Django and Care.<br><strong>Next</strong><br><br>• Intro calls.<br>• Exploring Django, Care, PR&#x27;s and Issues.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-19_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -117,17 +139,6 @@
     "occured_at": "2024-11-19T22:37:25.905Z",
     "link": null,
     "text": "<strong>Nov 19</strong><br><br>• Went through previous CEP, and moved the plan from secret gist to <a href=\"https://github.com/ohcnetwork/docs/pull/81\">WIP draft CEP</a> .<br>• Done with models and cleared some questions I had through chat with Vignesh.<br>• EOD call.<br>• Had a catch up call with Bodhi and shared a quick look of CEP for MFA.<br>• Gave an <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1732040198396539?thread_ts=1731935134.611329&amp;cid=C080225HC6B\">heads up</a> to design team, including MFA in login flow.<br><strong>Next</strong><br><br><em>Some how caught cold</em><br><br>• Update the CEP for MFA into three phase - MFA &amp; Backup codes, OTP via email/SMS, Passkeys and request feedback from Vignesh.<br>• Intro calls.<br>• Explore how permissions in Django and Care work and RBAC.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-21_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-21T00:55:28.173Z",
-    "link": null,
-    "text": "<strong>November 20</strong><br><br>• Had an intro call with Khavin.<br>• Joined the DPG review call.<br>• Updated the <a href=\"https://github.com/ohcnetwork/docs/pull/81\">MFA-CEP</a> and requested feedback from Vignesh.<br>• Joined EOD call.<br>• Exploring Django and Care.<br><strong>Next</strong><br><br>• Intro calls.<br>• Exploring Django, Care, PR&#x27;s and Issues.",
     "points": null,
     "meta": null
   },
