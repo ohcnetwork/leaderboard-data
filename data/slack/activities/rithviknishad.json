@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2022-08-29_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-08-29T06:28:26.123Z",
+    "link": null,
+    "text": "Updated SelectMenu tailwind component design to not be so greenish and minor updates in asset form design",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-05-13_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -788,17 +799,6 @@
     "occured_at": "2022-08-27T05:26:19.207Z",
     "link": null,
     "text": "Working on asset create/update page redesign and updated the patient card hover effect to be in sync with asset listing page&#x27;s hover effects",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-08-29_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-08-29T06:28:26.123Z",
-    "link": null,
-    "text": "Updated SelectMenu tailwind component design to not be so greenish and minor updates in asset form design",
     "points": null,
     "meta": null
   },
@@ -4440,6 +4440,17 @@
     "occured_at": "2025-11-21T08:10:57.803Z",
     "link": null,
     "text": "<strong>nov 20</strong><br>• unproductive, mostly sleepy....<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/14442\">#14442</a> improve goBack and back button logics (mostly to fix circular referencing issues present)<br>• leaderboard: looking into improve dev experience... read prisma docs.<br>• learnt a magic from <span class=\"s-mention s-user\">@UC8TSEGCQ</span> <br><strong>next</strong><br>• fix issues present in goBack<br>• improve leaderboard devx",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-22_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-22T05:00:01.460Z",
+    "link": null,
+    "text": "<strong>nov 21</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/14457\">#14457</a>: fixed back button in create invoice page<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> publish <code>create-care-mfe-plug</code> script to npm registry<br>• leaderboard:<br>    ◦ experimented w. switching to prisma orm for leaderboard (to improve devx), but it actually made things more complex. <a href=\"https://github.com/ohcnetwork/leaderboard/pull/645\">#645</a><br>    ◦ planning on improving dx in other ways along w. <span class=\"s-mention s-user\">@U083HFWFESD</span> <br>• built a generic deployments registry map along w. <span class=\"s-mention s-user\">@U086E5U2CSJ</span> and copilot (<a href=\"https://github.com/ohcnetwork/deployments_registry/commit/de45625d918422484b706c47491732a541192b74\">commit</a>)<br>• watercooler: played around w. creating a cloudflare worker to fill and sign monthly invoices and draft a mail w. the invoice attached<br><strong>next</strong><br>• improve leaderboard&#x27;s DX<br>• docs for leaderboard&#x27;s new architecture<br>• other pending leaderboard refinements",
     "points": null,
     "meta": null
   }

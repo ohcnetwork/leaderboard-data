@@ -1,5 +1,38 @@
 [
   {
+    "slug": "issue_opened_docs#11",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #11",
+    "occured_at": "2024-03-05T10:59:25.000Z",
+    "link": "https://github.com/ohcnetwork/docs/issues/11",
+    "text": "Middleware rewrite in python",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_docs#21",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #21",
+    "occured_at": "2024-04-15T04:30:43.000Z",
+    "link": "https://github.com/ohcnetwork/docs/issues/21",
+    "text": "ABDM Integration",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_docs#12",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #12",
+    "occured_at": "2024-03-05T11:06:18.000Z",
+    "link": "https://github.com/ohcnetwork/docs/issues/12",
+    "text": "Whatsapp bot for CARE",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_life#3",
     "contributor": "khavinshankar",
     "activity_definition": "issue_opened",
@@ -183,39 +216,6 @@
     "occured_at": "2022-10-20T13:24:52.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/3738",
     "text": "Cleanup Dependencies",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_docs#12",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #12",
-    "occured_at": "2024-03-05T11:06:18.000Z",
-    "link": "https://github.com/ohcnetwork/docs/issues/12",
-    "text": "Whatsapp bot for CARE",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_docs#11",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #11",
-    "occured_at": "2024-03-05T10:59:25.000Z",
-    "link": "https://github.com/ohcnetwork/docs/issues/11",
-    "text": "Middleware rewrite in python",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_docs#21",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #21",
-    "occured_at": "2024-04-15T04:30:43.000Z",
-    "link": "https://github.com/ohcnetwork/docs/issues/21",
-    "text": "ABDM Integration",
     "points": null,
     "meta": {}
   },
@@ -1393,17 +1393,6 @@
     "occured_at": "2021-06-26T01:33:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/1456",
     "text": "Convert date filters to date range filters in External Results",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14236_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14236 assigned",
-    "occured_at": "2025-11-04T13:02:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14236",
-    "text": "Encounter not refreshed after adding a consent",
     "points": null,
     "meta": {}
   },
@@ -9236,17 +9225,6 @@
     "occured_at": "2025-11-17T11:41:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14347",
     "text": "Add shortcut for \"Create Invoice\" in Appointment detail page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14236",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14236",
-    "occured_at": "2025-11-04T13:02:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14236",
-    "text": "Encounter not refreshed after adding a consent",
     "points": null,
     "meta": {}
   },
@@ -34041,17 +34019,6 @@
     "occured_at": "2025-10-15T12:52:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14031#pullrequestreview-3340237193",
     "text": "Fixed #13956: Made 'No Records Found' message input specific",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#13108_CHANGES_REQUESTED_PRR_kwDODtfaXs7GAc9v",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #13108",
-    "occured_at": "2025-10-10T08:35:37.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13108#pullrequestreview-3322007407",
-    "text": "admin organization tab design update",
     "points": null,
     "meta": {}
   },
@@ -76578,6 +76545,61 @@
     "occured_at": "2025-11-05T01:17:04.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14242",
     "text": "Toasters are not shown while used in plugs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14236_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14236 assigned",
+    "occured_at": "2025-11-04T13:02:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14236",
+    "text": "Encounter not refreshed after adding a consent",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14236",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14236",
+    "occured_at": "2025-11-04T13:02:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14236",
+    "text": "Encounter not refreshed after adding a consent",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13108_CHANGES_REQUESTED_PRR_kwDODtfaXs7GAc9v",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #13108",
+    "occured_at": "2025-10-10T08:35:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13108#pullrequestreview-3322007407",
+    "text": "admin organization tab design update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_manyu/fix/14321_a09df87c22da74ce276c12edb6ec8897114db2c4",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to manyu/fix/14321",
+    "occured_at": "2025-11-18T11:58:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/a09df87c22da74ce276c12edb6ec8897114db2c4",
+    "text": "Runtime Frontend Plugins (#14121)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_manyu/fix/14321_011b37625e67f7b4c8b200e771a5387d3b5a2982",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to manyu/fix/14321",
+    "occured_at": "2025-11-18T17:14:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/011b37625e67f7b4c8b200e771a5387d3b5a2982",
+    "text": "Gracefully handle errors from plugins (#14422)",
     "points": null,
     "meta": {}
   }

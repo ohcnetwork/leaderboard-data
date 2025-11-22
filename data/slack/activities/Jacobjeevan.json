@@ -253,6 +253,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-19_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-19T17:55:04.041Z",
+    "link": null,
+    "text": "December 19th<br>• More work on patient files<br>    ◦ Paused for now to focus on immediate features to ship by Jan<br>• Few tweaks with OTP Appointment flow<br>• Started working on OTP Appointment logged in view (Integrating appointment success page into this)<br>• Reviewed few PRs<br>Next<br>• OTP Appointments logged in view",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-21_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-20T20:20:39.761Z",
+    "link": null,
+    "text": "December 20th<br>• OTP Appointments flow tweaks<br>• OTP Patient router/routes (Appointments overview page)<br>Next<br>• Work on OTP Appointments",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-04_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -414,28 +436,6 @@
     "occured_at": "2024-12-18T18:25:03.692Z",
     "link": null,
     "text": "December 18th<br>Done<br>• Refactored the profile removal PR (tests) based on feedback<br>• Opened draft PR for patient files<br>    ◦ Audio player presented a few issues (esp with fetching track duration). Researching online, people have used all sorts of hacks to get around to it. I tried a few and got one working, but it will has issues with specific tracks for whatever reason. So I gotta diagnose and figure that out.<br>Next<br>• Patient files<br>    ◦ FE: Diagnose the audio player issue<br>    ◦ BE: New FE designs adds file based filters; we do have file category support in BE; current options are Xray, Audio, Identity Proof and Unspecified (most of the files we have are unspecified as that&#x27;s the default option for file uploads). On the FE, options are Imaging, Lab Reports, Documents and Audio; could map images/audio based on file extensions, but then lab reports could also be images. I have to confirm with product whether this is required before modifying BE to support the options.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-19_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-19T17:55:04.041Z",
-    "link": null,
-    "text": "December 19th<br>• More work on patient files<br>    ◦ Paused for now to focus on immediate features to ship by Jan<br>• Few tweaks with OTP Appointment flow<br>• Started working on OTP Appointment logged in view (Integrating appointment success page into this)<br>• Reviewed few PRs<br>Next<br>• OTP Appointments logged in view",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-21_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-20T20:20:39.761Z",
-    "link": null,
-    "text": "December 20th<br>• OTP Appointments flow tweaks<br>• OTP Patient router/routes (Appointments overview page)<br>Next<br>• Work on OTP Appointments",
     "points": null,
     "meta": null
   },

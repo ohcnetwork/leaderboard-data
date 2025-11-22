@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_opened_care#2984",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2984",
+    "occured_at": "2025-04-07T14:53:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2984",
+    "text": "fixed recent views duplications",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2434",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -1459,6 +1470,17 @@
     "occured_at": "2024-09-19T14:28:56.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2467",
     "text": "fixing rhytmic_detail missing issue in event logs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2984",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2984",
+    "occured_at": "2025-04-07T15:16:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2984",
+    "text": "fixed recent views duplications",
     "points": null,
     "meta": {}
   },
@@ -4653,28 +4675,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2984",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2984",
-    "occured_at": "2025-04-07T14:53:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2984",
-    "text": "fixed recent views duplications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2984",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2984",
-    "occured_at": "2025-04-07T15:16:06.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2984",
-    "text": "fixed recent views duplications",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#2981",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -6886,17 +6886,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#3348_APPROVED_PRR_kwDODsgdF87MeU76",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3348",
-    "occured_at": "2025-11-06T20:51:14.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3348#pullrequestreview-3430502138",
-    "text": "fix: enabled removal of definitional field on product knowledge update",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3333",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -6948,6 +6937,28 @@
     "occured_at": "2025-11-10T12:28:25.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/20c8ce9eb4c20264372dd1d6b32147dfe450a257",
     "text": "adding configrable limit to patient name (#3321)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3372",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3372",
+    "occured_at": "2025-11-22T07:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3372",
+    "text": "fix deadlock in TagConfig endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3348_APPROVED_PRR_kwDODsgdF87MeU76",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3348",
+    "occured_at": "2025-11-06T20:51:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3348#pullrequestreview-3430502138",
+    "text": "fix: enabled removal of definitional field on product knowledge update",
     "points": null,
     "meta": {}
   }

@@ -1,5 +1,49 @@
 [
   {
+    "slug": "eod_update_2024-11-22_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-22T05:08:06.513Z",
+    "link": null,
+    "text": "22nd November<br>• worked on getting cypress-parallel to run on github actions<br>• added mochawesome reporter for cypress runs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-25_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-25T05:48:39.674Z",
+    "link": null,
+    "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-26_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-25T22:57:46.483Z",
+    "link": null,
+    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-27_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-26T19:43:19.883Z",
+    "link": null,
+    "text": "June 26th<br>• fixes to the suppliers field<br>• added additional filters for labs endpoints<br>• worked on migrations for investigations",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-06-04_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -381,50 +425,6 @@
     "occured_at": "2024-11-21T05:25:52.103Z",
     "link": null,
     "text": "18th November<br>• Refactored the CSV export logic and converted it to a mixin class<br>• Investigate the issue with slow api response in DigitalOcean deployment because of argon password hasher<br>19th November<br>• Made flow diagrams and added more pages for store and Inventory management<br>• Made sentry and plausible integrations on the frontend optional, so they are not bundled during build if not enabled<br>• Searched for other places to make optimizations on the frontend<br>20th November<br>• Worked on flow diagram for medicine dispensing in pharmacy and added details on partial dispensing<br>21st November<br>• Created a new production branch on scribe backend and cleaned up the dangling branches and pr pr on care_scribe<br>• Fixed a bug that broke asset actions which prevented video streams from loading<br>• Started working on billing pages in pharmacy",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-22_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-22T05:08:06.513Z",
-    "link": null,
-    "text": "22nd November<br>• worked on getting cypress-parallel to run on github actions<br>• added mochawesome reporter for cypress runs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-25_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-25T05:48:39.674Z",
-    "link": null,
-    "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-25T22:57:46.483Z",
-    "link": null,
-    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-27_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-26T19:43:19.883Z",
-    "link": null,
-    "text": "June 26th<br>• fixes to the suppliers field<br>• added additional filters for labs endpoints<br>• worked on migrations for investigations",
     "points": null,
     "meta": null
   },

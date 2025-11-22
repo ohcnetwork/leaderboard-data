@@ -1,5 +1,16 @@
 [
   {
+    "slug": "issue_assigned_erd#7_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #7 assigned",
+    "occured_at": "2025-10-01T09:08:14.000Z",
+    "link": "https://github.com/ohcnetwork/erd/issues/7",
+    "text": "✨ Set up Copilot instructions",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14250",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -480,17 +491,6 @@
     "occured_at": "2025-10-18T16:23:30.000Z",
     "link": "https://github.com/ohcnetwork/mock_analyzer/pull/2",
     "text": "Scaffold Mock HL7 Analyzer Project with HL7 Message Parsing and Result Sending",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_erd#7_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #7 assigned",
-    "occured_at": "2025-10-01T09:08:14.000Z",
-    "link": "https://github.com/ohcnetwork/erd/issues/7",
-    "text": "✨ Set up Copilot instructions",
     "points": null,
     "meta": {}
   },
@@ -2068,6 +2068,39 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#14455_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14455 assigned",
+    "occured_at": "2025-11-21T07:22:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14455",
+    "text": "Remove All `data-cy` and `data-testid` Attributes From CARE_FE",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14456",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14456",
+    "occured_at": "2025-11-21T07:22:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14456",
+    "text": "Remove data-cy and data-testid attributes from codebase",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14456",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14456",
+    "occured_at": "2025-11-21T09:51:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14456",
+    "text": "Remove data-cy and data-testid attributes from codebase",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#14467_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2090,28 +2123,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14455_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14455 assigned",
-    "occured_at": "2025-11-21T07:22:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14455",
-    "text": "Remove All `data-cy` and `data-testid` Attributes From CARE_FE",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14438",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14438",
-    "occured_at": "2025-11-20T05:50:35.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14438",
-    "text": "refactor: Remove internal translations from FilterSelect component",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14468",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2130,6 +2141,17 @@
     "occured_at": "2025-11-21T15:16:20.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14468",
     "text": "Remove all Cypress test infrastructure, references, and configurations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14438",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14438",
+    "occured_at": "2025-11-20T05:50:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14438",
+    "text": "refactor: Remove internal translations from FilterSelect component",
     "points": null,
     "meta": {}
   },
@@ -2163,28 +2185,6 @@
     "occured_at": "2025-11-21T14:40:38.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14454",
     "text": "Migrate patient questionnaire tests from Cypress to Playwright",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14456",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14456",
-    "occured_at": "2025-11-21T07:22:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14456",
-    "text": "Remove data-cy and data-testid attributes from codebase",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14456",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14456",
-    "occured_at": "2025-11-21T09:51:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14456",
-    "text": "Remove data-cy and data-testid attributes from codebase",
     "points": null,
     "meta": {}
   }
