@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-11-22_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-22T05:00:01.460Z",
+    "link": null,
+    "text": "<strong>nov 21</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/14457\">#14457</a>: fixed back button in create invoice page<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> publish <code>create-care-mfe-plug</code> script to npm registry<br>• leaderboard:<br>    ◦ experimented w. switching to prisma orm for leaderboard (to improve devx), but it actually made things more complex. <a href=\"https://github.com/ohcnetwork/leaderboard/pull/645\">#645</a><br>    ◦ planning on improving dx in other ways along w. <span class=\"s-mention s-user\">@U083HFWFESD</span> <br>• built a generic deployments registry map along w. <span class=\"s-mention s-user\">@U086E5U2CSJ</span> and copilot (<a href=\"https://github.com/ohcnetwork/deployments_registry/commit/de45625d918422484b706c47491732a541192b74\">commit</a>)<br>• watercooler: played around w. creating a cloudflare worker to fill and sign monthly invoices and draft a mail w. the invoice attached<br><strong>next</strong><br>• improve leaderboard&#x27;s DX<br>• docs for leaderboard&#x27;s new architecture<br>• other pending leaderboard refinements",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-09-17_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-17T03:32:50.940Z",
+    "link": null,
+    "text": "Breathing tailwind with <a href=\"https://github.com/ohcnetwork/care_fe/issues/3594\">https://github.com/ohcnetwork/care_fe/issues/3594</a>.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-05-12_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -29,6 +51,17 @@
     "occured_at": "2022-05-13T06:34:30.460Z",
     "link": null,
     "text": "Submitted 2 PRs and worked on side project.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-21_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-21T00:34:45.869Z",
+    "link": null,
+    "text": "<strong>Issues Raised</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2469\">#2469</a> (Sourcing .env causes command not found errors)<br><strong>PRs</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2464\">#2464</a> (Improves UI in Facility Create Page for Oxygen Related Fields)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2465\">#2465</a> (Collapse notification side bar when visit link is clicked on any notification)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2466\">#2466</a> (Collapse drawer onclick)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2470\">#2470</a> (Fixes missing quotes in .env)",
     "points": null,
     "meta": null
   },
@@ -238,17 +271,6 @@
     "occured_at": "2022-09-08T05:05:55.528Z",
     "link": null,
     "text": "• Reworked on Deprecating Covid Category BE PR: <a href=\"https://github.com/ohcnetwork/care/pull/1007\">https://github.com/ohcnetwork/care/pull/1007</a> as previous PR became too dirty.<br>• Working on Select Menu with Search and FE for the above issue.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-21_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-21T00:34:45.869Z",
-    "link": null,
-    "text": "<strong>Issues Raised</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2469\">#2469</a> (Sourcing .env causes command not found errors)<br><strong>PRs</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2464\">#2464</a> (Improves UI in Facility Create Page for Oxygen Related Fields)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2465\">#2465</a> (Collapse notification side bar when visit link is clicked on any notification)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2466\">#2466</a> (Collapse drawer onclick)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2470\">#2470</a> (Fixes missing quotes in .env)",
     "points": null,
     "meta": null
   },
@@ -942,17 +964,6 @@
     "occured_at": "2022-09-16T04:56:53.200Z",
     "link": null,
     "text": "Worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/3588\">https://github.com/ohcnetwork/care_fe/pull/3588</a>. Completed configuring local BE for Cypress workflow. Most of the cypress tests failing with local due to missing data. Need to fix that too.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-09-17_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-17T03:32:50.940Z",
-    "link": null,
-    "text": "Breathing tailwind with <a href=\"https://github.com/ohcnetwork/care_fe/issues/3594\">https://github.com/ohcnetwork/care_fe/issues/3594</a>.",
     "points": null,
     "meta": null
   },
@@ -2156,6 +2167,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-10-04_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-10-04T05:43:50.495Z",
+    "link": null,
+    "text": "<strong>EOD 04/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Mostly spent time tinkering with ICD API and understanding it.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: Medicine Administrations: group every 4 hour administrations to 1 column<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6398\">#6398</a>: Asset Create More: fix reset of <code>is_working</code> state<br><strong>What&#x27;s next?</strong><br>• Work on ICD Search enhancement",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-09-01_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2255,17 +2277,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2023-10-04_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-10-04T05:43:50.495Z",
-    "link": null,
-    "text": "<strong>EOD 04/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Mostly spent time tinkering with ICD API and understanding it.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: Medicine Administrations: group every 4 hour administrations to 1 column<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6398\">#6398</a>: Asset Create More: fix reset of <code>is_working</code> state<br><strong>What&#x27;s next?</strong><br>• Work on ICD Search enhancement",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2023-09-13_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2350,6 +2361,17 @@
     "occured_at": "2023-09-25T05:17:56.040Z",
     "link": null,
     "text": "<strong>EOD 25/09/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care/pull/1636\">#1636</a>: Completed refactoring ICD11 Table + huddled with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on the same<br><strong>What&#x27;s next?</strong><br>• Resolve conflicts on archive medicine administrations PR and add tests in backend<br>• Follow up on uninstall axios PR<br>• Split routes of AppRouter into multiple nested routers",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-10-25_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-10-25T04:27:45.672Z",
+    "link": null,
+    "text": "<strong>EOD 25/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Reviewed couple of PRs<br>• Followed up on existing PRs and fixed cypress tests.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6494\">#6494</a>: Lint CI: show errors only and fix existing lint errors.<br><strong>What&#x27;s next?</strong><br>• Work on M2M table for Consultation Diagnosis",
     "points": null,
     "meta": null
   },
@@ -2460,17 +2482,6 @@
     "occured_at": "2023-10-18T02:56:14.014Z",
     "link": null,
     "text": "EOD 18/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6462\">#6462</a>: Fixes missing <code>offset</code> in query params of <code>PaginatedList</code> component which prevented query from not being dispatched upon page navigations.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6458\">#6458</a>: Fixes upon QA on consultation: route to facility PR<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: Fixes upon QA (more responsiveness issues) on medicine administration group by 4 hour PR.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6464\">#6464</a>: Added nurse user type (front-end)<br>• <a href=\"https://github.com/ohcnetwork/care/pull/1670\">#1670</a>: optimized and rebased migrations of updating consciousness level choices aligning to MEWS<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6435\">#6435</a>: Fixed issues with front-end PR of updating consciousness level choices aligning to MEWS<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6466\">#6466</a>: Fixed accidental edit to the fallback value of JWT refresh token interval<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6465\">#6465</a>: Fixed unintended RTL styles present in Neurological Monitoring table.<br>• Partially worked on zoomdrive serverless.<br><strong>What&#x27;s next?</strong><br>• Complete tests for consultation route to facility backend and follow up on QA.<br>• Work on zoomdrive on vercel serverless functions.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-10-25_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-10-25T04:27:45.672Z",
-    "link": null,
-    "text": "<strong>EOD 25/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Reviewed couple of PRs<br>• Followed up on existing PRs and fixed cypress tests.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6494\">#6494</a>: Lint CI: show errors only and fix existing lint errors.<br><strong>What&#x27;s next?</strong><br>• Work on M2M table for Consultation Diagnosis",
     "points": null,
     "meta": null
   },
@@ -2695,6 +2706,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-25_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-25T17:40:02.669Z",
+    "link": null,
+    "text": "<strong>25th November</strong><br>Not very productive…<br>• Scheduling: Replaced the missed out placeholder data in calendar day popup with actual data from API.<br>• Reviewing camera integration plug PR<br><strong>Next</strong><br>• Complete reviewing camera integration plug PR<br>• Scheduling: Debug checkbox parent div causing crash issue<br>• Complete writing script to generate summary data based on cross-referenced issue/pr story points.<br>• Complete cleaning up leaderboard scraper.<br>• Work on appointments UI components.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-14_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2779,17 +2801,6 @@
     "occured_at": "2024-11-22T01:10:54.531Z",
     "link": null,
     "text": "<strong>November 22</strong><br>• Attempted to improve cypress workflow by<br>    ◦ by caching backend images and DB volume based on backend’s sha (so that we can skip running migrations and load-dummy-data on every cypress run)<br>    ◦ latest attempt: <a href=\"https://github.com/ohcnetwork/care_fe/actions/runs/11971366104?pr=9185\">https://github.com/ohcnetwork/care_fe/actions/runs/11971366104?pr=9185</a>; still things to be fixed…<br>• Synced with <span class=\"s-mention s-user\">@U022THM4U2U</span> on the same <span class=\"s-emoji\">☝️</span> <br>• Attempted to fix issues with github scraper, turns out issues with events API delay; draft: <a href=\"https://github.com/ohcnetwork/leaderboard/pull/549\">https://github.com/ohcnetwork/leaderboard/pull/549</a><br>Heading to Guruvayoor in a while for the weekend… mostly won’t be available for today’s EOD sync call.<br><br><strong>Up Next</strong><br>• Scheduling: Debug checkbox parent div causing crash issue<br>• Complete writing script to generate summary data based on cross-referenced issue/pr story points.<br>• Complete cleaning up leaderboard scraper.<br>• Work on appointments UI components.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-25_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-25T17:40:02.669Z",
-    "link": null,
-    "text": "<strong>25th November</strong><br>Not very productive…<br>• Scheduling: Replaced the missed out placeholder data in calendar day popup with actual data from API.<br>• Reviewing camera integration plug PR<br><strong>Next</strong><br>• Complete reviewing camera integration plug PR<br>• Scheduling: Debug checkbox parent div causing crash issue<br>• Complete writing script to generate summary data based on cross-referenced issue/pr story points.<br>• Complete cleaning up leaderboard scraper.<br>• Work on appointments UI components.",
     "points": null,
     "meta": null
   },
@@ -2959,6 +2970,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-10_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-10T17:09:47.745Z",
+    "link": null,
+    "text": "<strong>10th Jan</strong><br>• Made quite a few changes based on review suggestion on schedule and appointments<br>• Fixed an issue where calling <code>get_slots_for_day</code> api would lead to recreating the token slot objects in db due to incorrect timezone when computing slot key <a href=\"https://github.com/ohcnetwork/care/pull/2725\">#2725</a><br>• Fixed <code>AppRoutes</code> type giving type <code>never</code> for path params instead of <code>string</code> <a href=\"https://github.com/ohcnetwork/care_fe/pull/9890\">#9890</a><br>• Reviewed quite a few PRs<br><strong>Next</strong><br>• Complete wiring public org search in kerala.care landing page<br>• Clean up types for inferring path params from API routes to skip the missing path param runtime checks.<br>• Tests for schedule and bookings<br>• Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form’s form state.<br>• Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-23_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3047,17 +3069,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-10_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-10T17:09:47.745Z",
-    "link": null,
-    "text": "<strong>10th Jan</strong><br>• Made quite a few changes based on review suggestion on schedule and appointments<br>• Fixed an issue where calling <code>get_slots_for_day</code> api would lead to recreating the token slot objects in db due to incorrect timezone when computing slot key <a href=\"https://github.com/ohcnetwork/care/pull/2725\">#2725</a><br>• Fixed <code>AppRoutes</code> type giving type <code>never</code> for path params instead of <code>string</code> <a href=\"https://github.com/ohcnetwork/care_fe/pull/9890\">#9890</a><br>• Reviewed quite a few PRs<br><strong>Next</strong><br>• Complete wiring public org search in kerala.care landing page<br>• Clean up types for inferring path params from API routes to skip the missing path param runtime checks.<br>• Tests for schedule and bookings<br>• Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form’s form state.<br>• Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-01-13_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3120,6 +3131,17 @@
     "occured_at": "2025-02-16T17:41:19.743Z",
     "link": null,
     "text": "<strong>Feb 13 - 14th</strong><br>• Adds support for searching users in facility org user viewset <a href=\"https://github.com/ohcnetwork/care/pull/2832\">#2832</a><br>• Prevent auto focus issue in Org. Patient Search <a href=\"https://github.com/ohcnetwork/care_fe/pull/10609\">#10609</a><br>• Remove unused configs, utilities, APIs, styles + enable React <code>StrictMode</code> <a href=\"https://github.com/ohcnetwork/care_fe/pull/10631\">#10631</a><br>• Helped in video shoot and editing for social media<br>• Understanding device registry<br>• Reviewed PRs<br><strong>Next</strong><br>• Complete teleicu device plugs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-04-11_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-11T06:28:10.013Z",
+    "link": null,
+    "text": "<strong>april 11</strong><br>• :heads-down: w. <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on <span class=\"s-mention s-user\">@U022THM4U2U</span> on debugging improper migrations for devices.<br>• :heads-down: w. <span class=\"s-mention s-user\">@U086E5U2CSJ</span> on debugging weird state mgmt. issues<br>• thought of starting with camera stream authn., ended up falling into the following rabbit hole:<br>• upgraded teleicu devices plug to react v19, all good there.<br>• thought i found a clean fix for the tailwind v4 styling conflict by plugs. realised that i was testing things out on the wrong machine altogether. had FE server running on both my linux and mac., ended up following gigin’s method of name-spacing the styles to fix the styles conflict.<br>• migrating abdm FE to react 19… but in order to complete that hi-profiles needs to be upgraded to react 19 first.<br>• migrating hi-profiles to react 19… ended up realising it’s dependency storybook has peer-dep. issues w. react 19 <br><strong>next</strong><br>• complete hi-profiles, abdm, hcx, scribe, doctor connect, livekit upgrade to v19<br>• start working on camera stream authn. <span class=\"s-emoji\">🙂</span> <br>• app auto-updates",
     "points": null,
     "meta": null
   },
@@ -3670,17 +3692,6 @@
     "occured_at": "2025-04-09T03:01:24.312Z",
     "link": null,
     "text": "<strong>april 9</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11820\">#11820</a> pushed changes to contributors pr: removed unnecessary javascript for making admin roles table responsive since it’s achievable via css’s <code>calc</code>., and couple of other styling improvements<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11821\">#11821</a> migrate raviger to v5 (maintainer has fixed the versioning issue)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11827\">#11827</a> enhanced device show page ui; added support for disassociating location; moved location history inside manage location sheet instead of having a dedicated page for it;<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11587\">#11587</a> upgraded excalidraw to v0.18; had some breaking changes as per release notes; fixed them;<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11592\">#11592</a> completed (hopefully) upgrade to react 19<br>• reviewed prs<br>• :heads-down: w. <span class=\"s-mention s-user\">@U06CY7RUZ9S</span> &amp; <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on debugging minor migration issue<br>• :heads-down: w. <span class=\"s-mention s-user\">@U086E5U2CSJ</span> on debugging why discharge_advice was not changing in BE; and a lockfile issue; <br><strong>next</strong><br>• one more pending stale issue assigned on me: auto-update for care<br>• camera stream authn. and other teleicu plug improvements",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-11_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-11T06:28:10.013Z",
-    "link": null,
-    "text": "<strong>april 11</strong><br>• :heads-down: w. <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on <span class=\"s-mention s-user\">@U022THM4U2U</span> on debugging improper migrations for devices.<br>• :heads-down: w. <span class=\"s-mention s-user\">@U086E5U2CSJ</span> on debugging weird state mgmt. issues<br>• thought of starting with camera stream authn., ended up falling into the following rabbit hole:<br>• upgraded teleicu devices plug to react v19, all good there.<br>• thought i found a clean fix for the tailwind v4 styling conflict by plugs. realised that i was testing things out on the wrong machine altogether. had FE server running on both my linux and mac., ended up following gigin’s method of name-spacing the styles to fix the styles conflict.<br>• migrating abdm FE to react 19… but in order to complete that hi-profiles needs to be upgraded to react 19 first.<br>• migrating hi-profiles to react 19… ended up realising it’s dependency storybook has peer-dep. issues w. react 19 <br><strong>next</strong><br>• complete hi-profiles, abdm, hcx, scribe, doctor connect, livekit upgrade to v19<br>• start working on camera stream authn. <span class=\"s-emoji\">🙂</span> <br>• app auto-updates",
     "points": null,
     "meta": null
   },
@@ -4440,17 +4451,6 @@
     "occured_at": "2025-11-21T08:10:57.803Z",
     "link": null,
     "text": "<strong>nov 20</strong><br>• unproductive, mostly sleepy....<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/14442\">#14442</a> improve goBack and back button logics (mostly to fix circular referencing issues present)<br>• leaderboard: looking into improve dev experience... read prisma docs.<br>• learnt a magic from <span class=\"s-mention s-user\">@UC8TSEGCQ</span> <br><strong>next</strong><br>• fix issues present in goBack<br>• improve leaderboard devx",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-22_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-22T05:00:01.460Z",
-    "link": null,
-    "text": "<strong>nov 21</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/14457\">#14457</a>: fixed back button in create invoice page<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> publish <code>create-care-mfe-plug</code> script to npm registry<br>• leaderboard:<br>    ◦ experimented w. switching to prisma orm for leaderboard (to improve devx), but it actually made things more complex. <a href=\"https://github.com/ohcnetwork/leaderboard/pull/645\">#645</a><br>    ◦ planning on improving dx in other ways along w. <span class=\"s-mention s-user\">@U083HFWFESD</span> <br>• built a generic deployments registry map along w. <span class=\"s-mention s-user\">@U086E5U2CSJ</span> and copilot (<a href=\"https://github.com/ohcnetwork/deployments_registry/commit/de45625d918422484b706c47491732a541192b74\">commit</a>)<br>• watercooler: played around w. creating a cloudflare worker to fill and sign monthly invoices and draft a mail w. the invoice attached<br><strong>next</strong><br>• improve leaderboard&#x27;s DX<br>• docs for leaderboard&#x27;s new architecture<br>• other pending leaderboard refinements",
     "points": null,
     "meta": null
   }

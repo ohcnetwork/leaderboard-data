@@ -1,27 +1,5 @@
 [
   {
-    "slug": "eod_update_2025-05-17_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-17T10:27:12.481Z",
-    "link": null,
-    "text": "May 17<br>• Learnt about ORMs, relationships, Forms, auth in Django<br>• Completed L4 and L5 of the course<br>• AllergyTolerance, Condition and Procedure completed in FHIR R5<br>Next<br>• Continue with DjangoForAll course <br>• Continue with FHIR R5 docs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-16_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-16T07:59:10.324Z",
-    "link": null,
-    "text": "<strong>May 16</strong><br>• Learnt about views, templates, databases, apps, models and migrations in Django<br>• Completed L4 of DjangoForAll course <br>• Explored HL7 FHIR page to find most important topics for the project<br>Next<br>• Make changes to pending PRs<br>• Continue with Django course<br>• Start the Clinical Module of FHIR",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-08-10_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -40,6 +18,28 @@
     "occured_at": "2025-07-17T07:56:41.980Z",
     "link": null,
     "text": "July 17th<br>• fixed manifest file for frontend<br>• configured diet fe plug to work correctly with care_fe<br>• discussion and feedback from Amjith &amp;amp; Yaswanth<br>Next<br>• implement dietician backend routes",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-17_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-17T10:27:12.481Z",
+    "link": null,
+    "text": "May 17<br>• Learnt about ORMs, relationships, Forms, auth in Django<br>• Completed L4 and L5 of the course<br>• AllergyTolerance, Condition and Procedure completed in FHIR R5<br>Next<br>• Continue with DjangoForAll course <br>• Continue with FHIR R5 docs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-16_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-16T07:59:10.324Z",
+    "link": null,
+    "text": "<strong>May 16</strong><br>• Learnt about views, templates, databases, apps, models and migrations in Django<br>• Completed L4 of DjangoForAll course <br>• Explored HL7 FHIR page to find most important topics for the project<br>Next<br>• Make changes to pending PRs<br>• Continue with Django course<br>• Start the Clinical Module of FHIR",
     "points": null,
     "meta": null
   },
@@ -227,6 +227,17 @@
     "occured_at": "2025-06-26T07:13:51.229Z",
     "link": null,
     "text": "25-26 June<br>• Went through changes in models reviewed by Yaswanth.<br>• Checked the fields present in NO, NP &amp;amp; NI which best fit the current implementation plan.<br>• Read about Location, Services and HealthcareService.<br>• Checked which FHIR resources can be used to reduce number of new models.<br>Next<br>• Go through necessary APIs to fetch data.<br>• Reread about ChargItem, ChargeItemDefinition, Invoice and Account.<br>• Look at backend implementation of quantity, allergens &amp;amp; healthcareService.<br>• Go through FHIR docs of the necessary resources.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-28_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-28T16:04:13.017Z",
+    "link": null,
+    "text": "July 28th<br>• added uuid fields in necessary places and completed intake logging<br>• tested backend routes, v1 logic completed<br>• simplified fetching logic in the frontend<br>• tried fixing api, build and cors errors",
     "points": null,
     "meta": null
   },
@@ -447,17 +458,6 @@
     "occured_at": "2025-07-26T07:57:43.619Z",
     "link": null,
     "text": "July 26th<br>• revamped backend logic and made it work correctly<br>• added a route for creating NP<br>• tested backend and all routes are functioning as expected (finally)<br>• fixed frontend service components and made apis simpler<br>• tested frontend pages<br>Next<br>• finish the frontend and fix bug of patient not loading in services<br>• test the complete workflow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-28_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-28T16:04:13.017Z",
-    "link": null,
-    "text": "July 28th<br>• added uuid fields in necessary places and completed intake logging<br>• tested backend routes, v1 logic completed<br>• simplified fetching logic in the frontend<br>• tried fixing api, build and cors errors",
     "points": null,
     "meta": null
   },
