@@ -1188,6 +1188,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_teleicu_devices#11",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #11",
+    "occured_at": "2025-05-18T10:11:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/11",
+    "text": "Updated the README.md file",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14224",
     "contributor": "NikhilA8606",
     "activity_definition": "pr_opened",
@@ -3318,17 +3329,6 @@
     "occured_at": "2025-05-25T14:25:07.000Z",
     "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/13",
     "text": "Cleaning up PositionPreset objects with deleted FacilityLocation and Camera Device",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_teleicu_devices#11",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #11",
-    "occured_at": "2025-05-18T10:11:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/11",
-    "text": "Updated the README.md file",
     "points": null,
     "meta": {}
   },
@@ -9416,13 +9416,112 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14462_NikhilA8606",
+    "slug": "issue_assigned_care_fe#14451_NikhilA8606",
     "contributor": "NikhilA8606",
     "activity_definition": "issue_assigned",
-    "title": "Issue #14462 assigned",
-    "occured_at": "2025-11-21T11:52:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14462",
-    "text": "Pagination not working properly in Product Supplier page",
+    "title": "Issue #14451 assigned",
+    "occured_at": "2025-11-21T07:02:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14451",
+    "text": "Migrated the user avatar cypress test to playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14460",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14460",
+    "occured_at": "2025-11-21T09:41:23.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14460",
+    "text": "Playwright test for user avatar",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14460",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14460",
+    "occured_at": "2025-11-21T12:58:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14460",
+    "text": "Playwright test for user avatar",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_beta_3327578f8daaddde7e71f9f4f46b54b37d0cc1cb",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to beta",
+    "occured_at": "2025-11-20T10:10:54.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/commit/3327578f8daaddde7e71f9f4f46b54b37d0cc1cb",
+    "text": "Merge pull request #644 from ohcnetwork/badges",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_beta_90baeb02e8e66f393f79881805a719857d5242f5",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to beta",
+    "occured_at": "2025-11-20T16:44:44.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/commit/90baeb02e8e66f393f79881805a719857d5242f5",
+    "text": "auto load envs using direnv",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_leaderboard-github-scraper#11",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #11",
+    "occured_at": "2025-11-22T13:28:04.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/issues/11",
+    "text": "Assign 0 points for self reviewed reviews",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_leaderboard-github-scraper#7_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #7 assigned",
+    "occured_at": "2025-11-22T13:36:34.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/issues/7",
+    "text": "Commenting on an existing review causes PR review activity",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_leaderboard-github-scraper#12",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #12",
+    "occured_at": "2025-11-22T13:34:22.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/pull/12",
+    "text": "Fix: Exclude replies from being tracked as reviews",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_leaderboard-github-scraper#12",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #12",
+    "occured_at": "2025-11-22T13:34:43.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/pull/12",
+    "text": "Fix: Exclude replies from being tracked as reviews",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_aggregates-and-badges_0ad9a89b7405ca8e91aa27294b83e0285bf7896f",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to aggregates-and-badges",
+    "occured_at": "2025-11-22T13:34:43.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/commit/0ad9a89b7405ca8e91aa27294b83e0285bf7896f",
+    "text": "Merge pull request #12 from ohcnetwork/fix/exclude-review-reply",
     "points": null,
     "meta": {}
   },
@@ -9438,13 +9537,24 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14451_NikhilA8606",
+    "slug": "commit_created_beta_3e38fec60a822ede0630a944b5eb4654fce773a0",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to beta",
+    "occured_at": "2025-11-20T10:09:59.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/commit/3e38fec60a822ede0630a944b5eb4654fce773a0",
+    "text": "Merge pull request #643 from ohcnetwork/aggregates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14462_NikhilA8606",
     "contributor": "NikhilA8606",
     "activity_definition": "issue_assigned",
-    "title": "Issue #14451 assigned",
-    "occured_at": "2025-11-21T07:02:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14451",
-    "text": "Migrated the user avatar cypress test to playwright",
+    "title": "Issue #14462 assigned",
+    "occured_at": "2025-11-21T11:52:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14462",
+    "text": "Pagination not working properly in Product Supplier page",
     "points": null,
     "meta": {}
   },
@@ -9478,28 +9588,6 @@
     "occured_at": "2025-11-21T12:07:24.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14463#pullrequestreview-3492473510",
     "text": "Fix pagination issue in the Product suppliers page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14460",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14460",
-    "occured_at": "2025-11-21T09:41:23.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14460",
-    "text": "Playwright test for user avatar",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14460",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14460",
-    "occured_at": "2025-11-21T12:58:14.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14460",
-    "text": "Playwright test for user avatar",
     "points": null,
     "meta": {}
   },
