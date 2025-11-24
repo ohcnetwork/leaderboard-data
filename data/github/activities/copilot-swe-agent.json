@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_opened_care_fe#14216",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14216",
+    "occured_at": "2025-11-01T14:46:25.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14216",
+    "text": "Add validation error for observation definitions without interpretations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_erd#8",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8",
+    "occured_at": "2025-10-03T01:35:07.000Z",
+    "link": "https://github.com/ohcnetwork/erd/pull/8",
+    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14355",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14355",
+    "occured_at": "2025-11-14T17:16:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14355",
+    "text": "[WIP] Automatically switch to test DB when running Playwright tests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14281",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14281",
+    "occured_at": "2025-11-09T18:02:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14281",
+    "text": "Fix patient search: generalize no-results text and add regex-based input validation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#14189",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_merged",
@@ -95,50 +139,6 @@
     "occured_at": "2025-11-03T15:43:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14229",
     "text": "Clarify duplicate code location in EncounterQuestion discharge logic",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14216",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14216",
-    "occured_at": "2025-11-01T14:46:25.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14216",
-    "text": "Add validation error for observation definitions without interpretations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_erd#8",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8",
-    "occured_at": "2025-10-03T01:35:07.000Z",
-    "link": "https://github.com/ohcnetwork/erd/pull/8",
-    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14355",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14355",
-    "occured_at": "2025-11-14T17:16:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14355",
-    "text": "[WIP] Automatically switch to test DB when running Playwright tests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14281",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14281",
-    "occured_at": "2025-11-09T18:02:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14281",
-    "text": "Fix patient search: generalize no-results text and add regex-based input validation",
     "points": null,
     "meta": {}
   },
@@ -649,17 +649,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#13658_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13658 assigned",
-    "occured_at": "2025-11-05T11:21:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13658",
-    "text": "Info text not properly aligned in mobile view",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#13948_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -788,17 +777,6 @@
     "occured_at": "2025-09-24T03:35:50.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13812",
     "text": "Enhance the accounts page of a Patient",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#13485_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13485 assigned",
-    "occured_at": "2025-10-29T12:12:24.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13485",
-    "text": "Inconsistent Label Highlighting for Required Fields",
     "points": null,
     "meta": {}
   },
@@ -2185,6 +2163,28 @@
     "occured_at": "2025-11-21T14:40:38.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14454",
     "text": "Migrate patient questionnaire tests from Cypress to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13485_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13485 assigned",
+    "occured_at": "2025-10-29T12:12:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13485",
+    "text": "Inconsistent Label Highlighting for Required Fields",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13658_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13658 assigned",
+    "occured_at": "2025-11-05T11:21:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13658",
+    "text": "Info text not properly aligned in mobile view",
     "points": null,
     "meta": {}
   }

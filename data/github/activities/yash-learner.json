@@ -2189,6 +2189,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#13789_IC_kwDODtfaXs7GSOcj",
+    "contributor": "yash-learner",
+    "activity_definition": "comment_created",
+    "title": "Commented on #13789",
+    "occured_at": "2025-09-24T06:02:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13789#issuecomment-3326666531",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#12443",
     "contributor": "yash-learner",
     "activity_definition": "pr_merged",
@@ -2871,6 +2882,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#13785_IC_kwDODtfaXs7GGYMn",
+    "contributor": "yash-learner",
+    "activity_definition": "comment_created",
+    "title": "Commented on #13785",
+    "occured_at": "2025-09-23T11:16:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13785#issuecomment-3323560743",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9089_COMMENTED_PRR_kwDODtfaXs6RGEDt",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -3256,6 +3278,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_fix-encounter-list-type_13fb81256b0d1cefe360f3b2bb28df8231885a5b",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix-encounter-list-type",
+    "occured_at": "2025-11-17T20:09:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/13fb81256b0d1cefe360f3b2bb28df8231885a5b",
+    "text": "Remove unnecessary chaining",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_dependabot/pip/boto-8c795548b1_b63b5f57c807fbe2aa445a37e014455e33ab4424",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -3575,13 +3608,13 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_fix-encounter-list-type_13fb81256b0d1cefe360f3b2bb28df8231885a5b",
+    "slug": "issue_closed_care_fe#13523",
     "contributor": "yash-learner",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to fix-encounter-list-type",
-    "occured_at": "2025-11-17T20:09:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/13fb81256b0d1cefe360f3b2bb28df8231885a5b",
-    "text": "Remove unnecessary chaining",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #13523",
+    "occured_at": "2025-09-08T11:09:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13523",
+    "text": "Importing a questionnaire disables create button until a change is made",
     "points": null,
     "meta": {}
   },
@@ -3934,17 +3967,6 @@
     "occured_at": "2025-08-26T07:21:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13517",
     "text": "Clean up onEdit and onArchive in useFileManager",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#13523",
-    "contributor": "yash-learner",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #13523",
-    "occured_at": "2025-09-08T11:09:54.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13523",
-    "text": "Importing a questionnaire disables create button until a change is made",
     "points": null,
     "meta": {}
   },
@@ -4703,28 +4725,6 @@
     "title": "Commented on #14014",
     "occured_at": "2025-10-09T12:08:27.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14014#issuecomment-3385574325",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#13789_IC_kwDODtfaXs7GSOcj",
-    "contributor": "yash-learner",
-    "activity_definition": "comment_created",
-    "title": "Commented on #13789",
-    "occured_at": "2025-09-24T06:02:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13789#issuecomment-3326666531",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#13785_IC_kwDODtfaXs7GGYMn",
-    "contributor": "yash-learner",
-    "activity_definition": "comment_created",
-    "title": "Commented on #13785",
-    "occured_at": "2025-09-23T11:16:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13785#issuecomment-3323560743",
     "text": null,
     "points": null,
     "meta": {}
@@ -6112,6 +6112,17 @@
     "occured_at": "2025-10-14T15:30:29.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13755#pullrequestreview-3336282944",
     "text": "Fix generateSlug to respect 25-character limit in form validations with standardized i18n",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13464_APPROVED_PRR_kwDODtfaXs67V1a_",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #13464",
+    "occured_at": "2025-08-22T04:45:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13464#pullrequestreview-3143063231",
+    "text": "fix: made tag search debounced",
     "points": null,
     "meta": {}
   },
@@ -7931,17 +7942,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#13464_APPROVED_PRR_kwDODtfaXs67V1a_",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #13464",
-    "occured_at": "2025-08-22T04:45:03.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13464#pullrequestreview-3143063231",
-    "text": "fix: made tag search debounced",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#13464_APPROVED_PRR_kwDODtfaXs67XCsO",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -9504,6 +9504,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#13603_COMMENTED_PRR_kwDODtfaXs7IaA2C",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #13603",
+    "occured_at": "2025-10-21T18:55:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3362262402",
+    "text": "Fix: Clean up missed for encounter and patient types",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/dispense_order_b63b5f57c807fbe2aa445a37e014455e33ab4424",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -9785,17 +9796,6 @@
     "title": "Reviewed PR #13603",
     "occured_at": "2025-09-09T14:11:48.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3201841984",
-    "text": "Fix: Clean up missed for encounter and patient types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#13603_COMMENTED_PRR_kwDODtfaXs7IaA2C",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #13603",
-    "occured_at": "2025-10-21T18:55:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3362262402",
     "text": "Fix: Clean up missed for encounter and patient types",
     "points": null,
     "meta": {}
@@ -10626,17 +10626,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14065_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14065 assigned",
-    "occured_at": "2025-11-03T12:06:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14065",
-    "text": "NPM command to create a starter for care plug",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#14406_IC_kwDODtfaXs7UULtt",
     "contributor": "yash-learner",
     "activity_definition": "comment_created",
@@ -11231,6 +11220,28 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14370_CHANGES_REQUESTED_PRR_kwDODtfaXs7PjzKh",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14370",
+    "occured_at": "2025-11-19T11:46:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14370#pullrequestreview-3482268321",
+    "text": "fix: conditionally add \"needs testing\" label based on existing labels",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14065_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14065 assigned",
+    "occured_at": "2025-11-03T12:06:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14065",
+    "text": "NPM command to create a starter for care plug",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14450",
     "contributor": "yash-learner",
     "activity_definition": "pr_opened",
@@ -11242,13 +11253,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14370_CHANGES_REQUESTED_PRR_kwDODtfaXs7PjzKh",
+    "slug": "commit_created_issues/14174/ad-list-specs_8890453a5b18cd50a79af1d69b4f541910b65b34",
     "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14370",
-    "occured_at": "2025-11-19T11:46:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14370#pullrequestreview-3482268321",
-    "text": "fix: conditionally add \"needs testing\" label based on existing labels",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14174/ad-list-specs",
+    "occured_at": "2025-11-23T18:03:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/8890453a5b18cd50a79af1d69b4f541910b65b34",
+    "text": "Add tests for activity definition create button and breadcrumb navigation",
     "points": null,
     "meta": {}
   }

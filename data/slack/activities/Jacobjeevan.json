@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-01-01_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-01T16:18:33.976Z",
+    "link": null,
+    "text": "31st December<br>• Fixing bugs and switching to/refactoring for new/modified APIs for FE<br>Next<br>• Same as above",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-18_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-18T17:58:01.414Z",
+    "link": null,
+    "text": "may 16<br>• tweaking report builder based on feedback<br>• changes to custom section<br>next<br>• get custom section tested and merge rb",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-21_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -308,6 +330,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-28_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-28T17:22:56.308Z",
+    "link": null,
+    "text": "may 27-28<br>• treat/office lunch + <span class=\"s-emoji\">🍨</span> <br>• pending to-dos in billing<br>• review prs<br>next<br>• any other to-dos in billing<br>• circle back on old issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-07_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -480,17 +513,6 @@
     "occured_at": "2024-12-27T03:55:50.685Z",
     "link": null,
     "text": "December 27th<br>• Additional tweaks and bug fixes for otp flow<br>    ◦ Occasionally triggering error boundary for appointment success (it was due to formatTime being called on appointment time slot; got that fixed)<br>    ◦ WIP: Added a dialog for editing appointments (need to ping Vignesh about adding OTP BE routes for editing existing appointments)<br>    ◦ Local storage support for patient chooser to retain the choice on page reload<br>    ◦ Some minor tweaks, renaming (user -&amp;gt; patient for OTP sidebar and contexts).<br>Next<br>• Probably more work on the otp flow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-01_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-01T16:18:33.976Z",
-    "link": null,
-    "text": "31st December<br>• Fixing bugs and switching to/refactoring for new/modified APIs for FE<br>Next<br>• Same as above",
     "points": null,
     "meta": null
   },
@@ -1023,17 +1045,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-05-28_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-28T17:22:56.308Z",
-    "link": null,
-    "text": "may 27-28<br>• treat/office lunch + <span class=\"s-emoji\">🍨</span> <br>• pending to-dos in billing<br>• review prs<br>next<br>• any other to-dos in billing<br>• circle back on old issues",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-05-19_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1239,17 +1250,6 @@
     "occured_at": "2025-05-15T21:17:19.321Z",
     "link": null,
     "text": "may 15<br>• multiple <span class=\"s-emoji\">🎧</span> with Nihal on report builder<br>• changes for report builder based on review/feedback<br>next<br>• finish tweaking the UI for report builder based on testing and get v1 out<br>• circle back on older assigned issues/PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-18_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-18T17:58:01.414Z",
-    "link": null,
-    "text": "may 16<br>• tweaking report builder based on feedback<br>• changes to custom section<br>next<br>• get custom section tested and merge rb",
     "points": null,
     "meta": null
   },
