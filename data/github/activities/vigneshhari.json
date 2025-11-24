@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care#438",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #438",
+    "occured_at": "2020-07-24T19:34:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/438",
+    "text": "July Week 3 Patch",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#525",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #525",
+    "occured_at": "2021-02-09T04:06:56.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/525",
+    "text": "External Result CSV export patch",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#450",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #450",
+    "occured_at": "2020-08-02T16:38:23.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/450",
+    "text": "Patient Cleansing Phase 1",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#449",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #449",
+    "occured_at": "2020-08-01T08:11:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/449",
+    "text": "July Last week Release",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_docs#6",
     "contributor": "vigneshhari",
     "activity_definition": "pr_merged",
@@ -194,50 +238,6 @@
     "occured_at": "2020-08-02T16:33:51.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/450",
     "text": "Patient Cleansing Phase 1",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#438",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #438",
-    "occured_at": "2020-07-24T19:34:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/438",
-    "text": "July Week 3 Patch",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#525",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #525",
-    "occured_at": "2021-02-09T04:06:56.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/525",
-    "text": "External Result CSV export patch",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#450",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #450",
-    "occured_at": "2020-08-02T16:38:23.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/450",
-    "text": "Patient Cleansing Phase 1",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#449",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #449",
-    "occured_at": "2020-08-01T08:11:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/449",
-    "text": "July Last week Release",
     "points": null,
     "meta": {}
   },
@@ -43127,6 +43127,50 @@
     "occured_at": "2025-11-17T09:19:17.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3348#pullrequestreview-3471765728",
     "text": "fix: enabled removal of definitional field on product knowledge update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3373_APPROVED_PRR_kwDODsgdF87Qjdok",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3373",
+    "occured_at": "2025-11-24T08:37:20.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3373#pullrequestreview-3498957348",
+    "text": "add file authz for service request and diagnostic reports",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishor/fix/patient_tag_manager_6a4f5d72dc814674bed2f9b4d07d1e11ceb2b8f6",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishor/fix/patient_tag_manager",
+    "occured_at": "2025-11-19T10:34:17.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/6a4f5d72dc814674bed2f9b4d07d1e11ceb2b8f6",
+    "text": "Fix possible edge in Authz",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishor/fix/patient_tag_manager_5aada816299e2e0b6c4c1b970e3569f33ae1b8b2",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishor/fix/patient_tag_manager",
+    "occured_at": "2025-11-20T08:17:24.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/5aada816299e2e0b6c4c1b970e3569f33ae1b8b2",
+    "text": "Add Org Admin role",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishor/fix/patient_tag_manager_2e789b78ea47b08bba358d1b8ead9ca8b390833f",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishor/fix/patient_tag_manager",
+    "occured_at": "2025-11-20T08:48:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/2e789b78ea47b08bba358d1b8ead9ca8b390833f",
+    "text": "Fix tax calculation",
     "points": null,
     "meta": {}
   }

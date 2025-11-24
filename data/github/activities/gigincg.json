@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_opened_care#2710",
+    "contributor": "gigincg",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2710",
+    "occured_at": "2025-01-06T13:08:56.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2710",
+    "text": "HMIS Release to Staging",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1197",
+    "contributor": "gigincg",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1197",
+    "occured_at": "2023-02-20T13:17:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1197",
+    "text": "Purge Deprecated Admin Reports",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care#934",
     "contributor": "gigincg",
     "activity_definition": "issue_opened",
@@ -337,28 +359,6 @@
     "occured_at": "2025-01-07T11:20:35.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2717",
     "text": "Bypass Active Questionnaire Check",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2710",
-    "contributor": "gigincg",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2710",
-    "occured_at": "2025-01-06T13:08:56.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2710",
-    "text": "HMIS Release to Staging",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1197",
-    "contributor": "gigincg",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1197",
-    "occured_at": "2023-02-20T13:17:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1197",
-    "text": "Purge Deprecated Admin Reports",
     "points": null,
     "meta": {}
   },
@@ -3531,6 +3531,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#5769_APPROVED_PRR_kwDODtfaXs5ZH4sl",
+    "contributor": "gigincg",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #5769",
+    "occured_at": "2023-06-23T14:16:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5769#pullrequestreview-1495239461",
+    "text": "fetch assets only when bed is assigned",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#12961_APPROVED_PRR_kwDODtfaXs61kQKF",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -4605,17 +4616,6 @@
     "occured_at": "2023-07-21T16:27:05.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/5798#pullrequestreview-1541471831",
     "text": "Abdm",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#5769_APPROVED_PRR_kwDODtfaXs5ZH4sl",
-    "contributor": "gigincg",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #5769",
-    "occured_at": "2023-06-23T14:16:54.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5769#pullrequestreview-1495239461",
-    "text": "fetch assets only when bed is assigned",
     "points": null,
     "meta": {}
   },
@@ -6530,6 +6530,17 @@
     "occured_at": "2025-01-06T06:20:27.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2709#pullrequestreview-2531425454",
     "text": "removed gcs-deploy",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#2769",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #2769",
+    "occured_at": "2022-06-19T10:47:50.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/2769",
+    "text": "Issue in netlify.toml",
     "points": null,
     "meta": {}
   },
@@ -9273,6 +9284,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#2222",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #2222",
+    "occured_at": "2022-04-07T15:00:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/2222",
+    "text": "Improve Login Redirect",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#7732",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -10087,6 +10109,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#2222",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #2222",
+    "occured_at": "2022-04-11T16:59:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/2222",
+    "text": "Improve Login Redirect",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#4167",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -10468,6 +10501,17 @@
     "occured_at": "2022-05-29T05:45:23.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2545",
     "text": "Devops: Switch GDC deployment to production branch ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_india-maps#3",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #3",
+    "occured_at": "2020-03-21T05:31:45.000Z",
+    "link": "https://github.com/ohcnetwork/india-maps/issues/3",
+    "text": "UI Updates for Info-Head",
     "points": null,
     "meta": {}
   },
@@ -10875,6 +10919,17 @@
     "occured_at": "2022-08-04T04:55:49.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/3312",
     "text": "Home Facility Selector in UserAdd Page is Not working for Users who are Staff and Below",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#2206",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #2206",
+    "occured_at": "2022-04-04T11:02:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/2206",
+    "text": "New Patient from /facility/:facilityId/patients Crashing",
     "points": null,
     "meta": {}
   },
@@ -11293,17 +11348,6 @@
     "occured_at": "2022-05-25T06:00:02.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2508",
     "text": "Redesign Consultation Header",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#2769",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #2769",
-    "occured_at": "2022-06-19T10:47:50.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/2769",
-    "text": "Issue in netlify.toml",
     "points": null,
     "meta": {}
   },
@@ -12529,39 +12573,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#2222",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #2222",
-    "occured_at": "2022-04-07T15:00:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/2222",
-    "text": "Improve Login Redirect",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#2222",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #2222",
-    "occured_at": "2022-04-11T16:59:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/2222",
-    "text": "Improve Login Redirect",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#2206",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #2206",
-    "occured_at": "2022-04-04T11:02:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/2206",
-    "text": "New Patient from /facility/:facilityId/patients Crashing",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care_fe#2192",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -12965,6 +12976,17 @@
     "occured_at": "2022-02-10T12:45:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2071",
     "text": "missing mandatory on Last vaccination date",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_india-maps#3",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #3",
+    "occured_at": "2020-06-14T21:03:07.000Z",
+    "link": "https://github.com/ohcnetwork/india-maps/issues/3",
+    "text": "UI Updates for Info-Head",
     "points": null,
     "meta": {}
   },
@@ -16456,6 +16478,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care#639",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #639",
+    "occured_at": "2022-01-28T00:38:41.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/639",
+    "text": "CCTV PTZ Control",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#9883",
     "contributor": "gigincg",
     "activity_definition": "pr_opened",
@@ -16793,6 +16826,17 @@
     "occured_at": "2024-09-02T09:49:12.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8378#pullrequestreview-2275184055",
     "text": " Adds validation for max dosage in PRN prescription #8324",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_india-maps#9",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #9",
+    "occured_at": "2020-06-14T21:04:19.000Z",
+    "link": "https://github.com/ohcnetwork/india-maps/issues/9",
+    "text": "UI/UX Better visualization for Cases,Death,Recovered,Suspected",
     "points": null,
     "meta": {}
   },
@@ -18557,6 +18601,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_india-maps#4",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #4",
+    "occured_at": "2020-03-21T05:35:40.000Z",
+    "link": "https://github.com/ohcnetwork/india-maps/issues/4",
+    "text": "Add additional metrics using available data.",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#2309_APPROVED_PRR_kwDODtfaXs46qqat",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -19624,6 +19679,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_india-maps#4",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #4",
+    "occured_at": "2020-06-14T21:03:32.000Z",
+    "link": "https://github.com/ohcnetwork/india-maps/issues/4",
+    "text": "Add additional metrics using available data.",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#1810_APPROVED_PRR_kwDODtfaXs4tCOBt",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -19950,61 +20016,6 @@
     "occured_at": "2020-06-14T21:04:28.000Z",
     "link": "https://github.com/ohcnetwork/india-maps/issues/23",
     "text": "Reconsider the radius of pointers",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_india-maps#9",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #9",
-    "occured_at": "2020-06-14T21:04:19.000Z",
-    "link": "https://github.com/ohcnetwork/india-maps/issues/9",
-    "text": "UI/UX Better visualization for Cases,Death,Recovered,Suspected",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_india-maps#4",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #4",
-    "occured_at": "2020-03-21T05:35:40.000Z",
-    "link": "https://github.com/ohcnetwork/india-maps/issues/4",
-    "text": "Add additional metrics using available data.",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_india-maps#4",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #4",
-    "occured_at": "2020-06-14T21:03:32.000Z",
-    "link": "https://github.com/ohcnetwork/india-maps/issues/4",
-    "text": "Add additional metrics using available data.",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_india-maps#3",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #3",
-    "occured_at": "2020-03-21T05:31:45.000Z",
-    "link": "https://github.com/ohcnetwork/india-maps/issues/3",
-    "text": "UI Updates for Info-Head",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_india-maps#3",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #3",
-    "occured_at": "2020-06-14T21:03:07.000Z",
-    "link": "https://github.com/ohcnetwork/india-maps/issues/3",
-    "text": "UI Updates for Info-Head",
     "points": null,
     "meta": {}
   },
@@ -21213,17 +21224,6 @@
     "activity_definition": "issue_opened",
     "title": "Opened issue #639",
     "occured_at": "2021-10-26T06:49:04.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/639",
-    "text": "CCTV PTZ Control",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#639",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #639",
-    "occured_at": "2022-01-28T00:38:41.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/639",
     "text": "CCTV PTZ Control",
     "points": null,
@@ -24585,17 +24585,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#13603_COMMENTED_PRR_kwDODtfaXs7NZL2K",
-    "contributor": "gigincg",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #13603",
-    "occured_at": "2025-11-11T02:08:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3445931402",
-    "text": "Fix: Clean up missed for encounter and patient types",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_develop_ebc666c460622ceead45fb771fd76e0f90131eb5",
     "contributor": "gigincg",
     "activity_definition": "commit_created",
@@ -24647,6 +24636,17 @@
     "occured_at": "2025-11-20T11:01:19.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/ebc666c460622ceead45fb771fd76e0f90131eb5",
     "text": "Support for GeoAdmins",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13603_COMMENTED_PRR_kwDODtfaXs7NZL2K",
+    "contributor": "gigincg",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #13603",
+    "occured_at": "2025-11-11T02:08:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3445931402",
+    "text": "Fix: Clean up missed for encounter and patient types",
     "points": null,
     "meta": {}
   }
