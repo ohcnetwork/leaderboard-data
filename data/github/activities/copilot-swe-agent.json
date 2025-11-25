@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_opened_care_fe#14214",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14214",
+    "occured_at": "2025-11-01T13:28:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
+    "text": "Add Playwright tests for Observation Definition workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14251",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14251",
+    "occured_at": "2025-11-05T11:21:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14251",
+    "text": "Fix popover overflow on mobile for charge item price breakdown",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_erd#7_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #7 assigned",
+    "occured_at": "2025-10-01T09:08:14.000Z",
+    "link": "https://github.com/ohcnetwork/erd/issues/7",
+    "text": "✨ Set up Copilot instructions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14250",
+    "occured_at": "2025-11-05T09:34:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14466",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14466",
+    "occured_at": "2025-11-21T14:31:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
+    "text": "[WIP] Remove Cypress and migrate to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -95,61 +150,6 @@
     "occured_at": "2025-09-03T06:57:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13598",
     "text": "Fix breadcrumb hydration errors by removing invalid nested li elements",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14466",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14466",
-    "occured_at": "2025-11-21T14:31:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
-    "text": "[WIP] Remove Cypress and migrate to Playwright",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14214",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14214",
-    "occured_at": "2025-11-01T13:28:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
-    "text": "Add Playwright tests for Observation Definition workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14251",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14251",
-    "occured_at": "2025-11-05T11:21:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14251",
-    "text": "Fix popover overflow on mobile for charge item price breakdown",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_erd#7_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #7 assigned",
-    "occured_at": "2025-10-01T09:08:14.000Z",
-    "link": "https://github.com/ohcnetwork/erd/issues/7",
-    "text": "✨ Set up Copilot instructions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14250",
-    "occured_at": "2025-11-05T09:34:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
     "points": null,
     "meta": {}
   },
@@ -2185,6 +2185,50 @@
     "occured_at": "2025-11-05T11:21:39.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13658",
     "text": "Info text not properly aligned in mobile view",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14487_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14487 assigned",
+    "occured_at": "2025-11-24T14:30:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14487",
+    "text": "Create Playwright test for facility device management",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14485_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14485 assigned",
+    "occured_at": "2025-11-24T14:08:50.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14485",
+    "text": "Create a playwright test for patient encounter access via org",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14486",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14486",
+    "occured_at": "2025-11-24T14:08:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14486",
+    "text": "Add Playwright tests for organization-level encounter access",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14488",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14488",
+    "occured_at": "2025-11-24T14:30:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14488",
+    "text": "Add Playwright tests for device contact point validation, location association, and organization association",
     "points": null,
     "meta": {}
   }

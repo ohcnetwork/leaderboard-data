@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-11-24_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-24T07:12:40.686Z",
+    "link": null,
+    "text": "nov 21<br>• report builder UI<br>• reviews<br>next<br>• finish up UI/test against latest api changes",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-01_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -308,6 +319,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-03-10_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-09T19:20:26.114Z",
+    "link": null,
+    "text": "Mar 7<br>• patient questionnaire minor fixes<br>• include appointments in availability tab<br>• reviews, reviews, reviews<br>next<br>• more reviews <span class=\"s-emoji\">😅</span> <br>• appointments for availability page<br>• finish consent FE (existing consent flow)",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-04_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -469,6 +491,17 @@
     "occured_at": "2025-02-25T19:06:45.023Z",
     "link": null,
     "text": "Feb 25<br>• going through all the open prs, reviewing/testing and merging where needed (I think I got most of them yesterday, but need to recheck)<br>• some minor optimizations and additions for search in locations<br>• discussed consent stuff with Bodhi; explored consent BE<br>• merging latest into perms<br>next<br>• Prafful sent over his product doc (for consent) late last nite, so need to go through that on how this might work out on FE",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-28_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-28T16:37:47.569Z",
+    "link": null,
+    "text": "Jan 27-28<br>done<br>• reviewed prs<br>• confirm alert for patient registration + minor fix for duplicate patient flow + minor edits to existing prs<br>• patient registration pre-fill age + minor fix for facility form lat/long pre-fill + other minor stuff<br>current/next<br>• trying to figure out user permissions (facility org users vs org users)<br>• patient registration and facility form override (clearing out existing lat/long, overriding existing dob with age).",
     "points": null,
     "meta": null
   },
@@ -649,17 +682,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-28_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-28T16:37:47.569Z",
-    "link": null,
-    "text": "Jan 27-28<br>done<br>• reviewed prs<br>• confirm alert for patient registration + minor fix for duplicate patient flow + minor edits to existing prs<br>• patient registration pre-fill age + minor fix for facility form lat/long pre-fill + other minor stuff<br>current/next<br>• trying to figure out user permissions (facility org users vs org users)<br>• patient registration and facility form override (clearing out existing lat/long, overriding existing dob with age).",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-01-29_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -832,17 +854,6 @@
     "occured_at": "2025-03-06T18:09:27.504Z",
     "link": null,
     "text": "Mar 6<br>• patient questionnaire support<br>    ◦ merged<br>• consent FE<br>    ◦ moved to dialog flow, finished up new consent flow<br>• minor layout fixes<br>• checking alert nav for iOS<br>• reviewed many of the older prs<br>next<br>• consent FE<br>    ◦ for existing consent, I&#x27;m planning on adding some sort of gallery like chooser (currently just have a select)<br>    ◦ test the full flow<br>        ▪︎ added minio for local<br>• hopefully catch up with reviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-10_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-09T19:20:26.114Z",
-    "link": null,
-    "text": "Mar 7<br>• patient questionnaire minor fixes<br>• include appointments in availability tab<br>• reviews, reviews, reviews<br>next<br>• more reviews <span class=\"s-emoji\">😅</span> <br>• appointments for availability page<br>• finish consent FE (existing consent flow)",
     "points": null,
     "meta": null
   },
@@ -1547,17 +1558,6 @@
     "occured_at": "2025-11-20T06:52:04.818Z",
     "link": null,
     "text": "nov 19<br>• mostly AD debugging and then charge item debugging (noticed some additional discrepancies like duplicates, discussed w/ Aravind and Bill)<br>• reviews<br>next<br>• switch to report templates UI<br>• circle back on AD/charge item data",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-24_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-24T07:12:40.686Z",
-    "link": null,
-    "text": "nov 21<br>• report builder UI<br>• reviews<br>next<br>• finish up UI/test against latest api changes",
     "points": null,
     "meta": null
   }

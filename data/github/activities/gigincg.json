@@ -1,5 +1,60 @@
 [
   {
+    "slug": "issue_opened_care#411",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #411",
+    "occured_at": "2020-06-26T18:58:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/411",
+    "text": "Test Analytics  Time to Negative",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#694",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #694",
+    "occured_at": "2022-08-12T04:31:58.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/694",
+    "text": "HL7 Multipara Monitor Integration V2",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#965",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #965",
+    "occured_at": "2022-08-05T14:54:31.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/965",
+    "text": "Clear current_bed on Discharge",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#937",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #937",
+    "occured_at": "2022-07-21T14:30:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/937",
+    "text": "Make home_facility field in model",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#937",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #937",
+    "occured_at": "2022-08-02T07:06:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/937",
+    "text": "Make home_facility field in model",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#2710",
     "contributor": "gigincg",
     "activity_definition": "pr_opened",
@@ -84,61 +139,6 @@
     "occured_at": "2022-04-21T03:50:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2220",
     "text": "Filter Presets by Bed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#411",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #411",
-    "occured_at": "2020-06-26T18:58:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/411",
-    "text": "Test Analytics  Time to Negative",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#694",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #694",
-    "occured_at": "2022-08-12T04:31:58.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/694",
-    "text": "HL7 Multipara Monitor Integration V2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#965",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #965",
-    "occured_at": "2022-08-05T14:54:31.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/965",
-    "text": "Clear current_bed on Discharge",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#937",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #937",
-    "occured_at": "2022-07-21T14:30:27.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/937",
-    "text": "Make home_facility field in model",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#937",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #937",
-    "occured_at": "2022-08-02T07:06:14.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/937",
-    "text": "Make home_facility field in model",
     "points": null,
     "meta": {}
   },
@@ -1782,6 +1782,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#1631_gigincg",
+    "contributor": "gigincg",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #1631 assigned",
+    "occured_at": "2021-07-26T06:53:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/1631",
+    "text": "pagination for consultation is not working",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#14330_gigincg",
     "contributor": "gigincg",
     "activity_definition": "issue_assigned",
@@ -2163,17 +2174,6 @@
     "occured_at": "2021-09-30T14:50:40.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/1875",
     "text": "Make Localbody dropdown searchable",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#1631_gigincg",
-    "contributor": "gigincg",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #1631 assigned",
-    "occured_at": "2021-07-26T06:53:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/1631",
-    "text": "pagination for consultation is not working",
     "points": null,
     "meta": {}
   },
@@ -8283,6 +8283,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#1973",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1973",
+    "occured_at": "2022-01-06T14:14:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/1973",
+    "text": "Edits to ICU Module",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#10674",
     "contributor": "gigincg",
     "activity_definition": "issue_opened",
@@ -8686,17 +8697,6 @@
     "occured_at": "2024-08-22T04:12:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/1972",
     "text": "Intubation and Exhumation using Admitted to",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#1973",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1973",
-    "occured_at": "2022-01-06T14:14:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/1973",
-    "text": "Edits to ICU Module",
     "points": null,
     "meta": {}
   },
@@ -12771,6 +12771,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#1969",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1969",
+    "occured_at": "2021-12-28T07:00:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/1969",
+    "text": "Setup local Storage for the filters in Resources",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#2104",
     "contributor": "gigincg",
     "activity_definition": "issue_opened",
@@ -13185,17 +13196,6 @@
     "occured_at": "2021-12-28T07:01:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/1943",
     "text": "Create onboarding pipeline for TeleICU Facilities",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#1969",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1969",
-    "occured_at": "2021-12-28T07:00:08.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/1969",
-    "text": "Setup local Storage for the filters in Resources",
     "points": null,
     "meta": {}
   },
@@ -22572,6 +22572,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_landing#4",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #4",
+    "occured_at": "2024-07-18T06:25:14.000Z",
+    "link": "https://github.com/ohcnetwork/landing/issues/4",
+    "text": "Create Features Page for CARE",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1240_APPROVED_PRR_kwDODsgdF85SByRq",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -23353,17 +23364,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_landing#4",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #4",
-    "occured_at": "2024-07-18T06:25:14.000Z",
-    "link": "https://github.com/ohcnetwork/landing/issues/4",
-    "text": "Create Features Page for CARE",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_landing#61_IC_kwDOMIJVr86fnkib",
     "contributor": "gigincg",
     "activity_definition": "comment_created",
@@ -24134,6 +24134,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_tracker#34",
+    "contributor": "gigincg",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #34",
+    "occured_at": "2020-04-20T12:06:46.000Z",
+    "link": "https://github.com/ohcnetwork/tracker/pull/34",
+    "text": "UI Updates Dashboard",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_teleicu_middleware#131_APPROVED_PRR_kwDOGUPkaM58epqA",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -24519,17 +24530,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_tracker#34",
-    "contributor": "gigincg",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #34",
-    "occured_at": "2020-04-20T12:06:46.000Z",
-    "link": "https://github.com/ohcnetwork/tracker/pull/34",
-    "text": "UI Updates Dashboard",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_tracker#22_APPROVED_MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzkyMTQ3NjUw",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -24647,6 +24647,28 @@
     "occured_at": "2025-11-11T02:08:39.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3445931402",
     "text": "Fix: Clean up missed for encounter and patient types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_3f1f30984cd3030f4fa7c7c6fcc365d30608eb8f",
+    "contributor": "gigincg",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/12909/migrate-from-cr-osr-pr10-qon-apis",
+    "occured_at": "2025-11-19T01:18:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/3f1f30984cd3030f4fa7c7c6fcc365d30608eb8f",
+    "text": "Log Plug Errors; Fix Plug Load Issue in Prod",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_ebc666c460622ceead45fb771fd76e0f90131eb5",
+    "contributor": "gigincg",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/12909/migrate-from-cr-osr-pr10-qon-apis",
+    "occured_at": "2025-11-20T11:01:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/ebc666c460622ceead45fb771fd76e0f90131eb5",
+    "text": "Support for GeoAdmins",
     "points": null,
     "meta": {}
   }

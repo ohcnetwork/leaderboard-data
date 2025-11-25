@@ -187,6 +187,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-17_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-17T06:30:13.969Z",
+    "link": null,
+    "text": "<strong>June 16</strong><br>• Engineering review call.<br>• Reviewed couple of WD201 capstone submissions and clear couple of stuck submissions.<br>• Fixed invalid query invalidation for process steps in SR show.<br>• Added <a href=\"https://github.com/ohcnetwork/care_fe/pull/12630\">receive form</a>.<br>• Huddles with Amjith.<br><strong>Next</strong><br>• Make some changes in <a href=\"https://github.com/ohcnetwork/care_fe/pull/12630\">receive form</a>.<br>• GDC support emails and WD submissions.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-28_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -381,17 +392,6 @@
     "occured_at": "2025-01-11T01:31:54.483Z",
     "link": null,
     "text": "<strong>January 07 - 10</strong><br>• Joined Weekly call.<br>• DPG review call<br>• Continued working on  Labs<br>    ◦ lot of refactor and rewiring and wiring things <br>    ◦ Calls with Khavin on debugging backend errors/clearing questions and made some changes.<br>    ◦ Made ServiceRequestTimeline component to support multiple active orders.<br>    ◦ Understanding lot of code and working of packages.<br>    ◦ Replacing requests/useQuery with tanstack useMutation/useQuery.<br>    ◦ Replacing and using zod and useForm.<br>    ◦ For the first time looked into Hl7 to understand condition in specimen and wired it.<br>    ◦ Sync with Khavin on new BE changes.<br><strong>Next</strong><br>Starting of next week can be slow.<br>• Understand new BE changes and update the labs FE and finish refactor.<br>• Fix merge conflicts in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9711\">PR#9711</a>.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-17_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-17T06:30:13.969Z",
-    "link": null,
-    "text": "<strong>June 16</strong><br>• Engineering review call.<br>• Reviewed couple of WD201 capstone submissions and clear couple of stuck submissions.<br>• Fixed invalid query invalidation for process steps in SR show.<br>• Added <a href=\"https://github.com/ohcnetwork/care_fe/pull/12630\">receive form</a>.<br>• Huddles with Amjith.<br><strong>Next</strong><br>• Make some changes in <a href=\"https://github.com/ohcnetwork/care_fe/pull/12630\">receive form</a>.<br>• GDC support emails and WD submissions.",
     "points": null,
     "meta": null
   },
@@ -726,6 +726,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-26_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-26T07:22:57.498Z",
+    "link": null,
+    "text": "<strong>May 23</strong><br>• Made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12390\">PR#12390</a>.<br>• Updated the <code>CharegItemPriceDisplay</code> and used it show the <code>Total Price components</code> on <code>ChargeItem</code> card in <code>SR</code> show.<br>• Added the <code>Deleted</code> supplier feature.<br>• Huddles with Amjith.<br>• Re-triggered couple of submissions that got stuck in WD.<br><strong>Next</strong><br>• Engineering review call.<br>• Work on matching figma design for medicine dispense list and improve UI for other pages.<br>• Review the WD201 capstone submission.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-30_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -858,6 +869,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-07-16_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-16T07:06:35.568Z",
+    "link": null,
+    "text": "<strong>July 15</strong><br>• Worked on moving the patient and encounter API routes, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12937\">PR#12937</a>.<br>• Understanding difference between search and search_retrieve endpoint in patient and some other things.<br>• Glancing over some PR&#x27;s and left a comment on one.<br>• Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a> and fix review comments.<br>• Sync with Amjith on GSoC.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -920,6 +942,17 @@
     "occured_at": "2025-07-07T05:11:22.695Z",
     "link": null,
     "text": "<strong>July 2 - July 4</strong><br>• Made some tiny fixes on the Labs, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;since=2025-07-02&amp;until=2025-07-04\">[1]</a>.<br>• Tested and fixed some things in external inventory and updated new internal screens for reuse in external flow for most pages and discussions with team around it and merged it after Amjith&#x27;s approval, <a href=\"https://github.com/yash-learner/care_fe/commits/inventory-internal-transfers/?author=yash-learner&amp;since=2025-07-02&amp;until=2025-07-07\">[1]</a>.<br>• Answering queries of spandan around setting up plugs and quick discussion with Shivank/Prafful regarding it.<br>• Shared more feedback on models prepared by Spandan for food service and some questions to him and some discussion with Amjith on this.<br>• Discussion with Amjith and Aakash regarding labs/Inventory.<br>• DPG review and EOD calls.<br>• Prepared and shared GDC data asked by Suma.<br><strong>Next</strong><br>• Fixing things on Labs/Pharmacy/Inventory.<br>• Engineering review call.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-18_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-18T00:12:12.973Z",
+    "link": null,
+    "text": "<strong>July 16 - 17</strong><br>• Fixed review comments from Gigin on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12937\">PR#12937</a>, refactored types in patient and encounter to  have base type similar to our new types and fixed type assertions in EncounterQuestion and understanding some things.<br>• Discussions with Gigin on <span class=\"s-emoji\">☝️</span><br>• Discussions and calls with Amjith and Spandan regarding GSoC.<br>• Quick call with Khavin for clearing a query regarding plugs.<br>• EOD calls and DPG review call.<br>• Glancing over some issues and PR&#x27;s, leaving some comments.<br><strong>Next</strong><br><em>Will be slow day.</em><br>• Work on moving remaining routes - Facility and Department.<br>• Review PR&#x27;s and comment on issues.",
     "points": null,
     "meta": null
   },
@@ -1001,17 +1034,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-05-26_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-26T07:22:57.498Z",
-    "link": null,
-    "text": "<strong>May 23</strong><br>• Made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12390\">PR#12390</a>.<br>• Updated the <code>CharegItemPriceDisplay</code> and used it show the <code>Total Price components</code> on <code>ChargeItem</code> card in <code>SR</code> show.<br>• Added the <code>Deleted</code> supplier feature.<br>• Huddles with Amjith.<br>• Re-triggered couple of submissions that got stuck in WD.<br><strong>Next</strong><br>• Engineering review call.<br>• Work on matching figma design for medicine dispense list and improve UI for other pages.<br>• Review the WD201 capstone submission.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-06-04_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1085,28 +1107,6 @@
     "occured_at": "2025-06-17T22:45:05.404Z",
     "link": null,
     "text": "<strong>June 17</strong><br>• Huddle with Amjith<br>• Made some changes on receive form in internal transfers.<br>• Replied to GDC support emails and cleared some submissions that are not reviewed by VTA.<br>• Pulled some data requested by Aravind for GDC task and was just playing with some data and queries.<br>• Tuesday weekly call.<br>Next<br>• DPG review call.<br>• Pick from todo<br>• Review WD capstone submissions and reply to support emails.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-16_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-16T07:06:35.568Z",
-    "link": null,
-    "text": "<strong>July 15</strong><br>• Worked on moving the patient and encounter API routes, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12937\">PR#12937</a>.<br>• Understanding difference between search and search_retrieve endpoint in patient and some other things.<br>• Glancing over some PR&#x27;s and left a comment on one.<br>• Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a> and fix review comments.<br>• Sync with Amjith on GSoC.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-18_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-18T00:12:12.973Z",
-    "link": null,
-    "text": "<strong>July 16 - 17</strong><br>• Fixed review comments from Gigin on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12937\">PR#12937</a>, refactored types in patient and encounter to  have base type similar to our new types and fixed type assertions in EncounterQuestion and understanding some things.<br>• Discussions with Gigin on <span class=\"s-emoji\">☝️</span><br>• Discussions and calls with Amjith and Spandan regarding GSoC.<br>• Quick call with Khavin for clearing a query regarding plugs.<br>• EOD calls and DPG review call.<br>• Glancing over some issues and PR&#x27;s, leaving some comments.<br><strong>Next</strong><br><em>Will be slow day.</em><br>• Work on moving remaining routes - Facility and Department.<br>• Review PR&#x27;s and comment on issues.",
     "points": null,
     "meta": null
   },
