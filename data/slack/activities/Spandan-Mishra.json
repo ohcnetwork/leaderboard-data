@@ -1,5 +1,38 @@
 [
   {
+    "slug": "eod_update_2025-08-17_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-17T08:35:03.495Z",
+    "link": null,
+    "text": "August 17th<br>• fixed the display of patient names, locations and NPs in canteen dashboard and logging page<br>• made changes in the backend to support fetching of related data<br>• added sheet in canteen dashboard to view full details of the NO<br>• made ui changes",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-15_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-15T07:49:55.531Z",
+    "link": null,
+    "text": "May 15<br>• Completed DjangoForAll L2, L3 and parts of L4<br>• Completed assignments (some pending for review)<br>• Started learning about FHIR <br>Next<br>• Continue with Django course<br>• Read FHIR docs and its use in the project",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-09_Spandan-Mishra",
+    "contributor": "Spandan-Mishra",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-09T07:02:03.863Z",
+    "link": null,
+    "text": "July 9th<br>• Inspected more billing related functions in the lab branch<br>• Understood how price is being set for the items<br>• Looked a bit into how same can be done with nutritional fields<br>Next<br>• Continue exploring and understanding labs fe &amp;amp; be",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-16_Spandan-Mishra",
     "contributor": "Spandan-Mishra",
     "activity_definition": "eod_update",
@@ -29,28 +62,6 @@
     "occured_at": "2025-05-24T08:34:37.643Z",
     "link": null,
     "text": "May 24<br>• Read about the remaining resources in FHIR R5 <br>• Read the Nutritional Module in FHIR and got to know about NutritionOrder, NutritionIntake and NutritionProduct<br>• Finally completed reading of FHIR docs<br>Next<br>• Learn about BE Plugs<br>• Explore EMR implementation in CARE<br>• Practice Django",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-15_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-15T07:49:55.531Z",
-    "link": null,
-    "text": "May 15<br>• Completed DjangoForAll L2, L3 and parts of L4<br>• Completed assignments (some pending for review)<br>• Started learning about FHIR <br>Next<br>• Continue with Django course<br>• Read FHIR docs and its use in the project",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-09_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-09T07:02:03.863Z",
-    "link": null,
-    "text": "July 9th<br>• Inspected more billing related functions in the lab branch<br>• Understood how price is being set for the items<br>• Looked a bit into how same can be done with nutritional fields<br>Next<br>• Continue exploring and understanding labs fe &amp;amp; be",
     "points": null,
     "meta": null
   },
@@ -601,17 +612,6 @@
     "occured_at": "2025-08-14T23:02:32.608Z",
     "link": null,
     "text": "August 14th<br>• changed NO creation logic and added support for multiple NP.<br>• still debugging the error for creating NO questionnaire.<br>• design fixes, fixed small bugs and tested workflow.<br>Next<br>• change be logic to correctly display NP names in Canteen Orders and Intake Logging\n\nAugust 15th<br>• worked on fixing the display of NP in canteen dashboard and intake logs<br>• fixed more linting and formatting errors<br>• updated NutritionProductForm to be correctly used for editing and creating<br>• sent a video demonstrating the complete diet flow to mentors for review",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-17_Spandan-Mishra",
-    "contributor": "Spandan-Mishra",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-17T08:35:03.495Z",
-    "link": null,
-    "text": "August 17th<br>• fixed the display of patient names, locations and NPs in canteen dashboard and logging page<br>• made changes in the backend to support fetching of related data<br>• added sheet in canteen dashboard to view full details of the NO<br>• made ui changes",
     "points": null,
     "meta": null
   },

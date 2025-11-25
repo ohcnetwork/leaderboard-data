@@ -627,6 +627,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-07-15_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-14T19:53:04.071Z",
+    "link": null,
+    "text": "<strong>July 14</strong><br>• Engg review call.<br>• Discussion with Gigin regarding the ESlint rule for undefined translations.<br>• Looked at different packages and choose one and made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12906\">PR#12906</a> and then add keys for all the missing one&#x27;s reported by rule.<br>• EOD call.<br>• Fixed merge conflicts.<br>• Shared some observations to Suma noticed while running GDC-KTU.<br>• Had a look at padding issue with last item of valuesetselect list on Mobile reported in Arike group and tried to see how it looks on my mobile which does not have a bottom nav.<br><strong>Next</strong><br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a>.<br>• GSoC midterm evaluation",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -704,17 +715,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-07-15_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-14T19:53:04.071Z",
-    "link": null,
-    "text": "<strong>July 14</strong><br>• Engg review call.<br>• Discussion with Gigin regarding the ESlint rule for undefined translations.<br>• Looked at different packages and choose one and made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12906\">PR#12906</a> and then add keys for all the missing one&#x27;s reported by rule.<br>• EOD call.<br>• Fixed merge conflicts.<br>• Shared some observations to Suma noticed while running GDC-KTU.<br>• Had a look at padding issue with last item of valuesetselect list on Mobile reported in Arike group and tried to see how it looks on my mobile which does not have a bottom nav.<br><strong>Next</strong><br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a>.<br>• GSoC midterm evaluation",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-03-31_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -766,6 +766,17 @@
     "occured_at": "2025-04-08T06:47:38.751Z",
     "link": null,
     "text": "<strong>April 07</strong><br>• Engineering review call.<br>• Fixed review comments in <a href=\"https://github.com/ohcnetwork/care_fe/pull/11740\">PR#11740</a> and later changed it to draft as it was decided to move consents to a separate tab.<br>• Made a small <a href=\"https://github.com/ohcnetwork/care_fe/pull/11779\">PR#11779</a> for fixing <a href=\"https://github.com/ohcnetwork/care_fe/issues/11731\">issue#11731</a>.<br>• Call with Amjith, regarding PR&#x27;s, reviews.<br>• Testing my PR and noticed dosage range selector dialog is already broken on develop, tested on multiple devices and concluded it is only broken on android and <a href=\"https://github.com/ohcnetwork/care_fe/pull/11784/commits\">tried</a> bunch of things but nothing worked, so kept it aside.<br>• GDC<br>    ◦ Replied to assigned support emails, <br>        ▪︎ looked at  a student submission which requested a manual review where student made 16 submissions and rejected by VTA and replied what the issue with student submission.<br>        ▪︎ Looked into students asking for deadline extension and confirmed those students are part of GDC before GDC-KTU launch and replied to Suma and looped Aravind to make a decision.<br>        ▪︎ Looked into student facing issue with updating email and replied with detailed steps.<br>    ◦ Added WD101 completed students to a automation on Brevo.<br><strong>Next</strong><br>• Fix review comments on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11779\">PR#11779</a>.<br>• Calls with Amjith &amp; Aravind.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-16_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-15T21:02:08.143Z",
+    "link": null,
+    "text": "<strong>May 15</strong><br>• Brought back old tab style for valusetselect on labs-v2.<br>• Huddle with Muneer, regarding   <a href=\"https://github.com/ohcnetwork/care_fe/issues/11946\">issues#11946</a>. tried bunch of things but couldn&#x27;t fix that issue.<br>• Fixed  the payload that being sent when product is selected in <code>EntitySelectionSheet</code>.<br>• Matched the account list with figma design and fixed tiny issue with status select.<br>• Huddles with Amjith.<br>• Sometime on GDC things.<br><strong>Next</strong><br>• Match UI for account show and invoice show <br>• GDC",
     "points": null,
     "meta": null
   },
@@ -986,17 +997,6 @@
     "occured_at": "2025-05-14T21:34:32.692Z",
     "link": null,
     "text": "<strong>May 12</strong><br>• Engineering review call.<br>• Worked on Labs: <br>    ◦ Added <code>charge item price summary</code> in ci questionnaire.<br>    ◦ Moved the account section from tab to pill with sheet.<br>• Got one of my old PR merged.<br>• Made a <a href=\"https://github.com/ohcnetwork/care/pull/3032\">PR</a> for consent filtering by attachment name, but closed it after <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1747035364176599\">discussion</a> and discussion around <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1746992002870369\">column type</a>.<br>• Async discussion with Spandan regarding  GSoC and shared relevant links to get started.<br>• Huddles with Amjith<br><strong>May 13</strong><br>• Added support for print all qr codes for specimens in SR show<br>• Tuesday&#x27;s weekly call.<br>• Went through FHIR to share relevant links of <code>Nutrition Module/Diet management</code> to Spandan<br>• Discussions and Huddles with Amjith.<br>• Replied to GDC support mails and went through the student submission to debug the issue they were facing<br> <strong>May 14</strong><br>• DPG review call.<br>• Huddles with Amjith, regarding next tasks.<br>• Sync with Suma regarding the GDC and upcoming timelines.<br>• Labs<br>    ◦ Added option to whether to display or hide the patient and specimen info in Print all QR codes.<br>    ◦ Made createdraftspeciems in print all qrcodes a batch request.<br>    ◦ Updated the <code>EnittySelectionSheet</code> to use <code>MedicationValueSetSelect</code> when system is <code>medication-request</code> .<br>    ◦ Some tiny changes.<br>• Some async discussion with Munner,  regarding   <a href=\"https://github.com/ohcnetwork/care_fe/issues/11946\">issues#11946</a>.<br>• Just dropping my thoughts in various threads on slack and going through the links dropped there.<br>Next<br><em>Try to not to club eod&#x27;s</em><br>• Labs<br>• GDC",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-16_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-15T21:02:08.143Z",
-    "link": null,
-    "text": "<strong>May 15</strong><br>• Brought back old tab style for valusetselect on labs-v2.<br>• Huddle with Muneer, regarding   <a href=\"https://github.com/ohcnetwork/care_fe/issues/11946\">issues#11946</a>. tried bunch of things but couldn&#x27;t fix that issue.<br>• Fixed  the payload that being sent when product is selected in <code>EntitySelectionSheet</code>.<br>• Matched the account list with figma design and fixed tiny issue with status select.<br>• Huddles with Amjith.<br>• Sometime on GDC things.<br><strong>Next</strong><br>• Match UI for account show and invoice show <br>• GDC",
     "points": null,
     "meta": null
   },

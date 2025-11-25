@@ -88,6 +88,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-13_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-13T18:06:46.110Z",
+    "link": null,
+    "text": "May 13<br>• Fixed production knowlege edit form<br>• Few minor ui improvements<br>• ABDM demographic auth demo<br>• Fixed styling and dependency conflicts in hcx<br>Next<br>• Fix abdm path issue in staging and get demographic auth tested by Nihal<br>• Integrate charge items into hcx workflow<br>• Follow up on hcx callback issue<br>• Connect with Siva on ABDM PHR GSoC planning",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-28_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -205,17 +216,6 @@
     "occured_at": "2024-11-21T16:54:08.519Z",
     "link": null,
     "text": "<strong>19th November (missed an update previously)</strong><br>• Fixed diagnosis display in abdm plug<br>• Tried to resolve fhir.resources dependency issue<br>• Reviewed and merged the tested PRs<br><strong>21st November</strong><br>• Replicated the ServiceRequest and procedure Valueset in emr app, just experimented with the structure<br>• Had a call with Prafful to help with migration in camera plugin<br>• Was debugging 404 issue with the endpoints in camera plugin<br><strong>Up Next</strong><br>• Resolve fhir.resources dependency issue<br>• Sync with Vinu to discuss on labs UI<br>• Get started on Labs module and come up with an estimated time of completion",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-13_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-13T18:06:46.110Z",
-    "link": null,
-    "text": "May 13<br>• Fixed production knowlege edit form<br>• Few minor ui improvements<br>• ABDM demographic auth demo<br>• Fixed styling and dependency conflicts in hcx<br>Next<br>• Fix abdm path issue in staging and get demographic auth tested by Nihal<br>• Integrate charge items into hcx workflow<br>• Follow up on hcx callback issue<br>• Connect with Siva on ABDM PHR GSoC planning",
     "points": null,
     "meta": null
   },
@@ -601,6 +601,17 @@
     "occured_at": "2025-11-24T04:12:57.157Z",
     "link": null,
     "text": "Nov 21:<br>• huddle with Shivank to explain dynamic plug setup<br>• fixed toast issue in the plugs<br>• implemented scan and pay flow half way (blocked on callback issue)<br>Next<br>• complete scan and pay<br>• get started with UHI",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-25_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-25T05:42:33.403Z",
+    "link": null,
+    "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
     "points": null,
     "meta": null
   }

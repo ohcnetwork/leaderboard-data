@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_opened_care#2929",
+    "contributor": "areebahmeddd",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2929",
+    "occured_at": "2025-03-18T05:03:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2929",
+    "text": "docs: update make command",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2929",
+    "contributor": "areebahmeddd",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2929",
+    "occured_at": "2025-03-18T05:25:15.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2929",
+    "text": "docs: update make command",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_sbom#13",
     "contributor": "areebahmeddd",
     "activity_definition": "pr_opened",
@@ -1602,28 +1624,6 @@
     "occured_at": "2025-04-01T10:15:28.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2964",
     "text": "Update Redis URL to use CERT_NONE for SSL certificate requirements",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2929",
-    "contributor": "areebahmeddd",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2929",
-    "occured_at": "2025-03-18T05:03:14.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2929",
-    "text": "docs: update make command",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2929",
-    "contributor": "areebahmeddd",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2929",
-    "occured_at": "2025-03-18T05:25:15.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2929",
-    "text": "docs: update make command",
     "points": null,
     "meta": {}
   },
@@ -3432,17 +3432,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14371",
-    "contributor": "areebahmeddd",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14371",
-    "occured_at": "2025-11-17T02:53:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14371",
-    "text": "feat: sync labels to linked issue",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14370",
     "contributor": "areebahmeddd",
     "activity_definition": "pr_opened",
@@ -3520,6 +3509,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#14471_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14471 assigned",
+    "occured_at": "2025-11-22T00:20:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14471",
+    "text": "ensure issues and pr have the same labels",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#14471",
     "contributor": "areebahmeddd",
     "activity_definition": "issue_opened",
@@ -3531,13 +3531,24 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14471_areebahmeddd",
+    "slug": "comment_created_care_fe#14371_IC_kwDODtfaXs7U_Rm8",
     "contributor": "areebahmeddd",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14471 assigned",
-    "occured_at": "2025-11-22T00:20:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14471",
-    "text": "ensure issues and pr have the same labels",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14371",
+    "occured_at": "2025-11-25T01:08:23.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14371#issuecomment-3573356988",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14371",
+    "contributor": "areebahmeddd",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14371",
+    "occured_at": "2025-11-17T02:53:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14371",
+    "text": "feat: sync labels to linked issue",
     "points": null,
     "meta": {}
   }

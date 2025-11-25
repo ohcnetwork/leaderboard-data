@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-11-24_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-24T07:17:54.675Z",
+    "link": null,
+    "text": "Nov 22 &amp; 23:<br>• Leaderboard<br>    ◦ Fix: exclude replies from being tracked as reviews<br>    ◦ Discussion with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> about the docs setup in leaderboard<br>    ◦ Worked on leaderboard rebuild work - we moved  core logic as a package called leaderboard/core, so now leaderboard repo is monorepo<br>    ◦ Initialized scrapermanifest and moved common types and utility functions into the leaderboard/core package<br>Next:<br>• Leaderbaord rebuild work",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-25_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-25T05:05:37.872Z",
+    "link": null,
+    "text": "Nov 24:<br>• Made PR <a href=\"https://github.com/ohcnetwork/leaderboard/pull/648\">leaderboard#648</a>: Created setup-scraper script in leaderboard<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14481\">care_fe#14481</a>: fix: Size of logo in the print<br>• Attended Weekly eng call<br>• Reviewed PR<br>Next:<br>• leaderboard",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-26_NikhilA8606",
     "contributor": "NikhilA8606",
     "activity_definition": "eod_update",
@@ -1789,17 +1811,6 @@
     "occured_at": "2025-11-20T05:43:15.530Z",
     "link": null,
     "text": "Nov 19:<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14434\">care_fe#14434</a>: Updated encounter status into enum and simplify checks for AppointmentEncounterHeader<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14431\">care_fe#14431</a>: Playwright test for user creation<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_fe/issues/14428\">care_fe#14428</a>: Playwright test for user creation<br>• Discussion with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> about the implementation of aggregates and badges in leaderboard<br>Next:<br>• Work on issue <a href=\"https://github.com/ohcnetwork/care_fe/issues/14428\">care_fe#14428</a>: Playwright test for user creation",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-24_NikhilA8606",
-    "contributor": "NikhilA8606",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-24T07:17:54.675Z",
-    "link": null,
-    "text": "Nov 22 &amp; 23:<br>• Leaderboard<br>    ◦ Fix: exclude replies from being tracked as reviews<br>    ◦ Discussion with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> about the docs setup in leaderboard<br>    ◦ Worked on leaderboard rebuild work - we moved  core logic as a package called leaderboard/core, so now leaderboard repo is monorepo<br>    ◦ Initialized scrapermanifest and moved common types and utility functions into the leaderboard/core package<br>Next:<br>• Leaderbaord rebuild work",
     "points": null,
     "meta": null
   }
