@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care#2717",
+    "contributor": "gigincg",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2717",
+    "occured_at": "2025-01-07T11:20:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2717",
+    "text": "Bypass Active Questionnaire Check",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#698",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #698",
+    "occured_at": "2022-03-02T21:30:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/698",
+    "text": "Concept Diagram",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#414",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #414",
+    "occured_at": "2020-06-26T19:16:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/414",
+    "text": " Contact Positivity Rate",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#1940",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1940",
+    "occured_at": "2021-12-09T15:23:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/1940",
+    "text": "Nursing : UI is Lengthy",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#2101",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -381,50 +425,6 @@
     "occured_at": "2022-04-21T02:45:25.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2237",
     "text": "Filter Presets by Bed #2220",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2717",
-    "contributor": "gigincg",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2717",
-    "occured_at": "2025-01-07T11:20:35.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2717",
-    "text": "Bypass Active Questionnaire Check",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#698",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #698",
-    "occured_at": "2022-03-02T21:30:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/698",
-    "text": "Concept Diagram",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#414",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #414",
-    "occured_at": "2020-06-26T19:16:55.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/414",
-    "text": " Contact Positivity Rate",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#1940",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1940",
-    "occured_at": "2021-12-09T15:23:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/1940",
-    "text": "Nursing : UI is Lengthy",
     "points": null,
     "meta": {}
   },
@@ -3938,6 +3938,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care#812_IC_kwDODsgdF85ezNd3",
+    "contributor": "gigincg",
+    "activity_definition": "comment_created",
+    "title": "Commented on #812",
+    "occured_at": "2023-06-14T05:14:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/812#issuecomment-1590482807",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10206_APPROVED_PRR_kwDODtfaXs6ZePq4",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -4308,17 +4319,6 @@
     "occured_at": "2024-08-23T07:26:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8283#pullrequestreview-2256550928",
     "text": "\"Log Update\" Consistency",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#812_IC_kwDODsgdF85ezNd3",
-    "contributor": "gigincg",
-    "activity_definition": "comment_created",
-    "title": "Commented on #812",
-    "occured_at": "2023-06-14T05:14:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/812#issuecomment-1590482807",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -5034,6 +5034,17 @@
     "occured_at": "2022-06-04T17:12:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2645#pullrequestreview-995940936",
     "text": "Delete endpoint for beds",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#709",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #709",
+    "occured_at": "2022-03-17T01:42:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/709",
+    "text": "Summarize Beds under Facility",
     "points": null,
     "meta": {}
   },
@@ -5782,17 +5793,6 @@
     "occured_at": "2022-03-22T14:11:15.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/713",
     "text": "Authentication for MSE Server, handled by the Middleware Server",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#709",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #709",
-    "occured_at": "2022-03-17T01:42:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/709",
-    "text": "Summarize Beds under Facility",
     "points": null,
     "meta": {}
   },
@@ -10615,6 +10615,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#3104",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #3104",
+    "occured_at": "2022-07-31T02:33:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3104",
+    "text": "Prescription- Route",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#1839",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -11029,17 +11040,6 @@
     "occured_at": "2022-07-31T07:37:06.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2915",
     "text": "Show ECG Waveform from Multipara Monitor",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#3104",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #3104",
-    "occured_at": "2022-07-31T02:33:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3104",
-    "text": "Prescription- Route",
     "points": null,
     "meta": {}
   },
@@ -13882,6 +13882,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#9075_gigincg",
+    "contributor": "gigincg",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #9075 assigned",
+    "occured_at": "2024-11-10T04:13:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/9075",
+    "text": "Rethink Plugins in care_fe using microfrontends",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#1803",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -14241,17 +14252,6 @@
     "occured_at": "2023-01-04T09:41:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/4500",
     "text": "Doctors Notes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#9075_gigincg",
-    "contributor": "gigincg",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #9075 assigned",
-    "occured_at": "2024-11-10T04:13:18.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/9075",
-    "text": "Rethink Plugins in care_fe using microfrontends",
     "points": null,
     "meta": {}
   },
@@ -16232,6 +16232,17 @@
     "occured_at": "2025-08-02T03:22:16.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12684#pullrequestreview-3080888832",
     "text": "Add missing translations for request statuses #12519",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_india-maps#12",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #12",
+    "occured_at": "2020-03-28T05:01:16.000Z",
+    "link": "https://github.com/ohcnetwork/india-maps/issues/12",
+    "text": "add google analytics",
     "points": null,
     "meta": {}
   },
@@ -20097,17 +20108,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_india-maps#12",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #12",
-    "occured_at": "2020-03-28T05:01:16.000Z",
-    "link": "https://github.com/ohcnetwork/india-maps/issues/12",
-    "text": "add google analytics",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_india-maps#19",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -22121,6 +22121,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#655_COMMENTED_PRR_kwDODsgdF84x62h9",
+    "contributor": "gigincg",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #655",
+    "occured_at": "2021-12-21T14:38:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/655#pullrequestreview-837511293",
+    "text": "Add ventilator fields to daily rounds",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1945_CHANGES_REQUESTED_PRR_kwDODsgdF85yQbCI",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -22832,17 +22843,6 @@
     "occured_at": "2022-08-01T08:34:07.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/958",
     "text": "Fix: Revert Patient Permissions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#655_COMMENTED_PRR_kwDODsgdF84x62h9",
-    "contributor": "gigincg",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #655",
-    "occured_at": "2021-12-21T14:38:25.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/655#pullrequestreview-837511293",
-    "text": "Add ventilator fields to daily rounds",
     "points": null,
     "meta": {}
   },
@@ -24662,17 +24662,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#13603_COMMENTED_PRR_kwDODtfaXs7NZL2K",
-    "contributor": "gigincg",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #13603",
-    "occured_at": "2025-11-11T02:08:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3445931402",
-    "text": "Fix: Clean up missed for encounter and patient types",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care#3380",
     "contributor": "gigincg",
     "activity_definition": "issue_opened",
@@ -24680,6 +24669,17 @@
     "occured_at": "2025-11-25T13:50:28.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/3380",
     "text": "Replace `round` with `Decimal.quantize`",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13603_COMMENTED_PRR_kwDODtfaXs7NZL2K",
+    "contributor": "gigincg",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #13603",
+    "occured_at": "2025-11-11T02:08:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#pullrequestreview-3445931402",
+    "text": "Fix: Clean up missed for encounter and patient types",
     "points": null,
     "meta": {}
   }

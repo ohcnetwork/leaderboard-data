@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_opened_care_fe#13519",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13519",
+    "occured_at": "2025-08-26T08:02:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13519",
+    "text": "Fix \"Add Location\" button alignment for screen sizes between 640px-768px",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14137",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14137",
+    "occured_at": "2025-11-01T00:04:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14137",
+    "text": "Fix ProductKnowledgeView rendering empty code properties with reusable helper",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14355",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -95,28 +117,6 @@
     "occured_at": "2025-09-26T07:09:26.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
     "text": "Allergy Date Picker Allows Future Dates",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14137",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14137",
-    "occured_at": "2025-11-01T00:04:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14137",
-    "text": "Fix ProductKnowledgeView rendering empty code properties with reusable helper",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#13519",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13519",
-    "occured_at": "2025-08-26T08:02:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13519",
-    "text": "Fix \"Add Location\" button alignment for screen sizes between 640px-768px",
     "points": null,
     "meta": {}
   },
@@ -2189,17 +2189,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14486",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14486",
-    "occured_at": "2025-11-24T14:08:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14486",
-    "text": "Add Playwright tests for organization-level encounter access",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14488",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2222,17 +2211,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14251",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14251",
-    "occured_at": "2025-11-05T11:21:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14251",
-    "text": "Fix popover overflow on mobile for charge item price breakdown",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14495",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2240,6 +2218,50 @@
     "occured_at": "2025-11-25T05:37:40.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14495",
     "text": "Add Playwright tests for PatientInfoHoverCard conditional rendering in encounters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14511_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14511 assigned",
+    "occured_at": "2025-11-26T07:10:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14511",
+    "text": "Fix the flakiness in the patient identifier playwright test",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14486",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14486",
+    "occured_at": "2025-11-24T14:08:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14486",
+    "text": "Add Playwright tests for organization-level encounter access",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14512",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14512",
+    "occured_at": "2025-11-26T07:10:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14512",
+    "text": "Fix flaky patient identifier config Playwright tests with comprehensive coverage and reusable helpers",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14251",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14251",
+    "occured_at": "2025-11-05T11:21:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14251",
+    "text": "Fix popover overflow on mobile for charge item price breakdown",
     "points": null,
     "meta": {}
   }
