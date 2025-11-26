@@ -176,6 +176,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-28_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-28T15:18:41.759Z",
+    "link": null,
+    "text": "<strong>28th November</strong><br>• Looked for standard mappings b/w LOINC system (Specimen) to <a href=\"https://terminology.hl7.org/6.1.0/ValueSet-v2-0487.html\">HL7 Specimen value set</a>, did not get any, decided to create a custom ConceptMap (almost done)<br>• Helped Prafful debug the issue with installing the plugs<br>• Had a couple of Syncs with Yaswanth<br><strong>Next</strong><br>• Wrapup the ConceptMap<br>• Finish the flow till <code>Test Ongoing</code><br>• Sync up with Yashwanth on the UI and discuss the plan for wiring it with backend",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-18_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -282,17 +293,6 @@
     "occured_at": "2024-11-27T17:38:56.682Z",
     "link": null,
     "text": "<strong>27th November <em>(lazy day)</em></strong><br>• Replaced direct api calls to <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> and used CareValueset<br>• Rest of the day was unproductive, tried fixing metadata issue in local snowstorm but later used <a href=\"http://165.22.211.144/fhir\">http://165.22.211.144/fhir</a> which was configured correctly.<br><strong>Next</strong><br>• Look into filtering LOINC valueset by parameters.<br>• Sync with Yaswanth on frontend.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-28_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-28T15:18:41.759Z",
-    "link": null,
-    "text": "<strong>28th November</strong><br>• Looked for standard mappings b/w LOINC system (Specimen) to <a href=\"https://terminology.hl7.org/6.1.0/ValueSet-v2-0487.html\">HL7 Specimen value set</a>, did not get any, decided to create a custom ConceptMap (almost done)<br>• Helped Prafful debug the issue with installing the plugs<br>• Had a couple of Syncs with Yaswanth<br><strong>Next</strong><br>• Wrapup the ConceptMap<br>• Finish the flow till <code>Test Ongoing</code><br>• Sync up with Yashwanth on the UI and discuss the plan for wiring it with backend",
     "points": null,
     "meta": null
   },
