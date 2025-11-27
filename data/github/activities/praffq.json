@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_opened_care#3261",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3261",
+    "occured_at": "2025-09-15T12:19:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3261",
+    "text": "fix test cases for slugs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2434",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2434",
+    "occured_at": "2024-09-19T14:28:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2434",
+    "text": "added timeout to middleware requests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2532",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2532",
+    "occured_at": "2024-11-14T14:15:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2532",
+    "text": "added test cases for asset bed",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2772",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -238,39 +271,6 @@
     "occured_at": "2025-04-07T14:53:07.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2984",
     "text": "fixed recent views duplications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2434",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2434",
-    "occured_at": "2024-09-19T14:28:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2434",
-    "text": "added timeout to middleware requests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2532",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2532",
-    "occured_at": "2024-11-14T14:15:02.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2532",
-    "text": "added test cases for asset bed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3261",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3261",
-    "occured_at": "2025-09-15T12:19:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3261",
-    "text": "fix test cases for slugs",
     "points": null,
     "meta": {}
   },
@@ -2255,6 +2255,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care#2619_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #2619 assigned",
+    "occured_at": "2024-12-11T15:34:32.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2619",
+    "text": "listAssetBedPresets and ListBedPresets mismatch",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_camera_asset#2_COMMENTED_PRR_kwDONSAoas6SuTRh",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -2625,17 +2636,6 @@
     "occured_at": "2025-01-04T12:48:01.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/2699",
     "text": "Filters for file not present",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#2619_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #2619 assigned",
-    "occured_at": "2024-12-11T15:34:32.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2619",
-    "text": "listAssetBedPresets and ListBedPresets mismatch",
     "points": null,
     "meta": {}
   },
@@ -3043,6 +3043,17 @@
     "occured_at": "2024-11-20T14:13:35.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2588#issuecomment-2488694399",
     "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3217",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3217",
+    "occured_at": "2025-09-02T17:17:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3217",
+    "text": "using enum choice in resource request",
     "points": null,
     "meta": {}
   },
@@ -3899,17 +3910,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #3217",
     "occured_at": "2025-08-25T08:56:44.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3217",
-    "text": "using enum choice in resource request",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3217",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3217",
-    "occured_at": "2025-09-02T17:17:12.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3217",
     "text": "using enum choice in resource request",
     "points": null,
@@ -7040,17 +7040,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3333",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3333",
-    "occured_at": "2025-10-31T01:31:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3333",
-    "text": "Reports and Templates v2",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3374_APPROVED_PRR_kwDODsgdF87Q2UHu",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -7135,6 +7124,83 @@
     "occured_at": "2025-11-25T17:07:34.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/d6a0ea79f7934fd4cd05fc7e4ea32f9afda27f29",
     "text": "fixing deceased datetime format",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_fb2ea89a1742071a0888860fd1dd4f17b40aa282",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-27T07:02:58.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/fb2ea89a1742071a0888860fd1dd4f17b40aa282",
+    "text": "change list_builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_8009166bf1844cec163fb88f94b45da1ebf56845",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-27T06:37:46.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/8009166bf1844cec163fb88f94b45da1ebf56845",
+    "text": "review changes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_2becac15da93f56b68371a974b04727bf3de200f",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-27T06:08:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/2becac15da93f56b68371a974b04727bf3de200f",
+    "text": "added service request and updated validations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_1099e5235db869d341c89abdea79fee8af424d3e",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-27T06:11:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1099e5235db869d341c89abdea79fee8af424d3e",
+    "text": "writing imports on top",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_c67b689c43533a10afe6cc3ba930e696b35d9823",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-27T06:13:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/c67b689c43533a10afe6cc3ba930e696b35d9823",
+    "text": "writing imports on top",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3333",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3333",
+    "occured_at": "2025-10-31T01:31:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3333",
+    "text": "Reports and Templates v2",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_99b79a4887f892749af14282b8cd4b13739b37f6",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-27T07:16:01.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/99b79a4887f892749af14282b8cd4b13739b37f6",
+    "text": "encounter class mapping",
     "points": null,
     "meta": {}
   }

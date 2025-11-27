@@ -462,6 +462,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-30_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-30T07:57:34.609Z",
+    "link": null,
+    "text": "<strong>June 26-27</strong><br>• Worked on Internal supply transfers and Pharmacy fixes, <a href=\"https://github.com/ohcnetwork/care_fe/commits/inventory-internal-transfers/?since=2025-06-26&amp;amp;until=2025-06-29&amp;amp;author=yash-learner\">[1]</a>.<br>• Huddles with Amjith regarding <span class=\"s-emoji\">☝️</span>.<br>• EOD calls and reviewed a PR.<br>• Some discussion around GSoC.<br><strong>Next</strong><br>• Engg review call.<br>• Work on Internal supply transfers and labs fixes",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-02-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -715,17 +726,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-30_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-30T07:57:34.609Z",
-    "link": null,
-    "text": "<strong>June 26-27</strong><br>• Worked on Internal supply transfers and Pharmacy fixes, <a href=\"https://github.com/ohcnetwork/care_fe/commits/inventory-internal-transfers/?since=2025-06-26&amp;amp;until=2025-06-29&amp;amp;author=yash-learner\">[1]</a>.<br>• Huddles with Amjith regarding <span class=\"s-emoji\">☝️</span>.<br>• EOD calls and reviewed a PR.<br>• Some discussion around GSoC.<br><strong>Next</strong><br>• Engg review call.<br>• Work on Internal supply transfers and labs fixes",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-03-31_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -777,6 +777,17 @@
     "occured_at": "2025-04-04T00:04:21.331Z",
     "link": null,
     "text": "<strong>April 2 - 3</strong><br>• Wrapped up the <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>.<br>• Testing the <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a> on  mobile devices and some things looked and worked differently from what it looked on chrome dev tools.<br>• Worked on improving things noticed while testing on real mobile device and worked a lot of time on trying to improve a UX of drawer that is getting shrink when typing with mobile keyword in notes because of change in viewport, couldn&#x27;t actual fix it but it is still usable.<br>• Had a huddle with Vinu regarding above UX issue, we did some trail and error but it didn&#x27;t work out and it is hard to test things on real devices when doing trail and error, probably need to figure out how can I access my localhost from wsl from my mobile - use localtunnel. Tried setting up browserstack local but it is crashing for me.<br>• Reviewed a PR.<br>• GDC <br>    ◦ Testing the brevo automation and activated it.<br>    ◦ Sent the check in  mailer for GDC students.<br>    ◦ Discussion with Aravind and quick glance at support.<br>• DPG review call .<br>• Huddle and discussion with Amjith.<br>• Glancing through the issues pointed by Bodhi and replied some.<br><strong>Next</strong> <br>• Fix merge conflicts and some font weight and style issues.<br>• Sync with Aravind &amp;amp; Amjith<br>• Work on <a href=\"https://github.com/ohcnetwork/care/issues/2911\">care-be-2911</a>.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-02_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-02T03:18:20.178Z",
+    "link": null,
+    "text": "<strong>June 30 - July 1</strong><br>• Engg review call.<br>• Made multiple fixes, some refactors in Labs and Pharmacy, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;amp;since=2025-06-30&amp;amp;until=2025-07-01\">[1]</a>. and then telling/(Playing with) cursor what to do and asking it why is it making some unnecessary changes.<br>• Discussions with Amjith and Vignesh on <span class=\"s-emoji\">☝️</span><br>• Discussion with Aakash regarding  location not found error when marking SR as completed.<br>• Made a tiny PR on BE, <a href=\"https://github.com/ohcnetwork/care/pull/3102\">[1]</a><br>• Went through one of the updated models doc by Spandan and FHIR for Food service and shared feedback and some discussions with Amjith around it.<br><strong>Next</strong><br>• Fixing issues and bugs on labs/pharmacy/inventory.<br>• Go through the doc of billing models for food service by Spandan.<br>• DPG review call.",
     "points": null,
     "meta": null
   },
@@ -843,17 +854,6 @@
     "occured_at": "2025-04-23T04:45:43.986Z",
     "link": null,
     "text": "<strong>April 22</strong><br><em>Not productive, I was not feeling well</em><br>• Cleared a <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1745269867137029?thread_ts=1744207192.430929&amp;cid=C06KGMUAB0V\">question</a> I had with consents, after looking at our current consent flow and filed an <a href=\"https://github.com/ohcnetwork/care_fe/issues/12041\">issue#12041</a>.<br>• Actually I messed up <a href=\"https://github.com/ohcnetwork/care_fe/pull/11740/\">PR#11740</a>, so closed it and opened a new one <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033\">PR#12033</a>.<br>• Filed issues, <a href=\"https://github.com/ohcnetwork/care_fe/issues/12042\">issue#12042</a> ,   <a href=\"https://github.com/ohcnetwork/care_fe/issues/12045\">issue#12045</a>.<br>• Huddle with Vinu on consent design changes.<br>• Async discussion with Amjith on the status of my PR&#x27;s.<br>• async and sync discussion with Amjith and Abhimanyu, on  <a href=\"https://github.com/ohcnetwork/care_fe/issues/12043\">issue#12043</a>.<br>• Fixed tiny review comments from Abhimanyu on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11993\">PR#11993</a> and merged it.<br>• Sent the GDC session mailer prepared by Aravind to GDC students.<br>• Weekly Tuesday call.<br><strong>Next</strong><br>• Review remaining gsoc proposals.<br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/issues/11730\">issue#11730</a>.<br>• DPG review call",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-02_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-02T03:18:20.178Z",
-    "link": null,
-    "text": "<strong>June 30 - July 1</strong><br>• Engg review call.<br>• Made multiple fixes, some refactors in Labs and Pharmacy, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;amp;since=2025-06-30&amp;amp;until=2025-07-01\">[1]</a>. and then telling/(Playing with) cursor what to do and asking it why is it making some unnecessary changes.<br>• Discussions with Amjith and Vignesh on <span class=\"s-emoji\">☝️</span><br>• Discussion with Aakash regarding  location not found error when marking SR as completed.<br>• Made a tiny PR on BE, <a href=\"https://github.com/ohcnetwork/care/pull/3102\">[1]</a><br>• Went through one of the updated models doc by Spandan and FHIR for Food service and shared feedback and some discussions with Amjith around it.<br><strong>Next</strong><br>• Fixing issues and bugs on labs/pharmacy/inventory.<br>• Go through the doc of billing models for food service by Spandan.<br>• DPG review call.",
     "points": null,
     "meta": null
   },
@@ -1001,6 +1001,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-10_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-10T05:41:22.073Z",
+    "link": null,
+    "text": "<strong>June 09</strong><br>• Engineering review call.<br>• Discussion with Aravind regarding GDC task submissions and answered some of his questions and created a metabase question.<br>• Some huddles<br>• Understanding the DA profile task and reviewed some submissions and wasted a lot of time trying get SQL server working in my WSL, which didn&#x27;t run, unlike psql and postgres which is super straight forward.<br><strong>Next</strong><br>• GDC related, reviewing capstone submissions, replying to support emails and things related to GDC task",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-15_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1063,17 +1074,6 @@
     "occured_at": "2025-06-08T21:44:19.054Z",
     "link": null,
     "text": "<strong>June 04</strong><br><em>It was a tough day to concentrate as I was over the moon as RCB won the IPL but I got all my work done.</em><br>• Cleaned up and pushed the medication substitution in Medication Bill form.<br>• Made some changes on Medication Bill form after discussion with Amjith &amp; Gigin<br>    ◦ Added the substitution info on the table item<br>    ◦ Added description to substitution type and description.<br>    ◦ Some tiny style improvements <br>• DPG review call.<br>• Replied to some GDC support emails and looked at stucked submissions.<br>• Replaced the deprecated <code>MultiValueSetSelect</code> with <code>InstructionsPopover</code> in Medication Bill form.<br>• First monthly review call with Amjith.<br>• Back and forth with Aravind and Bodhi regarding GDC task and sent out the mailer and some minor changes and testing.<br><strong>June 05</strong><br>• Reviewed a WD201 capstone submission.<br>• Filtered out negative and zero inventories<br>• Fixed review comment from Abhimanyu on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12443\">PR#12443</a>.<br>• Discussion around NM with Spandhan and Look around BE labs PR and  NM in FHIR.<br>• Replying to some messages on the Slack.<br><strong>Next</strong><br>• Engineering review call.<br>• Look at GDC tasks submitted.<br>• Pick up from Todo.<br>• Look at support emails and submissions.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-10_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-10T05:41:22.073Z",
-    "link": null,
-    "text": "<strong>June 09</strong><br>• Engineering review call.<br>• Discussion with Aravind regarding GDC task submissions and answered some of his questions and created a metabase question.<br>• Some huddles<br>• Understanding the DA profile task and reviewed some submissions and wasted a lot of time trying get SQL server working in my WSL, which didn&#x27;t run, unlike psql and postgres which is super straight forward.<br><strong>Next</strong><br>• GDC related, reviewing capstone submissions, replying to support emails and things related to GDC task",
     "points": null,
     "meta": null
   },
@@ -1217,6 +1217,17 @@
     "occured_at": "2025-07-29T23:21:32.827Z",
     "link": null,
     "text": "<strong>July 29</strong><br>• <a href=\"https://rebuildearth.slack.com/archives/C04CJHYJR17/p1753763580418359\">Discussion</a><br>• Daily sync with Amjith regarding various things.<br>• Had a quick huddle with Gigin regarding a review comment and fixed it and just re-running actions to fix flaky cypress errors and requested a re-review from Gigin and testing from Nihal.<br>• Looked at Aditya&#x27;s <a href=\"https://github.com/ohcnetwork/care_fe/pull/13136#issuecomment-3131163388\">PR</a> and replied to his question.<br>• Had a huddle with Aakash regarding his PR related to user BE spec&#x27;s and glanced over the code.<br>• General catch sync with Suma.<br>• Async discussions and calls with Spandan for fixing errors he was facing, finally we fixed all.<br>• Quick Huddle with Khavin and quick async discussion with Shivank regarding a Plug error.<br>• Tuesday&#x27;s weekly call.<br><strong>Next</strong><br><em>will be working partly</em><br>• Go over the <a href=\"https://github.com/ohcnetwork/care_fe/pull/13002\">PR#13002</a><br>• Remaining types clean up and moving routes.<br>• Look through Spandan&#x27;s work.<br>• Look at interns WD submissions if any.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-13_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-12T20:55:33.660Z",
+    "link": null,
+    "text": "<strong>November 12</strong><br>• Reviewed some PR&#x27;s, Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14304\">issues/14304</a> for new OSS contributor.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14314\">issues/14314</a>, for issue noticed during review of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14250\">pull/14250</a> and assigned it to copilot.<br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?since=2025-11-12&amp;amp;until=2025-11-13\">[1]</a><br>    ◦ helper function to pick from ResourceCategoryDefinitionPikcer.<br>    ◦ setup to store encounter id and patient id so that it can be reused across all the encounter related tests.<br>    ◦ reusable selector to automatically pick from tab or menuitem.<br>    ◦ helper for creating service requests.<br>    ◦ Updated the CreateServiceRequest spec<br>• DPG review call.<br>• Some discussions with different team members and follow ups.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s\n\n<strong>November 12</strong><br>• Reviewed some PR&#x27;s, Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14304\">issues/14304</a> for new OSS contributor.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14314\">issues/14314</a>, for issue noticed during review of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14250\">pull/14250</a> and assigned it to copilot.<br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?since=2025-11-12&amp;amp;until=2025-11-13\">[1]</a><br>    ◦ helper function to pick from ResourceCategoryDefinitionPikcer.<br>    ◦ setup to store encounter id and patient id so that it can be reused across all the encounter related tests.<br>    ◦ reusable selector to automatically pick from tab or menuitem.<br>    ◦ helper for creating service requests.<br>    ◦ Updated the CreateServiceRequest spec<br>• DPG review call.<br>• Some discussions with different team members and follow ups.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s<br>",
     "points": null,
     "meta": null
   },
@@ -1547,17 +1558,6 @@
     "occured_at": "2025-11-11T23:00:36.226Z",
     "link": null,
     "text": "<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.<br>\n\n<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-13_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-12T20:55:33.660Z",
-    "link": null,
-    "text": "<strong>November 12</strong><br>• Reviewed some PR&#x27;s, Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14304\">issues/14304</a> for new OSS contributor.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14314\">issues/14314</a>, for issue noticed during review of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14250\">pull/14250</a> and assigned it to copilot.<br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?since=2025-11-12&amp;amp;until=2025-11-13\">[1]</a><br>    ◦ helper function to pick from ResourceCategoryDefinitionPikcer.<br>    ◦ setup to store encounter id and patient id so that it can be reused across all the encounter related tests.<br>    ◦ reusable selector to automatically pick from tab or menuitem.<br>    ◦ helper for creating service requests.<br>    ◦ Updated the CreateServiceRequest spec<br>• DPG review call.<br>• Some discussions with different team members and follow ups.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s\n\n<strong>November 12</strong><br>• Reviewed some PR&#x27;s, Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14304\">issues/14304</a> for new OSS contributor.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14314\">issues/14314</a>, for issue noticed during review of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14250\">pull/14250</a> and assigned it to copilot.<br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?since=2025-11-12&amp;amp;until=2025-11-13\">[1]</a><br>    ◦ helper function to pick from ResourceCategoryDefinitionPikcer.<br>    ◦ setup to store encounter id and patient id so that it can be reused across all the encounter related tests.<br>    ◦ reusable selector to automatically pick from tab or menuitem.<br>    ◦ helper for creating service requests.<br>    ◦ Updated the CreateServiceRequest spec<br>• DPG review call.<br>• Some discussions with different team members and follow ups.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s<br>",
     "points": null,
     "meta": null
   },

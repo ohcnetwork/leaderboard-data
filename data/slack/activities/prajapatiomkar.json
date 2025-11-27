@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-05-14_prajapatiomkar",
+    "contributor": "prajapatiomkar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-13T19:10:34.440Z",
+    "link": null,
+    "text": "May 13<br>• Tested the Patient section and found a few issues. Took notes on them. Will create issues based on the findings.<br>Next<br>• Testing continue.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-29_prajapatiomkar",
+    "contributor": "prajapatiomkar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-29T03:52:51.245Z",
+    "link": null,
+    "text": "May 29:<br>• <strong>Issue in Settings &amp;gt; Location:</strong><br> An unexpected error occurred in the <strong>Settings &amp;gt; Location</strong> section, which triggered the <strong>Suspense fallback</strong> component.<br>• <strong>Abnormal Behavior in User Information:</strong><br> In the <strong>User Information</strong> section, the <strong>gender</strong> field contains an unexpected value such as <code>3</code>.<br>• Finding the root cause so that i can solve it.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-10_prajapatiomkar",
     "contributor": "prajapatiomkar",
     "activity_definition": "eod_update",
@@ -51,28 +73,6 @@
     "occured_at": "2025-05-09T03:12:22.037Z",
     "link": null,
     "text": "May 8th<br>• Fix this <a href=\"https://github.com/ohcnetwork/care_fe/issues/12243\">issue</a> and raised the <a href=\"https://github.com/ohcnetwork/care_fe/pull/12262\">PR</a><br>• Simultaneously completing the training modules<br>Next<br>I have to set up the backend locally and solve more issues.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-14_prajapatiomkar",
-    "contributor": "prajapatiomkar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-13T19:10:34.440Z",
-    "link": null,
-    "text": "May 13<br>• Tested the Patient section and found a few issues. Took notes on them. Will create issues based on the findings.<br>Next<br>• Testing continue.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-29_prajapatiomkar",
-    "contributor": "prajapatiomkar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-29T03:52:51.245Z",
-    "link": null,
-    "text": "May 29:<br>• <strong>Issue in Settings &amp;gt; Location:</strong><br> An unexpected error occurred in the <strong>Settings &amp;gt; Location</strong> section, which triggered the <strong>Suspense fallback</strong> component.<br>• <strong>Abnormal Behavior in User Information:</strong><br> In the <strong>User Information</strong> section, the <strong>gender</strong> field contains an unexpected value such as <code>3</code>.<br>• Finding the root cause so that i can solve it.",
     "points": null,
     "meta": null
   },

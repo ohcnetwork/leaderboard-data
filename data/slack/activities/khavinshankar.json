@@ -396,6 +396,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-19_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-19T06:11:02.262Z",
+    "link": null,
+    "text": "Nov 18<br>• Went through UHI and possible integration with scheduling module<br>• gracefully handle runtime errors from plugins <a href=\"https://github.com/ohcnetwork/care_fe/pull/14422\">#14422</a><br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-15_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -495,6 +506,39 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-21_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-21T01:46:54.665Z",
+    "link": null,
+    "text": "Nov 19<br>• Wrapped up scan and share using token queue<br>• Investigated the issues in the demo<br>• Went through all the flows in the PHR and noted down the issues<br>Nov 20<br>• Applied for UHI sandbox<br>• Tried out the scan and pay flow in postman<br>Next<br>• Implement the scan and pay flow",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-24_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-24T04:12:57.157Z",
+    "link": null,
+    "text": "Nov 21:<br>• huddle with Shivank to explain dynamic plug setup<br>• fixed toast issue in the plugs<br>• implemented scan and pay flow half way (blocked on callback issue)<br>Next<br>• complete scan and pay<br>• get started with UHI",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-25_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-25T05:42:33.403Z",
+    "link": null,
+    "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-04_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -572,46 +616,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-11-19_khavinshankar",
+    "slug": "eod_update_2025-11-27_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-11-19T06:11:02.262Z",
+    "occured_at": "2025-11-27T06:04:29.638Z",
     "link": null,
-    "text": "Nov 18<br>• Went through UHI and possible integration with scheduling module<br>• gracefully handle runtime errors from plugins <a href=\"https://github.com/ohcnetwork/care_fe/pull/14422\">#14422</a><br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-21_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-21T01:46:54.665Z",
-    "link": null,
-    "text": "Nov 19<br>• Wrapped up scan and share using token queue<br>• Investigated the issues in the demo<br>• Went through all the flows in the PHR and noted down the issues<br>Nov 20<br>• Applied for UHI sandbox<br>• Tried out the scan and pay flow in postman<br>Next<br>• Implement the scan and pay flow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-24_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-24T04:12:57.157Z",
-    "link": null,
-    "text": "Nov 21:<br>• huddle with Shivank to explain dynamic plug setup<br>• fixed toast issue in the plugs<br>• implemented scan and pay flow half way (blocked on callback issue)<br>Next<br>• complete scan and pay<br>• get started with UHI",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-25_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-25T05:42:33.403Z",
-    "link": null,
-    "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
+    "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
     "points": null,
     "meta": null
   }
