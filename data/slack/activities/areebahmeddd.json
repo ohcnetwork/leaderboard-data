@@ -1,5 +1,38 @@
 [
   {
+    "slug": "eod_update_2025-04-12_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-12T05:43:14.794Z",
+    "link": null,
+    "text": "April 12<br>• Azure Deployment Documentation PR (docs <a href=\"https://github.com/ohcnetwork/docs/pull/114\">#114</a>)<br>• Added FAQ Section to /doc (Draft PR <a href=\"https://github.com/ohcnetwork/docs/pull/114\">#115</a>)<br>• Small task from rithvik to add workflow to /hi-profiles (PR <a href=\"https://github.com/ohcnetwork/hi-profiles/pull/5\">#5</a>)<br>Next<br>• Review from Vyshak on care script<br>• Test CSP for care on my local deployment",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-08-14_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-13T18:44:28.530Z",
+    "link": null,
+    "text": "august 13<br>• reviewed coolify server<br>• tested tunneling on coolify server via zrok<br>               -fixed a bug within zrok config and raised a pr [ <a href=\"https://github.com/openziti/zrok/pull/1039\">#1039</a> ]<br>• chats with <span class=\"s-mention s-user\">@U0915RNR70S</span> to confirm if hes working on gcp tofu or if i can pick it up",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-03_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-03T03:20:39.067Z",
+    "link": null,
+    "text": "1-2 March 2025<br>- Was unwell (down with cold)\n\n3 March 2025<br>- Worked on devops tasks (still stuck)<br>Next<br>- Resolve all devops tasks before the weekly call tomorrow <span class=\"s-emoji\">🏃‍♂️</span><span class=\"s-emoji\">🏻</span>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-24_areebahmeddd",
     "contributor": "areebahmeddd",
     "activity_definition": "eod_update",
@@ -161,39 +194,6 @@
     "occured_at": "2025-03-18T02:42:30.389Z",
     "link": null,
     "text": "March 17<br>• huddle with vysakh<br>• debugging my azure deployment..:melting_face:<br>Next<br>• Fix",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-14_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-13T18:44:28.530Z",
-    "link": null,
-    "text": "august 13<br>• reviewed coolify server<br>• tested tunneling on coolify server via zrok<br>               -fixed a bug within zrok config and raised a pr [ <a href=\"https://github.com/openziti/zrok/pull/1039\">#1039</a> ]<br>• chats with <span class=\"s-mention s-user\">@U0915RNR70S</span> to confirm if hes working on gcp tofu or if i can pick it up",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-03_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-03T03:20:39.067Z",
-    "link": null,
-    "text": "1-2 March 2025<br>- Was unwell (down with cold)\n\n3 March 2025<br>- Worked on devops tasks (still stuck)<br>Next<br>- Resolve all devops tasks before the weekly call tomorrow <span class=\"s-emoji\">🏃‍♂️</span><span class=\"s-emoji\">🏻</span>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-12_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-12T05:43:14.794Z",
-    "link": null,
-    "text": "April 12<br>• Azure Deployment Documentation PR (docs <a href=\"https://github.com/ohcnetwork/docs/pull/114\">#114</a>)<br>• Added FAQ Section to /doc (Draft PR <a href=\"https://github.com/ohcnetwork/docs/pull/114\">#115</a>)<br>• Small task from rithvik to add workflow to /hi-profiles (PR <a href=\"https://github.com/ohcnetwork/hi-profiles/pull/5\">#5</a>)<br>Next<br>• Review from Vyshak on care script<br>• Test CSP for care on my local deployment",
     "points": null,
     "meta": null
   },
@@ -374,6 +374,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-03-24_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-23T19:34:29.348Z",
+    "link": null,
+    "text": "March 20-22<br>• Az app service worked<br>• College exams<span class=\"s-emoji\">📚</span><br>March 23<br>• Updated ohcnetwork/docs (<a href=\"https://github.com/ohcnetwork/docs/pull/107\">#107</a>) with instruction on GCS setup (along with existing GKE setup)<br>• Hosting one click deployment scripts (fe &amp;amp; be) [ more ironing needed before production ready, missing csp ]\n\nMarch 24<br>• Huddle with Vysakh<br>• College exams<span class=\"s-emoji\">📚</span><br>Next<br>• Add flexify layer on azure container storage for s3 compatibility<br>• Testing end to end with patient creation, uploads, facility on my deployment<br>• 1 more paper left xd",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-02-14_areebahmeddd",
     "contributor": "areebahmeddd",
     "activity_definition": "eod_update",
@@ -469,17 +480,6 @@
     "occured_at": "2025-03-19T07:00:07.476Z",
     "link": null,
     "text": "March 18-19<br>• <span class=\"s-emoji\">🎧</span> with vysakh (debugging)<br>• pause on containerapps deployment (container keeps crashing because of run command:this-is-fine-fire:)<br>Next<br>• Add ohcnetwork/docs with steps for gcp with gcs deployment (currently there&#x27;s just kubernet documentation)<br>• Instead of containerapps, try azure app service deployment<br>• pray to god that app service doesn&#x27;t crash like container apps",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-24_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-23T19:34:29.348Z",
-    "link": null,
-    "text": "March 20-22<br>• Az app service worked<br>• College exams<span class=\"s-emoji\">📚</span><br>March 23<br>• Updated ohcnetwork/docs (<a href=\"https://github.com/ohcnetwork/docs/pull/107\">#107</a>) with instruction on GCS setup (along with existing GKE setup)<br>• Hosting one click deployment scripts (fe &amp;amp; be) [ more ironing needed before production ready, missing csp ]\n\nMarch 24<br>• Huddle with Vysakh<br>• College exams<span class=\"s-emoji\">📚</span><br>Next<br>• Add flexify layer on azure container storage for s3 compatibility<br>• Testing end to end with patient creation, uploads, facility on my deployment<br>• 1 more paper left xd",
     "points": null,
     "meta": null
   },
