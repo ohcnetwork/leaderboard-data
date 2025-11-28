@@ -6116,17 +6116,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_teleicu_devices#19",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #19",
-    "occured_at": "2025-11-07T08:54:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/19",
-    "text": "Refactor GatewayClient for improved request handling and error logging",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_teleicu_devices#18",
     "contributor": "sainak",
     "activity_definition": "pr_opened",
@@ -6156,6 +6145,17 @@
     "occured_at": "2025-03-27T10:48:17.000Z",
     "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/5",
     "text": "Move device metadata migration to core repo",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#8472",
+    "contributor": "sainak",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #8472",
+    "occured_at": "2024-09-04T11:59:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8472",
+    "text": "Staging deployment is failing to connect with the backend",
     "points": null,
     "meta": {}
   },
@@ -6904,17 +6904,6 @@
     "occured_at": "2024-11-08T05:16:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/9051",
     "text": "Upgrade qrcode.react to v4",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#8472",
-    "contributor": "sainak",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #8472",
-    "occured_at": "2024-09-04T11:59:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8472",
-    "text": "Staging deployment is failing to connect with the backend",
     "points": null,
     "meta": {}
   },
@@ -7722,6 +7711,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#6003",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #6003",
+    "occured_at": "2023-08-04T16:21:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6003",
+    "text": "cleanup fireRequests and remove axios",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14164_COMMENTED_PRR_kwDODtfaXs7OcIVo",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -8070,17 +8070,6 @@
     "occured_at": "2024-12-16T16:19:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9446#pullrequestreview-2506674218",
     "text": "Production Release v24.51.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#6003",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #6003",
-    "occured_at": "2023-08-04T16:21:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6003",
-    "text": "cleanup fireRequests and remove axios",
     "points": null,
     "meta": {}
   },
@@ -8888,6 +8877,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#7229",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #7229",
+    "occured_at": "2024-02-19T04:56:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7229",
+    "text": "Upgrade Vite and Storybook",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#7526_APPROVED_PRR_kwDODtfaXs51zFHq",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -9306,17 +9306,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#7229",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #7229",
-    "occured_at": "2024-02-19T04:56:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7229",
-    "text": "Upgrade Vite and Storybook",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#7229",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -9698,6 +9687,17 @@
     "occured_at": "2023-09-01T06:31:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/6201#pullrequestreview-1606338736",
     "text": "Support for direnv and use `CARE_API` from env in vite config",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3093",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3093",
+    "occured_at": "2025-06-25T10:32:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3093",
+    "text": "fix typo in the field name of suppliers",
     "points": null,
     "meta": {}
   },
@@ -17039,17 +17039,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#3093",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3093",
-    "occured_at": "2025-06-25T10:32:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3093",
-    "text": "fix typo in the field name of suppliers",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3090",
     "contributor": "sainak",
     "activity_definition": "pr_opened",
@@ -17431,6 +17420,17 @@
     "occured_at": "2025-04-28T08:24:09.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3002#pullrequestreview-2798445216",
     "text": "fix(ci): workflow perms",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2859",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2859",
+    "occured_at": "2025-02-21T16:13:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2859",
+    "text": "Fix discharge summary issues",
     "points": null,
     "meta": {}
   },
@@ -18188,17 +18188,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #2859",
     "occured_at": "2025-02-21T16:05:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2859",
-    "text": "Fix discharge summary issues",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2859",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2859",
-    "occured_at": "2025-02-21T16:13:55.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2859",
     "text": "Fix discharge summary issues",
     "points": null,
@@ -19371,6 +19360,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2129",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2129",
+    "occured_at": "2024-05-06T17:22:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2129",
+    "text": "Production release v24.19.0",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2534_CHANGES_REQUESTED_PRR_kwDODsgdF86NB5-I",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -19719,6 +19719,17 @@
     "occured_at": "2024-09-23T05:16:57.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2486",
     "text": "merge migrations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2521",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2521",
+    "occured_at": "2024-10-07T17:20:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2521",
+    "text": "Production release v24.41.0; October week 1",
     "points": null,
     "meta": {}
   },
@@ -20081,17 +20092,6 @@
     "title": "Merged pull request #2522",
     "occured_at": "2024-10-07T17:51:31.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2522",
-    "text": "Production release v24.41.0; October week 1",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2521",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2521",
-    "occured_at": "2024-10-07T17:20:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2521",
     "text": "Production release v24.41.0; October week 1",
     "points": null,
     "meta": {}
@@ -20460,6 +20460,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#2260_APPROVED_PRR_kwDODsgdF86BQxUZ",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #2260",
+    "occured_at": "2024-07-10T10:15:24.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2260#pullrequestreview-2168657177",
+    "text": "Fixed N+1 query occurrence in the /api/v1/facility/",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2204_COMMENTED_PRR_kwDODsgdF86BGFTG",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -20785,17 +20796,6 @@
     "title": "Reviewed PR #2260",
     "occured_at": "2024-06-26T17:53:08.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2260#pullrequestreview-2142589073",
-    "text": "Fixed N+1 query occurrence in the /api/v1/facility/",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#2260_APPROVED_PRR_kwDODsgdF86BQxUZ",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #2260",
-    "occured_at": "2024-07-10T10:15:24.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2260#pullrequestreview-2168657177",
     "text": "Fixed N+1 query occurrence in the /api/v1/facility/",
     "points": null,
     "meta": {}
@@ -21175,6 +21175,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2203",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2203",
+    "occured_at": "2024-05-28T15:05:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2203",
+    "text": "fix state admin access to daily rounds",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2462_APPROVED_PRR_kwDODsgdF86J_lgF",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -21534,6 +21545,17 @@
     "occured_at": "2024-06-13T07:31:15.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2247#pullrequestreview-2114946894",
     "text": "remove deprecated fields that has been migrated to new models (Diagnosis, Symptoms and Prescriptions)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#2223_CHANGES_REQUESTED_PRR_kwDODsgdF8580A_S",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #2223",
+    "occured_at": "2024-06-03T14:19:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2223#pullrequestreview-2094010322",
+    "text": "migrating feature field  to array field ",
     "points": null,
     "meta": {}
   },
@@ -21908,17 +21930,6 @@
     "occured_at": "2024-08-13T13:28:36.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2332#pullrequestreview-2235559908",
     "text": "Add option to filter users with no home facility",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#2223_CHANGES_REQUESTED_PRR_kwDODsgdF8580A_S",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #2223",
-    "occured_at": "2024-06-03T14:19:14.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2223#pullrequestreview-2094010322",
-    "text": "migrating feature field  to array field ",
     "points": null,
     "meta": {}
   },
@@ -22671,17 +22682,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#2129",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2129",
-    "occured_at": "2024-05-06T17:22:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2129",
-    "text": "Production release v24.19.0",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#2251",
     "contributor": "sainak",
     "activity_definition": "pr_opened",
@@ -23063,17 +23063,6 @@
     "occured_at": "2024-06-01T11:46:26.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2210",
     "text": "Fix discharge summary filters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2203",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2203",
-    "occured_at": "2024-05-28T15:05:55.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2203",
-    "text": "fix state admin access to daily rounds",
     "points": null,
     "meta": {}
   },
@@ -24464,6 +24453,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#2010_APPROVED_PRR_kwDODsgdF850qfY1",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #2010",
+    "occured_at": "2024-03-25T09:55:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2010#pullrequestreview-1957295669",
+    "text": "Fixes discharged patients CSV export",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1718_APPROVED_PRR_kwDODsgdF851aZiW",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -25185,17 +25185,6 @@
     "title": "Approved PR #2009",
     "occured_at": "2024-03-25T09:55:15.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2009#pullrequestreview-1957294925",
-    "text": "Fixes discharged patients CSV export",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#2010_APPROVED_PRR_kwDODsgdF850qfY1",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #2010",
-    "occured_at": "2024-03-25T09:55:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2010#pullrequestreview-1957295669",
     "text": "Fixes discharged patients CSV export",
     "points": null,
     "meta": {}
@@ -32175,6 +32164,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_teleicu_middleware#145",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #145",
+    "occured_at": "2024-10-03T11:19:29.000Z",
+    "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/145",
+    "text": "fix docker builds",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#770_APPROVED_PRR_kwDODsgdF846sTA-",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -33638,17 +33638,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_teleicu_middleware#145",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #145",
-    "occured_at": "2024-10-03T11:19:29.000Z",
-    "link": "https://github.com/ohcnetwork/teleicu_middleware/pull/145",
-    "text": "fix docker builds",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_teleicu_middleware#145",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -34573,17 +34562,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14326_COMMENTED_PRR_kwDODtfaXs7Piha7",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14326",
-    "occured_at": "2025-11-19T10:23:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14326#pullrequestreview-3481933499",
-    "text": "Script for cleaning locale files",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_data-migration_db3eff199db85369369797a9838a384e83c081b1",
     "contributor": "sainak",
     "activity_definition": "commit_created",
@@ -34613,6 +34591,105 @@
     "occured_at": "2025-11-26T21:13:06.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/7861831d49f06ee5455e6be0287f570dfca4fb25",
     "text": "minor optimization",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#12037_sainak",
+    "contributor": "sainak",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #12037 assigned",
+    "occured_at": "2025-11-27T14:44:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12037",
+    "text": "Restrict camera access to nurses",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14326_COMMENTED_PRR_kwDODtfaXs7Piha7",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14326",
+    "occured_at": "2025-11-19T10:23:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14326#pullrequestreview-3481933499",
+    "text": "Script for cleaning locale files",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_teleicu_devices#20",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #20",
+    "occured_at": "2025-11-27T14:41:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/20",
+    "text": "Implement fine-grained permissions for camera device control and viewing",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_teleicu_devices#20",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #20",
+    "occured_at": "2025-11-27T14:46:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/20",
+    "text": "Implement fine-grained permissions for camera device control and viewing",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_teleicu_devices#19",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #19",
+    "occured_at": "2025-11-07T08:54:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/19",
+    "text": "Refactor GatewayClient for improved request handling and error logging",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_teleicu_devices#19",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #19",
+    "occured_at": "2025-11-27T13:55:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/pull/19",
+    "text": "Refactor GatewayClient for improved request handling and error logging",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_84ab23dba87317fdee1e5f06d70697b9aa7c6980",
+    "contributor": "sainak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-11-27T14:46:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/commit/84ab23dba87317fdee1e5f06d70697b9aa7c6980",
+    "text": "Implement fine-grained permissions for camera device control and viewing (#20)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_sainak/refactor-requests_c5251b5299479ed68e8f1ed86f07038ce8cf13e8",
+    "contributor": "sainak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to sainak/refactor-requests",
+    "occured_at": "2025-11-27T13:54:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/commit/c5251b5299479ed68e8f1ed86f07038ce8cf13e8",
+    "text": "update timeout and config name",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_a2c2a9c49fd58d2ebcb3eaed5d4fab2a1693033d",
+    "contributor": "sainak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-11-27T13:55:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/commit/a2c2a9c49fd58d2ebcb3eaed5d4fab2a1693033d",
+    "text": "Refactor GatewayClient for improved request handling and error logging (#19)",
     "points": null,
     "meta": {}
   }

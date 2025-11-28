@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2024-11-18_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-18T10:34:43.363Z",
+    "link": null,
+    "text": "18th November<br>Done -<br>• Finalising the work on plugin, had a meeting with Rithvik and Khavin , was able to successfully separate and install the camera as a plugin.<br>Next -<br>• Will be adding signals to plugin for validations<br>• Start working on the data migration , from core app to plugin",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-04_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -253,17 +264,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-11-18_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-18T10:34:43.363Z",
-    "link": null,
-    "text": "18th November<br>Done -<br>• Finalising the work on plugin, had a meeting with Rithvik and Khavin , was able to successfully separate and install the camera as a plugin.<br>Next -<br>• Will be adding signals to plugin for validations<br>• Start working on the data migration , from core app to plugin",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-19_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -425,6 +425,17 @@
     "occured_at": "2024-12-04T17:27:08.109Z",
     "link": null,
     "text": "4th December <br><br>Done <br>• Investigated the migrations issue using the latest pg dump, and was able to run everything without any error.<br>• Worked on gh action to test PRs raised on plugin repo. Tested it a few time but was unable to get success.<br>Next - <br>• Update the migration script in camera plugin to also copy the created and modified date.<br>• Raise PR for gh action mentioned above after successful testing.<br>My work speed has decreased, and am unable to give more time bcz of college. Have practical (today), minor project submission ( 6-7) and then end sem starting from 9th. But I&#x27;ll try to get things assigned to me done and pick some minor issues for the next 2 weeks",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-28_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-27T22:34:55.993Z",
+    "link": null,
+    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
     "points": null,
     "meta": null
   },
@@ -645,17 +656,6 @@
     "occured_at": "2025-01-24T11:21:28.610Z",
     "link": null,
     "text": "21-24 Jan<br>• Updated some testcases for questionnaire to increase coverage, and got it merged.<br>• Quick fix for making date and datetime check less strict on questionnaire submit page , updated related testcases<br>• Raised PR for adding swagger support to backend, got some reviews on it so working on those and figuring out the the bugs and trying to fix them in optimal way",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-28_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-27T22:34:55.993Z",
-    "link": null,
-    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
     "points": null,
     "meta": null
   },
