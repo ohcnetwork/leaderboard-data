@@ -1,27 +1,5 @@
 [
   {
-    "slug": "pr_merged_care#2898",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2898",
-    "occured_at": "2025-03-10T10:30:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2898",
-    "text": "adding limit and some contrainsts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2882",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2882",
-    "occured_at": "2025-03-01T14:19:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2882",
-    "text": "fixed location encounter bug",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#2882",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -62,6 +40,28 @@
     "occured_at": "2025-09-15T12:19:11.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3261",
     "text": "fix test cases for slugs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2898",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2898",
+    "occured_at": "2025-03-10T10:30:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2898",
+    "text": "adding limit and some contrainsts",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2882",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2882",
+    "occured_at": "2025-03-01T14:19:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2882",
+    "text": "fixed location encounter bug",
     "points": null,
     "meta": {}
   },
@@ -5731,6 +5731,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1955",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1955",
+    "occured_at": "2024-03-07T20:15:31.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1955",
+    "text": "Converting all tuples to choice classes",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2610_COMMENTED_PRR_kwDODsgdF86SYOln",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -6134,17 +6145,6 @@
     "occured_at": "2024-03-30T08:53:25.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2034#pullrequestreview-1969868377",
     "text": "test for various endpoints in the external_result module",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1955",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1955",
-    "occured_at": "2024-03-07T20:15:31.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1955",
-    "text": "Converting all tuples to choice classes",
     "points": null,
     "meta": {}
   },
@@ -7234,6 +7234,50 @@
     "occured_at": "2025-10-31T01:31:00.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3333",
     "text": "Reports and Templates v2",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3384",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3384",
+    "occured_at": "2025-11-28T16:00:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3384",
+    "text": "fixed viewsets",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3384",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3384",
+    "occured_at": "2025-11-28T16:04:46.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3384",
+    "text": "fixed viewsets",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_2dc889d1347a02a80a19a88f8b4f8c11e0c5079b",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-11-28T16:04:46.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/2dc889d1347a02a80a19a88f8b4f8c11e0c5079b",
+    "text": "fixed viewsets (#3384)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/report-v2-extended_ec56e4a84f5ccafee078483531dce79c5e2fc68b",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/report-v2-extended",
+    "occured_at": "2025-11-28T16:02:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ec56e4a84f5ccafee078483531dce79c5e2fc68b",
+    "text": "merge migrations",
     "points": null,
     "meta": {}
   }

@@ -1,5 +1,71 @@
 [
   {
+    "slug": "issue_assigned_erd#7_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #7 assigned",
+    "occured_at": "2025-10-01T09:08:14.000Z",
+    "link": "https://github.com/ohcnetwork/erd/issues/7",
+    "text": "✨ Set up Copilot instructions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14250",
+    "occured_at": "2025-11-05T09:34:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14466",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14466",
+    "occured_at": "2025-11-21T14:31:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
+    "text": "[WIP] Remove Cypress and migrate to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #12799 assigned",
+    "occured_at": "2025-09-26T07:09:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
+    "text": "Allergy Date Picker Allows Future Dates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14216",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14216",
+    "occured_at": "2025-11-01T14:46:25.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14216",
+    "text": "Add validation error for observation definitions without interpretations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#13598",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13598",
+    "occured_at": "2025-09-03T06:57:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13598",
+    "text": "Fix breadcrumb hydration errors by removing invalid nested li elements",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14292",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -150,72 +216,6 @@
     "occured_at": "2025-11-01T13:28:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
     "text": "Add Playwright tests for Observation Definition workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_erd#7_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #7 assigned",
-    "occured_at": "2025-10-01T09:08:14.000Z",
-    "link": "https://github.com/ohcnetwork/erd/issues/7",
-    "text": "✨ Set up Copilot instructions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14250",
-    "occured_at": "2025-11-05T09:34:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14466",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14466",
-    "occured_at": "2025-11-21T14:31:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
-    "text": "[WIP] Remove Cypress and migrate to Playwright",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #12799 assigned",
-    "occured_at": "2025-09-26T07:09:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
-    "text": "Allergy Date Picker Allows Future Dates",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14216",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14216",
-    "occured_at": "2025-11-01T14:46:25.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14216",
-    "text": "Add validation error for observation definitions without interpretations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#13598",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13598",
-    "occured_at": "2025-09-03T06:57:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13598",
-    "text": "Fix breadcrumb hydration errors by removing invalid nested li elements",
     "points": null,
     "meta": {}
   },
@@ -2244,17 +2244,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14315",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14315",
-    "occured_at": "2025-11-12T19:14:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14315",
-    "text": "Fix ObservationDefinition types and add missing TBody to API endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14401",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2262,6 +2251,17 @@
     "occured_at": "2025-11-18T07:53:38.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14401",
     "text": "Add archive patient functionality to patient update page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14315",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14315",
+    "occured_at": "2025-11-12T19:14:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14315",
+    "text": "Fix ObservationDefinition types and add missing TBody to API endpoints",
     "points": null,
     "meta": {}
   },
