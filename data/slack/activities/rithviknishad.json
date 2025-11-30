@@ -209,6 +209,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-05-28_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-28T06:48:30.098Z",
+    "link": null,
+    "text": "<strong>Issues raised:</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2564\">#2564</a> (<code>createMui</code> deprecated, but had to close it, since it was already resolved as part of another PR)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2560\">#2560</a> Text field style issue where double border is present.<br><strong>PRs worked on:</strong><br>• <a href=\"http://Resolves%20deprecated%20`createMuiTheme`%20https://github.com/ohcnetwork/care_fe/pull/2565\">#2565</a> (closed before merge for the same reason of 2564).<br><strong>Issues worked on:</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2432\">#2432</a> (hints for external and internal asset.. yet to make a PR)",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-22_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -381,17 +392,6 @@
     "occured_at": "2022-09-24T06:13:46.937Z",
     "link": null,
     "text": "Nothing for today. Was not feeling well morning. Prepared and attended technical interview of <a href=\"https://galaxeye.space\">https://galaxeye.space</a>. Got shortlisted for HR round tomorrow.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-28_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-28T06:48:30.098Z",
-    "link": null,
-    "text": "<strong>Issues raised:</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2564\">#2564</a> (<code>createMui</code> deprecated, but had to close it, since it was already resolved as part of another PR)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2560\">#2560</a> Text field style issue where double border is present.<br><strong>PRs worked on:</strong><br>• <a href=\"http://Resolves%20deprecated%20`createMuiTheme`%20https://github.com/ohcnetwork/care_fe/pull/2565\">#2565</a> (closed before merge for the same reason of 2564).<br><strong>Issues worked on:</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2432\">#2432</a> (hints for external and internal asset.. yet to make a PR)",
     "points": null,
     "meta": null
   },
@@ -1628,6 +1628,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-06-09_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-06-09T00:38:25.691Z",
+    "link": null,
+    "text": "EOD 09/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Added <code>UserAutocompleteFormField</code> tailwind based component to replace MUI based <code>UserSelect</code> component. <a href=\"https://github.com/ohcnetwork/care_fe/pull/5626\">care_fe#/5626</a><br>• Changed to <code>ReactDOM.createRoot</code> from <code>ReactDOM.render</code><a href=\"https://github.com/ohcnetwork/care_fe/pull/5627\"> care_fe#5627</a> <br>• MUI hunting yielded <a href=\"https://github.com/ohcnetwork/care_fe/pull/5628\">5628</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5629\">5629</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5630\">5630</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5631\">5631</a><br>• Fixed couple of issues in the medibase in-memory search loaded from psql table.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-05-24_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1723,17 +1734,6 @@
     "occured_at": "2025-06-03T22:31:47.162Z",
     "link": null,
     "text": "<strong>june 3rd</strong><br>• fixed peer dependency issues and lockfile in care_fe<br>• fixed teleicu_gateway rejecting certain ecg wave-name options in vitals monitor<br>• reviewed prs<br>• <span class=\"s-mention s-user\">@UC8TSEGCQ</span>’s <span class=\"s-emoji\">🍕</span> treat<br><strong>next</strong><br>• new <span class=\"s-emoji\">🏍️</span> delivery<br>• reschedule appointment: select another practitioner<br>• other scheduling related issues on roadmap",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-06-09_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-06-09T00:38:25.691Z",
-    "link": null,
-    "text": "EOD 09/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Added <code>UserAutocompleteFormField</code> tailwind based component to replace MUI based <code>UserSelect</code> component. <a href=\"https://github.com/ohcnetwork/care_fe/pull/5626\">care_fe#/5626</a><br>• Changed to <code>ReactDOM.createRoot</code> from <code>ReactDOM.render</code><a href=\"https://github.com/ohcnetwork/care_fe/pull/5627\"> care_fe#5627</a> <br>• MUI hunting yielded <a href=\"https://github.com/ohcnetwork/care_fe/pull/5628\">5628</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5629\">5629</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5630\">5630</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5631\">5631</a><br>• Fixed couple of issues in the medibase in-memory search loaded from psql table.",
     "points": null,
     "meta": null
   },
@@ -2189,6 +2189,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-10-13_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-10-13T04:41:47.765Z",
+    "link": null,
+    "text": "<strong>EOD 13/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Played around django timezones and updated admission_date clean time migration to correct for timezone (with help from <span class=\"s-mention s-user\">@U02TB8XHZD1</span>)<br>• Worked on consultation: route to facility",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-30_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2284,17 +2295,6 @@
     "occured_at": "2024-12-04T17:29:19.718Z",
     "link": null,
     "text": "<strong>4th December</strong><br>Unplanned things happened… so couldn’t do much. Will catchup for this on Sat.<br>• Minor: Prettifying Appointment token card.<br>• Rooftop PV installation happened at home. So was taking care of that pretty much the entire day.<br><strong>Up Next</strong><br>• review cookiecutter template for plugins implemented by <span class=\"s-mention s-user\">@U06L50QL1AQ</span><br>• complete appointments ui and start integrating apis",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-10-13_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-10-13T04:41:47.765Z",
-    "link": null,
-    "text": "<strong>EOD 13/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Played around django timezones and updated admission_date clean time migration to correct for timezone (with help from <span class=\"s-mention s-user\">@U02TB8XHZD1</span>)<br>• Worked on consultation: route to facility",
     "points": null,
     "meta": null
   },
@@ -3212,6 +3212,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-03_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-02T20:29:58.112Z",
+    "link": null,
+    "text": "<strong>april 2nd</strong><br>• hide ongoing slots and fix practicioners avatar not being shown in public appointment booking, and fixed types <a href=\"https://github.com/ohcnetwork/care_fe/pull/11676\">#11676</a><br>• reviewed and edited couple of PRs<br><strong>next</strong><br>• fix tailwindcss v4 for teleicu plugs<br>• review and get more PRs merged/closed;<br>• react v19<br>• scheduling and appointments related fixes<br>• other teleicu plug improvements",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-16_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3274,6 +3285,28 @@
     "occured_at": "2025-01-14T17:40:57.385Z",
     "link": null,
     "text": "<strong>Jan 14th</strong><br>• Reschedule API (done twice, accidentally ran <code>git reset</code> when finalising, thinking i was in bruno api’s dir, but realised was in care be dir after running it :melting_face:) <a href=\"https://github.com/ohcnetwork/care/pull/2738\">#2738</a><br>• FE changes for the same (for users flow), and disabled selection of slots in the past <a href=\"https://github.com/ohcnetwork/care_fe/pull/9956\">#9956</a><br>• Fixed an infinite loop issue edge case with SearchByMultipleFields <a href=\"https://github.com/ohcnetwork/care_fe/pull/9970\">#9970</a><br>• Attempted switch to libphonenumber-js in FE <a href=\"https://github.com/ohcnetwork/care_fe/pull/9969\">#9969</a><br>• Cleaned up contributor’s SBOM from GH API PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/9755/commits/17b4385ce0e01d2151a0c3341dd2aa822b823325\">17b4385</a><br>• Added retries to generate-sbom-data script <a href=\"https://github.com/ohcnetwork/care_fe/pull/9972\">#9972</a><br>• Worked on tests for schedule and booking, along with improving validations.<br><strong>Next</strong><br>• Fixed FE issue reported by Nihal for palliative care release on exception button and calendar view<br>• Write more tests (<a href=\"https://github.com/ohcnetwork/care/pull/2731\">#2731</a>) and stabilize schedule &amp;amp; booking<br>• Complete wiring public org search in kerala.care landing page<br>• Progress on switching to tanstack router.<br>• Upgrade global api error handler to handle all cases better and build a util. function to catch all field errors and set it to react-hook-form’s form state.<br>• Figure out things in BE and serialize available permissions in Patient/Encounter/Questionnaire retrieves.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-09-27_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-26T19:49:33.743Z",
+    "link": null,
+    "text": "<strong>sep 26</strong><br>• fixes structured type not getting cleared when type is unstructured <a href=\"https://github.com/ohcnetwork/care_fe/pull/13859\">#13859</a><br>• debugging various things i don&#x27;t remember\n\n<strong>sep 26</strong><br>• fixes structured type not getting cleared when type is unstructured <a href=\"https://github.com/ohcnetwork/care_fe/pull/13859\">#13859</a><br>• debugging various things i don&#x27;t remember",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-10-01_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-30T21:54:09.087Z",
+    "link": null,
+    "text": "<strong>sept 29</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13874\">#13874</a> fix auto identifier config sort in patient index search and phone number auto-fill in patient registration<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13877\">#13877</a> fixes mark as complete via appointment encounter header not setting end date<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13881\">#13811</a> healthcare services: change &quot;view schedule&quot; to &quot;view appointments&quot;<br>• reviewed prs<br><strong>sept 30</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13892\">#13892</a> adds support for specifying managing organizations for healthcare services<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13897\">#13897</a> make encounter&#x27;s default date filter configurable (and a hotfix patch to production: <a href=\"https://github.com/ohcnetwork/care_fe/pull/13898\">#13898</a>)<br>• reviewed prs<br><strong>next</strong><br>• todos..\n\n<strong>sept 29</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13874\">#13874</a> fix auto identifier config sort in patient index search and phone number auto-fill in patient registration<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13877\">#13877</a> fixes mark as complete via appointment encounter header not setting end date<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13881\">#13811</a> healthcare services: change &quot;view schedule&quot; to &quot;view appointments&quot;<br>• reviewed prs<br><strong>sept 30</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13892\">#13892</a> adds support for specifying managing organizations for healthcare services<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13897\">#13897</a> make encounter&#x27;s default date filter configurable (and a hotfix patch to production: <a href=\"https://github.com/ohcnetwork/care_fe/pull/13898\">#13898</a>)<br>• reviewed prs<br><strong>next</strong><br>• todos..",
     "points": null,
     "meta": null
   },
@@ -3362,28 +3395,6 @@
     "occured_at": "2025-01-01T18:28:41.987Z",
     "link": null,
     "text": "<strong>Dec 30 &amp;amp; 31</strong><br>• Fixing bugs and refactoring things in new architecture.<br>• Minor updates to keralacare landing page<br>• Reviewed and closed PRs<br>• Fixed failing FE docker builds and other issues<br><strong>Next</strong><br>• Fix appointments slots issue<br>• Fix more issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-03_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-02T20:29:58.112Z",
-    "link": null,
-    "text": "<strong>april 2nd</strong><br>• hide ongoing slots and fix practicioners avatar not being shown in public appointment booking, and fixed types <a href=\"https://github.com/ohcnetwork/care_fe/pull/11676\">#11676</a><br>• reviewed and edited couple of PRs<br><strong>next</strong><br>• fix tailwindcss v4 for teleicu plugs<br>• review and get more PRs merged/closed;<br>• react v19<br>• scheduling and appointments related fixes<br>• other teleicu plug improvements",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-09-27_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-26T19:49:33.743Z",
-    "link": null,
-    "text": "<strong>sep 26</strong><br>• fixes structured type not getting cleared when type is unstructured <a href=\"https://github.com/ohcnetwork/care_fe/pull/13859\">#13859</a><br>• debugging various things i don&#x27;t remember\n\n<strong>sep 26</strong><br>• fixes structured type not getting cleared when type is unstructured <a href=\"https://github.com/ohcnetwork/care_fe/pull/13859\">#13859</a><br>• debugging various things i don&#x27;t remember",
     "points": null,
     "meta": null
   },
@@ -3736,6 +3747,17 @@
     "occured_at": "2025-06-04T19:38:32.121Z",
     "link": null,
     "text": "<strong>june 4th</strong><br>• went to pickup my first motorcycle <span class=\"s-emoji\">🏍️</span> <br>• added support for reassigning practitioner when rescheduling booking (<a href=\"https://github.com/ohcnetwork/care/pull/3063\">#3063</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12514\">#12514</a>)<br>• discussions w. <span class=\"s-mention s-user\">@U083HFWFESD</span> on schedule date filters related issues<br>• reviewed prs<br><strong>next</strong><br>• pharmacy related issues<br>• other scheduling related issues on roadmap",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-24_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-24T04:03:57.318Z",
+    "link": null,
+    "text": "<strong>july 24</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13069\">#13069</a>: disable send message shortcut key on touch devices due to auto capitalization making the shift key to be enabled on virtual/on-screen keyboards<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13071\">#13071</a>:<br>    ◦ support for selectively caching certain queries to local storage<br>    ◦ appointments page: move selected tags to query params instead of client state<br>    ◦ cache tag config retrieve calls to persistent storage<br>• reviewed prs<br><strong>next</strong><br>• encounter show redesigns…",
     "points": null,
     "meta": null
   },
@@ -4147,6 +4169,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-07-23_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-23T06:04:27.434Z",
+    "link": null,
+    "text": "<strong>july 22</strong><br>• <a href=\"https://github.com/ohcnetwork/care/pull/3158\">#3158</a>: allowed specifying tags when creating encounter (this worked without this pr as well, made a mistake since didn’t see it in swagger / spec., ended up learning some things about how tags mixin worked anyways…)<br>• <a href=\"https://github.com/ohcnetwork/care/pull/3159\">#3159</a>: rename reason for visit to note in token booking, allow specifying tags when rescheduling and allow updating notes via update booking API<br><strong>july 23</strong><br>• <em>slow day…</em><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13055\">#13055</a>: got frustrated with api routes deprecation every time committing, noticed others also facing same, decided to clean it up all at once, turns out yashwant already was doing that along with cleaning up types…<br>• going through encounter design changes<br>• reviewed prs<br><strong>next</strong><br>• encounter design",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-19_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -4246,28 +4279,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-07-23_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-23T06:04:27.434Z",
-    "link": null,
-    "text": "<strong>july 22</strong><br>• <a href=\"https://github.com/ohcnetwork/care/pull/3158\">#3158</a>: allowed specifying tags when creating encounter (this worked without this pr as well, made a mistake since didn’t see it in swagger / spec., ended up learning some things about how tags mixin worked anyways…)<br>• <a href=\"https://github.com/ohcnetwork/care/pull/3159\">#3159</a>: rename reason for visit to note in token booking, allow specifying tags when rescheduling and allow updating notes via update booking API<br><strong>july 23</strong><br>• <em>slow day…</em><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13055\">#13055</a>: got frustrated with api routes deprecation every time committing, noticed others also facing same, decided to clean it up all at once, turns out yashwant already was doing that along with cleaning up types…<br>• going through encounter design changes<br>• reviewed prs<br><strong>next</strong><br>• encounter design",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-24_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-24T04:03:57.318Z",
-    "link": null,
-    "text": "<strong>july 24</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13069\">#13069</a>: disable send message shortcut key on touch devices due to auto capitalization making the shift key to be enabled on virtual/on-screen keyboards<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13071\">#13071</a>:<br>    ◦ support for selectively caching certain queries to local storage<br>    ◦ appointments page: move selected tags to query params instead of client state<br>    ◦ cache tag config retrieve calls to persistent storage<br>• reviewed prs<br><strong>next</strong><br>• encounter show redesigns…",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-07-31_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -4352,17 +4363,6 @@
     "occured_at": "2025-09-26T01:07:16.214Z",
     "link": null,
     "text": "<strong>sept 25</strong><br>• removed unused files and fixed unimported lint check failing (<a href=\"https://github.com/ohcnetwork/care_fe/pull/13848\">#13848</a>)<br>• make resource category based charge item def. picker for bed charges and schedule manage charges (<a href=\"https://github.com/ohcnetwork/care_fe/pull/13847\">#13847</a>)<br>• adds support for dept. filter in booking forms practitioner selector and refactor code (<a href=\"https://github.com/ohcnetwork/care_fe/pull/13845\">#13845</a>)<br>• reviewed prs<br><strong>next</strong><br>• todos\n\n<strong>sept 25</strong><br>• removed unused files and fixed unimported lint check failing (<a href=\"https://github.com/ohcnetwork/care_fe/pull/13848\">#13848</a>)<br>• make resource category based charge item def. picker for bed charges and schedule manage charges (<a href=\"https://github.com/ohcnetwork/care_fe/pull/13847\">#13847</a>)<br>• adds support for dept. filter in booking forms practitioner selector and refactor code (<a href=\"https://github.com/ohcnetwork/care_fe/pull/13845\">#13845</a>)<br>• reviewed prs<br><strong>next</strong><br>• todos",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-01_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-30T21:54:09.087Z",
-    "link": null,
-    "text": "<strong>sept 29</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13874\">#13874</a> fix auto identifier config sort in patient index search and phone number auto-fill in patient registration<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13877\">#13877</a> fixes mark as complete via appointment encounter header not setting end date<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13881\">#13811</a> healthcare services: change &quot;view schedule&quot; to &quot;view appointments&quot;<br>• reviewed prs<br><strong>sept 30</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13892\">#13892</a> adds support for specifying managing organizations for healthcare services<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13897\">#13897</a> make encounter&#x27;s default date filter configurable (and a hotfix patch to production: <a href=\"https://github.com/ohcnetwork/care_fe/pull/13898\">#13898</a>)<br>• reviewed prs<br><strong>next</strong><br>• todos..\n\n<strong>sept 29</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13874\">#13874</a> fix auto identifier config sort in patient index search and phone number auto-fill in patient registration<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13877\">#13877</a> fixes mark as complete via appointment encounter header not setting end date<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13881\">#13811</a> healthcare services: change &quot;view schedule&quot; to &quot;view appointments&quot;<br>• reviewed prs<br><strong>sept 30</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13892\">#13892</a> adds support for specifying managing organizations for healthcare services<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13897\">#13897</a> make encounter&#x27;s default date filter configurable (and a hotfix patch to production: <a href=\"https://github.com/ohcnetwork/care_fe/pull/13898\">#13898</a>)<br>• reviewed prs<br><strong>next</strong><br>• todos..",
     "points": null,
     "meta": null
   },

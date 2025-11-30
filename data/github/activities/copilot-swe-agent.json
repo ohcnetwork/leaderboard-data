@@ -1,5 +1,71 @@
 [
   {
+    "slug": "pr_opened_care_fe#14281",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14281",
+    "occured_at": "2025-11-09T18:02:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14281",
+    "text": "Fix patient search: generalize no-results text and add regex-based input validation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14189",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14189",
+    "occured_at": "2025-11-01T00:21:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
+    "text": "Hide facility tab for non-geo organization types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_erd#8",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8",
+    "occured_at": "2025-10-03T01:35:07.000Z",
+    "link": "https://github.com/ohcnetwork/erd/pull/8",
+    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14214",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14214",
+    "occured_at": "2025-11-01T13:28:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
+    "text": "Add Playwright tests for Observation Definition workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14250",
+    "occured_at": "2025-11-12T19:44:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14229",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14229",
+    "occured_at": "2025-11-03T15:43:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14229",
+    "text": "Clarify duplicate code location in EncounterQuestion discharge logic",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14250",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -172,72 +238,6 @@
     "occured_at": "2025-11-14T17:16:05.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14355",
     "text": "[WIP] Automatically switch to test DB when running Playwright tests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14281",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14281",
-    "occured_at": "2025-11-09T18:02:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14281",
-    "text": "Fix patient search: generalize no-results text and add regex-based input validation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14189",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14189",
-    "occured_at": "2025-11-01T00:21:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
-    "text": "Hide facility tab for non-geo organization types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_erd#8",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8",
-    "occured_at": "2025-10-03T01:35:07.000Z",
-    "link": "https://github.com/ohcnetwork/erd/pull/8",
-    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14214",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14214",
-    "occured_at": "2025-11-01T13:28:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
-    "text": "Add Playwright tests for Observation Definition workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14250",
-    "occured_at": "2025-11-12T19:44:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14229",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14229",
-    "occured_at": "2025-11-03T15:43:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14229",
-    "text": "Clarify duplicate code location in EncounterQuestion discharge logic",
     "points": null,
     "meta": {}
   },

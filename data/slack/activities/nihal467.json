@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2023-07-03_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-03T07:30:13.742Z",
+    "link": null,
+    "text": "EOD 03/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>how did the day go ?<br><br>• tested all PR for this week<br>• resolved production bug <a href=\"https://github.com/ohcnetwork/care_fe/issues/5823\">#5823</a><br>• pushed a failure cypress fix : <a href=\"https://github.com/ohcnetwork/care_fe/pull/5825\">#5825</a><br>what&#x27;s next<br><br>• create consultation update cypress test<br>• revamp the testing doc based on suggestion<br>• updated testing documentation",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-08_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-08T03:41:12.318Z",
+    "link": null,
+    "text": "March 7th<br>• Replicate and filed relevant user reported issues<br>• Retested the platform to verify the staging patch&#x27;s<br>• Tested all PR marked need testing<br>Next<br>• Finish cypress test for devices",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-02-03_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -51,28 +73,6 @@
     "occured_at": "2023-05-22T07:36:19.458Z",
     "link": null,
     "text": "EOD 22/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• test PR for this week<br>• added more test documentation content in gitbook<br>• monitoring C4FT discord channel<br>What&#x27;s next<br><br>• test PR for this week<br>• follow-up on the backend<br>• work on cypress",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-03_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-03T07:30:13.742Z",
-    "link": null,
-    "text": "EOD 03/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>how did the day go ?<br><br>• tested all PR for this week<br>• resolved production bug <a href=\"https://github.com/ohcnetwork/care_fe/issues/5823\">#5823</a><br>• pushed a failure cypress fix : <a href=\"https://github.com/ohcnetwork/care_fe/pull/5825\">#5825</a><br>what&#x27;s next<br><br>• create consultation update cypress test<br>• revamp the testing doc based on suggestion<br>• updated testing documentation",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-08_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-08T03:41:12.318Z",
-    "link": null,
-    "text": "March 7th<br>• Replicate and filed relevant user reported issues<br>• Retested the platform to verify the staging patch&#x27;s<br>• Tested all PR marked need testing<br>Next<br>• Finish cypress test for devices",
     "points": null,
     "meta": null
   },
@@ -693,6 +693,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-02_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-02T04:08:28.097Z",
+    "link": null,
+    "text": "May 2nd<br>Done<br>• Meeting with cypress team to discuss on a upcoming feature<br>• Wrote a article on OHC cypress v6 step-up and pushed for review from cypress team<br>• Tested scribe Gemini-model solution<br>• Tested all PR marked need tested<br>• Tested all priority PR&#x27;s<br>Next<br>• Setup QA board and verify progress<br>• Work on assigned issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-24_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -821,17 +832,6 @@
     "occured_at": "2024-12-02T12:13:16.425Z",
     "link": null,
     "text": "<strong>2nd December</strong><br><strong>Done</strong><br>• Review and tested Open PR&#x27;s<br>• Published contributors guide for cypress<br><strong>Next</strong><br>• Work on the test coverage documentation<br>• Write a blog about cypress-parallel implementation in Github<br>• Publish Release notes SME Post",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-02_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-02T04:08:28.097Z",
-    "link": null,
-    "text": "May 2nd<br>Done<br>• Meeting with cypress team to discuss on a upcoming feature<br>• Wrote a article on OHC cypress v6 step-up and pushed for review from cypress team<br>• Tested scribe Gemini-model solution<br>• Tested all PR marked need tested<br>• Tested all priority PR&#x27;s<br>Next<br>• Setup QA board and verify progress<br>• Work on assigned issues",
     "points": null,
     "meta": null
   },
@@ -1353,6 +1353,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-04_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-04T17:49:44.509Z",
+    "link": null,
+    "text": "Nov 4<br>• Partially Drafted new testing doc<br>• Wrapped the e2e testing of v3.0.26 <br>next<br>• wrap the playwright test on facility cover image<br>• Test offline support and priority PRs<br>• Wrap up all need testing labelled PRs\n\nNov 4<br>• Partially Drafted new testing doc<br>• Wrapped the e2e testing of v3.0.26 <br>next<br>• wrap the playwright test on facility cover image<br>• Test offline support and priority PRs<br>• Wrap up all need testing labelled PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-10-25_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -1800,17 +1811,6 @@
     "occured_at": "2025-11-03T16:34:41.216Z",
     "link": null,
     "text": "Nov 3<br>• Multiple weekly calls<br>• Tested multiple priority PRs and plug<br>• Testing Odoo<br>Next<br>• work on testing doc new version<br>• e2e of CARE v3.0.26 <br>• wrap the playwright test on facility cover image<br>• Test the gsoc project on CARE offline support\n\nNov 3<br>• Multiple weekly calls<br>• Tested multiple priority PRs and plug<br>• Testing Odoo<br>Next<br>• work on testing doc new version<br>• e2e of CARE v3.0.26 <br>• wrap the playwright test on facility cover image<br>• Test the gsoc project on CARE offline support",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-04_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-04T17:49:44.509Z",
-    "link": null,
-    "text": "Nov 4<br>• Partially Drafted new testing doc<br>• Wrapped the e2e testing of v3.0.26 <br>next<br>• wrap the playwright test on facility cover image<br>• Test offline support and priority PRs<br>• Wrap up all need testing labelled PRs\n\nNov 4<br>• Partially Drafted new testing doc<br>• Wrapped the e2e testing of v3.0.26 <br>next<br>• wrap the playwright test on facility cover image<br>• Test offline support and priority PRs<br>• Wrap up all need testing labelled PRs",
     "points": null,
     "meta": null
   },

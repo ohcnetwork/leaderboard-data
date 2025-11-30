@@ -308,6 +308,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-28_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-27T22:34:55.993Z",
+    "link": null,
+    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-22_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -480,17 +491,6 @@
     "occured_at": "2024-12-04T17:27:08.109Z",
     "link": null,
     "text": "4th December <br><br>Done <br>• Investigated the migrations issue using the latest pg dump, and was able to run everything without any error.<br>• Worked on gh action to test PRs raised on plugin repo. Tested it a few time but was unable to get success.<br>Next - <br>• Update the migration script in camera plugin to also copy the created and modified date.<br>• Raise PR for gh action mentioned above after successful testing.<br>My work speed has decreased, and am unable to give more time bcz of college. Have practical (today), minor project submission ( 6-7) and then end sem starting from 9th. But I&#x27;ll try to get things assigned to me done and pick some minor issues for the next 2 weeks",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-28_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-27T22:34:55.993Z",
-    "link": null,
-    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
     "points": null,
     "meta": null
   },

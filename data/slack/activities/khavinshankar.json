@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-11-24_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-24T04:12:57.157Z",
+    "link": null,
+    "text": "Nov 21:<br>• huddle with Shivank to explain dynamic plug setup<br>• fixed toast issue in the plugs<br>• implemented scan and pay flow half way (blocked on callback issue)<br>Next<br>• complete scan and pay<br>• get started with UHI",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-30_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -297,6 +308,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-25_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-25T05:42:33.403Z",
+    "link": null,
+    "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-26_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -392,6 +414,17 @@
     "occured_at": "2024-12-08T22:46:51.344Z",
     "link": null,
     "text": "<strong>5th December</strong><br>• Reviewed <a href=\"https://github.com/ohcnetwork/care_fe/pull/9298\">Doctor notes enhancement</a> and couple other PRs<br>• Used existing Observation spec in DiagnosticReport<br>• Synced with Yaswanth on the frontend progress<br><strong>6th December</strong><br>• Added flow specific APIs (like to update status, add processing step and such)<br>• Updated read specs to return serialised data instead of uuids<br><strong>7th December</strong><br>• Had a call with Javid to help him step up abdm_fe plug <br>• Synced with Rithvik discussing ValueSet and terms and some minor random things<br>• Had another call with Javid to review a minor validation PR<br>• Debugged an issue from HCX coverage eligibility which Nihal spotted<br>• Cleaned up the labs APIs<br><strong>Next</strong><br>• Wire the labs frontend and work on the pending UI\n\n<strong>9th December</strong><br>• Synced with Yaswanth and Vinu to clarify the some minor questions on UI and progress updates<br>• Added flow status filters <br>• Started wiring labs APIs<br>• Had a quick call with Javid to discuss a dependency issue in useEffect<br><strong>Next</strong><br>• Sync with Yaswanth and Vinu again to clarify couple questions on UI<br>• Wire the APIs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-27_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-27T06:04:29.638Z",
+    "link": null,
+    "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
     "points": null,
     "meta": null
   },
@@ -517,28 +550,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-11-24_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-24T04:12:57.157Z",
-    "link": null,
-    "text": "Nov 21:<br>• huddle with Shivank to explain dynamic plug setup<br>• fixed toast issue in the plugs<br>• implemented scan and pay flow half way (blocked on callback issue)<br>Next<br>• complete scan and pay<br>• get started with UHI",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-25_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-25T05:42:33.403Z",
-    "link": null,
-    "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-11-04_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -612,17 +623,6 @@
     "occured_at": "2025-11-18T03:16:31.605Z",
     "link": null,
     "text": "Nov 17<br>• Addressed minor P1 issues (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14386\">#14386</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14383\">#14383</a>, and <a href=\"https://github.com/ohcnetwork/care_fe/pull/14379\">#14379</a>)<br>• Cleaned up <a href=\"https://github.com/10bedicu/care_abdm/pull/44\">#44</a> (ABHA number patient identifier) and merged it<br>• Synced develop and phr branches and fixed migration conflicts in phr branch<br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-27_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-27T06:04:29.638Z",
-    "link": null,
-    "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
     "points": null,
     "meta": null
   },
