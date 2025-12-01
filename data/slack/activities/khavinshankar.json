@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-03-26_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-26T15:35:35.927Z",
+    "link": null,
+    "text": "26th March<br>• Added support for creating scan and share qr code in care abdm plug<br>• Fixed couple of minor import issues in the abdm and hcx plug<br>• Reviewed several PRs including tailwind v4 migration<br>• Tried fixing sheet blinking issue in tailwind migration pr<br>• Random work helping field related things with James and Neil",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-24_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -40,6 +51,17 @@
     "occured_at": "2023-05-22T03:27:31.692Z",
     "link": null,
     "text": "EOD 22/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Had a call with Swasth team to demo HCX flow in care<br>• Fixed Cypress issues in facility_spec and resource_spec<br>  What&#x27;s next?<br>• Make a demo of M1 and M2 with recent changes<br>• Help interview hub coordinator for Meghalaya<br>• Follow up WASA certificate<br>• Continue working on fixing cypress in sidelines",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-28_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-28T04:45:25.168Z",
+    "link": null,
+    "text": "Nov 27:<br>• huddle with the team to fix abdm migration issue in ka<br>• quick huddle with Rithvik to go over automated daily rounds in middleware<br>• setup csno finder<br>• tried to build an interface between care and csno server (partially done)<br>Next:<br>• finish the csno care interface<br>• scope and test abdm M4 apis",
     "points": null,
     "meta": null
   },
@@ -183,17 +205,6 @@
     "occured_at": "2024-11-15T14:49:31.973Z",
     "link": null,
     "text": "15th November<br><strong>Done</strong><br>• Had a short call with Bodhi discussing the FHIR based models for labs<br>• Improved and cleaned up the models (added Task profile manage pathologist review)<br>• Went through each point in user story and written down the flow (currently skipped retest and billing)<br><strong>Up Next</strong><br>• Update the EMR Implementation doc on the FHIR profiles used for labs module<br>• Have a call with Vinu to get started on the UI for labs module",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-26_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-26T15:35:35.927Z",
-    "link": null,
-    "text": "26th March<br>• Added support for creating scan and share qr code in care abdm plug<br>• Fixed couple of minor import issues in the abdm and hcx plug<br>• Reviewed several PRs including tailwind v4 migration<br>• Tried fixing sheet blinking issue in tailwind migration pr<br>• Random work helping field related things with James and Neil",
     "points": null,
     "meta": null
   },
@@ -623,17 +634,6 @@
     "occured_at": "2025-11-18T03:16:31.605Z",
     "link": null,
     "text": "Nov 17<br>• Addressed minor P1 issues (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14386\">#14386</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14383\">#14383</a>, and <a href=\"https://github.com/ohcnetwork/care_fe/pull/14379\">#14379</a>)<br>• Cleaned up <a href=\"https://github.com/10bedicu/care_abdm/pull/44\">#44</a> (ABHA number patient identifier) and merged it<br>• Synced develop and phr branches and fixed migration conflicts in phr branch<br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-28_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-28T04:45:25.168Z",
-    "link": null,
-    "text": "Nov 27:<br>• huddle with the team to fix abdm migration issue in ka<br>• quick huddle with Rithvik to go over automated daily rounds in middleware<br>• setup csno finder<br>• tried to build an interface between care and csno server (partially done)<br>Next:<br>• finish the csno care interface<br>• scope and test abdm M4 apis",
     "points": null,
     "meta": null
   }
