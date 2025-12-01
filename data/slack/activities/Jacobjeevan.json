@@ -374,6 +374,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-21_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-21T06:51:59.852Z",
+    "link": null,
+    "text": "End of Last week<br>• slow end of last week as I was sick/recovering<br>Jan 20-21<br>done<br>• minor tweaks to existing PRs<br>• tweaking GovtOrganization Selector to use all use usable drop downs (adjustable at any time, rather than using trash icon behavior)<br>• reviewed contributor PRs + debugging files to pdf PR<br>• migrating shifting (though unfortunately needed to discard that since it doesn&#x27;t correspond with new table <span class=\"s-emoji\">😅</span>)<br>• opened minor BE PR to add fields for user (qualification based on FHIR practitioner spec)<br>next<br>• testing reschedule appointment public flow",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-04_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -550,6 +561,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-22_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-22T16:05:41.590Z",
+    "link": null,
+    "text": "Jan 22<br>done<br>• reviewed PRs<br>• merged PR for GovtOrganization selector + minor fix<br>• public organization filter tweaks (rendering selection on visiting page via link)<br>• edits, finished testing + merged PR for otp appointment rescheduling<br>next<br>• new issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-18_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -722,28 +744,6 @@
     "occured_at": "2025-07-06T19:24:10.055Z",
     "link": null,
     "text": "july 4<br>• review older PRs<br>• test and fix bugs in pharmacy<br>next<br>• fixing bugs in pharmacy/labs for merging<br>• review PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-21_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-21T06:51:59.852Z",
-    "link": null,
-    "text": "End of Last week<br>• slow end of last week as I was sick/recovering<br>Jan 20-21<br>done<br>• minor tweaks to existing PRs<br>• tweaking GovtOrganization Selector to use all use usable drop downs (adjustable at any time, rather than using trash icon behavior)<br>• reviewed contributor PRs + debugging files to pdf PR<br>• migrating shifting (though unfortunately needed to discard that since it doesn&#x27;t correspond with new table <span class=\"s-emoji\">😅</span>)<br>• opened minor BE PR to add fields for user (qualification based on FHIR practitioner spec)<br>next<br>• testing reschedule appointment public flow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-22_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-22T16:05:41.590Z",
-    "link": null,
-    "text": "Jan 22<br>done<br>• reviewed PRs<br>• merged PR for GovtOrganization selector + minor fix<br>• public organization filter tweaks (rendering selection on visiting page via link)<br>• edits, finished testing + merged PR for otp appointment rescheduling<br>next<br>• new issues",
     "points": null,
     "meta": null
   },
@@ -931,6 +931,17 @@
     "occured_at": "2025-03-06T18:09:27.504Z",
     "link": null,
     "text": "Mar 6<br>• patient questionnaire support<br>    ◦ merged<br>• consent FE<br>    ◦ moved to dialog flow, finished up new consent flow<br>• minor layout fixes<br>• checking alert nav for iOS<br>• reviewed many of the older prs<br>next<br>• consent FE<br>    ◦ for existing consent, I&#x27;m planning on adding some sort of gallery like chooser (currently just have a select)<br>    ◦ test the full flow<br>        ▪︎ added minio for local<br>• hopefully catch up with reviews",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-02_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-01T19:08:37.704Z",
+    "link": null,
+    "text": "april 30<br>• more report builder<br>• minor fix for encounters yesterday<br>next<br>• finish up report builder<br>    ◦ preview sidebar + sync with Prafful<br>• hopefully catch up on reviews",
     "points": null,
     "meta": null
   },
@@ -1283,17 +1294,6 @@
     "occured_at": "2025-04-29T19:21:41.004Z",
     "link": null,
     "text": "april 29<br>• huddle w/ Nihal on a few issues+fixes<br>• prod release quick fixes<br>    ◦ dept select: auto confirm for no children<br>    ◦ add filter for encounter actions<br>    ◦ add perms check for buttons in encounter overview page<br>• report builder<br>• little bit of reviewing<br>next<br>• report builder stuff<br>• catch up with reviewing hopefully",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-02_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-01T19:08:37.704Z",
-    "link": null,
-    "text": "april 30<br>• more report builder<br>• minor fix for encounters yesterday<br>next<br>• finish up report builder<br>    ◦ preview sidebar + sync with Prafful<br>• hopefully catch up on reviews",
     "points": null,
     "meta": null
   },

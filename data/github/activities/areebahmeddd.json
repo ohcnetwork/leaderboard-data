@@ -3432,17 +3432,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14470",
-    "contributor": "areebahmeddd",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14470",
-    "occured_at": "2025-11-21T18:20:42.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14470",
-    "text": "needs testing label repeated even when Tested label is present",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14469_areebahmeddd",
     "contributor": "areebahmeddd",
     "activity_definition": "issue_assigned",
@@ -3450,17 +3439,6 @@
     "occured_at": "2025-11-22T00:21:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14469",
     "text": "remove auto close pr behavior",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14470_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14470 assigned",
-    "occured_at": "2025-11-22T00:21:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14470",
-    "text": "needs testing label repeated even when Tested label is present",
     "points": null,
     "meta": {}
   },
@@ -3520,13 +3498,24 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#13925",
+    "slug": "issue_opened_care_fe#14470",
     "contributor": "areebahmeddd",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13925",
-    "occured_at": "2025-10-02T00:02:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13925",
-    "text": "update other agent instruction files",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14470",
+    "occured_at": "2025-11-21T18:20:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14470",
+    "text": "needs testing label repeated even when Tested label is present",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14470_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14470 assigned",
+    "occured_at": "2025-11-22T00:21:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14470",
+    "text": "needs testing label repeated even when Tested label is present",
     "points": null,
     "meta": {}
   },
@@ -3542,6 +3531,28 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#14370",
+    "contributor": "areebahmeddd",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14370",
+    "occured_at": "2025-12-01T11:57:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14370",
+    "text": "fix: conditionally add \"needs testing\" label based on existing labels",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#13925",
+    "contributor": "areebahmeddd",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13925",
+    "occured_at": "2025-10-02T00:02:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13925",
+    "text": "update other agent instruction files",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14369",
     "contributor": "areebahmeddd",
     "activity_definition": "pr_opened",
@@ -3549,6 +3560,28 @@
     "occured_at": "2025-11-17T01:50:44.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14369",
     "text": "refactor: improve merge checklist feedback and remove auto-close logic",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/all-dependencies-(patch)_a6a259060e17877bda176d152a58057a6f89e26e",
+    "contributor": "areebahmeddd",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/all-dependencies-(patch)",
+    "occured_at": "2025-12-01T11:57:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/a6a259060e17877bda176d152a58057a6f89e26e",
+    "text": "fix: conditionally add \"needs testing\" label based on existing labels (#14370)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_a6a259060e17877bda176d152a58057a6f89e26e",
+    "contributor": "areebahmeddd",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-12-01T11:57:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/a6a259060e17877bda176d152a58057a6f89e26e",
+    "text": "fix: conditionally add \"needs testing\" label based on existing labels (#14370)",
     "points": null,
     "meta": {}
   }

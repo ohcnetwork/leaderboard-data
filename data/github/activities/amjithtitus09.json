@@ -1815,6 +1815,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2640",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2640",
+    "occured_at": "2024-12-20T06:25:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2640",
+    "text": "Switch from localstack to minIO",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#13352",
     "contributor": "amjithtitus09",
     "activity_definition": "pr_opened",
@@ -2174,6 +2185,17 @@
     "occured_at": "2025-05-02T19:55:58.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/11910",
     "text": "Add Medications, Symptom & Diagnosis from previous encounters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#9643",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #9643",
+    "occured_at": "2025-01-03T10:59:06.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9643",
+    "text": "Prefill Searched Phone Number in Patient Creation form",
     "points": null,
     "meta": {}
   },
@@ -2904,13 +2926,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care_fe#9643",
+    "slug": "pr_opened_care#2756",
     "contributor": "amjithtitus09",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #9643",
-    "occured_at": "2025-01-03T10:59:06.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9643",
-    "text": "Prefill Searched Phone Number in Patient Creation form",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2756",
+    "occured_at": "2025-01-20T12:07:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2756",
+    "text": "Hyphen to underscore in Enums",
     "points": null,
     "meta": {}
   },
@@ -3307,28 +3329,6 @@
     "occured_at": "2025-01-31T05:57:05.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2800",
     "text": "Allergy | Add encounter filter",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2756",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2756",
-    "occured_at": "2025-01-20T12:07:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2756",
-    "text": "Hyphen to underscore in Enums",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2640",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2640",
-    "occured_at": "2024-12-20T06:25:14.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2640",
-    "text": "Switch from localstack to minIO",
     "points": null,
     "meta": {}
   },
@@ -8492,24 +8492,35 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14434_COMMENTED_PRR_kwDODtfaXs7RwUX1",
+    "slug": "issue_closed_care_fe#14470",
     "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14434",
-    "occured_at": "2025-11-28T13:57:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3519104501",
-    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14470",
+    "occured_at": "2025-12-01T11:57:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14470",
+    "text": "needs testing label repeated even when Tested label is present",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14434_CHANGES_REQUESTED_PRR_kwDODtfaXs7RwWZ4",
+    "slug": "issue_closed_care_fe#14534",
     "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14434",
-    "occured_at": "2025-11-28T13:59:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3519112824",
-    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14534",
+    "occured_at": "2025-12-01T09:51:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14534",
+    "text": "the scan in the appointments tab is breaking",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14424",
+    "contributor": "amjithtitus09",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14424",
+    "occured_at": "2025-12-01T08:10:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14424",
+    "text": "Switch encounter status to enum and simplify chain of flags",
     "points": null,
     "meta": {}
   },
@@ -8536,6 +8547,61 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14370_APPROVED_PRR_kwDODtfaXs7SFRB5",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14370",
+    "occured_at": "2025-12-01T11:54:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14370#pullrequestreview-3524595833",
+    "text": "fix: conditionally add \"needs testing\" label based on existing labels",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14558_APPROVED_PRR_kwDODtfaXs7SDfb-",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14558",
+    "occured_at": "2025-12-01T09:50:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14558#pullrequestreview-3524130558",
+    "text": "Refactor input field check in useBarcodeScanner to improve clarity",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14434_COMMENTED_PRR_kwDODtfaXs7RwUX1",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14434",
+    "occured_at": "2025-11-28T13:57:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3519104501",
+    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14434_CHANGES_REQUESTED_PRR_kwDODtfaXs7RwWZ4",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14434",
+    "occured_at": "2025-11-28T13:59:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3519112824",
+    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14434_APPROVED_PRR_kwDODtfaXs7SBgWp",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14434",
+    "occured_at": "2025-12-01T07:52:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14434#pullrequestreview-3523610025",
+    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14516_APPROVED_PRR_kwDODtfaXs7Rt9WQ",
     "contributor": "amjithtitus09",
     "activity_definition": "pr_reviewed",
@@ -8543,6 +8609,61 @@
     "occured_at": "2025-11-28T10:57:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14516#pullrequestreview-3518485904",
     "text": "Refactor dispense action in EncounterCommandDialog and update keyboard shortcuts for medication dispensing",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_da8db1fda16ac6120af246f7dd9bb6a87ae770b1",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-01T11:37:42.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/commit/da8db1fda16ac6120af246f7dd9bb6a87ae770b1",
+    "text": "x_care_id in user model",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_52ccc05e2097d5ab70980c413539195dc633acc2",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-01T11:43:34.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/commit/52ccc05e2097d5ab70980c413539195dc633acc2",
+    "text": "Merge branch 'main' of https://github.com/Visakhdc/OHC",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_visakh_care_connector_improvement_bf172b14a2ede06af99fc045d355ce9b1d17c4ed",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to visakh_care_connector_improvement",
+    "occured_at": "2025-12-01T09:52:01.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/commit/bf172b14a2ede06af99fc045d355ce9b1d17c4ed",
+    "text": "Fix user update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_bf172b14a2ede06af99fc045d355ce9b1d17c4ed",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-01T09:52:01.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/commit/bf172b14a2ede06af99fc045d355ce9b1d17c4ed",
+    "text": "Fix user update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_b2c0e5f05fc1c7d84e2966154b459e0d4034e89e",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-01T07:45:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/commit/b2c0e5f05fc1c7d84e2966154b459e0d4034e89e",
+    "text": "Multiple discounts",
     "points": null,
     "meta": {}
   }

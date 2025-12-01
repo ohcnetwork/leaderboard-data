@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-11-28_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-28T04:45:25.168Z",
+    "link": null,
+    "text": "Nov 27:<br>• huddle with the team to fix abdm migration issue in ka<br>• quick huddle with Rithvik to go over automated daily rounds in middleware<br>• setup csno finder<br>• tried to build an interface between care and csno server (partially done)<br>Next:<br>• finish the csno care interface<br>• scope and test abdm M4 apis",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-26_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -51,17 +62,6 @@
     "occured_at": "2023-05-22T03:27:31.692Z",
     "link": null,
     "text": "EOD 22/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Had a call with Swasth team to demo HCX flow in care<br>• Fixed Cypress issues in facility_spec and resource_spec<br>  What&#x27;s next?<br>• Make a demo of M1 and M2 with recent changes<br>• Help interview hub coordinator for Meghalaya<br>• Follow up WASA certificate<br>• Continue working on fixing cypress in sidelines",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-28_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-28T04:45:25.168Z",
-    "link": null,
-    "text": "Nov 27:<br>• huddle with the team to fix abdm migration issue in ka<br>• quick huddle with Rithvik to go over automated daily rounds in middleware<br>• setup csno finder<br>• tried to build an interface between care and csno server (partially done)<br>Next:<br>• finish the csno care interface<br>• scope and test abdm M4 apis",
     "points": null,
     "meta": null
   },
@@ -634,6 +634,17 @@
     "occured_at": "2025-11-18T03:16:31.605Z",
     "link": null,
     "text": "Nov 17<br>• Addressed minor P1 issues (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14386\">#14386</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14383\">#14383</a>, and <a href=\"https://github.com/ohcnetwork/care_fe/pull/14379\">#14379</a>)<br>• Cleaned up <a href=\"https://github.com/10bedicu/care_abdm/pull/44\">#44</a> (ABHA number patient identifier) and merged it<br>• Synced develop and phr branches and fixed migration conflicts in phr branch<br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-01_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-01T06:09:37.014Z",
+    "link": null,
+    "text": "Nov 28 &amp;amp; 29:<br>• Tried out HFR APIs on postman<br>• Fixed a recurrsive edge case while authentication in ABDM <a href=\"https://github.com/10bedicu/care_abdm/commit/296e550007779cbe902ef798f5f653d4bf1bb339\">296e5</a><br>• Fixed <code>tag not set</code> issue while creating 2nd consent in an encounter <a href=\"https://github.com/10bedicu/care_auto_tag/pull/1\">#1</a>",
     "points": null,
     "meta": null
   }

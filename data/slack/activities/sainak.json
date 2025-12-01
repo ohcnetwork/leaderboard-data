@@ -1,60 +1,5 @@
 [
   {
-    "slug": "eod_update_2022-05-15_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-15T02:23:04.985Z",
-    "link": null,
-    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-22_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-22T05:08:06.513Z",
-    "link": null,
-    "text": "22nd November<br>• worked on getting cypress-parallel to run on github actions<br>• added mochawesome reporter for cypress runs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-25_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-25T05:48:39.674Z",
-    "link": null,
-    "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-04_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-04T05:55:38.516Z",
-    "link": null,
-    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-02_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-02T05:51:39.413Z",
-    "link": null,
-    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2022-06-08_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -242,6 +187,72 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-07-13_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-13T08:33:23.437Z",
+    "link": null,
+    "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-15_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-15T02:23:04.985Z",
+    "link": null,
+    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-22_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-22T05:08:06.513Z",
+    "link": null,
+    "text": "22nd November<br>• worked on getting cypress-parallel to run on github actions<br>• added mochawesome reporter for cypress runs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-25_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-25T05:48:39.674Z",
+    "link": null,
+    "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-04_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-04T05:55:38.516Z",
+    "link": null,
+    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-02_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-02T05:51:39.413Z",
+    "link": null,
+    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-21_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -403,17 +414,6 @@
     "occured_at": "2023-07-11T07:44:25.447Z",
     "link": null,
     "text": "<strong>EOD 10/07/2023</strong> <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• finished working on bed type v2<br>• created tests for bed type v2<br><strong>EOD 11/07/2023</strong><br><strong>How did the day go?</strong><br>• fixed MSE authentication on middleware<br>• encountered another issue with celery workers<br>• had a deep dive of care infrastructure of production and staging deployments from mathew <br>Whats up next?<br>• add audit table for HumanResource allocation",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-13_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-13T08:33:23.437Z",
-    "link": null,
-    "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
     "points": null,
     "meta": null
   },

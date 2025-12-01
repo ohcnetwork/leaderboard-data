@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_opened_care_fe#12156",
+    "contributor": "nihal467",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #12156",
+    "occured_at": "2025-04-28T17:37:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12156",
+    "text": "Production Release v3.0.11",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_scribe_fe#11",
+    "contributor": "nihal467",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #11",
+    "occured_at": "2025-06-26T08:21:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe_fe/issues/11",
+    "text": "Bugs in scribe",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#11898",
+    "contributor": "nihal467",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #11898",
+    "occured_at": "2025-04-12T16:30:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/11898",
+    "text": "downgrade cypress",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2276",
+    "contributor": "nihal467",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2276",
+    "occured_at": "2024-06-18T16:52:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2276",
+    "text": "Production v24.25.0",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#11080",
+    "contributor": "nihal467",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #11080",
+    "occured_at": "2025-03-06T11:41:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/11080",
+    "text": "Staging Release v3.0.4",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_docs#83",
     "contributor": "nihal467",
     "activity_definition": "pr_merged",
@@ -282,61 +337,6 @@
     "occured_at": "2025-04-28T17:38:48.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12156",
     "text": "Production Release v3.0.11",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2276",
-    "contributor": "nihal467",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2276",
-    "occured_at": "2024-06-18T16:52:40.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2276",
-    "text": "Production v24.25.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#11080",
-    "contributor": "nihal467",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #11080",
-    "occured_at": "2025-03-06T11:41:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/11080",
-    "text": "Staging Release v3.0.4",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#12156",
-    "contributor": "nihal467",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #12156",
-    "occured_at": "2025-04-28T17:37:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12156",
-    "text": "Production Release v3.0.11",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_scribe_fe#11",
-    "contributor": "nihal467",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #11",
-    "occured_at": "2025-06-26T08:21:03.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe_fe/issues/11",
-    "text": "Bugs in scribe",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#11898",
-    "contributor": "nihal467",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #11898",
-    "occured_at": "2025-04-12T16:30:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/11898",
-    "text": "downgrade cypress",
     "points": null,
     "meta": {}
   },
@@ -1958,6 +1958,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#5597_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #5597 assigned",
+    "occured_at": "2023-06-04T13:00:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/5597",
+    "text": "Cypress Test : create a new consultation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#14172_nihal467",
     "contributor": "nihal467",
     "activity_definition": "issue_assigned",
@@ -2321,13 +2332,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#5597_nihal467",
+    "slug": "pr_merged_landing#81",
     "contributor": "nihal467",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #5597 assigned",
-    "occured_at": "2023-06-04T13:00:14.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/5597",
-    "text": "Cypress Test : create a new consultation",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #81",
+    "occured_at": "2025-06-30T11:06:26.000Z",
+    "link": "https://github.com/ohcnetwork/landing/pull/81",
+    "text": "Removed the filled career position",
     "points": null,
     "meta": {}
   },
@@ -6336,17 +6347,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_landing#81",
-    "contributor": "nihal467",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #81",
-    "occured_at": "2025-06-30T11:06:26.000Z",
-    "link": "https://github.com/ohcnetwork/landing/pull/81",
-    "text": "Removed the filled career position",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#11247",
     "contributor": "nihal467",
     "activity_definition": "pr_merged",
@@ -6739,6 +6739,17 @@
     "occured_at": "2025-01-09T09:09:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9846",
     "text": "Cypress Test for create a new facility in organization",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2946",
+    "contributor": "nihal467",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2946",
+    "occured_at": "2025-03-22T14:28:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2946",
+    "text": "Merge Develop to staging",
     "points": null,
     "meta": {}
   },
@@ -8288,17 +8299,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #2946",
     "occured_at": "2025-03-22T14:20:52.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2946",
-    "text": "Merge Develop to staging",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2946",
-    "contributor": "nihal467",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2946",
-    "occured_at": "2025-03-22T14:28:12.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2946",
     "text": "Merge Develop to staging",
     "points": null,
@@ -10996,6 +10996,17 @@
     "occured_at": "2025-02-20T11:56:34.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10723",
     "text": "Newly Added Patient Is Not Instantly Visible in the Patient List of patient dashboard",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#1857",
+    "contributor": "nihal467",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1857",
+    "occured_at": "2024-01-26T13:54:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1857",
+    "text": "CSP related bug",
     "points": null,
     "meta": {}
   },
@@ -15957,17 +15968,6 @@
     "occured_at": "2024-04-25T12:02:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/7704",
     "text": "Proper representation of no linked facility",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#1857",
-    "contributor": "nihal467",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1857",
-    "occured_at": "2024-01-26T13:54:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1857",
-    "text": "CSP related bug",
     "points": null,
     "meta": {}
   },
@@ -53361,6 +53361,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#9382_COMMENTED_PRR_kwDODtfaXs6WNAbp",
+    "contributor": "nihal467",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #9382",
+    "occured_at": "2024-12-23T06:55:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9382#pullrequestreview-2519992041",
+    "text": "User Profile Replacement/Removal",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10091_APPROVED_PRR_kwDODtfaXs6ZH3A9",
     "contributor": "nihal467",
     "activity_definition": "pr_reviewed",
@@ -54071,17 +54082,6 @@
     "title": "Changes requested on PR #9382",
     "occured_at": "2024-12-17T07:48:55.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9382#pullrequestreview-2508078575",
-    "text": "User Profile Replacement/Removal",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#9382_COMMENTED_PRR_kwDODtfaXs6WNAbp",
-    "contributor": "nihal467",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #9382",
-    "occured_at": "2024-12-23T06:55:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9382#pullrequestreview-2519992041",
     "text": "User Profile Replacement/Removal",
     "points": null,
     "meta": {}
@@ -64944,17 +64944,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14479_APPROVED_PRR_kwDODtfaXs7RN3gz",
-    "contributor": "nihal467",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14479",
-    "occured_at": "2025-11-26T09:45:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14479#pullrequestreview-3510073395",
-    "text": "share sonner package in federation",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14116_COMMENTED_PRR_kwDODtfaXs7P3M4m",
     "contributor": "nihal467",
     "activity_definition": "pr_reviewed",
@@ -65028,17 +65017,6 @@
     "occured_at": "2025-11-28T11:46:40.000Z",
     "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/50#issuecomment-3589019697",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14534",
-    "contributor": "nihal467",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14534",
-    "occured_at": "2025-11-28T09:47:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14534",
-    "text": "the scan in the appointments tab is breaking",
     "points": null,
     "meta": {}
   },
@@ -65164,6 +65142,50 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#14534",
+    "contributor": "nihal467",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14534",
+    "occured_at": "2025-11-28T09:47:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14534",
+    "text": "the scan in the appointments tab is breaking",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14558_IC_kwDODtfaXs7WSqyY",
+    "contributor": "nihal467",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14558",
+    "occured_at": "2025-12-01T08:21:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14558#issuecomment-3595218072",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14479_APPROVED_PRR_kwDODtfaXs7RN3gz",
+    "contributor": "nihal467",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14479",
+    "occured_at": "2025-11-26T09:45:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14479#pullrequestreview-3510073395",
+    "text": "share sonner package in federation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14558_APPROVED_PRR_kwDODtfaXs7SCBZy",
+    "contributor": "nihal467",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14558",
+    "occured_at": "2025-12-01T08:23:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14558#pullrequestreview-3523745394",
+    "text": "Refactor input field check in useBarcodeScanner to improve clarity",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14372_CHANGES_REQUESTED_PRR_kwDODtfaXs7P4yI5",
     "contributor": "nihal467",
     "activity_definition": "pr_reviewed",
@@ -65193,6 +65215,17 @@
     "occured_at": "2025-11-26T14:52:19.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14372#pullrequestreview-3511259434",
     "text": "Preventing issue of invoice when no items are selected",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_khavinshankar/fix-auto-slot-selection_38b35e0c29a356ce6756a3b6ffeffa780251efba",
+    "contributor": "nihal467",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/fix-auto-slot-selection",
+    "occured_at": "2025-12-01T09:54:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/38b35e0c29a356ce6756a3b6ffeffa780251efba",
+    "text": "Merge branch 'develop' into khavinshankar/fix-auto-slot-selection",
     "points": null,
     "meta": {}
   }
