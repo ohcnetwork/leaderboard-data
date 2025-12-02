@@ -88,6 +88,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-09_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-09T17:50:54.384Z",
+    "link": null,
+    "text": "Feb 7<br>done/current<br>• permissions galore...good luck to Nihal with testing this <span class=\"s-emoji\">🤣</span><br>next<br>• continue with permissions",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -249,6 +260,17 @@
     "occured_at": "2024-11-22T08:11:54.160Z",
     "link": null,
     "text": "22nd November<br>Done<br>• Some more tweaks for user management, based on suggestions from AI<br>    ◦ Additional tests for checking user deletion<br>    ◦ PR ready for review/testing<br>• Reviewed some contributor PRs<br>• Completed the camera preset reset bug (PR is open)<br>Next<br>• Any new issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-16_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-15T19:16:49.495Z",
+    "link": null,
+    "text": "june 13<br>• following up on priority issues<br>• debugging a questionnaire error (still on this)<br>• reviews<br>• interviews<br>next<br>• priority issues followup<br>• questionnaire error debugging<br>• interviews",
     "points": null,
     "meta": null
   },
@@ -425,6 +447,17 @@
     "occured_at": "2025-02-10T18:20:54.370Z",
     "link": null,
     "text": "Feb 10<br>• more permissions<br>    ◦ discussed with Rithvik as well, adjusted logic to pass in perms object (earlier I was passing in AuthUser object); allows us to pass in object specific perms in the future (specific encounter&#x27;s permissions, patient&#x27;s permissions etc).<br>• review + merge a few prs<br>next<br>• there&#x27;s a few PRs that need to be reviewed - planning to get to those today<br>• continue with perms",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-04-17_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-16T19:44:32.486Z",
+    "link": null,
+    "text": "april 16<br>• finished up org view (encounter) permissions + testing (pr open)<br>    ◦ added a fix for older issue<br>• reviewed prs<br>• closed older assigned issues that were not relevant/solved<br>• minor bug fix for radio btns/choice qns<br>• opened pr for location and device prs<br>next<br>• location perms BE<br>    ◦ for parts of FE, will be waiting on redesign",
     "points": null,
     "meta": null
   },
@@ -814,17 +847,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-02-09_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-09T17:50:54.384Z",
-    "link": null,
-    "text": "Feb 7<br>done/current<br>• permissions galore...good luck to Nihal with testing this <span class=\"s-emoji\">🤣</span><br>next<br>• continue with permissions",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-02-13_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1001,24 +1023,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-16_Jacobjeevan",
+    "slug": "eod_update_2025-11-25_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-06-15T19:16:49.495Z",
+    "occured_at": "2025-11-25T06:06:16.168Z",
     "link": null,
-    "text": "june 13<br>• following up on priority issues<br>• debugging a questionnaire error (still on this)<br>• reviews<br>• interviews<br>next<br>• priority issues followup<br>• questionnaire error debugging<br>• interviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-17_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-16T19:44:32.486Z",
-    "link": null,
-    "text": "april 16<br>• finished up org view (encounter) permissions + testing (pr open)<br>    ◦ added a fix for older issue<br>• reviewed prs<br>• closed older assigned issues that were not relevant/solved<br>• minor bug fix for radio btns/choice qns<br>• opened pr for location and device prs<br>next<br>• location perms BE<br>    ◦ for parts of FE, will be waiting on redesign",
+    "text": "nov 24<br>• report builder UI + testing api changes<br>next<br>• continue testing above<br>• add UI support for list, edit and download new reports",
     "points": null,
     "meta": null
   },
@@ -1558,17 +1569,6 @@
     "occured_at": "2025-11-24T07:12:40.686Z",
     "link": null,
     "text": "nov 21<br>• report builder UI<br>• reviews<br>next<br>• finish up UI/test against latest api changes",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-25_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-25T06:06:16.168Z",
-    "link": null,
-    "text": "nov 24<br>• report builder UI + testing api changes<br>next<br>• continue testing above<br>• add UI support for list, edit and download new reports",
     "points": null,
     "meta": null
   },

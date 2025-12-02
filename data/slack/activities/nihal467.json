@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-03-08_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-08T03:41:12.318Z",
+    "link": null,
+    "text": "March 7th<br>• Replicate and filed relevant user reported issues<br>• Retested the platform to verify the staging patch&#x27;s<br>• Tested all PR marked need testing<br>Next<br>• Finish cypress test for devices",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-02-03_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-03T02:57:00.592Z",
+    "link": null,
+    "text": "<strong>03 Feb 2025</strong><br>• Cleaned the project board<br>• Shipped out the SME Techtip poster<br>• Scout through all the open PR and tested them<br><strong>Next</strong><br>• Work on cypress",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-06-03_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -29,28 +51,6 @@
     "occured_at": "2023-07-03T07:30:13.742Z",
     "link": null,
     "text": "EOD 03/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>how did the day go ?<br><br>• tested all PR for this week<br>• resolved production bug <a href=\"https://github.com/ohcnetwork/care_fe/issues/5823\">#5823</a><br>• pushed a failure cypress fix : <a href=\"https://github.com/ohcnetwork/care_fe/pull/5825\">#5825</a><br>what&#x27;s next<br><br>• create consultation update cypress test<br>• revamp the testing doc based on suggestion<br>• updated testing documentation",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-08_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-08T03:41:12.318Z",
-    "link": null,
-    "text": "March 7th<br>• Replicate and filed relevant user reported issues<br>• Retested the platform to verify the staging patch&#x27;s<br>• Tested all PR marked need testing<br>Next<br>• Finish cypress test for devices",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-03_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-03T02:57:00.592Z",
-    "link": null,
-    "text": "<strong>03 Feb 2025</strong><br>• Cleaned the project board<br>• Shipped out the SME Techtip poster<br>• Scout through all the open PR and tested them<br><strong>Next</strong><br>• Work on cypress",
     "points": null,
     "meta": null
   },
@@ -374,6 +374,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-27_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-26T23:45:46.326Z",
+    "link": null,
+    "text": "June 25th - 26th<br>• Tested the need testing marked PR<br>• Pushed the test for boolean and choice group &amp;amp; solo<br>• Tested the care_scribe<br>• Shipped out the org weekly activity post<br>• Weekly Meeting with the <span class=\"s-mention s-channel\">#C092V2X7JTS</span>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-10_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -539,6 +550,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-22_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-22T07:47:58.760Z",
+    "link": null,
+    "text": "<strong>22th Jan</strong><br>• Build the careers page<br>• Designed and shipped out new internship poster in SME<br>• Tested all need testing marked PR&#x27;s<br>• Fixed cypress failure in the develop<br>Next<br>• Clear all pending works on cypress",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-05_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -667,6 +689,17 @@
     "occured_at": "2023-07-26T06:36:19.816Z",
     "link": null,
     "text": "<strong>EOD 26/07/2023  <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong><br><br><strong>How did the day go?</strong><br><br>• had a huddle with <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> to create script for  a video on our 100th release <br>• followed-up with multiple priority issues<br>• tested PR for this week<br><strong>How did the day go?</strong><br><br>• start e2e testing<br>• follow-up on priority issues<br>• follow-up on camera asset-uptime &amp;amp; Discharge summary",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-18_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-18T11:15:14.688Z",
+    "link": null,
+    "text": "<strong>18th November</strong><br><br><strong>Done</strong><br>• Tested and reviewed 21 PRs<br>• Debugged and fixed a flaky Cypress test occurring only in forked PRs<br>• Published today’s LinkedIn post<br>• Retested the production release branch after a minor bug fix<br><strong>Next</strong><br>• Test and review all 9 pending PRs.<br>• Work on the test coverage documentation.",
     "points": null,
     "meta": null
   },
@@ -803,17 +836,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-27_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-26T23:45:46.326Z",
-    "link": null,
-    "text": "June 25th - 26th<br>• Tested the need testing marked PR<br>• Pushed the test for boolean and choice group &amp;amp; solo<br>• Tested the care_scribe<br>• Shipped out the org weekly activity post<br>• Weekly Meeting with the <span class=\"s-mention s-channel\">#C092V2X7JTS</span>",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-27_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -931,17 +953,6 @@
     "occured_at": "2024-11-15T10:23:43.206Z",
     "link": null,
     "text": "<strong>15th November</strong><br><br><strong>Done</strong><br>• Schedule all LinkedIn posts through Sunday.<br>• completed the e2e testing for v24.47.0<br><strong>Next</strong><br>• Test and review all pending PRs.<br>• Work on the test coverage documentation.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-18_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-18T11:15:14.688Z",
-    "link": null,
-    "text": "<strong>18th November</strong><br><br><strong>Done</strong><br>• Tested and reviewed 21 PRs<br>• Debugged and fixed a flaky Cypress test occurring only in forked PRs<br>• Published today’s LinkedIn post<br>• Retested the production release branch after a minor bug fix<br><strong>Next</strong><br>• Test and review all 9 pending PRs.<br>• Work on the test coverage documentation.",
     "points": null,
     "meta": null
   },
@@ -1074,17 +1085,6 @@
     "occured_at": "2024-12-16T16:58:32.084Z",
     "link": null,
     "text": "<strong>15 Dec 2024</strong><br>• Refactored the entire facility creation cypress test<br>• Addressed cypress flaky test in resource tab and patient advance filters<br>• Tested the new UI redesign PR by <span class=\"s-mention s-user\">@U02TB83Q5V0</span><br>• Scout through the new workflow of CARE<br><strong>16th Dec 2024</strong><br>• Shared a SME content with <span class=\"s-mention s-user\">@U02D0NA6RHR</span> related to new UI changes<br>• huddle with <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> &amp;amp; <span class=\"s-mention s-user\">@U02TB8XHZD1</span> to debug camera feed not visible in local builds<br>• Scout through all the 60 Opened PR&#x27;s<br>• Random check of tonight release<br>• Pushed a fixed for critical care update form redirection<br>• Tested most of the review ready PR&#x27;s<br>Next<br>• Tested the new FHIR deployment<br>• Test all the review ready PR&#x27;s<br>• Scout through the need-triage issues &amp;amp; PR&#x27;s<br>• Work on the test coverage documentation",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-22_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-22T07:47:58.760Z",
-    "link": null,
-    "text": "<strong>22th Jan</strong><br>• Build the careers page<br>• Designed and shipped out new internship poster in SME<br>• Tested all need testing marked PR&#x27;s<br>• Fixed cypress failure in the develop<br>Next<br>• Clear all pending works on cypress",
     "points": null,
     "meta": null
   },

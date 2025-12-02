@@ -176,6 +176,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-15_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-14T19:23:28.474Z",
+    "link": null,
+    "text": "May 14<br>• ABDM PHR (GSoC): Call with Siva to plan this week and next week<br>• Fixed static file path issue in abdm<br>• Minor ui fix suggested by Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12251\">#12251</a><br>• Synced changes suggested in demographic auth across v3 and v2<br>• Huddle with Nihal to test abdm demographic auth<br>• Followed up with hcx team to fix coverage eligibility callback issue<br>• Added conditional check to hide demographic auth for instances without benefit id<br>• Huddle with Vinu to discuss abha number linking ui<br>Next<br>• Fix hcx fhir mapping mismatches<br>• Integrate charge items into hcx workflow<br>• Make changes to abha number linking ui suggested by Vinu",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -282,6 +293,17 @@
     "occured_at": "2025-05-21T21:20:11.416Z",
     "link": null,
     "text": "May 21<br>• recorded abdm demo for deck<br>• added diagnosis instructions in medication bill form<br>• followed up on biometric auth issue<br>• random huddles with Nihal on fixing couple of issues and cypress reviews<br>Next<br>• setup fingerprint scanner and windows machine <br>• try out the changes suggested by abdm support<br>• sync with Siva",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-21_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-21T07:28:24.666Z",
+    "link": null,
+    "text": "<strong>20th Jan</strong><br>• Fixed the prescription FHIR mapping<br>• Replaced html2canvas with html-to-image package<br><strong>21st Jan</strong><br>• Migrated symptoms table<br>• Fixed multiple errors while deploying abdm plug<br>• Fixed jittering issue due to lazy loading plugin components<br>• Started on backend tests<br><strong>Next</strong><br>• Fix scan and share feature in abdm<br>• Get abdm / labs reviewed by Vignesh<br>• Continue with be tests",
     "points": null,
     "meta": null
   },
@@ -407,17 +429,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-05-15_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-14T19:23:28.474Z",
-    "link": null,
-    "text": "May 14<br>• ABDM PHR (GSoC): Call with Siva to plan this week and next week<br>• Fixed static file path issue in abdm<br>• Minor ui fix suggested by Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12251\">#12251</a><br>• Synced changes suggested in demographic auth across v3 and v2<br>• Huddle with Nihal to test abdm demographic auth<br>• Followed up with hcx team to fix coverage eligibility callback issue<br>• Added conditional check to hide demographic auth for instances without benefit id<br>• Huddle with Vinu to discuss abha number linking ui<br>Next<br>• Fix hcx fhir mapping mismatches<br>• Integrate charge items into hcx workflow<br>• Make changes to abha number linking ui suggested by Vinu",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-12-09_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -513,17 +524,6 @@
     "occured_at": "2025-01-19T21:03:47.412Z",
     "link": null,
     "text": "Past week:<br>• Worked on suggested changes on Labs module backend<br>• Reviewed Labs frontend and followed up with Yaswanth<br>• Worked on pending refactors in ABDM micro fe (health facility configuration, showing health information, consent list in encounter tab)<br>• Worked on ABDM backend changes<br>    ◦ Refactor facility models with emr models<br>    ◦ Permissions update as per new RBAC<br>    ◦ FHIR Profile mapping (except Questionnaires)<br>    ◦ Scan and share (just create a patient, will do appointment later)<br>Next<br>• Fix issue with FHIR profile mapping (prescription and op consultation)<br>• Fix Scan and Share<br>• Look into consent manager compliance and check if we are fully complaint",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-21_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-21T07:28:24.666Z",
-    "link": null,
-    "text": "<strong>20th Jan</strong><br>• Fixed the prescription FHIR mapping<br>• Replaced html2canvas with html-to-image package<br><strong>21st Jan</strong><br>• Migrated symptoms table<br>• Fixed multiple errors while deploying abdm plug<br>• Fixed jittering issue due to lazy loading plugin components<br>• Started on backend tests<br><strong>Next</strong><br>• Fix scan and share feature in abdm<br>• Get abdm / labs reviewed by Vignesh<br>• Continue with be tests",
     "points": null,
     "meta": null
   },

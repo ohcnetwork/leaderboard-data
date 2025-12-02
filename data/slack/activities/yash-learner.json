@@ -165,6 +165,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-19_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-19T07:44:33.280Z",
+    "link": null,
+    "text": "<strong>December 17</strong><br>• Continued a little more time debugging the deployment issue of the medispeak on Coolify.<br>• Requested designs for some more pages in MFA.<br>• EOD call.<br>• Continued working on Labs FE and Debugging a default value not getting set while creating a SR.<br><strong>December 18</strong><br><br>• Continued working on Labs module, cleaning up, extracting repetitive code into components. adding more static UI items.<br>• Had a call with Khavin regarding labs module.<br>• Had a call with Anagha regarding the MFA setup designs.<br>• EOD call.<br><strong>Next</strong><br>• Work on Labs and MFA.<br>• Go through the POSH policy doc.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-20_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -374,17 +385,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-12-19_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-19T07:44:33.280Z",
-    "link": null,
-    "text": "<strong>December 17</strong><br>• Continued a little more time debugging the deployment issue of the medispeak on Coolify.<br>• Requested designs for some more pages in MFA.<br>• EOD call.<br>• Continued working on Labs FE and Debugging a default value not getting set while creating a SR.<br><strong>December 18</strong><br><br>• Continued working on Labs module, cleaning up, extracting repetitive code into components. adding more static UI items.<br>• Had a call with Khavin regarding labs module.<br>• Had a call with Anagha regarding the MFA setup designs.<br>• EOD call.<br><strong>Next</strong><br>• Work on Labs and MFA.<br>• Go through the POSH policy doc.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-12-24_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -469,6 +469,17 @@
     "occured_at": "2025-01-11T01:31:54.483Z",
     "link": null,
     "text": "<strong>January 07 - 10</strong><br>• Joined Weekly call.<br>• DPG review call<br>• Continued working on  Labs<br>    ◦ lot of refactor and rewiring and wiring things <br>    ◦ Calls with Khavin on debugging backend errors/clearing questions and made some changes.<br>    ◦ Made ServiceRequestTimeline component to support multiple active orders.<br>    ◦ Understanding lot of code and working of packages.<br>    ◦ Replacing requests/useQuery with tanstack useMutation/useQuery.<br>    ◦ Replacing and using zod and useForm.<br>    ◦ For the first time looked into Hl7 to understand condition in specimen and wired it.<br>    ◦ Sync with Khavin on new BE changes.<br><strong>Next</strong><br>Starting of next week can be slow.<br>• Understand new BE changes and update the labs FE and finish refactor.<br>• Fix merge conflicts in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9711\">PR#9711</a>.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-02-13_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-13T06:57:16.646Z",
+    "link": null,
+    "text": "<strong>Feb 12</strong><br>• Wrote code for integrating the MFA into login flow and then felt my approach is odd so asked gpt even it felt odd so asked Vignesh is the approaches correct, his response made things simpler and re-wrote it. Probably I thought in authorization way instead of just thinking it is authentication.<br>• Refactored and cleanup some of the code in MFA<br>• Glance through the pre-read doc created by Bodhi on models for sustainable governance of care and short browsing Bahmani OpenMRS demo.<br>• DPG review call.<br><strong>Next</strong><br>• Wrap-up remaining things in MFA-BE -&amp;gt; sending email, disable, re-generate-backup-codes endpoint.<br>• VTA <br>• Review PR&#x27;s.",
     "points": null,
     "meta": null
   },
@@ -572,17 +583,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-02-13_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-13T06:57:16.646Z",
-    "link": null,
-    "text": "<strong>Feb 12</strong><br>• Wrote code for integrating the MFA into login flow and then felt my approach is odd so asked gpt even it felt odd so asked Vignesh is the approaches correct, his response made things simpler and re-wrote it. Probably I thought in authorization way instead of just thinking it is authentication.<br>• Refactored and cleanup some of the code in MFA<br>• Glance through the pre-read doc created by Bodhi on models for sustainable governance of care and short browsing Bahmani OpenMRS demo.<br>• DPG review call.<br><strong>Next</strong><br>• Wrap-up remaining things in MFA-BE -&amp;gt; sending email, disable, re-generate-backup-codes endpoint.<br>• VTA <br>• Review PR&#x27;s.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-02-16_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -645,6 +645,17 @@
     "occured_at": "2025-03-16T21:23:54.982Z",
     "link": null,
     "text": "<strong>March 13</strong> <br><br><em>On leave</em> <br><br><em><strong>March 14</strong></em> <br>• Re-reviewed and tested the MFA-FE and huddles with Abhimanyu and approved, can be merged once Nihal is done with testing.<br>• Call with Suma regarding GDC Ops and updated the GDC dashboard. Updated the some dates in apply form after checking with Aravind.<br>• Replied to some GDC support emails.<br>• Glancing through some PR&#x27;s and fixing some cursor and wsl issues.<br>• Travel to Kochi<br><strong>Next</strong> <br>• Play around and figure out the way to automate the review &amp;amp; feedback for WD201/WD301 capstone projects.<br>• Review PR&#x27;s and understand some things.<br>• Engg review call.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-04-09_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-09T07:29:09.712Z",
+    "link": null,
+    "text": "<strong>April 08</strong><br>• Fixed review comments on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11779\">PR#11779</a>.<br>• Made some more changes suggested by Amjith for  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a> and fixed merge conflicts and tested it.<br>• Had a huddle with Amjith regarding multiple things.<br>• Tuesday weekly call.<br>• Quick call with Aravind regarding GDC.<br>• Quick: glance through PR&#x27;s and closed one as not planned and noticed broken page but didn&#x27;t file an issue because it just effects very less number of users and on very specific device width and we already spent enough time fixing it.<br>• Quick reply to a follow up GDC support email.<br>• Started fixing merge conflicts again on my PR.<br><strong>Next</strong><br>• Fix merge conflicts <br>• DPG review call.<br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11740\">PR#11740</a>.",
     "points": null,
     "meta": null
   },
@@ -722,17 +733,6 @@
     "occured_at": "2025-07-16T07:06:35.568Z",
     "link": null,
     "text": "<strong>July 15</strong><br>• Worked on moving the patient and encounter API routes, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12937\">PR#12937</a>.<br>• Understanding difference between search and search_retrieve endpoint in patient and some other things.<br>• Glancing over some PR&#x27;s and left a comment on one.<br>• Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/issues/12909\">issues#12909</a> and fix review comments.<br>• Sync with Amjith on GSoC.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-09_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-09T07:29:09.712Z",
-    "link": null,
-    "text": "<strong>April 08</strong><br>• Fixed review comments on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11779\">PR#11779</a>.<br>• Made some more changes suggested by Amjith for  <a href=\"https://github.com/ohcnetwork/care_fe/pull/11642\">PR#11642</a> and fixed merge conflicts and tested it.<br>• Had a huddle with Amjith regarding multiple things.<br>• Tuesday weekly call.<br>• Quick call with Aravind regarding GDC.<br>• Quick: glance through PR&#x27;s and closed one as not planned and noticed broken page but didn&#x27;t file an issue because it just effects very less number of users and on very specific device width and we already spent enough time fixing it.<br>• Quick reply to a follow up GDC support email.<br>• Started fixing merge conflicts again on my PR.<br><strong>Next</strong><br>• Fix merge conflicts <br>• DPG review call.<br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/pull/11740\">PR#11740</a>.",
     "points": null,
     "meta": null
   },
@@ -1100,6 +1100,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-16_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-15T19:28:50.567Z",
+    "link": null,
+    "text": "<strong>June 12</strong><br>• Looked into the failing background jobs for some GDC task submissions<br>    ◦ Re-ran them with a fix from Backend.<br>    ◦ Tiny update to target workflow to run one of the submission.<br>    ◦ Shared the passed and rejected students list to Aravind<br>• Couple of GDC interviews<br>• Replied to some GDC support emails<br>• Huddle with Amjith<br><strong>June 13</strong><br>• Huddles with Amjith<br>• Added the tables for <code>ToReceive</code> and <code>ToDispatch</code> in supply<br>• Replied to some GDC support emails<br>• Quick huddle and discussion with Aravind regarding interview for remaining GDC students<br><strong>Next</strong><br>• Engg review call<br>• Review some WD201 capstone submissions and reply to support emails<br>• Pick something from todo",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-23_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1162,17 +1173,6 @@
     "occured_at": "2025-06-12T04:35:54.863Z",
     "link": null,
     "text": "<strong>June 10</strong><br>• Discussions and huddles with Aravind regarding:<br>    ◦ Fixed a mistake in metabase question and made some tiny changes.<br>    ◦ Added the submission links into interview sheet prepared by Aravind.<br>    ◦ Sent a mailer prepared by Aravind to GDC task passed students.<br>• Reviewed couple of WD201 capstone submissions.<br>• Cleared couple of stuck submissions by VTA.<br>• Some quick async discussion regarding GSoC with Amjith and Vignesh.<br>• Debugged and Replied to some GDC support emails.<br>    ◦ Debugged an issue where email validation works on real browsers but not in cypress browser, the simplest thing would have been manually accepting the submission, For 2 hours used all famous <code>llm</code> models to find and solve the actual issue but none them solved, eventually need to put in my brain to find the actual issue and solved it.<br>    ◦ Debugging.<br>• Huddle with Amjith<br>• Fixed an issue reported  by Suma in a target for auto-generated feedback.<br><strong>June 11</strong><br><br><em>On leave</em><br><br>Next<br>• Noticed there are some GDC task submissions that are stuck in pending review, find the issue what caused it and re-rerun them.<br>• Interviews.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-16_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-15T19:28:50.567Z",
-    "link": null,
-    "text": "<strong>June 12</strong><br>• Looked into the failing background jobs for some GDC task submissions<br>    ◦ Re-ran them with a fix from Backend.<br>    ◦ Tiny update to target workflow to run one of the submission.<br>    ◦ Shared the passed and rejected students list to Aravind<br>• Couple of GDC interviews<br>• Replied to some GDC support emails<br>• Huddle with Amjith<br><strong>June 13</strong><br>• Huddles with Amjith<br>• Added the tables for <code>ToReceive</code> and <code>ToDispatch</code> in supply<br>• Replied to some GDC support emails<br>• Quick huddle and discussion with Aravind regarding interview for remaining GDC students<br><strong>Next</strong><br>• Engg review call<br>• Review some WD201 capstone submissions and reply to support emails<br>• Pick something from todo",
     "points": null,
     "meta": null
   },
@@ -1309,6 +1309,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-10-09_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-09T04:14:48.710Z",
+    "link": null,
+    "text": "<strong>October 8</strong><br>• Addressed Gigin&#x27;s review comment on PR#13505.<br>• Addressed Manyu&#x27;s and Nikhila&#x27;s review comments on PR#13918.<br>• Fixed some merge conflicts.<br>• DPG review call and some discussions.<br><strong>Next</strong><br>• Review PR&#x27;s and triage issues.<br>• Get my open PR&#x27;s review and tested.\n\n<strong>October 8</strong><br>• Addressed Gigin&#x27;s review comment on PR#13505.<br>• Addressed Manyu&#x27;s and Nikhila&#x27;s review comments on PR#13918.<br>• Fixed some merge conflicts.<br>• DPG review call and some discussions.<br><strong>Next</strong><br>• Review PR&#x27;s and triage issues.<br>• Get my open PR&#x27;s review and tested.<br>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-08-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1371,17 +1382,6 @@
     "occured_at": "2025-09-04T00:03:08.216Z",
     "link": null,
     "text": "<strong>Sept 3</strong> <br>• Went through the q reports of MSDF, made some changes, some questions and discussions with Suma and Aravind.<br>• DPG review call.<br>• Setup cf tunnel for my local care so that it can used by Nihal for GSoC testing.<br>• Discussion with Amjith regarding the GSoC diet flows.<br>• Some discussions with Siddanth.<br>• Quick huddle with Praff.<br>• Made P1 <a href=\"https://github.com/ohcnetwork/care_fe/pull/13607\">PR#13607</a> and fixed review comments from Jeevan and Khavin.<br><strong>Next</strong><br>• Fix some merge conflicts.<br>• Look into fixed things by Spandan from my QA and ask Nihal for test when he is available.<br>• Work on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a>.<br>• Self review and mark <a href=\"https://github.com/ohcnetwork/care_fe/pull/13568\">PR#13568</a> ready for review.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-09_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-09T04:14:48.710Z",
-    "link": null,
-    "text": "<strong>October 8</strong><br>• Addressed Gigin&#x27;s review comment on PR#13505.<br>• Addressed Manyu&#x27;s and Nikhila&#x27;s review comments on PR#13918.<br>• Fixed some merge conflicts.<br>• DPG review call and some discussions.<br><strong>Next</strong><br>• Review PR&#x27;s and triage issues.<br>• Get my open PR&#x27;s review and tested.\n\n<strong>October 8</strong><br>• Addressed Gigin&#x27;s review comment on PR#13505.<br>• Addressed Manyu&#x27;s and Nikhila&#x27;s review comments on PR#13918.<br>• Fixed some merge conflicts.<br>• DPG review call and some discussions.<br><strong>Next</strong><br>• Review PR&#x27;s and triage issues.<br>• Get my open PR&#x27;s review and tested.<br>",
     "points": null,
     "meta": null
   },
