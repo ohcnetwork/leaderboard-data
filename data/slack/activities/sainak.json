@@ -154,6 +154,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-05-15_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-15T02:23:04.985Z",
+    "link": null,
+    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-20_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -187,28 +198,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2023-07-13_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-13T08:33:23.437Z",
-    "link": null,
-    "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-15_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-15T02:23:04.985Z",
-    "link": null,
-    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-22_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -227,6 +216,17 @@
     "occured_at": "2024-11-25T05:48:39.674Z",
     "link": null,
     "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-13_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-13T08:33:23.437Z",
+    "link": null,
+    "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
     "points": null,
     "meta": null
   },

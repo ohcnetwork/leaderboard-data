@@ -9724,6 +9724,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14510",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14510",
+    "occured_at": "2025-11-25T19:43:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14510",
+    "text": "Added button to navigate queue in AppointmentEncounterHeader",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_beta_c2394d2d0e95cf56d65377146c90f84ab5d0eab6",
     "contributor": "NikhilA8606",
     "activity_definition": "commit_created",
@@ -9922,28 +9933,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14318",
-    "contributor": "NikhilA8606",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14318",
-    "occured_at": "2025-11-13T06:10:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14318",
-    "text": "Appointment should mark as fullfilled when marking an Encounter as completed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14318_NikhilA8606",
-    "contributor": "NikhilA8606",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14318 assigned",
-    "occured_at": "2025-11-13T06:10:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14318",
-    "text": "Appointment should mark as fullfilled when marking an Encounter as completed",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_renovate/bowser-2.x-lockfile_a1d820e2e728271abf145827d4e8a4527456bb6a",
     "contributor": "NikhilA8606",
     "activity_definition": "commit_created",
@@ -10021,17 +10010,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14569",
-    "contributor": "NikhilA8606",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14569",
-    "occured_at": "2025-12-01T12:14:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14569",
-    "text": "Line breaking in the badges of token list",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14520",
     "contributor": "NikhilA8606",
     "activity_definition": "issue_opened",
@@ -10050,28 +10028,6 @@
     "occured_at": "2025-11-18T16:13:04.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14424",
     "text": "Switch encounter status to enum and simplify chain of flags",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14525",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14525",
-    "occured_at": "2025-11-27T12:20:24.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14525",
-    "text": "Token display in TV",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14510",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14510",
-    "occured_at": "2025-11-25T19:43:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14510",
-    "text": "Added button to navigate queue in AppointmentEncounterHeader",
     "points": null,
     "meta": {}
   },
@@ -10116,6 +10072,83 @@
     "occured_at": "2025-11-22T13:28:04.000Z",
     "link": "https://github.com/ohcnetwork/leaderboard-github-scraper/issues/11",
     "text": "Assign 0 points for self reviewed reviews",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14318",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14318",
+    "occured_at": "2025-11-13T06:10:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14318",
+    "text": "Appointment should mark as fullfilled when marking an Encounter as completed",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14318",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14318",
+    "occured_at": "2025-12-02T10:57:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14318",
+    "text": "Appointment should mark as fullfilled when marking an Encounter as completed",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14569",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14569",
+    "occured_at": "2025-12-01T12:14:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14569",
+    "text": "Line breaking in the badges of token list",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14318_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14318 assigned",
+    "occured_at": "2025-11-13T06:10:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14318",
+    "text": "Appointment should mark as fullfilled when marking an Encounter as completed",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14525",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14525",
+    "occured_at": "2025-11-27T12:20:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14525",
+    "text": "Token display in TV",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14573_APPROVED_PRR_kwDODtfaXs7STEyE",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14573",
+    "occured_at": "2025-12-02T05:44:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14573#pullrequestreview-3528215684",
+    "text": "adds support for uploading files in drawings",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14575_APPROVED_PRR_kwDODtfaXs7SUTkp",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14575",
+    "occured_at": "2025-12-02T07:07:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14575#pullrequestreview-3528538409",
+    "text": "fix env example for otp resend timeout",
     "points": null,
     "meta": {}
   }

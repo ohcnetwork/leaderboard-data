@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care_fe#13856",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #13856",
+    "occured_at": "2025-09-30T08:59:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13856",
+    "text": "🚫 Prevent future date selection in medical questionnaire date pickers",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14306",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14306",
+    "occured_at": "2025-11-13T18:13:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14306",
+    "text": "Fix accessibility warnings for missing Description in Sheet/Drawer dialogs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14189",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14189",
+    "occured_at": "2025-11-01T00:21:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
+    "text": "Hide facility tab for non-geo organization types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #12799 assigned",
+    "occured_at": "2025-09-26T07:09:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
+    "text": "Allergy Date Picker Allows Future Dates",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_erd#8",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_merged",
@@ -139,50 +183,6 @@
     "occured_at": "2025-11-13T06:44:32.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14319",
     "text": "Revert i18n pattern changes for FilterSelect component",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#13856",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #13856",
-    "occured_at": "2025-09-30T08:59:08.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13856",
-    "text": "🚫 Prevent future date selection in medical questionnaire date pickers",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14306",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14306",
-    "occured_at": "2025-11-13T18:13:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14306",
-    "text": "Fix accessibility warnings for missing Description in Sheet/Drawer dialogs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14189",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14189",
-    "occured_at": "2025-11-01T00:21:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
-    "text": "Hide facility tab for non-geo organization types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #12799 assigned",
-    "occured_at": "2025-09-26T07:09:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
-    "text": "Allergy Date Picker Allows Future Dates",
     "points": null,
     "meta": {}
   },
@@ -2068,17 +2068,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14488",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14488",
-    "occured_at": "2025-11-24T14:30:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14488",
-    "text": "Add Playwright tests for device contact point validation, location association, and organization association",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14291_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2222,6 +2211,50 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#14586_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14586 assigned",
+    "occured_at": "2025-12-02T10:27:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14586",
+    "text": "Fix the Flakiness Test in Playwright codebase",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14577_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14577 assigned",
+    "occured_at": "2025-12-02T08:09:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14577",
+    "text": "Playwright Test: Prevent creating sub-department/team under Administration department",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14579_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14579 assigned",
+    "occured_at": "2025-12-02T08:16:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14579",
+    "text": "Playwright test : Verify Form Submission via Encounter Page & Display in Patient Overview",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14582_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14582 assigned",
+    "occured_at": "2025-12-02T08:24:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14582",
+    "text": "Playwright Test: Verify Drawing Upload Functionality in Encounter → Files Section",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#13485_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2240,6 +2273,61 @@
     "occured_at": "2025-11-09T18:02:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13006",
     "text": "Bug: Generalise the text when there is no entry for a search input in Patient earch",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14578",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14578",
+    "occured_at": "2025-12-02T08:09:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14578",
+    "text": "Add Playwright test for preventing sub-department creation under Administration departments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14587",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14587",
+    "occured_at": "2025-12-02T10:27:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14587",
+    "text": "Fix flaky Playwright tests by replacing networkidle waits",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14580",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14580",
+    "occured_at": "2025-12-02T08:16:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14580",
+    "text": "Add Playwright test for form submission from encounter to overview",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14583",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14583",
+    "occured_at": "2025-12-02T08:24:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14583",
+    "text": "Add Playwright test for encounter files drawing upload functionality",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14488",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14488",
+    "occured_at": "2025-11-24T14:30:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14488",
+    "text": "Add Playwright tests for device contact point validation, location association, and organization association",
     "points": null,
     "meta": {}
   },
