@@ -2156,6 +2156,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-12_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-12T01:25:23.040Z",
+    "link": null,
+    "text": "<strong>april 12</strong><br>• completed abdm upgrade to react 19; <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> helped w. hi-profiles upgrade.<br>• upgraded all other plugs (hcx, scribe, doctor connect) as well to react 19<br>• :heads-down: w. <span class=\"s-mention s-user\">@U022THM4U2U</span> on getting it tested (introduced him to tailscale for him to access my all plugs setup, but <em>windows being windows</em>…, that didn’t go well)<br><strong>next</strong><br>• camera stream authn.<br>• app auto updates",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-02_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2251,17 +2262,6 @@
     "occured_at": "2024-04-17T02:23:08.926Z",
     "link": null,
     "text": "EOD 17/04/2024<br><br><em>Won’t be able to attend EOD today.</em><br><br>• reused the location live monitoring feed component for consultation feed.<br>• worked on prettifying and some refinements for the slack activities bot.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-12_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-12T01:25:23.040Z",
-    "link": null,
-    "text": "<strong>april 12</strong><br>• completed abdm upgrade to react 19; <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> helped w. hi-profiles upgrade.<br>• upgraded all other plugs (hcx, scribe, doctor connect) as well to react 19<br>• :heads-down: w. <span class=\"s-mention s-user\">@U022THM4U2U</span> on getting it tested (introduced him to tailscale for him to access my all plugs setup, but <em>windows being windows</em>…, that didn’t go well)<br><strong>next</strong><br>• camera stream authn.<br>• app auto updates",
     "points": null,
     "meta": null
   },
@@ -3091,6 +3091,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-03_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-02T20:29:58.112Z",
+    "link": null,
+    "text": "<strong>april 2nd</strong><br>• hide ongoing slots and fix practicioners avatar not being shown in public appointment booking, and fixed types <a href=\"https://github.com/ohcnetwork/care_fe/pull/11676\">#11676</a><br>• reviewed and edited couple of PRs<br><strong>next</strong><br>• fix tailwindcss v4 for teleicu plugs<br>• review and get more PRs merged/closed;<br>• react v19<br>• scheduling and appointments related fixes<br>• other teleicu plug improvements",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-22_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3179,6 +3190,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-16_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-16T05:46:51.606Z",
+    "link": null,
+    "text": "<strong>Dec 16th</strong><br>• Reviewed some PRs<br>• Gracefully handle users without home facility trying to access scheduling related pieces.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/9463\">care_fe#9463</a>: Added <code>mutate</code> utility fn. for being used with tanstack’s <code>useMutation</code>  hook and other abstractions.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/93\">docs#93</a>: Docs for the same.<br><strong>Up Next</strong><br>• Complete med. req. question UI.<br>• Skip sending timezone information when communicating with BE and override tz when receiving data from BE on scheduling related functionalities.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-07_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3252,28 +3274,6 @@
     "occured_at": "2025-06-26T04:09:35.282Z",
     "link": null,
     "text": "<strong>june 26</strong><br>• encounter right sidebar overview redesign (encounter properties / actions / questionnaire selection, etc.)<br><strong>next</strong><br>• remaining things in encounter overview redesign…",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-03_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-02T20:29:58.112Z",
-    "link": null,
-    "text": "<strong>april 2nd</strong><br>• hide ongoing slots and fix practicioners avatar not being shown in public appointment booking, and fixed types <a href=\"https://github.com/ohcnetwork/care_fe/pull/11676\">#11676</a><br>• reviewed and edited couple of PRs<br><strong>next</strong><br>• fix tailwindcss v4 for teleicu plugs<br>• review and get more PRs merged/closed;<br>• react v19<br>• scheduling and appointments related fixes<br>• other teleicu plug improvements",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-16_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-16T05:46:51.606Z",
-    "link": null,
-    "text": "<strong>Dec 16th</strong><br>• Reviewed some PRs<br>• Gracefully handle users without home facility trying to access scheduling related pieces.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/9463\">care_fe#9463</a>: Added <code>mutate</code> utility fn. for being used with tanstack’s <code>useMutation</code>  hook and other abstractions.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/93\">docs#93</a>: Docs for the same.<br><strong>Up Next</strong><br>• Complete med. req. question UI.<br>• Skip sending timezone information when communicating with BE and override tz when receiving data from BE on scheduling related functionalities.",
     "points": null,
     "meta": null
   },
@@ -3850,6 +3850,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-04-08_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-08T03:46:17.263Z",
+    "link": null,
+    "text": "<strong>april 8th</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11797\">#11797</a> replace history when updating filters; upgraded raviger to beta version; debugging issue with raviger’s versioning, reported about it to raviger; <br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11798\">#11798</a> created accounts for each role and updated readme with the same<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11810\">#11810</a> ensure i18next’s translation function is always lazily invoked<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11814\">#11814</a> fixed print preview<br>• <a href=\"https://github.com/ohcnetwork/care/pull/2985\">#2985</a> debugged why duplicate users were present in available users API and fixed it, turns out happens when user is linked to multiple depts. on same facility<br>• spent some time trying to fix file preview dialog — i’m not liking this code, neither cursor does…<br>• <span class=\"s-emoji\">🎧</span>s w. <span class=\"s-mention s-user\">@U022THM4U2U</span> on things i don’t remember<br>• probably reviewed some prs as well, not sure.<br><strong>next</strong><br>• 4 more issues assigned on me to be handled;",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-27_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -4011,17 +4022,6 @@
     "occured_at": "2025-03-25T02:46:10.456Z",
     "link": null,
     "text": "<strong>march 25</strong><br>• <a href=\"https://github.com/ohcnetwork/leaderboard/commit/b85873515d1e5bbce0a4cb60387ee7b29ed44b97\">b858735</a>: fixed leaderboard scraper from failing due to trying to access contents from private repo linked to projects board.<br>• <a href=\"https://github.com/ohcnetwork/leaderboard-data/commit/c38e8f2d3559670ce3faf15b7e33048a8c0c4354\">c38e8f2</a>: Merged <span class=\"s-mention s-user\">@U06L50QL1AQ</span>’s old username activity with new username on leaderboard-data<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11547\">#11547</a>: fixed last selected govt. org. not being sent in user create form<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11553\">#11553</a>: update availability calendar to ensure tokens left matches what’s shown in the token slot selector due to an edge case if date is today.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11557\">#11557</a>: format phone number being displayed across the platform<br>• <a href=\"https://github.com/ohcnetwork/care/pull/2955\">#2955</a>: added periodic task to cleanup expired slots and skip creating slots in the past when slots for day API is called.<br><strong>next</strong><br>• switch care to tailwindcss v4<br>• progress on leaderboard v2",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-08_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-08T03:46:17.263Z",
-    "link": null,
-    "text": "<strong>april 8th</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11797\">#11797</a> replace history when updating filters; upgraded raviger to beta version; debugging issue with raviger’s versioning, reported about it to raviger; <br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11798\">#11798</a> created accounts for each role and updated readme with the same<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11810\">#11810</a> ensure i18next’s translation function is always lazily invoked<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/11814\">#11814</a> fixed print preview<br>• <a href=\"https://github.com/ohcnetwork/care/pull/2985\">#2985</a> debugged why duplicate users were present in available users API and fixed it, turns out happens when user is linked to multiple depts. on same facility<br>• spent some time trying to fix file preview dialog — i’m not liking this code, neither cursor does…<br>• <span class=\"s-emoji\">🎧</span>s w. <span class=\"s-mention s-user\">@U022THM4U2U</span> on things i don’t remember<br>• probably reviewed some prs as well, not sure.<br><strong>next</strong><br>• 4 more issues assigned on me to be handled;",
     "points": null,
     "meta": null
   },

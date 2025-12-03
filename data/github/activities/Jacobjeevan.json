@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care#2765",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2765",
+    "occured_at": "2025-01-21T10:47:46.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2765",
+    "text": "Shifting to Resource Migration",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2637",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2637",
+    "occured_at": "2024-12-06T08:22:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2637",
+    "text": "Alter Pco2, Po2 and ph fields",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3351",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3351",
+    "occured_at": "2025-11-07T12:45:36.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3351",
+    "text": "add patient tag metric",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#9974",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #9974",
+    "occured_at": "2025-01-22T14:11:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9974",
+    "text": "OTP appointment reschedule",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#11201",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -29,50 +73,6 @@
     "occured_at": "2024-10-16T12:10:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8793",
     "text": "Map preview on mobile fix",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3351",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3351",
-    "occured_at": "2025-11-07T12:45:36.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3351",
-    "text": "add patient tag metric",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#9974",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #9974",
-    "occured_at": "2025-01-22T14:11:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9974",
-    "text": "OTP appointment reschedule",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2765",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2765",
-    "occured_at": "2025-01-21T10:47:46.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2765",
-    "text": "Shifting to Resource Migration",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2637",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2637",
-    "occured_at": "2024-12-06T08:22:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2637",
-    "text": "Alter Pco2, Po2 and ph fields",
     "points": null,
     "meta": {}
   },
@@ -3179,6 +3179,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#10642",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #10642",
+    "occured_at": "2025-02-21T10:29:50.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10642",
+    "text": "Patient Tabs Fixes",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "comment_created_care_fe#9467_IC_kwDODtfaXs6Y75Ca",
     "contributor": "Jacobjeevan",
     "activity_definition": "comment_created",
@@ -4279,6 +4290,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#10352_APPROVED_PRR_kwDODtfaXs6aqf0_",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #10352",
+    "occured_at": "2025-02-05T07:27:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10352#pullrequestreview-2594831679",
+    "text": "Replace Deprecated `request`",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13024_COMMENTED_PRR_kwDODtfaXs61nnH3",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -4605,17 +4627,6 @@
     "occured_at": "2025-05-01T16:42:50.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12192",
     "text": "Encounter patient perms: only fetch patient for org level",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#10352_APPROVED_PRR_kwDODtfaXs6aqf0_",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #10352",
-    "occured_at": "2025-02-05T07:27:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10352#pullrequestreview-2594831679",
-    "text": "Replace Deprecated `request`",
     "points": null,
     "meta": {}
   },
@@ -5588,6 +5599,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#8793",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8793",
+    "occured_at": "2024-10-15T09:24:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8793",
+    "text": "Map preview on mobile fix",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9833_APPROVED_PRR_kwDODtfaXs6Xabj4",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -5903,17 +5925,6 @@
     "occured_at": "2024-11-29T11:27:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9245#pullrequestreview-2469708115",
     "text": "Add edit button to immunisation section; replaced buttons with shadcn buttons across PatientsDetail section",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8793",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8793",
-    "occured_at": "2024-10-15T09:24:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8793",
-    "text": "Map preview on mobile fix",
     "points": null,
     "meta": {}
   },
@@ -8103,6 +8114,17 @@
     "occured_at": "2025-07-18T06:05:34.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12971",
     "text": "Required indicator (*) missing for Date of Birth fields in Add Patient form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14245",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14245",
+    "occured_at": "2025-11-17T16:35:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14245",
+    "text": "Inventory redesign",
     "points": null,
     "meta": {}
   },
@@ -23507,17 +23529,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care_fe#14245",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14245",
-    "occured_at": "2025-11-17T16:35:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14245",
-    "text": "Inventory redesign",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14245_COMMENTED_PRR_kwDODtfaXs7MSdJu",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -23833,6 +23844,17 @@
     "occured_at": "2025-10-30T06:59:32.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14180#pullrequestreview-3397702914",
     "text": "Fix: Incorrect button label when admin deletes user account",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#12856",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #12856",
+    "occured_at": "2025-07-10T13:09:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12856",
+    "text": "AppointmentPage Type Fix",
     "points": null,
     "meta": {}
   },
@@ -25399,6 +25421,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#12856",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #12856",
+    "occured_at": "2025-07-10T13:11:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12856",
+    "text": "AppointmentPage Type Fix",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13238_APPROVED_PRR_kwDODtfaXs67KBcI",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -25703,17 +25736,6 @@
     "occured_at": "2025-08-22T12:29:13.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13356#pullrequestreview-3144323153",
     "text": "Fix: Misalignment of Buttons and text for mobile view in User Profile page #13020",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#12856",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #12856",
-    "occured_at": "2025-07-10T13:09:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12856",
-    "text": "AppointmentPage Type Fix",
     "points": null,
     "meta": {}
   },
@@ -26026,6 +26048,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#12851",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #12851",
+    "occured_at": "2025-07-10T11:31:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12851",
+    "text": "Update appointment filters, minor cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13007_APPROVED_PRR_kwDODtfaXs61SElr",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -26319,6 +26352,17 @@
     "occured_at": "2025-06-20T04:53:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12517#pullrequestreview-2944552485",
     "text": "FIXED: Enhance Progress Bar UI/UX for Better Visual Feedback During File Upload",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#13069_APPROVED_PRR_kwDODtfaXs615s6X",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #13069",
+    "occured_at": "2025-07-24T13:59:06.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13069#pullrequestreview-3051802263",
+    "text": "Disable send message shortcut on touch devices",
     "points": null,
     "meta": {}
   },
@@ -26924,28 +26968,6 @@
     "occured_at": "2025-07-24T17:19:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13076#pullrequestreview-3052549587",
     "text": "Update appointment to include 'note' in update API calls",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#13069_APPROVED_PRR_kwDODtfaXs615s6X",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #13069",
-    "occured_at": "2025-07-24T13:59:06.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13069#pullrequestreview-3051802263",
-    "text": "Disable send message shortcut on touch devices",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#10642",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #10642",
-    "occured_at": "2025-02-21T10:29:50.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10642",
-    "text": "Patient Tabs Fixes",
     "points": null,
     "meta": {}
   },
@@ -27885,17 +27907,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care_fe#12856",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #12856",
-    "occured_at": "2025-07-10T13:11:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12856",
-    "text": "AppointmentPage Type Fix",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#12413_COMMENTED_PRR_kwDODtfaXs6rSraO",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -28253,17 +28264,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #12851",
     "occured_at": "2025-07-10T11:22:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12851",
-    "text": "Update appointment filters, minor cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#12851",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #12851",
-    "occured_at": "2025-07-10T11:31:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12851",
     "text": "Update appointment filters, minor cleanup",
     "points": null,
@@ -31042,6 +31042,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#8781",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8781",
+    "occured_at": "2024-11-10T03:39:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8781",
+    "text": "Ventilator mode/oxygen modality data on consultation page",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#11926",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_opened",
@@ -33187,6 +33198,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2545",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2545",
+    "occured_at": "2024-10-17T12:51:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2545",
+    "text": "Asset location route: modifications for CNS",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#11136_COMMENTED_PRR_kwDODtfaXs6fVRcp",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -34408,6 +34430,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#9139",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #9139",
+    "occured_at": "2024-11-15T22:20:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
+    "text": "Respiratory support table/graph: render no data points with no mode/modality",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10546_CHANGES_REQUESTED_PRR_kwDODtfaXs6bqg6T",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -35009,6 +35042,17 @@
     "occured_at": "2025-02-03T05:21:31.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10283#pullrequestreview-2588938992",
     "text": "Add Confirmation Pop-up to Prevent Accidental Exception Deletions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2545",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2545",
+    "occured_at": "2024-10-24T15:57:23.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2545",
+    "text": "Asset location route: modifications for CNS",
     "points": null,
     "meta": {}
   },
@@ -37510,6 +37554,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#14472_IC_kwDODtfaXs7V8hLI",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14472",
+    "occured_at": "2025-11-28T13:48:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14472#issuecomment-3589411528",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9662_CHANGES_REQUESTED_PRR_kwDODtfaXs6YDBNo",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -37803,6 +37858,17 @@
     "occured_at": "2025-01-07T11:36:29.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9816#pullrequestreview-2534117040",
     "text": "Remove Manual keyboard-shortcut handle",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#9139",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #9139",
+    "occured_at": "2024-11-18T11:06:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
+    "text": "Respiratory support table/graph: render no data points with no mode/modality",
     "points": null,
     "meta": {}
   },
@@ -38764,6 +38830,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2874",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2874",
+    "occured_at": "2025-03-10T10:33:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2874",
+    "text": "Added permissions to encounter, patient and facility",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9557_COMMENTED_PRR_kwDODtfaXs6WXkR5",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -39068,17 +39145,6 @@
     "occured_at": "2024-12-05T17:06:42.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9296#pullrequestreview-2482363571",
     "text": "Add View Consultation Button",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#8781",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8781",
-    "occured_at": "2024-11-10T03:39:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8781",
-    "text": "Ventilator mode/oxygen modality data on consultation page",
     "points": null,
     "meta": {}
   },
@@ -39391,6 +39457,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2799",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2799",
+    "occured_at": "2025-01-30T21:10:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2799",
+    "text": "Resource requests: added status, cat and title filters",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9320_APPROVED_PRR_kwDODtfaXs6UpmCy",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -39688,6 +39765,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2568",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2568",
+    "occured_at": "2024-10-28T13:43:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2568",
+    "text": "Fix Immunologist doctor type Id",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9330_COMMENTED_PRR_kwDODtfaXs6UR5sm",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -39981,28 +40069,6 @@
     "occured_at": "2024-10-16T06:52:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8776#pullrequestreview-2371369821",
     "text": "Log Update: Rounding off the PCO2 values to nearest integer",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#9139",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #9139",
-    "occured_at": "2024-11-15T22:20:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
-    "text": "Respiratory support table/graph: render no data points with no mode/modality",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#9139",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #9139",
-    "occured_at": "2024-11-18T11:06:08.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9139",
-    "text": "Respiratory support table/graph: render no data points with no mode/modality",
     "points": null,
     "meta": {}
   },
@@ -40975,61 +41041,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#2874",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2874",
-    "occured_at": "2025-03-10T10:33:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2874",
-    "text": "Added permissions to encounter, patient and facility",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2799",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2799",
-    "occured_at": "2025-01-30T21:10:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2799",
-    "text": "Resource requests: added status, cat and title filters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2568",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2568",
-    "occured_at": "2024-10-28T13:43:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2568",
-    "text": "Fix Immunologist doctor type Id",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2545",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2545",
-    "occured_at": "2024-10-17T12:51:12.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2545",
-    "text": "Asset location route: modifications for CNS",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2545",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2545",
-    "occured_at": "2024-10-24T15:57:23.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2545",
-    "text": "Asset location route: modifications for CNS",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#2530",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_opened",
@@ -41646,6 +41657,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_Sudheendra_fe0ff320fcd5f8729916b4b013f16d694ca7db12",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to Sudheendra",
+    "occured_at": "2025-11-25T10:05:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/fe0ff320fcd5f8729916b4b013f16d694ca7db12",
+    "text": "AD - add support for fetching loc data",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/fix/product_knowledge_spec_b5781d805df2e8b985ea830fbcc915c93a799583",
     "contributor": "Jacobjeevan",
     "activity_definition": "commit_created",
@@ -41866,17 +41888,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#13658_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13658 assigned",
-    "occured_at": "2025-11-05T11:18:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13658",
-    "text": "Info text not properly aligned in mobile view",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#13082",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_opened",
@@ -41961,17 +41972,6 @@
     "occured_at": "2025-11-20T08:27:37.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/51388eb0470e0f9950c3b8cd9d4f213858301d01",
     "text": "Observation interpretation: Form integration/errors and styling (#13842)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_Sudheendra_fe0ff320fcd5f8729916b4b013f16d694ca7db12",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to Sudheendra",
-    "occured_at": "2025-11-25T10:05:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/fe0ff320fcd5f8729916b4b013f16d694ca7db12",
-    "text": "AD - add support for fetching loc data",
     "points": null,
     "meta": {}
   },
@@ -42218,17 +42218,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14293",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14293",
-    "occured_at": "2025-11-10T13:03:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14293",
-    "text": "workflow: update issue on project board based on PR labels",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14492_CHANGES_REQUESTED_PRR_kwDODtfaXs7Rd6L4",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -42306,17 +42295,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#14472_IC_kwDODtfaXs7V8hLI",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14472",
-    "occured_at": "2025-11-28T13:48:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14472#issuecomment-3589411528",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14524_APPROVED_PRR_kwDODtfaXs7RvV_h",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -42346,17 +42324,6 @@
     "occured_at": "2025-11-25T16:34:48.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/d44c5f77e33387e12c448e9a1def66973e9a46f6",
     "text": "Refactor charge item definition picker to use resource definition picker (#14341)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14215_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14215 assigned",
-    "occured_at": "2025-11-01T15:34:48.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14215",
-    "text": "Unable to create new observation definition with 0 interpretations; No error messages",
     "points": null,
     "meta": {}
   },
@@ -42427,6 +42394,39 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14251_COMMENTED_PRR_kwDODtfaXs7OIZn-",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14251",
+    "occured_at": "2025-11-13T08:22:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14251#pullrequestreview-3458308606",
+    "text": "Fix popover overflow on mobile for charge item price breakdown",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14181_COMMENTED_PRR_kwDODtfaXs7KhWZh",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14181",
+    "occured_at": "2025-10-30T07:15:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14181#pullrequestreview-3397740129",
+    "text": "Add error border styling to RequirementsSelector in Healthcare Service form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14279_CHANGES_REQUESTED_PRR_kwDODtfaXs7Na5j-",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14279",
+    "occured_at": "2025-11-11T05:58:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14279#pullrequestreview-3446380798",
+    "text": "fix on create encounter form to does not respect status",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#14497",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_opened",
@@ -42438,6 +42438,50 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#14586",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14586",
+    "occured_at": "2025-12-02T14:21:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14586",
+    "text": "Fix the Flakiness Test in Playwright codebase",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14293",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14293",
+    "occured_at": "2025-11-10T13:03:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14293",
+    "text": "workflow: update issue on project board based on PR labels",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14215",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14215",
+    "occured_at": "2025-12-02T12:41:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14215",
+    "text": "Unable to create new observation definition with 0 interpretations; No error messages",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14173",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14173",
+    "occured_at": "2025-12-02T12:09:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14173",
+    "text": "fix `Manage Charges` in Appointments",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#13372",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -42445,6 +42489,28 @@
     "occured_at": "2025-12-02T07:13:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13372",
     "text": "Sorting Encounters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14215_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14215 assigned",
+    "occured_at": "2025-11-01T15:34:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14215",
+    "text": "Unable to create new observation definition with 0 interpretations; No error messages",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13658_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13658 assigned",
+    "occured_at": "2025-11-05T11:18:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13658",
+    "text": "Info text not properly aligned in mobile view",
     "points": null,
     "meta": {}
   },
@@ -42493,6 +42559,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14587_APPROVED_PRR_kwDODtfaXs7SbYsm",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14587",
+    "occured_at": "2025-12-02T14:21:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14587#pullrequestreview-3530394406",
+    "text": "Fix flaky Playwright tests by replacing networkidle waits",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14183_CHANGES_REQUESTED_PRR_kwDODtfaXs7Nz17L",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -42526,6 +42603,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14183_APPROVED_PRR_kwDODtfaXs7SY7q3",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14183",
+    "occured_at": "2025-12-02T12:08:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14183#pullrequestreview-3529751223",
+    "text": "fixed manage charges",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14513",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_opened",
@@ -42537,35 +42625,46 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14251_COMMENTED_PRR_kwDODtfaXs7OIZn-",
+    "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_d44c5f77e33387e12c448e9a1def66973e9a46f6",
     "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14251",
-    "occured_at": "2025-11-13T08:22:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14251#pullrequestreview-3458308606",
-    "text": "Fix popover overflow on mobile for charge item price breakdown",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/12909/migrate-from-cr-osr-pr10-qon-apis",
+    "occured_at": "2025-11-25T16:34:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d44c5f77e33387e12c448e9a1def66973e9a46f6",
+    "text": "Refactor charge item definition picker to use resource definition picker (#14341)",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14181_COMMENTED_PRR_kwDODtfaXs7KhWZh",
+    "slug": "commit_created_fix-encounter-list-type_d44c5f77e33387e12c448e9a1def66973e9a46f6",
     "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14181",
-    "occured_at": "2025-10-30T07:15:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14181#pullrequestreview-3397740129",
-    "text": "Add error border styling to RequirementsSelector in Healthcare Service form",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix-encounter-list-type",
+    "occured_at": "2025-11-25T16:34:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d44c5f77e33387e12c448e9a1def66973e9a46f6",
+    "text": "Refactor charge item definition picker to use resource definition picker (#14341)",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14279_CHANGES_REQUESTED_PRR_kwDODtfaXs7Na5j-",
+    "slug": "commit_created_copilot/add-playwright-tests-device-management_d44c5f77e33387e12c448e9a1def66973e9a46f6",
     "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14279",
-    "occured_at": "2025-11-11T05:58:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14279#pullrequestreview-3446380798",
-    "text": "fix on create encounter form to does not respect status",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to copilot/add-playwright-tests-device-management",
+    "occured_at": "2025-11-25T16:34:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d44c5f77e33387e12c448e9a1def66973e9a46f6",
+    "text": "Refactor charge item definition picker to use resource definition picker (#14341)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_d44c5f77e33387e12c448e9a1def66973e9a46f6",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-11-25T16:34:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d44c5f77e33387e12c448e9a1def66973e9a46f6",
+    "text": "Refactor charge item definition picker to use resource definition picker (#14341)",
     "points": null,
     "meta": {}
   }

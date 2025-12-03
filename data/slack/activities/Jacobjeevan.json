@@ -473,6 +473,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-27_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-27T03:55:50.685Z",
+    "link": null,
+    "text": "December 27th<br>• Additional tweaks and bug fixes for otp flow<br>    ◦ Occasionally triggering error boundary for appointment success (it was due to formatTime being called on appointment time slot; got that fixed)<br>    ◦ WIP: Added a dialog for editing appointments (need to ping Vignesh about adding OTP BE routes for editing existing appointments)<br>    ◦ Local storage support for patient chooser to retain the choice on page reload<br>    ◦ Some minor tweaks, renaming (user -&amp;gt; patient for OTP sidebar and contexts).<br>Next<br>• Probably more work on the otp flow",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-10_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -656,17 +667,6 @@
     "occured_at": "2025-06-01T18:16:49.570Z",
     "link": null,
     "text": "may 29-30<br>• questionnaire enable when UI<br>    ◦ opened PR<br>next<br>• any billing to dos<br>• circle back on older assigned issues/PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-27_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-27T03:55:50.685Z",
-    "link": null,
-    "text": "December 27th<br>• Additional tweaks and bug fixes for otp flow<br>    ◦ Occasionally triggering error boundary for appointment success (it was due to formatTime being called on appointment time slot; got that fixed)<br>    ◦ WIP: Added a dialog for editing appointments (need to ping Vignesh about adding OTP BE routes for editing existing appointments)<br>    ◦ Local storage support for patient chooser to retain the choice on page reload<br>    ◦ Some minor tweaks, renaming (user -&amp;gt; patient for OTP sidebar and contexts).<br>Next<br>• Probably more work on the otp flow",
     "points": null,
     "meta": null
   },
