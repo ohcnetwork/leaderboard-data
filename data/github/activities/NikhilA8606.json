@@ -1,5 +1,16 @@
 [
   {
+    "slug": "issue_opened_care_fe#13196",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #13196",
+    "occured_at": "2025-08-01T09:59:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13196",
+    "text": "Show a skeleton table while Pharmacy content is loading",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#13048",
     "contributor": "NikhilA8606",
     "activity_definition": "issue_opened",
@@ -62,17 +73,6 @@
     "occured_at": "2025-11-13T15:58:03.000Z",
     "link": "https://github.com/ohcnetwork/leaderboard/pull/632",
     "text": "Leaderboard v2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#13196",
-    "contributor": "NikhilA8606",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #13196",
-    "occured_at": "2025-08-01T09:59:18.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13196",
-    "text": "Show a skeleton table while Pharmacy content is loading",
     "points": null,
     "meta": {}
   },
@@ -7865,6 +7865,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14413",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14413",
+    "occured_at": "2025-11-18T11:43:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14413",
+    "text": "Hide Power Bar for Discharged Encounters",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10364_COMMENTED_PRR_kwDODtfaXs6ah8Xn",
     "contributor": "NikhilA8606",
     "activity_definition": "pr_reviewed",
@@ -8851,17 +8862,6 @@
     "occured_at": "2025-11-19T07:36:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14428",
     "text": "Playwright test for user creation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14413",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14413",
-    "occured_at": "2025-11-18T11:43:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14413",
-    "text": "Hide Power Bar for Discharged Encounters",
     "points": null,
     "meta": {}
   },
@@ -9856,17 +9856,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14431",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14431",
-    "occured_at": "2025-11-19T10:45:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14431",
-    "text": "Playwright test for user creation",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14521",
     "contributor": "NikhilA8606",
     "activity_definition": "issue_opened",
@@ -10076,17 +10065,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14569",
-    "contributor": "NikhilA8606",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14569",
-    "occured_at": "2025-12-01T12:14:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14569",
-    "text": "Line breaking in the badges of token list",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14318",
     "contributor": "NikhilA8606",
     "activity_definition": "issue_opened",
@@ -10116,28 +10094,6 @@
     "occured_at": "2025-11-13T06:10:39.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14318",
     "text": "Appointment should mark as fullfilled when marking an Encounter as completed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14525",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14525",
-    "occured_at": "2025-11-27T12:20:24.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14525",
-    "text": "Token display in TV",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14573_APPROVED_PRR_kwDODtfaXs7STEyE",
-    "contributor": "NikhilA8606",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14573",
-    "occured_at": "2025-12-02T05:44:08.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14573#pullrequestreview-3528215684",
-    "text": "adds support for uploading files in drawings",
     "points": null,
     "meta": {}
   },
@@ -10267,6 +10223,127 @@
     "contributor": "NikhilA8606",
     "activity_definition": "commit_created",
     "title": "Pushed commit to production",
+    "occured_at": "2025-12-01T08:10:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/144bc213cfc478fb36aae6f727523df4a55604a9",
+    "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader (#14434)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14602",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14602",
+    "occured_at": "2025-12-03T11:13:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14602",
+    "text": "Support for search practitioner in Queue",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14569",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14569",
+    "occured_at": "2025-12-01T12:14:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14569",
+    "text": "Line breaking in the badges of token list",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14602_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14602 assigned",
+    "occured_at": "2025-12-03T11:13:58.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14602",
+    "text": "Support for search practitioner in Queue",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14525",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14525",
+    "occured_at": "2025-11-27T12:20:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14525",
+    "text": "Token display in TV",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14600_APPROVED_PRR_kwDODtfaXs7Sqe3j",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14600",
+    "occured_at": "2025-12-03T10:33:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14600#pullrequestreview-3534351843",
+    "text": "run project wide format",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14431",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14431",
+    "occured_at": "2025-11-19T10:45:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14431",
+    "text": "Playwright test for user creation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14573_APPROVED_PRR_kwDODtfaXs7STEyE",
+    "contributor": "NikhilA8606",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14573",
+    "occured_at": "2025-12-02T05:44:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14573#pullrequestreview-3528215684",
+    "text": "adds support for uploading files in drawings",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_Sudheendra_2e5c2e9b568d091f44c3b3247203e1b819c938e2",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to Sudheendra",
+    "occured_at": "2025-12-03T01:41:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/2e5c2e9b568d091f44c3b3247203e1b819c938e2",
+    "text": "Merge remote-tracking branch 'upstream/develop' into Sudheendra",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_Sudheendra_a2a5b503cecc54f8a94cd1f646632880c3b57de2",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to Sudheendra",
+    "occured_at": "2025-12-03T06:09:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/a2a5b503cecc54f8a94cd1f646632880c3b57de2",
+    "text": "Script for creating Department Users",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_Sudheendra_fe5a6338d69eb5c3ec12f88c02074d35a60519db",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to Sudheendra",
+    "occured_at": "2025-12-03T06:09:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/fe5a6338d69eb5c3ec12f88c02074d35a60519db",
+    "text": "Merge branch 'Sudheendra' of https://github.com/ohcnetwork/care_fe into Sudheendra",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/prettier-3.x-lockfile_144bc213cfc478fb36aae6f727523df4a55604a9",
+    "contributor": "NikhilA8606",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/prettier-3.x-lockfile",
     "occured_at": "2025-12-01T08:10:38.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/144bc213cfc478fb36aae6f727523df4a55604a9",
     "text": "Updated encounter status into enum and simplify checks for AppointmentEncounterHeader (#14434)",

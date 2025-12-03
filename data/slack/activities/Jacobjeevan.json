@@ -99,6 +99,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-25_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-25T06:38:28.697Z",
+    "link": null,
+    "text": "25th November<br>• Had a brief call with Aakash on Pharmacy (went over CEP)<br>• Minor BE change for user management as per feedback (adjusted FE accordingly)<br>• Reviewed PRs<br>Next<br>• Facility users list doesn&#x27;t match the users list (filtered by facility); i.e. it doesn&#x27;t filter the deleted users, so get that fixed.<br>• get started on pharmacy (store or inventory management)",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -271,17 +282,6 @@
     "occured_at": "2025-06-15T19:16:49.495Z",
     "link": null,
     "text": "june 13<br>• following up on priority issues<br>• debugging a questionnaire error (still on this)<br>• reviews<br>• interviews<br>next<br>• priority issues followup<br>• questionnaire error debugging<br>• interviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-25_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-25T06:38:28.697Z",
-    "link": null,
-    "text": "25th November<br>• Had a brief call with Aakash on Pharmacy (went over CEP)<br>• Minor BE change for user management as per feedback (adjusted FE accordingly)<br>• Reviewed PRs<br>Next<br>• Facility users list doesn&#x27;t match the users list (filtered by facility); i.e. it doesn&#x27;t filter the deleted users, so get that fixed.<br>• get started on pharmacy (store or inventory management)",
     "points": null,
     "meta": null
   },
@@ -473,6 +473,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-20_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-19T18:59:02.362Z",
+    "link": null,
+    "text": "june 18<br><em>half-day</em><br>• followup issues/fixes for release<br>• reviews<br>june 19<br>• purchase order UI changes <br>• reviews<br>next<br>• reviews, followup on any issues (not picking up anything major since I&#x27;m out most of next week).",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-27_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -634,6 +645,17 @@
     "occured_at": "2024-12-18T18:25:03.692Z",
     "link": null,
     "text": "December 18th<br>Done<br>• Refactored the profile removal PR (tests) based on feedback<br>• Opened draft PR for patient files<br>    ◦ Audio player presented a few issues (esp with fetching track duration). Researching online, people have used all sorts of hacks to get around to it. I tried a few and got one working, but it will has issues with specific tracks for whatever reason. So I gotta diagnose and figure that out.<br>Next<br>• Patient files<br>    ◦ FE: Diagnose the audio player issue<br>    ◦ BE: New FE designs adds file based filters; we do have file category support in BE; current options are Xray, Audio, Identity Proof and Unspecified (most of the files we have are unspecified as that&#x27;s the default option for file uploads). On the FE, options are Imaging, Lab Reports, Documents and Audio; could map images/audio based on file extensions, but then lab reports could also be images. I have to confirm with product whether this is required before modifying BE to support the options.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-26_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-26T17:41:21.423Z",
+    "link": null,
+    "text": "june 26<br>was on leave 23-25<br>• reviews<br>• incoming deliveries UI changes <br>next<br>• more billing changes",
     "points": null,
     "meta": null
   },
@@ -843,6 +865,17 @@
     "occured_at": "2025-06-02T19:05:50.656Z",
     "link": null,
     "text": "june 2<br>• reviewing PRs + gsoc<br>• questionnaire choice fix<br>next<br>• pick up any priorities<br>• circle back on older issues<br>• <span class=\"s-emoji\">🛫</span>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-30_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-29T19:04:50.125Z",
+    "link": null,
+    "text": "june 27<br>• reviews<br>• purchase order receive UI<br>next<br>• finish up purchase order receive UI",
     "points": null,
     "meta": null
   },
@@ -1397,39 +1430,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-20_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-19T18:59:02.362Z",
-    "link": null,
-    "text": "june 18<br><em>half-day</em><br>• followup issues/fixes for release<br>• reviews<br>june 19<br>• purchase order UI changes <br>• reviews<br>next<br>• reviews, followup on any issues (not picking up anything major since I&#x27;m out most of next week).",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-26T17:41:21.423Z",
-    "link": null,
-    "text": "june 26<br>was on leave 23-25<br>• reviews<br>• incoming deliveries UI changes <br>next<br>• more billing changes",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-30_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-29T19:04:50.125Z",
-    "link": null,
-    "text": "june 27<br>• reviews<br>• purchase order receive UI<br>next<br>• finish up purchase order receive UI",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-07-01_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1602,6 +1602,17 @@
     "occured_at": "2025-12-02T07:03:50.172Z",
     "link": null,
     "text": "dec 1<br>• report builder FE changes<br>next<br>• report builder FE changes",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-03_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-03T06:54:19.595Z",
+    "link": null,
+    "text": "nov 2<br>• more on report builder FE<br>    ◦ trying to debug questionnaire responses output for reports<br>next<br>• debug the above, adjust pdf preview and default html template to finish up report builder v1",
     "points": null,
     "meta": null
   }

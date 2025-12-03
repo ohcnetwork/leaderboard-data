@@ -2211,6 +2211,39 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#14582_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14582 assigned",
+    "occured_at": "2025-12-02T08:24:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14582",
+    "text": "Playwright Test: Verify Drawing Upload Functionality in Encounter → Files Section",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14579_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14579 assigned",
+    "occured_at": "2025-12-02T08:16:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14579",
+    "text": "Playwright test : Verify Form Submission via Encounter Page & Display in Patient Overview",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14577_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14577 assigned",
+    "occured_at": "2025-12-02T08:09:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14577",
+    "text": "Playwright Test: Prevent creating sub-department/team under Administration department",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#14586_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2277,35 +2310,24 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14577_copilot-swe-agent",
+    "slug": "pr_opened_care_fe#14583",
     "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14577 assigned",
-    "occured_at": "2025-12-02T08:09:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14577",
-    "text": "Playwright Test: Prevent creating sub-department/team under Administration department",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14583",
+    "occured_at": "2025-12-02T08:24:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14583",
+    "text": "Add Playwright test for encounter files drawing upload functionality",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14579_copilot-swe-agent",
+    "slug": "pr_opened_care_fe#14488",
     "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14579 assigned",
-    "occured_at": "2025-12-02T08:16:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14579",
-    "text": "Playwright test : Verify Form Submission via Encounter Page & Display in Patient Overview",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14582_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14582 assigned",
-    "occured_at": "2025-12-02T08:24:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14582",
-    "text": "Playwright Test: Verify Drawing Upload Functionality in Encounter → Files Section",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14488",
+    "occured_at": "2025-11-24T14:30:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14488",
+    "text": "Add Playwright tests for device contact point validation, location association, and organization association",
     "points": null,
     "meta": {}
   },
@@ -2321,6 +2343,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#14580",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14580",
+    "occured_at": "2025-12-03T11:55:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14580",
+    "text": "Add Playwright test for form submission from encounter to overview",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14578",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2328,6 +2361,17 @@
     "occured_at": "2025-12-02T08:09:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14578",
     "text": "Add Playwright test for preventing sub-department creation under Administration departments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14578",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14578",
+    "occured_at": "2025-12-03T10:24:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14578",
+    "text": "Add Playwright tests for preventing sub-department and sub-team creation under Administration departments",
     "points": null,
     "meta": {}
   },
@@ -2372,28 +2416,6 @@
     "occured_at": "2025-12-02T14:21:45.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14587",
     "text": "Fix flaky Playwright tests by replacing networkidle waits",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14488",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14488",
-    "occured_at": "2025-11-24T14:30:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14488",
-    "text": "Add Playwright tests for device contact point validation, location association, and organization association",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14583",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14583",
-    "occured_at": "2025-12-02T08:24:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14583",
-    "text": "Add Playwright test for encounter files drawing upload functionality",
     "points": null,
     "meta": {}
   }
