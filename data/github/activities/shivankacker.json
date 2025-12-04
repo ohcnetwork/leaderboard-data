@@ -1,27 +1,5 @@
 [
   {
-    "slug": "pr_merged_care_fe#8638",
-    "contributor": "shivankacker",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8638",
-    "occured_at": "2024-09-27T07:19:46.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8638",
-    "text": "Fixed fileupload name bug",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_scribe#3",
-    "contributor": "shivankacker",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3",
-    "occured_at": "2025-05-14T09:56:58.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe/pull/3",
-    "text": "Statistics",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#9266",
     "contributor": "shivankacker",
     "activity_definition": "issue_opened",
@@ -40,6 +18,28 @@
     "occured_at": "2022-08-23T10:57:57.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/3464",
     "text": "Refactored Hemodynamics",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#8638",
+    "contributor": "shivankacker",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8638",
+    "occured_at": "2024-09-27T07:19:46.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8638",
+    "text": "Fixed fileupload name bug",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_scribe#3",
+    "contributor": "shivankacker",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3",
+    "occured_at": "2025-05-14T09:56:58.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe/pull/3",
+    "text": "Statistics",
     "points": null,
     "meta": {}
   },
@@ -5115,6 +5115,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_scribe#11",
+    "contributor": "shivankacker",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #11",
+    "occured_at": "2025-07-28T06:58:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe/pull/11",
+    "text": "Rework + Caching",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2006_COMMENTED_PRR_kwDODsgdF8505FTo",
     "contributor": "shivankacker",
     "activity_definition": "pr_reviewed",
@@ -5511,17 +5522,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_scribe#11",
-    "contributor": "shivankacker",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #11",
-    "occured_at": "2025-07-28T06:58:17.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe/pull/11",
-    "text": "Rework + Caching",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_ayushma_fe#191",
     "contributor": "shivankacker",
     "activity_definition": "issue_opened",
@@ -5870,6 +5870,17 @@
     "occured_at": "2025-11-10T12:26:47.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/6e7acdf6cf1c0f9f02a62f649100b79fae935d08",
     "text": "Added make commands to switch to test db during playwright tests (#3326)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#2521_shivankacker",
+    "contributor": "shivankacker",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #2521 assigned",
+    "occured_at": "2022-05-25T14:54:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/2521",
+    "text": "Change Corona Care title to CARE",
     "points": null,
     "meta": {}
   },
@@ -6655,6 +6666,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_ayushma_fe#2",
+    "contributor": "shivankacker",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #2",
+    "occured_at": "2023-05-16T13:10:50.000Z",
+    "link": "https://github.com/ohcnetwork/ayushma_fe/issues/2",
+    "text": "Setup a new admin layout",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#2330",
     "contributor": "shivankacker",
     "activity_definition": "issue_opened",
@@ -7381,13 +7403,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#2521_shivankacker",
+    "slug": "pr_merged_care_scribe#7",
     "contributor": "shivankacker",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #2521 assigned",
-    "occured_at": "2022-05-25T14:54:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/2521",
-    "text": "Change Corona Care title to CARE",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7",
+    "occured_at": "2025-06-25T12:23:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe/pull/7",
+    "text": "Optimizations",
     "points": null,
     "meta": {}
   },
@@ -7762,17 +7784,6 @@
     "occured_at": "2023-01-03T12:39:39.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/4379",
     "text": "Asset detail page is not properly responsive",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_ayushma_fe#2",
-    "contributor": "shivankacker",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #2",
-    "occured_at": "2023-05-16T13:10:50.000Z",
-    "link": "https://github.com/ohcnetwork/ayushma_fe/issues/2",
-    "text": "Setup a new admin layout",
     "points": null,
     "meta": {}
   },
@@ -8543,17 +8554,6 @@
     "occured_at": "2022-05-14T15:24:00.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2352",
     "text": "Add 404 Error Page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_scribe#7",
-    "contributor": "shivankacker",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7",
-    "occured_at": "2025-06-25T12:23:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe/pull/7",
-    "text": "Optimizations",
     "points": null,
     "meta": {}
   },
@@ -9658,6 +9658,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#8729",
+    "contributor": "shivankacker",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8729",
+    "occured_at": "2024-10-16T13:05:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8729",
+    "text": "Added listing of Hub Facilities in Facility Home",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#9268_CHANGES_REQUESTED_PRR_kwDODtfaXs6TiJYM",
     "contributor": "shivankacker",
     "activity_definition": "pr_reviewed",
@@ -10336,17 +10347,6 @@
     "occured_at": "2024-10-14T10:37:59.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8782",
     "text": "Updated UI for facility cards and avatar component",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#8729",
-    "contributor": "shivankacker",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8729",
-    "occured_at": "2024-10-16T13:05:14.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8729",
-    "text": "Added listing of Hub Facilities in Facility Home",
     "points": null,
     "meta": {}
   },
@@ -11055,6 +11055,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#7975",
+    "contributor": "shivankacker",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7975",
+    "occured_at": "2024-07-09T17:22:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7975",
+    "text": "Updated ABHA popup UI",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#8337_APPROVED_PRR_kwDODtfaXs6Fzbm-",
     "contributor": "shivankacker",
     "activity_definition": "pr_reviewed",
@@ -11423,17 +11434,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #7975",
     "occured_at": "2024-06-05T03:51:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7975",
-    "text": "Updated ABHA popup UI",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#7975",
-    "contributor": "shivankacker",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7975",
-    "occured_at": "2024-07-09T17:22:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7975",
     "text": "Updated ABHA popup UI",
     "points": null,
@@ -13332,6 +13332,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_scribe_fe#2_IC_kwDOOdx9q86rmvTt",
+    "contributor": "shivankacker",
+    "activity_definition": "comment_created",
+    "title": "Commented on #2",
+    "occured_at": "2025-05-14T07:35:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/2#issuecomment-2879059181",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#2757_APPROVED_PRR_kwDODtfaXs48SN5e",
     "contributor": "shivankacker",
     "activity_definition": "pr_reviewed",
@@ -13680,17 +13691,6 @@
     "occured_at": "2022-06-17T04:57:40.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2638",
     "text": "Removed App.css and index.scss, moved css imports to index.css",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_scribe_fe#2_IC_kwDOOdx9q86rmvTt",
-    "contributor": "shivankacker",
-    "activity_definition": "comment_created",
-    "title": "Commented on #2",
-    "occured_at": "2025-05-14T07:35:48.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/2#issuecomment-2879059181",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -14065,6 +14065,17 @@
     "occured_at": "2025-11-06T12:14:35.000Z",
     "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/35",
     "text": "Cleanups, Processing History, Token Breakdown, structured question updates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_landing#21_IC_kwDOMIJVr86dF9cW",
+    "contributor": "shivankacker",
+    "activity_definition": "comment_created",
+    "title": "Commented on #21",
+    "occured_at": "2025-02-05T02:50:30.000Z",
+    "link": "https://github.com/ohcnetwork/landing/pull/21#issuecomment-2635585302",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -15565,6 +15576,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_landing#51_IC_kwDOMIJVr86dF9Un",
+    "contributor": "shivankacker",
+    "activity_definition": "comment_created",
+    "title": "Commented on #51",
+    "occured_at": "2025-02-05T02:49:56.000Z",
+    "link": "https://github.com/ohcnetwork/landing/pull/51#issuecomment-2635584807",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/dispense_order_6e7acdf6cf1c0f9f02a62f649100b79fae935d08",
     "contributor": "shivankacker",
     "activity_definition": "commit_created",
@@ -15890,28 +15912,6 @@
     "title": "Commented on #42",
     "occured_at": "2025-02-15T17:41:24.000Z",
     "link": "https://github.com/ohcnetwork/landing/issues/42#issuecomment-2661020009",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_landing#21_IC_kwDOMIJVr86dF9cW",
-    "contributor": "shivankacker",
-    "activity_definition": "comment_created",
-    "title": "Commented on #21",
-    "occured_at": "2025-02-05T02:50:30.000Z",
-    "link": "https://github.com/ohcnetwork/landing/pull/21#issuecomment-2635585302",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_landing#51_IC_kwDOMIJVr86dF9Un",
-    "contributor": "shivankacker",
-    "activity_definition": "comment_created",
-    "title": "Commented on #51",
-    "occured_at": "2025-02-05T02:49:56.000Z",
-    "link": "https://github.com/ohcnetwork/landing/pull/51#issuecomment-2635584807",
     "text": null,
     "points": null,
     "meta": {}
@@ -16298,6 +16298,17 @@
     "occured_at": "2025-02-21T17:45:17.000Z",
     "link": "https://github.com/ohcnetwork/landing/pull/60#pullrequestreview-2633810499",
     "text": "Convert all JSX components to TSX ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_ayushma_fe#162",
+    "contributor": "shivankacker",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #162",
+    "occured_at": "2024-01-16T14:14:13.000Z",
+    "link": "https://github.com/ohcnetwork/ayushma_fe/issues/162",
+    "text": "Fix Thumbs Up/Down popup design ",
     "points": null,
     "meta": {}
   },
@@ -17024,17 +17035,6 @@
     "occured_at": "2024-01-18T22:41:18.000Z",
     "link": "https://github.com/ohcnetwork/ayushma_fe/issues/168",
     "text": "Stop audio playback (if being played) when switched to a different chat",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_ayushma_fe#162",
-    "contributor": "shivankacker",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #162",
-    "occured_at": "2024-01-16T14:14:13.000Z",
-    "link": "https://github.com/ohcnetwork/ayushma_fe/issues/162",
-    "text": "Fix Thumbs Up/Down popup design ",
     "points": null,
     "meta": {}
   },

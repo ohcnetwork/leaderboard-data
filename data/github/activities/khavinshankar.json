@@ -1,12 +1,12 @@
 [
   {
-    "slug": "pr_merged_life-data#6",
+    "slug": "issue_closed_care_fe#4580",
     "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #6",
-    "occured_at": "2021-05-06T05:13:33.000Z",
-    "link": "https://github.com/ohcnetwork/life-data/pull/6",
-    "text": "added cors support",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #4580",
+    "occured_at": "2023-01-14T07:09:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/4580",
+    "text": "Form Fields are cogested",
     "points": null,
     "meta": {}
   },
@@ -33,13 +33,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_care_fe#4580",
+    "slug": "pr_merged_life-data#6",
     "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #4580",
-    "occured_at": "2023-01-14T07:09:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/4580",
-    "text": "Form Fields are cogested",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #6",
+    "occured_at": "2021-05-06T05:13:33.000Z",
+    "link": "https://github.com/ohcnetwork/life-data/pull/6",
+    "text": "added cors support",
     "points": null,
     "meta": {}
   },
@@ -76835,13 +76835,46 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14598",
+    "slug": "issue_assigned_care_fe#14236_khavinshankar",
     "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14598",
-    "occured_at": "2025-12-03T07:48:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14598",
-    "text": "Issue with patient identifier required validation",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14236 assigned",
+    "occured_at": "2025-11-04T13:02:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14236",
+    "text": "Encounter not refreshed after adding a consent",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_khavinshankar/reduce-facility-cache-expiry_73630a9f14e8da4016cca87b824efb497d9b376a",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/reduce-facility-cache-expiry",
+    "occured_at": "2025-12-03T11:18:50.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/73630a9f14e8da4016cca87b824efb497d9b376a",
+    "text": "invalidate facility cache when patient identifiers are created and updated",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishorr/fix/patient/identifier_validation_241ae520a90f1f8f679a1beb85cba8b7646b670d",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishorr/fix/patient/identifier_validation",
+    "occured_at": "2025-12-03T08:12:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/241ae520a90f1f8f679a1beb85cba8b7646b670d",
+    "text": "Fixed required patient identifier validation in patient specs (#3393)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_241ae520a90f1f8f679a1beb85cba8b7646b670d",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-12-03T08:12:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/241ae520a90f1f8f679a1beb85cba8b7646b670d",
+    "text": "Fixed required patient identifier validation in patient specs (#3393)",
     "points": null,
     "meta": {}
   },
@@ -76857,13 +76890,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14236_khavinshankar",
+    "slug": "issue_opened_care_fe#14598",
     "contributor": "khavinshankar",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14236 assigned",
-    "occured_at": "2025-11-04T13:02:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14236",
-    "text": "Encounter not refreshed after adding a consent",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14598",
+    "occured_at": "2025-12-03T07:48:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14598",
+    "text": "Issue with patient identifier required validation",
     "points": null,
     "meta": {}
   },
@@ -76890,13 +76923,24 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_khavinshankar/reduce-facility-cache-expiry_73630a9f14e8da4016cca87b824efb497d9b376a",
+    "slug": "commit_created_renovate/hookform-resolvers-5.x-lockfile_011b37625e67f7b4c8b200e771a5387d3b5a2982",
     "contributor": "khavinshankar",
     "activity_definition": "commit_created",
-    "title": "Pushed commit to khavinshankar/reduce-facility-cache-expiry",
-    "occured_at": "2025-12-03T11:18:50.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/73630a9f14e8da4016cca87b824efb497d9b376a",
-    "text": "invalidate facility cache when patient identifiers are created and updated",
+    "title": "Pushed commit to renovate/hookform-resolvers-5.x-lockfile",
+    "occured_at": "2025-11-18T17:14:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/011b37625e67f7b4c8b200e771a5387d3b5a2982",
+    "text": "Gracefully handle errors from plugins (#14422)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/hookform-resolvers-5.x-lockfile_7e8e38b33fd11ed40e8d8f8f98853796c10d5cec",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/hookform-resolvers-5.x-lockfile",
+    "occured_at": "2025-11-25T16:06:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/7e8e38b33fd11ed40e8d8f8f98853796c10d5cec",
+    "text": "Added link to receipt page when clicked on payment history items (#14503)",
     "points": null,
     "meta": {}
   },
@@ -76919,28 +76963,6 @@
     "occured_at": "2025-12-03T08:12:12.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3393",
     "text": "Fixed required patient identifier validation in patient specs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_nandkishorr/fix/patient/identifier_validation_241ae520a90f1f8f679a1beb85cba8b7646b670d",
-    "contributor": "khavinshankar",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to nandkishorr/fix/patient/identifier_validation",
-    "occured_at": "2025-12-03T08:12:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/241ae520a90f1f8f679a1beb85cba8b7646b670d",
-    "text": "Fixed required patient identifier validation in patient specs (#3393)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_develop_241ae520a90f1f8f679a1beb85cba8b7646b670d",
-    "contributor": "khavinshankar",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to develop",
-    "occured_at": "2025-12-03T08:12:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/241ae520a90f1f8f679a1beb85cba8b7646b670d",
-    "text": "Fixed required patient identifier validation in patient specs (#3393)",
     "points": null,
     "meta": {}
   }
