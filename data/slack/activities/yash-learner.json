@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2024-11-14_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-13T23:50:03.806Z",
+    "link": null,
+    "text": "<strong>Nov 13</strong><br><br>• Fixed failing cypress tests and fixed review comments from code rabbit in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9089\">care-fe-PR#9089</a>.<br>• Explored Care and skipped through some PR&#x27;s.<br>• Had a intro call with Shivank<br><strong>Next</strong><br>• Start work on MFA - Think through and start preparing CEP.<br>• Fix any new or left out review comments in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9089\">care-fe-PR#9089</a>.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-21_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -106,17 +117,6 @@
     "occured_at": "2024-11-13T00:30:52.122Z",
     "link": null,
     "text": "<strong>Nov 12</strong><br>• Wrapped most of the required changes in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9089\">care-fe-PR#9089</a> and debugged possible broken notifications for log_updates.<br>• Asked a <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1731416402858049\">question</a> and had couple of calls with Rithvik for clearing the questions I had while working on PR#9089.<br>• Quick async chat with Vignesh regarding MFA.<br>• Marked PR#9089 ready for review and fixed a review comment from code rabbit and left couple of <a href=\"https://github.com/ohcnetwork/care_fe/pull/9089#issuecomment-2471605958\">questions </a>on PR and pinged Bodhi.<br><strong>Next</strong><br><br>• Fix failing cypress tests on PR#9089.<br>• Start work on MFA - Think through and start preparing CEP.<br>• Intro calls.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-14_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-13T23:50:03.806Z",
-    "link": null,
-    "text": "<strong>Nov 13</strong><br><br>• Fixed failing cypress tests and fixed review comments from code rabbit in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9089\">care-fe-PR#9089</a>.<br>• Explored Care and skipped through some PR&#x27;s.<br>• Had a intro call with Shivank<br><strong>Next</strong><br>• Start work on MFA - Think through and start preparing CEP.<br>• Fix any new or left out review comments in <a href=\"https://github.com/ohcnetwork/care_fe/pull/9089\">care-fe-PR#9089</a>.",
     "points": null,
     "meta": null
   },
@@ -238,6 +238,17 @@
     "occured_at": "2025-06-17T06:30:13.969Z",
     "link": null,
     "text": "<strong>June 16</strong><br>• Engineering review call.<br>• Reviewed couple of WD201 capstone submissions and clear couple of stuck submissions.<br>• Fixed invalid query invalidation for process steps in SR show.<br>• Added <a href=\"https://github.com/ohcnetwork/care_fe/pull/12630\">receive form</a>.<br>• Huddles with Amjith.<br><strong>Next</strong><br>• Make some changes in <a href=\"https://github.com/ohcnetwork/care_fe/pull/12630\">receive form</a>.<br>• GDC support emails and WD submissions.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-02-10_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-10T04:24:29.651Z",
+    "link": null,
+    "text": "<strong>Feb 07</strong><br>• Had a call with Bodhi regarding the review of PF GSoC application and quick discussion on VTA, Labs, MFA and misc.<br>• Made some changes based on discussion with Bodhi to PF GSoC application.<br>• Enabled VTA for WD201 from M1 to M9, re-ran VTA for all the old submissions and added analysis to the sheet.<br><strong>Next</strong><br>• Engg review call.<br>• Submit PF GSoC application. <br>• Think some ideas for OHC GSoC.<br>• MFA.<br>• Enable VTA for remaining",
     "points": null,
     "meta": null
   },
@@ -535,17 +546,6 @@
     "occured_at": "2025-02-07T04:48:06.031Z",
     "link": null,
     "text": "<strong>Feb 06</strong><br>• Created contributor guidance page for PF GSoC.<br>• Sync with Suma.<br>• Looked into the <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1738846303637179?thread_ts=1738846303.637179&amp;amp;cid=C010GQC5UE9\">query</a> from Aditya and replied.<br>• Made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/10456\">PR</a> for improving UX when verifying Patient year verification Dialog component<br>• Back to MFA after a long time, started to getting BE working and spent a lot time on this <a href=\"https://github.com/ohcnetwork/care/pull/2816#issuecomment-2641108936\">error</a>.<br><strong>Next</strong><br>• Sync with Bodhi on review of PF GSoC application and wrap it.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-10_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-10T04:24:29.651Z",
-    "link": null,
-    "text": "<strong>Feb 07</strong><br>• Had a call with Bodhi regarding the review of PF GSoC application and quick discussion on VTA, Labs, MFA and misc.<br>• Made some changes based on discussion with Bodhi to PF GSoC application.<br>• Enabled VTA for WD201 from M1 to M9, re-ran VTA for all the old submissions and added analysis to the sheet.<br><strong>Next</strong><br>• Engg review call.<br>• Submit PF GSoC application. <br>• Think some ideas for OHC GSoC.<br>• MFA.<br>• Enable VTA for remaining",
     "points": null,
     "meta": null
   },
@@ -1155,6 +1155,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-27_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-26T21:00:31.561Z",
+    "link": null,
+    "text": "<strong>August 26</strong><br>• Self review of PR#13505<br>• Worked a bit on moving routes and type clean for ValuseSet.<br>• Sync with Praff to clear his confusion regarding <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1756124888338309\">[1]</a>.<br>• Glance through Q report prepared by Suma and left a comment.<br>• Sync with Suma regarding the MSDF Q report updates and misc things.<br>• Gigin merged PR#13288 and them fixed some merge conflicts on my PR&#x27;s<br>• Played with Copilot <a href=\"https://github.com/ohcnetwork/care_fe/pull/13524#issuecomment-3223953134\">here</a>.<br>• Tested Scribe.<br>• Attended weekly Tuesday call.<br>• Went over various docs, eod&#x27;s and recalling things and added the Q report of Jan - March 25 for MSDF.<br><strong>Next</strong><br>• Completed and review Q reports for MSDF.<br>• Work on remaining things in refactor issue#12909<br>• DPG review call.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-06-04_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1217,17 +1228,6 @@
     "occured_at": "2025-11-12T20:55:33.660Z",
     "link": null,
     "text": "<strong>November 12</strong><br>• Reviewed some PR&#x27;s, Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14304\">issues/14304</a> for new OSS contributor.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14314\">issues/14314</a>, for issue noticed during review of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14250\">pull/14250</a> and assigned it to copilot.<br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?since=2025-11-12&amp;amp;until=2025-11-13\">[1]</a><br>    ◦ helper function to pick from ResourceCategoryDefinitionPikcer.<br>    ◦ setup to store encounter id and patient id so that it can be reused across all the encounter related tests.<br>    ◦ reusable selector to automatically pick from tab or menuitem.<br>    ◦ helper for creating service requests.<br>    ◦ Updated the CreateServiceRequest spec<br>• DPG review call.<br>• Some discussions with different team members and follow ups.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s\n\n<strong>November 12</strong><br>• Reviewed some PR&#x27;s, Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14304\">issues/14304</a> for new OSS contributor.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14314\">issues/14314</a>, for issue noticed during review of <a href=\"https://github.com/ohcnetwork/care_fe/pull/14250\">pull/14250</a> and assigned it to copilot.<br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?since=2025-11-12&amp;amp;until=2025-11-13\">[1]</a><br>    ◦ helper function to pick from ResourceCategoryDefinitionPikcer.<br>    ◦ setup to store encounter id and patient id so that it can be reused across all the encounter related tests.<br>    ◦ reusable selector to automatically pick from tab or menuitem.<br>    ◦ helper for creating service requests.<br>    ◦ Updated the CreateServiceRequest spec<br>• DPG review call.<br>• Some discussions with different team members and follow ups.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-27_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-26T21:00:31.561Z",
-    "link": null,
-    "text": "<strong>August 26</strong><br>• Self review of PR#13505<br>• Worked a bit on moving routes and type clean for ValuseSet.<br>• Sync with Praff to clear his confusion regarding <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1756124888338309\">[1]</a>.<br>• Glance through Q report prepared by Suma and left a comment.<br>• Sync with Suma regarding the MSDF Q report updates and misc things.<br>• Gigin merged PR#13288 and them fixed some merge conflicts on my PR&#x27;s<br>• Played with Copilot <a href=\"https://github.com/ohcnetwork/care_fe/pull/13524#issuecomment-3223953134\">here</a>.<br>• Tested Scribe.<br>• Attended weekly Tuesday call.<br>• Went over various docs, eod&#x27;s and recalling things and added the Q report of Jan - March 25 for MSDF.<br><strong>Next</strong><br>• Completed and review Q reports for MSDF.<br>• Work on remaining things in refactor issue#12909<br>• DPG review call.",
     "points": null,
     "meta": null
   },
@@ -1635,6 +1635,17 @@
     "occured_at": "2025-12-02T20:19:30.007Z",
     "link": null,
     "text": "<strong>November 28</strong><br><em>Travelling to Bangalore -  Working partly</em><br>• Reviewed a PR and triaging issue <br>• Discussion around <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1764329103618819\">https://rebuildearth.slack.com/archives/C080225HC6B/p1764329103618819</a><br><strong>December 01</strong><br><em>Travelling back from Bangalore - working partly</em><br>• Joined Engineering review call.<br>• Reviewed a PR<br>• Filed issue,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/14557\">issues/14557</a><br>• Eat..Eat..Eat food from Duronto PC and trying to work.<br><strong>December 02</strong><br>• Quick Scan/glance through interns feedback form responses. <br>• Huddle with Amjith for discussion items from <a href=\"https://github.com/ohcnetwork/roadmap/issues/122#issuecomment-3565536184\">roadmap/issues/122#issuecomment-3565536184</a>.<br>• Got <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a> merged with help of Amjith.<br>• Filed issues <a href=\"https://github.com/ohcnetwork/care_fe/issues/14592\">issues/14592</a>, <a href=\"https://github.com/ohcnetwork/roadmap/issues/159\">roadmap/issues/159</a> and going through some related BE code.<br>• Closed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14407\">issues/14407</a><br>• Fixed merge conflicts on 4 of my open PR&#x27;s.<br>• Made changes on SR PW tests, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?author=yash-learner&amp;since=2025-12-01&amp;until=2025-12-03\">[1]</a><br>• Joined weekly tuesday call.<br><strong>Next</strong><br>• More specs<br>• Review PR&#x27;s<br>• Looking into stale PR&#x27;s",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-04_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-04T18:24:39.622Z",
+    "link": null,
+    "text": "<strong>December 03</strong><br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?author=yash-learner&amp;since=2025-12-03&amp;until=2025-12-04\">[1]</a>.<br>• Discussions with Amjith regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14592\">care_fe/issues/14592</a> and SR.<br>• Made <a href=\"https://github.com/ohcnetwork/care_fe/issues/14592\">PR#14592</a>, updated tests as well for it<br>• Made <a href=\"https://github.com/ohcnetwork/care/pull/3395\">care/pull/3395</a>.<br>• DPG review call.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14607\">care_fe/issues/14607</a> and fixed it in PR#14301 PW tests<br>• Discussion with Siddhanth, regarding the PW tests for Valueset<br><strong>Next</strong><br>• Some changes on above<br>• Work on automation for evaluation of HMIS SE &amp; coordinators Hire.",
     "points": null,
     "meta": null
   }

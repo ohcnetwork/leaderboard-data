@@ -143,6 +143,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-27_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-27T17:38:56.682Z",
+    "link": null,
+    "text": "<strong>27th November <em>(lazy day)</em></strong><br>• Replaced direct api calls to <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> and used CareValueset<br>• Rest of the day was unproductive, tried fixing metadata issue in local snowstorm but later used <a href=\"http://165.22.211.144/fhir\">http://165.22.211.144/fhir</a> which was configured correctly.<br><strong>Next</strong><br>• Look into filtering LOINC valueset by parameters.<br>• Sync with Yaswanth on frontend.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-28_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -392,17 +403,6 @@
     "occured_at": "2025-05-27T16:54:38.400Z",
     "link": null,
     "text": "May 26 &amp;amp; 27<br>• Debugged and fixed abdm migrations being out of sync in Manipur<br>• Added fallbacks to handle date of birth missing month and day<br>• Calls with hub admins to debug above issues<br>• Long huddle with Vyshak to test the changes made<br>• Partially reviewed Siva&#x27;s PR on PHR Enrollment<br>Next<br>• Finish reviewing PHR Enrollment and plan further<br>• Pickup open issues on labs-v2",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-27_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-27T17:38:56.682Z",
-    "link": null,
-    "text": "<strong>27th November <em>(lazy day)</em></strong><br>• Replaced direct api calls to <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> and used CareValueset<br>• Rest of the day was unproductive, tried fixing metadata issue in local snowstorm but later used <a href=\"http://165.22.211.144/fhir\">http://165.22.211.144/fhir</a> which was configured correctly.<br><strong>Next</strong><br>• Look into filtering LOINC valueset by parameters.<br>• Sync with Yaswanth on frontend.",
     "points": null,
     "meta": null
   },

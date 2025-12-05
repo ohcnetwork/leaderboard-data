@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_merged_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14250",
+    "occured_at": "2025-11-12T19:44:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #12799 assigned",
+    "occured_at": "2025-09-26T07:09:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
+    "text": "Allergy Date Picker Allows Future Dates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_erd#8",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8",
+    "occured_at": "2025-10-03T01:35:07.000Z",
+    "link": "https://github.com/ohcnetwork/erd/pull/8",
+    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14466",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14466",
+    "occured_at": "2025-11-21T14:31:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
+    "text": "[WIP] Remove Cypress and migrate to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14214",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14214",
+    "occured_at": "2025-11-01T13:28:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
+    "text": "Add Playwright tests for Observation Definition workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14254",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -128,61 +183,6 @@
     "occured_at": "2025-11-01T00:21:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
     "text": "Hide facility tab for non-geo organization types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#12799_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #12799 assigned",
-    "occured_at": "2025-09-26T07:09:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12799",
-    "text": "Allergy Date Picker Allows Future Dates",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_erd#8",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8",
-    "occured_at": "2025-10-03T01:35:07.000Z",
-    "link": "https://github.com/ohcnetwork/erd/pull/8",
-    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14466",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14466",
-    "occured_at": "2025-11-21T14:31:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
-    "text": "[WIP] Remove Cypress and migrate to Playwright",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14214",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14214",
-    "occured_at": "2025-11-01T13:28:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
-    "text": "Add Playwright tests for Observation Definition workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14250",
-    "occured_at": "2025-11-12T19:44:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
     "points": null,
     "meta": {}
   },
@@ -2332,6 +2332,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14583",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14583",
+    "occured_at": "2025-12-02T08:24:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14583",
+    "text": "Add Playwright test for encounter files drawing upload functionality",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#14487_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2427,17 +2438,6 @@
     "occured_at": "2025-11-11T07:55:32.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14292#pullrequestreview-3446700043",
     "text": "Fix Chrome 109 not detected as unsupported browser with validation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14583",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14583",
-    "occured_at": "2025-12-02T08:24:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14583",
-    "text": "Add Playwright test for encounter files drawing upload functionality",
     "points": null,
     "meta": {}
   }
