@@ -1,5 +1,49 @@
 [
   {
+    "slug": "issue_opened_care#968",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #968",
+    "occured_at": "2022-08-07T12:37:03.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/968",
+    "text": "Revamp Permissions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#554",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #554",
+    "occured_at": "2021-04-30T22:07:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/554",
+    "text": "Fix Bug",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#529",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #529",
+    "occured_at": "2021-04-20T05:36:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/529",
+    "text": "Adds Investigation Modules",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#563",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #563",
+    "occured_at": "2021-05-03T12:37:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/563",
+    "text": "Fix Inventory Burn Rate Data",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_life#271",
     "contributor": "vigneshhari",
     "activity_definition": "pr_merged",
@@ -139,50 +183,6 @@
     "occured_at": "2021-04-19T08:52:47.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/529",
     "text": "Adds Investigation Modules",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#529",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #529",
-    "occured_at": "2021-04-20T05:36:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/529",
-    "text": "Adds Investigation Modules",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#563",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #563",
-    "occured_at": "2021-05-03T12:37:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/563",
-    "text": "Fix Inventory Burn Rate Data",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#968",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #968",
-    "occured_at": "2022-08-07T12:37:03.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/968",
-    "text": "Revamp Permissions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#554",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #554",
-    "occured_at": "2021-04-30T22:07:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/554",
-    "text": "Fix Bug",
     "points": null,
     "meta": {}
   },
@@ -4202,6 +4202,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_life_backend#1",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1",
+    "occured_at": "2021-05-15T21:46:31.000Z",
+    "link": "https://github.com/ohcnetwork/life_backend/pull/1",
+    "text": "Added Required Fields Back",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1143_APPROVED_PRR_kwDODsgdF85Kde-r",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -4576,6 +4587,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#7751",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #7751",
+    "occured_at": "2024-06-05T17:40:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/7751",
+    "text": "Remove all OP number validation ",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_amjith/odoo_module_d870cd6e7790a091d2a0a02339c33597cf9bc697",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -4858,6 +4880,17 @@
     "occured_at": "2025-11-02T13:05:29.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/6b160ec25bcb83b69ddd5ca5dd6c175a7f365a90",
     "text": "Facility level identifier set to true by default",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_test/supply_delivery_d870cd6e7790a091d2a0a02339c33597cf9bc697",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to test/supply_delivery",
+    "occured_at": "2025-11-02T18:34:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d870cd6e7790a091d2a0a02339c33597cf9bc697",
+    "text": "Identifiers at facility support added",
     "points": null,
     "meta": {}
   },
@@ -5243,39 +5276,6 @@
     "occured_at": "2021-05-15T21:47:05.000Z",
     "link": "https://github.com/ohcnetwork/life_backend/pull/2",
     "text": "Remove Postgis from base",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_life_backend#1",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1",
-    "occured_at": "2021-05-15T21:46:31.000Z",
-    "link": "https://github.com/ohcnetwork/life_backend/pull/1",
-    "text": "Added Required Fields Back",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_test/supply_delivery_d870cd6e7790a091d2a0a02339c33597cf9bc697",
-    "contributor": "vigneshhari",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to test/supply_delivery",
-    "occured_at": "2025-11-02T18:34:40.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/d870cd6e7790a091d2a0a02339c33597cf9bc697",
-    "text": "Identifiers at facility support added",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#7751",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #7751",
-    "occured_at": "2024-06-05T17:40:13.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/7751",
-    "text": "Remove all OP number validation ",
     "points": null,
     "meta": {}
   },
@@ -8448,6 +8448,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care#2388",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #2388",
+    "occured_at": "2025-03-12T18:35:04.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2388",
+    "text": "Add support for i18l for error responses from the backend",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#1029_APPROVED_MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjU0ODg2NzY2",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -8807,17 +8818,6 @@
     "occured_at": "2025-03-16T12:13:21.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/2904",
     "text": "Create a new PublicUserReadSpec for publicly accessible APIs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#2388",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #2388",
-    "occured_at": "2025-03-12T18:35:04.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2388",
-    "text": "Add support for i18l for error responses from the backend",
     "points": null,
     "meta": {}
   },
@@ -9625,6 +9625,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care#1542",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1542",
+    "occured_at": "2023-08-24T16:54:01.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1542",
+    "text": "Merge ip_no and op_no",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care#284",
     "contributor": "vigneshhari",
     "activity_definition": "issue_closed",
@@ -10017,17 +10028,6 @@
     "occured_at": "2024-08-21T07:41:30.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/2376",
     "text": "Unable to create consultation with bed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#1542",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1542",
-    "occured_at": "2023-08-24T16:54:01.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1542",
-    "text": "Merge ip_no and op_no",
     "points": null,
     "meta": {}
   },
@@ -13702,6 +13702,17 @@
     "occured_at": "2021-12-01T10:40:50.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/650",
     "text": "Consultation Update when Filing Consultation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_roadmap#52",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #52",
+    "occured_at": "2025-04-01T12:11:22.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/52",
+    "text": "Create Specimen Definition",
     "points": null,
     "meta": {}
   },
@@ -20075,6 +20086,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_roadmap#97",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #97",
+    "occured_at": "2025-05-12T08:11:15.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/97",
+    "text": "Periodic task to remove incomplete file uploads",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3245_APPROVED_PRR_kwDODsgdF86-zlV_",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -22781,6 +22803,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#712",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #712",
+    "occured_at": "2022-03-19T19:47:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/712",
+    "text": "Building OpenId Authentication Classes",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2595_APPROVED_PRR_kwDODsgdF86UfJ-y",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -23459,17 +23492,6 @@
     "occured_at": "2025-02-20T17:31:17.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2852#pullrequestreview-2630679743",
     "text": "Fix username validator to include deleted users in user create spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_roadmap#97",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #97",
-    "occured_at": "2025-05-12T08:11:15.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/97",
-    "text": "Periodic task to remove incomplete file uploads",
     "points": null,
     "meta": {}
   },
@@ -25861,6 +25883,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#534",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #534",
+    "occured_at": "2021-04-21T11:48:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/534",
+    "text": "Fixing File Upload Permission Issues",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2380_APPROVED_PRR_kwDODsgdF86GLpRN",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -27892,6 +27925,17 @@
     "occured_at": "2024-02-08T16:32:25.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1879#pullrequestreview-1870716417",
     "text": "Fix queryset filters for asset daily rounds",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#534",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #534",
+    "occured_at": "2021-04-21T11:48:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/534",
+    "text": "Fixing File Upload Permission Issues",
     "points": null,
     "meta": {}
   },
@@ -31581,17 +31625,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#712",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #712",
-    "occured_at": "2022-03-19T19:47:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/712",
-    "text": "Building OpenId Authentication Classes",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#1027_APPROVED_PRR_kwDODsgdF85CQCTg",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -33319,6 +33352,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#532",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #532",
+    "occured_at": "2021-04-20T06:11:09.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/532",
+    "text": "removing pagination for Investigations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#826_CHANGES_REQUESTED_PRR_kwDODsgdF847bNHL",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -34657,39 +34701,6 @@
     "occured_at": "2021-04-24T09:25:28.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/530#pullrequestreview-644016218",
     "text": "avoid investigation update in closed consultation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#534",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #534",
-    "occured_at": "2021-04-21T11:48:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/534",
-    "text": "Fixing File Upload Permission Issues",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#534",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #534",
-    "occured_at": "2021-04-21T11:48:52.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/534",
-    "text": "Fixing File Upload Permission Issues",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#532",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #532",
-    "occured_at": "2021-04-20T06:11:09.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/532",
-    "text": "removing pagination for Investigations",
     "points": null,
     "meta": {}
   },
@@ -38654,6 +38665,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_roadmap#49",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #49",
+    "occured_at": "2025-04-01T11:17:26.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/49",
+    "text": "Backend to support role orgs instead of roles in users",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_31b9ca4500e78184c1f63ef112f2de2a1216a9c6",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -39215,6 +39237,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_test/token_queue_afd835ac0ba44b34b984882727a01647d57cfa89",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to test/token_queue",
+    "occured_at": "2025-11-17T11:17:16.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/afd835ac0ba44b34b984882727a01647d57cfa89",
+    "text": "Fix imports",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_cdc03fc6b4ed31be148235d42a04494860174269",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -39750,6 +39783,17 @@
     "occured_at": "2025-09-11T07:52:48.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/e6a7958e0e016f70f4c81d467a49829098ca65a4",
     "text": "Possible fix for category facility issue",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3335",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3335",
+    "occured_at": "2025-11-01T10:04:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3335",
+    "text": "Amjith's Odoo",
     "points": null,
     "meta": {}
   },
@@ -40887,6 +40931,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_roadmap#53",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #53",
+    "occured_at": "2025-04-01T12:11:49.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/53",
+    "text": "Backend for Specimen Definition",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_3cd494469d5db64de57baa49284c36a934603010",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -41481,28 +41536,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_test/token_queue_afd835ac0ba44b34b984882727a01647d57cfa89",
-    "contributor": "vigneshhari",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to test/token_queue",
-    "occured_at": "2025-11-17T11:17:16.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/afd835ac0ba44b34b984882727a01647d57cfa89",
-    "text": "Fix imports",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3335",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3335",
-    "occured_at": "2025-11-01T10:04:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3335",
-    "text": "Amjith's Odoo",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_dependabot/pip/polyfactory-2.22.3_119875711e2eeb483f09e45100e16bccb6e696fa",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -41895,39 +41928,6 @@
     "occured_at": "2025-04-01T12:12:48.000Z",
     "link": "https://github.com/ohcnetwork/roadmap/issues/54",
     "text": "CRUD for Specimens",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_roadmap#53",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #53",
-    "occured_at": "2025-04-01T12:11:49.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/53",
-    "text": "Backend for Specimen Definition",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_roadmap#52",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #52",
-    "occured_at": "2025-04-01T12:11:22.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/52",
-    "text": "Create Specimen Definition",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_roadmap#49",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #49",
-    "occured_at": "2025-04-01T11:17:26.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/49",
-    "text": "Backend to support role orgs instead of roles in users",
     "points": null,
     "meta": {}
   },
@@ -43604,17 +43604,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3382",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3382",
-    "occured_at": "2025-11-27T20:18:59.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3382",
-    "text": "Report Builder 2 : Attack of the Registries",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_vigneshhari/report-builder-v2_a477960231de4ccb162b2fbc71dc1975eaa6949a",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -43666,17 +43655,6 @@
     "occured_at": "2025-12-01T14:17:18.000Z",
     "link": "https://github.com/ohcnetwork/care_api_backup/commit/426c7b7dc00ea9357c99728ad4c41c924f60f081",
     "text": "Added Templates/Reports",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3391_APPROVED_PRR_kwDODsgdF87SXmaG",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3391",
-    "occured_at": "2025-12-02T10:35:12.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3391#pullrequestreview-3529401990",
-    "text": "Fix unpacking of parent_cache in authorization classes for booking, scheduling, and token access",
     "points": null,
     "meta": {}
   },
@@ -44044,17 +44022,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#3397_APPROVED_PRR_kwDODsgdF87TBrSz",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3397",
-    "occured_at": "2025-12-04T14:54:25.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3397#pullrequestreview-3540432051",
-    "text": "fix:added healthcare location ids to sr locations",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_nandkishorr/fix/schedule_d5359498e71eebb79362c7c11bdf6eefbcd888a2",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -44084,6 +44051,39 @@
     "occured_at": "2025-12-03T04:33:27.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/ac5860c2d47432cbaf004a57147095bad5819810",
     "text": "Merge branch 'develop' of github.com:ohcnetwork/care into develop",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3382",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3382",
+    "occured_at": "2025-11-27T20:18:59.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3382",
+    "text": "Report Builder 2 : Attack of the Registries",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3391_APPROVED_PRR_kwDODsgdF87SXmaG",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3391",
+    "occured_at": "2025-12-02T10:35:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3391#pullrequestreview-3529401990",
+    "text": "Fix unpacking of parent_cache in authorization classes for booking, scheduling, and token access",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3397_APPROVED_PRR_kwDODsgdF87TBrSz",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3397",
+    "occured_at": "2025-12-04T14:54:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3397#pullrequestreview-3540432051",
+    "text": "fix:added healthcare location ids to sr locations",
     "points": null,
     "meta": {}
   }

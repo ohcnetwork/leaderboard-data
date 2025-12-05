@@ -110,6 +110,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-01_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-01T06:09:37.014Z",
+    "link": null,
+    "text": "Nov 28 &amp;amp; 29:<br>• Tried out HFR APIs on postman<br>• Fixed a recurrsive edge case while authentication in ABDM <a href=\"https://github.com/10bedicu/care_abdm/commit/296e550007779cbe902ef798f5f653d4bf1bb339\">296e5</a><br>• Fixed <code>tag not set</code> issue while creating 2nd consent in an encounter <a href=\"https://github.com/10bedicu/care_auto_tag/pull/1\">#1</a>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-12_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -359,6 +370,17 @@
     "occured_at": "2025-11-21T01:46:54.665Z",
     "link": null,
     "text": "Nov 19<br>• Wrapped up scan and share using token queue<br>• Investigated the issues in the demo<br>• Went through all the flows in the PHR and noted down the issues<br>Nov 20<br>• Applied for UHI sandbox<br>• Tried out the scan and pay flow in postman<br>Next<br>• Implement the scan and pay flow",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-02_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-02T03:15:03.294Z",
+    "link": null,
+    "text": "Dec 1:<br>• Worked on sharing config from host to plug <a href=\"https://github.com/ohcnetwork/care_fe/pull/14565\">#14565</a> <a href=\"https://github.com/10bedicu/care_abdm_fe/pull/68\">#68</a><br>• Worked on fixing auto slot selection issue in appointment question <a href=\"https://github.com/ohcnetwork/care_fe/pull/14561\">#14561</a><br>• Huddle with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> to discuss restructuring retry care context task in abdm",
     "points": null,
     "meta": null
   },
@@ -634,28 +656,6 @@
     "occured_at": "2025-11-18T03:16:31.605Z",
     "link": null,
     "text": "Nov 17<br>• Addressed minor P1 issues (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14386\">#14386</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14383\">#14383</a>, and <a href=\"https://github.com/ohcnetwork/care_fe/pull/14379\">#14379</a>)<br>• Cleaned up <a href=\"https://github.com/10bedicu/care_abdm/pull/44\">#44</a> (ABHA number patient identifier) and merged it<br>• Synced develop and phr branches and fixed migration conflicts in phr branch<br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-01_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-01T06:09:37.014Z",
-    "link": null,
-    "text": "Nov 28 &amp;amp; 29:<br>• Tried out HFR APIs on postman<br>• Fixed a recurrsive edge case while authentication in ABDM <a href=\"https://github.com/10bedicu/care_abdm/commit/296e550007779cbe902ef798f5f653d4bf1bb339\">296e5</a><br>• Fixed <code>tag not set</code> issue while creating 2nd consent in an encounter <a href=\"https://github.com/10bedicu/care_auto_tag/pull/1\">#1</a>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-02_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-02T03:15:03.294Z",
-    "link": null,
-    "text": "Dec 1:<br>• Worked on sharing config from host to plug <a href=\"https://github.com/ohcnetwork/care_fe/pull/14565\">#14565</a> <a href=\"https://github.com/10bedicu/care_abdm_fe/pull/68\">#68</a><br>• Worked on fixing auto slot selection issue in appointment question <a href=\"https://github.com/ohcnetwork/care_fe/pull/14561\">#14561</a><br>• Huddle with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> to discuss restructuring retry care context task in abdm",
     "points": null,
     "meta": null
   },

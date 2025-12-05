@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_opened_care#3209",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3209",
+    "occured_at": "2025-08-20T06:45:23.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3209",
+    "text": "refact:fixed facility check",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#3317",
     "contributor": "nandkishorr",
     "activity_definition": "pr_merged",
@@ -128,17 +139,6 @@
     "occured_at": "2025-10-23T08:32:58.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3314",
     "text": "Test cases for supply request api",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3209",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3209",
-    "occured_at": "2025-08-20T06:45:23.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3209",
-    "text": "refact:fixed facility check",
     "points": null,
     "meta": {}
   },
@@ -4246,61 +4246,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3396",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3396",
-    "occured_at": "2025-12-04T07:19:36.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3396",
-    "text": "Added datapoints for reports builder",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#3399_IC_kwDODsgdF87XXhCB",
-    "contributor": "nandkishorr",
-    "activity_definition": "comment_created",
-    "title": "Commented on #3399",
-    "occured_at": "2025-12-04T17:02:03.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3399#issuecomment-3613266049",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3399",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3399",
-    "occured_at": "2025-12-04T16:28:49.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3399",
-    "text": "fix: proper org passing in permission check",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3397",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3397",
-    "occured_at": "2025-12-04T13:57:09.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3397",
-    "text": "fix:added healthcare location ids to sr locations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3397",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3397",
-    "occured_at": "2025-12-04T14:54:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3397",
-    "text": "fix:added healthcare location ids to sr locations",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_nandkishorr/fix/schedule_cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4352,6 +4297,116 @@
     "occured_at": "2025-12-04T07:34:22.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/f253c89d51e14e9eb284ae37509b569c4af30898",
     "text": "clean up",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13865_nandkishorr",
+    "contributor": "nandkishorr",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13865 assigned",
+    "occured_at": "2025-12-05T11:48:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13865",
+    "text": "Product definition is not getting deleted",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#13865_IC_kwDODtfaXs7Xj8qi",
+    "contributor": "nandkishorr",
+    "activity_definition": "comment_created",
+    "title": "Commented on #13865",
+    "occured_at": "2025-12-05T11:34:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13865#issuecomment-3616524962",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#3399_IC_kwDODsgdF87XXhCB",
+    "contributor": "nandkishorr",
+    "activity_definition": "comment_created",
+    "title": "Commented on #3399",
+    "occured_at": "2025-12-04T17:02:03.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3399#issuecomment-3613266049",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3396",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3396",
+    "occured_at": "2025-12-04T07:19:36.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3396",
+    "text": "Added datapoints for reports builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3396",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3396",
+    "occured_at": "2025-12-05T09:39:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3396",
+    "text": "Added datapoints for reports builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3399",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3399",
+    "occured_at": "2025-12-04T16:28:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3399",
+    "text": "fix: proper org passing in permission check",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3397",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3397",
+    "occured_at": "2025-12-04T13:57:09.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3397",
+    "text": "fix:added healthcare location ids to sr locations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3397",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3397",
+    "occured_at": "2025-12-04T14:54:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3397",
+    "text": "fix:added healthcare location ids to sr locations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_66256a8dc528a47d0d775994ea8235ff8ae8f67c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-12-05T09:39:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/66256a8dc528a47d0d775994ea8235ff8ae8f67c",
+    "text": "Added datapoints for reports builder (#3396)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishorr/report/datapoints_fbd84229c561f56496324a7176ebfa875e7eba86",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishorr/report/datapoints",
+    "occured_at": "2025-12-05T09:27:36.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/fbd84229c561f56496324a7176ebfa875e7eba86",
+    "text": "fix:revert dosageinstruction to QuerysetContextBuilder",
     "points": null,
     "meta": {}
   }
