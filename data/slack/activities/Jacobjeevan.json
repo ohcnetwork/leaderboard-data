@@ -110,6 +110,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-26_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-26T17:41:21.423Z",
+    "link": null,
+    "text": "june 26<br>was on leave 23-25<br>• reviews<br>• incoming deliveries UI changes <br>next<br>• more billing changes",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-26_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -271,6 +282,17 @@
     "occured_at": "2024-11-21T09:40:13.729Z",
     "link": null,
     "text": "21st November<br>• reviewed/commented on few PRs<br>• Started working on bed preset bug<br>Next<br>• Get the preset bug fixed",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-20_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-19T18:59:02.362Z",
+    "link": null,
+    "text": "june 18<br><em>half-day</em><br>• followup issues/fixes for release<br>• reviews<br>june 19<br>• purchase order UI changes <br>• reviews<br>next<br>• reviews, followup on any issues (not picking up anything major since I&#x27;m out most of next week).",
     "points": null,
     "meta": null
   },
@@ -473,17 +495,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-20_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-19T18:59:02.362Z",
-    "link": null,
-    "text": "june 18<br><em>half-day</em><br>• followup issues/fixes for release<br>• reviews<br>june 19<br>• purchase order UI changes <br>• reviews<br>next<br>• reviews, followup on any issues (not picking up anything major since I&#x27;m out most of next week).",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-12-27_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -656,17 +667,6 @@
     "occured_at": "2024-12-18T18:25:03.692Z",
     "link": null,
     "text": "December 18th<br>Done<br>• Refactored the profile removal PR (tests) based on feedback<br>• Opened draft PR for patient files<br>    ◦ Audio player presented a few issues (esp with fetching track duration). Researching online, people have used all sorts of hacks to get around to it. I tried a few and got one working, but it will has issues with specific tracks for whatever reason. So I gotta diagnose and figure that out.<br>Next<br>• Patient files<br>    ◦ FE: Diagnose the audio player issue<br>    ◦ BE: New FE designs adds file based filters; we do have file category support in BE; current options are Xray, Audio, Identity Proof and Unspecified (most of the files we have are unspecified as that&#x27;s the default option for file uploads). On the FE, options are Imaging, Lab Reports, Documents and Audio; could map images/audio based on file extensions, but then lab reports could also be images. I have to confirm with product whether this is required before modifying BE to support the options.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-26T17:41:21.423Z",
-    "link": null,
-    "text": "june 26<br>was on leave 23-25<br>• reviews<br>• incoming deliveries UI changes <br>next<br>• more billing changes",
     "points": null,
     "meta": null
   },
@@ -880,6 +880,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-16_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-15T21:17:19.321Z",
+    "link": null,
+    "text": "may 15<br>• multiple <span class=\"s-emoji\">🎧</span> with Nihal on report builder<br>• changes for report builder based on review/feedback<br>next<br>• finish tweaking the UI for report builder based on testing and get v1 out<br>• circle back on older assigned issues/PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-02-06_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1056,6 +1067,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-23_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-22T19:13:01.725Z",
+    "link": null,
+    "text": "may 20-22<br>• merged report builder FE (BE review pending)<br>• billing/pharmacy stuff<br>• some reviews<br>next<br>• billing/pharmacy stuff",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-14_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1217,6 +1239,17 @@
     "occured_at": "2025-04-07T19:54:09.896Z",
     "link": null,
     "text": "April 7<br>• opened FE pr for user geo org edit<br>    ◦ changes req: modify user page to display geo org details<br>• debugging device permissions for non-super admins<br>    ◦ merged BE pr<br>• review/merge older prs<br>• debugging link user permissions for an admin<br>next<br>• forgot to open pr for the autocomplete replace with all the hubbub, so gonna do that today<br>• dept delete/archive FE (waiting on BE here)<br>• tackle older issues assigned to me",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-01_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-01T16:11:00.955Z",
+    "link": null,
+    "text": "June 30-July 1<br>• Receive stock UI<br>• Huddles with Amjith on above<br>• Testing and fixing issues with supply request flow<br>Next <br>• Back to India<br>• Finish up supply req flow testing (depends since a good chunk of today will be in airports, but should be doable).",
     "points": null,
     "meta": null
   },
@@ -1404,39 +1437,6 @@
     "occured_at": "2025-05-11T18:54:19.633Z",
     "link": null,
     "text": "may 9<br>• finished up some billing tasks (closing accounts, price components for invoices)<br>• report builder<br>next<br>• finish report builder preview + add logic to highlight user errors/validation\n\nmay 12<br>• report builder - updated api, preview and more changes<br>next<br>• today is going to be a slow day as I&#x27;m not feeling well <span class=\"s-emoji\">😷</span>  Probably will focus on reviews, but will try to work on and finish up report builder if I can focus <span class=\"s-emoji\">😅</span>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-16_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-15T21:17:19.321Z",
-    "link": null,
-    "text": "may 15<br>• multiple <span class=\"s-emoji\">🎧</span> with Nihal on report builder<br>• changes for report builder based on review/feedback<br>next<br>• finish tweaking the UI for report builder based on testing and get v1 out<br>• circle back on older assigned issues/PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-23_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-22T19:13:01.725Z",
-    "link": null,
-    "text": "may 20-22<br>• merged report builder FE (BE review pending)<br>• billing/pharmacy stuff<br>• some reviews<br>next<br>• billing/pharmacy stuff",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-01_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-01T16:11:00.955Z",
-    "link": null,
-    "text": "June 30-July 1<br>• Receive stock UI<br>• Huddles with Amjith on above<br>• Testing and fixing issues with supply request flow<br>Next <br>• Back to India<br>• Finish up supply req flow testing (depends since a good chunk of today will be in airports, but should be doable).",
     "points": null,
     "meta": null
   },
