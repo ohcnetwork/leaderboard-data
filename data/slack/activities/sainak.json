@@ -1,49 +1,5 @@
 [
   {
-    "slug": "eod_update_2023-07-17_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-17T06:47:25.273Z",
-    "link": null,
-    "text": "EOD 17/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• fixed edge cases with my old PR<br>• reviewed some PRs<br>What’s next ?<br>• clear out old PRs <br>• find issues to work on",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-06_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-06T04:37:08.645Z",
-    "link": null,
-    "text": "Trying to debug a wierd issue with django",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-02_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-02T05:51:39.413Z",
-    "link": null,
-    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-31_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-30T21:23:33.111Z",
-    "link": null,
-    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2023-07-20_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -172,6 +128,50 @@
     "occured_at": "2023-07-04T05:55:38.516Z",
     "link": null,
     "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-17_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-17T06:47:25.273Z",
+    "link": null,
+    "text": "EOD 17/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• fixed edge cases with my old PR<br>• reviewed some PRs<br>What’s next ?<br>• clear out old PRs <br>• find issues to work on",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-06-06_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-06T04:37:08.645Z",
+    "link": null,
+    "text": "Trying to debug a wierd issue with django",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-02_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-02T05:51:39.413Z",
+    "link": null,
+    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-31_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-30T21:23:33.111Z",
+    "link": null,
+    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
     "points": null,
     "meta": null
   },

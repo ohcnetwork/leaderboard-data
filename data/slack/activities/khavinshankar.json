@@ -297,6 +297,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-26_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-26T16:21:07.564Z",
+    "link": null,
+    "text": "<strong>26th November</strong><br>• Completed the labs flow till creating the specimen (have used <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> terminology server directly)<br>• Tried to create value set in snowstorm (was stuck here for a while, now created the value set but having issues with the metadata which is needed for creating specimen)<br>• Reviewed and merged few small PRs in care_fe<br>• Had a long call with Yaswanth discussing the split up, and progress.<br><strong>Next</strong><br>• Have a call with Vignesh to discuss the metadata issue related to valueset<br>• Replace the usage of <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> with default snowstorm server <br>• Review and merge remaining tested PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-18_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -414,17 +425,6 @@
     "occured_at": "2025-11-25T05:42:33.403Z",
     "link": null,
     "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-26_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-26T16:21:07.564Z",
-    "link": null,
-    "text": "<strong>26th November</strong><br>• Completed the labs flow till creating the specimen (have used <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> terminology server directly)<br>• Tried to create value set in snowstorm (was stuck here for a while, now created the value set but having issues with the metadata which is needed for creating specimen)<br>• Reviewed and merged few small PRs in care_fe<br>• Had a long call with Yaswanth discussing the split up, and progress.<br><strong>Next</strong><br>• Have a call with Vignesh to discuss the metadata issue related to valueset<br>• Replace the usage of <a href=\"http://fhir.loinc.org\">fhir.loinc.org</a> with default snowstorm server <br>• Review and merge remaining tested PRs",
     "points": null,
     "meta": null
   },
@@ -667,6 +667,17 @@
     "occured_at": "2025-12-04T04:38:25.645Z",
     "link": null,
     "text": "Dec 2:<br>• Went through all abdm sentry issues in teleicu and ka instance <br>    ◦ resolved old data issues<br>    ◦ resolved couple small validation issues<br>    ◦ working on restructuring retry care context task to avoid soft time limit exceeding<br>Dec 3:<br>• Fixed issue with required validation <a href=\"https://github.com/ohcnetwork/care/pull/3393\">#3393</a><br>• Fixed facility cache issue in the frontend <a href=\"https://github.com/ohcnetwork/care_fe/pull/14603\">#14603</a><br>• Cleared out suggestions on my existing PR<br>• Synced phr branch with develop",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-08_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-08T02:24:57.192Z",
+    "link": null,
+    "text": "Dec 4:<br>• Added HFR APIs in the backend<br>Dec 5:<br>• Quick huddle with Aakash regarding sentry issues<br>• Went through sentry and marked the already resolved issues<br>• Updated the bed unavailable icons<br>• Fixed tab switching issue in the files encounter tab",
     "points": null,
     "meta": null
   }
