@@ -979,6 +979,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-16_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-15T19:28:50.567Z",
+    "link": null,
+    "text": "<strong>June 12</strong><br>• Looked into the failing background jobs for some GDC task submissions<br>    ◦ Re-ran them with a fix from Backend.<br>    ◦ Tiny update to target workflow to run one of the submission.<br>    ◦ Shared the passed and rejected students list to Aravind<br>• Couple of GDC interviews<br>• Replied to some GDC support emails<br>• Huddle with Amjith<br><strong>June 13</strong><br>• Huddles with Amjith<br>• Added the tables for <code>ToReceive</code> and <code>ToDispatch</code> in supply<br>• Replied to some GDC support emails<br>• Quick huddle and discussion with Aravind regarding interview for remaining GDC students<br><strong>Next</strong><br>• Engg review call<br>• Review some WD201 capstone submissions and reply to support emails<br>• Pick something from todo",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1129,17 +1140,6 @@
     "occured_at": "2025-05-21T04:44:28.448Z",
     "link": null,
     "text": "<strong>May 20</strong><br>• Finished adding payment history and invoice activity timelines in invoice show.<br>• Huddles with Amjith<br>• Fixed the search/scroll in Admin suppliers and governance.<br>• Added the shadcn resizable and made the location nav  in admin-organizations resizable.<br>• Fixed the 0 getting prefilled in Retention time, capacity, and minimum value in Specimen Definition form<br>• Then trying fix above in different ways and some playing and understanding code in <code>ComboboxQunatityInput</code> and <code>SpecimenDefinitionForm</code> .<br>• Looked at some pending submissions in WD201 queue.<br>• Tuesday&#x27;s weekly call.<br><strong>Next</strong><br>• Fix the types in <code>SpecimenDefinitionForm</code> .<br>• Fix the draft status in <code>ServiceRequestShow</code>.<br>• Review a WD201 capstone submission.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-16_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-15T19:28:50.567Z",
-    "link": null,
-    "text": "<strong>June 12</strong><br>• Looked into the failing background jobs for some GDC task submissions<br>    ◦ Re-ran them with a fix from Backend.<br>    ◦ Tiny update to target workflow to run one of the submission.<br>    ◦ Shared the passed and rejected students list to Aravind<br>• Couple of GDC interviews<br>• Replied to some GDC support emails<br>• Huddle with Amjith<br><strong>June 13</strong><br>• Huddles with Amjith<br>• Added the tables for <code>ToReceive</code> and <code>ToDispatch</code> in supply<br>• Replied to some GDC support emails<br>• Quick huddle and discussion with Aravind regarding interview for remaining GDC students<br><strong>Next</strong><br>• Engg review call<br>• Review some WD201 capstone submissions and reply to support emails<br>• Pick something from todo",
     "points": null,
     "meta": null
   },
@@ -1646,6 +1646,17 @@
     "occured_at": "2025-12-04T18:24:39.622Z",
     "link": null,
     "text": "<strong>December 03</strong><br>• Made changes on PR#14301, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?author=yash-learner&amp;since=2025-12-03&amp;until=2025-12-04\">[1]</a>.<br>• Discussions with Amjith regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/14592\">care_fe/issues/14592</a> and SR.<br>• Made <a href=\"https://github.com/ohcnetwork/care_fe/issues/14592\">PR#14592</a>, updated tests as well for it<br>• Made <a href=\"https://github.com/ohcnetwork/care/pull/3395\">care/pull/3395</a>.<br>• DPG review call.<br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14607\">care_fe/issues/14607</a> and fixed it in PR#14301 PW tests<br>• Discussion with Siddhanth, regarding the PW tests for Valueset<br><strong>Next</strong><br>• Some changes on above<br>• Work on automation for evaluation of HMIS SE &amp; coordinators Hire.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-07_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-07T18:08:39.789Z",
+    "link": null,
+    "text": "<strong>December 04</strong><br>• Made some changes on open PR&#x27;s<br>• Deciding whether to use n8n or make for a automation.<br>• Discussion with Gigin regarding the automation for HMIS SE &amp;amp; coordinators Hire.<br>• Played around and create a basic flow with make <span class=\"s-emoji\">👆</span>.<br>• Had a call with Rohith to understand full flow.<br>• Started working on it <span class=\"s-emoji\">👆</span><br>\n\n<strong>December 05</strong><br>• Completed the whole flow setup automation for HMIS SE &amp; coordinators Hire.<br>• Tested the above flow with Rohith.<br>• Huddles and discussions with Rohith and Sona regarding above.<br>• Started making changes to automation setup based on above discussions\n\n<strong>December 06</strong><br>• Implemented the changes suggested by Rohith and tested the flow for setup automation for HMIS SE &amp;amp; coordinators Hire.<br>\n\n<strong>December 07</strong><br>• Huddle with Rohith for testing the whole setup flow for HMIS SE &amp; coordinators Hire.<br>• Made some final few changes and tested it.<br>• Shared the test data with Sona for dashboard query use.<br>• Replied to some threads on slack.<br><strong>Next</strong><br>• Update the email content in automation.<br>• Run already filled forms.",
     "points": null,
     "meta": null
   }
