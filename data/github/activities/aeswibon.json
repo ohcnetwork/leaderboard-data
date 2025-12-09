@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_opened_care#888",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #888",
+    "occured_at": "2022-06-24T13:47:17.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/888",
+    "text": "Fixed created_by field in patient log",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#2546",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2546",
+    "occured_at": "2022-05-27T05:43:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2546",
+    "text": "Fixed DockerFile",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#827",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #827",
+    "occured_at": "2022-06-06T19:04:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/827",
+    "text": "Update to Postgres",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#3114",
     "contributor": "aeswibon",
     "activity_definition": "issue_opened",
@@ -315,28 +348,6 @@
     "occured_at": "2022-09-16T08:37:46.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/940",
     "text": "Issue: Facility Download CSV file",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#827",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #827",
-    "occured_at": "2022-06-06T19:04:27.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/827",
-    "text": "Update to Postgres",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#888",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #888",
-    "occured_at": "2022-06-24T13:47:17.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/888",
-    "text": "Fixed created_by field in patient log",
     "points": null,
     "meta": {}
   },
@@ -3080,6 +3091,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#4458_aeswibon",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #4458 assigned",
+    "occured_at": "2023-01-02T10:55:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/4458",
+    "text": "Procedure suggested",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#7168_aeswibon",
     "contributor": "aeswibon",
     "activity_definition": "issue_assigned",
@@ -3439,17 +3461,6 @@
     "occured_at": "2022-06-25T08:16:00.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/4569",
     "text": "Sample Test : Generate File Malfunction",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#4458_aeswibon",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #4458 assigned",
-    "occured_at": "2023-01-02T10:55:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/4458",
-    "text": "Procedure suggested",
     "points": null,
     "meta": {}
   },
@@ -5775,6 +5786,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#3173",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3173",
+    "occured_at": "2022-07-27T15:08:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3173",
+    "text": "Fixed malfunction in user management regarding add user form",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#4214_COMMENTED_PRR_kwDODtfaXs5HvlhQ",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -6490,6 +6512,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#3171",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3171",
+    "occured_at": "2022-07-20T15:17:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3171",
+    "text": "Fixed styling issue in Resource Management",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3283_APPROVED_PRR_kwDODtfaXs4_Jj8X",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -6838,28 +6871,6 @@
     "occured_at": "2022-07-20T18:42:25.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/3173",
     "text": "Fixed malfunction in user management regarding add user form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#3173",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3173",
-    "occured_at": "2022-07-27T15:08:08.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3173",
-    "text": "Fixed malfunction in user management regarding add user form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#3171",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3171",
-    "occured_at": "2022-07-20T15:17:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3171",
-    "text": "Fixed styling issue in Resource Management",
     "points": null,
     "meta": {}
   },
@@ -7238,6 +7249,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#2989",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2989",
+    "occured_at": "2022-07-12T12:30:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2989",
+    "text": "Fixed styling issue in consultation page",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3088_APPROVED_PRR_kwDODtfaXs49m3WP",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -7575,17 +7597,6 @@
     "occured_at": "2022-07-03T18:34:23.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2995#pullrequestreview-1026884186",
     "text": "Improved styling on Consultation Page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2989",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2989",
-    "occured_at": "2022-07-12T12:30:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2989",
-    "text": "Fixed styling issue in consultation page",
     "points": null,
     "meta": {}
   },
@@ -8675,17 +8686,6 @@
     "occured_at": "2022-06-19T05:58:30.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2768#pullrequestreview-1011476662",
     "text": "Made the required fields mandatory in respective forms",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2546",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2546",
-    "occured_at": "2022-05-27T05:43:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2546",
-    "text": "Fixed DockerFile",
     "points": null,
     "meta": {}
   },

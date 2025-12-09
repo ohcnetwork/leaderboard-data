@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_merged_care#3106",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3106",
+    "occured_at": "2025-09-25T14:10:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3106",
+    "text": "Test cases for User viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_odoo_be#1",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1",
+    "occured_at": "2025-11-19T08:49:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
+    "text": "Initial plugin setup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3106",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3106",
+    "occured_at": "2025-07-01T12:39:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3106",
+    "text": "Test cases for User viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#12612",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -73,39 +106,6 @@
     "occured_at": "2025-11-01T11:02:12.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3336",
     "text": "Test cases for Token api ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3106",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3106",
-    "occured_at": "2025-07-01T12:39:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3106",
-    "text": "Test cases for User viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3106",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3106",
-    "occured_at": "2025-09-25T14:10:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3106",
-    "text": "Test cases for User viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_odoo_be#1",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1",
-    "occured_at": "2025-11-19T08:49:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
-    "text": "Initial plugin setup",
     "points": null,
     "meta": {}
   },
@@ -814,6 +814,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_roadmap#125",
+    "contributor": "nandkishorr",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #125",
+    "occured_at": "2025-08-20T13:17:59.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/125",
+    "text": "Missing validation for specimen view set",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_supply_delivery/delivery_orders/filters_4c12cd8eba81f7669b11a3d526d5ad7ab78b16c7",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -1118,17 +1129,6 @@
     "occured_at": "2025-10-28T12:11:06.000Z",
     "link": "https://github.com/ohcnetwork/landing/commit/7056926edf1422c7fcd3cb6a8abe11d7f985912a",
     "text": "updated state count in pages",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_roadmap#125",
-    "contributor": "nandkishorr",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #125",
-    "occured_at": "2025-08-20T13:17:59.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/125",
-    "text": "Missing validation for specimen view set",
     "points": null,
     "meta": {}
   },
@@ -2827,6 +2827,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3180",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3180",
+    "occured_at": "2025-07-31T14:10:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3180",
+    "text": "refact:slug validation for tag config",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/token_610a4b91225c9f43143f89b9a1673440f21a3140",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4224,17 +4235,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3180",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3180",
-    "occured_at": "2025-07-31T14:10:40.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3180",
-    "text": "refact:slug validation for tag config",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3166",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -4528,6 +4528,50 @@
     "occured_at": "2025-12-07T05:36:49.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/39099575689b4172e68df3fa5c9a10d7fb1a5e6a",
     "text": "Merge branch 'develop' into nandkishorr/fix/product_knowledge_spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-76468cb07f_cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-76468cb07f",
+    "occured_at": "2025-12-03T11:33:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
+    "text": "fix:updated the indentifier validation in patient api (#3364)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-76468cb07f_57201f53f1501aa960a4b61668468f7cfd6c3152",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-76468cb07f",
+    "occured_at": "2025-12-04T14:54:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/57201f53f1501aa960a4b61668468f7cfd6c3152",
+    "text": "fix:added healthcare location ids to sr locations (#3397)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-03T11:33:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
+    "text": "fix:updated the indentifier validation in patient api (#3364)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_57201f53f1501aa960a4b61668468f7cfd6c3152",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-04T14:54:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/57201f53f1501aa960a4b61668468f7cfd6c3152",
+    "text": "fix:added healthcare location ids to sr locations (#3397)",
     "points": null,
     "meta": {}
   },

@@ -1,27 +1,5 @@
 [
   {
-    "slug": "pr_merged_care#2772",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2772",
-    "occured_at": "2025-01-26T20:37:25.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2772",
-    "text": "adding swagger support",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2361",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2361",
-    "occured_at": "2024-09-22T10:37:37.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2361",
-    "text": "added a request time logging middleware",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#2931",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -62,6 +40,28 @@
     "occured_at": "2024-11-14T14:15:02.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2532",
     "text": "added test cases for asset bed",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2772",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2772",
+    "occured_at": "2025-01-26T20:37:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2772",
+    "text": "adding swagger support",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2361",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2361",
+    "occured_at": "2024-09-22T10:37:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2361",
+    "text": "added a request time logging middleware",
     "points": null,
     "meta": {}
   },
@@ -2112,6 +2112,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#12252",
+    "contributor": "praffq",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #12252",
+    "occured_at": "2025-05-08T07:11:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12252",
+    "text": "Inconsistencies in the names in logged by column",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/adding-reports_db3eb2d00eb1bfbac80b3f9f8f849d51d7e74887",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -2469,17 +2480,6 @@
     "activity_definition": "issue_opened",
     "title": "Opened issue #12252",
     "occured_at": "2025-05-08T06:37:51.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12252",
-    "text": "Inconsistencies in the names in logged by column",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#12252",
-    "contributor": "praffq",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #12252",
-    "occured_at": "2025-05-08T07:11:44.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12252",
     "text": "Inconsistencies in the names in logged by column",
     "points": null,
@@ -6446,6 +6446,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3333",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3333",
+    "occured_at": "2025-10-31T01:31:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3333",
+    "text": "Reports and Templates v2",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/delivery_order_20c8ce9eb4c20264372dd1d6b32147dfe450a257",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7139,17 +7150,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3347",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3347",
-    "occured_at": "2025-11-06T08:23:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3347",
-    "text": "Bug in Interpretation evaluator and minor improvements",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_vigneshhari/report-builder-v2_2dc889d1347a02a80a19a88f8b4f8c11e0c5079b",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7436,17 +7436,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3333",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3333",
-    "occured_at": "2025-10-31T01:31:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3333",
-    "text": "Reports and Templates v2",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_prafful/bugs/patient-identifiers_81f4229ebfef8b885a33b0ebeb4ba76a35f193b1",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7513,6 +7502,28 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3402",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3402",
+    "occured_at": "2025-12-07T22:04:32.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3402",
+    "text": "fixed options workflow in  reports",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3347",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3347",
+    "occured_at": "2025-11-06T08:23:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3347",
+    "text": "Bug in Interpretation evaluator and minor improvements",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3044",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -7524,13 +7535,24 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3402",
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-76468cb07f_b1231f51d5d636d5ef34eda8e86da87d793d5ac3",
     "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3402",
-    "occured_at": "2025-12-07T22:04:32.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3402",
-    "text": "fixed options workflow in  reports",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-76468cb07f",
+    "occured_at": "2025-12-02T10:34:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/b1231f51d5d636d5ef34eda8e86da87d793d5ac3",
+    "text": "fix race condition in test cases (#3388)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_b1231f51d5d636d5ef34eda8e86da87d793d5ac3",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-02T10:34:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/b1231f51d5d636d5ef34eda8e86da87d793d5ac3",
+    "text": "fix race condition in test cases (#3388)",
     "points": null,
     "meta": {}
   },

@@ -308,6 +308,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-16_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-15T19:28:50.567Z",
+    "link": null,
+    "text": "<strong>June 12</strong><br>• Looked into the failing background jobs for some GDC task submissions<br>    ◦ Re-ran them with a fix from Backend.<br>    ◦ Tiny update to target workflow to run one of the submission.<br>    ◦ Shared the passed and rejected students list to Aravind<br>• Couple of GDC interviews<br>• Replied to some GDC support emails<br>• Huddle with Amjith<br><strong>June 13</strong><br>• Huddles with Amjith<br>• Added the tables for <code>ToReceive</code> and <code>ToDispatch</code> in supply<br>• Replied to some GDC support emails<br>• Quick huddle and discussion with Aravind regarding interview for remaining GDC students<br><strong>Next</strong><br>• Engg review call<br>• Review some WD201 capstone submissions and reply to support emails<br>• Pick something from todo",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -825,6 +836,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-04_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-04T07:03:27.102Z",
+    "link": null,
+    "text": "<strong>August 01</strong><br>• Follow up with Spandan on his work.<br>• Fixed the bug spotted by NIhal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13002\">PR#13002</a> and small additional fix.<br>• Started moving the file routes and types.<br>    ◦ Huddle with Amjith regarding clearing a query.<br>    ◦ Looked into archived_by being null, it is already reported a week ago and PR is opened by <br>• Looked into the draft email prepared by Aravind for KTU.<br>• Reviewed a WD301 capstone submission.<br>• EOD call.<br>• Replying  to some queries on Slack.<br>• Had a look at viewport issue for valusetselect reported on Arike group and reviewed Abhimanyu <a href=\"https://github.com/ohcnetwork/care_fe/pull/13205\">PR</a> for it and tested on multiple android devices.<br><strong>Next</strong><br>• Engg review call.<br>• Remaining types clean up and moving routes.<br>• Follow up with Spandan",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-31_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -964,28 +986,6 @@
     "occured_at": "2025-04-27T03:59:30.390Z",
     "link": null,
     "text": "April 23<br>• Reviewed remaining GSoC proposals and shortlisted one.<br>• DPG review call<br>• Long Huddle with Amjith <br>    ◦ Daily Sync <br>    ◦ Discussion regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/12043#issuecomment-2821416484\">issue#12043</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12035#issuecomment-2824042773\">pull#12035</a> <br>    ◦ Then got roasted why consents PR got delayed and PR&#x27;s getting stuck, I couldn&#x27;t answer clearly to Amjith questions, when I find time need to look at my EOD&#x27;s and clearly answer his question.<br>    ◦ and misc discussions<br>• Worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033#commits-pushed-917d7c6\">moving consents to tab</a>.<br><strong>April 24</strong><br>• Worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033#commits-pushed-917d7c6\">moving consents to tab</a> and fixed coderabbit <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033#pullrequestreview-2792278289\">review-comments</a> and marked ready for review and testing.<br>• Quick huddles with Amjith.<br>• GDC AMA session along with Aravind, Shivank, Suma.<br>• Replied to GDC support emails<br>• Looked into a why GDC onboarding emails are not getting delivered, traced and found out the cause of it and looped in Bodhi.<br>• Left a <a href=\"https://github.com/ohcnetwork/care_fe/pull/12035#pullrequestreview-2790676334\">comment</a> on a PR<br><strong>April 25 - 26</strong><br>• Opened <a href=\"https://github.com/ohcnetwork/care_fe/pull/12105\">PR#12105</a>.<br>• Huddles with Amjith and Nihal regarding, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033#issuecomment-2830218098\">1</a>, <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1745580559145909?thread_ts=1744207192.430929&amp;cid=C06KGMUAB0V\">2</a>.<br>• Fixed all things reported by Nihal on  <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033#commits-pushed-917d7c6\">moving consents to tab</a> <br>    ◦ and after a while realized that search we are doing on consents page is client side so looked at BE for possibility, <a href=\"https://github.com/ohcnetwork/care_fe/pull/12033#issuecomment-2831399188\">1</a><br>• Some quick huddles with Amjith.<br>• Huddle with Aravind.<br><strong>Next</strong><br>• Engineering review call.<br>• Work on my open PR&#x27;s.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-04_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-04T07:03:27.102Z",
-    "link": null,
-    "text": "<strong>August 01</strong><br>• Follow up with Spandan on his work.<br>• Fixed the bug spotted by NIhal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13002\">PR#13002</a> and small additional fix.<br>• Started moving the file routes and types.<br>    ◦ Huddle with Amjith regarding clearing a query.<br>    ◦ Looked into archived_by being null, it is already reported a week ago and PR is opened by <br>• Looked into the draft email prepared by Aravind for KTU.<br>• Reviewed a WD301 capstone submission.<br>• EOD call.<br>• Replying  to some queries on Slack.<br>• Had a look at viewport issue for valusetselect reported on Arike group and reviewed Abhimanyu <a href=\"https://github.com/ohcnetwork/care_fe/pull/13205\">PR</a> for it and tested on multiple android devices.<br><strong>Next</strong><br>• Engg review call.<br>• Remaining types clean up and moving routes.<br>• Follow up with Spandan",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-16_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-15T19:28:50.567Z",
-    "link": null,
-    "text": "<strong>June 12</strong><br>• Looked into the failing background jobs for some GDC task submissions<br>    ◦ Re-ran them with a fix from Backend.<br>    ◦ Tiny update to target workflow to run one of the submission.<br>    ◦ Shared the passed and rejected students list to Aravind<br>• Couple of GDC interviews<br>• Replied to some GDC support emails<br>• Huddle with Amjith<br><strong>June 13</strong><br>• Huddles with Amjith<br>• Added the tables for <code>ToReceive</code> and <code>ToDispatch</code> in supply<br>• Replied to some GDC support emails<br>• Quick huddle and discussion with Aravind regarding interview for remaining GDC students<br><strong>Next</strong><br>• Engg review call<br>• Review some WD201 capstone submissions and reply to support emails<br>• Pick something from todo",
     "points": null,
     "meta": null
   },
@@ -1657,6 +1657,17 @@
     "occured_at": "2025-12-07T18:08:39.789Z",
     "link": null,
     "text": "<strong>December 04</strong><br>• Made some changes on open PR&#x27;s<br>• Deciding whether to use n8n or make for a automation.<br>• Discussion with Gigin regarding the automation for HMIS SE &amp;amp; coordinators Hire.<br>• Played around and create a basic flow with make <span class=\"s-emoji\">👆</span>.<br>• Had a call with Rohith to understand full flow.<br>• Started working on it <span class=\"s-emoji\">👆</span><br>\n\n<strong>December 05</strong><br>• Completed the whole flow setup automation for HMIS SE &amp; coordinators Hire.<br>• Tested the above flow with Rohith.<br>• Huddles and discussions with Rohith and Sona regarding above.<br>• Started making changes to automation setup based on above discussions\n\n<strong>December 06</strong><br>• Implemented the changes suggested by Rohith and tested the flow for setup automation for HMIS SE &amp;amp; coordinators Hire.<br>\n\n<strong>December 07</strong><br>• Huddle with Rohith for testing the whole setup flow for HMIS SE &amp; coordinators Hire.<br>• Made some final few changes and tested it.<br>• Shared the test data with Sona for dashboard query use.<br>• Replied to some threads on slack.<br><strong>Next</strong><br>• Update the email content in automation.<br>• Run already filled forms.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-08_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-08T17:26:47.939Z",
+    "link": null,
+    "text": "<strong>December 08</strong><br>• Updated the email template in automation.<br>• Ran the automation for Karnataka, couldn&#x27;t get the automation to work with csv on time so Rohith submitted those responses again.<br>• Huddle and discussion with Sona and Rohith on above.<br>• Built a make automation for removing accessing of test candidates to facilities after test and tested it.<br>• Updated some data for already processed records.<br>• Engg review call.<br>• Fixed the automation to run with csv and tested it.<br>• Huddle with Rohith on new scenario of running test for Jharkhand.<br>• Made changes in automation flow for Jharkhand flow and tested it.<br><strong>Next</strong><br>• Update the email template for Jharkhand initial flow and test it along with Rohith.<br>• Get the evaluations as well in Make <br>• Look into my open PR&#x27;s",
     "points": null,
     "meta": null
   }
