@@ -1,27 +1,5 @@
 [
   {
-    "slug": "pr_merged_care#2931",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2931",
-    "occured_at": "2025-03-20T13:00:41.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2931",
-    "text": "some choices addition and validation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2433",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2433",
-    "occured_at": "2024-09-07T17:44:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2433",
-    "text": "Adding timeout to middleware request",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3261",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -40,6 +18,28 @@
     "occured_at": "2024-11-14T14:15:02.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2532",
     "text": "added test cases for asset bed",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2931",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2931",
+    "occured_at": "2025-03-20T13:00:41.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2931",
+    "text": "some choices addition and validation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2433",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2433",
+    "occured_at": "2024-09-07T17:44:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2433",
+    "text": "Adding timeout to middleware request",
     "points": null,
     "meta": {}
   },
@@ -1459,17 +1459,6 @@
     "occured_at": "2025-11-06T06:01:50.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3346#pullrequestreview-3426358317",
     "text": "tag metric: support for multi condition interpretation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3234_APPROVED_PRR_kwDODsgdF87LEP1a",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3234",
-    "occured_at": "2025-11-01T06:09:20.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3234#pullrequestreview-3406888282",
-    "text": "fix:added update pydantic model and update validation",
     "points": null,
     "meta": {}
   },
@@ -6809,6 +6798,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2938",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2938",
+    "occured_at": "2025-03-19T11:47:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2938",
+    "text": "updated create password template",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/adding-reports_60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -6970,17 +6970,6 @@
     "occured_at": "2025-11-24T08:39:17.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/e0b163e552765e208f5d355d3fb106b93539810e",
     "text": "add file authz for service request and diagnostic reports (#3373)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3378",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3378",
-    "occured_at": "2025-11-25T08:53:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3378",
-    "text": "Completed some todos and typo",
     "points": null,
     "meta": {}
   },
@@ -7425,17 +7414,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2938",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2938",
-    "occured_at": "2025-03-19T11:47:37.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2938",
-    "text": "updated create password template",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_prafful/bugs/patient-identifiers_81f4229ebfef8b885a33b0ebeb4ba76a35f193b1",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7509,17 +7487,6 @@
     "occured_at": "2025-12-07T22:04:32.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3402",
     "text": "fixed options workflow in  reports",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3347",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3347",
-    "occured_at": "2025-11-06T08:23:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3347",
-    "text": "Bug in Interpretation evaluator and minor improvements",
     "points": null,
     "meta": {}
   },
@@ -7795,6 +7762,61 @@
     "occured_at": "2025-12-08T10:00:28.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/569208995317cc929bb97a99bbb791700858fa5b",
     "text": "Merge remote-tracking branch 'origin/prafful/feat/user-and-facility-flag' into prafful/feat/user-and-facility-flag",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3378",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3378",
+    "occured_at": "2025-11-25T08:53:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3378",
+    "text": "Completed some todos and typo",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3378",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3378",
+    "occured_at": "2025-12-09T11:24:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3378",
+    "text": "Completed some todos and typo",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3234_APPROVED_PRR_kwDODsgdF87LEP1a",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3234",
+    "occured_at": "2025-11-01T06:09:20.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3234#pullrequestreview-3406888282",
+    "text": "fix:added update pydantic model and update validation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3347",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3347",
+    "occured_at": "2025-11-06T08:23:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3347",
+    "text": "Bug in Interpretation evaluator and minor improvements",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_4ba70ad4ea3612d08741861f1473fc783a7d99cf",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-12-09T11:24:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4ba70ad4ea3612d08741861f1473fc783a7d99cf",
+    "text": "Completed some todos and typo (#3378)",
     "points": null,
     "meta": {}
   }

@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_opened_care_fe#14355",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14355",
+    "occured_at": "2025-11-14T17:16:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14355",
+    "text": "[WIP] Automatically switch to test DB when running Playwright tests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3259",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3259",
+    "occured_at": "2025-09-14T20:04:15.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3259",
+    "text": "Add medication requests to prescription API responses",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14086",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14086",
+    "occured_at": "2025-10-19T07:46:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14086",
+    "text": "💊 Enhance Bed Layout Visualization with Interactive Detailed View",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#14189",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_merged",
@@ -337,39 +370,6 @@
     "occured_at": "2025-11-01T00:59:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14208",
     "text": "Fix filter persistence - clear only on logout, not login",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14086",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14086",
-    "occured_at": "2025-10-19T07:46:54.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14086",
-    "text": "💊 Enhance Bed Layout Visualization with Interactive Detailed View",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14355",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14355",
-    "occured_at": "2025-11-14T17:16:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14355",
-    "text": "[WIP] Automatically switch to test DB when running Playwright tests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3259",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3259",
-    "occured_at": "2025-09-14T20:04:15.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3259",
-    "text": "Add medication requests to prescription API responses",
     "points": null,
     "meta": {}
   },
@@ -2068,17 +2068,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14401",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14401",
-    "occured_at": "2025-11-18T07:53:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14401",
-    "text": "Add archive patient functionality to patient update page",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14315",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2090,28 +2079,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14401_COMMENTED_PRR_kwDODtfaXs7PSmr5",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14401",
-    "occured_at": "2025-11-18T13:06:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14401#pullrequestreview-3477760761",
-    "text": "Add archive patient functionality to patient update page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#13485_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13485 assigned",
-    "occured_at": "2025-10-29T12:12:24.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13485",
-    "text": "Inconsistent Label Highlighting for Required Fields",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#13006_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2119,17 +2086,6 @@
     "occured_at": "2025-11-09T18:02:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13006",
     "text": "Bug: Generalise the text when there is no entry for a search input in Patient earch",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14181",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14181",
-    "occured_at": "2025-10-29T12:12:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14181",
-    "text": "Add error border styling to RequirementsSelector in Healthcare Service form",
     "points": null,
     "meta": {}
   },
@@ -2438,6 +2394,61 @@
     "occured_at": "2025-12-02T08:24:36.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14582",
     "text": "Playwright Test: Verify Drawing Upload Functionality in Encounter → Files Section",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13485_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13485 assigned",
+    "occured_at": "2025-10-29T12:12:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13485",
+    "text": "Inconsistent Label Highlighting for Required Fields",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14401",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14401",
+    "occured_at": "2025-11-18T07:53:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14401",
+    "text": "Add archive patient functionality to patient update page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14401_COMMENTED_PRR_kwDODtfaXs7PSmr5",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14401",
+    "occured_at": "2025-11-18T13:06:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14401#pullrequestreview-3477760761",
+    "text": "Add archive patient functionality to patient update page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14181",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14181",
+    "occured_at": "2025-10-29T12:12:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14181",
+    "text": "Add error border styling to RequirementsSelector in Healthcare Service form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14181",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14181",
+    "occured_at": "2025-12-09T08:11:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14181",
+    "text": "Add error border styling to RequirementsSelector in Healthcare Service form",
     "points": null,
     "meta": {}
   }
