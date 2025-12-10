@@ -297,6 +297,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-09_gigincg",
+    "contributor": "gigincg",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-08T18:30:52.967Z",
+    "link": null,
+    "text": "Dec 5th/6th<br>Done:<br>• Continuing to work with MFEs<br>• Everything seems to be working well post removing the Custom Build Configurations<br>• Refactored CareLivekit FE to work with Microfrontends<br>• Update Build Scripts for MFEs<br>• Solve Merge Conflicts<br>• Work with Bodhi on some type issues in FHIR Forms<br>• Few Other Calls/Discussions<br>Up Next<br>• Switch to FHIR Forms, figure out API calls for Structured Data fields<br>• Look into Optimizing MFEs\n\n9 December 2024<br>Done:<br>• Exploring Snowstorm<br>• Review Palliative Care Cloud Cost<br>• Partially Review Bodhi&#x27;s FHIR PR<br>• Sync with Aravind on Creating the next version of Care Manual<br>• Discussion with Bodhi on Implementation of Questionnaire<br>Up Next<br>• Exploring further on Snowstorm<br>• Cleanup MFE<br>• Followup with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on Migration Plan",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-21_gigincg",
     "contributor": "gigincg",
     "activity_definition": "eod_update",
@@ -414,17 +425,6 @@
     "occured_at": "2024-12-03T18:40:15.354Z",
     "link": null,
     "text": "<strong>December 3</strong><br><strong>Done</strong><br>• Worked on a few updates for Medispeak<br>• Work on MFE, Not happy with the amount of Code I have to bring in from the Core. <br>• Meeting with Finance on Fundraising<br>• Few open threads with Aravind, Bodhi and a few other people.<br><strong>Next</strong><br>• Continue work on MFE, I might just call it a day and wrap it up, even though I don&#x27;t like the way it looks.\n\n<strong>4th December</strong><br>Done:<br>• Refactored the CareLivekit Plugin to work with MFE targetting ES2022<br>• Broke the CareLivekit Plugin trying to polyfill and avoid top-level await, and broke the working build. Hate myself for not committing the working build<br>• Trying to get the Barcode Printer/Scanner work with <span class=\"s-mention s-user\">@UC99MFPU1</span> and <span class=\"s-mention s-user\">@U02D0NA6RHR</span> <br>• Sync with Bodhi on Release plans for FHIR Forms Refactor<br><strong>Up Next</strong><br>• Continue working on the example Plugin",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-09_gigincg",
-    "contributor": "gigincg",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-08T18:30:52.967Z",
-    "link": null,
-    "text": "Dec 5th/6th<br>Done:<br>• Continuing to work with MFEs<br>• Everything seems to be working well post removing the Custom Build Configurations<br>• Refactored CareLivekit FE to work with Microfrontends<br>• Update Build Scripts for MFEs<br>• Solve Merge Conflicts<br>• Work with Bodhi on some type issues in FHIR Forms<br>• Few Other Calls/Discussions<br>Up Next<br>• Switch to FHIR Forms, figure out API calls for Structured Data fields<br>• Look into Optimizing MFEs\n\n9 December 2024<br>Done:<br>• Exploring Snowstorm<br>• Review Palliative Care Cloud Cost<br>• Partially Review Bodhi&#x27;s FHIR PR<br>• Sync with Aravind on Creating the next version of Care Manual<br>• Discussion with Bodhi on Implementation of Questionnaire<br>Up Next<br>• Exploring further on Snowstorm<br>• Cleanup MFE<br>• Followup with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on Migration Plan",
     "points": null,
     "meta": null
   },

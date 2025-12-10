@@ -319,6 +319,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-02_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-02T14:00:31.764Z",
+    "link": null,
+    "text": "<strong>29th November</strong><br>• Dropped custom ConceptMap creation, used LOINC’s inbuilt concept map<br>• Wrapped up the labs flow till Test Ongoing<br><strong>2nd December</strong><br>• Synced with Yaswanth on the frontend timeline<br>• Looked into using the same valuesets mentioned in hl7 fhir specs<br>• Added support for creating aliquots<br><strong>Next</strong><br>• Create DiagnosticReport specs and continue with the flow<br>• Sync with Yaswanth on the frontend and wiring",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-18_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -436,17 +447,6 @@
     "occured_at": "2025-11-25T05:42:33.403Z",
     "link": null,
     "text": "Nov 24 (slow day):<br>• figured the blocker in scan and pay callback; missed a header in request<br>• made a demo video of sending records through abdm<br>Next<br>• Wrap up scan and pay<br>• Go through assigned issues and open issues in ABDM and clear the minor ones<br>• Get started with UHI",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-02_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-02T14:00:31.764Z",
-    "link": null,
-    "text": "<strong>29th November</strong><br>• Dropped custom ConceptMap creation, used LOINC’s inbuilt concept map<br>• Wrapped up the labs flow till Test Ongoing<br><strong>2nd December</strong><br>• Synced with Yaswanth on the frontend timeline<br>• Looked into using the same valuesets mentioned in hl7 fhir specs<br>• Added support for creating aliquots<br><strong>Next</strong><br>• Create DiagnosticReport specs and continue with the flow<br>• Sync with Yaswanth on the frontend and wiring",
     "points": null,
     "meta": null
   },
