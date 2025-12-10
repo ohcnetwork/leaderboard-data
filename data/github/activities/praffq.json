@@ -1,5 +1,71 @@
 [
   {
+    "slug": "pr_merged_care#2984",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2984",
+    "occured_at": "2025-04-07T15:16:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2984",
+    "text": "fixed recent views duplications",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3247",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3247",
+    "occured_at": "2025-09-10T11:11:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3247",
+    "text": "Bug in Activity definition spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2361",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2361",
+    "occured_at": "2024-08-16T18:24:09.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2361",
+    "text": "added a request time logging middleware",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2882",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2882",
+    "occured_at": "2025-03-01T14:19:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2882",
+    "text": "fixed location encounter bug",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2397",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2397",
+    "occured_at": "2024-09-23T05:03:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2397",
+    "text": " archived spo2 field to archived_spo2",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3372",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3372",
+    "occured_at": "2025-11-22T07:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3372",
+    "text": "fix deadlock in TagConfig endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3261",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -238,72 +304,6 @@
     "occured_at": "2024-08-25T10:32:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2397",
     "text": " archived spo2 field to archived_spo2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2397",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2397",
-    "occured_at": "2024-09-23T05:03:49.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2397",
-    "text": " archived spo2 field to archived_spo2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3372",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3372",
-    "occured_at": "2025-11-22T07:36:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3372",
-    "text": "fix deadlock in TagConfig endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2984",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2984",
-    "occured_at": "2025-04-07T15:16:06.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2984",
-    "text": "fixed recent views duplications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3247",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3247",
-    "occured_at": "2025-09-10T11:11:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3247",
-    "text": "Bug in Activity definition spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2361",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2361",
-    "occured_at": "2024-08-16T18:24:09.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2361",
-    "text": "added a request time logging middleware",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2882",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2882",
-    "occured_at": "2025-03-01T14:19:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2882",
-    "text": "fixed location encounter bug",
     "points": null,
     "meta": {}
   },
@@ -1947,6 +1947,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_camera_asset#6",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #6",
+    "occured_at": "2024-12-29T11:53:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_camera_asset/pull/6",
+    "text": "Privacy policy and usage manager",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/adding-reports_604a5f2f5b42c342490090dbd0f360db3e4a6498",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -2295,17 +2306,6 @@
     "occured_at": "2024-11-26T13:51:33.000Z",
     "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2#issuecomment-2500859394",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_camera_asset#6",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #6",
-    "occured_at": "2024-12-29T11:53:54.000Z",
-    "link": "https://github.com/ohcnetwork/care_camera_asset/pull/6",
-    "text": "Privacy policy and usage manager",
     "points": null,
     "meta": {}
   },
@@ -5170,6 +5170,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2588",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2588",
+    "occured_at": "2024-11-09T17:58:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2588",
+    "text": "add tests and validation for filterset",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2585_COMMENTED_PRR_kwDODsgdF86TWfFC",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -5936,17 +5947,6 @@
     "occured_at": "2024-11-28T14:15:55.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2622",
     "text": "fixed dockerfile for local plugin installation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2588",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2588",
-    "occured_at": "2024-11-09T17:58:27.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2588",
-    "text": "add tests and validation for filterset",
     "points": null,
     "meta": {}
   },
@@ -7480,17 +7480,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3402",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3402",
-    "occured_at": "2025-12-07T22:04:32.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3402",
-    "text": "fixed options workflow in  reports",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3044",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -7766,6 +7755,72 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3347",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3347",
+    "occured_at": "2025-11-06T08:23:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3347",
+    "text": "Bug in Interpretation evaluator and minor improvements",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#3382_IC_kwDODsgdF87Yf9ON",
+    "contributor": "praffq",
+    "activity_definition": "comment_created",
+    "title": "Commented on #3382",
+    "occured_at": "2025-12-09T13:24:41.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3382#issuecomment-3632255885",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3405",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3405",
+    "occured_at": "2025-12-09T15:09:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3405",
+    "text": "some minor fixes from code rabbit",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3405",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3405",
+    "occured_at": "2025-12-09T16:57:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3405",
+    "text": "some minor fixes from code rabbit",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3402",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3402",
+    "occured_at": "2025-12-07T22:04:32.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3402",
+    "text": "fixed options workflow in  reports",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3402",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3402",
+    "occured_at": "2025-12-09T13:03:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3402",
+    "text": "fixed options workflow in  reports",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3378",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -7799,13 +7854,123 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3347",
+    "slug": "commit_created_vigneshhari/report-builder-v2_e0b163e552765e208f5d355d3fb106b93539810e",
     "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3347",
-    "occured_at": "2025-11-06T08:23:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3347",
-    "text": "Bug in Interpretation evaluator and minor improvements",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-11-24T08:39:17.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/e0b163e552765e208f5d355d3fb106b93539810e",
+    "text": "add file authz for service request and diagnostic reports (#3373)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_5bcd2f71f4fede4cf5948e6d28e51c22aa678513",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-11-25T15:58:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/5bcd2f71f4fede4cf5948e6d28e51c22aa678513",
+    "text": "adding validation for facility name (#3379)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_b1231f51d5d636d5ef34eda8e86da87d793d5ac3",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-12-02T10:34:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/b1231f51d5d636d5ef34eda8e86da87d793d5ac3",
+    "text": "fix race condition in test cases (#3388)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_4ba70ad4ea3612d08741861f1473fc783a7d99cf",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-12-09T11:24:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4ba70ad4ea3612d08741861f1473fc783a7d99cf",
+    "text": "Completed some todos and typo (#3378)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_78d80c8a94b68470380158f04319a7ee67744765",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-12-09T16:57:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/78d80c8a94b68470380158f04319a7ee67744765",
+    "text": "some minor fixes from code rabbit (#3405)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/fixing-options-in-template_49d88a8171c932572a6cee631fbbd724b47fe907",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/fixing-options-in-template",
+    "occured_at": "2025-12-09T13:03:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/49d88a8171c932572a6cee631fbbd724b47fe907",
+    "text": "fixed options workflow in  reports (#3402)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/fixing-options-in-template_72bb64fe8cca82fb438d6d58009bd91183b35832",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/fixing-options-in-template",
+    "occured_at": "2025-12-09T14:49:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/72bb64fe8cca82fb438d6d58009bd91183b35832",
+    "text": "Merge branch 'vigneshhari/report-builder-v2' into prafful/fixing-options-in-template",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/fixing-options-in-template_b2808ceecb005ea2cde6f71b92136b63a079f2d6",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/fixing-options-in-template",
+    "occured_at": "2025-12-09T14:49:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/b2808ceecb005ea2cde6f71b92136b63a079f2d6",
+    "text": "minor fixes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_vigneshhari/report-builder-v2_49d88a8171c932572a6cee631fbbd724b47fe907",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-12-09T13:03:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/49d88a8171c932572a6cee631fbbd724b47fe907",
+    "text": "fixed options workflow in  reports (#3402)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/fixing-options-in-template_be27833307588049b7f0260a72812c09748c4df5",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/fixing-options-in-template",
+    "occured_at": "2025-12-09T12:54:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/be27833307588049b7f0260a72812c09748c4df5",
+    "text": "fix generate endpoint",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/fixing-options-in-template_03ca011ed20a1f510928fba1aec113859412b33a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/fixing-options-in-template",
+    "occured_at": "2025-12-09T12:29:42.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/03ca011ed20a1f510928fba1aec113859412b33a",
+    "text": "moved to pydantic models",
     "points": null,
     "meta": {}
   },

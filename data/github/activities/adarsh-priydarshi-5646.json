@@ -704,17 +704,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14593_COMMENTED_PRR_kwDODtfaXs7SrXL6",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14593",
-    "occured_at": "2025-12-03T11:20:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14593#pullrequestreview-3534582522",
-    "text": "Fixes keyboard navigation for search input bar component",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14606_adarsh-priydarshi-5646",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "issue_assigned",
@@ -777,17 +766,6 @@
     "occured_at": "2025-12-05T13:40:30.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13349#issuecomment-3616974000",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14591_COMMENTED_PRR_kwDODtfaXs7SrY_5",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14591",
-    "occured_at": "2025-12-03T11:22:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14591#pullrequestreview-3534589945",
-    "text": "Fix: Updated the design for Goverance, Supplier and Roles under Organization ",
     "points": null,
     "meta": {}
   },
@@ -869,13 +847,24 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14654_COMMENTED_PRR_kwDODtfaXs7Tr2TB",
+    "slug": "pr_opened_care_fe#14670",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14670",
+    "occured_at": "2025-12-08T10:43:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14670",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7Tsrc3",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14654",
-    "occured_at": "2025-12-08T11:12:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14654#pullrequestreview-3551487169",
-    "text": "Fix: Clear validation errors when switching contact point types in Add Device form",
+    "title": "Reviewed PR #14670",
+    "occured_at": "2025-12-08T12:03:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3551704887",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
     "points": null,
     "meta": {}
   },
@@ -891,6 +880,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#14692_IC_kwDODtfaXs7YkOZz",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14692",
+    "occured_at": "2025-12-09T17:18:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14692#issuecomment-3633374835",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "comment_created_care_fe#14689_IC_kwDODtfaXs7Yehdp",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "comment_created",
@@ -898,6 +898,50 @@
     "occured_at": "2025-12-09T11:58:06.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14689#issuecomment-3631880041",
     "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14593_COMMENTED_PRR_kwDODtfaXs7SrXL6",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14593",
+    "occured_at": "2025-12-03T11:20:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14593#pullrequestreview-3534582522",
+    "text": "Fixes keyboard navigation for search input bar component",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14593_APPROVED_PRR_kwDODtfaXs7UGIMt",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14593",
+    "occured_at": "2025-12-09T16:22:06.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14593#pullrequestreview-3558376237",
+    "text": "Fixes keyboard navigation for search input bar component",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14656_CHANGES_REQUESTED_PRR_kwDODtfaXs7UGO6r",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14656",
+    "occured_at": "2025-12-09T16:28:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14656#pullrequestreview-3558403755",
+    "text": "Fix(print): Prevent clinical sections from splitting across pages (#12921)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14654_COMMENTED_PRR_kwDODtfaXs7Tr2TB",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14654",
+    "occured_at": "2025-12-08T11:12:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14654#pullrequestreview-3551487169",
+    "text": "Fix: Clear validation errors when switching contact point types in Add Device form",
     "points": null,
     "meta": {}
   },
@@ -913,24 +957,35 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14561_CHANGES_REQUESTED_PRR_kwDODtfaXs7SEi4k",
+    "slug": "pr_reviewed_care_fe#14591_COMMENTED_PRR_kwDODtfaXs7SrY_5",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14561",
-    "occured_at": "2025-12-01T11:06:03.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14561#pullrequestreview-3524406820",
-    "text": "Fixed auto slot selection in appointment question",
+    "title": "Reviewed PR #14591",
+    "occured_at": "2025-12-03T11:22:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14591#pullrequestreview-3534589945",
+    "text": "Fix: Updated the design for Goverance, Supplier and Roles under Organization ",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14561_CHANGES_REQUESTED_PRR_kwDODtfaXs7SVxjL",
+    "slug": "pr_opened_care_fe#14559",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14559",
+    "occured_at": "2025-12-01T07:15:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14559",
+    "text": "Clean up: Remove view toggle from PK, AD, CID list views",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14559_COMMENTED_PRR_kwDODtfaXs7SpB5w",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14561",
-    "occured_at": "2025-12-02T08:47:57.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14561#pullrequestreview-3528923339",
-    "text": "Fixed auto slot selection in appointment question",
+    "title": "Reviewed PR #14559",
+    "occured_at": "2025-12-03T09:13:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14559#pullrequestreview-3533971056",
+    "text": "Clean up: Remove view toggle from PK, AD, CID list views",
     "points": null,
     "meta": {}
   },
@@ -979,24 +1034,24 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14559",
+    "slug": "pr_reviewed_care_fe#14561_CHANGES_REQUESTED_PRR_kwDODtfaXs7SEi4k",
     "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14559",
-    "occured_at": "2025-12-01T07:15:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14559",
-    "text": "Clean up: Remove view toggle from PK, AD, CID list views",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14561",
+    "occured_at": "2025-12-01T11:06:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14561#pullrequestreview-3524406820",
+    "text": "Fixed auto slot selection in appointment question",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14559_COMMENTED_PRR_kwDODtfaXs7SpB5w",
+    "slug": "pr_reviewed_care_fe#14561_CHANGES_REQUESTED_PRR_kwDODtfaXs7SVxjL",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14559",
-    "occured_at": "2025-12-03T09:13:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14559#pullrequestreview-3533971056",
-    "text": "Clean up: Remove view toggle from PK, AD, CID list views",
+    "title": "Changes requested on PR #14561",
+    "occured_at": "2025-12-02T08:47:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14561#pullrequestreview-3528923339",
+    "text": "Fixed auto slot selection in appointment question",
     "points": null,
     "meta": {}
   },
@@ -1041,28 +1096,6 @@
     "occured_at": "2025-12-01T17:58:40.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14548#pullrequestreview-3526328521",
     "text": "fix: Remove-AlertDialog-for-individual-removal-of-favourites-in-ValueSetSelect",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14670",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14670",
-    "occured_at": "2025-12-08T10:43:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14670",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7Tsrc3",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14670",
-    "occured_at": "2025-12-08T12:03:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3551704887",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
     "points": null,
     "meta": {}
   }
