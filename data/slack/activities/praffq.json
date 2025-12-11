@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-01-28_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-27T22:34:55.993Z",
+    "link": null,
+    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-18_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -95,6 +106,17 @@
     "occured_at": "2025-05-12T09:02:39.620Z",
     "link": null,
     "text": "12 May <br>• Completed RBAC apis<br>• Solved some bug with api on the template PR<br>Next <br>• Get started on the next sprint issue<br>• Resolve a bug on template api",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-17_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-17T06:27:25.120Z",
+    "link": null,
+    "text": "15th 16th and 17th Jan<br>• Went through the questionnaire viewsets and validations<br>• Completed the test cases for questionnaire viewset and value validations while submitting<br>Next -<br>• Go through the swagger documentation and learn how it work with drf",
     "points": null,
     "meta": null
   },
@@ -352,17 +374,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-28_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-27T22:34:55.993Z",
-    "link": null,
-    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-22_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -535,17 +546,6 @@
     "occured_at": "2024-12-03T16:59:39.139Z",
     "link": null,
     "text": "December 3 -<br>Done- <br>• Completed and Raised the PR for the cookie cutter boiler plate.<br>• Resolved comments on a PR<br>• Tried to load data from a older pg dump to test migration issue in camera but was facing some issues and was stuck on them for whole time.<br>Next -<br>• Resolve the issue with data loading and check the migration issue.<br>• Get clarification on PR comments and resolve them as well.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-17_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-17T06:27:25.120Z",
-    "link": null,
-    "text": "15th 16th and 17th Jan<br>• Went through the questionnaire viewsets and validations<br>• Completed the test cases for questionnaire viewset and value validations while submitting<br>Next -<br>• Go through the swagger documentation and learn how it work with drf",
     "points": null,
     "meta": null
   },

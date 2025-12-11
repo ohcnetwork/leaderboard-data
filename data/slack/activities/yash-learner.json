@@ -165,6 +165,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-30_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-30T08:27:16.292Z",
+    "link": null,
+    "text": "<strong>December 27</strong><br>• Had a call with Khavin and later made a note of small things/things  that need to wired and which require some backend changes.<br>• Had a call with Aravind and update the levels order for Care course from backend.<br>• Worked on Labs wire some and refactored some code.<br><strong>December 30</strong><br>• Tried adding my small hand by fixing couple of small design &amp; UI issues from Todo Canvas.<br>• Had a call with Anagha regarding some queries.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -282,6 +293,17 @@
     "occured_at": "2025-02-10T04:24:29.651Z",
     "link": null,
     "text": "<strong>Feb 07</strong><br>• Had a call with Bodhi regarding the review of PF GSoC application and quick discussion on VTA, Labs, MFA and misc.<br>• Made some changes based on discussion with Bodhi to PF GSoC application.<br>• Enabled VTA for WD201 from M1 to M9, re-ran VTA for all the old submissions and added analysis to the sheet.<br><strong>Next</strong><br>• Engg review call.<br>• Submit PF GSoC application. <br>• Think some ideas for OHC GSoC.<br>• MFA.<br>• Enable VTA for remaining",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-09_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-08T21:13:29.942Z",
+    "link": null,
+    "text": "<strong>July 8th</strong><br>• Fixing things on Labs, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;since=2025-07-08&amp;until=2025-07-08\">[1]</a>.<br>• Discussions with Amjith and Aakash <span class=\"s-emoji\">☝️</span>.<br>• Tuesday&#x27;s call.<br>Next<br>• Getting labs merged.<br>• DPG review call.",
     "points": null,
     "meta": null
   },
@@ -484,17 +506,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-12-30_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-30T08:27:16.292Z",
-    "link": null,
-    "text": "<strong>December 27</strong><br>• Had a call with Khavin and later made a note of small things/things  that need to wired and which require some backend changes.<br>• Had a call with Aravind and update the levels order for Care course from backend.<br>• Worked on Labs wire some and refactored some code.<br><strong>December 30</strong><br>• Tried adding my small hand by fixing couple of small design &amp; UI issues from Todo Canvas.<br>• Had a call with Anagha regarding some queries.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-04-02_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -579,17 +590,6 @@
     "occured_at": "2025-02-07T04:48:06.031Z",
     "link": null,
     "text": "<strong>Feb 06</strong><br>• Created contributor guidance page for PF GSoC.<br>• Sync with Suma.<br>• Looked into the <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1738846303637179?thread_ts=1738846303.637179&amp;amp;cid=C010GQC5UE9\">query</a> from Aditya and replied.<br>• Made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/10456\">PR</a> for improving UX when verifying Patient year verification Dialog component<br>• Back to MFA after a long time, started to getting BE working and spent a lot time on this <a href=\"https://github.com/ohcnetwork/care/pull/2816#issuecomment-2641108936\">error</a>.<br><strong>Next</strong><br>• Sync with Bodhi on review of PF GSoC application and wrap it.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-09_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-08T21:13:29.942Z",
-    "link": null,
-    "text": "<strong>July 8th</strong><br>• Fixing things on Labs, <a href=\"https://github.com/ohcnetwork/care_fe/commits/labs-v2/?author=yash-learner&amp;since=2025-07-08&amp;until=2025-07-08\">[1]</a>.<br>• Discussions with Amjith and Aakash <span class=\"s-emoji\">☝️</span>.<br>• Tuesday&#x27;s call.<br>Next<br>• Getting labs merged.<br>• DPG review call.",
     "points": null,
     "meta": null
   },
@@ -825,6 +825,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-28_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-28T05:19:20.909Z",
+    "link": null,
+    "text": "<strong>May 27</strong><br>• Looked into all pending GDC support emails and debugged <code>8</code> different issues across different targets and courses submissions and replied to each of them.<br>• Huddle and discussions with Amjith.<br>• Wired the <code>issued_date</code> and re-wired it after BE changing it from date to datetime.<br>• Update the <code>invoice_activity</code> timeline to use <code>issued_dated</code> to represent timeline accurately across different statutes.<br>• Testing some things and reporting those tiny bugs back to Vignesh<br>• Tuesday weekly call.<br>• Re-reviewed the Aditya&#x27;s PR#12035.<br>• Replied to some questions on Slack.<br>• Quick brief sync with Suma regarding some aspects of GDC.<br><strong>Next</strong><br>• Long debugging sessions with Abhimanyu on different things.<br>• DPG review call.<br>• Reply to GDC support emails and to Suma&#x27;s question.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-19_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -964,17 +975,6 @@
     "occured_at": "2025-05-15T21:02:08.143Z",
     "link": null,
     "text": "<strong>May 15</strong><br>• Brought back old tab style for valusetselect on labs-v2.<br>• Huddle with Muneer, regarding   <a href=\"https://github.com/ohcnetwork/care_fe/issues/11946\">issues#11946</a>. tried bunch of things but couldn&#x27;t fix that issue.<br>• Fixed  the payload that being sent when product is selected in <code>EntitySelectionSheet</code>.<br>• Matched the account list with figma design and fixed tiny issue with status select.<br>• Huddles with Amjith.<br>• Sometime on GDC things.<br><strong>Next</strong><br>• Match UI for account show and invoice show <br>• GDC",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-28_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-28T05:19:20.909Z",
-    "link": null,
-    "text": "<strong>May 27</strong><br>• Looked into all pending GDC support emails and debugged <code>8</code> different issues across different targets and courses submissions and replied to each of them.<br>• Huddle and discussions with Amjith.<br>• Wired the <code>issued_date</code> and re-wired it after BE changing it from date to datetime.<br>• Update the <code>invoice_activity</code> timeline to use <code>issued_dated</code> to represent timeline accurately across different statutes.<br>• Testing some things and reporting those tiny bugs back to Vignesh<br>• Tuesday weekly call.<br>• Re-reviewed the Aditya&#x27;s PR#12035.<br>• Replied to some questions on Slack.<br>• Quick brief sync with Suma regarding some aspects of GDC.<br><strong>Next</strong><br>• Long debugging sessions with Abhimanyu on different things.<br>• DPG review call.<br>• Reply to GDC support emails and to Suma&#x27;s question.",
     "points": null,
     "meta": null
   },
@@ -1668,6 +1668,17 @@
     "occured_at": "2025-12-08T17:26:47.939Z",
     "link": null,
     "text": "<strong>December 08</strong><br>• Updated the email template in automation.<br>• Ran the automation for Karnataka, couldn&#x27;t get the automation to work with csv on time so Rohith submitted those responses again.<br>• Huddle and discussion with Sona and Rohith on above.<br>• Built a make automation for removing accessing of test candidates to facilities after test and tested it.<br>• Updated some data for already processed records.<br>• Engg review call.<br>• Fixed the automation to run with csv and tested it.<br>• Huddle with Rohith on new scenario of running test for Jharkhand.<br>• Made changes in automation flow for Jharkhand flow and tested it.<br><strong>Next</strong><br>• Update the email template for Jharkhand initial flow and test it along with Rohith.<br>• Get the evaluations as well in Make <br>• Look into my open PR&#x27;s",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-10_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-10T16:11:09.086Z",
+    "link": null,
+    "text": "<strong>December 09</strong><br>• Huddle with Rohith for testing the automation flow for Jharkhand screening step 1.<br>• Monitoring the automation for sometime after email sent out.<br>• Worked on building make automation task evaluations for  Care SE &amp;amp; coordinators hire and testing it.<br>• Huddles and discussion with Rohith.<br>• Huddle with Sam regarding Vimeo video upload issue he was facing with LMS.<br>• Looked into it and made a <a href=\"https://github.com/pupilfirst/pupilfirst/pull/1707\">PR</a>, but Bodhi suggested use youtube upload.<br><strong>Next</strong><br>• Wrap up evaluations and Jharkhand screening step 2 make automations.<br>• Sync with Rohith.<br>• Clear merge conflicts and address changes on my open PR&#x27;s.<br>",
     "points": null,
     "meta": null
   }
