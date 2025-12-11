@@ -1,16 +1,5 @@
 [
   {
-    "slug": "eod_update_2025-01-28_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-27T22:34:55.993Z",
-    "link": null,
-    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-18_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -18,6 +7,17 @@
     "occured_at": "2024-11-18T10:34:43.363Z",
     "link": null,
     "text": "18th November<br>Done -<br>• Finalising the work on plugin, had a meeting with Rithvik and Khavin , was able to successfully separate and install the camera as a plugin.<br>Next -<br>• Will be adding signals to plugin for validations<br>• Start working on the data migration , from core app to plugin",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-28_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-27T22:34:55.993Z",
+    "link": null,
+    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
     "points": null,
     "meta": null
   },
@@ -484,6 +484,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-10_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-09T23:26:43.584Z",
+    "link": null,
+    "text": "9 Jan<br>• Raised PR for fixed permission issue bug in symptom and diagnosis.<br>• Completed with the testcases , just stuck with one bug which I&#x27;m trying to solve.<br>Next -<br>• Fix the bug with testcases and raise  the PR for review<br>• Go through questionnaire api and understand it&#x27;s flow",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-11_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-11T01:49:17.454Z",
+    "link": null,
+    "text": "10th Jan<br>• resolved bugs and reviews on symptom test Pr and got that merged.<br>Next -<br>• Complete Diagnosis viewset test\n\n11th Jan<br>• Completed test cases for Diagnosis viewset<br>Next<br>• Go through the questionnaire bits and start with it&#x27;s test cases",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-28_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -667,28 +689,6 @@
     "occured_at": "2025-01-04T00:12:03.407Z",
     "link": null,
     "text": "3rd Jan 2024<br>• Fixed my sms PR as per the comments<br>• Synced with Yaswanth regarding the MFA issue.<br>Next<br>• raise a PR for - <a href=\"https://github.com/ohcnetwork/care/issues/2699\">https://github.com/ohcnetwork/care/issues/2699</a><br>• Go through the EMR implementation docs.<br>• Understand the new pydantic way of handling things in Django (never saw pydantic used with django like this , so learning something new :marioluigidancing: )",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-10_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-09T23:26:43.584Z",
-    "link": null,
-    "text": "9 Jan<br>• Raised PR for fixed permission issue bug in symptom and diagnosis.<br>• Completed with the testcases , just stuck with one bug which I&#x27;m trying to solve.<br>Next -<br>• Fix the bug with testcases and raise  the PR for review<br>• Go through questionnaire api and understand it&#x27;s flow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-11_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-11T01:49:17.454Z",
-    "link": null,
-    "text": "10th Jan<br>• resolved bugs and reviews on symptom test Pr and got that merged.<br>Next -<br>• Complete Diagnosis viewset test\n\n11th Jan<br>• Completed test cases for Diagnosis viewset<br>Next<br>• Go through the questionnaire bits and start with it&#x27;s test cases",
     "points": null,
     "meta": null
   },

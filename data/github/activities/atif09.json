@@ -198,28 +198,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14358",
-    "contributor": "atif09",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14358",
-    "occured_at": "2025-11-14T21:00:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14358",
-    "text": "Misaligned 'Private Hospital' badge on hover",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14358_atif09",
-    "contributor": "atif09",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14358 assigned",
-    "occured_at": "2025-12-04T05:46:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14358",
-    "text": "Misaligned 'Private Hospital' badge on hover",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#14526_IC_kwDODtfaXs7Xfb65",
     "contributor": "atif09",
     "activity_definition": "comment_created",
@@ -282,6 +260,28 @@
     "occured_at": "2025-11-23T08:50:59.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14475",
     "text": "Fix: allow clearing tag description field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14358",
+    "contributor": "atif09",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14358",
+    "occured_at": "2025-11-14T21:00:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14358",
+    "text": "Misaligned 'Private Hospital' badge on hover",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14358_atif09",
+    "contributor": "atif09",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14358 assigned",
+    "occured_at": "2025-12-04T05:46:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14358",
+    "text": "Misaligned 'Private Hospital' badge on hover",
     "points": null,
     "meta": {}
   },
@@ -352,6 +352,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#14634",
+    "contributor": "atif09",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14634",
+    "occured_at": "2025-12-11T07:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14634",
+    "text": "Fix: Align facility type tooltip closer to the badge text",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14634_COMMENTED_PRR_kwDODtfaXs7UBNnD",
     "contributor": "atif09",
     "activity_definition": "pr_reviewed",
@@ -359,6 +370,61 @@
     "occured_at": "2025-12-09T12:11:10.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14634#pullrequestreview-3557087683",
     "text": "Fix: Align facility type tooltip closer to the badge text",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_fix/redirect-back-to-encounter-page_69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "contributor": "atif09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix/redirect-back-to-encounter-page",
+    "occured_at": "2025-12-11T07:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "text": "Fix: Align facility type tooltip closer to the badge text (#14634)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_manyu/fix/14674_69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "contributor": "atif09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to manyu/fix/14674",
+    "occured_at": "2025-12-11T07:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "text": "Fix: Align facility type tooltip closer to the badge text (#14634)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_cleanup-inventory-create_69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "contributor": "atif09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to cleanup-inventory-create",
+    "occured_at": "2025-12-11T07:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "text": "Fix: Align facility type tooltip closer to the badge text (#14634)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_manyu/fix/14421_69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "contributor": "atif09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to manyu/fix/14421",
+    "occured_at": "2025-12-11T07:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "text": "Fix: Align facility type tooltip closer to the badge text (#14634)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/all-dependencies-(patch)_69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "contributor": "atif09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/all-dependencies-(patch)",
+    "occured_at": "2025-12-11T07:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/69f1ceb17bfd23b2025eae00856a26e6a7ffe607",
+    "text": "Fix: Align facility type tooltip closer to the badge text (#14634)",
     "points": null,
     "meta": {}
   }

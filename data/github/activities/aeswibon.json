@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care#888",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #888",
+    "occured_at": "2022-06-26T16:10:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/888",
+    "text": "Fixed created_by field in patient log",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#3144",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #3144",
+    "occured_at": "2022-07-15T11:01:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3144",
+    "text": "modify : bed management",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#2757",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2757",
+    "occured_at": "2022-06-23T09:32:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2757",
+    "text": "Fixed PatientURL",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#4573",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #4573",
+    "occured_at": "2023-01-13T03:21:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/4573",
+    "text": "fix: Discharging patients",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care#940",
     "contributor": "aeswibon",
     "activity_definition": "issue_closed",
@@ -183,50 +227,6 @@
     "occured_at": "2022-10-19T04:22:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/3783",
     "text": "Add stale action",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#888",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #888",
-    "occured_at": "2022-06-26T16:10:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/888",
-    "text": "Fixed created_by field in patient log",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#3144",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #3144",
-    "occured_at": "2022-07-15T11:01:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3144",
-    "text": "modify : bed management",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2757",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2757",
-    "occured_at": "2022-06-23T09:32:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2757",
-    "text": "Fixed PatientURL",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#4573",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #4573",
-    "occured_at": "2023-01-13T03:21:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/4573",
-    "text": "fix: Discharging patients",
     "points": null,
     "meta": {}
   },
@@ -634,6 +634,17 @@
     "occured_at": "2023-06-15T17:07:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2738",
     "text": "Changes to be made in the consultation form : Add Health Details",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#3448",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3448",
+    "occured_at": "2022-08-20T18:56:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3448",
+    "text": "Fixed: Facility page showing features multiple times",
     "points": null,
     "meta": {}
   },
@@ -1393,17 +1404,6 @@
     "occured_at": "2022-08-29T20:42:42.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/3472#pullrequestreview-1089331143",
     "text": "Fixed UI issues on Assets and External Results page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#3448",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3448",
-    "occured_at": "2022-08-20T18:56:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3448",
-    "text": "Fixed: Facility page showing features multiple times",
     "points": null,
     "meta": {}
   },
@@ -2200,6 +2200,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#4001",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #4001",
+    "occured_at": "2023-07-20T07:05:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/4001",
+    "text": "Predated Log Updates",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1589_COMMENTED_PRR_kwDODsgdF85lgdk7",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -2581,17 +2592,6 @@
     "occured_at": "2024-03-19T14:09:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/7439",
     "text": "Bug: Unable to select any other date when trying to administer the prescription in past",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#4001",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #4001",
-    "occured_at": "2023-07-20T07:05:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/4001",
-    "text": "Predated Log Updates",
     "points": null,
     "meta": {}
   },
@@ -7513,6 +7513,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#2932",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2932",
+    "occured_at": "2022-06-28T06:57:10.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2932",
+    "text": "Fixed re-admission of the patient",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3035_APPROVED_PRR_kwDODtfaXs49eyAo",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -7861,17 +7872,6 @@
     "occured_at": "2022-06-28T13:33:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2940#pullrequestreview-1021747885",
     "text": "Fix success text when sending a sample",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#2932",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2932",
-    "occured_at": "2022-06-28T06:57:10.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2932",
-    "text": "Fixed re-admission of the patient",
     "points": null,
     "meta": {}
   },
@@ -8602,6 +8602,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#2722_APPROVED_PRR_kwDODtfaXs48YWPe",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #2722",
+    "occured_at": "2022-06-21T06:15:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2722#pullrequestreview-1013015518",
+    "text": "404 page displayed on logout fixed",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#2791_APPROVED_PRR_kwDODtfaXs48YWJf",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -8928,17 +8939,6 @@
     "occured_at": "2022-06-21T06:15:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2724#pullrequestreview-1013015298",
     "text": "add non-binary gender type to constants",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#2722_APPROVED_PRR_kwDODtfaXs48YWPe",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #2722",
-    "occured_at": "2022-06-21T06:15:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2722#pullrequestreview-1013015518",
-    "text": "404 page displayed on logout fixed",
     "points": null,
     "meta": {}
   },
@@ -9324,6 +9324,17 @@
     "occured_at": "2023-05-03T22:22:15.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/1146",
     "text": "Allow custom page limit for different pages",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#931",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #931",
+    "occured_at": "2022-07-18T15:29:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/931",
+    "text": "Fixed malfunction in facility creation",
     "points": null,
     "meta": {}
   },
@@ -10897,17 +10908,6 @@
     "occured_at": "2022-07-18T17:45:21.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/932#pullrequestreview-1042254065",
     "text": "Updated script to add units for inventory",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#931",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #931",
-    "occured_at": "2022-07-18T15:29:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/931",
-    "text": "Fixed malfunction in facility creation",
     "points": null,
     "meta": {}
   },
