@@ -396,6 +396,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-11_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-11T13:22:30.368Z",
+    "link": null,
+    "text": "<strong>10th December</strong><br>• Added flow status filter<br>• Added create lab order component in the frontend<br>• Had couple of Syncs with Yaswanth<br><strong>11th December</strong><br>• Wired labs module till basic flow (from creating lab order to adding result) (still few things be polished)<br>• Reviewed Jacob&#x27;s User Management redesign PR<br>• Interviewed 4 candidates for Hub Admin along with Gigin, Aparna and few from field team<br>• Had a Sync with Yashwant to create a demo and cleanup<br><strong>Next</strong><br>• Work on rest of the labs flow (pathologist review)<br>• Randomly stumbled on Panel Hierarchy and LOINC forms, should check if they can be used for mapping lab order and observations to be recorded<br>• Review tanstack query migration",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-25_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -502,17 +513,6 @@
     "occured_at": "2025-11-27T06:04:29.638Z",
     "link": null,
     "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-11_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-11T13:22:30.368Z",
-    "link": null,
-    "text": "<strong>10th December</strong><br>• Added flow status filter<br>• Added create lab order component in the frontend<br>• Had couple of Syncs with Yaswanth<br><strong>11th December</strong><br>• Wired labs module till basic flow (from creating lab order to adding result) (still few things be polished)<br>• Reviewed Jacob&#x27;s User Management redesign PR<br>• Interviewed 4 candidates for Hub Admin along with Gigin, Aparna and few from field team<br>• Had a Sync with Yashwant to create a demo and cleanup<br><strong>Next</strong><br>• Work on rest of the labs flow (pathologist review)<br>• Randomly stumbled on Panel Hierarchy and LOINC forms, should check if they can be used for mapping lab order and observations to be recorded<br>• Review tanstack query migration",
     "points": null,
     "meta": null
   },
@@ -678,6 +678,17 @@
     "occured_at": "2025-12-08T02:24:57.192Z",
     "link": null,
     "text": "Dec 4:<br>• Added HFR APIs in the backend<br>Dec 5:<br>• Quick huddle with Aakash regarding sentry issues<br>• Went through sentry and marked the already resolved issues<br>• Updated the bed unavailable icons<br>• Fixed tab switching issue in the files encounter tab",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-12_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-12T01:27:32.040Z",
+    "link": null,
+    "text": "Dec 9:<br>• Multiple calls with James regarding various things (hfr name change for jnims, suitable pos devices)<br>• Went through HFR APIs to change name but couldn&#x27;t find them, raised a request in ABDM<br>• Huddle with Prafful going over ABDM<br>• Started fixing errors in fhir transformers<br>Dec 10:<br>• Removed old dependencies from abdm<br>• Fixed most of the sentry errors regarding fhir bundling in ABDM<br>Dec 11:<br>• Quick huddle with Rohit on payment gateway integration<br>• Quick huddle with Aakash on squashing abdm migrations<br>• Fixed usage of old models in migrations, squashed migrations <br>• Went through Pinelabs docs to see how similar are they to Razorpay<br>Next:<br>• Raise a request to ABDM support regarding issue with enabling scan and pay<br>• Test scan and pay flow fully and fix any issues",
     "points": null,
     "meta": null
   }

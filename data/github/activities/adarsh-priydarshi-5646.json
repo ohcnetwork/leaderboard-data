@@ -1067,17 +1067,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14654_COMMENTED_PRR_kwDODtfaXs7Tr2TB",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14654",
-    "occured_at": "2025-12-08T11:12:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14654#pullrequestreview-3551487169",
-    "text": "Fix: Clear validation errors when switching contact point types in Add Device form",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14656_CHANGES_REQUESTED_PRR_kwDODtfaXs7UGO6r",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
@@ -1166,13 +1155,145 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14721",
+    "slug": "issue_assigned_care_fe#14606_adarsh-priydarshi-5646",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14606 assigned",
+    "occured_at": "2025-12-04T07:47:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14606",
+    "text": "\"Current location\" text shown in both current and newly planned location",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14714_IC_kwDODtfaXs7ZCG5U",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14714",
+    "occured_at": "2025-12-11T10:13:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14714#issuecomment-3641208404",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14633",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14633",
+    "occured_at": "2025-12-04T14:43:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14633",
+    "text": "Fix: Show \"Planned Location\" for future locations instead of \"Current Location\"",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14670",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14670",
+    "occured_at": "2025-12-08T10:43:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14670",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7Tsrc3",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14670",
+    "occured_at": "2025-12-08T12:03:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3551704887",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7UZQPr",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14670",
+    "occured_at": "2025-12-10T16:19:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3563389931",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7UlqQr",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14670",
+    "occured_at": "2025-12-11T09:59:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3566642219",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_602961c045d195f50132290f59ef0435ab046320",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2025-12-10T14:51:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/602961c045d195f50132290f59ef0435ab046320",
+    "text": "Clean up: Remove view toggle from PK, AD, CID list views (#14559)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2025-12-10T08:12:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "text": "feat: Add prefix, suffix and last name in Manage Care Team (#14564)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_Sudheendra_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to Sudheendra",
+    "occured_at": "2025-12-10T08:12:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "text": "feat: Add prefix, suffix and last name in Manage Care Team (#14564)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_Sudheendra_602961c045d195f50132290f59ef0435ab046320",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to Sudheendra",
+    "occured_at": "2025-12-10T14:51:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/602961c045d195f50132290f59ef0435ab046320",
+    "text": "Clean up: Remove view toggle from PK, AD, CID list views (#14559)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14742",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "issue_opened",
-    "title": "Opened issue #14721",
-    "occured_at": "2025-12-11T15:15:48.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14721",
-    "text": "fix: LocationImport.tsx missing internationalization (i18n) support",
+    "title": "Opened issue #14742",
+    "occured_at": "2025-12-12T11:32:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14742",
+    "text": "Fix: Hardcoded toast messages should use i18n translations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14744",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14744",
+    "occured_at": "2025-12-12T11:36:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14744",
+    "text": "Fix: Replace `any` types with proper TypeScript types in Auth components",
     "points": null,
     "meta": {}
   },
@@ -1199,6 +1320,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#14721",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14721",
+    "occured_at": "2025-12-11T15:15:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14721",
+    "text": "fix: LocationImport.tsx missing internationalization (i18n) support",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#14720_adarsh-priydarshi-5646",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "issue_assigned",
@@ -1210,13 +1342,24 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14606_adarsh-priydarshi-5646",
+    "slug": "comment_created_care_fe#14744_IC_kwDODtfaXs7ZU4K1",
     "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14606 assigned",
-    "occured_at": "2025-12-04T07:47:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14606",
-    "text": "\"Current location\" text shown in both current and newly planned location",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14744",
+    "occured_at": "2025-12-12T11:36:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14744#issuecomment-3646128821",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14742_IC_kwDODtfaXs7ZU1W3",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14742",
+    "occured_at": "2025-12-12T11:33:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14742#issuecomment-3646117303",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -1320,17 +1463,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#14714_IC_kwDODtfaXs7ZCG5U",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14714",
-    "occured_at": "2025-12-11T10:13:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14714#issuecomment-3641208404",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14723",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_opened",
@@ -1338,6 +1470,39 @@
     "occured_at": "2025-12-11T16:22:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14723",
     "text": "Fix: Remove console.log statements from production code",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14429_COMMENTED_PRR_kwDODtfaXs7UbWo6",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14429",
+    "occured_at": "2025-12-10T18:26:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14429#pullrequestreview-3563940410",
+    "text": "Fix custom error message in Record Payment form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14654_COMMENTED_PRR_kwDODtfaXs7Tr2TB",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14654",
+    "occured_at": "2025-12-08T11:12:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14654#pullrequestreview-3551487169",
+    "text": "Fix: Clear validation errors when switching contact point types in Add Device form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14728_COMMENTED_PRR_kwDODtfaXs7U0P__",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14728",
+    "occured_at": "2025-12-12T06:16:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14728#pullrequestreview-3570466815",
+    "text": "i18n(input): translate hardcoded input placeholders to t()",
     "points": null,
     "meta": {}
   },
@@ -1408,76 +1573,21 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14633",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14633",
-    "occured_at": "2025-12-04T14:43:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14633",
-    "text": "Fix: Show \"Planned Location\" for future locations instead of \"Current Location\"",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14670",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14670",
-    "occured_at": "2025-12-08T10:43:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14670",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7Tsrc3",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14670",
-    "occured_at": "2025-12-08T12:03:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3551704887",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7UZQPr",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14670",
-    "occured_at": "2025-12-10T16:19:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3563389931",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14670_COMMENTED_PRR_kwDODtfaXs7UlqQr",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14670",
-    "occured_at": "2025-12-11T09:59:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14670#pullrequestreview-3566642219",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14429_COMMENTED_PRR_kwDODtfaXs7UbWo6",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14429",
-    "occured_at": "2025-12-10T18:26:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14429#pullrequestreview-3563940410",
-    "text": "Fix custom error message in Record Payment form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_issues/14296/add-tests-for-service-request_602961c045d195f50132290f59ef0435ab046320",
+    "slug": "commit_created_med-req-create-presc_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "commit_created",
-    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "title": "Pushed commit to med-req-create-presc",
+    "occured_at": "2025-12-10T08:12:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "text": "feat: Add prefix, suffix and last name in Manage Care Team (#14564)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_med-req-create-presc_602961c045d195f50132290f59ef0435ab046320",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to med-req-create-presc",
     "occured_at": "2025-12-10T14:51:29.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/602961c045d195f50132290f59ef0435ab046320",
     "text": "Clean up: Remove view toggle from PK, AD, CID list views (#14559)",
@@ -1485,10 +1595,10 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_issues/14296/add-tests-for-service-request_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "slug": "commit_created_fix-encounter-list-type_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "commit_created",
-    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "title": "Pushed commit to fix-encounter-list-type",
     "occured_at": "2025-12-10T08:12:55.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
     "text": "feat: Add prefix, suffix and last name in Manage Care Team (#14564)",
@@ -1496,21 +1606,10 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_Sudheendra_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "slug": "commit_created_fix-encounter-list-type_602961c045d195f50132290f59ef0435ab046320",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "commit_created",
-    "title": "Pushed commit to Sudheendra",
-    "occured_at": "2025-12-10T08:12:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
-    "text": "feat: Add prefix, suffix and last name in Manage Care Team (#14564)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_Sudheendra_602961c045d195f50132290f59ef0435ab046320",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to Sudheendra",
+    "title": "Pushed commit to fix-encounter-list-type",
     "occured_at": "2025-12-10T14:51:29.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/602961c045d195f50132290f59ef0435ab046320",
     "text": "Clean up: Remove view toggle from PK, AD, CID list views (#14559)",
