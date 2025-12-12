@@ -1,5 +1,38 @@
 [
   {
+    "slug": "eod_update_2022-07-11_shivankacker",
+    "contributor": "shivankacker",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-07-11T06:41:40.407Z",
+    "link": null,
+    "text": "worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/3100\">https://github.com/ohcnetwork/care_fe/pull/3100</a>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-10_shivankacker",
+    "contributor": "shivankacker",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-10T05:54:37.759Z",
+    "link": null,
+    "text": "Set up care_fe locally, solving some line ending warnings",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-24_shivankacker",
+    "contributor": "shivankacker",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-24T06:30:39.557Z",
+    "link": null,
+    "text": "24 March<br>• Weekly eng sync<br>• reviewed and merged PRs<br>• Worked on adding a time of death structured question<br>• Made a small fix for the file upload structured question",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-05-18_shivankacker",
     "contributor": "shivankacker",
     "activity_definition": "eod_update",
@@ -84,39 +117,6 @@
     "occured_at": "2025-08-06T07:19:02.688Z",
     "link": null,
     "text": "Aug 6th<br>• Talked with Sam and Amrutha about some scribe Feeback<br>• Reviewed Scribe Metabase Dashboards by DS interns<br>• Updated the cleanups PR to include migrations removing old Scribe Flags.<br>• Made a quick PR to fix scrolling issue in Scribe TNC dialogue on small phones.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-07-11_shivankacker",
-    "contributor": "shivankacker",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-07-11T06:41:40.407Z",
-    "link": null,
-    "text": "worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/3100\">https://github.com/ohcnetwork/care_fe/pull/3100</a>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-10_shivankacker",
-    "contributor": "shivankacker",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-10T05:54:37.759Z",
-    "link": null,
-    "text": "Set up care_fe locally, solving some line ending warnings",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-24_shivankacker",
-    "contributor": "shivankacker",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-24T06:30:39.557Z",
-    "link": null,
-    "text": "24 March<br>• Weekly eng sync<br>• reviewed and merged PRs<br>• Worked on adding a time of death structured question<br>• Made a small fix for the file upload structured question",
     "points": null,
     "meta": null
   },
@@ -396,6 +396,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-11_shivankacker",
+    "contributor": "shivankacker",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-10T22:30:55.199Z",
+    "link": null,
+    "text": "10 Feb 2024<br>• Added a confirmation popup before marking an encounter as complete<br>• Explored on sending audio directly to the gpt4 audio preview model, experienced some hiccups. Kept that aside.<br>• Worked on adding OCR support for scribe<br>• Engineering review meeting<br>Next<br>• Finish Scribe OCR<br>• Look into workarounds for using json in gpt-4-audio-preview",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_shivankacker",
     "contributor": "shivankacker",
     "activity_definition": "eod_update",
@@ -557,17 +568,6 @@
     "occured_at": "2025-11-06T19:55:42.045Z",
     "link": null,
     "text": "Nov 6<br>• Made changes to previous PRs, minor changes to Scribe Cleanups (finally merged)\n\nNov 6<br>• Made changes to previous PRs, minor changes to Scribe Cleanups (finally merged)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-11_shivankacker",
-    "contributor": "shivankacker",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-10T22:30:55.199Z",
-    "link": null,
-    "text": "10 Feb 2024<br>• Added a confirmation popup before marking an encounter as complete<br>• Explored on sending audio directly to the gpt4 audio preview model, experienced some hiccups. Kept that aside.<br>• Worked on adding OCR support for scribe<br>• Engineering review meeting<br>Next<br>• Finish Scribe OCR<br>• Look into workarounds for using json in gpt-4-audio-preview",
     "points": null,
     "meta": null
   },

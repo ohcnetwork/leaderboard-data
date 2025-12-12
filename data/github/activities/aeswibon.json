@@ -1,38 +1,5 @@
 [
   {
-    "slug": "pr_merged_care#888",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #888",
-    "occured_at": "2022-06-26T16:10:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/888",
-    "text": "Fixed created_by field in patient log",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#3144",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #3144",
-    "occured_at": "2022-07-15T11:01:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3144",
-    "text": "modify : bed management",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2757",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2757",
-    "occured_at": "2022-06-23T09:32:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2757",
-    "text": "Fixed PatientURL",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#4573",
     "contributor": "aeswibon",
     "activity_definition": "pr_opened",
@@ -106,6 +73,39 @@
     "occured_at": "2022-06-06T19:04:27.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/827",
     "text": "Update to Postgres",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#888",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #888",
+    "occured_at": "2022-06-26T16:10:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/888",
+    "text": "Fixed created_by field in patient log",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#3144",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #3144",
+    "occured_at": "2022-07-15T11:01:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3144",
+    "text": "modify : bed management",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#2757",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2757",
+    "occured_at": "2022-06-23T09:32:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2757",
+    "text": "Fixed PatientURL",
     "points": null,
     "meta": {}
   },
@@ -7788,6 +7788,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care#1166",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1166",
+    "occured_at": "2023-01-29T09:25:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1166",
+    "text": "Predated Log Updates",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#2961_COMMENTED_PRR_kwDODtfaXs49MrBi",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -8136,17 +8147,6 @@
     "occured_at": "2022-06-25T13:17:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2897#pullrequestreview-1019307782",
     "text": "Revamped patient details page UI",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#1166",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1166",
-    "occured_at": "2023-01-29T09:25:55.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1166",
-    "text": "Predated Log Updates",
     "points": null,
     "meta": {}
   },
