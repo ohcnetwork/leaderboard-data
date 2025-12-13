@@ -1,5 +1,60 @@
 [
   {
+    "slug": "issue_closed_care_fe#7906",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #7906",
+    "occured_at": "2024-05-28T11:06:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/7906",
+    "text": "APL/BPL for patients",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#10474",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #10474",
+    "occured_at": "2025-02-07T07:26:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/10474",
+    "text": "FHIR Immunization",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#4580",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #4580",
+    "occured_at": "2023-01-14T07:09:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/4580",
+    "text": "Form Fields are cogested",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#8213",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #8213",
+    "occured_at": "2024-07-31T04:22:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8213",
+    "text": "Events module: Advise",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2064",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2064",
+    "occured_at": "2024-04-08T15:55:20.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2064",
+    "text": "Merge Develop into Staging",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_life-data#6",
     "contributor": "khavinshankar",
     "activity_definition": "pr_merged",
@@ -216,61 +271,6 @@
     "occured_at": "2022-10-20T13:24:52.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/3738",
     "text": "Cleanup Dependencies",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2064",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2064",
-    "occured_at": "2024-04-08T15:55:20.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2064",
-    "text": "Merge Develop into Staging",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#7906",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #7906",
-    "occured_at": "2024-05-28T11:06:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/7906",
-    "text": "APL/BPL for patients",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#10474",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #10474",
-    "occured_at": "2025-02-07T07:26:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/10474",
-    "text": "FHIR Immunization",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#4580",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #4580",
-    "occured_at": "2023-01-14T07:09:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/4580",
-    "text": "Form Fields are cogested",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#8213",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #8213",
-    "occured_at": "2024-07-31T04:22:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8213",
-    "text": "Events module: Advise",
     "points": null,
     "meta": {}
   },
@@ -6215,6 +6215,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#3679",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3679",
+    "occured_at": "2022-10-01T08:47:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3679",
+    "text": "show audio files in the patient dashboard files",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#6113_APPROVED_PRR_kwDODtfaXs5e0YHO",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -6563,17 +6574,6 @@
     "occured_at": "2022-12-01T13:15:42.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/4110#pullrequestreview-1200967405",
     "text": "Fix query params not preserved between views",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#3679",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3679",
-    "occured_at": "2022-10-01T08:47:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3679",
-    "text": "show audio files in the patient dashboard files",
     "points": null,
     "meta": {}
   },
@@ -6930,6 +6930,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care#2312_IC_kwDODsgdF86GuExX",
+    "contributor": "khavinshankar",
+    "activity_definition": "comment_created",
+    "title": "Commented on #2312",
+    "occured_at": "2024-07-31T10:46:28.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2312#issuecomment-2260225111",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3019_APPROVED_PRR_kwDODtfaXs4-V7nn",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -7277,6 +7288,17 @@
     "title": "Commented on #2506",
     "occured_at": "2024-11-22T00:48:22.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2506#issuecomment-2492646410",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#2190_IC_kwDODsgdF86AFua1",
+    "contributor": "khavinshankar",
+    "activity_definition": "comment_created",
+    "title": "Commented on #2190",
+    "occured_at": "2024-06-05T06:30:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2190#issuecomment-2148984501",
     "text": null,
     "points": null,
     "meta": {}
@@ -7651,28 +7673,6 @@
     "title": "Commented on #1490",
     "occured_at": "2024-08-20T15:55:40.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/1490#issuecomment-2299195716",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#2312_IC_kwDODsgdF86GuExX",
-    "contributor": "khavinshankar",
-    "activity_definition": "comment_created",
-    "title": "Commented on #2312",
-    "occured_at": "2024-07-31T10:46:28.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2312#issuecomment-2260225111",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#2190_IC_kwDODsgdF86AFua1",
-    "contributor": "khavinshankar",
-    "activity_definition": "comment_created",
-    "title": "Commented on #2190",
-    "occured_at": "2024-06-05T06:30:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2190#issuecomment-2148984501",
     "text": null,
     "points": null,
     "meta": {}
@@ -9966,6 +9966,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#10530",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #10530",
+    "occured_at": "2024-03-15T14:46:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/10530",
+    "text": "Whatsapp bot for CARE",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#11504",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -10336,17 +10347,6 @@
     "occured_at": "2025-02-25T12:57:25.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10695",
     "text": "Bugs in valueset page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#10530",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #10530",
-    "occured_at": "2024-03-15T14:46:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/10530",
-    "text": "Whatsapp bot for CARE",
     "points": null,
     "meta": {}
   },
@@ -11491,6 +11491,17 @@
     "occured_at": "2024-10-09T10:34:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/8687",
     "text": "Implement Camera Permission Handling and User Media Notifications indication",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#5083",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #5083",
+    "occured_at": "2023-03-13T09:09:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/5083",
+    "text": "Update/Assign bed dropdown",
     "points": null,
     "meta": {}
   },
@@ -21622,17 +21633,6 @@
     "occured_at": "2023-03-13T10:05:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/4934",
     "text": "Replace Material UI components in `src/Components/Common/Loading.tsx`:",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#5083",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #5083",
-    "occured_at": "2023-03-13T09:09:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/5083",
-    "text": "Update/Assign bed dropdown",
     "points": null,
     "meta": {}
   },
@@ -32912,6 +32912,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#8666_IC_kwDODtfaXs6On_mb",
+    "contributor": "khavinshankar",
+    "activity_definition": "comment_created",
+    "title": "Commented on #8666",
+    "occured_at": "2024-10-04T05:25:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8666#issuecomment-2392848795",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#1690_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "issue_assigned",
@@ -33275,13 +33286,13 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#8666_IC_kwDODtfaXs6On_mb",
+    "slug": "pr_opened_care_fe#7559",
     "contributor": "khavinshankar",
-    "activity_definition": "comment_created",
-    "title": "Commented on #8666",
-    "occured_at": "2024-10-04T05:25:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8666#issuecomment-2392848795",
-    "text": null,
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #7559",
+    "occured_at": "2024-04-07T04:41:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7559",
+    "text": "Fix code climate",
     "points": null,
     "meta": {}
   },
@@ -36377,6 +36388,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#7873",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #7873",
+    "occured_at": "2024-05-21T11:45:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7873",
+    "text": "Show standardized labels for patient categorization",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#7269",
     "contributor": "khavinshankar",
     "activity_definition": "pr_opened",
@@ -36692,17 +36714,6 @@
     "occured_at": "2025-03-03T06:24:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10546#pullrequestreview-2653161449",
     "text": "Fix Button Overflow and Minor Responsive Issues on Mobile View",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#7559",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #7559",
-    "occured_at": "2024-04-07T04:41:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7559",
-    "text": "Fix code climate",
     "points": null,
     "meta": {}
   },
@@ -37708,17 +37719,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#7873",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #7873",
-    "occured_at": "2024-05-21T11:45:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7873",
-    "text": "Show standardized labels for patient categorization",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#8460",
     "contributor": "khavinshankar",
     "activity_definition": "pr_opened",
@@ -38408,6 +38408,17 @@
     "occured_at": "2024-11-12T00:13:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9047#pullrequestreview-2428352929",
     "text": "fixes dropdown click events issue",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#5700",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #5700",
+    "occured_at": "2023-06-16T04:49:10.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5700",
+    "text": "removed mui usage in CriticalCare__Switch",
     "points": null,
     "meta": {}
   },
@@ -39717,17 +39728,6 @@
     "occured_at": "2024-09-25T09:08:20.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8617#pullrequestreview-2327652001",
     "text": "Merge Develop to Staging v24.40.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#5700",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #5700",
-    "occured_at": "2023-06-16T04:49:10.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5700",
-    "text": "removed mui usage in CriticalCare__Switch",
     "points": null,
     "meta": {}
   },
@@ -41690,6 +41690,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#8067",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8067",
+    "occured_at": "2024-06-20T09:48:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8067",
+    "text": "Cleanup daily round type text mapping",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#8223_APPROVED_PRR_kwDODtfaXs6DrLF7",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -42005,6 +42016,17 @@
     "occured_at": "2024-07-12T13:42:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8145#pullrequestreview-2174918798",
     "text": "Fixes oxygen flow rate not getting submitted in Critical Care",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#7956_APPROVED_PRR_kwDODtfaXs59HQgr",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #7956",
+    "occured_at": "2024-06-05T12:54:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7956#pullrequestreview-2099054635",
+    "text": "Handle wrong links in consultation form",
     "points": null,
     "meta": {}
   },
@@ -42339,17 +42361,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#8067",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8067",
-    "occured_at": "2024-06-20T09:48:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8067",
-    "text": "Cleanup daily round type text mapping",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#8068_APPROVED_PRR_kwDODtfaXs5-9Y8A",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -42676,17 +42687,6 @@
     "occured_at": "2024-06-05T12:56:25.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7726#pullrequestreview-2099060492",
     "text": "Fix QR code error notification",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#7956_APPROVED_PRR_kwDODtfaXs59HQgr",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #7956",
-    "occured_at": "2024-06-05T12:54:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7956#pullrequestreview-2099054635",
-    "text": "Handle wrong links in consultation form",
     "points": null,
     "meta": {}
   },
@@ -43633,6 +43633,17 @@
     "occured_at": "2024-05-14T22:39:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7816#pullrequestreview-2056585880",
     "text": "fixes: #7813. Removed COVID Status and added Last Discharged Reason with better alignment in Patient details page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#5473",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #5473",
+    "occured_at": "2023-05-18T06:05:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5473",
+    "text": "Added support for hcx communication",
     "points": null,
     "meta": {}
   },
@@ -44594,6 +44605,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#6687_APPROVED_PRR_kwDODtfaXs5okqG4",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #6687",
+    "occured_at": "2023-11-29T04:37:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6687#pullrequestreview-1754440120",
+    "text": "Hide KASP Advance Filter",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#7666_APPROVED_PRR_kwDODtfaXs53_SzE",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -44920,6 +44942,17 @@
     "occured_at": "2024-04-09T09:15:59.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7517#pullrequestreview-1988538347",
     "text": "Fixed scroll overlay in medicine dashboard ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#1765",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1765",
+    "occured_at": "2021-09-15T19:24:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/1765",
+    "text": "fixed `should have a unique key prop` issues",
     "points": null,
     "meta": {}
   },
@@ -45573,17 +45606,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#6687_APPROVED_PRR_kwDODtfaXs5okqG4",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #6687",
-    "occured_at": "2023-11-29T04:37:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6687#pullrequestreview-1754440120",
-    "text": "Hide KASP Advance Filter",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#7313_APPROVED_PRR_kwDODtfaXs5xw-zr",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -45910,6 +45932,17 @@
     "occured_at": "2023-03-17T16:20:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/5122",
     "text": "added insurer id and name as plain text field when hcx disabled",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#7163_APPROVED_PRR_kwDODtfaXs5wBKBA",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #7163",
+    "occured_at": "2024-02-14T04:47:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7163#pullrequestreview-1879351360",
+    "text": "Increase the Add button height in skills slideover.",
     "points": null,
     "meta": {}
   },
@@ -46244,17 +46277,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#7163_APPROVED_PRR_kwDODtfaXs5wBKBA",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #7163",
-    "occured_at": "2024-02-14T04:47:48.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7163#pullrequestreview-1879351360",
-    "text": "Increase the Add button height in skills slideover.",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#7190_APPROVED_PRR_kwDODtfaXs5wBJzv",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -46570,6 +46592,17 @@
     "occured_at": "2024-02-06T19:37:10.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7133#pullrequestreview-1866168065",
     "text": "Fix: Disable add counsultations button when patient is discharged",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#6415_APPROVED_PRR_kwDODtfaXs5jbKZp",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #6415",
+    "occured_at": "2023-10-10T15:05:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6415#pullrequestreview-1668064873",
+    "text": "Optimize lodash. Fixes #6006",
     "points": null,
     "meta": {}
   },
@@ -48873,13 +48906,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#6415_APPROVED_PRR_kwDODtfaXs5jbKZp",
+    "slug": "pr_opened_care_fe#2600",
     "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #6415",
-    "occured_at": "2023-10-10T15:05:42.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6415#pullrequestreview-1668064873",
-    "text": "Optimize lodash. Fixes #6006",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2600",
+    "occured_at": "2022-05-31T16:12:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2600",
+    "text": "Fixed the review alert",
     "points": null,
     "meta": {}
   },
@@ -49199,6 +49232,17 @@
     "occured_at": "2022-10-28T08:31:27.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/3844",
     "text": "Show bed field while creation in ConsultationForm",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#6000_APPROVED_PRR_kwDODtfaXs5dKPQy",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #6000",
+    "occured_at": "2023-08-04T14:15:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6000#pullrequestreview-1562965042",
+    "text": "Fix Price Type Error",
     "points": null,
     "meta": {}
   },
@@ -50457,6 +50501,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#1963",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1963",
+    "occured_at": "2021-11-13T07:22:10.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/1963",
+    "text": "changed getFacility to getFacilityV2 in Assets",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#6440_APPROVED_PRR_kwDODtfaXs5lMOnp",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -50761,6 +50816,17 @@
     "occured_at": "2023-10-04T04:32:40.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/6375#pullrequestreview-1656649061",
     "text": "Added cam auto reset in asset config page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#1136",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1136",
+    "occured_at": "2022-12-24T10:10:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1136",
+    "text": "Make middleware_hostname optional",
     "points": null,
     "meta": {}
   },
@@ -51392,6 +51458,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#5352_APPROVED_PRR_kwDODtfaXs5S-4zg",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #5352",
+    "occured_at": "2023-04-19T14:31:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5352#pullrequestreview-1392217312",
+    "text": "Fixed Issue 5350",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#6251_APPROVED_PRR_kwDODtfaXs5gkDpD",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -52019,6 +52096,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#5999_APPROVED_PRR_kwDODtfaXs5db1C8",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #5999",
+    "occured_at": "2023-08-08T15:27:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5999#pullrequestreview-1567576252",
+    "text": "Adds generalized validator `PhoneNumberValidator`",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#6076_APPROVED_PRR_kwDODtfaXs5d-nL9",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -52323,28 +52411,6 @@
     "occured_at": "2023-08-04T14:14:32.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/6002#pullrequestreview-1562963179",
     "text": "Fix vitals non-waveform content overflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#6000_APPROVED_PRR_kwDODtfaXs5dKPQy",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #6000",
-    "occured_at": "2023-08-04T14:15:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6000#pullrequestreview-1562965042",
-    "text": "Fix Price Type Error",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#5999_APPROVED_PRR_kwDODtfaXs5db1C8",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #5999",
-    "occured_at": "2023-08-08T15:27:37.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5999#pullrequestreview-1567576252",
-    "text": "Adds generalized validator `PhoneNumberValidator`",
     "points": null,
     "meta": {}
   },
@@ -53317,6 +53383,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#5657_APPROVED_PRR_kwDODtfaXs5YzZD6",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #5657",
+    "occured_at": "2023-06-21T06:37:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5657#pullrequestreview-1489867002",
+    "text": "Tailwinds `ManagePatients.tsx`",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#5792_APPROVED_PRR_kwDODtfaXs5ZzrfU",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -53973,17 +54050,6 @@
     "occured_at": "2023-06-21T06:52:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/5658#pullrequestreview-1489892544",
     "text": "Tailwinds `SampleTestCard.tsx`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#5657_APPROVED_PRR_kwDODtfaXs5YzZD6",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #5657",
-    "occured_at": "2023-06-21T06:37:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5657#pullrequestreview-1489867002",
-    "text": "Tailwinds `ManagePatients.tsx`",
     "points": null,
     "meta": {}
   },
@@ -54945,28 +55011,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#5473",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #5473",
-    "occured_at": "2023-05-18T06:05:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5473",
-    "text": "Added support for hcx communication",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#5352_APPROVED_PRR_kwDODtfaXs5S-4zg",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #5352",
-    "occured_at": "2023-04-19T14:31:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5352#pullrequestreview-1392217312",
-    "text": "Fixed Issue 5350",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#5469_APPROVED_PRR_kwDODtfaXs5VZrug",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -55920,17 +55964,6 @@
     "occured_at": "2023-04-06T10:29:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/5206#pullrequestreview-1374562959",
     "text": "Add severity category sort options",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#1765",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1765",
-    "occured_at": "2021-09-15T19:24:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/1765",
-    "text": "fixed `should have a unique key prop` issues",
     "points": null,
     "meta": {}
   },
@@ -57207,6 +57240,17 @@
     "occured_at": "2023-02-22T01:50:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/4819#pullrequestreview-1308404661",
     "text": "fix: Enhancement of the patient doctor connect",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1136",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1136",
+    "occured_at": "2022-12-24T10:22:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1136",
+    "text": "Make middleware_hostname optional",
     "points": null,
     "meta": {}
   },
@@ -58806,17 +58850,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#2600",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2600",
-    "occured_at": "2022-05-31T16:12:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2600",
-    "text": "Fixed the review alert",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#4430_APPROVED_PRR_kwDODtfaXs5JYtq4",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -59110,6 +59143,17 @@
     "occured_at": "2022-12-28T06:08:44.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/4377#pullrequestreview-1231247256",
     "text": "Fix (Sidebar): made the sidebar collapse on clicking active links",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#1133",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1133",
+    "occured_at": "2022-12-23T14:35:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1133",
+    "text": "Remove unique contraint from facility.middleware_address",
     "points": null,
     "meta": {}
   },
@@ -59759,17 +59803,6 @@
     "occured_at": "2022-12-08T04:41:06.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/4241#pullrequestreview-1209444147",
     "text": "Resolved crashing Edit Triage page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#1963",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1963",
-    "occured_at": "2021-11-13T07:22:10.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/1963",
-    "text": "changed getFacility to getFacilityV2 in Assets",
     "points": null,
     "meta": {}
   },
@@ -65318,6 +65351,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#2947",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2947",
+    "occured_at": "2022-06-30T10:18:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2947",
+    "text": "Added discharge_reason and discharge_notes in discharge modal",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3007_CHANGES_REQUESTED_PRR_kwDODtfaXs4__IHU",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -65644,17 +65688,6 @@
     "occured_at": "2022-07-06T10:03:54.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2949#pullrequestreview-1029835544",
     "text": "Removed service worker logs and replaced them with console errors",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#2947",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2947",
-    "occured_at": "2022-06-30T10:18:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2947",
-    "text": "Added discharge_reason and discharge_notes in discharge modal",
     "points": null,
     "meta": {}
   },
@@ -71104,6 +71137,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1173",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1173",
+    "occured_at": "2023-02-01T03:46:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1173",
+    "text": "fixed fetching user skills",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_leaderboard#92_APPROVED_PRR_kwDOHYGCwM5DwM8X",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -73381,50 +73425,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#1173",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1173",
-    "occured_at": "2023-02-01T03:46:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1173",
-    "text": "fixed fetching user skills",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1136",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1136",
-    "occured_at": "2022-12-24T10:10:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1136",
-    "text": "Make middleware_hostname optional",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1136",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1136",
-    "occured_at": "2022-12-24T10:22:06.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1136",
-    "text": "Make middleware_hostname optional",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1133",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1133",
-    "occured_at": "2022-12-23T14:35:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1133",
-    "text": "Remove unique contraint from facility.middleware_address",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#1133",
     "contributor": "khavinshankar",
     "activity_definition": "pr_merged",
@@ -75592,6 +75592,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_arike#102",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #102",
+    "occured_at": "2021-11-16T01:55:00.000Z",
+    "link": "https://github.com/ohcnetwork/arike/issues/102",
+    "text": "Issue with search, sort and filter in Schedule",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_life#240_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "issue_assigned",
@@ -75982,17 +75993,6 @@
     "activity_definition": "issue_opened",
     "title": "Opened issue #102",
     "occured_at": "2021-11-11T15:39:57.000Z",
-    "link": "https://github.com/ohcnetwork/arike/issues/102",
-    "text": "Issue with search, sort and filter in Schedule",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_arike#102",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #102",
-    "occured_at": "2021-11-16T01:55:00.000Z",
     "link": "https://github.com/ohcnetwork/arike/issues/102",
     "text": "Issue with search, sort and filter in Schedule",
     "points": null,
@@ -76714,6 +76714,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_fix#14648_f9047876b8ca70e12015b113fbf6b0f011a56b4c",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix#14648",
+    "occured_at": "2025-12-05T14:08:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/f9047876b8ca70e12015b113fbf6b0f011a56b4c",
+    "text": "fixed the spread order in useFilters, defaults < cache < qParams",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_7e8e38b33fd11ed40e8d8f8f98853796c10d5cec",
     "contributor": "khavinshankar",
     "activity_definition": "commit_created",
@@ -76996,17 +77007,6 @@
     "occured_at": "2025-12-05T10:13:15.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14639#issuecomment-3616187798",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_fix#14648_f9047876b8ca70e12015b113fbf6b0f011a56b4c",
-    "contributor": "khavinshankar",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to fix#14648",
-    "occured_at": "2025-12-05T14:08:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/f9047876b8ca70e12015b113fbf6b0f011a56b4c",
-    "text": "fixed the spread order in useFilters, defaults < cache < qParams",
     "points": null,
     "meta": {}
   },
@@ -77517,17 +77517,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14565",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14565",
-    "occured_at": "2025-12-01T11:32:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14565",
-    "text": "Share plug meta as props in PLUGIN_Component",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14733",
     "contributor": "khavinshankar",
     "activity_definition": "pr_opened",
@@ -77546,6 +77535,17 @@
     "occured_at": "2025-12-12T09:18:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14736",
     "text": "allow selecting nested facility even if it is already selected",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14565",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14565",
+    "occured_at": "2025-12-01T11:32:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14565",
+    "text": "Share plug meta as props in PLUGIN_Component",
     "points": null,
     "meta": {}
   }

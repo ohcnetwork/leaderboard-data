@@ -1,104 +1,5 @@
 [
   {
-    "slug": "eod_update_2022-06-04_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-04T05:29:23.583Z",
-    "link": null,
-    "text": "Worked on <a href=\"https://github.com/ohcnetwork/care/pull/811\"><a href=\"https://github.com/ohcnetwork/care/pull/811\">https://github.com/ohcnetwork/care/pull/811</a></a><br>Cleared few issues from sentry<br>Reviewed some PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-04_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-04T05:55:38.516Z",
-    "link": null,
-    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-17_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-17T06:47:25.273Z",
-    "link": null,
-    "text": "EOD 17/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• fixed edge cases with my old PR<br>• reviewed some PRs<br>What’s next ?<br>• clear out old PRs <br>• find issues to work on",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-06_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-06T04:37:08.645Z",
-    "link": null,
-    "text": "Trying to debug a wierd issue with django",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-06-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-06-21T04:43:44.120Z",
-    "link": null,
-    "text": "EOD 21/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Fixed issues on the staging deployment of django 4.2<br>• updated boto3 to the latest version along with adding static type checking for boto3 in vscode<br>• Had an onboarding call with Shahid along with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> and <span class=\"s-mention s-user\">@U02T4HFA07Q</span> <br>What&#x27;s next?<br><br>• Stabilize django 4.2 changes and get them ready for production",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-19_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-19T06:11:17.493Z",
-    "link": null,
-    "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-20T08:54:31.940Z",
-    "link": null,
-    "text": "EOD 20/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on refactoring notification handler<br>• Reviewed and updated backend backend PRs to get them to mergeable state<br>• Reviewed ABDM<br>Whats up next?<br>• Work on notification handler<br>• Fix more issues reported by sentry",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-25_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-24T20:18:37.853Z",
-    "link": null,
-    "text": "June 24<br>• Took intern interviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-21T07:41:48.338Z",
-    "link": null,
-    "text": "21st Jan<br>• Refactored the migrations to separate files<br>• Created migrations for patient_meta",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-22_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -161,6 +62,28 @@
     "occured_at": "2024-11-25T05:48:39.674Z",
     "link": null,
     "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-02_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-02T05:51:39.413Z",
+    "link": null,
+    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-31_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-30T21:23:33.111Z",
+    "link": null,
+    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
     "points": null,
     "meta": null
   },
@@ -275,24 +198,101 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-12-02_sainak",
+    "slug": "eod_update_2022-06-04_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2024-12-02T05:51:39.413Z",
+    "occured_at": "2022-06-04T05:29:23.583Z",
     "link": null,
-    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
+    "text": "Worked on <a href=\"https://github.com/ohcnetwork/care/pull/811\"><a href=\"https://github.com/ohcnetwork/care/pull/811\">https://github.com/ohcnetwork/care/pull/811</a></a><br>Cleared few issues from sentry<br>Reviewed some PRs",
     "points": null,
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-31_sainak",
+    "slug": "eod_update_2023-07-04_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-01-30T21:23:33.111Z",
+    "occured_at": "2023-07-04T05:55:38.516Z",
     "link": null,
-    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
+    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-17_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-17T06:47:25.273Z",
+    "link": null,
+    "text": "EOD 17/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• fixed edge cases with my old PR<br>• reviewed some PRs<br>What’s next ?<br>• clear out old PRs <br>• find issues to work on",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-06-06_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-06T04:37:08.645Z",
+    "link": null,
+    "text": "Trying to debug a wierd issue with django",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-06-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-06-21T04:43:44.120Z",
+    "link": null,
+    "text": "EOD 21/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Fixed issues on the staging deployment of django 4.2<br>• updated boto3 to the latest version along with adding static type checking for boto3 in vscode<br>• Had an onboarding call with Shahid along with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> and <span class=\"s-mention s-user\">@U02T4HFA07Q</span> <br>What&#x27;s next?<br><br>• Stabilize django 4.2 changes and get them ready for production",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-19_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-19T06:11:17.493Z",
+    "link": null,
+    "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-20_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-20T08:54:31.940Z",
+    "link": null,
+    "text": "EOD 20/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on refactoring notification handler<br>• Reviewed and updated backend backend PRs to get them to mergeable state<br>• Reviewed ABDM<br>Whats up next?<br>• Work on notification handler<br>• Fix more issues reported by sentry",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-25_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-24T20:18:37.853Z",
+    "link": null,
+    "text": "June 24<br>• Took intern interviews",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-21T07:41:48.338Z",
+    "link": null,
+    "text": "21st Jan<br>• Refactored the migrations to separate files<br>• Created migrations for patient_meta",
     "points": null,
     "meta": null
   },
@@ -523,7 +523,7 @@
     "title": "EOD Update",
     "occured_at": "2025-12-12T04:25:05.020Z",
     "link": null,
-    "text": "11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n12th Dec<br>• Refactored scribe",
+    "text": "11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n12th Dec<br>• Refactored scribe\n\n11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n12th Dec<br>• Refactored scribe",
     "points": null,
     "meta": null
   }

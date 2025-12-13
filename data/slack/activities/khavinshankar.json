@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-11-19_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-19T06:11:02.262Z",
+    "link": null,
+    "text": "Nov 18<br>• Went through UHI and possible integration with scheduling module<br>• gracefully handle runtime errors from plugins <a href=\"https://github.com/ohcnetwork/care_fe/pull/14422\">#14422</a><br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-28_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -513,17 +524,6 @@
     "occured_at": "2025-11-27T06:04:29.638Z",
     "link": null,
     "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-19_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-19T06:11:02.262Z",
-    "link": null,
-    "text": "Nov 18<br>• Went through UHI and possible integration with scheduling module<br>• gracefully handle runtime errors from plugins <a href=\"https://github.com/ohcnetwork/care_fe/pull/14422\">#14422</a><br>Next<br>• Complete and push scan and share using token queue<br>• Scope out UHI integration for scheduling",
     "points": null,
     "meta": null
   },
