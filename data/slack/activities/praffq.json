@@ -341,6 +341,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-19_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-19T11:23:33.048Z",
+    "link": null,
+    "text": "May 19<br>• Weekly call<br>• Trying to figure out why test in scheduling is failing ( <span class=\"s-emoji\">🙂</span> 90% sure that it&#x27;s due to different ways we are using timezone/datetime , IST in apis and UTC in test )<br>Next -<br>• Raised MR for the fix for test<br>• Separate out permissions for rescheduling",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-15_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -711,17 +722,6 @@
     "occured_at": "2025-01-31T11:13:49.133Z",
     "link": null,
     "text": "28-30 Jan<br>• Worked on completing swagger, tried multiple approach, got lot of bugs, resolved those, implemented caching, investigated inefficiencies and alot of drf-spectacular code/docs reading <span class=\"s-emoji\">🙂</span><br>• Reading FHIR docs for quantity and some other specs to familiarizing myself with docs and understanding how to read them :melting_face: . <br>31 Jan<br>• Going through the location viewset, starting out with some testcases.<br>Next -<br>• Complete the location viewset testing with 90+ coverage",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-19_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-19T11:23:33.048Z",
-    "link": null,
-    "text": "May 19<br>• Weekly call<br>• Trying to figure out why test in scheduling is failing ( <span class=\"s-emoji\">🙂</span> 90% sure that it&#x27;s due to different ways we are using timezone/datetime , IST in apis and UTC in test )<br>Next -<br>• Raised MR for the fix for test<br>• Separate out permissions for rescheduling",
     "points": null,
     "meta": null
   },
