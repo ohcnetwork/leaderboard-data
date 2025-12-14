@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2024-10-30_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-10-30T05:08:13.913Z",
+    "link": null,
+    "text": "30 Oct 2024<br><br>Going through Redis docs and how it works with django  since a lot of issues involves it. Will be picking them up after diwali break.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-10_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -7,6 +18,17 @@
     "occured_at": "2024-12-09T20:16:13.632Z",
     "link": null,
     "text": "December 9<br>• No updates due to end sem exam.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-20_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-20T08:08:54.514Z",
+    "link": null,
+    "text": "Nov 18 and Nov 19<br>• Attended DPG call<br>• Going through the templating docs for jinja, to understand how can multi level nesting can be applied for templates",
     "points": null,
     "meta": null
   },
@@ -286,17 +308,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-10-30_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-10-30T05:08:13.913Z",
-    "link": null,
-    "text": "30 Oct 2024<br><br>Going through Redis docs and how it works with django  since a lot of issues involves it. Will be picking them up after diwali break.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-05_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -495,6 +506,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-08_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-08T11:28:11.226Z",
+    "link": null,
+    "text": "Dec 4<br>• investigating on deadlock more, trying to reproduce the cause (some success)<br>Dec 5<br>• PR for adding options workflow to the template create and preview endpoint in reports",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-10_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -682,6 +704,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-01_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-01T06:41:56.582Z",
+    "link": null,
+    "text": "Nov 25 and Nov 26<br>• Completed reports PR but it got rewritten :melting_face: <br>• Updated apis to work with the new report workflow and understanding the flow of the new implementation<br>• Raised PR for existing todos and some cleanup<br>• Few reveiws<br>Next<br>• Review open PRs <br>• discuss and get new tasks assigned",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-29_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -843,39 +876,6 @@
     "occured_at": "2025-11-11T20:32:19.235Z",
     "link": null,
     "text": "Nov 11<br>• Worked on the fixing reviews for existing PR <br>Next<br>• Will be on leaves till 17th (Monday)\n\nNov 11<br>• Worked on the fixing reviews for existing PR <br>Next<br>• Will be on leaves till 17th (Monday)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-20_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-20T08:08:54.514Z",
-    "link": null,
-    "text": "Nov 18 and Nov 19<br>• Attended DPG call<br>• Going through the templating docs for jinja, to understand how can multi level nesting can be applied for templates",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-01_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-01T06:41:56.582Z",
-    "link": null,
-    "text": "Nov 25 and Nov 26<br>• Completed reports PR but it got rewritten :melting_face: <br>• Updated apis to work with the new report workflow and understanding the flow of the new implementation<br>• Raised PR for existing todos and some cleanup<br>• Few reveiws<br>Next<br>• Review open PRs <br>• discuss and get new tasks assigned",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-08_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-08T11:28:11.226Z",
-    "link": null,
-    "text": "Dec 4<br>• investigating on deadlock more, trying to reproduce the cause (some success)<br>Dec 5<br>• PR for adding options workflow to the template create and preview endpoint in reports",
     "points": null,
     "meta": null
   }

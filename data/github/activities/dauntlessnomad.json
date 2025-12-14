@@ -1,71 +1,5 @@
 [
   {
-    "slug": "pr_opened_care#386",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #386",
-    "occured_at": "2020-06-12T18:46:31.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/386",
-    "text": "Fixes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_stay_fe#35",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #35",
-    "occured_at": "2020-04-15T18:51:41.000Z",
-    "link": "https://github.com/ohcnetwork/stay_fe/pull/35",
-    "text": "Revert \"Ajil\"",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#328",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #328",
-    "occured_at": "2020-06-19T20:25:14.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/328",
-    "text": "Test",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#320",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #320",
-    "occured_at": "2020-06-19T14:47:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/320",
-    "text": "Code Cleanups and Refactoring",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#1020",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1020",
-    "occured_at": "2021-05-05T20:38:24.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/1020",
-    "text": "Production Release",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#113",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #113",
-    "occured_at": "2020-03-28T14:37:06.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/113",
-    "text": "Changes to User",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#187",
     "contributor": "dauntlessnomad",
     "activity_definition": "pr_opened",
@@ -469,6 +403,72 @@
     "occured_at": "2020-03-25T11:59:25.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/67",
     "text": "deploy",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#386",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #386",
+    "occured_at": "2020-06-12T18:46:31.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/386",
+    "text": "Fixes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_stay_fe#35",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #35",
+    "occured_at": "2020-04-15T18:51:41.000Z",
+    "link": "https://github.com/ohcnetwork/stay_fe/pull/35",
+    "text": "Revert \"Ajil\"",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#328",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #328",
+    "occured_at": "2020-06-19T20:25:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/328",
+    "text": "Test",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#320",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #320",
+    "occured_at": "2020-06-19T14:47:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/320",
+    "text": "Code Cleanups and Refactoring",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#1020",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1020",
+    "occured_at": "2021-05-05T20:38:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/1020",
+    "text": "Production Release",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#113",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #113",
+    "occured_at": "2020-03-28T14:37:06.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/113",
+    "text": "Changes to User",
     "points": null,
     "meta": {}
   },
@@ -4169,6 +4169,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#337",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #337",
+    "occured_at": "2020-08-05T22:43:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/337",
+    "text": "Add unique Id's for date picker's in create patients form",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#709",
     "contributor": "dauntlessnomad",
     "activity_definition": "issue_closed",
@@ -4561,17 +4572,6 @@
     "occured_at": "2020-08-05T22:58:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/306",
     "text": "Remove question of SARI",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#337",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #337",
-    "occured_at": "2020-08-05T22:43:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/337",
-    "text": "Add unique Id's for date picker's in create patients form",
     "points": null,
     "meta": {}
   },
@@ -6233,6 +6233,17 @@
     "occured_at": "2020-08-15T14:08:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/525",
     "text": "Patch Release",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#722",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #722",
+    "occured_at": "2022-04-21T18:45:04.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/722",
+    "text": "Changes ci",
     "points": null,
     "meta": {}
   },
@@ -8026,6 +8037,17 @@
     "occured_at": "2020-07-09T13:51:58.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/420#pullrequestreview-445636840",
     "text": "Dropdown for Testing facility Name",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#722",
+    "contributor": "dauntlessnomad",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #722",
+    "occured_at": "2022-04-21T18:45:13.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/722",
+    "text": "Changes ci",
     "points": null,
     "meta": {}
   },
@@ -10149,28 +10171,6 @@
     "occured_at": "2022-05-05T17:52:14.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/733",
     "text": "Update deployment.yaml",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#722",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #722",
-    "occured_at": "2022-04-21T18:45:04.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/722",
-    "text": "Changes ci",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#722",
-    "contributor": "dauntlessnomad",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #722",
-    "occured_at": "2022-04-21T18:45:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/722",
-    "text": "Changes ci",
     "points": null,
     "meta": {}
   },

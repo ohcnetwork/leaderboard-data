@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2022-08-31_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-08-31T04:29:31.220Z",
+    "link": null,
+    "text": "Updated asset manage page and warranty card",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-09-19_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-19T04:43:36.185Z",
+    "link": null,
+    "text": "tailwinding <a href=\"https://github.com/ohcnetwork/care_fe/issues/3594\">https://github.com/ohcnetwork/care_fe/issues/3594</a> :)",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-09-21_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -187,17 +209,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2022-09-19_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-19T04:43:36.185Z",
-    "link": null,
-    "text": "tailwinding <a href=\"https://github.com/ohcnetwork/care_fe/issues/3594\">https://github.com/ohcnetwork/care_fe/issues/3594</a> :)",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2022-12-06_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -205,17 +216,6 @@
     "occured_at": "2022-12-06T07:06:17.300Z",
     "link": null,
     "text": "Made a PR: <a href=\"https://github.com/ohcnetwork/care_fe/pull/4238\">Migrate leaked unicons to CareIcons</a>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-08-31_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-08-31T04:29:31.220Z",
-    "link": null,
-    "text": "Updated asset manage page and warranty card",
     "points": null,
     "meta": null
   },
@@ -814,6 +814,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-07-07_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-07T06:43:14.674Z",
+    "link": null,
+    "text": "<strong>EOD 07/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Mostly benchmarking medibase and killing many workers : ) <br>• Debugging memory leak in medibase with <span class=\"s-mention s-usergroup\">^@care_engineering</span>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-10-01_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1034,6 +1045,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-10-12_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-10-12T03:49:14.335Z",
+    "link": null,
+    "text": "• Shows facility cover photo in facility home (<a href=\"https://deploy-preview-3528--care-net.netlify.app/facility/eeb23cb7-1524-479a-825e-660311386b47\">preview</a>) and edit as per discussed permissions.<br>• Made <code>MultiSelectMenuV2</code> tailwind component, coming via <a href=\"https://github.com/ohcnetwork/care_fe/pull/3744\">Patient Filters redesign PR.</a>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-09-02_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1232,17 +1254,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2022-10-12_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-10-12T03:49:14.335Z",
-    "link": null,
-    "text": "• Shows facility cover photo in facility home (<a href=\"https://deploy-preview-3528--care-net.netlify.app/facility/eeb23cb7-1524-479a-825e-660311386b47\">preview</a>) and edit as per discussed permissions.<br>• Made <code>MultiSelectMenuV2</code> tailwind component, coming via <a href=\"https://github.com/ohcnetwork/care_fe/pull/3744\">Patient Filters redesign PR.</a>",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2023-03-08_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1404,17 +1415,6 @@
     "occured_at": "2022-11-28T03:11:00.870Z",
     "link": null,
     "text": "• Followed up: <a href=\"https://github.com/ohcnetwork/care_fe/pull/3959\">Fixes issues in Facility Card&#x27;s layout and minor UI tweaks</a><br>• Resolved conflicts: <a href=\"https://github.com/ohcnetwork/care_fe/pull/3996\">Adds Slideover tailwind component + UI tweaks in Notification List + Adds asset class filter</a><br>• Made a PR: <a href=\"https://github.com/ohcnetwork/care_fe/pull/4142\">Remove pages and components used under <code>/teleicu/...</code></a>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-07_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-07T06:43:14.674Z",
-    "link": null,
-    "text": "<strong>EOD 07/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Mostly benchmarking medibase and killing many workers : ) <br>• Debugging memory leak in medibase with <span class=\"s-mention s-usergroup\">^@care_engineering</span>",
     "points": null,
     "meta": null
   },

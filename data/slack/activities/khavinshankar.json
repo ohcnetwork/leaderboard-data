@@ -506,6 +506,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-08_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-08T02:24:57.192Z",
+    "link": null,
+    "text": "Dec 4:<br>• Added HFR APIs in the backend<br>Dec 5:<br>• Quick huddle with Aakash regarding sentry issues<br>• Went through sentry and marked the already resolved issues<br>• Updated the bed unavailable icons<br>• Fixed tab switching issue in the files encounter tab",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-09_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -667,17 +678,6 @@
     "occured_at": "2025-12-04T04:38:25.645Z",
     "link": null,
     "text": "Dec 2:<br>• Went through all abdm sentry issues in teleicu and ka instance <br>    ◦ resolved old data issues<br>    ◦ resolved couple small validation issues<br>    ◦ working on restructuring retry care context task to avoid soft time limit exceeding<br>Dec 3:<br>• Fixed issue with required validation <a href=\"https://github.com/ohcnetwork/care/pull/3393\">#3393</a><br>• Fixed facility cache issue in the frontend <a href=\"https://github.com/ohcnetwork/care_fe/pull/14603\">#14603</a><br>• Cleared out suggestions on my existing PR<br>• Synced phr branch with develop",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-08_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-08T02:24:57.192Z",
-    "link": null,
-    "text": "Dec 4:<br>• Added HFR APIs in the backend<br>Dec 5:<br>• Quick huddle with Aakash regarding sentry issues<br>• Went through sentry and marked the already resolved issues<br>• Updated the bed unavailable icons<br>• Fixed tab switching issue in the files encounter tab",
     "points": null,
     "meta": null
   },
