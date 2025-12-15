@@ -33,6 +33,39 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-20_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-20T06:46:28.781Z",
+    "link": null,
+    "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-06-05_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-05T06:25:26.923Z",
+    "link": null,
+    "text": "Nothing for today, worked on improving the performance of my laptop&#x27;s kernel",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-26_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-25T22:57:46.483Z",
+    "link": null,
+    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-20_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -315,39 +348,6 @@
     "occured_at": "2023-07-13T08:33:23.437Z",
     "link": null,
     "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-20T06:46:28.781Z",
-    "link": null,
-    "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-05_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-05T06:25:26.923Z",
-    "link": null,
-    "text": "Nothing for today, worked on improving the performance of my laptop&#x27;s kernel",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-25T22:57:46.483Z",
-    "link": null,
-    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
     "points": null,
     "meta": null
   },

@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2022-05-19_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-19T02:59:02.472Z",
+    "link": null,
+    "text": "<span class=\"s-mention s-user\">@U01JB8L8P7Y</span> has joined the channel",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-18_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -29,17 +40,6 @@
     "occured_at": "2025-11-28T04:45:25.168Z",
     "link": null,
     "text": "Nov 27:<br>• huddle with the team to fix abdm migration issue in ka<br>• quick huddle with Rithvik to go over automated daily rounds in middleware<br>• setup csno finder<br>• tried to build an interface between care and csno server (partially done)<br>Next:<br>• finish the csno care interface<br>• scope and test abdm M4 apis",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-19_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-19T02:59:02.472Z",
-    "link": null,
-    "text": "<span class=\"s-mention s-user\">@U01JB8L8P7Y</span> has joined the channel",
     "points": null,
     "meta": null
   },
@@ -689,6 +689,17 @@
     "occured_at": "2025-12-12T01:27:32.040Z",
     "link": null,
     "text": "Dec 9:<br>• Multiple calls with James regarding various things (hfr name change for jnims, suitable pos devices)<br>• Went through HFR APIs to change name but couldn&#x27;t find them, raised a request in ABDM<br>• Huddle with Prafful going over ABDM<br>• Started fixing errors in fhir transformers<br>Dec 10:<br>• Removed old dependencies from abdm<br>• Fixed most of the sentry errors regarding fhir bundling in ABDM<br>Dec 11:<br>• Quick huddle with Rohit on payment gateway integration<br>• Quick huddle with Aakash on squashing abdm migrations<br>• Fixed usage of old models in migrations, squashed migrations <br>• Went through Pinelabs docs to see how similar are they to Razorpay<br>Next:<br>• Raise a request to ABDM support regarding issue with enabling scan and pay<br>• Test scan and pay flow fully and fix any issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-15_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-15T06:12:18.315Z",
+    "link": null,
+    "text": "Dec 12:<br>• Worked on couple of issue assigned by Nihal<br>    ◦ <a href=\"https://github.com/ohcnetwork/care_fe/pull/14736\">https://github.com/ohcnetwork/care_fe/pull/14736</a><br>    ◦ <a href=\"https://github.com/ohcnetwork/care_fe/pull/14733\">https://github.com/ohcnetwork/care_fe/pull/14733</a><br>• Had a call with pinelabs folks regarding possiblity of using pinelabs as payment gateway<br>• Went through the pinelabs guide for payment gateway and pos integration",
     "points": null,
     "meta": null
   }

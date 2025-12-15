@@ -1,5 +1,71 @@
 [
   {
+    "slug": "pr_opened_care#62",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #62",
+    "occured_at": "2020-03-22T14:28:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/62",
+    "text": "Adds lat long to facility",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#165",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #165",
+    "occured_at": "2020-03-29T07:10:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/165",
+    "text": "Auth changes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#128",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #128",
+    "occured_at": "2020-03-27T09:40:34.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/128",
+    "text": "Map patients to facilities",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#307",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #307",
+    "occured_at": "2020-04-11T15:20:42.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/307",
+    "text": "Add new API for auto-fill of ICMR form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#165",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #165",
+    "occured_at": "2020-03-29T08:49:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/165",
+    "text": "Auth changes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#101",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #101",
+    "occured_at": "2020-03-29T06:24:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/101",
+    "text": "Restrict patients to only owners",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#129",
     "contributor": "afzalIbnSH",
     "activity_definition": "pr_opened",
@@ -304,72 +370,6 @@
     "occured_at": "2020-03-29T07:05:57.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/148",
     "text": "Patient history documentation is wrong",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#101",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #101",
-    "occured_at": "2020-03-29T06:24:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/101",
-    "text": "Restrict patients to only owners",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#62",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #62",
-    "occured_at": "2020-03-22T14:28:26.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/62",
-    "text": "Adds lat long to facility",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#165",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #165",
-    "occured_at": "2020-03-29T07:10:26.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/165",
-    "text": "Auth changes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#128",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #128",
-    "occured_at": "2020-03-27T09:40:34.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/128",
-    "text": "Map patients to facilities",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#307",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #307",
-    "occured_at": "2020-04-11T15:20:42.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/307",
-    "text": "Add new API for auto-fill of ICMR form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#165",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #165",
-    "occured_at": "2020-03-29T08:49:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/165",
-    "text": "Auth changes",
     "points": null,
     "meta": {}
   },
@@ -1199,6 +1199,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#96",
+    "contributor": "afzalIbnSH",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #96",
+    "occured_at": "2020-03-25T10:40:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/96",
+    "text": "Facility upsert: Fixes adding location",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care#120_afzalIbnSH",
     "contributor": "afzalIbnSH",
     "activity_definition": "issue_assigned",
@@ -1591,17 +1602,6 @@
     "occured_at": "2020-03-25T16:05:29.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/97#issuecomment-603928547",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#96",
-    "contributor": "afzalIbnSH",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #96",
-    "occured_at": "2020-03-25T10:40:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/96",
-    "text": "Facility upsert: Fixes adding location",
     "points": null,
     "meta": {}
   },
