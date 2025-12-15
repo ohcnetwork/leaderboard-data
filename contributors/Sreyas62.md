@@ -1,11 +1,13 @@
 ---
 name: Sreyas M Pillai
-role: contributor
-title: Contributor
+role: intern
+title: Intern
 avatar_url: https://avatars.githubusercontent.com/Sreyas62
-meta: {}
+joining_date: '2025-12-01'
+meta:
+  slack_user_id: U090FFLN0P8
 social_profiles:
   github: https://github.com/Sreyas62
+  linkedin: https://www.linkedin.com/in/sreyasmpillai
+  slack: https://rebuildearth.slack.com/team/U090FFLN0P8
 ---
-
-Still waiting for this
