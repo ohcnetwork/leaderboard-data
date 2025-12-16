@@ -1,16 +1,5 @@
 [
   {
-    "slug": "pr_merged_care#3379",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3379",
-    "occured_at": "2025-11-25T15:58:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3379",
-    "text": "adding validation for facility name",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#2434",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -106,6 +95,17 @@
     "occured_at": "2025-01-29T13:04:13.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2790",
     "text": "Adding cache for swagger",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3379",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3379",
+    "occured_at": "2025-11-25T15:58:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3379",
+    "text": "adding validation for facility name",
     "points": null,
     "meta": {}
   },
@@ -1811,6 +1811,17 @@
     "occured_at": "2025-03-04T11:12:59.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2891",
     "text": "add endpoint for sync file upload",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2834",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2834",
+    "occured_at": "2025-02-17T18:00:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2834",
+    "text": "Fix for empty questionnaire title",
     "points": null,
     "meta": {}
   },
@@ -5412,17 +5423,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2834",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2834",
-    "occured_at": "2025-02-17T18:00:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2834",
-    "text": "Fix for empty questionnaire title",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#2818",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -6193,6 +6193,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_prafful/adding-reports_60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-21T09:36:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
+    "text": "cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/token_queue_20c8ce9eb4c20264372dd1d6b32147dfe450a257",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -6486,6 +6497,17 @@
     "occured_at": "2025-11-10T12:28:25.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/20c8ce9eb4c20264372dd1d6b32147dfe450a257",
     "text": "adding configrable limit to patient name (#3321)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/adding-reports_04b3257566372647c4ef5538cc8dd6c60bb5bfad",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/adding-reports",
+    "occured_at": "2025-11-21T09:30:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/04b3257566372647c4ef5538cc8dd6c60bb5bfad",
+    "text": "ai reviews",
     "points": null,
     "meta": {}
   },
@@ -6838,28 +6860,6 @@
     "occured_at": "2025-03-19T11:47:37.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2938",
     "text": "updated create password template",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_prafful/adding-reports_60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to prafful/adding-reports",
-    "occured_at": "2025-11-21T09:36:02.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/60f2854c0142ac4d0ede945f3aa5cf5e1ab2f5cb",
-    "text": "cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_prafful/adding-reports_04b3257566372647c4ef5538cc8dd6c60bb5bfad",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to prafful/adding-reports",
-    "occured_at": "2025-11-21T09:30:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/04b3257566372647c4ef5538cc8dd6c60bb5bfad",
-    "text": "ai reviews",
     "points": null,
     "meta": {}
   },
@@ -7993,6 +7993,17 @@
     "occured_at": "2025-12-14T21:44:09.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3411",
     "text": "add identifiers and tag details for patient in multiple endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_4ba70ad4ea3612d08741861f1473fc783a7d99cf",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T11:24:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4ba70ad4ea3612d08741861f1473fc783a7d99cf",
+    "text": "Completed some todos and typo (#3378)",
     "points": null,
     "meta": {}
   },
