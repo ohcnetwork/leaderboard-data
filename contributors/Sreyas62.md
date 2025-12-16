@@ -1,7 +1,7 @@
 ---
 name: Sreyas M Pillai
 role: intern
-title: Intern
+title: Full stack Intern
 avatar_url: https://avatars.githubusercontent.com/Sreyas62
 joining_date: '2025-12-01'
 meta:
