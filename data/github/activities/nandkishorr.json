@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_merged_care#3106",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3106",
+    "occured_at": "2025-09-25T14:10:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3106",
+    "text": "Test cases for User viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_odoo_be#1",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1",
+    "occured_at": "2025-11-19T08:49:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
+    "text": "Initial plugin setup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3106",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3106",
+    "occured_at": "2025-07-01T12:39:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3106",
+    "text": "Test cases for User viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3318",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -62,39 +95,6 @@
     "occured_at": "2025-11-10T12:23:25.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3067",
     "text": "Test cases for the roles api",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3106",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3106",
-    "occured_at": "2025-09-25T14:10:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3106",
-    "text": "Test cases for User viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_odoo_be#1",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1",
-    "occured_at": "2025-11-19T08:49:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
-    "text": "Initial plugin setup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3106",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3106",
-    "occured_at": "2025-07-01T12:39:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3106",
-    "text": "Test cases for User viewset",
     "points": null,
     "meta": {}
   },
@@ -1122,6 +1122,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3343",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3343",
+    "occured_at": "2025-11-04T07:45:24.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3343",
+    "text": "fix:rename internal version field to _version",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_bodhi/v2_a44fc865812301537dd495f0d7f193729fadbcc1",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -1448,17 +1459,6 @@
     "occured_at": "2025-07-14T10:47:59.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3140#issuecomment-3068935975",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3343",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3343",
-    "occured_at": "2025-11-04T07:45:24.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3343",
-    "text": "fix:rename internal version field to _version",
     "points": null,
     "meta": {}
   },
@@ -5045,6 +5045,39 @@
     "occured_at": "2025-11-17T14:32:33.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3360",
     "text": "fix:facility tag manager",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_4e77a0240127ff8a1eacb0744021e94435c5f66c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T10:30:47.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4e77a0240127ff8a1eacb0744021e94435c5f66c",
+    "text": "fix:added update pydantic model and update validation (#3234)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_cb57ee0bcac749974beea3d5ac03febe6896d5f6",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T11:24:34.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/cb57ee0bcac749974beea3d5ac03febe6896d5f6",
+    "text": "fix:save updated_by user data for custom invoice apis (#3401)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_e2f9ead2b697645950d02ea1f18d06345ca598bc",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T16:58:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/e2f9ead2b697645950d02ea1f18d06345ca598bc",
+    "text": "fix:updated slugtype size to accept uuid (#3404)",
     "points": null,
     "meta": {}
   },

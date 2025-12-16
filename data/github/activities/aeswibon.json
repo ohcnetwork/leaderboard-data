@@ -1,5 +1,60 @@
 [
   {
+    "slug": "issue_opened_care#827",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #827",
+    "occured_at": "2022-06-06T19:04:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/827",
+    "text": "Update to Postgres",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#888",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #888",
+    "occured_at": "2022-06-26T16:10:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/888",
+    "text": "Fixed created_by field in patient log",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#3144",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #3144",
+    "occured_at": "2022-07-15T11:01:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3144",
+    "text": "modify : bed management",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#2757",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2757",
+    "occured_at": "2022-06-23T09:32:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2757",
+    "text": "Fixed PatientURL",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#3114",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #3114",
+    "occured_at": "2022-07-13T21:35:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3114",
+    "text": "Netlify deploy failing",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care#930",
     "contributor": "aeswibon",
     "activity_definition": "issue_opened",
@@ -282,61 +337,6 @@
     "occured_at": "2022-05-27T05:43:39.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2546",
     "text": "Fixed DockerFile",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#827",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #827",
-    "occured_at": "2022-06-06T19:04:27.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/827",
-    "text": "Update to Postgres",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#888",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #888",
-    "occured_at": "2022-06-26T16:10:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/888",
-    "text": "Fixed created_by field in patient log",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#3144",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #3144",
-    "occured_at": "2022-07-15T11:01:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3144",
-    "text": "modify : bed management",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2757",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2757",
-    "occured_at": "2022-06-23T09:32:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2757",
-    "text": "Fixed PatientURL",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#3114",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #3114",
-    "occured_at": "2022-07-13T21:35:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3114",
-    "text": "Netlify deploy failing",
     "points": null,
     "meta": {}
   },
@@ -1100,6 +1100,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#2864",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2864",
+    "occured_at": "2022-06-24T20:57:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2864",
+    "text": "Added Mandatory Label",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#7172",
     "contributor": "aeswibon",
     "activity_definition": "pr_opened",
@@ -1470,6 +1481,17 @@
     "occured_at": "2023-02-03T03:13:48.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/4603",
     "text": "fix: Minor UI fixes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#1839_IC_kwDODsgdF850b1PC",
+    "contributor": "aeswibon",
+    "activity_definition": "comment_created",
+    "title": "Commented on #1839",
+    "occured_at": "2024-02-20T04:02:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1839#issuecomment-1953452994",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -1865,17 +1887,6 @@
     "title": "Commented on #1898",
     "occured_at": "2024-02-20T04:03:27.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1898#issuecomment-1953453414",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#1839_IC_kwDODsgdF850b1PC",
-    "contributor": "aeswibon",
-    "activity_definition": "comment_created",
-    "title": "Commented on #1839",
-    "occured_at": "2024-02-20T04:02:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1839#issuecomment-1953452994",
     "text": null,
     "points": null,
     "meta": {}
@@ -7601,6 +7612,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#2924",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2924",
+    "occured_at": "2022-06-27T12:43:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2924",
+    "text": "Added ImageCompression for FileUpload",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3031_APPROVED_PRR_kwDODtfaXs49exv7",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -7949,28 +7971,6 @@
     "occured_at": "2022-06-28T17:22:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2928#pullrequestreview-1022138591",
     "text": "Revamped Facility Page Card",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#2924",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2924",
-    "occured_at": "2022-06-27T12:43:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2924",
-    "text": "Added ImageCompression for FileUpload",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#2864",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2864",
-    "occured_at": "2022-06-24T20:57:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2864",
-    "text": "Added Mandatory Label",
     "points": null,
     "meta": {}
   },
