@@ -2343,6 +2343,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#3368",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3368",
+    "occured_at": "2025-11-25T08:38:24.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3368",
+    "text": "Updated date range filter for account api",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_supply_delivery/delivery_orders/filters_a0bfe6dda03ca06fcd65fc516d04260856eac872",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -3740,17 +3751,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#3368",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3368",
-    "occured_at": "2025-11-25T08:38:24.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3368",
-    "text": "Updated date range filter for account api",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_test/token_a05ec28c0f595ab50f293eafa264820df3f7ada2",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4565,6 +4565,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_test/fix/schedule_57201f53f1501aa960a4b61668468f7cfd6c3152",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to test/fix/schedule",
+    "occured_at": "2025-12-04T14:54:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/57201f53f1501aa960a4b61668468f7cfd6c3152",
+    "text": "fix:added healthcare location ids to sr locations (#3397)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/feat/user-and-facility-flag_96c2508590c8ed02eee7423df98df0ec471126b5",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5049,39 +5060,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_4e77a0240127ff8a1eacb0744021e94435c5f66c",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
-    "occured_at": "2025-12-09T10:30:47.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/4e77a0240127ff8a1eacb0744021e94435c5f66c",
-    "text": "fix:added update pydantic model and update validation (#3234)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_cb57ee0bcac749974beea3d5ac03febe6896d5f6",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
-    "occured_at": "2025-12-09T11:24:34.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/cb57ee0bcac749974beea3d5ac03febe6896d5f6",
-    "text": "fix:save updated_by user data for custom invoice apis (#3401)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_e2f9ead2b697645950d02ea1f18d06345ca598bc",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
-    "occured_at": "2025-12-09T16:58:27.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/e2f9ead2b697645950d02ea1f18d06345ca598bc",
-    "text": "fix:updated slugtype size to accept uuid (#3404)",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_6cb5bd054ad2b4fd54c8d0671e7bddc6caa544ba",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5111,17 +5089,6 @@
     "occured_at": "2025-12-03T11:33:49.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
     "text": "fix:updated the indentifier validation in patient api (#3364)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_test/fix/schedule_57201f53f1501aa960a4b61668468f7cfd6c3152",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to test/fix/schedule",
-    "occured_at": "2025-12-04T14:54:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/57201f53f1501aa960a4b61668468f7cfd6c3152",
-    "text": "fix:added healthcare location ids to sr locations (#3397)",
     "points": null,
     "meta": {}
   },
@@ -5254,6 +5221,39 @@
     "occured_at": "2025-12-15T06:15:41.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/6e19eb3ebe10472eed587fa37cc92db9a7cbc134",
     "text": "Merge branch 'develop' into nandkishor/fix/patient_tag_manager",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_4e77a0240127ff8a1eacb0744021e94435c5f66c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T10:30:47.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4e77a0240127ff8a1eacb0744021e94435c5f66c",
+    "text": "fix:added update pydantic model and update validation (#3234)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_cb57ee0bcac749974beea3d5ac03febe6896d5f6",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T11:24:34.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/cb57ee0bcac749974beea3d5ac03febe6896d5f6",
+    "text": "fix:save updated_by user data for custom invoice apis (#3401)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_e2f9ead2b697645950d02ea1f18d06345ca598bc",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-09T16:58:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/e2f9ead2b697645950d02ea1f18d06345ca598bc",
+    "text": "fix:updated slugtype size to accept uuid (#3404)",
     "points": null,
     "meta": {}
   }

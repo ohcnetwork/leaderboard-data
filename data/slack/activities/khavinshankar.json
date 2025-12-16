@@ -319,6 +319,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-21_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-21T01:46:54.665Z",
+    "link": null,
+    "text": "Nov 19<br>• Wrapped up scan and share using token queue<br>• Investigated the issues in the demo<br>• Went through all the flows in the PHR and noted down the issues<br>Nov 20<br>• Applied for UHI sandbox<br>• Tried out the scan and pay flow in postman<br>Next<br>• Implement the scan and pay flow",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-27_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -425,17 +436,6 @@
     "occured_at": "2024-11-24T20:19:18.166Z",
     "link": null,
     "text": "<strong>22nd November</strong><br>• Had a call with Vinu to go over the revised labs UI<br>• Worked on creating ServiceRequest model and specs<br>• Listed out todo action items for the labs module (should convert them into independent issues)<br>• Randomly Jumped into a call with Gigin, Bodhi and Uday on feasibility on merging/reworking doctor notes pr<br>• Had a call with Yaswanth discussing action items in labs module and briefly explained going through FHIR docs<br><strong>Next</strong><br>• Have another call with Vinu to finalise the UI before creating issues for frontend.<br>• Create independent issues for labs module<br>• Panned a call with Aakash (and Vignesh) to understand RBAC<br>• Look into LOINC valueset to understand how to map procedure/observation to specimen required<br>• Have a call with Yaswanth to discuss the split up development of labs module\n\n<strong>25th November</strong><br>• Looked into LOINC valueset for procedure-specimen mapping<br>• Had a short call with Yaswanth<br>• Worked on labs backend <em>(just added the models and specs (Specimen))</em><br><strong>Next</strong><br>• Sync with Yaswanth and Vinu<br>• Review and merge tested PRs<br>• Continue working on labs backend <em>(complete the flow till auto creating specimen)</em>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-21_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-21T01:46:54.665Z",
-    "link": null,
-    "text": "Nov 19<br>• Wrapped up scan and share using token queue<br>• Investigated the issues in the demo<br>• Went through all the flows in the PHR and noted down the issues<br>Nov 20<br>• Applied for UHI sandbox<br>• Tried out the scan and pay flow in postman<br>Next<br>• Implement the scan and pay flow",
     "points": null,
     "meta": null
   },

@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_merged_erd#8",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8",
+    "occured_at": "2025-10-03T01:35:07.000Z",
+    "link": "https://github.com/ohcnetwork/erd/pull/8",
+    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14250",
+    "occured_at": "2025-11-12T19:44:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14216",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14216",
+    "occured_at": "2025-11-01T14:46:25.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14216",
+    "text": "Add validation error for observation definitions without interpretations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3259",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -95,39 +128,6 @@
     "occured_at": "2025-09-17T14:50:15.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13737",
     "text": "Fix cross icon overlapping text in supplier select dropdown on mobile view",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14216",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14216",
-    "occured_at": "2025-11-01T14:46:25.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14216",
-    "text": "Add validation error for observation definitions without interpretations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_erd#8",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8",
-    "occured_at": "2025-10-03T01:35:07.000Z",
-    "link": "https://github.com/ohcnetwork/erd/pull/8",
-    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14250",
-    "occured_at": "2025-11-12T19:44:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
     "points": null,
     "meta": {}
   },
@@ -2079,17 +2079,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#13006_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13006 assigned",
-    "occured_at": "2025-11-09T18:02:14.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13006",
-    "text": "Bug: Generalise the text when there is no entry for a search input in Patient earch",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14314_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2119,17 +2108,6 @@
     "occured_at": "2025-11-01T14:46:16.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14215",
     "text": "Unable to create new observation definition with 0 interpretations; No error messages",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14204_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14204 assigned",
-    "occured_at": "2025-11-01T01:45:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14204",
-    "text": "Filters should persist until user logout or manual change",
     "points": null,
     "meta": {}
   },
@@ -2398,17 +2376,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14315",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14315",
-    "occured_at": "2025-11-12T19:14:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14315",
-    "text": "Fix ObservationDefinition types and add missing TBody to API endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14160",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2416,6 +2383,28 @@
     "occured_at": "2025-10-27T22:54:57.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14160",
     "text": "Add custom Playwright Docker image with backend integration",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14204_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14204 assigned",
+    "occured_at": "2025-11-01T01:45:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14204",
+    "text": "Filters should persist until user logout or manual change",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13006_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13006 assigned",
+    "occured_at": "2025-11-09T18:02:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13006",
+    "text": "Bug: Generalise the text when there is no entry for a search input in Patient earch",
     "points": null,
     "meta": {}
   },
@@ -2449,6 +2438,17 @@
     "occured_at": "2025-11-18T13:06:31.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14401#pullrequestreview-3477760761",
     "text": "Add archive patient functionality to patient update page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14315",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14315",
+    "occured_at": "2025-11-12T19:14:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14315",
+    "text": "Fix ObservationDefinition types and add missing TBody to API endpoints",
     "points": null,
     "meta": {}
   },
