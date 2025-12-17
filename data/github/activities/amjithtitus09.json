@@ -2244,6 +2244,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2344",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2344",
+    "occured_at": "2024-08-07T13:38:20.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2344",
+    "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#11910_COMMENTED_PRR_kwDODtfaXs6lNfTS",
     "contributor": "amjithtitus09",
     "activity_definition": "pr_reviewed",
@@ -2603,6 +2614,17 @@
     "occured_at": "2025-09-18T10:47:07.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3214",
     "text": "Odoo agent create and set",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#10748",
+    "contributor": "amjithtitus09",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #10748",
+    "occured_at": "2025-02-24T09:39:51.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/10748",
+    "text": "Hand Cursor Appears on Non-Clickable Elements",
     "points": null,
     "meta": {}
   },
@@ -3366,17 +3388,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2344",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2344",
-    "occured_at": "2024-08-07T13:38:20.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2344",
-    "text": "Explicity mention Public Read ACL for Facility Image S3 Uploads",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_amjith/odoo_module_06cb98a374cbc9cb2beeba8c8dd5eb39ab3db1e8",
     "contributor": "amjithtitus09",
     "activity_definition": "commit_created",
@@ -4088,17 +4099,6 @@
     "occured_at": "2025-02-27T05:38:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10480",
     "text": "Treatment Summary UI | Reduce colours",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#10748",
-    "contributor": "amjithtitus09",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #10748",
-    "occured_at": "2025-02-24T09:39:51.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/10748",
-    "text": "Hand Cursor Appears on Non-Clickable Elements",
     "points": null,
     "meta": {}
   },
@@ -9559,28 +9559,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14627_CHANGES_REQUESTED_PRR_kwDODtfaXs7S-lBs",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14627",
-    "occured_at": "2025-12-04T11:53:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14627#pullrequestreview-3539619948",
-    "text": "fix: back button in new tabs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14627_APPROVED_PRR_kwDODtfaXs7TOM8C",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14627",
-    "occured_at": "2025-12-05T09:02:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14627#pullrequestreview-3543715586",
-    "text": "fix: back button in new tabs",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14282_APPROVED_PRR_kwDODtfaXs7Sp9p0",
     "contributor": "amjithtitus09",
     "activity_definition": "pr_reviewed",
@@ -9621,6 +9599,39 @@
     "occured_at": "2025-12-04T11:58:24.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14612#pullrequestreview-3539645895",
     "text": "Added auto refresh toggle in Appoinments Page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_f635553f9de99c93aa470a279533dbefb68088b0",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-16T17:39:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/commit/f635553f9de99c93aa470a279533dbefb68088b0",
+    "text": "Odoo Payment Method in Account meta, insurance tag, ssmm id",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14627_CHANGES_REQUESTED_PRR_kwDODtfaXs7S-lBs",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14627",
+    "occured_at": "2025-12-04T11:53:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14627#pullrequestreview-3539619948",
+    "text": "fix: back button in new tabs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14627_APPROVED_PRR_kwDODtfaXs7TOM8C",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14627",
+    "occured_at": "2025-12-05T09:02:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14627#pullrequestreview-3543715586",
+    "text": "fix: back button in new tabs",
     "points": null,
     "meta": {}
   }

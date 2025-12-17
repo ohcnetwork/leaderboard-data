@@ -506,6 +506,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-15_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-15T17:23:27.988Z",
+    "link": null,
+    "text": "14th/15th December<br>• Worked on landing flow FE (appointments for unauthenticated users).<br>Next<br>• Patient files FE",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-16_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-16T16:50:36.496Z",
+    "link": null,
+    "text": "December 16th<br>Done<br>• Few more modifications on the landing flow FE<br>• Reviewed some PRs<br>Next<br>• Patient Files FE",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-03_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -667,28 +689,6 @@
     "occured_at": "2024-12-13T17:14:57.254Z",
     "link": null,
     "text": "13th December<br>Done<br>• Worked a bit on organizations FE<br>• Worked on Patient Files FE<br>    ◦ The new designs allow for filtering based on the type of content (lab report, audio etc). We don&#x27;t really store this right now (yes, there&#x27;s a file category, but most of the files are categorized as unknown by default)<br>• Little bit of work on Facilities FE for Tue demo<br>Next<br>• Facilities FE for Tue<br>• Organizations FE",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-15_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-15T17:23:27.988Z",
-    "link": null,
-    "text": "14th/15th December<br>• Worked on landing flow FE (appointments for unauthenticated users).<br>Next<br>• Patient files FE",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-16_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-16T16:50:36.496Z",
-    "link": null,
-    "text": "December 16th<br>Done<br>• Few more modifications on the landing flow FE<br>• Reviewed some PRs<br>Next<br>• Patient Files FE",
     "points": null,
     "meta": null
   },
@@ -865,6 +865,17 @@
     "occured_at": "2025-01-14T12:38:03.821Z",
     "link": null,
     "text": "Jan 13-14<br>Done<br>• additional changes to existing PRs, got them merged<br>• reviewed PRs<br>• few minor bug fixes<br>• made changes to existing PR for populating organization selector values for edit forms<br>• pagination and search for organization users<br>• rescheduling appointment support for otp flow<br>• tweak create user form to support edit user form<br>Next<br>• finish up rescheduling appointment for otp flow<br>• finish support for editing users",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-27_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-26T20:41:45.682Z",
+    "link": null,
+    "text": "March 26<br>• had to go back to municipality again for aadhar stuff<br>• reviewing and making changes to the older prs to get them merged<br>next<br>• continue the above, and get existing PRs from contributors and interns merged.",
     "points": null,
     "meta": null
   },
@@ -1228,17 +1239,6 @@
     "occured_at": "2025-03-25T00:40:06.632Z",
     "link": null,
     "text": "March 24<br>• municipality for aadhar, but hey someone is on leave again<br>• rest of the day was spent on reviewing and pushing changes where needed, bit all around the place<br>• diagnosing issue with device permissions (:slack_call: w/ Nihal, Aakash and Prafful)<br>    ◦ switched from pgadmin to datagrip <span class=\"s-emoji\">😎</span> <br>next/today<br>• aadhar stuff<br>• refactor changes in questionnaire editor (new changes was merged there, changing tag/organization selectors to be auto complete)<br>• minor perms redirect fix<br>• continue w/ layout changes for settings pages\n\nMarch 25<br>• finally done with aadhar for field verification <span class=\"s-emoji\">😩</span> <br>• changes to questionnaire editor<br>• perms redirect fix<br>next<br>• layout changes<br>• other issues/look at roadmap<br>• reviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-27_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-26T20:41:45.682Z",
-    "link": null,
-    "text": "March 26<br>• had to go back to municipality again for aadhar stuff<br>• reviewing and making changes to the older prs to get them merged<br>next<br>• continue the above, and get existing PRs from contributors and interns merged.",
     "points": null,
     "meta": null
   },
