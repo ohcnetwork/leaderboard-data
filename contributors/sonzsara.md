@@ -1,6 +1,6 @@
 ---
 name: Sona Sara Shibu
-role: intern
+role: core
 title: Data Analyst Intern
 avatar_url: https://avatars.githubusercontent.com/sonzsara
 joining_date: '2025-01-06'
