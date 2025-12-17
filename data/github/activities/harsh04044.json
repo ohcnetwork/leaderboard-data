@@ -550,39 +550,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14836",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14836",
-    "occured_at": "2025-12-16T21:27:20.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14836",
-    "text": "Fix async state check causing missed file upload errors",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14837",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14837",
-    "occured_at": "2025-12-16T22:19:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14837",
-    "text": "Add loading indicator to UserForm submit button",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14726",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14726",
-    "occured_at": "2025-12-11T18:41:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14726",
-    "text": "Complete i18n support for placeholder text in input fields",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14754",
     "contributor": "harsh04044",
     "activity_definition": "issue_opened",
@@ -590,39 +557,6 @@
     "occured_at": "2025-12-12T20:59:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14754",
     "text": "Replace array index with stable key in WorkflowProgress component",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14726_harsh04044",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14726 assigned",
-    "occured_at": "2025-12-12T05:36:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14726",
-    "text": "Complete i18n support for placeholder text in input fields",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14836_IC_kwDODtfaXs7aTMN_",
-    "contributor": "harsh04044",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14836",
-    "occured_at": "2025-12-16T21:30:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14836#issuecomment-3662463871",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14837_IC_kwDODtfaXs7aUAed",
-    "contributor": "harsh04044",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14837",
-    "occured_at": "2025-12-16T22:23:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14837#issuecomment-3662677917",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -667,6 +601,83 @@
     "occured_at": "2025-12-10T14:36:37.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14705",
     "text": "fix: replace hardcoded Loading text with t(loading) translation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14836",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14836",
+    "occured_at": "2025-12-16T21:27:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14836",
+    "text": "Fix async state check causing missed file upload errors",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14726",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14726",
+    "occured_at": "2025-12-11T18:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14726",
+    "text": "Complete i18n support for placeholder text in input fields",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14837",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14837",
+    "occured_at": "2025-12-16T22:19:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14837",
+    "text": "Add loading indicator to UserForm submit button",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14726_harsh04044",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14726 assigned",
+    "occured_at": "2025-12-12T05:36:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14726",
+    "text": "Complete i18n support for placeholder text in input fields",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14837_harsh04044",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14837 assigned",
+    "occured_at": "2025-12-17T07:19:58.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14837",
+    "text": "Add loading indicator to UserForm submit button",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14836_IC_kwDODtfaXs7aTMN_",
+    "contributor": "harsh04044",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14836",
+    "occured_at": "2025-12-16T21:30:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14836#issuecomment-3662463871",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14837_IC_kwDODtfaXs7aUAed",
+    "contributor": "harsh04044",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14837",
+    "occured_at": "2025-12-16T22:23:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14837#issuecomment-3662677917",
+    "text": null,
     "points": null,
     "meta": {}
   }

@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2022-05-12_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-12T01:17:03.713Z",
+    "link": null,
+    "text": "I need to prepare for exams so not much for today just some minor stuff here and there.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-15_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-15T02:23:04.985Z",
+    "link": null,
+    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-31_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -143,6 +165,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-05-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-21T09:52:17.003Z",
+    "link": null,
+    "text": "created <a href=\"https://github.com/ohcnetwork/care/pull/777\">#777</a> to handle an integrity error",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-19_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -205,39 +238,6 @@
     "occured_at": "2024-11-25T05:48:39.674Z",
     "link": null,
     "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-12_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-12T01:17:03.713Z",
-    "link": null,
-    "text": "I need to prepare for exams so not much for today just some minor stuff here and there.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-15_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-15T02:23:04.985Z",
-    "link": null,
-    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-21T09:52:17.003Z",
-    "link": null,
-    "text": "created <a href=\"https://github.com/ohcnetwork/care/pull/777\">#777</a> to handle an integrity error",
     "points": null,
     "meta": null
   },
@@ -524,6 +524,17 @@
     "occured_at": "2025-12-12T04:25:05.020Z",
     "link": null,
     "text": "11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n12th Dec<br>• Refactored scribe\n\n11th Dec<br>• checked compatibility of squashed migrations of care with other plugins<br>• found a new tool <code>sshuttle</code> to tunnel a subnet through an ssh tunnel<br>• added support for remote debugging on dev versions of middleware<br>• debugged a camera issue causing middleware server to freeze\n\n12th Dec<br>• Refactored scribe",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-17_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-17T06:48:37.332Z",
+    "link": null,
+    "text": "15th Dec<br>• Fixed build issues on care backend<br>• Resolved deployment issue on arike<br>• Made review changes to my prs<br>• Discussed migration plans for abdm after the major migration changes in core backend with <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> <br>• Tested scribe for production deployment with a specific care version<br>16th Dec<br>• Went through sentry to recategorize OperationalErrors<br>• Worked on an RCA for the OperationalErrors<br>• Tested out possible solutions and optimizations for the OperationalErrors<br>",
     "points": null,
     "meta": null
   }
