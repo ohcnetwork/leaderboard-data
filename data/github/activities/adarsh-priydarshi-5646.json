@@ -1364,6 +1364,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14695_APPROVED_PRR_kwDODtfaXs7Uat6K",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14695",
+    "occured_at": "2025-12-10T17:43:46.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14695#pullrequestreview-3563773578",
+    "text": "Made entire area clickable",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_2635a19360cf0d06469178fcc37f3a3e70135b56",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "commit_created",
@@ -1639,17 +1650,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14753_COMMENTED_PRR_kwDODtfaXs7VFBgA",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14753",
-    "occured_at": "2025-12-14T08:01:42.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14753#pullrequestreview-3574863872",
-    "text": "fix: remove @ts-expect-error and fix facility_type display in FacilityCard",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14752_COMMENTED_PRR_kwDODtfaXs7U9vob",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
@@ -1657,17 +1657,6 @@
     "occured_at": "2025-12-12T17:47:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14752#pullrequestreview-3572955675",
     "text": "fix hardcoded toast messages using i18n translations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14695_APPROVED_PRR_kwDODtfaXs7Uat6K",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14695",
-    "occured_at": "2025-12-10T17:43:46.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14695#pullrequestreview-3563773578",
-    "text": "Made entire area clickable",
     "points": null,
     "meta": {}
   },
@@ -1782,17 +1771,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14824",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14824",
-    "occured_at": "2025-12-16T12:47:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
-    "text": "Fix: validation bypass when removing items from questionnaire",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14429_COMMENTED_PRR_kwDODtfaXs7UbWo6",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
@@ -1855,17 +1833,6 @@
     "occured_at": "2025-12-17T09:05:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
     "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14722",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14722",
-    "occured_at": "2025-12-11T15:23:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
-    "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
     "points": null,
     "meta": {}
   },
@@ -1976,6 +1943,39 @@
     "occured_at": "2025-12-12T16:22:57.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/2635a19360cf0d06469178fcc37f3a3e70135b56",
     "text": "Fix: Remove console.log statements from production code (#14723)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14722",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14722",
+    "occured_at": "2025-12-11T15:23:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
+    "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14824",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14824",
+    "occured_at": "2025-12-16T12:47:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
+    "text": "Fix: validation bypass when removing items from questionnaire",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14753_COMMENTED_PRR_kwDODtfaXs7VFBgA",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14753",
+    "occured_at": "2025-12-14T08:01:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14753#pullrequestreview-3574863872",
+    "text": "fix: remove @ts-expect-error and fix facility_type display in FacilityCard",
     "points": null,
     "meta": {}
   }

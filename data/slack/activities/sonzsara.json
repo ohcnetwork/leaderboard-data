@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-08-26_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-26T04:59:01.318Z",
+    "link": null,
+    "text": "August 26<br>• Worked on custom date filter for daily dashboard.<br>• Created new charts for weekly dashboard <br>• Huddle with Rohit <br>• Huddle with Anand",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-08-29_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -172,17 +183,6 @@
     "occured_at": "2025-09-01T07:16:53.474Z",
     "link": null,
     "text": "Sept 1<br>• Added new charts to the weekly dashboard <br>• Updated Nursing care NHC forms filled chart <br>• Updated PPS score chart",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-26_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-26T04:59:01.318Z",
-    "link": null,
-    "text": "August 26<br>• Worked on custom date filter for daily dashboard.<br>• Created new charts for weekly dashboard <br>• Huddle with Rohit <br>• Huddle with Anand",
     "points": null,
     "meta": null
   },
@@ -524,6 +524,17 @@
     "occured_at": "2025-11-19T05:11:53.087Z",
     "link": null,
     "text": "Nov 18<br>• Updated the time structure in &#x27;Zonal Load Appointments&#x27; drill down and for &#x27;New Registerations&#x27;<br>• Updated the time structure for the &#x27;Nursing Zonal Load&#x27; kpi and drill down in Arike<br>• Started building Dashboard for Pallium India<br>• Reviewed data points by data interns and gave feedback<br>• Converted few metabase specific queries to raw sql<br>• Created issue <a href=\"https://github.com/ohcnetwork/leaderboard-github-scraper/issues/7\">leaderboard-github-scraper#7</a>: Commenting on an existing review causes PR review activity<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-09_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-09T10:55:42.694Z",
+    "link": null,
+    "text": "Dec 8<br>• Completed the dashboard for HMIS coordinators hire<br>• Huddle with Rohit and Yaswanth regarding the data and dashboard<br>• Had discussion with Rohit, Bodhi and Amjith regarding the care analytics repo<br>• Attended weekly engineering meet<br>• Reviewed data points by Anand and gave feedback<br>• Worked on linking staff and facility filter for kerala care dashboard",
     "points": null,
     "meta": null
   },
@@ -1012,17 +1023,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-12-09_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-09T10:55:42.694Z",
-    "link": null,
-    "text": "Dec 8<br>• Completed the dashboard for HMIS coordinators hire<br>• Huddle with Rohit and Yaswanth regarding the data and dashboard<br>• Had discussion with Rohit, Bodhi and Amjith regarding the care analytics repo<br>• Attended weekly engineering meet<br>• Reviewed data points by Anand and gave feedback<br>• Worked on linking staff and facility filter for kerala care dashboard",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-10-24_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -1184,6 +1184,17 @@
     "occured_at": "2025-12-17T05:14:59.395Z",
     "link": null,
     "text": "Dec 16<br>• Assigned task to data interns and reviewed them<br>• Reviewed the doc shared by Merrin and added few missing points<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/33\">care_analytics_sql#33</a>: Add documentation for Casualty Appointments Booked query<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/32\">care_analytics_sql#32</a>: Add documentation for comfort devices, patient transfers, and nursin…<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/30\">care_analytics_sql#30</a>: Add reports for patient data: Latest Diagnosis, Mobility Split, Patie…<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/28\">care_analytics_sql#28</a>: Add documentation for Registered Bedbound Patient Count query (KC)<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/27\">care_analytics_sql#27</a>: Add detailed documentation for Death Forms and Patient Status queries<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/25\">care_analytics_sql#25</a>: Add encounter class and inventory stock documentation<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/23\">care_analytics_sql#23</a>: Add documentation for Physical Aid Delivery, Physiotherapy Services, …<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/31\">care_analytics_sql#31</a>: Add doctor and nurse visit, homecare days and volunteer engagment cards (KC)<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/29\">care_analytics_sql#29</a>: Add latest diagnosis,mobility split, patients requiring continuous care,total visit and age wise split (KC)<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/26\">care_analytics_sql#26</a>: Add death and patient status cards Pallium<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/24\">care_analytics_sql#24</a>: Add encounter class and inventory for Pallium<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/22\">care_analytics_sql#22</a>: Add Physiotherapy services, psychology services and physical aid delivery cards<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-18_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-18T05:25:31.202Z",
+    "link": null,
+    "text": "Dec 17<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/37\">care_analytics_sql#37</a>: Add total patients registered query with filtering options and detail…<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/34\">care_analytics_sql#34</a>: Set up state level dashboard for KC<br>• Assigned tasks to data interns<br>• Discussion with Jeevan on various things<br>• Attended weekly DPG call<br>• Went through the NHM state Dashboard requirements<br>",
     "points": null,
     "meta": null
   }

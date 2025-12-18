@@ -825,6 +825,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-11_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-10T20:26:53.399Z",
+    "link": null,
+    "text": "<strong>November 10</strong><br>• Attended engineering review call.<br>• Quick sync with Amjith.<br>• Huddle with Khavin regarding PW tests.<br>• Fixed conflicts and addressed comments from copilot on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a>.<br>• Fixed conflicts across 25 files, addressed copilot comments and then tested it, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674\">PR#13674</a>.<br>    ◦ Some debugging while  resolving above<br>        ▪︎ Why SPO2 records from vitals ncg questionnaire does not show up in vitals table and plots because of different Lonic code and plotconfig in FE.<br>        ▪︎ questionnaire version coming as number instead of string. There is a BE fix for it already.<br>• Discussion with Bodhi regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603/files#r2508061358\">[1]</a>.<br>• Glancing over some PR&#x27;s and noticed an <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268#issuecomment-3511582142\">issue</a> with pr-automation workflow and pinged Areeb.<br>• Replied in some threads on slack.<br><strong>Next</strong><br>• Mark PR#14108 ready for review.<br>• Follow with Nihal regarding testing of  PR#13603 and PR#13674\n\n<strong>November 10</strong><br>• Attended engineering review call.<br>• Quick sync with Amjith.<br>• Huddle with Khavin regarding PW tests.<br>• Fixed conflicts and addressed comments from copilot on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a>.<br>• Fixed conflicts across 25 files, addressed copilot comments and then tested it, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674\">PR#13674</a>.<br>    ◦ Some debugging while  resolving above<br>        ▪︎ Why SPO2 records from vitals ncg questionnaire does not show up in vitals table and plots because of different Lonic code and plotconfig in FE.<br>        ▪︎ questionnaire version coming as number instead of string. There is a BE fix for it already.<br>• Discussion with Bodhi regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603/files#r2508061358\">[1]</a>.<br>• Glancing over some PR&#x27;s and noticed an <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268#issuecomment-3511582142\">issue</a> with pr-automation workflow and pinged Areeb.<br>• Replied in some threads on slack.<br><strong>Next</strong><br>• Mark PR#14108 ready for review.<br>• Follow with Nihal regarding testing of  PR#13603 and PR#13674",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-16_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1173,6 +1184,17 @@
     "occured_at": "2025-10-21T06:49:29.890Z",
     "link": null,
     "text": "<strong>October 15-17</strong><br>• Reviewed and merged contributors PR&#x27;s and triaged some issues.<br>• Merged PR#13918, PR#13839, PR#14058.<br>• Huddle with Areeb for testing PR#14063, PR#14067 -- Which would automatically set sprint and team when a PR is opened and adds label <code>changes required</code> and removes <code>needs review</code>  when changes are requested.<br>•  and later huddle for debugging why workflow is failing for non-core and fixed some of them and later reading  a bit about actions.<br>• Fixed review comments from Gigin on PR#13568.<br>• Spent sometime exploring whether valueset filtering is working based on displayLanguage<br>• Read a bit about valuesets <br>• Some huddles and discussion with Khavin while reviewing PR&#x27;s<br>• EOD calls, DPG review.<br>• Debugging <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760548325578259\">tag error on patient home</a><br><strong>Next</strong><br>• Engg review call.<br>• Fix merge conflicts <br>• Sync with Vinu, Manyu\n\n<strong>October 15-17</strong><br>• Reviewed and merged contributors PR&#x27;s and triaged some issues.<br>• Merged PR#13918, PR#13839, PR#14058.<br>• Huddle with Areeb for testing PR#14063, PR#14067 -- Which would automatically set sprint and team when a PR is opened and adds label <code>changes required</code> and removes <code>needs review</code>  when changes are requested.<br>•  and later huddle for debugging why workflow is failing for non-core and fixed some of them and later reading  a bit about actions.<br>• Fixed review comments from Gigin on PR#13568.<br>• Spent sometime exploring whether valueset filtering is working based on displayLanguage<br>• Read a bit about valuesets <br>• Some huddles and discussion with Khavin while reviewing PR&#x27;s<br>• EOD calls, DPG review.<br>• Debugging <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1760548325578259\">tag error on patient home</a><br><strong>Next</strong><br>• Engg review call.<br>• Fix merge conflicts <br>• Sync with Vinu, Manyu",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-12_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-11T23:00:36.226Z",
+    "link": null,
+    "text": "<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.<br>\n\n<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.",
     "points": null,
     "meta": null
   },
@@ -1573,17 +1595,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-11-11_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-10T20:26:53.399Z",
-    "link": null,
-    "text": "<strong>November 10</strong><br>• Attended engineering review call.<br>• Quick sync with Amjith.<br>• Huddle with Khavin regarding PW tests.<br>• Fixed conflicts and addressed comments from copilot on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a>.<br>• Fixed conflicts across 25 files, addressed copilot comments and then tested it, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674\">PR#13674</a>.<br>    ◦ Some debugging while  resolving above<br>        ▪︎ Why SPO2 records from vitals ncg questionnaire does not show up in vitals table and plots because of different Lonic code and plotconfig in FE.<br>        ▪︎ questionnaire version coming as number instead of string. There is a BE fix for it already.<br>• Discussion with Bodhi regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603/files#r2508061358\">[1]</a>.<br>• Glancing over some PR&#x27;s and noticed an <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268#issuecomment-3511582142\">issue</a> with pr-automation workflow and pinged Areeb.<br>• Replied in some threads on slack.<br><strong>Next</strong><br>• Mark PR#14108 ready for review.<br>• Follow with Nihal regarding testing of  PR#13603 and PR#13674\n\n<strong>November 10</strong><br>• Attended engineering review call.<br>• Quick sync with Amjith.<br>• Huddle with Khavin regarding PW tests.<br>• Fixed conflicts and addressed comments from copilot on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603\">PR#13603</a>.<br>• Fixed conflicts across 25 files, addressed copilot comments and then tested it, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674\">PR#13674</a>.<br>    ◦ Some debugging while  resolving above<br>        ▪︎ Why SPO2 records from vitals ncg questionnaire does not show up in vitals table and plots because of different Lonic code and plotconfig in FE.<br>        ▪︎ questionnaire version coming as number instead of string. There is a BE fix for it already.<br>• Discussion with Bodhi regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13603/files#r2508061358\">[1]</a>.<br>• Glancing over some PR&#x27;s and noticed an <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268#issuecomment-3511582142\">issue</a> with pr-automation workflow and pinged Areeb.<br>• Replied in some threads on slack.<br><strong>Next</strong><br>• Mark PR#14108 ready for review.<br>• Follow with Nihal regarding testing of  PR#13603 and PR#13674",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-10-13_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1646,17 +1657,6 @@
     "occured_at": "2025-10-27T04:05:08.723Z",
     "link": null,
     "text": "<strong>October 23 &amp;amp; 24</strong><br>• Made <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;amp;since=2025-10-23&amp;amp;until=2025-10-25\">changes</a> on PR#14108.<br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> based on changes requested by Siddanth and merged.<br>• Discussion with Amjith regarding need of BE seeds for PW tests and good practices regarding writing test cases.<br>• EOD call&#x27;s and then long call with Anagha answering her questions regarding valuesets, going through FHIR and discussions with chatgpt.<br>• Skim through <a href=\"https://files.fossunited.org/FOSSUnited/FOSS_Report_NLSIU.pdf?trk=public_post_comment-text\">The Rise of FOSS in India Report</a>.<br>• Went through the review comments from Bodhi on PR&#x27;s adding Playwright tests,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/14114#pullrequestreview-3379121119\">[1]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14113#pullrequestreview-3379259391\">[3]</a>.<br>• Replied to review comments from Bodhi <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a> and discussion on some of the review comments.<br>• Some discussions with Siddanth.<br>• Huddle with Khavin.<br><strong>Next</strong><br>• Engg review call.<br>• Work on PR#14108.<br>• Look into PW tests report check issue on PR&#x27;s from fork branches.\n\n<strong>October 23 &amp;amp; 24</strong><br>• Made <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;amp;since=2025-10-23&amp;amp;until=2025-10-25\">changes</a> on PR#14108.<br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> based on changes requested by Siddanth and merged.<br>• Discussion with Amjith regarding need of BE seeds for PW tests and good practices regarding writing test cases.<br>• EOD call&#x27;s and then long call with Anagha answering her questions regarding valuesets, going through FHIR and discussions with chatgpt.<br>• Skim through <a href=\"https://files.fossunited.org/FOSSUnited/FOSS_Report_NLSIU.pdf?trk=public_post_comment-text\">The Rise of FOSS in India Report</a>.<br>• Went through the review comments from Bodhi on PR&#x27;s adding Playwright tests,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/14114#pullrequestreview-3379121119\">[1]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14113#pullrequestreview-3379259391\">[3]</a>.<br>• Replied to review comments from Bodhi <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a> and discussion on some of the review comments.<br>• Some discussions with Siddanth.<br>• Huddle with Khavin.<br><strong>Next</strong><br>• Engg review call.<br>• Work on PR#14108.<br>• Look into PW tests report check issue on PR&#x27;s from fork branches.<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-12_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-11T23:00:36.226Z",
-    "link": null,
-    "text": "<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.<br>\n\n<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.",
     "points": null,
     "meta": null
   },

@@ -6853,6 +6853,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3218",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3218",
+    "occured_at": "2025-08-25T10:53:01.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3218",
+    "text": "Add location in dispense read spec",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10613_COMMENTED_PRR_kwDODtfaXs6clw3W",
     "contributor": "amjithtitus09",
     "activity_definition": "pr_reviewed",
@@ -7927,17 +7938,6 @@
     "occured_at": "2025-09-04T10:01:02.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3235",
     "text": "Add quantity in Dispense read spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3218",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3218",
-    "occured_at": "2025-08-25T10:53:01.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3218",
-    "text": "Add location in dispense read spec",
     "points": null,
     "meta": {}
   },
@@ -9636,39 +9636,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14850_APPROVED_PRR_kwDODtfaXs7V1mga",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14850",
-    "occured_at": "2025-12-17T12:52:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14850#pullrequestreview-3587598362",
-    "text": "feat: add tag management for accounts in AccountList and AccountShow ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14795_APPROVED_PRR_kwDODtfaXs7V14mz",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14795",
-    "occured_at": "2025-12-17T13:09:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14795#pullrequestreview-3587672499",
-    "text": "fix: questionnaire search in Encounter Actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14844_APPROVED_PRR_kwDODtfaXs7V1RtA",
-    "contributor": "amjithtitus09",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14844",
-    "occured_at": "2025-12-17T12:32:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14844#pullrequestreview-3587513152",
-    "text": "fix: refine validation for supplied item quantity in delivery form",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14855_APPROVED_PRR_kwDODtfaXs7VyAQM",
     "contributor": "amjithtitus09",
     "activity_definition": "pr_reviewed",
@@ -9783,6 +9750,72 @@
     "contributor": "amjithtitus09",
     "activity_definition": "commit_created",
     "title": "Pushed commit to issues/14592/wire-hc-in-af",
+    "occured_at": "2025-12-17T07:16:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
+    "text": "Allow decimal prices in new purchase delivery (#14847)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14795_APPROVED_PRR_kwDODtfaXs7V14mz",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14795",
+    "occured_at": "2025-12-17T13:09:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14795#pullrequestreview-3587672499",
+    "text": "fix: questionnaire search in Encounter Actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14844_APPROVED_PRR_kwDODtfaXs7V1RtA",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14844",
+    "occured_at": "2025-12-17T12:32:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14844#pullrequestreview-3587513152",
+    "text": "fix: refine validation for supplied item quantity in delivery form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14850_APPROVED_PRR_kwDODtfaXs7V1mga",
+    "contributor": "amjithtitus09",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14850",
+    "occured_at": "2025-12-17T12:52:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14850#pullrequestreview-3587598362",
+    "text": "feat: add tag management for accounts in AccountList and AccountShow ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_user-creation-test_8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to user-creation-test",
+    "occured_at": "2025-12-17T07:16:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
+    "text": "Allow decimal prices in new purchase delivery (#14847)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_fix/search-practiotioner-selection_8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix/search-practiotioner-selection",
+    "occured_at": "2025-12-17T07:16:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
+    "text": "Allow decimal prices in new purchase delivery (#14847)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_setup_8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
+    "contributor": "amjithtitus09",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to setup",
     "occured_at": "2025-12-17T07:16:13.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/8fba8b0f14edaf4ca85abaf4294bcc17e706ffdb",
     "text": "Allow decimal prices in new purchase delivery (#14847)",

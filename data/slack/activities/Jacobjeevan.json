@@ -396,6 +396,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-19_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-19T07:12:19.246Z",
+    "link": null,
+    "text": "may 19<br>• added location selector to location switcher for labs<br>• beds support for labs (copying over similar logic as in location list).<br>next<br>• get report builder merged<br>• more labs stuff prob<br>• video/demo for report builder",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-19_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -605,6 +616,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-05_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-05T16:46:18.580Z",
+    "link": null,
+    "text": "Feb 4-5<br>done<br>• finished archiving modifications (waiting for multi-file to pdf pr to get merged first) + print preview fix<br>• reviewed prs<br>    ◦ helped Tanuj with debugging a date-field issue (pushed a fix yesterday)<br>next<br>• revisit user perms rendering, qualifications and new issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-04_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -755,6 +777,17 @@
     "occured_at": "2025-01-22T16:05:41.590Z",
     "link": null,
     "text": "Jan 22<br>done<br>• reviewed PRs<br>• merged PR for GovtOrganization selector + minor fix<br>• public organization filter tweaks (rendering selection on visiting page via link)<br>• edits, finished testing + merged PR for otp appointment rescheduling<br>next<br>• new issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-16_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-15T21:17:19.321Z",
+    "link": null,
+    "text": "may 15<br>• multiple <span class=\"s-emoji\">🎧</span> with Nihal on report builder<br>• changes for report builder based on review/feedback<br>next<br>• finish tweaking the UI for report builder based on testing and get v1 out<br>• circle back on older assigned issues/PRs",
     "points": null,
     "meta": null
   },
@@ -946,28 +979,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-02-05_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-05T16:46:18.580Z",
-    "link": null,
-    "text": "Feb 4-5<br>done<br>• finished archiving modifications (waiting for multi-file to pdf pr to get merged first) + print preview fix<br>• reviewed prs<br>    ◦ helped Tanuj with debugging a date-field issue (pushed a fix yesterday)<br>next<br>• revisit user perms rendering, qualifications and new issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-16_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-15T21:17:19.321Z",
-    "link": null,
-    "text": "may 15<br>• multiple <span class=\"s-emoji\">🎧</span> with Nihal on report builder<br>• changes for report builder based on review/feedback<br>next<br>• finish tweaking the UI for report builder based on testing and get v1 out<br>• circle back on older assigned issues/PRs",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-02-06_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -1140,17 +1151,6 @@
     "occured_at": "2025-03-13T21:30:16.300Z",
     "link": null,
     "text": "March 12-13<br>• appointments availability minor BE changes per feedback<br>• merged latest changed into perms<br>    ◦ re-reviewed all changes, cleaned up code<br>• reviewed prs<br>also handed over rest of consent FE to Khavin<br>next<br>• continue with reviewing<br>• pick up any new issues<br>• merge perms, onto perms 2.0: for depts/locations/schedule actions etc.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-19_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-19T07:12:19.246Z",
-    "link": null,
-    "text": "may 19<br>• added location selector to location switcher for labs<br>• beds support for labs (copying over similar logic as in location list).<br>next<br>• get report builder merged<br>• more labs stuff prob<br>• video/demo for report builder",
     "points": null,
     "meta": null
   },
@@ -1712,6 +1712,17 @@
     "occured_at": "2025-12-17T08:16:16.163Z",
     "link": null,
     "text": "dec 16<br>• linked locations cleanup + merged<br>• dispense order list/view<br>next<br>• review PRs, other tasks",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-18_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-18T06:41:43.700Z",
+    "link": null,
+    "text": "dec 16<br>• slow day, review/merged analytics PRs<br>• discussions w/ <span class=\"s-mention s-user\">@U093J1BPCRZ</span> on said PRs",
     "points": null,
     "meta": null
   }
