@@ -1705,50 +1705,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14825",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14825",
-    "occured_at": "2025-12-16T13:15:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14825",
-    "text": "Fix: Hardcoded \"Remove\" text should use i18n translation in QuestionnaireForm",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14827",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14827",
-    "occured_at": "2025-12-16T13:29:59.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
-    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14840",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14840",
-    "occured_at": "2025-12-17T05:12:24.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14840",
-    "text": "Fix: Implement Route-Based Code Splitting to Reduce Initial Bundle Size",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14722",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14722",
-    "occured_at": "2025-12-11T15:23:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
-    "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14742",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "issue_opened",
@@ -1756,39 +1712,6 @@
     "occured_at": "2025-12-12T11:32:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14742",
     "text": "Fix: Hardcoded toast messages should use i18n translations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14827_adarsh-priydarshi-5646",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14827 assigned",
-    "occured_at": "2025-12-17T09:05:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
-    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14846_IC_kwDODtfaXs7aYvij",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14846",
-    "occured_at": "2025-12-17T06:52:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14846#issuecomment-3663919267",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14840_IC_kwDODtfaXs7aX3-b",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14840",
-    "occured_at": "2025-12-17T05:14:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14840#issuecomment-3663691675",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -1854,6 +1777,116 @@
     "title": "Commented on #14818",
     "occured_at": "2025-12-16T12:43:55.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14818#issuecomment-3660352912",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14824",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14824",
+    "occured_at": "2025-12-16T12:47:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
+    "text": "Fix: validation bypass when removing items from questionnaire",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14429_COMMENTED_PRR_kwDODtfaXs7UbWo6",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14429",
+    "occured_at": "2025-12-10T18:26:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14429#pullrequestreview-3563940410",
+    "text": "Fix custom error message in Record Payment form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14818",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14818",
+    "occured_at": "2025-12-16T12:09:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14818",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14825",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14825",
+    "occured_at": "2025-12-16T13:15:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14825",
+    "text": "Fix: Hardcoded \"Remove\" text should use i18n translation in QuestionnaireForm",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14827",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14827",
+    "occured_at": "2025-12-16T13:29:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
+    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14840",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14840",
+    "occured_at": "2025-12-17T05:12:24.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14840",
+    "text": "Fix: Implement Route-Based Code Splitting to Reduce Initial Bundle Size",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14827_adarsh-priydarshi-5646",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14827 assigned",
+    "occured_at": "2025-12-17T09:05:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
+    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14722",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14722",
+    "occured_at": "2025-12-11T15:23:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
+    "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14846_IC_kwDODtfaXs7aYvij",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14846",
+    "occured_at": "2025-12-17T06:52:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14846#issuecomment-3663919267",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14840_IC_kwDODtfaXs7aX3-b",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14840",
+    "occured_at": "2025-12-17T05:14:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14840#issuecomment-3663691675",
     "text": null,
     "points": null,
     "meta": {}
@@ -1932,39 +1965,6 @@
     "occured_at": "2025-12-16T20:09:50.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14834#pullrequestreview-3584768355",
     "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14824",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14824",
-    "occured_at": "2025-12-16T12:47:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
-    "text": "Fix: validation bypass when removing items from questionnaire",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14429_COMMENTED_PRR_kwDODtfaXs7UbWo6",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14429",
-    "occured_at": "2025-12-10T18:26:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14429#pullrequestreview-3563940410",
-    "text": "Fix custom error message in Record Payment form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14818",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14818",
-    "occured_at": "2025-12-16T12:09:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14818",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
     "points": null,
     "meta": {}
   },

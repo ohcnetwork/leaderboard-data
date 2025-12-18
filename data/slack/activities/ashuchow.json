@@ -1,49 +1,5 @@
 [
   {
-    "slug": "eod_update_2025-05-09_ashuchow",
-    "contributor": "ashuchow",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-08T23:36:07.522Z",
-    "link": null,
-    "text": "EOD for 8th May, 20225<br>• Got on call with Vysakh and Aakash about blocks in ETL pipeline. Figured out an alternative approach for the same - using spec sheets in the resources directory for setting up flattening sql queries.<br>• Working on setting up a queryable view for using the date filter on the dashboard.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-02-19_ashuchow",
-    "contributor": "ashuchow",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-02-19T06:53:24.450Z",
-    "link": null,
-    "text": "EOD Feb 19<br>Added collapsible sections for cards grouped by sub-collections for Metabase Manager",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-02-21_ashuchow",
-    "contributor": "ashuchow",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-02-21T17:56:13.319Z",
-    "link": null,
-    "text": "EOD 20 Feb :<br>Set up a record of all the variables available in CARE for ICMR proposal<br><br>EOD 21 Feb :<br>Set up a metabase query to get daily reports on patients registered and consultations filed in Karnataka",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-03-06_ashuchow",
-    "contributor": "ashuchow",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-03-06T02:13:30.748Z",
-    "link": null,
-    "text": "EOD March 1:<br>• Started working on introducing a log for the synchronization process on metabase manager in accordance with Issue 8<br>• Over the weekend, changed the logo size for 10BedIcu on dashboard across all instances.<br>• Attempted to solve change requests for dashboard\n\nEOD March 4<br>• Continued working on the log for metabase manager synchronization.<br>• Addressed the issues in the change requests for the dashboard.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-02-29_ashuchow",
     "contributor": "ashuchow",
     "activity_definition": "eod_update",
@@ -84,6 +40,50 @@
     "occured_at": "2024-03-13T08:11:40.432Z",
     "link": null,
     "text": "EOD 14 Mar<br>• Added more metadata to the sync log for metabase manager (Issue 8) <br>• Created a schema for a sync log table and added helper functions to interact with the database.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-09_ashuchow",
+    "contributor": "ashuchow",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-08T23:36:07.522Z",
+    "link": null,
+    "text": "EOD for 8th May, 20225<br>• Got on call with Vysakh and Aakash about blocks in ETL pipeline. Figured out an alternative approach for the same - using spec sheets in the resources directory for setting up flattening sql queries.<br>• Working on setting up a queryable view for using the date filter on the dashboard.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-02-19_ashuchow",
+    "contributor": "ashuchow",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-02-19T06:53:24.450Z",
+    "link": null,
+    "text": "EOD Feb 19<br>Added collapsible sections for cards grouped by sub-collections for Metabase Manager",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-02-21_ashuchow",
+    "contributor": "ashuchow",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-02-21T17:56:13.319Z",
+    "link": null,
+    "text": "EOD 20 Feb :<br>Set up a record of all the variables available in CARE for ICMR proposal<br><br>EOD 21 Feb :<br>Set up a metabase query to get daily reports on patients registered and consultations filed in Karnataka",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-03-06_ashuchow",
+    "contributor": "ashuchow",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-03-06T02:13:30.748Z",
+    "link": null,
+    "text": "EOD March 1:<br>• Started working on introducing a log for the synchronization process on metabase manager in accordance with Issue 8<br>• Over the weekend, changed the logo size for 10BedIcu on dashboard across all instances.<br>• Attempted to solve change requests for dashboard\n\nEOD March 4<br>• Continued working on the log for metabase manager synchronization.<br>• Addressed the issues in the change requests for the dashboard.",
     "points": null,
     "meta": null
   },

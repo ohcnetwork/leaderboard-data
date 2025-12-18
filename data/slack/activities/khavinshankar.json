@@ -495,6 +495,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-04_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-04T04:38:25.645Z",
+    "link": null,
+    "text": "Dec 2:<br>• Went through all abdm sentry issues in teleicu and ka instance <br>    ◦ resolved old data issues<br>    ◦ resolved couple small validation issues<br>    ◦ working on restructuring retry care context task to avoid soft time limit exceeding<br>Dec 3:<br>• Fixed issue with required validation <a href=\"https://github.com/ohcnetwork/care/pull/3393\">#3393</a><br>• Fixed facility cache issue in the frontend <a href=\"https://github.com/ohcnetwork/care_fe/pull/14603\">#14603</a><br>• Cleared out suggestions on my existing PR<br>• Synced phr branch with develop",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-01_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -667,17 +678,6 @@
     "occured_at": "2025-11-13T16:58:15.316Z",
     "link": null,
     "text": "Nov 13<br>• Added encounter filter to consent requests in abdm<br>• Replaced the usage of get_facility_queryset with updated logic<br>• Went over the ABDM demo flow with Amrutha",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-04_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-04T04:38:25.645Z",
-    "link": null,
-    "text": "Dec 2:<br>• Went through all abdm sentry issues in teleicu and ka instance <br>    ◦ resolved old data issues<br>    ◦ resolved couple small validation issues<br>    ◦ working on restructuring retry care context task to avoid soft time limit exceeding<br>Dec 3:<br>• Fixed issue with required validation <a href=\"https://github.com/ohcnetwork/care/pull/3393\">#3393</a><br>• Fixed facility cache issue in the frontend <a href=\"https://github.com/ohcnetwork/care_fe/pull/14603\">#14603</a><br>• Cleared out suggestions on my existing PR<br>• Synced phr branch with develop",
     "points": null,
     "meta": null
   },
