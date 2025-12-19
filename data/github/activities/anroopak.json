@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_merged_care#221",
+    "contributor": "anroopak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #221",
+    "occured_at": "2020-04-02T09:36:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/221",
+    "text": "add facility id to patients list",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#271",
+    "contributor": "anroopak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #271",
+    "occured_at": "2020-04-05T07:41:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/271",
+    "text": "moving tests to django-unittests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#100",
+    "contributor": "anroopak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #100",
+    "occured_at": "2020-03-26T05:25:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/100",
+    "text": "add state, district, local body models",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#330",
+    "contributor": "anroopak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #330",
+    "occured_at": "2020-04-14T13:29:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/330",
+    "text": "add patient sample tests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#305",
+    "contributor": "anroopak",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #305",
+    "occured_at": "2020-04-12T05:38:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/305",
+    "text": "Improve current Patient Search API",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#105",
     "contributor": "anroopak",
     "activity_definition": "pr_opened",
@@ -183,61 +238,6 @@
     "occured_at": "2020-03-22T18:39:19.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/67",
     "text": "add ambulance and driver models and apis",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#305",
-    "contributor": "anroopak",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #305",
-    "occured_at": "2020-04-12T05:38:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/305",
-    "text": "Improve current Patient Search API",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#221",
-    "contributor": "anroopak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #221",
-    "occured_at": "2020-04-02T09:36:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/221",
-    "text": "add facility id to patients list",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#271",
-    "contributor": "anroopak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #271",
-    "occured_at": "2020-04-05T07:41:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/271",
-    "text": "moving tests to django-unittests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#100",
-    "contributor": "anroopak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #100",
-    "occured_at": "2020-03-26T05:25:35.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/100",
-    "text": "add state, district, local body models",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#330",
-    "contributor": "anroopak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #330",
-    "occured_at": "2020-04-14T13:29:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/330",
-    "text": "add patient sample tests",
     "points": null,
     "meta": {}
   },
@@ -1067,6 +1067,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care#71",
+    "contributor": "anroopak",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #71",
+    "occured_at": "2020-03-27T15:53:47.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/71",
+    "text": "Add pre-commit hooks to maintain code styles",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#110_COMMENTED_MDE3OlB1bGxSZXF1ZXN0UmV2aWV3MzgxNjkyODA4",
     "contributor": "anroopak",
     "activity_definition": "pr_reviewed",
@@ -1481,17 +1492,6 @@
     "occured_at": "2020-03-28T18:58:01.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/126",
     "text": "District Level Access User Group",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#71",
-    "contributor": "anroopak",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #71",
-    "occured_at": "2020-03-27T15:53:47.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/71",
-    "text": "Add pre-commit hooks to maintain code styles",
     "points": null,
     "meta": {}
   },

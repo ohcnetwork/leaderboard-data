@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_opened_care#2882",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2882",
+    "occured_at": "2025-03-01T14:19:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2882",
+    "text": "fixed location encounter bug",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2891",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2891",
+    "occured_at": "2025-03-16T14:25:28.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2891",
+    "text": "add endpoint for sync file upload",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#3247",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -128,28 +150,6 @@
     "occured_at": "2024-09-23T05:03:49.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2397",
     "text": " archived spo2 field to archived_spo2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2882",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2882",
-    "occured_at": "2025-03-01T14:19:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2882",
-    "text": "fixed location encounter bug",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2891",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2891",
-    "occured_at": "2025-03-16T14:25:28.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2891",
-    "text": "add endpoint for sync file upload",
     "points": null,
     "meta": {}
   },
@@ -5049,6 +5049,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2720",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2720",
+    "occured_at": "2025-01-07T18:31:46.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2720",
+    "text": "Updated the max length of gender field to 35 in patient model",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2923_COMMENTED_PRR_kwDODsgdF86ghNre",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -5430,17 +5441,6 @@
     "occured_at": "2025-02-08T11:33:36.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2818",
     "text": "Adding Test cases for Location Viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2720",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2720",
-    "occured_at": "2025-01-07T18:31:46.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2720",
-    "text": "Updated the max length of gender field to 35 in patient model",
     "points": null,
     "meta": {}
   },
@@ -8103,6 +8103,17 @@
     "occured_at": "2025-12-18T08:32:41.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/44f91777dedfa85bf54b56b9fe8e19cc669a851e",
     "text": "added details to payments api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care#3424_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #3424 assigned",
+    "occured_at": "2025-12-19T10:16:34.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/3424",
+    "text": "Document all backend variables in example.env",
     "points": null,
     "meta": {}
   }
