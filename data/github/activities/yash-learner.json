@@ -6314,6 +6314,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#12033_COMMENTED_PRR_kwDODtfaXs6nmN5r",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #12033",
+    "occured_at": "2025-05-02T11:43:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12033#pullrequestreview-2811813483",
+    "text": "Move consents to tab",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13839_COMMENTED_PRR_kwDODtfaXs7GJKj3",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -7839,17 +7850,6 @@
     "occured_at": "2025-08-21T02:52:06.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13434#pullrequestreview-3138870959",
     "text": "Fix: prevent new tags from being deleted from dropdowns",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#12033_COMMENTED_PRR_kwDODtfaXs6nmN5r",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #12033",
-    "occured_at": "2025-05-02T11:43:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12033#pullrequestreview-2811813483",
-    "text": "Move consents to tab",
     "points": null,
     "meta": {}
   },
@@ -12804,61 +12804,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14314",
-    "contributor": "yash-learner",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14314",
-    "occured_at": "2025-11-12T19:03:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14314",
-    "text": "Add proper types for ObservationDefinition API and types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14314_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14314 assigned",
-    "occured_at": "2025-11-12T19:03:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14314",
-    "text": "Add proper types for ObservationDefinition API and types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14787",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14787",
-    "occured_at": "2025-12-16T07:20:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14787",
-    "text": "Fix ObservationDefinition types and add missing TBody to API endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14857",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14857",
-    "occured_at": "2025-12-17T08:39:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14857",
-    "text": "Add tests for Service Request Create",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14856",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14856",
-    "occured_at": "2025-12-17T08:25:46.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14856",
-    "text": "Wire healthcare service in AD form",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_copilot/fix-observation-definition-types_ca9629973d09f295a9a4682463095ba5e754b087",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -12925,17 +12870,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#11946",
-    "contributor": "yash-learner",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #11946",
-    "occured_at": "2025-04-15T09:44:34.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/11946",
-    "text": "Fix dosage popover and android keyboard focus issue causing auto-close ",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14592",
     "contributor": "yash-learner",
     "activity_definition": "issue_opened",
@@ -12947,11 +12881,22 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#11946_yash-learner",
+    "slug": "issue_opened_care_fe#14314",
     "contributor": "yash-learner",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #11946 assigned",
-    "occured_at": "2025-04-15T09:44:39.000Z",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14314",
+    "occured_at": "2025-11-12T19:03:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14314",
+    "text": "Add proper types for ObservationDefinition API and types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#11946",
+    "contributor": "yash-learner",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #11946",
+    "occured_at": "2025-04-15T09:44:34.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/11946",
     "text": "Fix dosage popover and android keyboard focus issue causing auto-close ",
     "points": null,
@@ -12969,13 +12914,57 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14791_CHANGES_REQUESTED_PRR_kwDODtfaXs7V7Ao2",
+    "slug": "issue_assigned_care_fe#14314_yash-learner",
     "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14791",
-    "occured_at": "2025-12-17T18:14:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14791#pullrequestreview-3589016118",
-    "text": "show selected org when there is a selection",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14314 assigned",
+    "occured_at": "2025-11-12T19:03:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14314",
+    "text": "Add proper types for ObservationDefinition API and types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#11946_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #11946 assigned",
+    "occured_at": "2025-04-15T09:44:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/11946",
+    "text": "Fix dosage popover and android keyboard focus issue causing auto-close ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14857",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14857",
+    "occured_at": "2025-12-17T08:39:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14857",
+    "text": "Add tests for Service Request Create",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14856",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14856",
+    "occured_at": "2025-12-17T08:25:46.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14856",
+    "text": "Wire healthcare service in AD form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14787",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14787",
+    "occured_at": "2025-12-16T07:20:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14787",
+    "text": "Fix ObservationDefinition types and add missing TBody to API endpoints",
     "points": null,
     "meta": {}
   },
@@ -12998,6 +12987,105 @@
     "occured_at": "2025-12-18T08:51:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14785#pullrequestreview-3591501002",
     "text": "Fix: Search in the practioner selector",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14785_COMMENTED_PRR_kwDODtfaXs7WL0ka",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14785",
+    "occured_at": "2025-12-18T14:54:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14785#pullrequestreview-3593423130",
+    "text": "Fix: Search in the practioner selector",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14791_CHANGES_REQUESTED_PRR_kwDODtfaXs7V7Ao2",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14791",
+    "occured_at": "2025-12-17T18:14:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14791#pullrequestreview-3589016118",
+    "text": "show selected org when there is a selection",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_cce843b26670855312ed2abb2504fe882e0c38df",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2025-12-18T19:25:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/cce843b26670855312ed2abb2504fe882e0c38df",
+    "text": "Merge branch 'develop' into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14592/wire-hc-in-af_4379fdfc9feeecfabfb98327a05a841dd6675ff2",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14592/wire-hc-in-af",
+    "occured_at": "2025-12-18T19:20:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/4379fdfc9feeecfabfb98327a05a841dd6675ff2",
+    "text": "Merge branch 'develop' into issues/14592/wire-hc-in-af",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_63c081a1dd8749341a251f075c12d1a999b31c6a",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2025-12-18T14:55:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/63c081a1dd8749341a251f075c12d1a999b31c6a",
+    "text": "Merge branch 'develop' into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14592/wire-hc-in-af_51f6a5a44790c35b25720985681f3ac49ced9330",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14592/wire-hc-in-af",
+    "occured_at": "2025-12-18T14:55:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/51f6a5a44790c35b25720985681f3ac49ced9330",
+    "text": "Merge branch 'develop' into issues/14592/wire-hc-in-af",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_copilot/fix-observation-definition-types_2ed550c334578fc4a8d4c6e9b01b8128ff198329",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to copilot/fix-observation-definition-types",
+    "occured_at": "2025-12-18T14:51:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/2ed550c334578fc4a8d4c6e9b01b8128ff198329",
+    "text": "Merge branch 'develop' into copilot/fix-observation-definition-types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_copilot/fix-observation-definition-types_e3d43439c78040c0fe59a12205da46c1c81564c6",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to copilot/fix-observation-definition-types",
+    "occured_at": "2025-12-18T13:14:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/e3d43439c78040c0fe59a12205da46c1c81564c6",
+    "text": "Make unit in component optional and add zod validation for code",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_copilot/fix-observation-definition-types_86a695ca0651cc4e2c0538a6dd44a286788a0ce3",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to copilot/fix-observation-definition-types",
+    "occured_at": "2025-12-18T14:34:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/86a695ca0651cc4e2c0538a6dd44a286788a0ce3",
+    "text": "Refactor observation definition types to use enums and improve null safety",
     "points": null,
     "meta": {}
   }

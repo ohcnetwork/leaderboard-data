@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care#3247",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3247",
+    "occured_at": "2025-09-10T11:11:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3247",
+    "text": "Bug in Activity definition spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2361",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2361",
+    "occured_at": "2024-08-16T18:24:09.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2361",
+    "text": "added a request time logging middleware",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3372",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3372",
+    "occured_at": "2025-11-22T07:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3372",
+    "text": "fix deadlock in TagConfig endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3261",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3261",
+    "occured_at": "2025-09-15T12:19:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3261",
+    "text": "fix test cases for slugs",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2790",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -293,50 +337,6 @@
     "occured_at": "2025-04-07T15:16:06.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2984",
     "text": "fixed recent views duplications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3247",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3247",
-    "occured_at": "2025-09-10T11:11:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3247",
-    "text": "Bug in Activity definition spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2361",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2361",
-    "occured_at": "2024-08-16T18:24:09.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2361",
-    "text": "added a request time logging middleware",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3372",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3372",
-    "occured_at": "2025-11-22T07:36:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3372",
-    "text": "fix deadlock in TagConfig endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3261",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3261",
-    "occured_at": "2025-09-15T12:19:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3261",
-    "text": "fix test cases for slugs",
     "points": null,
     "meta": {}
   },
@@ -6655,6 +6655,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3388",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3388",
+    "occured_at": "2025-12-01T22:00:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3388",
+    "text": "fix race condition in test cases",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_roadmap#117_praffq",
     "contributor": "praffq",
     "activity_definition": "issue_assigned",
@@ -6992,17 +7003,6 @@
     "occured_at": "2025-11-24T08:39:17.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/e0b163e552765e208f5d355d3fb106b93539810e",
     "text": "add file authz for service request and diagnostic reports (#3373)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3388",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3388",
-    "occured_at": "2025-12-01T22:00:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3388",
-    "text": "fix race condition in test cases",
     "points": null,
     "meta": {}
   },

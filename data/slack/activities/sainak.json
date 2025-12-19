@@ -1,5 +1,38 @@
 [
   {
+    "slug": "eod_update_2022-05-10_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-10T05:04:19.155Z",
+    "link": null,
+    "text": "Explored care repo and looked for issue that I can work on also discussed some possible upgrades for care container",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-12_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-12T01:17:03.713Z",
+    "link": null,
+    "text": "I need to prepare for exams so not much for today just some minor stuff here and there.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-15_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-15T02:23:04.985Z",
+    "link": null,
+    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-24_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -110,6 +143,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-31_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-30T21:23:33.111Z",
+    "link": null,
+    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-06-04_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -128,83 +172,6 @@
     "occured_at": "2022-05-21T09:52:17.003Z",
     "link": null,
     "text": "created <a href=\"https://github.com/ohcnetwork/care/pull/777\">#777</a> to handle an integrity error",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-19_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-19T06:11:17.493Z",
-    "link": null,
-    "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-21T07:41:48.338Z",
-    "link": null,
-    "text": "21st Jan<br>• Refactored the migrations to separate files<br>• Created migrations for patient_meta",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-06-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-06-21T04:43:44.120Z",
-    "link": null,
-    "text": "EOD 21/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Fixed issues on the staging deployment of django 4.2<br>• updated boto3 to the latest version along with adding static type checking for boto3 in vscode<br>• Had an onboarding call with Shahid along with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> and <span class=\"s-mention s-user\">@U02T4HFA07Q</span> <br>What&#x27;s next?<br><br>• Stabilize django 4.2 changes and get them ready for production",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-10_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-10T05:04:19.155Z",
-    "link": null,
-    "text": "Explored care repo and looked for issue that I can work on also discussed some possible upgrades for care container",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-12_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-12T01:17:03.713Z",
-    "link": null,
-    "text": "I need to prepare for exams so not much for today just some minor stuff here and there.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-15_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-15T02:23:04.985Z",
-    "link": null,
-    "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-31_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-30T21:23:33.111Z",
-    "link": null,
-    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
     "points": null,
     "meta": null
   },
@@ -238,6 +205,39 @@
     "occured_at": "2025-06-25T22:57:46.483Z",
     "link": null,
     "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-19_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-19T06:11:17.493Z",
+    "link": null,
+    "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-21T07:41:48.338Z",
+    "link": null,
+    "text": "21st Jan<br>• Refactored the migrations to separate files<br>• Created migrations for patient_meta",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-06-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-06-21T04:43:44.120Z",
+    "link": null,
+    "text": "EOD 21/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Fixed issues on the staging deployment of django 4.2<br>• updated boto3 to the latest version along with adding static type checking for boto3 in vscode<br>• Had an onboarding call with Shahid along with <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> and <span class=\"s-mention s-user\">@U02T4HFA07Q</span> <br>What&#x27;s next?<br><br>• Stabilize django 4.2 changes and get them ready for production",
     "points": null,
     "meta": null
   },
