@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-06-03_nandkishorr",
+    "contributor": "nandkishorr",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-02T18:56:53.213Z",
+    "link": null,
+    "text": "june 2<br>• issue on reset password is sort out ,implemented with the existing Django signals. <br>• tested locally the apis and migration required.<br>• raised a pr on this issue for review.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-30_nandkishorr",
+    "contributor": "nandkishorr",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-30T10:23:09.787Z",
+    "link": null,
+    "text": "May 26-28: Leave<br>May 29-30<br>• Created all necessary files with updated codes for the reset password model, viewset, and serializer.<br>• Currently figuring out signals.<br> Next <br>• Test the custom reset password functionality and ensure proper functioning.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-28_nandkishorr",
     "contributor": "nandkishorr",
     "activity_definition": "eod_update",
@@ -183,28 +205,6 @@
     "occured_at": "2025-05-23T05:49:25.512Z",
     "link": null,
     "text": "May 21-23<br>• Completed creating missing test cases for consent ,tested and updated to Vignesh and Aakash.<br>• Understood the current workflow of reset password library.<br>• Working on the custome reset password .<br>• Huddle with Nihal on the care fe workflow.<br>Next<br>• Finish the custome reset password.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-30_nandkishorr",
-    "contributor": "nandkishorr",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-30T10:23:09.787Z",
-    "link": null,
-    "text": "May 26-28: Leave<br>May 29-30<br>• Created all necessary files with updated codes for the reset password model, viewset, and serializer.<br>• Currently figuring out signals.<br> Next <br>• Test the custom reset password functionality and ensure proper functioning.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-03_nandkishorr",
-    "contributor": "nandkishorr",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-02T18:56:53.213Z",
-    "link": null,
-    "text": "june 2<br>• issue on reset password is sort out ,implemented with the existing Django signals. <br>• tested locally the apis and migration required.<br>• raised a pr on this issue for review.",
     "points": null,
     "meta": null
   },

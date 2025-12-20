@@ -1,38 +1,5 @@
 [
   {
-    "slug": "pr_merged_care_fe#6928",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #6928",
-    "occured_at": "2023-12-27T09:08:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6928",
-    "text": "fix deploy workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_docs#64",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #64",
-    "occured_at": "2024-10-15T07:23:22.000Z",
-    "link": "https://github.com/ohcnetwork/docs/issues/64",
-    "text": "Add Docs for HCX",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#5518",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #5518",
-    "occured_at": "2023-05-25T08:18:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/5518",
-    "text": "UI: Fix checkbox backgroud",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care_fe#3738",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -51,6 +18,39 @@
     "occured_at": "2021-04-20T19:27:05.000Z",
     "link": "https://github.com/ohcnetwork/life/issues/3",
     "text": "Ambulance data",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#5518",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #5518",
+    "occured_at": "2023-05-25T08:18:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/5518",
+    "text": "UI: Fix checkbox backgroud",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#6928",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #6928",
+    "occured_at": "2023-12-27T09:08:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6928",
+    "text": "fix deploy workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_docs#64",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #64",
+    "occured_at": "2024-10-15T07:23:22.000Z",
+    "link": "https://github.com/ohcnetwork/docs/issues/64",
+    "text": "Add Docs for HCX",
     "points": null,
     "meta": {}
   },
@@ -1331,6 +1331,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#13755_IC_kwDODtfaXs7Huff9",
+    "contributor": "khavinshankar",
+    "activity_definition": "comment_created",
+    "title": "Commented on #13755",
+    "occured_at": "2025-09-30T09:09:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13755#issuecomment-3350853629",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#4042",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -1712,6 +1723,17 @@
     "occured_at": "2025-03-01T09:26:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10789",
     "text": "Modify the discharge summary report to be insync with current treatment summary template",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_abdm_phr#5",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #5",
+    "occured_at": "2025-11-07T09:34:15.000Z",
+    "link": "https://github.com/ohcnetwork/abdm_phr/issues/5",
+    "text": "Initial Testing",
     "points": null,
     "meta": {}
   },
@@ -2448,17 +2470,6 @@
     "title": "Commented on #14024",
     "occured_at": "2025-10-10T08:26:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14024#issuecomment-3388835724",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#13755_IC_kwDODtfaXs7Huff9",
-    "contributor": "khavinshankar",
-    "activity_definition": "comment_created",
-    "title": "Commented on #13755",
-    "occured_at": "2025-09-30T09:09:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13755#issuecomment-3350853629",
     "text": null,
     "points": null,
     "meta": {}
@@ -4631,17 +4642,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_abdm_phr#5",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #5",
-    "occured_at": "2025-11-07T09:34:15.000Z",
-    "link": "https://github.com/ohcnetwork/abdm_phr/issues/5",
-    "text": "Initial Testing",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#10841_APPROVED_PRR_kwDODtfaXs6eYcVP",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -6039,6 +6039,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#5555_APPROVED_PRR_kwDODtfaXs5WZrZE",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #5555",
+    "occured_at": "2023-05-29T14:22:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5555#pullrequestreview-1449571908",
+    "text": "fix cursor",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#7098_APPROVED_PRR_kwDODtfaXs5t1ZJM",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -6387,17 +6398,6 @@
     "occured_at": "2023-06-06T06:47:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/5560#pullrequestreview-1464387942",
     "text": "fixed width of patient bed select dialog box in patient dashboard",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#5555_APPROVED_PRR_kwDODtfaXs5WZrZE",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #5555",
-    "occured_at": "2023-05-29T14:22:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5555#pullrequestreview-1449571908",
-    "text": "fix cursor",
     "points": null,
     "meta": {}
   },
@@ -9779,6 +9779,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#11591",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #11591",
+    "occured_at": "2025-03-27T12:27:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/11591",
+    "text": "UI broken for user dashboard",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#13503",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -10149,17 +10160,6 @@
     "occured_at": "2025-03-28T13:11:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/11464",
     "text": "Appointments can still be viewed after not having permission to view the page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#11591",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #11591",
-    "occured_at": "2025-03-27T12:27:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/11591",
-    "text": "UI broken for user dashboard",
     "points": null,
     "meta": {}
   },
@@ -10919,6 +10919,17 @@
     "occured_at": "2024-11-20T02:16:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/9132",
     "text": "Year Of Birth Field Validation Condition in Patient transfer form is not working as expected",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#8413",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #8413",
+    "occured_at": "2024-08-23T06:34:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8413",
+    "text": "Improve mobile responsiveness and i18n for HCX components",
     "points": null,
     "meta": {}
   },
@@ -11689,17 +11700,6 @@
     "occured_at": "2024-09-23T12:31:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/8595",
     "text": "Bug: File are Missing in consultation page ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#8413",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #8413",
-    "occured_at": "2024-08-23T06:34:59.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8413",
-    "text": "Improve mobile responsiveness and i18n for HCX components",
     "points": null,
     "meta": {}
   },
@@ -20273,6 +20273,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#5306",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #5306",
+    "occured_at": "2023-05-09T07:45:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/5306",
+    "text": "Asset registration- Support tollfree No.",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#5470",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -20665,17 +20676,6 @@
     "occured_at": "2023-05-16T14:32:16.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/4871",
     "text": "View procedures in Patient Dashboard",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#5306",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #5306",
-    "occured_at": "2023-05-09T07:45:57.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/5306",
-    "text": "Asset registration- Support tollfree No.",
     "points": null,
     "meta": {}
   },
@@ -21461,6 +21461,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#5049",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #5049",
+    "occured_at": "2023-03-13T09:06:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/5049",
+    "text": "Get rid of material-ui/icons",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#5168",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -21842,17 +21853,6 @@
     "occured_at": "2023-03-13T09:09:05.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/5081",
     "text": "Bed selection dropdown: Location to be added",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#5049",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #5049",
-    "occured_at": "2023-03-13T09:06:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/5049",
-    "text": "Get rid of material-ui/icons",
     "points": null,
     "meta": {}
   },
@@ -77726,6 +77726,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14796",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14796",
+    "occured_at": "2025-12-16T08:28:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14796",
+    "text": "Share plug meta as props in PLUGIN_Component",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14785_COMMENTED_PRR_kwDODtfaXs7WEH-Q",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -77770,17 +77781,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14796",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14796",
-    "occured_at": "2025-12-16T08:28:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14796",
-    "text": "Share plug meta as props in PLUGIN_Component",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14791",
     "contributor": "khavinshankar",
     "activity_definition": "pr_opened",
@@ -77788,6 +77788,17 @@
     "occured_at": "2025-12-16T07:34:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14791",
     "text": "show selected orgs when there is a selection",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_manyu/fixes/14626_0fc50198c91dfe3b93a91ec36a3ac2906507fb0c",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to manyu/fixes/14626",
+    "occured_at": "2025-12-18T07:07:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0fc50198c91dfe3b93a91ec36a3ac2906507fb0c",
+    "text": "allow selecting nested facility even if it is already selected (#14790)",
     "points": null,
     "meta": {}
   }

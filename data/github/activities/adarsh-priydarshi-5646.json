@@ -968,6 +968,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#14521_IC_kwDODtfaXs7ZE6dR",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14521",
+    "occured_at": "2025-12-11T13:29:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14521#issuecomment-3641943889",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_renovate/raviger-5.x-lockfile_602961c045d195f50132290f59ef0435ab046320",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "commit_created",
@@ -1271,17 +1282,6 @@
     "title": "Commented on #14647",
     "occured_at": "2025-12-11T14:09:23.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14647#issuecomment-3642107625",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14521_IC_kwDODtfaXs7ZE6dR",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14521",
-    "occured_at": "2025-12-11T13:29:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14521#issuecomment-3641943889",
     "text": null,
     "points": null,
     "meta": {}
@@ -1903,39 +1903,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14827",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14827",
-    "occured_at": "2025-12-16T13:29:59.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
-    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14878",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14878",
-    "occured_at": "2025-12-18T13:42:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14878",
-    "text": "feat: Add CSV export functionality for billing data tables (Invoices, Payments, Accounts)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14827_adarsh-priydarshi-5646",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14827 assigned",
-    "occured_at": "2025-12-17T09:05:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
-    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14642_adarsh-priydarshi-5646",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "issue_assigned",
@@ -1980,39 +1947,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14826_COMMENTED_PRR_kwDODtfaXs7Vq7rG",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14826",
-    "occured_at": "2025-12-16T20:20:57.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14826#pullrequestreview-3584801478",
-    "text": "Fix: Hardcoded toast messages now use i18n translations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14826_APPROVED_PRR_kwDODtfaXs7WeOGf",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14826",
-    "occured_at": "2025-12-19T11:28:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14826#pullrequestreview-3598246303",
-    "text": "Fix: Hardcoded toast messages now use i18n translations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14831_COMMENTED_PRR_kwDODtfaXs7Vq47w",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14831",
-    "occured_at": "2025-12-16T20:16:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14831#pullrequestreview-3584790256",
-    "text": "Fix: Appointment list as link element",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14877",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_opened",
@@ -2042,6 +1976,83 @@
     "occured_at": "2025-12-16T12:09:26.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14818",
     "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14827",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14827",
+    "occured_at": "2025-12-16T13:29:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
+    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14878",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14878",
+    "occured_at": "2025-12-18T13:42:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14878",
+    "text": "feat: Add CSV export functionality for billing data tables (Invoices, Payments, Accounts)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14827_adarsh-priydarshi-5646",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14827 assigned",
+    "occured_at": "2025-12-17T09:05:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14827",
+    "text": "Fix: Memory leak in AudioPlayer due to incorrect event listener cleanup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14887_IC_kwDODtfaXs7bFcJM",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14887",
+    "occured_at": "2025-12-19T16:12:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14887#issuecomment-3675636300",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14826_COMMENTED_PRR_kwDODtfaXs7Vq7rG",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14826",
+    "occured_at": "2025-12-16T20:20:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14826#pullrequestreview-3584801478",
+    "text": "Fix: Hardcoded toast messages now use i18n translations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14826_APPROVED_PRR_kwDODtfaXs7WeOGf",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14826",
+    "occured_at": "2025-12-19T11:28:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14826#pullrequestreview-3598246303",
+    "text": "Fix: Hardcoded toast messages now use i18n translations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14831_COMMENTED_PRR_kwDODtfaXs7Vq47w",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14831",
+    "occured_at": "2025-12-16T20:16:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14831#pullrequestreview-3584790256",
+    "text": "Fix: Appointment list as link element",
     "points": null,
     "meta": {}
   }
