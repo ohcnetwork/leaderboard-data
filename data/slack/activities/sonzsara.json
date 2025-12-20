@@ -110,6 +110,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-13_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-13T07:02:07.015Z",
+    "link": null,
+    "text": "August 13<br>• Made corrections to the KPI card <em>First Field Visit of Patient</em><br>• Added ADM for all the drill-downs<br>Next<br>• Weekly Dashboard",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-24_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -308,6 +319,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-11_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-11T07:18:21.889Z",
+    "link": null,
+    "text": "August 11<br>• Had review meeting with <strong>Rohit</strong> and <strong>Merrin</strong> regarding <strong>the Dashboard</strong>.<br>• Added new <strong>KPI cards and diagnosis table</strong> to the dashboard.<br>• Corrected <strong>Symptoms and additional care tables.</strong><br>• <strong>Split nursing procedures</strong> into relevant categories for analysis.<br>Next<br>• Standardize all drill downs.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-07-10_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -484,6 +506,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-12_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-12T03:38:36.955Z",
+    "link": null,
+    "text": "August 12<br>• Made a few changes to the <strong>Symptoms</strong> table.<br>• Added new columns to the <strong>drill-downs</strong>.<br>• Tested the dashboard to ensure it works with filters such as <strong>Yesterday, Previous 30 days</strong>.<br>• Attended Weekly EOD Call.<br><strong>Next</strong><br>• <strong>Make slight changes to the daily dashboard.</strong><br>• Start working on the <strong>weekly dashboard</strong>.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-27_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -623,39 +656,6 @@
     "occured_at": "2025-08-07T06:24:23.121Z",
     "link": null,
     "text": "August 7<br>• Finalized logic to count open encounters using encounter status.<br>• Set up date filter variable to default to today and update dynamically when changed manually.<br>• Created KPI and drill down to count <strong>first-time field visits</strong> for newly registered patients.<br>• <span class=\"s-emoji\">🎧</span> w <span class=\"s-mention s-user\">@U086E5U2CSJ</span> and <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> to clarify doubts.<br>• <strong>KPI Cards Created for Home Health Visits, Virtual Encounters,Bookings Assigned to Bot,Bookings Assigned to Users and several others.</strong><br>• <strong>Added deceased date time for drill downs in Death forms.</strong>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-11_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-11T07:18:21.889Z",
-    "link": null,
-    "text": "August 11<br>• Had review meeting with <strong>Rohit</strong> and <strong>Merrin</strong> regarding <strong>the Dashboard</strong>.<br>• Added new <strong>KPI cards and diagnosis table</strong> to the dashboard.<br>• Corrected <strong>Symptoms and additional care tables.</strong><br>• <strong>Split nursing procedures</strong> into relevant categories for analysis.<br>Next<br>• Standardize all drill downs.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-12_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-12T03:38:36.955Z",
-    "link": null,
-    "text": "August 12<br>• Made a few changes to the <strong>Symptoms</strong> table.<br>• Added new columns to the <strong>drill-downs</strong>.<br>• Tested the dashboard to ensure it works with filters such as <strong>Yesterday, Previous 30 days</strong>.<br>• Attended Weekly EOD Call.<br><strong>Next</strong><br>• <strong>Make slight changes to the daily dashboard.</strong><br>• Start working on the <strong>weekly dashboard</strong>.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-13_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-13T07:02:07.015Z",
-    "link": null,
-    "text": "August 13<br>• Made corrections to the KPI card <em>First Field Visit of Patient</em><br>• Added ADM for all the drill-downs<br>Next<br>• Weekly Dashboard",
     "points": null,
     "meta": null
   },
@@ -913,6 +913,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-14_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-13T18:59:31.605Z",
+    "link": null,
+    "text": "Nov 13<br>• Added new card &#x27;Tele- billed&#x27; to Arike activity Dashboard<br>• Added new card &#x27;Tele - free&#x27; to ops 2 tab<br>• Build drill down for Tele - billed and Tele - free<br>• Added new card &#x27;pharmacy stock&#x27; and build its drill down<br>• Added new card &#x27;Low stock&#x27; to the finance tab<br>• Added new card &quot;Expiring soon items&#x27; to finance tab<br>• Build drill downs for the them <br>• Updated &#x27;Gender wise split&#x27; card to remove duplicates",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-16_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-15T20:49:15.597Z",
+    "link": null,
+    "text": "Nov 14<br>• Added new card Tele consultation - billable to the Finance tab<br>• Added new col &#x27; expired items &#x27; to the pharmacy stock drill down<br>• Went through &#x27; readmission after 100 days&#x27; card to review it<br>• Long discussion with Rohit regarding the finance tab of Arike activity dashboard<br>• Added new card &#x27;Low stock and Expiring soon&#x27; to finance tab and build drill down for the same<br>• Added Stock status filter to the same<br>• Added new card &#x27;Active Accounts&#x27; to the finance tab <br>• Added the following KPI cards : total paid, total due and total balance",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-10-01_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -986,28 +1008,6 @@
     "occured_at": "2025-10-08T04:54:57.779Z",
     "link": null,
     "text": "<strong>Oct 7</strong><br>• Attended Zoom meeting with the <em>Kerala Care Dashboard</em> team<br>• <strong>Huddle with</strong> Shraddha to clarify her doubts<br>• Attended the weekly EOD call<br><strong>Oct 8</strong><br>• Call with Rohit and Anand for Arike dashboard Review.<br>• Updated Patient tag filter for <em>Active Patients</em> and <em>Open Encounters cards.</em><br>• Updated &#x27;Open Encounters&#x27;  , &#x27;Registered but No Care&#x27; drill downs to sort created date in desc order.<br>• Updated &#x27;Appointments fulfilled but no forms <strong>entered&#x27;</strong> card to include Last Modified Staff Name field.<br>• Added new card &#x27; nursing incomplete&#x27; to the ops2 tab.<br>• Build a drill down for the same.<br>\n\n<strong>Oct 7</strong><br>• Attended Zoom meeting with the <em>Kerala Care Dashboard</em> team<br>• <strong>Huddle with</strong> Shraddha to clarify her doubts<br>• Attended the weekly EOD call<br><strong>Oct 8</strong><br>• Call with Rohit and Anand for Arike dashboard Review.<br>• Updated Patient tag filter for <em>Active Patients</em> and <em>Open Encounters cards.</em><br>• Updated &#x27;Open Encounters&#x27;  , &#x27;Registered but No Care&#x27; drill downs to sort created date in desc order.<br>• Updated &#x27;Appointments fulfilled but no forms <strong>entered&#x27;</strong> card to include Last Modified Staff Name field.<br>• Added new card &#x27; nursing incomplete&#x27; to the ops2 tab.<br>• Build a drill down for the same.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-14_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-13T18:59:31.605Z",
-    "link": null,
-    "text": "Nov 13<br>• Added new card &#x27;Tele- billed&#x27; to Arike activity Dashboard<br>• Added new card &#x27;Tele - free&#x27; to ops 2 tab<br>• Build drill down for Tele - billed and Tele - free<br>• Added new card &#x27;pharmacy stock&#x27; and build its drill down<br>• Added new card &#x27;Low stock&#x27; to the finance tab<br>• Added new card &quot;Expiring soon items&#x27; to finance tab<br>• Build drill downs for the them <br>• Updated &#x27;Gender wise split&#x27; card to remove duplicates",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-16_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-15T20:49:15.597Z",
-    "link": null,
-    "text": "Nov 14<br>• Added new card Tele consultation - billable to the Finance tab<br>• Added new col &#x27; expired items &#x27; to the pharmacy stock drill down<br>• Went through &#x27; readmission after 100 days&#x27; card to review it<br>• Long discussion with Rohit regarding the finance tab of Arike activity dashboard<br>• Added new card &#x27;Low stock and Expiring soon&#x27; to finance tab and build drill down for the same<br>• Added Stock status filter to the same<br>• Added new card &#x27;Active Accounts&#x27; to the finance tab <br>• Added the following KPI cards : total paid, total due and total balance",
     "points": null,
     "meta": null
   },

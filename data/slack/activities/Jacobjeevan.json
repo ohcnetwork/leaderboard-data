@@ -187,6 +187,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-07_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-06T21:03:59.468Z",
+    "link": null,
+    "text": "December 6th<br>Done<br>• Opened BE PRs for both PCo2/Po2 update (adding support for decimals) and facility users route (filter out deleted users)<br>• Opened a draft PR for FE for Pco2/Po2<br>• Reviewed contributor PRs<br>• Took care of merge conflicts in existing PRs<br>Next<br>• Need to tweak the FE PR for Pco2/Po2 update a bit more (in what it passes to BE).",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-27_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-26T20:41:45.682Z",
+    "link": null,
+    "text": "March 26<br>• had to go back to municipality again for aadhar stuff<br>• reviewing and making changes to the older prs to get them merged<br>next<br>• continue the above, and get existing PRs from contributors and interns merged.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -374,13 +396,13 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-12-07_Jacobjeevan",
+    "slug": "eod_update_2025-05-07_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2024-12-06T21:03:59.468Z",
+    "occured_at": "2025-05-06T18:51:04.165Z",
     "link": null,
-    "text": "December 6th<br>Done<br>• Opened BE PRs for both PCo2/Po2 update (adding support for decimals) and facility users route (filter out deleted users)<br>• Opened a draft PR for FE for Pco2/Po2<br>• Reviewed contributor PRs<br>• Took care of merge conflicts in existing PRs<br>Next<br>• Need to tweak the FE PR for Pco2/Po2 update a bit more (in what it passes to BE).",
+    "text": "may 6<br>• billing again<br>next<br>• more billing prob",
     "points": null,
     "meta": null
   },
@@ -594,6 +616,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-13_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-13T17:14:57.254Z",
+    "link": null,
+    "text": "13th December<br>Done<br>• Worked a bit on organizations FE<br>• Worked on Patient Files FE<br>    ◦ The new designs allow for filtering based on the type of content (lab report, audio etc). We don&#x27;t really store this right now (yes, there&#x27;s a file category, but most of the files are categorized as unknown by default)<br>• Little bit of work on Facilities FE for Tue demo<br>Next<br>• Facilities FE for Tue<br>• Organizations FE",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-21_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "eod_update",
@@ -755,17 +788,6 @@
     "occured_at": "2024-12-12T16:48:46.641Z",
     "link": null,
     "text": "12th December<br>Done<br>Not as productive today<br>• Reviewed contributor PRs<br>• Back to shadcn stuff on User management<br>• Started work on Organizations FE<br>Next<br>• Start patient files redesign<br>• Organizations FE",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-13_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-13T17:14:57.254Z",
-    "link": null,
-    "text": "13th December<br>Done<br>• Worked a bit on organizations FE<br>• Worked on Patient Files FE<br>    ◦ The new designs allow for filtering based on the type of content (lab report, audio etc). We don&#x27;t really store this right now (yes, there&#x27;s a file category, but most of the files are categorized as unknown by default)<br>• Little bit of work on Facilities FE for Tue demo<br>Next<br>• Facilities FE for Tue<br>• Organizations FE",
     "points": null,
     "meta": null
   },
@@ -953,17 +975,6 @@
     "occured_at": "2025-01-14T12:38:03.821Z",
     "link": null,
     "text": "Jan 13-14<br>Done<br>• additional changes to existing PRs, got them merged<br>• reviewed PRs<br>• few minor bug fixes<br>• made changes to existing PR for populating organization selector values for edit forms<br>• pagination and search for organization users<br>• rescheduling appointment support for otp flow<br>• tweak create user form to support edit user form<br>Next<br>• finish up rescheduling appointment for otp flow<br>• finish support for editing users",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-27_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-26T20:41:45.682Z",
-    "link": null,
-    "text": "March 26<br>• had to go back to municipality again for aadhar stuff<br>• reviewing and making changes to the older prs to get them merged<br>next<br>• continue the above, and get existing PRs from contributors and interns merged.",
     "points": null,
     "meta": null
   },
@@ -1514,17 +1525,6 @@
     "occured_at": "2025-05-05T19:22:47.581Z",
     "link": null,
     "text": "may 5<br>• some reviews<br>• billing<br>next<br>• billing stuff again",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-07_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-06T18:51:04.165Z",
-    "link": null,
-    "text": "may 6<br>• billing again<br>next<br>• more billing prob",
     "points": null,
     "meta": null
   },
