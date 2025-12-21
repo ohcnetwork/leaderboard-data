@@ -528,6 +528,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-12_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-12T01:27:32.040Z",
+    "link": null,
+    "text": "Dec 9:<br>• Multiple calls with James regarding various things (hfr name change for jnims, suitable pos devices)<br>• Went through HFR APIs to change name but couldn&#x27;t find them, raised a request in ABDM<br>• Huddle with Prafful going over ABDM<br>• Started fixing errors in fhir transformers<br>Dec 10:<br>• Removed old dependencies from abdm<br>• Fixed most of the sentry errors regarding fhir bundling in ABDM<br>Dec 11:<br>• Quick huddle with Rohit on payment gateway integration<br>• Quick huddle with Aakash on squashing abdm migrations<br>• Fixed usage of old models in migrations, squashed migrations <br>• Went through Pinelabs docs to see how similar are they to Razorpay<br>Next:<br>• Raise a request to ABDM support regarding issue with enabling scan and pay<br>• Test scan and pay flow fully and fix any issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-09_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -616,6 +627,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-15_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-15T06:12:18.315Z",
+    "link": null,
+    "text": "Dec 12:<br>• Worked on couple of issue assigned by Nihal<br>    ◦ <a href=\"https://github.com/ohcnetwork/care_fe/pull/14736\">https://github.com/ohcnetwork/care_fe/pull/14736</a><br>    ◦ <a href=\"https://github.com/ohcnetwork/care_fe/pull/14733\">https://github.com/ohcnetwork/care_fe/pull/14733</a><br>• Had a call with pinelabs folks regarding possiblity of using pinelabs as payment gateway<br>• Went through the pinelabs guide for payment gateway and pos integration",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-04_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -678,28 +700,6 @@
     "occured_at": "2025-11-13T16:58:15.316Z",
     "link": null,
     "text": "Nov 13<br>• Added encounter filter to consent requests in abdm<br>• Replaced the usage of get_facility_queryset with updated logic<br>• Went over the ABDM demo flow with Amrutha",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-12_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-12T01:27:32.040Z",
-    "link": null,
-    "text": "Dec 9:<br>• Multiple calls with James regarding various things (hfr name change for jnims, suitable pos devices)<br>• Went through HFR APIs to change name but couldn&#x27;t find them, raised a request in ABDM<br>• Huddle with Prafful going over ABDM<br>• Started fixing errors in fhir transformers<br>Dec 10:<br>• Removed old dependencies from abdm<br>• Fixed most of the sentry errors regarding fhir bundling in ABDM<br>Dec 11:<br>• Quick huddle with Rohit on payment gateway integration<br>• Quick huddle with Aakash on squashing abdm migrations<br>• Fixed usage of old models in migrations, squashed migrations <br>• Went through Pinelabs docs to see how similar are they to Razorpay<br>Next:<br>• Raise a request to ABDM support regarding issue with enabling scan and pay<br>• Test scan and pay flow fully and fix any issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-15_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-15T06:12:18.315Z",
-    "link": null,
-    "text": "Dec 12:<br>• Worked on couple of issue assigned by Nihal<br>    ◦ <a href=\"https://github.com/ohcnetwork/care_fe/pull/14736\">https://github.com/ohcnetwork/care_fe/pull/14736</a><br>    ◦ <a href=\"https://github.com/ohcnetwork/care_fe/pull/14733\">https://github.com/ohcnetwork/care_fe/pull/14733</a><br>• Had a call with pinelabs folks regarding possiblity of using pinelabs as payment gateway<br>• Went through the pinelabs guide for payment gateway and pos integration",
     "points": null,
     "meta": null
   }

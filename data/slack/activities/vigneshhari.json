@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-05-20_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-19T21:22:19.177Z",
+    "link": null,
+    "text": "May 19th<br>• Labs - Inventory Syncing<br>Next<br>• Patient Identifiers<br>• Tags",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-06_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-05T18:48:38.567Z",
+    "link": null,
+    "text": "December 5th<br>• Completed Medicine request deployment<br>• Fixed a ton of bugs and re-arranging based on FE integrations<br>• Moving around the api spec based on bodhi&#x27;s feedback<br>• Calls with team<br>Next<br>• Finish the set of fe inconveniences reported by bodhi<br>• Work on security API",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-16_vigneshhari",
     "contributor": "vigneshhari",
     "activity_definition": "eod_update",
@@ -29,28 +51,6 @@
     "occured_at": "2024-12-23T20:04:49.511Z",
     "link": null,
     "text": "December 23rd<br>• Fever<br>• Headache<br>Next<br>• Rest",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-20_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-19T21:22:19.177Z",
-    "link": null,
-    "text": "May 19th<br>• Labs - Inventory Syncing<br>Next<br>• Patient Identifiers<br>• Tags",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-06_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-05T18:48:38.567Z",
-    "link": null,
-    "text": "December 5th<br>• Completed Medicine request deployment<br>• Fixed a ton of bugs and re-arranging based on FE integrations<br>• Moving around the api spec based on bodhi&#x27;s feedback<br>• Calls with team<br>Next<br>• Finish the set of fe inconveniences reported by bodhi<br>• Work on security API",
     "points": null,
     "meta": null
   },
@@ -253,6 +253,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-04_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-04T06:56:07.228Z",
+    "link": null,
+    "text": "Feb 3rd, 4rth<br>Done<br>• Lots of calls<br>• Bug fixes, mostly in MAR<br>• Found an edge case with Allergyintolerance and how its stored, made a solution implementation<br>• Designed Devices, Scraped it<br>Next<br>• Reimplement devices<br>• Labs<br>• Fix Issues raised by Auditors<br>• Tests",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-21_vigneshhari",
     "contributor": "vigneshhari",
     "activity_definition": "eod_update",
@@ -425,17 +436,6 @@
     "occured_at": "2025-01-28T17:54:06.697Z",
     "link": null,
     "text": "27th Jan 2025<br>• Visited sudheendra hospital and went through all their workflows<br>• Meetings with doctors on data rentention and other aspects<br>• Long calls with bodhi around metabase, we have some solutions lined up for reporting<br>• Looking at the consent spec<br>Next<br>• Finish Device Spec<br>• Finish Consent Spec<br>• Fix issues reported by Amjith<br>• Merge MR to main",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-04_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-04T06:56:07.228Z",
-    "link": null,
-    "text": "Feb 3rd, 4rth<br>Done<br>• Lots of calls<br>• Bug fixes, mostly in MAR<br>• Found an edge case with Allergyintolerance and how its stored, made a solution implementation<br>• Designed Devices, Scraped it<br>Next<br>• Reimplement devices<br>• Labs<br>• Fix Issues raised by Auditors<br>• Tests",
     "points": null,
     "meta": null
   },

@@ -1,60 +1,5 @@
 [
   {
-    "slug": "pr_opened_care#3246",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3246",
-    "occured_at": "2025-09-10T08:06:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3246",
-    "text": "fix spes in NoteThread viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3246",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3246",
-    "occured_at": "2025-09-10T09:04:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3246",
-    "text": "fix spes in NoteThread viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2968",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2968",
-    "occured_at": "2025-04-03T05:05:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2968",
-    "text": "fixed the custom class validator",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2898",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2898",
-    "occured_at": "2025-03-07T14:20:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2898",
-    "text": "adding limit and some contrainsts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2885",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2885",
-    "occured_at": "2025-03-03T12:38:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2885",
-    "text": "fixed bug in consent create spec",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#2882",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -150,6 +95,61 @@
     "occured_at": "2025-01-28T22:17:26.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2789",
     "text": "updated swagger schema",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2885",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2885",
+    "occured_at": "2025-03-03T12:38:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2885",
+    "text": "fixed bug in consent create spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3246",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3246",
+    "occured_at": "2025-09-10T08:06:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3246",
+    "text": "fix spes in NoteThread viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3246",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3246",
+    "occured_at": "2025-09-10T09:04:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3246",
+    "text": "fix spes in NoteThread viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2968",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2968",
+    "occured_at": "2025-04-03T05:05:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2968",
+    "text": "fixed the custom class validator",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2898",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2898",
+    "occured_at": "2025-03-07T14:20:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2898",
+    "text": "adding limit and some contrainsts",
     "points": null,
     "meta": {}
   },
@@ -2574,6 +2574,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care#2334_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #2334 assigned",
+    "occured_at": "2024-09-03T14:29:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2334",
+    "text": "Archive field `spo2` in favour of `ventilator_spo2` in the Daily Rounds model",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_fd432adc22ee16c8adaf739a5d659352afa06617",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -2955,17 +2966,6 @@
     "occured_at": "2024-02-25T09:06:26.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/1541",
     "text": "Move the Investigations and Investigation Groups into JSON",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#2334_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #2334 assigned",
-    "occured_at": "2024-09-03T14:29:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2334",
-    "text": "Archive field `spo2` in favour of `ventilator_spo2` in the Daily Rounds model",
     "points": null,
     "meta": {}
   },
