@@ -1,38 +1,5 @@
 [
   {
-    "slug": "eod_update_2025-05-20_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-19T21:22:19.177Z",
-    "link": null,
-    "text": "May 19th<br>• Labs - Inventory Syncing<br>Next<br>• Patient Identifiers<br>• Tags",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-06_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-05T18:48:38.567Z",
-    "link": null,
-    "text": "December 5th<br>• Completed Medicine request deployment<br>• Fixed a ton of bugs and re-arranging based on FE integrations<br>• Moving around the api spec based on bodhi&#x27;s feedback<br>• Calls with team<br>Next<br>• Finish the set of fe inconveniences reported by bodhi<br>• Work on security API",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-16_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-16T08:10:01.559Z",
-    "link": null,
-    "text": "16th November<br>• Completed Valueset API&#x27;s<br>• Cleaned up more code<br>• Deployed everything to DO<br>Next<br>• Use Defined valuesets in API&#x27;s <br>• Valueset Lookup Confirm validation<br>• Problem FHIR API<br>• Complete Cleanup and make a dent in the TODO list<br>• Do weekend stuff",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-27_vigneshhari",
     "contributor": "vigneshhari",
     "activity_definition": "eod_update",
@@ -62,6 +29,39 @@
     "occured_at": "2024-12-25T20:02:33.067Z",
     "link": null,
     "text": "December 25th<br>• Finally completed permissions module<br>• Questionnaire is now controlled through RBAC<br>• Cakes<br>• Validations and API&#x27;s<br>Next<br>• Add security to everything else in care",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-20_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-19T21:22:19.177Z",
+    "link": null,
+    "text": "May 19th<br>• Labs - Inventory Syncing<br>Next<br>• Patient Identifiers<br>• Tags",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-06_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-05T18:48:38.567Z",
+    "link": null,
+    "text": "December 5th<br>• Completed Medicine request deployment<br>• Fixed a ton of bugs and re-arranging based on FE integrations<br>• Moving around the api spec based on bodhi&#x27;s feedback<br>• Calls with team<br>Next<br>• Finish the set of fe inconveniences reported by bodhi<br>• Work on security API",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-16_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-16T08:10:01.559Z",
+    "link": null,
+    "text": "16th November<br>• Completed Valueset API&#x27;s<br>• Cleaned up more code<br>• Deployed everything to DO<br>Next<br>• Use Defined valuesets in API&#x27;s <br>• Valueset Lookup Confirm validation<br>• Problem FHIR API<br>• Complete Cleanup and make a dent in the TODO list<br>• Do weekend stuff",
     "points": null,
     "meta": null
   },
@@ -264,6 +264,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-05_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-05T06:06:49.374Z",
+    "link": null,
+    "text": "February 5th<br>• Added filters and random bug fixes<br>• Completed implementation of allergy for cross encounter usage<br>• Added blacklisting of token on logout<br>• Fixed some critical issues in care<br>Next<br>• Complete Devices and Consent",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-21_vigneshhari",
     "contributor": "vigneshhari",
     "activity_definition": "eod_update",
@@ -436,17 +447,6 @@
     "occured_at": "2025-01-28T17:54:06.697Z",
     "link": null,
     "text": "27th Jan 2025<br>• Visited sudheendra hospital and went through all their workflows<br>• Meetings with doctors on data rentention and other aspects<br>• Long calls with bodhi around metabase, we have some solutions lined up for reporting<br>• Looking at the consent spec<br>Next<br>• Finish Device Spec<br>• Finish Consent Spec<br>• Fix issues reported by Amjith<br>• Merge MR to main",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-05_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-05T06:06:49.374Z",
-    "link": null,
-    "text": "February 5th<br>• Added filters and random bug fixes<br>• Completed implementation of allergy for cross encounter usage<br>• Added blacklisting of token on logout<br>• Fixed some critical issues in care<br>Next<br>• Complete Devices and Consent",
     "points": null,
     "meta": null
   },
