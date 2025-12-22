@@ -396,6 +396,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-09-26_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-26T06:17:32.309Z",
+    "link": null,
+    "text": "Populated dummy data and all cypress tests passing except for Sample Test&#x27;s test. Working on populating sample tests too. Made a management command <code>load_dummy_data</code> that can be run only in local environment.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-08-16_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -612,17 +623,6 @@
     "occured_at": "2022-09-20T04:16:39.042Z",
     "link": null,
     "text": "Made single column layout for <a href=\"https://github.com/ohcnetwork/care_fe/pull/3458\">Asset Registration V2</a><br>Yet to make the current section highlight and sidebar persistent.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-09-26_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-26T06:17:32.309Z",
-    "link": null,
-    "text": "Populated dummy data and all cypress tests passing except for Sample Test&#x27;s test. Working on populating sample tests too. Made a management command <code>load_dummy_data</code> that can be run only in local environment.",
     "points": null,
     "meta": null
   },
@@ -1639,6 +1639,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-17_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-17T06:01:00.854Z",
+    "link": null,
+    "text": "<strong>Jan 17th</strong><br>• train to kochi<br>• tests for scheduling. ~94%<br>• updated get_slots_for_day api to account for availability exceptions<br>• debugging things<br><strong>Next</strong><br>• 100% coverage on scheduling and fixes for 2 failing tests (63 passing on the bright side).",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-05-30_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1782,17 +1793,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-01-17_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-17T06:01:00.854Z",
-    "link": null,
-    "text": "<strong>Jan 17th</strong><br>• train to kochi<br>• tests for scheduling. ~94%<br>• updated get_slots_for_day api to account for availability exceptions<br>• debugging things<br><strong>Next</strong><br>• 100% coverage on scheduling and fixes for 2 failing tests (63 passing on the bright side).",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2023-10-13_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1921,6 +1921,17 @@
     "occured_at": "2025-08-05T18:38:29.593Z",
     "link": null,
     "text": "<strong>august 5</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13264\">#13264</a>: make role selects searchable<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13263\">#13263</a>: add support for searching by name in appointments via search against encounter<br>• reviewed prs<br><strong>next</strong><br>• bulk import prod. knowledge<br>• encounter redesign",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-09-25_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-09-25T05:17:56.040Z",
+    "link": null,
+    "text": "<strong>EOD 25/09/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care/pull/1636\">#1636</a>: Completed refactoring ICD11 Table + huddled with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on the same<br><strong>What&#x27;s next?</strong><br>• Resolve conflicts on archive medicine administrations PR and add tests in backend<br>• Follow up on uninstall axios PR<br>• Split routes of AppRouter into multiple nested routers",
     "points": null,
     "meta": null
   },
@@ -2156,6 +2167,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-13_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-13T16:38:54.748Z",
+    "link": null,
+    "text": "<strong>13 Dec</strong><br>• Tested and wired appointment APIs (available doctors, slots, and create). Create failing due to Slot Not Found from BE.<br>• Changed from Tokens Allowed to slot size in mins + tokens per slot when creating schedule. (Else BE doesn’t create slots)<br>• Cleaned up Amjith’s <code>query</code> util. function and merged it.<br>• Made some changes to med req. UI.<br><strong>Up Next</strong><br>• Merge develop with scheduling and resolve conflicts.<br>• Wire APIs for Appointments board and list UI once APIs for that are ready.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-03_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2251,6 +2273,17 @@
     "occured_at": "2023-10-10T04:33:14.159Z",
     "link": null,
     "text": "<strong>EOD 10/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Worked on suggestions in medicine administration table.<br><strong>What&#x27;s next?</strong><br>• Review useQuery migration PRs<br>• Finish working on suggested changes to medicine administration table.<br>• Work on remaining changes for consultation: route to facility.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-03_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-03T17:33:19.332Z",
+    "link": null,
+    "text": "<strong>December 3rd</strong><br>• <a href=\"https://github.com/ohcnetwork/leaderboard/pull/551\">leaderboard#551</a> updated project board scraper script to unique by contributor assignee/author and other improvements<br>• reviewed a bunch of PRs<br><strong>Next</strong><br>• review cookiecutter template for plugins implemented by <span class=\"s-mention s-user\">@U06L50QL1AQ</span> <br>• complete appointments ui and start integrating apis",
     "points": null,
     "meta": null
   },
@@ -2871,39 +2904,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2023-09-25_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-09-25T05:17:56.040Z",
-    "link": null,
-    "text": "<strong>EOD 25/09/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care/pull/1636\">#1636</a>: Completed refactoring ICD11 Table + huddled with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> on the same<br><strong>What&#x27;s next?</strong><br>• Resolve conflicts on archive medicine administrations PR and add tests in backend<br>• Follow up on uninstall axios PR<br>• Split routes of AppRouter into multiple nested routers",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-13_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-13T16:38:54.748Z",
-    "link": null,
-    "text": "<strong>13 Dec</strong><br>• Tested and wired appointment APIs (available doctors, slots, and create). Create failing due to Slot Not Found from BE.<br>• Changed from Tokens Allowed to slot size in mins + tokens per slot when creating schedule. (Else BE doesn’t create slots)<br>• Cleaned up Amjith’s <code>query</code> util. function and merged it.<br>• Made some changes to med req. UI.<br><strong>Up Next</strong><br>• Merge develop with scheduling and resolve conflicts.<br>• Wire APIs for Appointments board and list UI once APIs for that are ready.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-03_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-03T17:33:19.332Z",
-    "link": null,
-    "text": "<strong>December 3rd</strong><br>• <a href=\"https://github.com/ohcnetwork/leaderboard/pull/551\">leaderboard#551</a> updated project board scraper script to unique by contributor assignee/author and other improvements<br>• reviewed a bunch of PRs<br><strong>Next</strong><br>• review cookiecutter template for plugins implemented by <span class=\"s-mention s-user\">@U06L50QL1AQ</span> <br>• complete appointments ui and start integrating apis",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2023-10-29_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3146,6 +3146,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-06_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-06T17:05:36.073Z",
+    "link": null,
+    "text": "<strong>December 6th</strong><br>• Questionnaire: Wired medication search API, basic shadcn’s combobox for search implemented. Needs improvement.<br>• Explored Medication Requests schema.<br>• Played around integrating react query with Care’s request.<br>• Tested out camera plug with develop db copy.<br>• Watercooler: Unboxing keychron k2 pro.<br><strong>Up Next</strong><br>• Review cookiecutter template for plugins<br>• Questionnaire: Complete wiring medication request and allergy APIs<br>• Raise a PR on react-query using care’s request with few more usages.<br>• Leaderboard: explore a way to scale points based on story points and making points allocation logic more customisable.<br>• Complete Appointments ui and start integrating APIs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-10-18_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3241,17 +3252,6 @@
     "occured_at": "2024-02-06T04:16:50.010Z",
     "link": null,
     "text": "<strong>EOD 06/02/2024 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/10bedicu/pull/76\">10bedicu#76</a>: Updated sikkim’s geojson file to contain the latest districts<br>• <a href=\"https://github.com/ohcnetwork/leaderboard/pull/191\">leaderboard#191</a>: Added support for pagination (by date range) in contributors timeline and filtering by activity type",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-06_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-06T17:05:36.073Z",
-    "link": null,
-    "text": "<strong>December 6th</strong><br>• Questionnaire: Wired medication search API, basic shadcn’s combobox for search implemented. Needs improvement.<br>• Explored Medication Requests schema.<br>• Played around integrating react query with Care’s request.<br>• Tested out camera plug with develop db copy.<br>• Watercooler: Unboxing keychron k2 pro.<br><strong>Up Next</strong><br>• Review cookiecutter template for plugins<br>• Questionnaire: Complete wiring medication request and allergy APIs<br>• Raise a PR on react-query using care’s request with few more usages.<br>• Leaderboard: explore a way to scale points based on story points and making points allocation logic more customisable.<br>• Complete Appointments ui and start integrating APIs",
     "points": null,
     "meta": null
   },
