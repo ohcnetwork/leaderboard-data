@@ -1243,6 +1243,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#3331",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3331",
+    "occured_at": "2025-10-29T12:10:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3331",
+    "text": "updated validation checks in dispense order",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/specimen_definition_bd89cee8fb2fa1c58a1dd7c73130a8ff00ff7b9a",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -1591,17 +1602,6 @@
     "occured_at": "2025-10-24T04:20:50.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3316",
     "text": "fix:boolean check in authorize retrieve",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3331",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3331",
-    "occured_at": "2025-10-29T12:10:26.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3331",
-    "text": "updated validation checks in dispense order",
     "points": null,
     "meta": {}
   },
@@ -3201,6 +3201,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#3397",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3397",
+    "occured_at": "2025-12-04T14:54:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3397",
+    "text": "fix:added healthcare location ids to sr locations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_amjith/odoo_module_bd89cee8fb2fa1c58a1dd7c73130a8ff00ff7b9a",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4323,17 +4334,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#3397",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3397",
-    "occured_at": "2025-12-04T14:54:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3397",
-    "text": "fix:added healthcare location ids to sr locations",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#13865_nandkishorr",
     "contributor": "nandkishorr",
     "activity_definition": "issue_assigned",
@@ -5324,17 +5324,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3419",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3419",
-    "occured_at": "2025-12-16T20:21:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3419",
-    "text": " Data points for patient level report builder",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_develop_bbde68d7c881c026aa6116f1611a116523dc9915",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5401,6 +5390,50 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3427",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3427",
+    "occured_at": "2025-12-19T14:07:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3427",
+    "text": "fix: added status to CreateDispenseOrder spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3421",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3421",
+    "occured_at": "2025-12-17T09:17:59.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3421",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3421",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3421",
+    "occured_at": "2025-12-22T09:38:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3421",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3419",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3419",
+    "occured_at": "2025-12-16T20:21:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3419",
+    "text": " Data points for patient level report builder",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3428",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -5423,24 +5456,90 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3427",
+    "slug": "pr_merged_care#3426",
     "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3427",
-    "occured_at": "2025-12-19T14:07:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3427",
-    "text": "fix: added status to CreateDispenseOrder spec",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3426",
+    "occured_at": "2025-12-22T07:26:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3426",
+    "text": "fix:updated the extension field in delivery order spec",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3421",
+    "slug": "commit_created_develop_02582c19f82389147002b08e3bcfd293c557d013",
     "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3421",
-    "occured_at": "2025-12-17T09:17:59.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3421",
-    "text": "fix:updated BaseMedicationDispenseOrderSpec",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-12-22T09:38:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/02582c19f82389147002b08e3bcfd293c557d013",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec (#3421)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_bbde68d7c881c026aa6116f1611a116523dc9915",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-19T10:25:56.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/bbde68d7c881c026aa6116f1611a116523dc9915",
+    "text": "fix:facility tag manager (#3360)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_d42314542827c5e4798ef897adf068d91313c451",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-22T07:26:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d42314542827c5e4798ef897adf068d91313c451",
+    "text": "fix:updated the extension field in delivery order spec (#3426)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_d75afa0c5a6db314ddaf0c8ba92eeb73680abda3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-22T08:37:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d75afa0c5a6db314ddaf0c8ba92eeb73680abda3",
+    "text": "Merge branch 'develop' into datapoint/patient",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_fix/dispense_order_spec_f741671833f2e0df6a490a7ef6a5b10ebf620138",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix/dispense_order_spec",
+    "occured_at": "2025-12-22T08:34:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/f741671833f2e0df6a490a7ef6a5b10ebf620138",
+    "text": "minor fixes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_d42314542827c5e4798ef897adf068d91313c451",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-12-22T07:26:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d42314542827c5e4798ef897adf068d91313c451",
+    "text": "fix:updated the extension field in delivery order spec (#3426)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_fix/dispense_order_spec_ebf79aaf6312dac3cc7057a32c2ee2960ea88bd4",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix/dispense_order_spec",
+    "occured_at": "2025-12-22T07:11:04.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ebf79aaf6312dac3cc7057a32c2ee2960ea88bd4",
+    "text": "fix import issue",
     "points": null,
     "meta": {}
   }

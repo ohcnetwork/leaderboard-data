@@ -1,5 +1,60 @@
 [
   {
+    "slug": "eod_update_2025-01-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-21T07:41:48.338Z",
+    "link": null,
+    "text": "21st Jan<br>• Refactored the migrations to separate files<br>• Created migrations for patient_meta",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-06-06_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-06T04:37:08.645Z",
+    "link": null,
+    "text": "Trying to debug a wierd issue with django",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-22_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-22T05:08:06.513Z",
+    "link": null,
+    "text": "22nd November<br>• worked on getting cypress-parallel to run on github actions<br>• added mochawesome reporter for cypress runs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-11_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-11T06:11:50.203Z",
+    "link": null,
+    "text": "Today I worked on Care Fe to add devcontainer config and started fixing test cases in care",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-20_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-20T09:08:33.143Z",
+    "link": null,
+    "text": "Created a PR <a href=\"https://github.com/ohcnetwork/care/pull/772\">https://github.com/ohcnetwork/care/pull/772</a><br>Tracked the error in <a href=\"https://github.com/ohcnetwork/care_fe/issues/2452\">https://github.com/ohcnetwork/care_fe/issues/2452</a><br>Tried to reproduce <a href=\"https://github.com/ohcnetwork/care_fe/issues/2422\">https://github.com/ohcnetwork/care_fe/issues/2422</a>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-06-08_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -128,61 +183,6 @@
     "occured_at": "2023-07-19T06:11:17.493Z",
     "link": null,
     "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-21T07:41:48.338Z",
-    "link": null,
-    "text": "21st Jan<br>• Refactored the migrations to separate files<br>• Created migrations for patient_meta",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-06_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-06T04:37:08.645Z",
-    "link": null,
-    "text": "Trying to debug a wierd issue with django",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-22_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-22T05:08:06.513Z",
-    "link": null,
-    "text": "22nd November<br>• worked on getting cypress-parallel to run on github actions<br>• added mochawesome reporter for cypress runs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-11_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-11T06:11:50.203Z",
-    "link": null,
-    "text": "Today I worked on Care Fe to add devcontainer config and started fixing test cases in care",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-20T09:08:33.143Z",
-    "link": null,
-    "text": "Created a PR <a href=\"https://github.com/ohcnetwork/care/pull/772\">https://github.com/ohcnetwork/care/pull/772</a><br>Tracked the error in <a href=\"https://github.com/ohcnetwork/care_fe/issues/2452\">https://github.com/ohcnetwork/care_fe/issues/2452</a><br>Tried to reproduce <a href=\"https://github.com/ohcnetwork/care_fe/issues/2422\">https://github.com/ohcnetwork/care_fe/issues/2422</a>",
     "points": null,
     "meta": null
   },
@@ -535,6 +535,17 @@
     "occured_at": "2025-12-17T06:48:37.332Z",
     "link": null,
     "text": "15th Dec<br>• Fixed build issues on care backend<br>• Resolved deployment issue on arike<br>• Made review changes to my prs<br>• Discussed migration plans for abdm after the major migration changes in core backend with <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> <br>• Tested scribe for production deployment with a specific care version<br>16th Dec<br>• Went through sentry to recategorize OperationalErrors<br>• Worked on an RCA for the OperationalErrors<br>• Tested out possible solutions and optimizations for the OperationalErrors<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-22_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-22T07:17:04.965Z",
+    "link": null,
+    "text": "December 17, 18, 19<br>• Diagnosed and reported sparsh camera issue to the support team<br>• Call with metsl team to explain the middleware configuration<br>• Unified db + redis cache invalidation of objects<br>• Tested out solutions to avoid deadlocks during cache invalidation<br>• Call with santosh to fix resolve networking and camera issues in a spoke location<br>• Cleaned up env variables for backend<br>• Reviewed PRs",
     "points": null,
     "meta": null
   }

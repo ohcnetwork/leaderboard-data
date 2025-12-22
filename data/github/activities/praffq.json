@@ -1,60 +1,5 @@
 [
   {
-    "slug": "pr_merged_care#2790",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2790",
-    "occured_at": "2025-01-29T13:04:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2790",
-    "text": "Adding cache for swagger",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3379",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3379",
-    "occured_at": "2025-11-25T15:58:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3379",
-    "text": "adding validation for facility name",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2789",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2789",
-    "occured_at": "2025-01-28T22:17:26.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2789",
-    "text": "updated swagger schema",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2885",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2885",
-    "occured_at": "2025-03-03T12:38:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2885",
-    "text": "fixed bug in consent create spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3246",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3246",
-    "occured_at": "2025-09-10T08:06:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3246",
-    "text": "fix spes in NoteThread viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#3246",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -216,6 +161,61 @@
     "occured_at": "2024-08-16T18:24:09.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2361",
     "text": "added a request time logging middleware",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3246",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3246",
+    "occured_at": "2025-09-10T08:06:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3246",
+    "text": "fix spes in NoteThread viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2790",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2790",
+    "occured_at": "2025-01-29T13:04:13.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2790",
+    "text": "Adding cache for swagger",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3379",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3379",
+    "occured_at": "2025-11-25T15:58:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3379",
+    "text": "adding validation for facility name",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2789",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2789",
+    "occured_at": "2025-01-28T22:17:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2789",
+    "text": "updated swagger schema",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2885",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2885",
+    "occured_at": "2025-03-03T12:38:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2885",
+    "text": "fixed bug in consent create spec",
     "points": null,
     "meta": {}
   },
@@ -1914,6 +1914,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2935",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2935",
+    "occured_at": "2025-03-19T11:14:15.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2935",
+    "text": "fixed password reset issue",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#1912",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -2251,17 +2262,6 @@
     "occured_at": "2025-11-05T00:35:37.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/d84e039e3ab251092d896970cb2823c5a8fcd294",
     "text": "more validation and improvements",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2935",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2935",
-    "occured_at": "2025-03-19T11:14:15.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2935",
-    "text": "fixed password reset issue",
     "points": null,
     "meta": {}
   },
@@ -6578,6 +6578,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#3386",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3386",
+    "occured_at": "2025-12-01T09:00:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3386",
+    "text": "Prafful/adding auth to template in reports",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/token_20c8ce9eb4c20264372dd1d6b32147dfe450a257",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7232,17 +7243,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #3386",
     "occured_at": "2025-12-01T08:45:12.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3386",
-    "text": "Prafful/adding auth to template in reports",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3386",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3386",
-    "occured_at": "2025-12-01T09:00:33.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3386",
     "text": "Prafful/adding auth to template in reports",
     "points": null,
