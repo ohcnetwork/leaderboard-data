@@ -869,6 +869,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14723",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14723",
+    "occured_at": "2025-12-11T16:22:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14723",
+    "text": "Fix: Remove console.log statements from production code",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14561_CHANGES_REQUESTED_PRR_kwDODtfaXs7SVxjL",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
@@ -1463,17 +1474,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14723",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14723",
-    "occured_at": "2025-12-11T16:22:17.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14723",
-    "text": "Fix: Remove console.log statements from production code",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#14723",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_merged",
@@ -2057,61 +2057,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#14917_IC_kwDODtfaXs7bgKkx",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14917",
-    "occured_at": "2025-12-22T15:49:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14917#issuecomment-3682642225",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14896_COMMENTED_PRR_kwDODtfaXs7Wr5tU",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14896",
-    "occured_at": "2025-12-21T17:15:12.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14896#pullrequestreview-3601832788",
-    "text": "fix: improve microphone permission guidance",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14917",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14917",
-    "occured_at": "2025-12-22T15:47:37.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14917",
-    "text": "feat: add Chrome 83 compatibility support for frontend build",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14917_COMMENTED_PRR_kwDODtfaXs7W2mmz",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14917",
-    "occured_at": "2025-12-22T15:54:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14917#pullrequestreview-3604638131",
-    "text": "feat: add Chrome 83 compatibility support for frontend build",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14818",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14818",
-    "occured_at": "2025-12-16T12:09:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14818",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14831_COMMENTED_PRR_kwDODtfaXs7Vq47w",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
@@ -2163,6 +2108,94 @@
     "occured_at": "2025-12-21T18:13:57.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14903",
     "text": "fix: add Chrome 83 compatibility for frontend build",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14917_IC_kwDODtfaXs7bgKkx",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14917",
+    "occured_at": "2025-12-22T15:49:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14917#issuecomment-3682642225",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14818",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14818",
+    "occured_at": "2025-12-16T12:09:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14818",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14896_COMMENTED_PRR_kwDODtfaXs7Wr5tU",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14896",
+    "occured_at": "2025-12-21T17:15:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14896#pullrequestreview-3601832788",
+    "text": "fix: improve microphone permission guidance",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14917",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14917",
+    "occured_at": "2025-12-22T15:47:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14917",
+    "text": "feat: add Chrome 83 compatibility support for frontend build",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14917_COMMENTED_PRR_kwDODtfaXs7W2mmz",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14917",
+    "occured_at": "2025-12-22T15:54:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14917#pullrequestreview-3604638131",
+    "text": "feat: add Chrome 83 compatibility support for frontend build",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-10T08:12:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/89d15d4c3ba871bbfc2fe06d1287391dca277bfe",
+    "text": "feat: Add prefix, suffix and last name in Manage Care Team (#14564)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_602961c045d195f50132290f59ef0435ab046320",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-10T14:51:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/602961c045d195f50132290f59ef0435ab046320",
+    "text": "Clean up: Remove view toggle from PK, AD, CID list views (#14559)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_2635a19360cf0d06469178fcc37f3a3e70135b56",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-12T16:22:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/2635a19360cf0d06469178fcc37f3a3e70135b56",
+    "text": "Fix: Remove console.log statements from production code (#14723)",
     "points": null,
     "meta": {}
   }

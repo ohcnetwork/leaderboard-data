@@ -572,6 +572,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-12_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-12T07:07:03.741Z",
+    "link": null,
+    "text": "<strong>Feb 11</strong><br>• Continued working on MFA BE &amp;amp; understanding BE &amp;amp; clearing questions with Vignesh<br>    ◦ generating backup_codes<br>    ◦ Storing secret and backup_codes securely.<br>    ◦ verifying the TOTP code. <br>    ◦ started integrating the MFA into login flow.<br>• Joined the OHC weekly call.<br><strong>Next</strong><br>• Try wrapping up the MFA BE API endpoints and integrating it into login flow.<br>• VTA",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-05-20_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -744,17 +755,6 @@
     "occured_at": "2025-02-07T04:48:06.031Z",
     "link": null,
     "text": "<strong>Feb 06</strong><br>• Created contributor guidance page for PF GSoC.<br>• Sync with Suma.<br>• Looked into the <a href=\"https://rebuildearth.slack.com/archives/C010GQC5UE9/p1738846303637179?thread_ts=1738846303.637179&amp;amp;cid=C010GQC5UE9\">query</a> from Aditya and replied.<br>• Made a <a href=\"https://github.com/ohcnetwork/care_fe/pull/10456\">PR</a> for improving UX when verifying Patient year verification Dialog component<br>• Back to MFA after a long time, started to getting BE working and spent a lot time on this <a href=\"https://github.com/ohcnetwork/care/pull/2816#issuecomment-2641108936\">error</a>.<br><strong>Next</strong><br>• Sync with Bodhi on review of PF GSoC application and wrap it.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-12_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-12T07:07:03.741Z",
-    "link": null,
-    "text": "<strong>Feb 11</strong><br>• Continued working on MFA BE &amp;amp; understanding BE &amp;amp; clearing questions with Vignesh<br>    ◦ generating backup_codes<br>    ◦ Storing secret and backup_codes securely.<br>    ◦ verifying the TOTP code. <br>    ◦ started integrating the MFA into login flow.<br>• Joined the OHC weekly call.<br><strong>Next</strong><br>• Try wrapping up the MFA BE API endpoints and integrating it into login flow.<br>• VTA",
     "points": null,
     "meta": null
   },
@@ -1177,6 +1177,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-09-24_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-24T07:16:04.669Z",
+    "link": null,
+    "text": "<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745<br>\n\n<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-27_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1239,6 +1250,17 @@
     "occured_at": "2025-11-11T23:00:36.226Z",
     "link": null,
     "text": "<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.<br>\n\n<strong>November 11</strong><br>• Marked PR#14108 ready for review after looking at copilot comments.<br>• Quick discussion with Siddhanth regarding query he had -- AI features in care.<br>• Reviewed couple of PR&#x27;s and glanced over some.<br>• Playing with playwright mcp with GitHub copilot - meh<br>• Started writing specs for Service Requests.<br>• Not part of work -&amp;gt; discussion with Shivank regarding deploying pupilfirst LMS for one of his friend.<br>• Attended Tuesday weekly call.<br><strong>Next</strong><br>• Write specs<br>• DPG review call.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-20_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-20T14:43:01.419Z",
+    "link": null,
+    "text": "<strong>November 19</strong><br>• Dealing with Soar throat and cold<br>• Looked into cause of <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1763530785055059\">[1]</a> and pinged Bodhi for further steps.<br>• Addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>• DPG review.<br>• Reviewed a PR<br>• Discussion with Amjith regarding whether to disable the print all qr codes when SR is on hold or not.<br><strong>Next</strong><br>• Wrap up addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>",
     "points": null,
     "meta": null
   },
@@ -1518,17 +1540,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-09-24_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-24T07:16:04.669Z",
-    "link": null,
-    "text": "<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745<br>\n\n<strong>Sept 22, 23</strong><br>• Wasted time, tried accommodating the <code>valuesetselect</code> into extracted search and select but end felt like over engineered with too many props<br>    ◦ So decided to just update the <code>autocomplete</code> to use <code>drawer</code> , <a href=\"https://github.com/ohcnetwork/care_fe/pull/13808\">PR#13808</a>.<br>    ◦ Updated the <code>QuestionnaireSearch</code> ,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13817\">PR#13817</a>.<br>    ◦ Replaced the deprecated <code>navigator</code> in <code>isAppleDevice</code>  function with new <code>user.agent</code> .<br>    ◦ Started updating <code>ValuesetSelect</code> .<br>    ◦ Testing of above on different android devices and <code>apple</code> devices on browserstack.<br>• Left some comments and pushed some tiny changes on PR#13734.<br>• <a href=\"https://github.com/ohcnetwork/docs/pull/162#issuecomment-3316216097\">Justifying</a> my closed PR for docs#162<br>• Replying to some questions on slack, <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758634615516009?thread_ts=1755673549.681429&amp;amp;cid=C010GQBMFJ9\">[1]</a>, <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1758528247140499?thread_ts=1758378800.823459&amp;amp;cid=C01035FT0P5\">[2]</a><br>• Some calls and discussions with Amjith and Khavin.<br>• Calls - Engineering review, Tuesday weekly call.<br><strong>Next</strong><br><em>Can be a unproductive day</em><br>• Work on #13745",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-10-23_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1701,17 +1712,6 @@
     "occured_at": "2025-10-27T04:05:08.723Z",
     "link": null,
     "text": "<strong>October 23 &amp;amp; 24</strong><br>• Made <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;amp;since=2025-10-23&amp;amp;until=2025-10-25\">changes</a> on PR#14108.<br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> based on changes requested by Siddanth and merged.<br>• Discussion with Amjith regarding need of BE seeds for PW tests and good practices regarding writing test cases.<br>• EOD call&#x27;s and then long call with Anagha answering her questions regarding valuesets, going through FHIR and discussions with chatgpt.<br>• Skim through <a href=\"https://files.fossunited.org/FOSSUnited/FOSS_Report_NLSIU.pdf?trk=public_post_comment-text\">The Rise of FOSS in India Report</a>.<br>• Went through the review comments from Bodhi on PR&#x27;s adding Playwright tests,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/14114#pullrequestreview-3379121119\">[1]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14113#pullrequestreview-3379259391\">[3]</a>.<br>• Replied to review comments from Bodhi <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a> and discussion on some of the review comments.<br>• Some discussions with Siddanth.<br>• Huddle with Khavin.<br><strong>Next</strong><br>• Engg review call.<br>• Work on PR#14108.<br>• Look into PW tests report check issue on PR&#x27;s from fork branches.\n\n<strong>October 23 &amp;amp; 24</strong><br>• Made <a href=\"https://github.com/ohcnetwork/care_fe/commits/add-tests-for-labs/?author=yash-learner&amp;amp;since=2025-10-23&amp;amp;until=2025-10-25\">changes</a> on PR#14108.<br>• Made changes on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14054\">PR#14054</a> based on changes requested by Siddanth and merged.<br>• Discussion with Amjith regarding need of BE seeds for PW tests and good practices regarding writing test cases.<br>• EOD call&#x27;s and then long call with Anagha answering her questions regarding valuesets, going through FHIR and discussions with chatgpt.<br>• Skim through <a href=\"https://files.fossunited.org/FOSSUnited/FOSS_Report_NLSIU.pdf?trk=public_post_comment-text\">The Rise of FOSS in India Report</a>.<br>• Went through the review comments from Bodhi on PR&#x27;s adding Playwright tests,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/14114#pullrequestreview-3379121119\">[1]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14113#pullrequestreview-3379259391\">[3]</a>.<br>• Replied to review comments from Bodhi <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108#pullrequestreview-3379158055\">[2]</a> and discussion on some of the review comments.<br>• Some discussions with Siddanth.<br>• Huddle with Khavin.<br><strong>Next</strong><br>• Engg review call.<br>• Work on PR#14108.<br>• Look into PW tests report check issue on PR&#x27;s from fork branches.<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-20_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-20T14:43:01.419Z",
-    "link": null,
-    "text": "<strong>November 19</strong><br>• Dealing with Soar throat and cold<br>• Looked into cause of <a href=\"https://rebuildearth.slack.com/archives/C01035FT0P5/p1763530785055059\">[1]</a> and pinged Bodhi for further steps.<br>• Addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>• DPG review.<br>• Reviewed a PR<br>• Discussion with Amjith regarding whether to disable the print all qr codes when SR is on hold or not.<br><strong>Next</strong><br>• Wrap up addressing review comments from Nihal on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a>.<br>",
     "points": null,
     "meta": null
   },

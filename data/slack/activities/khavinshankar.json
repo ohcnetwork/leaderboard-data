@@ -341,6 +341,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-27_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-27T06:04:29.638Z",
+    "link": null,
+    "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-26_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -557,17 +568,6 @@
     "occured_at": "2024-12-08T22:46:51.344Z",
     "link": null,
     "text": "<strong>5th December</strong><br>• Reviewed <a href=\"https://github.com/ohcnetwork/care_fe/pull/9298\">Doctor notes enhancement</a> and couple other PRs<br>• Used existing Observation spec in DiagnosticReport<br>• Synced with Yaswanth on the frontend progress<br><strong>6th December</strong><br>• Added flow specific APIs (like to update status, add processing step and such)<br>• Updated read specs to return serialised data instead of uuids<br><strong>7th December</strong><br>• Had a call with Javid to help him step up abdm_fe plug <br>• Synced with Rithvik discussing ValueSet and terms and some minor random things<br>• Had another call with Javid to review a minor validation PR<br>• Debugged an issue from HCX coverage eligibility which Nihal spotted<br>• Cleaned up the labs APIs<br><strong>Next</strong><br>• Wire the labs frontend and work on the pending UI\n\n<strong>9th December</strong><br>• Synced with Yaswanth and Vinu to clarify the some minor questions on UI and progress updates<br>• Added flow status filters <br>• Started wiring labs APIs<br>• Had a quick call with Javid to discuss a dependency issue in useEffect<br><strong>Next</strong><br>• Sync with Yaswanth and Vinu again to clarify couple questions on UI<br>• Wire the APIs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-27_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-27T06:04:29.638Z",
-    "link": null,
-    "text": "Nov 25:<br>• Made a minor PR to add links payment history items in invoice page <a href=\"https://github.com/ohcnetwork/care_fe/pull/14503\">#14503</a><br>• Fixed an edge case in abdm abha number linking <a href=\"https://github.com/10bedicu/care_abdm/pull/64\">#64</a><br>• Completed scan and pay<br>Nov 26:<br>• Scoped out missing pieces in PHR<br>• Started with ABDM milestone 4<br>Next:<br>• Scope out milestone 4 clearly<br>• Test out the M4 APIs in postman",
     "points": null,
     "meta": null
   },

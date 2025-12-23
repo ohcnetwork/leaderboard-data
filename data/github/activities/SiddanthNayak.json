@@ -539,6 +539,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#13683",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #13683",
+    "occured_at": "2025-09-11T10:22:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13683",
+    "text": "Status Param inconsistency in Appointments - Board / List",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14058_APPROVED_PRR_kwDODtfaXs7HFCEl",
     "contributor": "SiddanthNayak",
     "activity_definition": "pr_reviewed",
@@ -880,13 +891,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#13683",
+    "slug": "pr_merged_care_fe#14152",
     "contributor": "SiddanthNayak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #13683",
-    "occured_at": "2025-09-11T10:22:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13683",
-    "text": "Status Param inconsistency in Appointments - Board / List",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14152",
+    "occured_at": "2025-10-27T10:51:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14152",
+    "text": "Fixed missing description warning",
     "points": null,
     "meta": {}
   },
@@ -1248,17 +1259,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #14152",
     "occured_at": "2025-10-27T10:33:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14152",
-    "text": "Fixed missing description warning",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14152",
-    "contributor": "SiddanthNayak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14152",
-    "occured_at": "2025-10-27T10:51:57.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14152",
     "text": "Fixed missing description warning",
     "points": null,
@@ -3784,6 +3784,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14906",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14906",
+    "occured_at": "2025-12-22T07:30:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14906",
+    "text": "Home Page redesign",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14818_APPROVED_PRR_kwDODtfaXs7W0CMI",
     "contributor": "SiddanthNayak",
     "activity_definition": "pr_reviewed",
@@ -3795,13 +3806,57 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14906",
+    "slug": "commit_created_production_89bcfd967ce672699f2589868d77d82c5e4b158e",
     "contributor": "SiddanthNayak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14906",
-    "occured_at": "2025-12-22T07:30:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14906",
-    "text": "Home Page redesign",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-10T08:17:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/89bcfd967ce672699f2589868d77d82c5e4b158e",
+    "text": "Added setup for Patient / Encounter and Account in playwright (#14556)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_a1eb3b7ee6cfb3090410d3866c9f8d7c5ad3eb98",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-10T12:21:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/a1eb3b7ee6cfb3090410d3866c9f8d7c5ad3eb98",
+    "text": "Added tests for Record Payment tab in Accounts (#14629)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_72f17eba96e08773c8f76afa686f4bce9567f86f",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-10T14:25:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/72f17eba96e08773c8f76afa686f4bce9567f86f",
+    "text": "Redesigned Past Symptoms / Past Diagnoses and Medication History Tabs #2 (#14655)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_06f4e29e411f44ea711d20728260388167b69961",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-11T07:57:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/06f4e29e411f44ea711d20728260388167b69961",
+    "text": "Fixed location cache not setting form data while recording payment more than once. (#14581)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_038950858ad1f873c454c8fef73b92c211619f88",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-11T11:27:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/038950858ad1f873c454c8fef73b92c211619f88",
+    "text": "Playwright Tests for Valueset List and Edit (#14645)",
     "points": null,
     "meta": {}
   }

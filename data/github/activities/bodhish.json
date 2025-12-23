@@ -1,60 +1,5 @@
 [
   {
-    "slug": "pr_opened_care#496",
-    "contributor": "bodhish",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #496",
-    "occured_at": "2020-10-08T06:29:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/496",
-    "text": "Add ordering for shifting api ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#478",
-    "contributor": "bodhish",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #478",
-    "occured_at": "2020-09-22T16:44:32.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/478",
-    "text": "Bug Fix",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_docs#56",
-    "contributor": "bodhish",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #56",
-    "occured_at": "2024-09-23T19:31:14.000Z",
-    "link": "https://github.com/ohcnetwork/docs/pull/56",
-    "text": "Add support for Pharmacy",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#823",
-    "contributor": "bodhish",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #823",
-    "occured_at": "2020-10-24T22:03:20.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/823",
-    "text": "Exporting with advanced filters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#8438",
-    "contributor": "bodhish",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #8438",
-    "occured_at": "2024-09-19T09:11:23.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8438",
-    "text": "Improve Setting up guide ",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#8415",
     "contributor": "bodhish",
     "activity_definition": "issue_opened",
@@ -106,6 +51,61 @@
     "occured_at": "2021-06-26T17:42:38.000Z",
     "link": "https://github.com/ohcnetwork/dashboard/issues/171",
     "text": "Redesign the Oxygen table",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#496",
+    "contributor": "bodhish",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #496",
+    "occured_at": "2020-10-08T06:29:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/496",
+    "text": "Add ordering for shifting api ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#478",
+    "contributor": "bodhish",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #478",
+    "occured_at": "2020-09-22T16:44:32.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/478",
+    "text": "Bug Fix",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_docs#56",
+    "contributor": "bodhish",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #56",
+    "occured_at": "2024-09-23T19:31:14.000Z",
+    "link": "https://github.com/ohcnetwork/docs/pull/56",
+    "text": "Add support for Pharmacy",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#823",
+    "contributor": "bodhish",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #823",
+    "occured_at": "2020-10-24T22:03:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/823",
+    "text": "Exporting with advanced filters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#8438",
+    "contributor": "bodhish",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #8438",
+    "occured_at": "2024-09-19T09:11:23.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8438",
+    "text": "Improve Setting up guide ",
     "points": null,
     "meta": {}
   },
@@ -1397,6 +1397,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#1159_bodhish",
+    "contributor": "bodhish",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #1159 assigned",
+    "occured_at": "2021-05-22T13:04:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/1159",
+    "text": "Treatment based on symptom",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#1601",
     "contributor": "bodhish",
     "activity_definition": "issue_closed",
@@ -1800,17 +1811,6 @@
     "occured_at": "2022-06-02T16:24:33.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2640",
     "text": "Alerting system: CNS",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#1159_bodhish",
-    "contributor": "bodhish",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #1159 assigned",
-    "occured_at": "2021-05-22T13:04:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/1159",
-    "text": "Treatment based on symptom",
     "points": null,
     "meta": {}
   },
@@ -4906,6 +4906,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care#497",
+    "contributor": "bodhish",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #497",
+    "occured_at": "2020-10-11T17:05:13.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/497",
+    "text": "Add filters to patients list",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#8007",
     "contributor": "bodhish",
     "activity_definition": "pr_opened",
@@ -5617,17 +5628,6 @@
     "occured_at": "2020-10-03T11:44:57.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/756#pullrequestreview-501540450",
     "text": "fix loading state in external results and back arrow spacing fixes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#497",
-    "contributor": "bodhish",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #497",
-    "occured_at": "2020-10-11T17:05:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/497",
-    "text": "Add filters to patients list",
     "points": null,
     "meta": {}
   },
@@ -8052,6 +8052,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#12550",
+    "contributor": "bodhish",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #12550",
+    "occured_at": "2025-11-01T00:22:51.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12550",
+    "text": "Highlight Active Section/Question Being Edited in Questionnaire Editor",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_9f533ff5f90ace01644526aba7d9f544afd30bf7",
     "contributor": "bodhish",
     "activity_definition": "commit_created",
@@ -8393,13 +8404,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_care_fe#12550",
+    "slug": "issue_closed_care_fe#817",
     "contributor": "bodhish",
     "activity_definition": "issue_closed",
-    "title": "Closed issue #12550",
-    "occured_at": "2025-11-01T00:22:51.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12550",
-    "text": "Highlight Active Section/Question Being Edited in Questionnaire Editor",
+    "title": "Closed issue #817",
+    "occured_at": "2020-10-24T22:01:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/817",
+    "text": "Discharge: Bar positive discharges",
     "points": null,
     "meta": {}
   },
@@ -9973,6 +9984,17 @@
     "occured_at": "2025-01-01T20:17:52.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/6246",
     "text": "Complaint Log: Asset Management",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#871",
+    "contributor": "bodhish",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #871",
+    "occured_at": "2021-02-03T16:36:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/871",
+    "text": "Add Bed-type in Consultation",
     "points": null,
     "meta": {}
   },
@@ -12012,17 +12034,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_care_fe#817",
-    "contributor": "bodhish",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #817",
-    "occured_at": "2020-10-24T22:01:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/817",
-    "text": "Discharge: Bar positive discharges",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care_fe#1351",
     "contributor": "bodhish",
     "activity_definition": "issue_closed",
@@ -13713,17 +13724,6 @@
     "occured_at": "2021-04-24T14:04:52.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/944",
     "text": "Advanced filters: patient dashboard",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#871",
-    "contributor": "bodhish",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #871",
-    "occured_at": "2021-02-03T16:36:35.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/871",
-    "text": "Add Bed-type in Consultation",
     "points": null,
     "meta": {}
   },
@@ -16287,6 +16287,17 @@
     "occured_at": "2024-11-29T18:56:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/9232",
     "text": "Revamp Card UI in the Facilities Tab",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#9439",
+    "contributor": "bodhish",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #9439",
+    "occured_at": "2024-12-15T11:34:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9439",
+    "text": "Add Facility switcher",
     "points": null,
     "meta": {}
   },
@@ -22693,6 +22704,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#8973",
+    "contributor": "bodhish",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8973",
+    "occured_at": "2024-10-31T00:12:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8973",
+    "text": "Copilot care plan",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13439_APPROVED_PRR_kwDODtfaXs67XNUy",
     "contributor": "bodhish",
     "activity_definition": "pr_reviewed",
@@ -23404,17 +23426,6 @@
     "occured_at": "2025-01-03T14:52:58.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9705#pullrequestreview-2529215006",
     "text": "EMR types restructure for Symptoms, Diagnosis, Allergy",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#9439",
-    "contributor": "bodhish",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #9439",
-    "occured_at": "2024-12-15T11:34:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9439",
-    "text": "Add Facility switcher",
     "points": null,
     "meta": {}
   },
@@ -24145,6 +24156,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#164",
+    "contributor": "bodhish",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #164",
+    "occured_at": "2020-04-01T00:46:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/164",
+    "text": "Use tailwind CSS",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#8834_COMMENTED_PRR_kwDODtfaXs6PjzLZ",
     "contributor": "bodhish",
     "activity_definition": "pr_reviewed",
@@ -24471,17 +24493,6 @@
     "occured_at": "2024-10-25T00:47:14.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8921#pullrequestreview-2393937459",
     "text": "Adding of clear and cancel button in create preset form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8973",
-    "contributor": "bodhish",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8973",
-    "occured_at": "2024-10-31T00:12:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8973",
-    "text": "Copilot care plan",
     "points": null,
     "meta": {}
   },
@@ -24823,17 +24834,6 @@
     "occured_at": "2024-10-21T04:14:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8807#pullrequestreview-2380884426",
     "text": "Fixed Misaligned text when there's no data",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#164",
-    "contributor": "bodhish",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #164",
-    "occured_at": "2020-04-01T00:46:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/164",
-    "text": "Use tailwind CSS",
     "points": null,
     "meta": {}
   },
@@ -25505,6 +25505,17 @@
     "occured_at": "2021-04-24T12:55:04.000Z",
     "link": "https://github.com/ohcnetwork/life/pull/62",
     "text": "Campaign Page added ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_life#231",
+    "contributor": "bodhish",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #231",
+    "occured_at": "2021-04-30T19:29:50.000Z",
+    "link": "https://github.com/ohcnetwork/life/issues/231",
+    "text": "Create a data conversion project",
     "points": null,
     "meta": {}
   },
@@ -26187,17 +26198,6 @@
     "occured_at": "2021-06-18T21:14:54.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/1373#pullrequestreview-687731371",
     "text": "Add webpush notifications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_life#231",
-    "contributor": "bodhish",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #231",
-    "occured_at": "2021-04-30T19:29:50.000Z",
-    "link": "https://github.com/ohcnetwork/life/issues/231",
-    "text": "Create a data conversion project",
     "points": null,
     "meta": {}
   },
@@ -27214,6 +27214,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#748",
+    "contributor": "bodhish",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #748",
+    "occured_at": "2020-09-29T20:12:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/748",
+    "text": "V 3.0",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#1088_APPROVED_MDE3OlB1bGxSZXF1ZXN0UmV2aWV3NjYwMzQzMjM4",
     "contributor": "bodhish",
     "activity_definition": "pr_reviewed",
@@ -27925,17 +27936,6 @@
     "occured_at": "2020-10-03T11:46:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/752#pullrequestreview-501540520",
     "text": "Renaming some text in shifting module",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#748",
-    "contributor": "bodhish",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #748",
-    "occured_at": "2020-09-29T20:12:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/748",
-    "text": "V 3.0",
     "points": null,
     "meta": {}
   },
@@ -37400,17 +37400,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care#3424_bodhish",
-    "contributor": "bodhish",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #3424 assigned",
-    "occured_at": "2025-12-19T10:16:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/3424",
-    "text": "Document all backend variables in example.env",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care#3424_IC_kwDODsgdF87bA9f_",
     "contributor": "bodhish",
     "activity_definition": "comment_created",
@@ -37466,6 +37455,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_copilot/fix-observation-definition-types_3b51d2d883b5296df3d9aaec01d6dc2d68729bf2",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to copilot/fix-observation-definition-types",
+    "occured_at": "2025-12-18T15:56:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/3b51d2d883b5296df3d9aaec01d6dc2d68729bf2",
+    "text": "Add support for Multitenancy in Development (#14882)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14867",
     "contributor": "bodhish",
     "activity_definition": "pr_opened",
@@ -37477,13 +37477,145 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_copilot/fix-observation-definition-types_3b51d2d883b5296df3d9aaec01d6dc2d68729bf2",
+    "slug": "commit_created_renovate/all-dependencies-(patch)_0aed664b51121b582649822e045b0d008fb98e15",
     "contributor": "bodhish",
     "activity_definition": "commit_created",
-    "title": "Pushed commit to copilot/fix-observation-definition-types",
+    "title": "Pushed commit to renovate/all-dependencies-(patch)",
+    "occured_at": "2025-12-23T08:44:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0aed664b51121b582649822e045b0d008fb98e15",
+    "text": "Add support to lock invoice",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_0aed664b51121b582649822e045b0d008fb98e15",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2025-12-23T08:44:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0aed664b51121b582649822e045b0d008fb98e15",
+    "text": "Add support to lock invoice",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_2cb2d8b4e01a2b27c5a6863914543ee28769927e",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-11T07:22:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/2cb2d8b4e01a2b27c5a6863914543ee28769927e",
+    "text": "Allow users to restart encounter (#14708)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_6f27e5840f444964a3f9f375c3f5efe1474d7f52",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-11T08:50:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/6f27e5840f444964a3f9f375c3f5efe1474d7f52",
+    "text": "Allow non clinical read for encounters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_019ca1db657b1dc89702b5df4ab1dae27707ddf2",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-11T08:50:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/019ca1db657b1dc89702b5df4ab1dae27707ddf2",
+    "text": "Merge branch 'develop' of github.com:ohcnetwork/care_fe into develop",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_76538f55668f66767b05fda942186c212b590ff2",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-11T10:05:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/76538f55668f66767b05fda942186c212b590ff2",
+    "text": "Add department list in users",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_617441f67ac1b522ffc0fc2add67930d0e46657e",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-12T11:15:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/617441f67ac1b522ffc0fc2add67930d0e46657e",
+    "text": "Create dispense order on billing",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_b80af20620bfe2a344add91d6463bd5cde33f27a",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-12T11:15:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/b80af20620bfe2a344add91d6463bd5cde33f27a",
+    "text": "Merge branch 'develop' of github.com:ohcnetwork/care_fe into develop",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_f2bb6c417cf11df7c07e2c86087d7f2782121649",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-16T05:02:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/f2bb6c417cf11df7c07e2c86087d7f2782121649",
+    "text": "Add support for a simplified inventory builder (#14780)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_1dbaa7a7c4b86f2b9b3f3f1e2831d6673b6fe50c",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-16T05:08:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/1dbaa7a7c4b86f2b9b3f3f1e2831d6673b6fe50c",
+    "text": "Fix product form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_35d1ccd21ccfb0213acd1ecd51ecca7555392776",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-17T09:37:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/35d1ccd21ccfb0213acd1ecd51ecca7555392776",
+    "text": "Clean the default from inventory",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_production_3b51d2d883b5296df3d9aaec01d6dc2d68729bf2",
+    "contributor": "bodhish",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
     "occured_at": "2025-12-18T15:56:12.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/3b51d2d883b5296df3d9aaec01d6dc2d68729bf2",
     "text": "Add support for Multitenancy in Development (#14882)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care#3424_bodhish",
+    "contributor": "bodhish",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #3424 assigned",
+    "occured_at": "2025-12-19T10:16:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/3424",
+    "text": "Document all backend variables in example.env",
     "points": null,
     "meta": {}
   }
