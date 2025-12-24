@@ -341,6 +341,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#12959_nandkishorr",
+    "contributor": "nandkishorr",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #12959 assigned",
+    "occured_at": "2025-07-17T06:48:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12959",
+    "text": "Not accepting underscores in slug text field",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care#3295",
     "contributor": "nandkishorr",
     "activity_definition": "issue_closed",
@@ -700,17 +711,6 @@
     "occured_at": "2025-11-07T08:51:33.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/c28251415ff68a19bfc9326d1d1d206fd2ff5009",
     "text": "Merge branch 'develop' into supply_delivery/delivery_orders/filters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#12959_nandkishorr",
-    "contributor": "nandkishorr",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #12959 assigned",
-    "occured_at": "2025-07-17T06:48:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12959",
-    "text": "Not accepting underscores in slug text field",
     "points": null,
     "meta": {}
   },
@@ -5181,6 +5181,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_02582c19f82389147002b08e3bcfd293c557d013",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2025-12-22T09:38:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/02582c19f82389147002b08e3bcfd293c557d013",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec (#3421)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishor/fix/patient_tag_manager_57201f53f1501aa960a4b61668468f7cfd6c3152",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5456,17 +5467,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_dependabot/pip/boto-ad2b878303_02582c19f82389147002b08e3bcfd293c557d013",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
-    "occured_at": "2025-12-22T09:38:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/02582c19f82389147002b08e3bcfd293c557d013",
-    "text": "fix:updated BaseMedicationDispenseOrderSpec (#3421)",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_dependabot/pip/boto-ad2b878303_cca551e011875c69afc5bcbf855d24c86ed36907",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5665,13 +5665,35 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3422",
+    "slug": "pr_opened_care#3429",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
-    "title": "Opened pull request #3422",
-    "occured_at": "2025-12-18T07:46:49.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3422",
-    "text": "fix:updated code validation in Questionnaire Question spec",
+    "title": "Opened pull request #3429",
+    "occured_at": "2025-12-22T16:43:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3429",
+    "text": "fix:updated chargeitem in sr cancel api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3429",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3429",
+    "occured_at": "2025-12-22T17:02:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3429",
+    "text": "fix:updated chargeitem in sr cancel api",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3432",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3432",
+    "occured_at": "2025-12-23T16:35:36.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3432",
+    "text": "fix:updated the perform_extra_deserialization in activity definition",
     "points": null,
     "meta": {}
   },
@@ -5683,6 +5705,17 @@
     "occured_at": "2025-12-19T14:07:48.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3427",
     "text": "fix: added status to CreateDispenseOrder spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3422",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3422",
+    "occured_at": "2025-12-18T07:46:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3422",
+    "text": "fix:updated code validation in Questionnaire Question spec",
     "points": null,
     "meta": {}
   },
@@ -5709,24 +5742,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3429",
+    "slug": "commit_created_nandkishorr/fix/create_dispense_order_spec_0c2647f8c1d300fc80640e9dcc087eb7e1d4dfd6",
     "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3429",
-    "occured_at": "2025-12-22T16:43:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3429",
-    "text": "fix:updated chargeitem in sr cancel api",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3429",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3429",
-    "occured_at": "2025-12-22T17:02:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3429",
-    "text": "fix:updated chargeitem in sr cancel api",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishorr/fix/create_dispense_order_spec",
+    "occured_at": "2025-12-23T12:16:14.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/0c2647f8c1d300fc80640e9dcc087eb7e1d4dfd6",
+    "text": "fix:made some validation changes",
     "points": null,
     "meta": {}
   }

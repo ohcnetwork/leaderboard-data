@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care_fe#14254",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14254",
+    "occured_at": "2025-11-06T23:39:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14254",
+    "text": "Add cursor: not-allowed for disabled textarea elements",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14086",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14086",
+    "occured_at": "2025-10-19T07:46:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14086",
+    "text": "💊 Enhance Bed Layout Visualization with Interactive Detailed View",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14189",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14189",
+    "occured_at": "2025-11-01T00:21:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
+    "text": "Hide facility tab for non-geo organization types",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14466",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14466",
+    "occured_at": "2025-11-21T14:31:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
+    "text": "[WIP] Remove Cypress and migrate to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#13577",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -106,50 +150,6 @@
     "occured_at": "2025-11-01T00:04:15.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14137",
     "text": "Fix ProductKnowledgeView rendering empty code properties with reusable helper",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14086",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14086",
-    "occured_at": "2025-10-19T07:46:54.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14086",
-    "text": "💊 Enhance Bed Layout Visualization with Interactive Detailed View",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14189",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14189",
-    "occured_at": "2025-11-01T00:21:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
-    "text": "Hide facility tab for non-geo organization types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14466",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14466",
-    "occured_at": "2025-11-21T14:31:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
-    "text": "[WIP] Remove Cypress and migrate to Playwright",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14254",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14254",
-    "occured_at": "2025-11-06T23:39:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14254",
-    "text": "Add cursor: not-allowed for disabled textarea elements",
     "points": null,
     "meta": {}
   },
@@ -502,6 +502,17 @@
     "occured_at": "2025-09-18T16:02:43.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13757",
     "text": "💊 Build Facility Level Bed Availability Dashboard for Hospitals",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14130",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14130",
+    "occured_at": "2025-10-26T16:31:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14130",
+    "text": "Add fork-safe workflow_run pattern for Playwright test PR comments",
     "points": null,
     "meta": {}
   },
@@ -1485,17 +1496,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14130",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14130",
-    "occured_at": "2025-10-26T16:31:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14130",
-    "text": "Add fork-safe workflow_run pattern for Playwright test PR comments",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14130_COMMENTED_PRR_kwDODtfaXs7Jiwjd",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_reviewed",
@@ -2453,17 +2453,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care#3424_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #3424 assigned",
-    "occured_at": "2025-12-19T10:16:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/3424",
-    "text": "Document all backend variables in example.env",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14314_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2515,6 +2504,17 @@
     "occured_at": "2025-12-23T10:19:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3425",
     "text": "Document all backend environment variables in .env.example",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care#3424_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #3424 assigned",
+    "occured_at": "2025-12-19T10:16:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/3424",
+    "text": "Document all backend variables in example.env",
     "points": null,
     "meta": {}
   }

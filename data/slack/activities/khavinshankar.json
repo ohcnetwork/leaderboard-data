@@ -297,6 +297,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-20_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-20T14:51:11.828Z",
+    "link": null,
+    "text": "<strong>20th November</strong><br><br><strong>Done</strong><br>• Synced with Vinu on changes to the flow and went through Vinu&#x27;s current design<br>• Had an intro call with Yaswanth<br>• Explored <a href=\"https://github.com/ohcnetwork/care/pull/2549\">emr app</a> in care backend (Tried replicating AllergyIntolerance for ServiceRequest)<br>• Reviewed and merged tested PRs in care_fe<br><strong>Next</strong><br>• Continue adding labs related FHIR resources and Valueset",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-13_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -414,17 +425,6 @@
     "occured_at": "2024-11-18T16:49:08.093Z",
     "link": null,
     "text": "<strong>18th November</strong><br><br><strong>Done</strong><br>• Had a call with Vinu to go over the labs flow for UI wireframes<br>• Reworked on labs flow (<a href=\"https://gist.github.com/khavinshankar/d0811abd38ef8ecf2c20d3bd11e6ba59\">https://gist.github.com/khavinshankar/d0811abd38ef8ecf2c20d3bd11e6ba59</a>)<br>    ◦ Samples getting collected in hospital, or in labs<br>    ◦ Thought through about the permissions<br>    ◦ Status mapping logic<br>    ◦ Grouping of samples<br>• Fixed <a href=\"https://github.com/ohcnetwork/care_fe/pull/9149\">cypress video upload issue</a> in github action for forked PRs with Nihal and Aakash<br>• Had a call with Prafful and Rithvik to help debug issue with setting up plug for local dev and briefly went over signals to handle validation<br><strong>Next</strong><br>• Go over <a href=\"https://github.com/ohcnetwork/care/pull/2549\">https://github.com/ohcnetwork/care/pull/2549</a> and try setting up a valueset and a model<br>• Review and merge tested PRs<br>• Add labs doc to EMR Implementation doc",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-20_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-20T14:51:11.828Z",
-    "link": null,
-    "text": "<strong>20th November</strong><br><br><strong>Done</strong><br>• Synced with Vinu on changes to the flow and went through Vinu&#x27;s current design<br>• Had an intro call with Yaswanth<br>• Explored <a href=\"https://github.com/ohcnetwork/care/pull/2549\">emr app</a> in care backend (Tried replicating AllergyIntolerance for ServiceRequest)<br>• Reviewed and merged tested PRs in care_fe<br><strong>Next</strong><br>• Continue adding labs related FHIR resources and Valueset",
     "points": null,
     "meta": null
   },
