@@ -990,6 +990,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14647",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14647",
+    "occured_at": "2025-12-05T13:39:51.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14647",
+    "text": "Fix: Validation bypass after removal and raw translation keys in questionnaires",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_renovate/raviger-5.x-lockfile_602961c045d195f50132290f59ef0435ab046320",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "commit_created",
@@ -1595,17 +1606,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14647",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14647",
-    "occured_at": "2025-12-05T13:39:51.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14647",
-    "text": "Fix: Validation bypass after removal and raw translation keys in questionnaires",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14647_COMMENTED_PRR_kwDODtfaXs7UbPe9",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "pr_reviewed",
@@ -2101,13 +2101,24 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#14917_IC_kwDODtfaXs7b6USp",
+    "slug": "pr_reviewed_care_fe#14901_COMMENTED_PRR_kwDODtfaXs7Wr5Fg",
     "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14917",
-    "occured_at": "2025-12-24T11:08:42.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14917#issuecomment-3689497769",
-    "text": null,
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14901",
+    "occured_at": "2025-12-21T17:10:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14901#pullrequestreview-3601830240",
+    "text": "Offline support gsoc phase1 caching",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14893_COMMENTED_PRR_kwDODtfaXs7Wr6WY",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14893",
+    "occured_at": "2025-12-21T17:19:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14893#pullrequestreview-3601835416",
+    "text": "Added base path in Link of patient home button",
     "points": null,
     "meta": {}
   },
@@ -2119,6 +2130,17 @@
     "occured_at": "2025-12-11T15:23:43.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
     "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14917_IC_kwDODtfaXs7b6USp",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14917",
+    "occured_at": "2025-12-24T11:08:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14917#issuecomment-3689497769",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -2185,28 +2207,6 @@
     "occured_at": "2025-12-16T12:47:04.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
     "text": "Fix: validation bypass when removing items from questionnaire",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14901_COMMENTED_PRR_kwDODtfaXs7Wr5Fg",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14901",
-    "occured_at": "2025-12-21T17:10:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14901#pullrequestreview-3601830240",
-    "text": "Offline support gsoc phase1 caching",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14893_COMMENTED_PRR_kwDODtfaXs7Wr6WY",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14893",
-    "occured_at": "2025-12-21T17:19:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14893#pullrequestreview-3601835416",
-    "text": "Added base path in Link of patient home button",
     "points": null,
     "meta": {}
   }
