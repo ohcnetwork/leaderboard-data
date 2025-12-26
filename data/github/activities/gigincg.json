@@ -1,5 +1,27 @@
 [
   {
+    "slug": "issue_closed_care#694",
+    "contributor": "gigincg",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #694",
+    "occured_at": "2022-08-12T04:31:58.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/694",
+    "text": "HL7 Multipara Monitor Integration V2",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2717",
+    "contributor": "gigincg",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2717",
+    "occured_at": "2025-01-07T11:20:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2717",
+    "text": "Bypass Active Questionnaire Check",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care#1120",
     "contributor": "gigincg",
     "activity_definition": "issue_closed",
@@ -51,28 +73,6 @@
     "occured_at": "2021-12-01T10:04:45.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/1981",
     "text": "Calorie For Feed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#694",
-    "contributor": "gigincg",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #694",
-    "occured_at": "2022-08-12T04:31:58.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/694",
-    "text": "HL7 Multipara Monitor Integration V2",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2717",
-    "contributor": "gigincg",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2717",
-    "occured_at": "2025-01-07T11:20:35.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2717",
-    "text": "Bypass Active Questionnaire Check",
     "points": null,
     "meta": {}
   },
@@ -942,6 +942,17 @@
     "occured_at": "2020-05-11T12:22:00.000Z",
     "link": "https://github.com/ohcnetwork/stay_be/issues/78",
     "text": "Make all DB Writes Transactional",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_stay_be#55",
+    "contributor": "gigincg",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #55",
+    "occured_at": "2020-05-06T11:27:54.000Z",
+    "link": "https://github.com/ohcnetwork/stay_be/pull/55",
+    "text": "Merge to Master",
     "points": null,
     "meta": {}
   },
@@ -8679,17 +8690,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_stay_be#55",
-    "contributor": "gigincg",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #55",
-    "occured_at": "2020-05-06T11:27:54.000Z",
-    "link": "https://github.com/ohcnetwork/stay_be/pull/55",
-    "text": "Merge to Master",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#11332",
     "contributor": "gigincg",
     "activity_definition": "issue_opened",
@@ -11132,6 +11132,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care#409",
+    "contributor": "gigincg",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #409",
+    "occured_at": "2020-06-26T18:50:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/409",
+    "text": "Patient Summarization APIs",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#3312",
     "contributor": "gigincg",
     "activity_definition": "issue_opened",
@@ -11535,17 +11546,6 @@
     "occured_at": "2022-05-25T06:00:02.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2508",
     "text": "Redesign Consultation Header",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#409",
-    "contributor": "gigincg",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #409",
-    "occured_at": "2020-06-26T18:50:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/409",
-    "text": "Patient Summarization APIs",
     "points": null,
     "meta": {}
   },
@@ -17809,6 +17809,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#7047",
+    "contributor": "gigincg",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #7047",
+    "occured_at": "2024-01-16T15:22:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7047",
+    "text": "Production Release | January Week 3",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#7540_APPROVED_PRR_kwDODtfaXs52DLbP",
     "contributor": "gigincg",
     "activity_definition": "pr_reviewed",
@@ -18157,17 +18168,6 @@
     "occured_at": "2024-01-17T16:52:12.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7044#pullrequestreview-1827752026",
     "text": "Whitelist file types in file upload",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#7047",
-    "contributor": "gigincg",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #7047",
-    "occured_at": "2024-01-16T15:22:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7047",
-    "text": "Production Release | January Week 3",
     "points": null,
     "meta": {}
   },
@@ -21439,6 +21439,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care#706_IC_kwDODsgdF86P5aSj",
+    "contributor": "gigincg",
+    "activity_definition": "comment_created",
+    "title": "Commented on #706",
+    "occured_at": "2024-10-15T15:02:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/706#issuecomment-2414191779",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care#1184_gigincg",
     "contributor": "gigincg",
     "activity_definition": "issue_assigned",
@@ -21831,17 +21842,6 @@
     "occured_at": "2020-04-15T07:29:55.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/338",
     "text": "Urgent API and Consolidation CronJob for COVID Tracker Dashboard",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#706_IC_kwDODsgdF86P5aSj",
-    "contributor": "gigincg",
-    "activity_definition": "comment_created",
-    "title": "Commented on #706",
-    "occured_at": "2024-10-15T15:02:37.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/706#issuecomment-2414191779",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -24761,6 +24761,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_scribe_fe#58_COMMENTED_PRR_kwDOOdx9q87U35HN",
+    "contributor": "gigincg",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #58",
+    "occured_at": "2025-12-12T11:18:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/58#pullrequestreview-3571421645",
+    "text": "Fix audio preview",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_b124a6a545bb595ece5a53c9f6e7a3697e50d247",
     "contributor": "gigincg",
     "activity_definition": "commit_created",
@@ -25318,17 +25329,6 @@
     "occured_at": "2025-12-08T13:32:16.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14585#pullrequestreview-3552115303",
     "text": "ensure error boundary reloads when care apps are updated",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_scribe_fe#58_COMMENTED_PRR_kwDOOdx9q87U35HN",
-    "contributor": "gigincg",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #58",
-    "occured_at": "2025-12-12T11:18:35.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe_fe/pull/58#pullrequestreview-3571421645",
-    "text": "Fix audio preview",
     "points": null,
     "meta": {}
   },

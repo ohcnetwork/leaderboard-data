@@ -418,6 +418,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-04_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-04T04:38:25.645Z",
+    "link": null,
+    "text": "Dec 2:<br>• Went through all abdm sentry issues in teleicu and ka instance <br>    ◦ resolved old data issues<br>    ◦ resolved couple small validation issues<br>    ◦ working on restructuring retry care context task to avoid soft time limit exceeding<br>Dec 3:<br>• Fixed issue with required validation <a href=\"https://github.com/ohcnetwork/care/pull/3393\">#3393</a><br>• Fixed facility cache issue in the frontend <a href=\"https://github.com/ohcnetwork/care_fe/pull/14603\">#14603</a><br>• Cleared out suggestions on my existing PR<br>• Synced phr branch with develop",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-18_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -513,17 +524,6 @@
     "occured_at": "2024-12-04T15:05:43.302Z",
     "link": null,
     "text": "<strong>3rd December</strong><br>• Created DiagnosticReport specs<br>• Synced with Yaswanth on the frontend<br><strong>4th December</strong><br>• Added Tasks specs and APIs for pathologist review<br>• Fixed runtime errors while auto creating specimens (added checks)<br>• Looked into using procedure-codes valueset in ServiceRequest (still no lead, will get back to it once the poc is done)<br>• Synced with Yaswanth on the frontend<br><strong>Next</strong><br>• Sync with Yaswanth and get started with frontend wiring<br>• Add APIs based on frontend requirements (currently using update endpoint for all status updates, add specific endpoints if necessary)<br>• Review Uday&#x27;s new PR (<a href=\"https://github.com/ohcnetwork/care_fe/pull/9298\">Doctor notes enhancement</a>)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-04_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-04T04:38:25.645Z",
-    "link": null,
-    "text": "Dec 2:<br>• Went through all abdm sentry issues in teleicu and ka instance <br>    ◦ resolved old data issues<br>    ◦ resolved couple small validation issues<br>    ◦ working on restructuring retry care context task to avoid soft time limit exceeding<br>Dec 3:<br>• Fixed issue with required validation <a href=\"https://github.com/ohcnetwork/care/pull/3393\">#3393</a><br>• Fixed facility cache issue in the frontend <a href=\"https://github.com/ohcnetwork/care_fe/pull/14603\">#14603</a><br>• Cleared out suggestions on my existing PR<br>• Synced phr branch with develop",
     "points": null,
     "meta": null
   },
