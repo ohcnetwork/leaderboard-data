@@ -1100,6 +1100,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-04_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-04T18:19:16.563Z",
+    "link": null,
+    "text": "June 4:<br>• Implemented logic for schedule filtering to handle overlapping schedules in BE<br>• Made the necessary changes in the FE.<br>• Wrote test cases for the schedule filter.<br>Next:<br>• Raise a PR for the above changes.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-12_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-11T18:35:48.642Z",
+    "link": null,
+    "text": "Nov 11:<br>• Wrote slack scrapper and db write function<br>• Attended Weekly call<br>• Reviewed some prs<br>Next:<br>• leaderboard<br>• Work on assigned issue\n\nNov 11:<br>• Wrote slack scrapper and db write function<br>• Attended Weekly call<br>• Reviewed some prs<br>Next:<br>• leaderboard<br>• Work on assigned issue",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-06-09_NikhilA8606",
     "contributor": "NikhilA8606",
     "activity_definition": "eod_update",
@@ -1228,28 +1250,6 @@
     "occured_at": "2025-05-29T17:16:35.692Z",
     "link": null,
     "text": "May 29 :<br>• Merged PR : <a href=\"https://github.com/ohcnetwork/care_fe/pull/12389\"> Implemented preview feature for File Upload #12389 </a> <br>• Issue Created : <a href=\"https://github.com/ohcnetwork/care_fe/issues/12450\">Auto-scroll to new questions and Hide Unit for non-quantity questions in Questionnaire. #12450 Closed</a> <br>• Merged PR : <a href=\"https://github.com/ohcnetwork/care_fe/pull/12453\"> Implemented auto-scroll to new questions and Hide unit for Non-Quantity in Questionnaire page #12453 </a> <br>• Reviewed PRs<br>Next :<br>• Find new issue",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-04_NikhilA8606",
-    "contributor": "NikhilA8606",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-04T18:19:16.563Z",
-    "link": null,
-    "text": "June 4:<br>• Implemented logic for schedule filtering to handle overlapping schedules in BE<br>• Made the necessary changes in the FE.<br>• Wrote test cases for the schedule filter.<br>Next:<br>• Raise a PR for the above changes.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-12_NikhilA8606",
-    "contributor": "NikhilA8606",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-11T18:35:48.642Z",
-    "link": null,
-    "text": "Nov 11:<br>• Wrote slack scrapper and db write function<br>• Attended Weekly call<br>• Reviewed some prs<br>Next:<br>• leaderboard<br>• Work on assigned issue\n\nNov 11:<br>• Wrote slack scrapper and db write function<br>• Attended Weekly call<br>• Reviewed some prs<br>Next:<br>• leaderboard<br>• Work on assigned issue",
     "points": null,
     "meta": null
   },
@@ -1606,6 +1606,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-11_NikhilA8606",
+    "contributor": "NikhilA8606",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-11T06:46:12.915Z",
+    "link": null,
+    "text": "Dec 10:<br>• Helped <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> to connect the camera in office remotely<br>• Setup animation for token queue and updated some minor changes (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14525/commits/15ae231cae17e1dcc5fd765616d09e57cb5990d7\">#commit</a>)<br>• Travel back to  home<br>Next:<br>• Work on assigned issues",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-09-17_NikhilA8606",
     "contributor": "NikhilA8606",
     "activity_definition": "eod_update",
@@ -1822,17 +1833,6 @@
     "occured_at": "2025-12-05T05:19:26.759Z",
     "link": null,
     "text": "Dec 4:<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14632\">care_fe#14632</a>: Fix: Edits not updating for bed charges in Patient Account<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14628\">care_fe#14628</a>: Moved department selection section to up<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14612\">care_fe#14612</a>: Added auto refresh toggle in Appoinments Page<br>• Discussion with <span class=\"s-mention s-user\">@U07NP23BWQH</span> about the create encounter sheet redesign<br>• Reviewed PRs<br>Next:<br>• Add env variable to enable/disable the auto refresh in queue and appointment<br>• Update the workflow of queue board<br>• Leaderboard pending works",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-11_NikhilA8606",
-    "contributor": "NikhilA8606",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-11T06:46:12.915Z",
-    "link": null,
-    "text": "Dec 10:<br>• Helped <span class=\"s-mention s-user\">@U02TDGQQPMJ</span> to connect the camera in office remotely<br>• Setup animation for token queue and updated some minor changes (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14525/commits/15ae231cae17e1dcc5fd765616d09e57cb5990d7\">#commit</a>)<br>• Travel back to  home<br>Next:<br>• Work on assigned issues",
     "points": null,
     "meta": null
   },

@@ -1,60 +1,5 @@
 [
   {
-    "slug": "pr_opened_ayushma#177",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #177",
-    "occured_at": "2023-06-10T16:59:54.000Z",
-    "link": "https://github.com/ohcnetwork/ayushma/pull/177",
-    "text": "Fix registration endpoint",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#7540",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7540",
-    "occured_at": "2024-04-04T16:44:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7540",
-    "text": "Merge Develop into Staging",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_docs#19",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #19",
-    "occured_at": "2024-04-28T11:38:58.000Z",
-    "link": "https://github.com/ohcnetwork/docs/pull/19",
-    "text": "Add Care Scribe Docs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#838",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #838",
-    "occured_at": "2022-06-10T18:18:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/838",
-    "text": "Add check for empty comments and notes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#5019",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #5019",
-    "occured_at": "2023-03-01T11:09:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5019",
-    "text": "Fix facility card height",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#1029",
     "contributor": "Ashesh3",
     "activity_definition": "pr_opened",
@@ -205,6 +150,61 @@
     "occured_at": "2024-05-02T10:28:05.000Z",
     "link": "https://github.com/ohcnetwork/docs/pull/23",
     "text": "Add docs for discharge summary",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#5019",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #5019",
+    "occured_at": "2023-03-01T11:09:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5019",
+    "text": "Fix facility card height",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_ayushma#177",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #177",
+    "occured_at": "2023-06-10T16:59:54.000Z",
+    "link": "https://github.com/ohcnetwork/ayushma/pull/177",
+    "text": "Fix registration endpoint",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#7540",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7540",
+    "occured_at": "2024-04-04T16:44:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7540",
+    "text": "Merge Develop into Staging",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_docs#19",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #19",
+    "occured_at": "2024-04-28T11:38:58.000Z",
+    "link": "https://github.com/ohcnetwork/docs/pull/19",
+    "text": "Add Care Scribe Docs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#838",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #838",
+    "occured_at": "2022-06-10T18:18:13.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/838",
+    "text": "Add check for empty comments and notes",
     "points": null,
     "meta": {}
   },
@@ -645,6 +645,17 @@
     "occured_at": "2023-07-27T06:26:40.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/5946",
     "text": "Make patient category required in Shifting form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#7974",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #7974",
+    "occured_at": "2024-06-04T17:48:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7974",
+    "text": "Add support for retries in Scribe",
     "points": null,
     "meta": {}
   },
@@ -1448,17 +1459,6 @@
     "occured_at": "2024-04-23T07:50:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7654#pullrequestreview-2016512758",
     "text": "Migrate Consultation Camera Feed to use newer camera feed components",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#7974",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #7974",
-    "occured_at": "2024-06-04T17:48:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7974",
-    "text": "Add support for retries in Scribe",
     "points": null,
     "meta": {}
   },
@@ -2618,6 +2618,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#921",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #921",
+    "occured_at": "2022-07-09T15:29:13.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/921",
+    "text": "Fix validation while Shifting Bed",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3020_APPROVED_PRR_kwDODtfaXs49b8Tx",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -3010,17 +3021,6 @@
     "occured_at": "2024-02-22T17:55:43.000Z",
     "link": "https://github.com/ohcnetwork/leaderboard-data.old/pull/11",
     "text": "Update Ashesh3.md",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#921",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #921",
-    "occured_at": "2022-07-09T15:29:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/921",
-    "text": "Fix validation while Shifting Bed",
     "points": null,
     "meta": {}
   },
@@ -3806,6 +3806,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#6488",
+    "contributor": "Ashesh3",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #6488",
+    "occured_at": "2023-10-25T05:52:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/6488",
+    "text": "Header buttons are clipping the Patient Dashboard title",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_docs#25",
     "contributor": "Ashesh3",
     "activity_definition": "pr_opened",
@@ -4572,17 +4583,6 @@
     "occured_at": "2023-11-30T14:07:35.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/6747",
     "text": "Patient List Updated relative time is malfunctioning",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#6488",
-    "contributor": "Ashesh3",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #6488",
-    "occured_at": "2023-10-25T05:52:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/6488",
-    "text": "Header buttons are clipping the Patient Dashboard title",
     "points": null,
     "meta": {}
   },
@@ -9262,6 +9262,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#1669",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1669",
+    "occured_at": "2023-10-16T13:05:47.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1669",
+    "text": "Add Medico-Legal Case Toggle and Filter",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#3180_Ashesh3",
     "contributor": "Ashesh3",
     "activity_definition": "issue_assigned",
@@ -10725,6 +10736,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#7207",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7207",
+    "occured_at": "2024-02-12T11:01:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7207",
+    "text": "Add min_encounter_date validation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#7461_APPROVED_PRR_kwDODtfaXs51ObEP",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -11777,17 +11799,6 @@
     "occured_at": "2024-02-11T15:05:24.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7199#pullrequestreview-1874385297",
     "text": "Add Search Box to Resource",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#7207",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7207",
-    "occured_at": "2024-02-12T11:01:37.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7207",
-    "text": "Add min_encounter_date validation",
     "points": null,
     "meta": {}
   },
@@ -14824,17 +14835,6 @@
     "occured_at": "2023-07-01T13:39:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/5813",
     "text": "Remove default values for Manage Inventory page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1669",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1669",
-    "occured_at": "2023-10-16T13:05:47.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1669",
-    "text": "Add Medico-Legal Case Toggle and Filter",
     "points": null,
     "meta": {}
   },
@@ -20394,6 +20394,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#3075",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3075",
+    "occured_at": "2022-07-09T08:27:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3075",
+    "text": "Hide extra error message when shifting bed fails",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3226_APPROVED_PRR_kwDODtfaXs4--TuS",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -20764,17 +20775,6 @@
     "occured_at": "2022-07-11T08:25:06.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/3097#pullrequestreview-1033972491",
     "text": "Revamped notification Ui",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#3075",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3075",
-    "occured_at": "2022-07-09T08:27:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3075",
-    "text": "Hide extra error message when shifting bed fails",
     "points": null,
     "meta": {}
   },
@@ -23375,6 +23375,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1748",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1748",
+    "occured_at": "2023-12-06T08:55:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1748",
+    "text": "Add More Facilities and patients to dummy data",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1823_APPROVED_PRR_kwDODsgdF85spSSu",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -23734,17 +23745,6 @@
     "occured_at": "2023-12-07T16:29:44.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1741#pullrequestreview-1770579041",
     "text": "Add `resolved_middleware` JSON field to Asset Serializer.",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1748",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1748",
-    "occured_at": "2023-12-06T08:55:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1748",
-    "text": "Add More Facilities and patients to dummy data",
     "points": null,
     "meta": {}
   },
