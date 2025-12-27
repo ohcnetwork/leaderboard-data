@@ -1,5 +1,38 @@
 [
   {
+    "slug": "issue_opened_care#1337",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1337",
+    "occured_at": "2023-06-02T11:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1337",
+    "text": "Fix N+1 queries in `/api/v1/patient/`",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#5800",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #5800",
+    "occured_at": "2023-07-01T12:39:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5800",
+    "text": "fix pwa and theme colors",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#8514",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8514",
+    "occured_at": "2024-09-09T17:29:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
+    "text": "Production release v24.37.0",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_teleicu_middleware#146",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -249,39 +282,6 @@
     "occured_at": "2024-12-31T07:46:47.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/1338",
     "text": "Fix N+1 queries in `/api/v1/bed/`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#1337",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1337",
-    "occured_at": "2023-06-02T11:39:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1337",
-    "text": "Fix N+1 queries in `/api/v1/patient/`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#5800",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #5800",
-    "occured_at": "2023-07-01T12:39:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5800",
-    "text": "fix pwa and theme colors",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8514",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8514",
-    "occured_at": "2024-09-09T17:29:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
-    "text": "Production release v24.37.0",
     "points": null,
     "meta": {}
   },
@@ -1562,6 +1562,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#9050_IC_kwDODtfaXs6bJqJS",
+    "contributor": "sainak",
+    "activity_definition": "comment_created",
+    "title": "Commented on #9050",
+    "occured_at": "2025-01-20T17:58:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/9050#issuecomment-2603000402",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#8046_sainak",
     "contributor": "sainak",
     "activity_definition": "issue_assigned",
@@ -1964,17 +1975,6 @@
     "title": "Commented on #10661",
     "occured_at": "2025-02-19T08:49:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10661#issuecomment-2667943128",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#9050_IC_kwDODtfaXs6bJqJS",
-    "contributor": "sainak",
-    "activity_definition": "comment_created",
-    "title": "Commented on #9050",
-    "occured_at": "2025-01-20T17:58:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/9050#issuecomment-2603000402",
     "text": null,
     "points": null,
     "meta": {}
@@ -5566,6 +5566,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care-plugin-cookiecutter#1",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1",
+    "occured_at": "2024-12-03T12:30:22.000Z",
+    "link": "https://github.com/ohcnetwork/care-plugin-cookiecutter/issues/1",
+    "text": "Add template files",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3190_APPROVED_PRR_kwDODsgdF87Lrmw8",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -5936,17 +5947,6 @@
     "occured_at": "2024-07-29T17:08:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8230",
     "text": "Production release v24.31.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care-plugin-cookiecutter#1",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1",
-    "occured_at": "2024-12-03T12:30:22.000Z",
-    "link": "https://github.com/ohcnetwork/care-plugin-cookiecutter/issues/1",
-    "text": "Add template files",
     "points": null,
     "meta": {}
   },
@@ -7007,6 +7007,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#8642_sainak",
+    "contributor": "sainak",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #8642 assigned",
+    "occured_at": "2024-09-26T15:44:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8642",
+    "text": "New Events logs are missing in Patient consultation ",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_tests/token_sub_queue_5e40f4945754bde607f2b9bdee6fea03fde17b60",
     "contributor": "sainak",
     "activity_definition": "commit_created",
@@ -7403,13 +7414,13 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#8642_sainak",
+    "slug": "comment_created_care_fe#8473_IC_kwDODtfaXs6Kzjf5",
     "contributor": "sainak",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #8642 assigned",
-    "occured_at": "2024-09-26T15:44:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8642",
-    "text": "New Events logs are missing in Patient consultation ",
+    "activity_definition": "comment_created",
+    "title": "Commented on #8473",
+    "occured_at": "2024-09-04T11:58:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8473#issuecomment-2328770553",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -7816,17 +7827,6 @@
     "title": "Commented on #8472",
     "occured_at": "2024-09-04T11:59:49.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/8472#issuecomment-2328774681",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#8473_IC_kwDODtfaXs6Kzjf5",
-    "contributor": "sainak",
-    "activity_definition": "comment_created",
-    "title": "Commented on #8473",
-    "occured_at": "2024-09-04T11:58:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8473#issuecomment-2328770553",
     "text": null,
     "points": null,
     "meta": {}
@@ -12639,6 +12639,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2708",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2708",
+    "occured_at": "2025-01-05T15:38:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2708",
+    "text": "Fix test workflow for forks",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care#2163_sainak",
     "contributor": "sainak",
     "activity_definition": "issue_assigned",
@@ -13042,17 +13053,6 @@
     "occured_at": "2022-05-17T12:20:24.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/749",
     "text": "Migrate and Change Bed Types (In Bed Record)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2708",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2708",
-    "occured_at": "2025-01-05T15:38:02.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2708",
-    "text": "Fix test workflow for forks",
     "points": null,
     "meta": {}
   },
@@ -17996,6 +17996,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2224",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2224",
+    "occured_at": "2024-06-03T11:57:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2224",
+    "text": "Fix patient search API",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2973_COMMENTED_PRR_kwDODsgdF86jqGnG",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -18744,6 +18755,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2582",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2582",
+    "occured_at": "2024-11-06T06:12:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2582",
+    "text": "Update queryset references in views to avoid cached results",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2676_COMMENTED_PRR_kwDODsgdF86WLzTL",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -19125,28 +19147,6 @@
     "occured_at": "2024-11-08T12:26:53.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2500#pullrequestreview-2423666975",
     "text": "updated populate fixing-investigation command",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2224",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2224",
-    "occured_at": "2024-06-03T11:57:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2224",
-    "text": "Fix patient search API",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2582",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2582",
-    "occured_at": "2024-11-06T06:12:40.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2582",
-    "text": "Update queryset references in views to avoid cached results",
     "points": null,
     "meta": {}
   },
@@ -25014,6 +25014,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1676",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1676",
+    "occured_at": "2023-10-16T13:16:09.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1676",
+    "text": "merge migrations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2034_COMMENTED_PRR_kwDODsgdF851e_wk",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -25377,6 +25388,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#1584",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1584",
+    "occured_at": "2023-09-11T17:21:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1584",
+    "text": "fix: cleanup and refactor tests",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2012_APPROVED_PRR_kwDODsgdF850tGvf",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -25725,6 +25747,17 @@
     "occured_at": "2024-02-26T13:06:00.000Z",
     "link": "https://github.com/ohcnetwork/docs/pull/5",
     "text": "new blog post: aws service connect",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_ayushma#449",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #449",
+    "occured_at": "2024-02-01T18:02:48.000Z",
+    "link": "https://github.com/ohcnetwork/ayushma/pull/449",
+    "text": "Switch to pipenv",
     "points": null,
     "meta": {}
   },
@@ -28248,28 +28281,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#1676",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1676",
-    "occured_at": "2023-10-16T13:16:09.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1676",
-    "text": "merge migrations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1584",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1584",
-    "occured_at": "2023-09-11T17:21:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1584",
-    "text": "fix: cleanup and refactor tests",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#1450",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -29315,6 +29326,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1527",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1527",
+    "occured_at": "2023-08-19T07:23:36.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1527",
+    "text": "fix: asset class check for restricting asset relations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1565_APPROVED_PRR_kwDODsgdF85fvupR",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -29685,17 +29707,6 @@
     "occured_at": "2023-08-19T08:31:11.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1526",
     "text": "fix bed allocation overlap",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1527",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1527",
-    "occured_at": "2023-08-19T07:23:36.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1527",
-    "text": "fix: asset class check for restricting asset relations",
     "points": null,
     "meta": {}
   },
@@ -31152,6 +31163,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#726",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #726",
+    "occured_at": "2022-04-24T06:53:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/726",
+    "text": "allow staff to create doctors",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1310_COMMENTED_PRR_kwDODsgdF85WQboD",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -31900,6 +31922,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#723",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #723",
+    "occured_at": "2022-04-21T20:39:16.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/723",
+    "text": "fix qr_code_id migration",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#769_APPROVED_PRR_kwDODsgdF8464lBW",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -32270,28 +32303,6 @@
     "occured_at": "2022-04-30T19:05:48.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/732#pullrequestreview-958513033",
     "text": "made description for bed optional",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#726",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #726",
-    "occured_at": "2022-04-24T06:53:06.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/726",
-    "text": "allow staff to create doctors",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#723",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #723",
-    "occured_at": "2022-04-21T20:39:16.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/723",
-    "text": "fix qr_code_id migration",
     "points": null,
     "meta": {}
   },
@@ -33374,17 +33385,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_ayushma#449",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #449",
-    "occured_at": "2024-02-01T18:02:48.000Z",
-    "link": "https://github.com/ohcnetwork/ayushma/pull/449",
-    "text": "Switch to pipenv",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_teleicu_middleware#137",
     "contributor": "sainak",
     "activity_definition": "issue_opened",
@@ -34463,6 +34463,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_teleicu_devices#15",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #15",
+    "occured_at": "2025-05-28T14:06:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_teleicu_devices/issues/15",
+    "text": "Refactor external requests",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_data-migration_3c3f6cb99835fd3489aa502e88b981965efd2e20",
     "contributor": "sainak",
     "activity_definition": "commit_created",
@@ -34767,17 +34778,6 @@
     "occured_at": "2025-12-02T06:21:38.000Z",
     "link": "https://github.com/ohcnetwork/care_teleicu_devices_fe/issues/83",
     "text": "Add support for Automated Observations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_teleicu_devices#15",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #15",
-    "occured_at": "2025-05-28T14:06:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_teleicu_devices/issues/15",
-    "text": "Refactor external requests",
     "points": null,
     "meta": {}
   },
@@ -35662,6 +35662,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_scribe#23",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #23",
+    "occured_at": "2025-12-12T16:20:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_scribe/pull/23",
+    "text": "Refactor AI form fill task and add sentry to catch errors",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3360_COMMENTED_PRR_kwDODsgdF87T-DcK",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -35944,17 +35955,6 @@
     "occured_at": "2025-12-15T06:36:16.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3360#pullrequestreview-3576624056",
     "text": "fix:facility tag manager",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_scribe#23",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #23",
-    "occured_at": "2025-12-12T16:20:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_scribe/pull/23",
-    "text": "Refactor AI form fill task and add sentry to catch errors",
     "points": null,
     "meta": {}
   },

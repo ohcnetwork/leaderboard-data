@@ -1,5 +1,71 @@
 [
   {
+    "slug": "pr_opened_care#3261",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3261",
+    "occured_at": "2025-09-15T12:19:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3261",
+    "text": "fix test cases for slugs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3379",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3379",
+    "occured_at": "2025-11-25T15:58:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3379",
+    "text": "adding validation for facility name",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2968",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2968",
+    "occured_at": "2025-04-02T18:04:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2968",
+    "text": "fixed the custom class validator",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2898",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2898",
+    "occured_at": "2025-03-10T10:30:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2898",
+    "text": "adding limit and some contrainsts",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2789",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2789",
+    "occured_at": "2025-01-29T05:30:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2789",
+    "text": "updated swagger schema",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2772",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2772",
+    "occured_at": "2025-01-26T20:37:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2772",
+    "text": "adding swagger support",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#2789",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -40,72 +106,6 @@
     "occured_at": "2025-03-03T15:29:27.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2885",
     "text": "fixed bug in consent create spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2898",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2898",
-    "occured_at": "2025-03-10T10:30:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2898",
-    "text": "adding limit and some contrainsts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2789",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2789",
-    "occured_at": "2025-01-29T05:30:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2789",
-    "text": "updated swagger schema",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2772",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2772",
-    "occured_at": "2025-01-26T20:37:25.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2772",
-    "text": "adding swagger support",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3261",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3261",
-    "occured_at": "2025-09-15T12:19:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3261",
-    "text": "fix test cases for slugs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3379",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3379",
-    "occured_at": "2025-11-25T15:58:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3379",
-    "text": "adding validation for facility name",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2968",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2968",
-    "occured_at": "2025-04-02T18:04:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2968",
-    "text": "fixed the custom class validator",
     "points": null,
     "meta": {}
   },
@@ -2189,6 +2189,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_camera_asset#2_COMMENTED_PRR_kwDONSAoas6SuTRh",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #2",
+    "occured_at": "2024-11-26T13:53:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2#pullrequestreview-2461611105",
+    "text": "Improvements to Camera Integration Plug",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_20c8ce9eb4c20264372dd1d6b32147dfe450a257",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -2541,13 +2552,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_camera_asset#2_COMMENTED_PRR_kwDONSAoas6SuTRh",
+    "slug": "issue_assigned_care#1817_praffq",
     "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #2",
-    "occured_at": "2024-11-26T13:53:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_camera_asset/pull/2#pullrequestreview-2461611105",
-    "text": "Improvements to Camera Integration Plug",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #1817 assigned",
+    "occured_at": "2024-02-24T08:31:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1817",
+    "text": "Load medibase and icd11 from static json",
     "points": null,
     "meta": {}
   },
@@ -2922,17 +2933,6 @@
     "occured_at": "2024-03-02T17:18:43.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/1889",
     "text": "Dummy Data for Shifting and Resource",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#1817_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #1817 assigned",
-    "occured_at": "2024-02-24T08:31:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1817",
-    "text": "Load medibase and icd11 from static json",
     "points": null,
     "meta": {}
   },
@@ -4609,6 +4609,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2947",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2947",
+    "occured_at": "2025-03-24T13:37:16.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2947",
+    "text": "added update specs for patient",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3064_CHANGES_REQUESTED_PRR_kwDODsgdF86s0RIi",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -5012,17 +5023,6 @@
     "occured_at": "2025-04-01T12:23:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2957",
     "text": "updated specs for desc",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2947",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2947",
-    "occured_at": "2025-03-24T13:37:16.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2947",
-    "text": "added update specs for patient",
     "points": null,
     "meta": {}
   },
@@ -6501,6 +6501,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_roadmap#30_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #30 assigned",
+    "occured_at": "2025-04-01T08:28:16.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/30",
+    "text": "Backend for configurable discharge summaries",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_test/supply_delivery_cdfae36c077bbd9154083d71d2e2a908e808af61",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -6849,17 +6860,6 @@
     "occured_at": "2025-04-01T10:10:26.000Z",
     "link": "https://github.com/ohcnetwork/roadmap/issues/38",
     "text": "Backend to support prefix and suffix addition to users",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_roadmap#30_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #30 assigned",
-    "occured_at": "2025-04-01T08:28:16.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/30",
-    "text": "Backend for configurable discharge summaries",
     "points": null,
     "meta": {}
   },
