@@ -1,71 +1,5 @@
 [
   {
-    "slug": "pr_opened_care#1029",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1029",
-    "occured_at": "2022-09-19T11:30:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1029",
-    "text": "Expose upload_completed for FileUpload",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#998",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #998",
-    "occured_at": "2022-09-03T18:35:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/998",
-    "text": "Add public asset fetch endpoint",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#3279",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3279",
-    "occured_at": "2022-08-03T13:28:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3279",
-    "text": "Make asset name responsive",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#5972",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #5972",
-    "occured_at": "2023-07-31T10:50:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5972",
-    "text": "Fix month list in DateInput",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#3584",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3584",
-    "occured_at": "2022-09-14T11:48:20.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/3584",
-    "text": "Patient Review feature fixes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#6925",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #6925",
-    "occured_at": "2024-01-04T09:30:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6925",
-    "text": "Redesign Bed Capacity Cards",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#1867",
     "contributor": "Ashesh3",
     "activity_definition": "pr_merged",
@@ -194,6 +128,72 @@
     "occured_at": "2024-04-28T11:38:58.000Z",
     "link": "https://github.com/ohcnetwork/docs/pull/19",
     "text": "Add Care Scribe Docs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#3584",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3584",
+    "occured_at": "2022-09-14T11:48:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3584",
+    "text": "Patient Review feature fixes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#6925",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #6925",
+    "occured_at": "2024-01-04T09:30:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6925",
+    "text": "Redesign Bed Capacity Cards",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#1029",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1029",
+    "occured_at": "2022-09-19T11:30:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1029",
+    "text": "Expose upload_completed for FileUpload",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#998",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #998",
+    "occured_at": "2022-09-03T18:35:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/998",
+    "text": "Add public asset fetch endpoint",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#3279",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3279",
+    "occured_at": "2022-08-03T13:28:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/3279",
+    "text": "Make asset name responsive",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#5972",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #5972",
+    "occured_at": "2023-07-31T10:50:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5972",
+    "text": "Fix month list in DateInput",
     "points": null,
     "meta": {}
   },
@@ -2596,6 +2596,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#3219",
+    "contributor": "Ashesh3",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #3219",
+    "occured_at": "2022-07-24T08:06:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3219",
+    "text": "Consultation update fails as admission_date can not be set",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3022_APPROVED_PRR_kwDODtfaXs49b8Aj",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -3773,6 +3784,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#7241",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7241",
+    "occured_at": "2024-02-21T07:50:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7241",
+    "text": "Fix lint errors",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#976_APPROVED_PRR_kwDODsgdF84_uvdW",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -4158,6 +4180,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#1237",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1237",
+    "occured_at": "2023-04-06T08:51:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1237",
+    "text": "Fix conflicting migrations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_metabase_manager#1",
     "contributor": "Ashesh3",
     "activity_definition": "issue_opened",
@@ -4539,17 +4572,6 @@
     "occured_at": "2024-01-02T15:50:23.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/6921",
     "text": "Advanced filter: Patient with no consultation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#3219",
-    "contributor": "Ashesh3",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #3219",
-    "occured_at": "2022-07-24T08:06:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3219",
-    "text": "Consultation update fails as admission_date can not be set",
     "points": null,
     "meta": {}
   },
@@ -4957,17 +4979,6 @@
     "occured_at": "2022-05-24T19:36:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2505",
     "text": "UI issues on Upload External Results page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#7241",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7241",
-    "occured_at": "2024-02-21T07:50:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7241",
-    "text": "Fix lint errors",
     "points": null,
     "meta": {}
   },
@@ -6116,17 +6127,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#1237",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1237",
-    "occured_at": "2023-04-06T08:51:35.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1237",
-    "text": "Fix conflicting migrations",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_ayushma#288",
     "contributor": "Ashesh3",
     "activity_definition": "pr_merged",
@@ -6908,6 +6908,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#4602_Ashesh3",
+    "contributor": "Ashesh3",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #4602 assigned",
+    "occured_at": "2023-01-15T14:19:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/4602",
+    "text": "make button in patient detail page as left aligned",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#5273_Ashesh3",
     "contributor": "Ashesh3",
     "activity_definition": "issue_assigned",
@@ -7289,17 +7300,6 @@
     "occured_at": "2023-02-05T13:02:39.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/4749",
     "text": "Setup eslint plugins to aid in handling localizations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#4602_Ashesh3",
-    "contributor": "Ashesh3",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #4602 assigned",
-    "occured_at": "2023-01-15T14:19:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/4602",
-    "text": "make button in patient detail page as left aligned",
     "points": null,
     "meta": {}
   },
@@ -9251,6 +9251,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#6404",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #6404",
+    "occured_at": "2023-10-06T10:50:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6404",
+    "text": "Fix password reset",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#3319_Ashesh3",
     "contributor": "Ashesh3",
     "activity_definition": "issue_assigned",
@@ -10721,17 +10732,6 @@
     "occured_at": "2024-02-28T04:15:30.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7230",
     "text": "Add Uptime tracking to Location Management",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#6404",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #6404",
-    "occured_at": "2023-10-06T10:50:12.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6404",
-    "text": "Fix password reset",
     "points": null,
     "meta": {}
   },
@@ -12859,6 +12859,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#6764",
+    "contributor": "Ashesh3",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #6764",
+    "occured_at": "2023-12-01T14:31:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/6764",
+    "text": "Update tooltip position in ConfigureHealthFacility",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#6986_APPROVED_PRR_kwDODtfaXs5ru52M",
     "contributor": "Ashesh3",
     "activity_definition": "pr_reviewed",
@@ -13238,17 +13249,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #6764",
     "occured_at": "2023-12-01T12:59:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/6764",
-    "text": "Update tooltip position in ConfigureHealthFacility",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#6764",
-    "contributor": "Ashesh3",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #6764",
-    "occured_at": "2023-12-01T14:31:45.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/6764",
     "text": "Update tooltip position in ConfigureHealthFacility",
     "points": null,
