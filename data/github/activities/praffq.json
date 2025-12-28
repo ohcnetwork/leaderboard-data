@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_opened_care#2947",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2947",
+    "occured_at": "2025-03-24T13:11:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2947",
+    "text": "added update specs for patient",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3246",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3246",
+    "occured_at": "2025-09-10T09:04:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3246",
+    "text": "fix spes in NoteThread viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3372",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3372",
+    "occured_at": "2025-11-22T07:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3372",
+    "text": "fix deadlock in TagConfig endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2494",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2494",
+    "occured_at": "2024-11-14T14:16:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2494",
+    "text": "Clean up asset classes",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3246",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3246",
+    "occured_at": "2025-09-10T08:06:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3246",
+    "text": "fix spes in NoteThread viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2882",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -183,61 +238,6 @@
     "occured_at": "2025-06-03T14:56:56.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3061",
     "text": "fix for entered in error choices",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3372",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3372",
-    "occured_at": "2025-11-22T07:36:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3372",
-    "text": "fix deadlock in TagConfig endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2494",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2494",
-    "occured_at": "2024-11-14T14:16:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2494",
-    "text": "Clean up asset classes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3246",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3246",
-    "occured_at": "2025-09-10T08:06:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3246",
-    "text": "fix spes in NoteThread viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2947",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2947",
-    "occured_at": "2025-03-24T13:11:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2947",
-    "text": "added update specs for patient",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3246",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3246",
-    "occured_at": "2025-09-10T09:04:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3246",
-    "text": "fix spes in NoteThread viewset",
     "points": null,
     "meta": {}
   },
@@ -6952,6 +6952,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#3234_APPROVED_PRR_kwDODsgdF87LEP1a",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3234",
+    "occured_at": "2025-11-01T06:09:20.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3234#pullrequestreview-3406888282",
+    "text": "fix:added update pydantic model and update validation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishor/fix/patient_tag_manager_e0b163e552765e208f5d355d3fb106b93539810e",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7784,17 +7795,6 @@
     "occured_at": "2025-12-08T10:00:28.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/569208995317cc929bb97a99bbb791700858fa5b",
     "text": "Merge remote-tracking branch 'origin/prafful/feat/user-and-facility-flag' into prafful/feat/user-and-facility-flag",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3234_APPROVED_PRR_kwDODsgdF87LEP1a",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3234",
-    "occured_at": "2025-11-01T06:09:20.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3234#pullrequestreview-3406888282",
-    "text": "fix:added update pydantic model and update validation",
     "points": null,
     "meta": {}
   },
