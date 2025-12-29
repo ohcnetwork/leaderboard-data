@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_merged_erd#8",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8",
+    "occured_at": "2025-10-03T01:35:07.000Z",
+    "link": "https://github.com/ohcnetwork/erd/pull/8",
+    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14207",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14207",
+    "occured_at": "2025-11-01T00:29:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
+    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14207",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14207",
+    "occured_at": "2025-11-01T04:13:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
+    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#13598",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -315,39 +348,6 @@
     "occured_at": "2025-11-05T09:34:23.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14249",
     "text": "Delete option for an Observation Definition not working",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_erd#8",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8",
-    "occured_at": "2025-10-03T01:35:07.000Z",
-    "link": "https://github.com/ohcnetwork/erd/pull/8",
-    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14207",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14207",
-    "occured_at": "2025-11-01T00:29:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
-    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14207",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14207",
-    "occured_at": "2025-11-01T04:13:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
-    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
     "points": null,
     "meta": {}
   },
@@ -2442,28 +2442,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14868_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14868 assigned",
-    "occured_at": "2025-12-18T07:59:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14868",
-    "text": "Refactor Playwright tests to remove hard waits and networkidle usage",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14869",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14869",
-    "occured_at": "2025-12-18T07:59:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14869",
-    "text": "Refactor Playwright tests to remove hard waits and networkidle usage",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14204_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2515,6 +2493,72 @@
     "occured_at": "2025-12-19T10:16:29.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/3424",
     "text": "Document all backend variables in example.env",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14970_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14970 assigned",
+    "occured_at": "2025-12-29T11:28:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14970",
+    "text": "Bug: Locked invoices show total as ₹0.00 in Patient Accounts table",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14868_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14868 assigned",
+    "occured_at": "2025-12-18T07:59:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14868",
+    "text": "Refactor Playwright tests to remove hard waits and networkidle usage",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14966_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14966 assigned",
+    "occured_at": "2025-12-29T10:02:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14966",
+    "text": "Playwright CI failures due to session timeout and improper user handling",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14971",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14971",
+    "occured_at": "2025-12-29T11:28:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14971",
+    "text": "Fix: Display \"Locked\" badge for locked invoices instead of ₹0.00 in Total column",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14967",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14967",
+    "occured_at": "2025-12-29T10:02:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14967",
+    "text": "Fix Playwright CI failures from JWT token expiration",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14869",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14869",
+    "occured_at": "2025-12-18T07:59:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14869",
+    "text": "Refactor Playwright tests to remove hard waits and networkidle usage",
     "points": null,
     "meta": {}
   }

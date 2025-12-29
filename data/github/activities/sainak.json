@@ -1,82 +1,5 @@
 [
   {
-    "slug": "issue_closed_care#1321",
-    "contributor": "sainak",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1321",
-    "occured_at": "2023-07-21T16:46:12.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1321",
-    "text": "Profile DB queries",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1392",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1392",
-    "occured_at": "2023-06-20T14:39:55.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1392",
-    "text": "drop the usage of POSTGIS_URL",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#2031",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #2031",
-    "occured_at": "2024-03-28T14:55:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2031",
-    "text": "Setup a backend for plugins",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#1337",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1337",
-    "occured_at": "2023-06-02T11:39:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1337",
-    "text": "Fix N+1 queries in `/api/v1/patient/`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#5800",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #5800",
-    "occured_at": "2023-07-01T12:39:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5800",
-    "text": "fix pwa and theme colors",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8514",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8514",
-    "occured_at": "2024-09-09T17:29:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
-    "text": "Production release v24.37.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_leaderboard#90",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #90",
-    "occured_at": "2022-09-30T06:29:50.000Z",
-    "link": "https://github.com/ohcnetwork/leaderboard/pull/90",
-    "text": "Update my profile",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#8514",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -271,6 +194,83 @@
     "occured_at": "2022-06-01T19:14:04.000Z",
     "link": "https://github.com/ohcnetwork/leaderboard/pull/47",
     "text": "scraper: ignore all bots",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#1321",
+    "contributor": "sainak",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1321",
+    "occured_at": "2023-07-21T16:46:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1321",
+    "text": "Profile DB queries",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1392",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1392",
+    "occured_at": "2023-06-20T14:39:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1392",
+    "text": "drop the usage of POSTGIS_URL",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#2031",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #2031",
+    "occured_at": "2024-03-28T14:55:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2031",
+    "text": "Setup a backend for plugins",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#1337",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1337",
+    "occured_at": "2023-06-02T11:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1337",
+    "text": "Fix N+1 queries in `/api/v1/patient/`",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#5800",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #5800",
+    "occured_at": "2023-07-01T12:39:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5800",
+    "text": "fix pwa and theme colors",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#8514",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8514",
+    "occured_at": "2024-09-09T17:29:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
+    "text": "Production release v24.37.0",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_leaderboard#90",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #90",
+    "occured_at": "2022-09-30T06:29:50.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/pull/90",
+    "text": "Update my profile",
     "points": null,
     "meta": {}
   },
@@ -4752,6 +4752,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care#1559_IC_kwDODsgdF85993J3",
+    "contributor": "sainak",
+    "activity_definition": "comment_created",
+    "title": "Commented on #1559",
+    "occured_at": "2024-05-15T20:07:44.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1559#issuecomment-2113368695",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_leaderboard-data.old#40_APPROVED_PRR_kwDOKwHvFs55xPMz",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -5154,17 +5165,6 @@
     "title": "Commented on #2470",
     "occured_at": "2024-09-22T10:47:17.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2470#issuecomment-2366721336",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care#1559_IC_kwDODsgdF85993J3",
-    "contributor": "sainak",
-    "activity_definition": "comment_created",
-    "title": "Commented on #1559",
-    "occured_at": "2024-05-15T20:07:44.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1559#issuecomment-2113368695",
     "text": null,
     "points": null,
     "meta": {}
@@ -5951,6 +5951,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#9419_IC_kwDODtfaXs6YfWB7",
+    "contributor": "sainak",
+    "activity_definition": "comment_created",
+    "title": "Commented on #9419",
+    "occured_at": "2024-12-22T06:55:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/9419#issuecomment-2558353531",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1794_CHANGES_REQUESTED_PRR_kwDODsgdF85tD43s",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -6303,17 +6314,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#9419_IC_kwDODtfaXs6YfWB7",
-    "contributor": "sainak",
-    "activity_definition": "comment_created",
-    "title": "Commented on #9419",
-    "occured_at": "2024-12-22T06:55:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/9419#issuecomment-2558353531",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_nandkishorr/fix/allergy-intolerence/onset-validation_babce35032c69360ca9fb5e4fb2fff4892ee4da7",
     "contributor": "sainak",
     "activity_definition": "commit_created",
@@ -6640,6 +6640,17 @@
     "occured_at": "2025-02-17T09:14:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10644",
     "text": "Production release v3.0.1",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#8540_IC_kwDODtfaXs6MjgxO",
+    "contributor": "sainak",
+    "activity_definition": "comment_created",
+    "title": "Commented on #8540",
+    "occured_at": "2024-09-18T10:37:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8540#issuecomment-2358119502",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -7816,17 +7827,6 @@
     "title": "Commented on #8878",
     "occured_at": "2024-10-23T09:00:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/8878#issuecomment-2431378185",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#8540_IC_kwDODtfaXs6MjgxO",
-    "contributor": "sainak",
-    "activity_definition": "comment_created",
-    "title": "Commented on #8540",
-    "occured_at": "2024-09-18T10:37:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8540#issuecomment-2358119502",
     "text": null,
     "points": null,
     "meta": {}
@@ -13486,6 +13486,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#1528",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1528",
+    "occured_at": "2023-08-24T15:16:59.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1528",
+    "text": "remove redundant docs workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "comment_created_care#1803_IC_kwDODsgdF86SSII9",
     "contributor": "sainak",
     "activity_definition": "comment_created",
@@ -16045,17 +16056,6 @@
     "occured_at": "2025-08-29T13:31:16.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3157#pullrequestreview-3168750826",
     "text": "Test cases for observation definition apis",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1528",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1528",
-    "occured_at": "2023-08-24T15:16:59.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1528",
-    "text": "remove redundant docs workflow",
     "points": null,
     "meta": {}
   },
@@ -18777,6 +18777,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2649",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2649",
+    "occured_at": "2024-12-11T14:26:15.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2649",
+    "text": "fix dev docker file and enable sql logging",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2652_APPROVED_PRR_kwDODsgdF86VrLk9",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -19158,17 +19169,6 @@
     "occured_at": "2024-09-19T18:16:26.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2449",
     "text": "Major dependencies update",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2649",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2649",
-    "occured_at": "2024-12-11T14:26:15.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2649",
-    "text": "fix dev docker file and enable sql logging",
     "points": null,
     "meta": {}
   },
@@ -20658,6 +20658,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2393",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2393",
+    "occured_at": "2024-08-24T08:58:03.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2393",
+    "text": "fix docker builds",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#2372",
     "contributor": "sainak",
     "activity_definition": "pr_opened",
@@ -22115,17 +22126,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #2393",
     "occured_at": "2024-08-23T12:11:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2393",
-    "text": "fix docker builds",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2393",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2393",
-    "occured_at": "2024-08-24T08:58:03.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2393",
     "text": "fix docker builds",
     "points": null,
@@ -23617,6 +23617,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_ayushma#449",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #449",
+    "occured_at": "2024-02-01T18:02:48.000Z",
+    "link": "https://github.com/ohcnetwork/ayushma/pull/449",
+    "text": "Switch to pipenv",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#1981",
     "contributor": "sainak",
     "activity_definition": "pr_opened",
@@ -24662,6 +24673,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#1908_COMMENTED_PRR_kwDODsgdF85xuAOW",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #1908",
+    "occured_at": "2024-02-29T04:02:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1908#pullrequestreview-1907884950",
+    "text": "Fixed N+1 queries issue in /api/v1/bed/",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1929_CHANGES_REQUESTED_PRR_kwDODsgdF85xuCfI",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -25388,6 +25410,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#1934_APPROVED_PRR_kwDODsgdF85zyXNL",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #1934",
+    "occured_at": "2024-03-18T10:40:49.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1934#pullrequestreview-1942582091",
+    "text": "reset password schema for API docs swagger updated #1434",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1966_APPROVED_PRR_kwDODsgdF850tHXS",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -25740,28 +25773,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#1934_APPROVED_PRR_kwDODsgdF85zyXNL",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #1934",
-    "occured_at": "2024-03-18T10:40:49.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1934#pullrequestreview-1942582091",
-    "text": "reset password schema for API docs swagger updated #1434",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#1908_COMMENTED_PRR_kwDODsgdF85xuAOW",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #1908",
-    "occured_at": "2024-02-29T04:02:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1908#pullrequestreview-1907884950",
-    "text": "Fixed N+1 queries issue in /api/v1/bed/",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_docs#5",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -25769,17 +25780,6 @@
     "occured_at": "2024-02-26T13:06:00.000Z",
     "link": "https://github.com/ohcnetwork/docs/pull/5",
     "text": "new blog post: aws service connect",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_ayushma#449",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #449",
-    "occured_at": "2024-02-01T18:02:48.000Z",
-    "link": "https://github.com/ohcnetwork/ayushma/pull/449",
-    "text": "Switch to pipenv",
     "points": null,
     "meta": {}
   },
@@ -26488,6 +26488,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1682",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1682",
+    "occured_at": "2023-10-18T11:02:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1682",
+    "text": "Add commands and docs for loading dummy data",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1704_APPROVED_PRR_kwDODsgdF85mlsWR",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -26851,6 +26862,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#1637_APPROVED_PRR_kwDODsgdF85iDnyZ",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #1637",
+    "occured_at": "2023-09-26T20:13:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1637#pullrequestreview-1645116569",
+    "text": "Bump pillow from 10.0.0 to 10.0.1",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#1221_COMMENTED_PRR_kwDODsgdF85boSRk",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -27199,6 +27221,17 @@
     "occured_at": "2024-01-03T09:09:23.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1785#pullrequestreview-1801614121",
     "text": "Add video_connect_link field to User model",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1646",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1646",
+    "occured_at": "2023-10-16T17:28:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1646",
+    "text": "feat: docker multiplatform builds",
     "points": null,
     "meta": {}
   },
@@ -27562,6 +27595,17 @@
     "occured_at": "2023-12-30T15:18:07.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1795#pullrequestreview-1799565888",
     "text": "Copy consciousness_level when cloning last daily round",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1526",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1526",
+    "occured_at": "2023-08-19T08:31:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1526",
+    "text": "fix bed allocation overlap",
     "points": null,
     "meta": {}
   },
@@ -28270,24 +28314,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#1637_APPROVED_PRR_kwDODsgdF85iDnyZ",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #1637",
-    "occured_at": "2023-09-26T20:13:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1637#pullrequestreview-1645116569",
-    "text": "Bump pillow from 10.0.0 to 10.0.1",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1646",
+    "slug": "pr_merged_care#1486",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
-    "title": "Merged pull request #1646",
-    "occured_at": "2023-10-16T17:28:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1646",
-    "text": "feat: docker multiplatform builds",
+    "title": "Merged pull request #1486",
+    "occured_at": "2023-07-28T15:38:44.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1486",
+    "text": "fix discharge summary emails",
     "points": null,
     "meta": {}
   },
@@ -28640,17 +28673,6 @@
     "occured_at": "2023-10-18T05:19:50.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1670#pullrequestreview-1684041223",
     "text": "Daily Rounds: Updated consciousness levels choices and migrated `CANNOT BE ASSESSED` to `UNKNOWN`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1682",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1682",
-    "occured_at": "2023-10-18T11:02:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1682",
-    "text": "Add commands and docs for loading dummy data",
     "points": null,
     "meta": {}
   },
@@ -29733,17 +29755,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#1526",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1526",
-    "occured_at": "2023-08-19T08:31:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1526",
-    "text": "fix bed allocation overlap",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#1527",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -30090,17 +30101,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #1486",
     "occured_at": "2023-07-28T15:26:03.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1486",
-    "text": "fix discharge summary emails",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1486",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1486",
-    "occured_at": "2023-07-28T15:38:44.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1486",
     "text": "fix discharge summary emails",
     "points": null,
@@ -35090,6 +35090,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#3406_COMMENTED_PRR_kwDODsgdF87UUk1D",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3406",
+    "occured_at": "2025-12-10T11:48:58.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3406#pullrequestreview-3562163523",
+    "text": "Update dependencies and clean up code",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/feat/user-and-facility-flag_b4ed0175b08dce9324bc1e9506caed35aa537a09",
     "contributor": "sainak",
     "activity_definition": "commit_created",
@@ -35371,17 +35382,6 @@
     "title": "Reviewed PR #3406",
     "occured_at": "2025-12-10T11:48:00.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3406#pullrequestreview-3562159887",
-    "text": "Update dependencies and clean up code",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3406_COMMENTED_PRR_kwDODsgdF87UUk1D",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #3406",
-    "occured_at": "2025-12-10T11:48:58.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3406#pullrequestreview-3562163523",
     "text": "Update dependencies and clean up code",
     "points": null,
     "meta": {}
