@@ -1,49 +1,5 @@
 [
   {
-    "slug": "eod_update_2024-12-26_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-25T20:02:33.067Z",
-    "link": null,
-    "text": "December 25th<br>• Finally completed permissions module<br>• Questionnaire is now controlled through RBAC<br>• Cakes<br>• Validations and API&#x27;s<br>Next<br>• Add security to everything else in care",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-20_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-19T21:22:19.177Z",
-    "link": null,
-    "text": "May 19th<br>• Labs - Inventory Syncing<br>Next<br>• Patient Identifiers<br>• Tags",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-24_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-23T20:04:49.511Z",
-    "link": null,
-    "text": "December 23rd<br>• Fever<br>• Headache<br>Next<br>• Rest",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-15_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-15T07:29:43.155Z",
-    "link": null,
-    "text": "15th November<br>• Started to work on Valuset API&#x27;s<br>• Clean up FHIR API&#x27;s<br>• Figure out middlepoint between FHIR and care spec<br>Next<br>• Deploy new changes to DO<br>• Complete Valueset API and carevaluesets",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-11-14_vigneshhari",
     "contributor": "vigneshhari",
     "activity_definition": "eod_update",
@@ -84,6 +40,50 @@
     "occured_at": "2025-01-13T06:14:22.170Z",
     "link": null,
     "text": "Jan 13th<br>• Removed most of care<br>• Removed all the bindings to the old code<br>• Cleanups<br>• Working on asset and location spec<br>Next<br>• Complete Spec for asset and location<br>• Implement Spec",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-26_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-25T20:02:33.067Z",
+    "link": null,
+    "text": "December 25th<br>• Finally completed permissions module<br>• Questionnaire is now controlled through RBAC<br>• Cakes<br>• Validations and API&#x27;s<br>Next<br>• Add security to everything else in care",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-20_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-19T21:22:19.177Z",
+    "link": null,
+    "text": "May 19th<br>• Labs - Inventory Syncing<br>Next<br>• Patient Identifiers<br>• Tags",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-24_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-23T20:04:49.511Z",
+    "link": null,
+    "text": "December 23rd<br>• Fever<br>• Headache<br>Next<br>• Rest",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-15_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-15T07:29:43.155Z",
+    "link": null,
+    "text": "15th November<br>• Started to work on Valuset API&#x27;s<br>• Clean up FHIR API&#x27;s<br>• Figure out middlepoint between FHIR and care spec<br>Next<br>• Deploy new changes to DO<br>• Complete Valueset API and carevaluesets",
     "points": null,
     "meta": null
   },
@@ -275,6 +275,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-02-06_vigneshhari",
+    "contributor": "vigneshhari",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-06T08:10:17.129Z",
+    "link": null,
+    "text": "7th Feb<br>• Finally fixed on a design for Devices, started a base branch and got some stuff out<br>• Fixed an issue with the spec<br>• Fix a deployment issue with staging<br>Next<br>• Be more like Rithvik<br>• Ship out devices<br>• Automate deployments for Kerala Care",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-21_vigneshhari",
     "contributor": "vigneshhari",
     "activity_definition": "eod_update",
@@ -447,17 +458,6 @@
     "occured_at": "2025-01-28T17:54:06.697Z",
     "link": null,
     "text": "27th Jan 2025<br>• Visited sudheendra hospital and went through all their workflows<br>• Meetings with doctors on data rentention and other aspects<br>• Long calls with bodhi around metabase, we have some solutions lined up for reporting<br>• Looking at the consent spec<br>Next<br>• Finish Device Spec<br>• Finish Consent Spec<br>• Fix issues reported by Amjith<br>• Merge MR to main",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-06_vigneshhari",
-    "contributor": "vigneshhari",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-06T08:10:17.129Z",
-    "link": null,
-    "text": "7th Feb<br>• Finally fixed on a design for Devices, started a base branch and got some stuff out<br>• Fixed an issue with the spec<br>• Fix a deployment issue with staging<br>Next<br>• Be more like Rithvik<br>• Ship out devices<br>• Automate deployments for Kerala Care",
     "points": null,
     "meta": null
   },

@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_opened_care_fe#14214",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14214",
+    "occured_at": "2025-11-01T13:28:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
+    "text": "Add Playwright tests for Observation Definition workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3259",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3259",
+    "occured_at": "2025-09-14T20:04:15.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3259",
+    "text": "Add medication requests to prescription API responses",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14466",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14466",
+    "occured_at": "2025-11-21T14:31:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
+    "text": "[WIP] Remove Cypress and migrate to Playwright",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#13577",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13577",
+    "occured_at": "2025-09-01T06:40:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13577",
+    "text": "🧹 Clean up unnecessary console logs and unused parameters from development code",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14250",
+    "occured_at": "2025-11-12T19:44:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_erd#8",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_merged",
@@ -205,61 +260,6 @@
     "occured_at": "2025-11-01T00:21:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14189",
     "text": "Hide facility tab for non-geo organization types",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14466",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14466",
-    "occured_at": "2025-11-21T14:31:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14466",
-    "text": "[WIP] Remove Cypress and migrate to Playwright",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#13577",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13577",
-    "occured_at": "2025-09-01T06:40:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13577",
-    "text": "🧹 Clean up unnecessary console logs and unused parameters from development code",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14250",
-    "occured_at": "2025-11-12T19:44:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14214",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14214",
-    "occured_at": "2025-11-01T13:28:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14214",
-    "text": "Add Playwright tests for Observation Definition workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3259",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3259",
-    "occured_at": "2025-09-14T20:04:15.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3259",
-    "text": "Add medication requests to prescription API responses",
     "points": null,
     "meta": {}
   },
@@ -2530,17 +2530,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14971",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14971",
-    "occured_at": "2025-12-29T11:28:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14971",
-    "text": "Fix: Display \"Locked\" badge for locked invoices instead of ₹0.00 in Total column",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14967",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2548,6 +2537,17 @@
     "occured_at": "2025-12-29T10:02:26.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14967",
     "text": "Fix Playwright CI failures from JWT token expiration",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14971",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14971",
+    "occured_at": "2025-12-29T11:28:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14971",
+    "text": "Fix: Display \"Locked\" badge for locked invoices instead of ₹0.00 in Total column",
     "points": null,
     "meta": {}
   },

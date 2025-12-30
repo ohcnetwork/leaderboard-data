@@ -2387,6 +2387,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3364",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3364",
+    "occured_at": "2025-11-18T06:55:41.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3364",
+    "text": "fix:updated the indentifier validation in patient api",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_supply_delivery/delivery_orders/filters_a0bfe6dda03ca06fcd65fc516d04260856eac872",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -2933,6 +2944,17 @@
     "occured_at": "2025-11-10T12:29:49.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/9ea179e2c83d58df5bcccd67b5e134814882ec4e",
     "text": "Test cases for supply request api (#3314)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3421",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3421",
+    "occured_at": "2025-12-17T09:17:59.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3421",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec",
     "points": null,
     "meta": {}
   },
@@ -4334,17 +4356,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3364",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3364",
-    "occured_at": "2025-11-18T06:55:41.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3364",
-    "text": "fix:updated the indentifier validation in patient api",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_nandkishorr/fix/schedule_cecbe93eac6bb5dc8b73d7a503ddda9f166f5f26",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4858,6 +4869,17 @@
     "occured_at": "2025-12-04T14:54:53.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/57201f53f1501aa960a4b61668468f7cfd6c3152",
     "text": "fix:added healthcare location ids to sr locations (#3397)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3421",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3421",
+    "occured_at": "2025-12-22T09:38:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3421",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec",
     "points": null,
     "meta": {}
   },
@@ -5412,28 +5434,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3421",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3421",
-    "occured_at": "2025-12-17T09:17:59.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3421",
-    "text": "fix:updated BaseMedicationDispenseOrderSpec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3421",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3421",
-    "occured_at": "2025-12-22T09:38:06.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3421",
-    "text": "fix:updated BaseMedicationDispenseOrderSpec",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3419",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -5760,6 +5760,39 @@
     "occured_at": "2025-12-29T09:13:48.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3437",
     "text": "fix:added facility min spec in TagConfigReadSpec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_aca81db773d8d23830e12f1ac0548280a7c66256",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2025-12-23T07:45:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/aca81db773d8d23830e12f1ac0548280a7c66256",
+    "text": "fix:updated medication dispense specs (#3428)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_aca81db773d8d23830e12f1ac0548280a7c66256",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2025-12-23T07:45:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/aca81db773d8d23830e12f1ac0548280a7c66256",
+    "text": "fix:updated medication dispense specs (#3428)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_aca81db773d8d23830e12f1ac0548280a7c66256",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2025-12-23T07:45:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/aca81db773d8d23830e12f1ac0548280a7c66256",
+    "text": "fix:updated medication dispense specs (#3428)",
     "points": null,
     "meta": {}
   }

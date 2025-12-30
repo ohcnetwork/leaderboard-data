@@ -374,6 +374,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-09-05_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-05T00:13:27.195Z",
+    "link": null,
+    "text": "Sep 3, 4<br>• 36 hour hackathon<br>next<br>• Testing POC with NeonDB",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-04_areebahmeddd",
     "contributor": "areebahmeddd",
     "activity_definition": "eod_update",
@@ -561,17 +572,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-09-05_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-05T00:13:27.195Z",
-    "link": null,
-    "text": "Sep 3, 4<br>• 36 hour hackathon<br>next<br>• Testing POC with NeonDB",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-07-10_areebahmeddd",
     "contributor": "areebahmeddd",
     "activity_definition": "eod_update",
@@ -667,6 +667,17 @@
     "occured_at": "2025-03-16T03:39:34.028Z",
     "link": null,
     "text": "March 13-14<br>• task done: serving static carefe from gbucket, with loadbalancer and cdn (<a href=\"https://care.areeb.dev\">https://care.areeb.dev</a>)<br>• sudden travel, missed eod\n\nMarch 15<br>• task done: deployed backend on azure container apps for testing with fe (<a href=\"https://api.areeb.dev\">https://api.areeb.dev</a>)<br>• refining my gsoc draft<br>Next<br>• <span class=\"s-emoji\">🎧</span> with vysakh<br>• one click deployment for care\n\nMarch 16<br>• wrote some terraform scripts for gcloud<br>• destroyed my azure backend deployment while experimenting with one click deployment<br>• open pr in keralacare github workflow to add concurrency (<a href=\"https://github.com/keralacare/landing/pull/32\">#32</a>)<br>Next<br>• Fix<br>• <span class=\"s-emoji\">🎧</span> with vysakh<br>• Test some plugins in the my env",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-07_areebahmeddd",
+    "contributor": "areebahmeddd",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-07T02:50:58.075Z",
+    "link": null,
+    "text": "July 7<br>done<br>• opened a <a href=\"https://github.com/open-telemetry/opentelemetry-collector/pull/13245\">PR</a> on open-telemetry org for LFX purposes : &quot; )<br>• added gluster fs to sync with data on nodes<br>• updated script with glusterfs setup for launch template<br>• updated swarm file with docker secrets so no hard coded vals<br>• removed traefik, alb was enough<br>• fixed health check with syam&#x27;s input<br>next<br>• one final thing remains; add master slave to postgre<br>• weekly meet",
     "points": null,
     "meta": null
   },
@@ -777,17 +788,6 @@
     "occured_at": "2025-02-26T18:04:18.237Z",
     "link": null,
     "text": "25-26 February 2025<br>• Read some GitHub docs<br>• Fixed an assertion error on BE (put the code in the wrong file lol) <a href=\"https://github.com/ohcnetwork/care/pull/2870\">PR ready</a><br>• Huddled with Khavin about the abdm plugin issue (only to realize it was a windows problem)<br>• Raised an <a href=\"https://github.com/ohcnetwork/care_fe/issues/10836\">issue</a> on care_fe (waiting for assignment)<br>Next:<br>• Start using Ubuntu<br>• More devops tasks :cat-on-keyboard:<br>• Strategize on getting more story points",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-07_areebahmeddd",
-    "contributor": "areebahmeddd",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-07T02:50:58.075Z",
-    "link": null,
-    "text": "July 7<br>done<br>• opened a <a href=\"https://github.com/open-telemetry/opentelemetry-collector/pull/13245\">PR</a> on open-telemetry org for LFX purposes : &quot; )<br>• added gluster fs to sync with data on nodes<br>• updated script with glusterfs setup for launch template<br>• updated swarm file with docker secrets so no hard coded vals<br>• removed traefik, alb was enough<br>• fixed health check with syam&#x27;s input<br>next<br>• one final thing remains; add master slave to postgre<br>• weekly meet",
     "points": null,
     "meta": null
   },
