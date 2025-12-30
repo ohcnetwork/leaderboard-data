@@ -1,60 +1,5 @@
 [
   {
-    "slug": "pr_opened_care#2434",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2434",
-    "occured_at": "2024-09-07T17:55:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2434",
-    "text": "added timeout to middleware requests",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2931",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2931",
-    "occured_at": "2025-03-20T13:00:41.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2931",
-    "text": "some choices addition and validation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2968",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2968",
-    "occured_at": "2025-04-03T05:05:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2968",
-    "text": "fixed the custom class validator",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2898",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2898",
-    "occured_at": "2025-03-07T14:20:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2898",
-    "text": "adding limit and some contrainsts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3193",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3193",
-    "occured_at": "2025-08-17T08:29:55.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3193",
-    "text": "discharge summary improvements",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3061",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -150,6 +95,61 @@
     "occured_at": "2025-09-10T08:06:43.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3246",
     "text": "fix spes in NoteThread viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3193",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3193",
+    "occured_at": "2025-08-17T08:29:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3193",
+    "text": "discharge summary improvements",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2434",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2434",
+    "occured_at": "2024-09-07T17:55:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2434",
+    "text": "added timeout to middleware requests",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2931",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2931",
+    "occured_at": "2025-03-20T13:00:41.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2931",
+    "text": "some choices addition and validation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2968",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2968",
+    "occured_at": "2025-04-03T05:05:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2968",
+    "text": "fixed the custom class validator",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2898",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2898",
+    "occured_at": "2025-03-07T14:20:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2898",
+    "text": "adding limit and some contrainsts",
     "points": null,
     "meta": {}
   },
@@ -2574,6 +2574,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care#2507_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #2507 assigned",
+    "occured_at": "2024-10-29T14:33:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2507",
+    "text": "Add Validation for Insurance input fields in patient registration form",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_3ec9f49a3dbaf5796bb97c3f4cf9e6e120edd8d2",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -2955,17 +2966,6 @@
     "occured_at": "2025-06-20T07:57:13.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3082",
     "text": "adding display value to answer options",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#2507_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #2507 assigned",
-    "occured_at": "2024-10-29T14:33:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2507",
-    "text": "Add Validation for Insurance input fields in patient registration form",
     "points": null,
     "meta": {}
   },

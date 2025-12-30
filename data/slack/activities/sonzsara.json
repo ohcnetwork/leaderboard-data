@@ -550,6 +550,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-19_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-19T03:42:34.397Z",
+    "link": null,
+    "text": "August 19<br>• Updated emergency tags and add on questions queries to return unique patient counts per emergency type and response.<br>• Updated telemedicine forms filled by nurses and doctors drill down to include sorting by patient and staff name.<br>• Huddle with Rohit.<br>• Attended Weekly Eod call.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-07-28_sonzsara",
     "contributor": "sonzsara",
     "activity_definition": "eod_update",
@@ -689,17 +700,6 @@
     "occured_at": "2025-08-16T05:59:11.302Z",
     "link": null,
     "text": "August 16<br>• Fixed logic for lab tests prescribed in the daily dashboard.<br>• Few dms",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-19_sonzsara",
-    "contributor": "sonzsara",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-19T03:42:34.397Z",
-    "link": null,
-    "text": "August 19<br>• Updated emergency tags and add on questions queries to return unique patient counts per emergency type and response.<br>• Updated telemedicine forms filled by nurses and doctors drill down to include sorting by patient and staff name.<br>• Huddle with Rohit.<br>• Attended Weekly Eod call.",
     "points": null,
     "meta": null
   },
@@ -1228,6 +1228,17 @@
     "occured_at": "2025-12-23T06:28:36.915Z",
     "link": null,
     "text": "Dec 22<br>• Attended Data meet with Amjith<br>• Attended Weekly Eng Call<br>• Updated Total number of primary palliative care depts card in state dashboard<br>• Updated Total number of secondary palliative care card depts<br>• Updated total doctor visits in primary palliative care facilities<br>• Updated total doctor visits in secondary palliative care facilities<br>• Added total net content col to monthly and weekly medicine dispense card<br>• Added registration fees charge item card to ssmm dashboard<br>• Added new card total active invoices to finance tab of arike activity dashboard<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/44\">care_analytics_sql#44</a>: Create card to display list of consultation fees for initial and follow up visit (ssmm)<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/43\">care_analytics_sql#43</a>: Create a list of all the invoices, its statuses and the related chargeitems for arike<br>• Created issue <a href=\"https://github.com/ohcnetwork/care_analytics_sql/issues/42\">care_analytics_sql#42</a>: Create Registration Fee Summary Card with Total Count and Revenue for ssmm<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-30_sonzsara",
+    "contributor": "sonzsara",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-30T06:30:59.899Z",
+    "link": null,
+    "text": "Dec 29<br>• Updated all the cards in the State and district dashboard<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/48\">care_analytics_sql#48</a>: Add inventory stock list documentation for ssmm<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/47\">care_analytics_sql#47</a>: Add detailed active invoices query with documentation for arike<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/46\">care_analytics_sql#46</a>: Add total registrations and revenue query documentation for ssmm<br>• Made PR <a href=\"https://github.com/ohcnetwork/care_analytics_sql/pull/45\">care_analytics_sql#45</a>: Add queries for first-time and follow-up consultation revenue tracking for ssmm<br>",
     "points": null,
     "meta": null
   }

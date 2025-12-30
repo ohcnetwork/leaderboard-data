@@ -1,5 +1,60 @@
 [
   {
+    "slug": "issue_closed_care#968",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #968",
+    "occured_at": "2025-01-05T21:04:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/968",
+    "text": "Revamp Permissions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#587",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #587",
+    "occured_at": "2021-05-27T19:43:32.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/587",
+    "text": "Production Deployment",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#592",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #592",
+    "occured_at": "2021-06-11T15:09:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/592",
+    "text": "Production Deployment",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#525",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #525",
+    "occured_at": "2021-02-09T04:07:03.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/525",
+    "text": "External Result CSV export patch",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_docs#10",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #10",
+    "occured_at": "2025-04-30T17:47:58.000Z",
+    "link": "https://github.com/ohcnetwork/docs/issues/10",
+    "text": "Dicom Viewer and File Management",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_stay_fe#236",
     "contributor": "vigneshhari",
     "activity_definition": "issue_opened",
@@ -216,61 +271,6 @@
     "occured_at": "2021-05-16T14:41:10.000Z",
     "link": "https://github.com/ohcnetwork/life_backend/pull/9",
     "text": "Housekeeping",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#587",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #587",
-    "occured_at": "2021-05-27T19:43:32.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/587",
-    "text": "Production Deployment",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#592",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #592",
-    "occured_at": "2021-06-11T15:09:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/592",
-    "text": "Production Deployment",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#525",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #525",
-    "occured_at": "2021-02-09T04:07:03.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/525",
-    "text": "External Result CSV export patch",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_docs#10",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #10",
-    "occured_at": "2025-04-30T17:47:58.000Z",
-    "link": "https://github.com/ohcnetwork/docs/issues/10",
-    "text": "Dicom Viewer and File Management",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#968",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #968",
-    "occured_at": "2025-01-05T21:04:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/968",
-    "text": "Revamp Permissions",
     "points": null,
     "meta": {}
   },
@@ -48510,17 +48510,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#3427_CHANGES_REQUESTED_PRR_kwDODsgdF87W_h-e",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #3427",
-    "occured_at": "2025-12-23T07:46:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3427#pullrequestreview-3606978462",
-    "text": "fix: added status to CreateDispenseOrder spec",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_gh-pages_3c9a7fc18e6ac24ab2d7d5145b2fb37116055ec9",
     "contributor": "vigneshhari",
     "activity_definition": "commit_created",
@@ -48561,6 +48550,105 @@
     "occured_at": "2025-12-28T17:02:57.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/108fe9e783cbab1ffc310e60ddc6c6b56e972f21",
     "text": "Disallow issuing invoice without charge items",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_analytics_plug#3",
+    "contributor": "vigneshhari",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #3",
+    "occured_at": "2025-12-29T11:36:03.000Z",
+    "link": "https://github.com/ohcnetwork/analytics_plug/issues/3",
+    "text": "Add context_type filter to AnalyticsFilters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_analytics_plug#2_APPROVED_PRR_kwDOQBxG187XguHI",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #2",
+    "occured_at": "2025-12-29T11:35:56.000Z",
+    "link": "https://github.com/ohcnetwork/analytics_plug/pull/2#pullrequestreview-3615678920",
+    "text": "Add context_type filter to AnalyticsFilters",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_analytics_plug#1_APPROVED_PRR_kwDOQBxG187XfyHT",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #1",
+    "occured_at": "2025-12-29T09:29:32.000Z",
+    "link": "https://github.com/ohcnetwork/analytics_plug/pull/1#pullrequestreview-3615433171",
+    "text": "Add support for organization",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_5dd8ccf1461ae84632453f0116ed0345df518099",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-29T11:36:01.000Z",
+    "link": "https://github.com/ohcnetwork/analytics_plug/commit/5dd8ccf1461ae84632453f0116ed0345df518099",
+    "text": "Merge pull request #2 from NikhilA8606/patch-1",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_0644cd1c54408da42d4b05d80d04bdbba7a47b00",
+    "contributor": "vigneshhari",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2025-12-29T09:29:40.000Z",
+    "link": "https://github.com/ohcnetwork/analytics_plug/commit/0644cd1c54408da42d4b05d80d04bdbba7a47b00",
+    "text": "Merge pull request #1 from ohcnetwork/add_organization_support",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3427_CHANGES_REQUESTED_PRR_kwDODsgdF87W_h-e",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #3427",
+    "occured_at": "2025-12-23T07:46:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3427#pullrequestreview-3606978462",
+    "text": "fix: added status to CreateDispenseOrder spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3427_CHANGES_REQUESTED_PRR_kwDODsgdF87XpUL1",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #3427",
+    "occured_at": "2025-12-30T11:21:32.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3427#pullrequestreview-3617932021",
+    "text": "fix: added status to CreateDispenseOrder spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3437_CHANGES_REQUESTED_PRR_kwDODsgdF87Xn8pI",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #3437",
+    "occured_at": "2025-12-30T08:38:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3437#pullrequestreview-3617573448",
+    "text": "fix:added facility min spec in TagConfigReadSpec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3431_APPROVED_PRR_kwDODsgdF87Xn8V4",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3431",
+    "occured_at": "2025-12-30T08:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3431#pullrequestreview-3617572216",
+    "text": "fix: handle None case for healthcare_service in AD Write",
     "points": null,
     "meta": {}
   },
@@ -48726,61 +48814,6 @@
     "occured_at": "2025-12-28T17:02:57.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/108fe9e783cbab1ffc310e60ddc6c6b56e972f21",
     "text": "Disallow issuing invoice without charge items",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_analytics_plug#3",
-    "contributor": "vigneshhari",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #3",
-    "occured_at": "2025-12-29T11:36:03.000Z",
-    "link": "https://github.com/ohcnetwork/analytics_plug/issues/3",
-    "text": "Add context_type filter to AnalyticsFilters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_analytics_plug#2_APPROVED_PRR_kwDOQBxG187XguHI",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #2",
-    "occured_at": "2025-12-29T11:35:56.000Z",
-    "link": "https://github.com/ohcnetwork/analytics_plug/pull/2#pullrequestreview-3615678920",
-    "text": "Add context_type filter to AnalyticsFilters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_analytics_plug#1_APPROVED_PRR_kwDOQBxG187XfyHT",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #1",
-    "occured_at": "2025-12-29T09:29:32.000Z",
-    "link": "https://github.com/ohcnetwork/analytics_plug/pull/1#pullrequestreview-3615433171",
-    "text": "Add support for organization",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_main_5dd8ccf1461ae84632453f0116ed0345df518099",
-    "contributor": "vigneshhari",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to main",
-    "occured_at": "2025-12-29T11:36:01.000Z",
-    "link": "https://github.com/ohcnetwork/analytics_plug/commit/5dd8ccf1461ae84632453f0116ed0345df518099",
-    "text": "Merge pull request #2 from NikhilA8606/patch-1",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_main_0644cd1c54408da42d4b05d80d04bdbba7a47b00",
-    "contributor": "vigneshhari",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to main",
-    "occured_at": "2025-12-29T09:29:40.000Z",
-    "link": "https://github.com/ohcnetwork/analytics_plug/commit/0644cd1c54408da42d4b05d80d04bdbba7a47b00",
-    "text": "Merge pull request #1 from ohcnetwork/add_organization_support",
     "points": null,
     "meta": {}
   }
