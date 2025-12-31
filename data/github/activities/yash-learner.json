@@ -10879,6 +10879,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3431",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3431",
+    "occured_at": "2025-12-23T13:02:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3431",
+    "text": "fix: handle None case for healthcare_service in AD Write",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/12909/migrate-from-cr-osr-pr10-qon-apis_9fcf62c41a302b971f3a1936bd3fd7bd0b6ed4e4",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -11128,6 +11139,17 @@
     "occured_at": "2025-12-03T11:42:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14592#issuecomment-3606461620",
     "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3431",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3431",
+    "occured_at": "2025-12-30T08:36:57.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3431",
+    "text": "fix: handle None case for healthcare_service in AD Write",
     "points": null,
     "meta": {}
   },
@@ -13244,17 +13266,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14933",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14933",
-    "occured_at": "2025-12-23T10:15:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14933",
-    "text": "Disable SR edit via encounter",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_issues/14592/wire-hc-in-af_fe380683d1a6cfa13e917888c4a5fc3286bfd529",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -13420,39 +13431,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3439",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3439",
-    "occured_at": "2025-12-30T17:49:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3439",
-    "text": "Fix title and description  for manage users permission",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3431",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3431",
-    "occured_at": "2025-12-23T13:02:26.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3431",
-    "text": "fix: handle None case for healthcare_service in AD Write",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3431",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3431",
-    "occured_at": "2025-12-30T08:36:57.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3431",
-    "text": "fix: handle None case for healthcare_service in AD Write",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_develop_152e44279a137767d078c0f54acdd5fc5dc58f03",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -13504,6 +13482,28 @@
     "occured_at": "2025-12-19T18:56:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14839#pullrequestreview-3599677851",
     "text": "i18n(input) : translate hardcoded input placeholders to t() ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14933",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14933",
+    "occured_at": "2025-12-23T10:15:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14933",
+    "text": "Disable SR edit via encounter",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3439",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3439",
+    "occured_at": "2025-12-30T17:49:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3439",
+    "text": "Fix title and description  for manage users permission",
     "points": null,
     "meta": {}
   }

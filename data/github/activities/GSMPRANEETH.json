@@ -1133,6 +1133,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#13656",
+    "contributor": "GSMPRANEETH",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #13656",
+    "occured_at": "2025-09-08T13:26:59.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13656",
+    "text": "UI issue in Purchase Order details page in mobile view",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13661_COMMENTED_PRR_kwDODtfaXs6_yvfE",
     "contributor": "GSMPRANEETH",
     "activity_definition": "pr_reviewed",
@@ -1492,17 +1503,6 @@
     "occured_at": "2025-09-17T22:47:27.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13749",
     "text": "The `generateSlug` generates slug beyond the max len",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#13656",
-    "contributor": "GSMPRANEETH",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #13656",
-    "occured_at": "2025-09-08T13:26:59.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13656",
-    "text": "UI issue in Purchase Order details page in mobile view",
     "points": null,
     "meta": {}
   },
@@ -4422,17 +4422,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#13930",
-    "contributor": "GSMPRANEETH",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #13930",
-    "occured_at": "2025-10-02T03:56:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13930",
-    "text": "After editing a form, user is redirected back to listing page rather than details page",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14373",
     "contributor": "GSMPRANEETH",
     "activity_definition": "issue_opened",
@@ -4440,17 +4429,6 @@
     "occured_at": "2025-11-17T04:32:31.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14373",
     "text": "Playwright tests for queues",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#13930_GSMPRANEETH",
-    "contributor": "GSMPRANEETH",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13930 assigned",
-    "occured_at": "2025-11-19T02:35:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13930",
-    "text": "After editing a form, user is redirected back to listing page rather than details page",
     "points": null,
     "meta": {}
   },
@@ -4466,13 +4444,35 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14884",
+    "slug": "commit_created_manyu/fix/14942_a83b362ef6e1f57f37decd9ea9df48e24ef318ae",
     "contributor": "GSMPRANEETH",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14884",
-    "occured_at": "2025-12-18T17:17:18.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14884",
-    "text": "Disabling submit button until form is touched",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to manyu/fix/14942",
+    "occured_at": "2025-12-30T11:20:00.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/a83b362ef6e1f57f37decd9ea9df48e24ef318ae",
+    "text": "Tests for queues creation and editing (#14883)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#13930",
+    "contributor": "GSMPRANEETH",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #13930",
+    "occured_at": "2025-10-02T03:56:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13930",
+    "text": "After editing a form, user is redirected back to listing page rather than details page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13930_GSMPRANEETH",
+    "contributor": "GSMPRANEETH",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13930 assigned",
+    "occured_at": "2025-11-19T02:35:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13930",
+    "text": "After editing a form, user is redirected back to listing page rather than details page",
     "points": null,
     "meta": {}
   },
@@ -4499,13 +4499,13 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_manyu/fix/14942_a83b362ef6e1f57f37decd9ea9df48e24ef318ae",
+    "slug": "pr_opened_care_fe#14884",
     "contributor": "GSMPRANEETH",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to manyu/fix/14942",
-    "occured_at": "2025-12-30T11:20:00.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/a83b362ef6e1f57f37decd9ea9df48e24ef318ae",
-    "text": "Tests for queues creation and editing (#14883)",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14884",
+    "occured_at": "2025-12-18T17:17:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14884",
+    "text": "Disabling submit button until form is touched",
     "points": null,
     "meta": {}
   }

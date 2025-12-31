@@ -2046,17 +2046,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14893_COMMENTED_PRR_kwDODtfaXs7Wr6WY",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14893",
-    "occured_at": "2025-12-21T17:19:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14893#pullrequestreview-3601835416",
-    "text": "Added base path in Link of patient home button",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#13349_adarsh-priydarshi-5646",
     "contributor": "adarsh-priydarshi-5646",
     "activity_definition": "issue_assigned",
@@ -2097,28 +2086,6 @@
     "occured_at": "2025-12-29T11:36:11.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14818",
     "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14722",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14722",
-    "occured_at": "2025-12-11T15:23:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
-    "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14722_IC_kwDODtfaXs7ZG1b7",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14722",
-    "occured_at": "2025-12-11T15:24:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14722#issuecomment-3642447611",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -2185,17 +2152,6 @@
     "occured_at": "2025-12-30T11:41:37.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14824#issuecomment-3699102413",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14824",
-    "contributor": "adarsh-priydarshi-5646",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14824",
-    "occured_at": "2025-12-16T12:47:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
-    "text": "Fix: validation bypass when removing items from questionnaire",
     "points": null,
     "meta": {}
   },
@@ -2273,6 +2229,50 @@
     "occured_at": "2025-12-30T11:54:10.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/6d4ad531ebf9e3efa96ec4564ea7e6dfc6c5b94b",
     "text": "fix: memory leak in AudioPlayer ended event listener (#14877)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14722",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14722",
+    "occured_at": "2025-12-11T15:23:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14722",
+    "text": "fix: Icon buttons missing aria-label for screen reader accessibility",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14722_IC_kwDODtfaXs7ZG1b7",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14722",
+    "occured_at": "2025-12-11T15:24:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14722#issuecomment-3642447611",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14893_COMMENTED_PRR_kwDODtfaXs7Wr6WY",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14893",
+    "occured_at": "2025-12-21T17:19:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14893#pullrequestreview-3601835416",
+    "text": "Added base path in Link of patient home button",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14824",
+    "contributor": "adarsh-priydarshi-5646",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14824",
+    "occured_at": "2025-12-16T12:47:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14824",
+    "text": "Fix: validation bypass when removing items from questionnaire",
     "points": null,
     "meta": {}
   }
