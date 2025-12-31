@@ -2706,6 +2706,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#3366",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3366",
+    "occured_at": "2025-11-20T12:13:34.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3366",
+    "text": "Added date filter to account api",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_9ea179e2c83d58df5bcccd67b5e134814882ec4e",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -3582,17 +3593,6 @@
     "occured_at": "2025-11-20T07:02:24.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/5b8684fa6baeff484dc7f0f2803010a8c3b09827",
     "text": "Merge branch 'account/date_filter' of https://github.com/ohcnetwork/care into account/date_filter",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3366",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3366",
-    "occured_at": "2025-11-20T12:13:34.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3366",
-    "text": "Added date filter to account api",
     "points": null,
     "meta": {}
   },
@@ -4653,6 +4653,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3234",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3234",
+    "occured_at": "2025-09-04T09:24:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3234",
+    "text": "fix:added update pydantic model and update validation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/feat/user-and-facility-flag_297c36561cd409a35fe147d7bcdaee5548564560",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4924,17 +4935,6 @@
     "occured_at": "2025-12-09T11:24:34.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3401",
     "text": "fix:save updated_by user data for custom invoice apis",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3234",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3234",
-    "occured_at": "2025-09-04T09:24:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3234",
-    "text": "fix:added update pydantic model and update validation",
     "points": null,
     "meta": {}
   },
@@ -5742,39 +5742,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3427",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3427",
-    "occured_at": "2025-12-19T14:07:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3427",
-    "text": "fix: added status to CreateDispenseOrder spec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3437",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3437",
-    "occured_at": "2025-12-29T09:13:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3437",
-    "text": "fix:added facility min spec in TagConfigReadSpec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_nandkishorr/fix/create_dispense_order_spec_4ea8de86529f6c730d977711160c616232acdb83",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to nandkishorr/fix/create_dispense_order_spec",
-    "occured_at": "2025-12-30T12:04:12.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/4ea8de86529f6c730d977711160c616232acdb83",
-    "text": "fix:review changes",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_dependabot/pip/boto-ad2b878303_aca81db773d8d23830e12f1ac0548280a7c66256",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5804,6 +5771,50 @@
     "occured_at": "2025-12-23T07:45:06.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/aca81db773d8d23830e12f1ac0548280a7c66256",
     "text": "fix:updated medication dispense specs (#3428)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3437",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3437",
+    "occured_at": "2025-12-29T09:13:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3437",
+    "text": "fix:added facility min spec in TagConfigReadSpec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3427",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3427",
+    "occured_at": "2025-12-19T14:07:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3427",
+    "text": "fix: added status to CreateDispenseOrder spec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishorr/fix/tagconfig_spec_14994696416e0ebc3dcb866a54e3a40419099024",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishorr/fix/tagconfig_spec",
+    "occured_at": "2025-12-30T16:36:16.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/14994696416e0ebc3dcb866a54e3a40419099024",
+    "text": "refact:minor cache implementation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_nandkishorr/fix/create_dispense_order_spec_4ea8de86529f6c730d977711160c616232acdb83",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to nandkishorr/fix/create_dispense_order_spec",
+    "occured_at": "2025-12-30T12:04:12.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4ea8de86529f6c730d977711160c616232acdb83",
+    "text": "fix:review changes",
     "points": null,
     "meta": {}
   }

@@ -1,82 +1,5 @@
 [
   {
-    "slug": "issue_opened_care#1337",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1337",
-    "occured_at": "2023-06-02T11:39:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1337",
-    "text": "Fix N+1 queries in `/api/v1/patient/`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#5800",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #5800",
-    "occured_at": "2023-07-01T12:39:26.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/5800",
-    "text": "fix pwa and theme colors",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8514",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8514",
-    "occured_at": "2024-09-09T17:29:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
-    "text": "Production release v24.37.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_leaderboard#90",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #90",
-    "occured_at": "2022-09-30T06:29:50.000Z",
-    "link": "https://github.com/ohcnetwork/leaderboard/pull/90",
-    "text": "Update my profile",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1391",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1391",
-    "occured_at": "2023-06-20T10:43:15.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1391",
-    "text": "fix start scripts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3253",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3253",
-    "occured_at": "2025-09-11T14:19:46.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3253",
-    "text": "Return more detailed 404 response",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#8405",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8405",
-    "occured_at": "2024-08-23T03:37:00.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8405",
-    "text": "Fix pdf previews",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care#1338",
     "contributor": "sainak",
     "activity_definition": "issue_closed",
@@ -480,6 +403,83 @@
     "occured_at": "2023-07-21T16:46:12.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/1321",
     "text": "Profile DB queries",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#1337",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1337",
+    "occured_at": "2023-06-02T11:39:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1337",
+    "text": "Fix N+1 queries in `/api/v1/patient/`",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#5800",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #5800",
+    "occured_at": "2023-07-01T12:39:26.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/5800",
+    "text": "fix pwa and theme colors",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#8514",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8514",
+    "occured_at": "2024-09-09T17:29:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8514",
+    "text": "Production release v24.37.0",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_leaderboard#90",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #90",
+    "occured_at": "2022-09-30T06:29:50.000Z",
+    "link": "https://github.com/ohcnetwork/leaderboard/pull/90",
+    "text": "Update my profile",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1391",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1391",
+    "occured_at": "2023-06-20T10:43:15.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1391",
+    "text": "fix start scripts",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3253",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3253",
+    "occured_at": "2025-09-11T14:19:46.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3253",
+    "text": "Return more detailed 404 response",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#8405",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8405",
+    "occured_at": "2024-08-23T03:37:00.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8405",
+    "text": "Fix pdf previews",
     "points": null,
     "meta": {}
   },
