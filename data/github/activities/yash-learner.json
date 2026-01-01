@@ -1,23 +1,23 @@
 [
   {
-    "slug": "issue_opened_care#2615",
+    "slug": "pr_opened_care_fe#9260",
     "contributor": "yash-learner",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #2615",
-    "occured_at": "2024-11-25T12:04:40.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2615",
-    "text": "icmr_sample route is broken",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #9260",
+    "occured_at": "2024-11-30T21:32:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
+    "text": "Labs",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "issue_closed_care#2615",
+    "slug": "pr_merged_care#2830",
     "contributor": "yash-learner",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #2615",
-    "occured_at": "2024-11-27T17:32:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/2615",
-    "text": "icmr_sample route is broken",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2830",
+    "occured_at": "2025-03-10T14:06:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2830",
+    "text": "MFA v1 - TOTP",
     "points": null,
     "meta": {}
   },
@@ -44,24 +44,24 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#9260",
+    "slug": "issue_opened_care#2615",
     "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #9260",
-    "occured_at": "2024-11-30T21:32:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9260",
-    "text": "Labs",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #2615",
+    "occured_at": "2024-11-25T12:04:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2615",
+    "text": "icmr_sample route is broken",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#2830",
+    "slug": "issue_closed_care#2615",
     "contributor": "yash-learner",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2830",
-    "occured_at": "2025-03-10T14:06:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2830",
-    "text": "MFA v1 - TOTP",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #2615",
+    "occured_at": "2024-11-27T17:32:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/2615",
+    "text": "icmr_sample route is broken",
     "points": null,
     "meta": {}
   },
@@ -2255,6 +2255,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#9611",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #9611",
+    "occured_at": "2024-12-30T11:18:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9611",
+    "text": "Disable effect on badge hover in EncounterList",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#12817",
     "contributor": "yash-learner",
     "activity_definition": "pr_opened",
@@ -2959,17 +2970,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care_fe#9611",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #9611",
-    "occured_at": "2024-12-30T11:18:57.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9611",
-    "text": "Disable effect on badge hover in EncounterList",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#9331_APPROVED_PRR_kwDODtfaXs6UQPMP",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -3328,6 +3328,17 @@
     "title": "Commented on #14015",
     "occured_at": "2025-10-25T17:40:26.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14015#issuecomment-3446953657",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14054_IC_kwDODtfaXs7MigcC",
+    "contributor": "yash-learner",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14054",
+    "occured_at": "2025-10-22T10:21:23.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14054#issuecomment-3431597826",
     "text": null,
     "points": null,
     "meta": {}
@@ -4373,17 +4384,6 @@
     "title": "Commented on #13603",
     "occured_at": "2025-10-22T11:39:21.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3431947497",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14054_IC_kwDODtfaXs7MigcC",
-    "contributor": "yash-learner",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14054",
-    "occured_at": "2025-10-22T10:21:23.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14054#issuecomment-3431597826",
     "text": null,
     "points": null,
     "meta": {}
@@ -6446,6 +6446,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#13434_APPROVED_PRR_kwDODtfaXs67WGSR",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #13434",
+    "occured_at": "2025-08-22T05:27:10.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13434#pullrequestreview-3143132305",
+    "text": "Fix: prevent new tags from being deleted from dropdowns",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13839_COMMENTED_PRR_kwDODtfaXs7GgV4n",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -7029,6 +7040,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#13434_APPROVED_PRR_kwDODtfaXs67F16v",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #13434",
+    "occured_at": "2025-08-21T02:52:06.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13434#pullrequestreview-3138870959",
+    "text": "Fix: prevent new tags from being deleted from dropdowns",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14056_CHANGES_REQUESTED_PRR_kwDODtfaXs7HXrTS",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -7326,13 +7348,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#13434_APPROVED_PRR_kwDODtfaXs67WGSR",
+    "slug": "comment_created_care_fe#13603_IC_kwDODtfaXs7VNDGc",
     "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #13434",
-    "occured_at": "2025-08-22T05:27:10.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13434#pullrequestreview-3143132305",
-    "text": "Fix: prevent new tags from being deleted from dropdowns",
+    "activity_definition": "comment_created",
+    "title": "Commented on #13603",
+    "occured_at": "2025-11-25T18:20:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3576967580",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -7656,6 +7678,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#12033",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #12033",
+    "occured_at": "2025-04-21T22:32:00.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12033",
+    "text": "Move consents to tab",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13719_COMMENTED_PRR_kwDODtfaXs7BAj9T",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -7971,28 +8004,6 @@
     "occured_at": "2025-08-22T07:10:28.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13464#pullrequestreview-3143379726",
     "text": "fix: made tag search debounced",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#13434_APPROVED_PRR_kwDODtfaXs67F16v",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #13434",
-    "occured_at": "2025-08-21T02:52:06.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13434#pullrequestreview-3138870959",
-    "text": "Fix: prevent new tags from being deleted from dropdowns",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#13603_IC_kwDODtfaXs7VNDGc",
-    "contributor": "yash-learner",
-    "activity_definition": "comment_created",
-    "title": "Commented on #13603",
-    "occured_at": "2025-11-25T18:20:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13603#issuecomment-3576967580",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -8631,17 +8642,6 @@
     "occured_at": "2025-04-30T15:06:07.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12181#pullrequestreview-2807415457",
     "text": "Use entityselectionsheet and some clean-up in DiagnosisQuestion",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#12033",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #12033",
-    "occured_at": "2025-04-21T22:32:00.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12033",
-    "text": "Move consents to tab",
     "points": null,
     "meta": {}
   },
@@ -13486,17 +13486,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14933",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14933",
-    "occured_at": "2025-12-23T10:15:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14933",
-    "text": "Disable SR edit via encounter",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3439",
     "contributor": "yash-learner",
     "activity_definition": "pr_opened",
@@ -13504,6 +13493,17 @@
     "occured_at": "2025-12-30T17:49:29.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3439",
     "text": "Fix title and description  for manage users permission",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14933",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14933",
+    "occured_at": "2025-12-23T10:15:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14933",
+    "text": "Disable SR edit via encounter",
     "points": null,
     "meta": {}
   }

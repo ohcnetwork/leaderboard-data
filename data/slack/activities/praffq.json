@@ -1,5 +1,60 @@
 [
   {
+    "slug": "eod_update_2025-01-15_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-14T18:44:40.023Z",
+    "link": null,
+    "text": "14th Jan<br>• Not a productive day. Going through validation and permission for questionnaire viewset.<br>Next-<br>• complete testing for atleast a few endpoints",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-06_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-06T09:49:41.885Z",
+    "link": null,
+    "text": "6th December<br><br>Done -<br>• Done with github workflows for camera plugin , updated the tests. Overall finalised for testing.<br>Next -<br>• Fix prior PRs comments",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-07_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-07T09:06:11.493Z",
+    "link": null,
+    "text": "7 Nov 2024<br><br>Done<br>1. Worked on creating workflows for unit testing for care fe<br>2. fixed comments on older PRs<br>Next<br>1. Issue 2580",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-25_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-25T09:54:35.113Z",
+    "link": null,
+    "text": "Nov 24th<br>• Attended Weekly Eng Call<br>• Made PR for authz in file uploads<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-08_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-08T10:32:01.545Z",
+    "link": null,
+    "text": "8 Nov 2024<br><br>Done<br>1.  Completed required changes for #2580. Currently working on creating some testcases before raising PR.<br>Next<br>1. Completing #2580 test cases",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-18_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -194,61 +249,6 @@
     "occured_at": "2024-12-23T22:14:43.662Z",
     "link": null,
     "text": "December 23<br>• No updates/ on leave ( sick due to food poisoning from the past 2 days )",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-15_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-14T18:44:40.023Z",
-    "link": null,
-    "text": "14th Jan<br>• Not a productive day. Going through validation and permission for questionnaire viewset.<br>Next-<br>• complete testing for atleast a few endpoints",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-06_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-06T09:49:41.885Z",
-    "link": null,
-    "text": "6th December<br><br>Done -<br>• Done with github workflows for camera plugin , updated the tests. Overall finalised for testing.<br>Next -<br>• Fix prior PRs comments",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-07_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-07T09:06:11.493Z",
-    "link": null,
-    "text": "7 Nov 2024<br><br>Done<br>1. Worked on creating workflows for unit testing for care fe<br>2. fixed comments on older PRs<br>Next<br>1. Issue 2580",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-25_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-25T09:54:35.113Z",
-    "link": null,
-    "text": "Nov 24th<br>• Attended Weekly Eng Call<br>• Made PR for authz in file uploads<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-08_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-08T10:32:01.545Z",
-    "link": null,
-    "text": "8 Nov 2024<br><br>Done<br>1.  Completed required changes for #2580. Currently working on creating some testcases before raising PR.<br>Next<br>1. Completing #2580 test cases",
     "points": null,
     "meta": null
   },
@@ -462,6 +462,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-03_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-03T16:59:39.139Z",
+    "link": null,
+    "text": "December 3 -<br>Done- <br>• Completed and Raised the PR for the cookie cutter boiler plate.<br>• Resolved comments on a PR<br>• Tried to load data from a older pg dump to test migration issue in camera but was facing some issues and was stuck on them for whole time.<br>Next -<br>• Resolve the issue with data loading and check the migration issue.<br>• Get clarification on PR comments and resolve them as well.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-25_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -634,17 +645,6 @@
     "occured_at": "2024-12-02T06:08:44.043Z",
     "link": null,
     "text": "29th Nov<br>• Mostly went through the docs for cookie cutter and gh actions for implemention them for camera plugin repo.<br>• Was Almost done with the cookiecutter template but lost the changes due to some issues in laptop.<br>Weekend (30th Nov and 1st Dec)<br>• Wasn&#x27;t able to code due to laptop, had to format and re install everything again. <br>• College work. (completed minor project and prepared presentation, lab manuals for practicals)<br>1st Nov<br>• Got my PRs reviewed ,resolving the comments<br>Next<br>• Investigate through the bug we are getting for migration in camera plugin",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-03_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-03T16:59:39.139Z",
-    "link": null,
-    "text": "December 3 -<br>Done- <br>• Completed and Raised the PR for the cookie cutter boiler plate.<br>• Resolved comments on a PR<br>• Tried to load data from a older pg dump to test migration issue in camera but was facing some issues and was stuck on them for whole time.<br>Next -<br>• Resolve the issue with data loading and check the migration issue.<br>• Get clarification on PR comments and resolve them as well.",
     "points": null,
     "meta": null
   },
