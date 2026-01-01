@@ -1,5 +1,49 @@
 [
   {
+    "slug": "eod_update_2024-10-30_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-10-30T05:08:13.913Z",
+    "link": null,
+    "text": "30 Oct 2024<br><br>Going through Redis docs and how it works with django  since a lot of issues involves it. Will be picking them up after diwali break.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-10_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-09T20:16:13.632Z",
+    "link": null,
+    "text": "December 9<br>• No updates due to end sem exam.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-02-24_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-02-24T09:39:27.491Z",
+    "link": null,
+    "text": "17 - 21 Feb 2025<br>Done<br>• created Consent specs,viewset,routes etc <br>• Wrote test for consent module<br>25 Feb 2025<br>• Fixed minor bugs <br>• Added few improvements<br>• Reviewed MFA PR<br>Next<br>• <span class=\"s-emoji\">🙂</span> some task related to questionnaire",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-08_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-08T11:28:11.226Z",
+    "link": null,
+    "text": "Dec 4<br>• investigating on deadlock more, trying to reproduce the cause (some success)<br>Dec 5<br>• PR for adding options workflow to the template create and preview endpoint in reports",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-15_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -150,50 +194,6 @@
     "occured_at": "2025-01-17T06:27:25.120Z",
     "link": null,
     "text": "15th 16th and 17th Jan<br>• Went through the questionnaire viewsets and validations<br>• Completed the test cases for questionnaire viewset and value validations while submitting<br>Next -<br>• Go through the swagger documentation and learn how it work with drf",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-10-30_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-10-30T05:08:13.913Z",
-    "link": null,
-    "text": "30 Oct 2024<br><br>Going through Redis docs and how it works with django  since a lot of issues involves it. Will be picking them up after diwali break.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-10_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-09T20:16:13.632Z",
-    "link": null,
-    "text": "December 9<br>• No updates due to end sem exam.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-02-24_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-02-24T09:39:27.491Z",
-    "link": null,
-    "text": "17 - 21 Feb 2025<br>Done<br>• created Consent specs,viewset,routes etc <br>• Wrote test for consent module<br>25 Feb 2025<br>• Fixed minor bugs <br>• Added few improvements<br>• Reviewed MFA PR<br>Next<br>• <span class=\"s-emoji\">🙂</span> some task related to questionnaire",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-08_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-08T11:28:11.226Z",
-    "link": null,
-    "text": "Dec 4<br>• investigating on deadlock more, trying to reproduce the cause (some success)<br>Dec 5<br>• PR for adding options workflow to the template create and preview endpoint in reports",
     "points": null,
     "meta": null
   },
@@ -429,6 +429,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-13_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-13T07:25:45.308Z",
+    "link": null,
+    "text": "Jan 13th<br>• Raised PR resolving Phone Number validations<br>• Started out with questionnaire testings<br>Next<br>• Work more on questionnaire tests",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-22_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -601,17 +612,6 @@
     "occured_at": "2024-11-27T20:29:16.916Z",
     "link": null,
     "text": "27 Nov<br>Done -<br>• Completed the PR for the issue - <a href=\"https://github.com/ohcnetwork/care/issues/1330\">https://github.com/ohcnetwork/care/issues/1330</a><br>• Wasn&#x27;t able to do much expect raising the above PR due to college ( getting more occupied by college since only 1 week left for end sem and practical + there is minor project that I need to submit)<br>Next -<br>• Fix test cases for camera plugin<br>• Test it out with frontend since the new routes are throwing 500 (context - <a href=\"https://github.com/ohcnetwork/care_fe/pull/9209#issuecomment-2505016954\">https://github.com/ohcnetwork/care_fe/pull/9209#issuecomment-2505016954</a>)<br>• Get started on creating gh actions for plugin testing",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-13_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-13T07:25:45.308Z",
-    "link": null,
-    "text": "Jan 13th<br>• Raised PR resolving Phone Number validations<br>• Started out with questionnaire testings<br>Next<br>• Work more on questionnaire tests",
     "points": null,
     "meta": null
   },
