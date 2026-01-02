@@ -1848,6 +1848,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14871",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14871",
+    "occured_at": "2025-12-18T08:37:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14871",
+    "text": "fix: facility name in prescription preview",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/14174/ad-list-specs_92e3dbcec8ab9519f8d9af9a1d98c3eed9f6dc40",
     "contributor": "StephZam",
     "activity_definition": "commit_created",
@@ -3597,17 +3608,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14871",
-    "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14871",
-    "occured_at": "2025-12-18T08:37:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14871",
-    "text": "fix: facility name in prescription preview",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care_fe#14871",
     "contributor": "StephZam",
     "activity_definition": "pr_merged",
@@ -4125,17 +4125,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14908_StephZam",
-    "contributor": "StephZam",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14908 assigned",
-    "occured_at": "2025-12-22T08:37:57.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14908",
-    "text": "Duplicate locations created while saving",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14689_StephZam",
     "contributor": "StephZam",
     "activity_definition": "issue_assigned",
@@ -4158,17 +4147,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14908",
-    "contributor": "StephZam",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14908",
-    "occured_at": "2025-12-22T08:37:23.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14908",
-    "text": "Duplicate locations created while saving",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14689",
     "contributor": "StephZam",
     "activity_definition": "issue_opened",
@@ -4176,50 +4154,6 @@
     "occured_at": "2025-12-09T11:34:02.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14689",
     "text": "Add permission check to rebalance",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14973",
-    "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14973",
-    "occured_at": "2025-12-29T12:11:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14973",
-    "text": "Added a skeleton loader in Encounter Actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14909",
-    "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14909",
-    "occured_at": "2025-12-22T08:58:46.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
-    "text": "fix: disabled create button in Add Location form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14909",
-    "contributor": "StephZam",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14909",
-    "occured_at": "2026-01-01T12:10:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
-    "text": "fix: disabled create button in Add Location form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14848",
-    "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14848",
-    "occured_at": "2025-12-17T07:15:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14848",
-    "text": "fix: limits in Locations",
     "points": null,
     "meta": {}
   },
@@ -4253,6 +4187,72 @@
     "occured_at": "2025-12-16T08:37:25.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14802",
     "text": "Facility organization selector redesigned",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14908",
+    "contributor": "StephZam",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14908",
+    "occured_at": "2025-12-22T08:37:23.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14908",
+    "text": "Duplicate locations created while saving",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14908_StephZam",
+    "contributor": "StephZam",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14908 assigned",
+    "occured_at": "2025-12-22T08:37:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14908",
+    "text": "Duplicate locations created while saving",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14848",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14848",
+    "occured_at": "2025-12-17T07:15:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14848",
+    "text": "fix: limits in Locations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14973",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14973",
+    "occured_at": "2025-12-29T12:11:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14973",
+    "text": "Added a skeleton loader in Encounter Actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14909",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14909",
+    "occured_at": "2025-12-22T08:58:46.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
+    "text": "fix: disabled create button in Add Location form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14909",
+    "contributor": "StephZam",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14909",
+    "occured_at": "2026-01-01T12:10:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
+    "text": "fix: disabled create button in Add Location form",
     "points": null,
     "meta": {}
   }
