@@ -1,5 +1,60 @@
 [
   {
+    "slug": "issue_opened_care#1372",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1372",
+    "occured_at": "2023-06-14T20:00:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1372",
+    "text": "Updating Tests in the Care Project",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#3145",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #3145",
+    "occured_at": "2022-07-15T10:50:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3145",
+    "text": "Issue in Resource Page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#2908",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2908",
+    "occured_at": "2022-08-08T02:50:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2908",
+    "text": "Updated CodeQL workflow",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#1166",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #1166",
+    "occured_at": "2023-07-20T07:05:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1166",
+    "text": "Predated Log Updates",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care#980",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #980",
+    "occured_at": "2022-10-06T05:13:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/980",
+    "text": "Bug: User registration",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care#1164",
     "contributor": "aeswibon",
     "activity_definition": "issue_opened",
@@ -128,61 +183,6 @@
     "occured_at": "2023-06-10T16:50:08.000Z",
     "link": "https://github.com/ohcnetwork/ayushma/pull/176",
     "text": "feat: Adds test",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#1372",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1372",
-    "occured_at": "2023-06-14T20:00:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1372",
-    "text": "Updating Tests in the Care Project",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#3145",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #3145",
-    "occured_at": "2022-07-15T10:50:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3145",
-    "text": "Issue in Resource Page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2908",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2908",
-    "occured_at": "2022-08-08T02:50:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2908",
-    "text": "Updated CodeQL workflow",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#1166",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #1166",
-    "occured_at": "2023-07-20T07:05:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1166",
-    "text": "Predated Log Updates",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#980",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #980",
-    "occured_at": "2022-10-06T05:13:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/980",
-    "text": "Bug: User registration",
     "points": null,
     "meta": {}
   },
@@ -612,6 +612,17 @@
     "occured_at": "2022-09-16T08:37:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2844",
     "text": "Facility Download Excel Malfunction",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#2769",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #2769",
+    "occured_at": "2022-06-19T05:08:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/2769",
+    "text": "Issue in netlify.toml",
     "points": null,
     "meta": {}
   },
@@ -2955,17 +2966,6 @@
     "occured_at": "2022-06-22T22:13:17.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2803",
     "text": "Redirected to \"Error 404\" Page before going to login page when signout is pressed",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#2769",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #2769",
-    "occured_at": "2022-06-19T05:08:12.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/2769",
-    "text": "Issue in netlify.toml",
     "points": null,
     "meta": {}
   },
@@ -6776,6 +6776,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care#900",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #900",
+    "occured_at": "2022-10-09T05:31:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/900",
+    "text": "Deprecate admitted_to; Switch Filters to use Bed Type of Current Bed",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3283_APPROVED_PRR_kwDODtfaXs4_Jj8X",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -9269,17 +9280,6 @@
     "occured_at": "2022-06-23T11:28:50.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2709#pullrequestreview-1016840157",
     "text": "Added distinction between doctor and staff list and changed UI",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care#900",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #900",
-    "occured_at": "2022-10-09T05:31:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/900",
-    "text": "Deprecate admitted_to; Switch Filters to use Bed Type of Current Bed",
     "points": null,
     "meta": {}
   },

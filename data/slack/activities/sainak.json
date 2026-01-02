@@ -1,38 +1,5 @@
 [
   {
-    "slug": "eod_update_2024-12-24_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-23T19:23:13.481Z",
-    "link": null,
-    "text": "<strong>23 Dec</strong><br>• Made patient category optional for encounters<br>• Updated the data migration to handle the array json fields",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-11_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-11T06:11:50.203Z",
-    "link": null,
-    "text": "Today I worked on Care Fe to add devcontainer config and started fixing test cases in care",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-20T06:46:28.781Z",
-    "link": null,
-    "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-11-07_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -106,6 +73,39 @@
     "occured_at": "2023-07-17T06:47:25.273Z",
     "link": null,
     "text": "EOD 17/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• fixed edge cases with my old PR<br>• reviewed some PRs<br>What’s next ?<br>• clear out old PRs <br>• find issues to work on",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-24_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-23T19:23:13.481Z",
+    "link": null,
+    "text": "<strong>23 Dec</strong><br>• Made patient category optional for encounters<br>• Updated the data migration to handle the array json fields",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-11_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-11T06:11:50.203Z",
+    "link": null,
+    "text": "Today I worked on Care Fe to add devcontainer config and started fixing test cases in care",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-20_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-20T06:46:28.781Z",
+    "link": null,
+    "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
     "points": null,
     "meta": null
   },

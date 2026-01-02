@@ -1,5 +1,93 @@
 [
   {
+    "slug": "eod_update_2024-12-21_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-21T16:29:25.390Z",
+    "link": null,
+    "text": "21 December <br>• Continued working on boundary PR for camera plugin <br>Next<br>• Get this done by tonight",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-18_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-18T10:34:43.363Z",
+    "link": null,
+    "text": "18th November<br>Done -<br>• Finalising the work on plugin, had a meeting with Rithvik and Khavin , was able to successfully separate and install the camera as a plugin.<br>Next -<br>• Will be adding signals to plugin for validations<br>• Start working on the data migration , from core app to plugin",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-28_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-27T22:34:55.993Z",
+    "link": null,
+    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-24_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-24T05:47:45.066Z",
+    "link": null,
+    "text": "20 and 21 Nov<br>• Done with the updates in template PR<br>• Raised PR for deadlocks in tag config<br>• reviewing some PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-20_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-20T08:08:54.514Z",
+    "link": null,
+    "text": "Nov 18 and Nov 19<br>• Attended DPG call<br>• Going through the templating docs for jinja, to understand how can multi level nesting can be applied for templates",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-04_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-04T08:05:09.342Z",
+    "link": null,
+    "text": "4 Nov 2024<br>Done -<br>1. Updating olders PRs after reviews<br>2. Working on creating basic setup for React component testing.<br>Up next - <br>1. Will be working on completing the unit test for asset form",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-24_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-23T22:14:43.662Z",
+    "link": null,
+    "text": "December 23<br>• No updates/ on leave ( sick due to food poisoning from the past 2 days )",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-09_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-09T17:19:18.261Z",
+    "link": null,
+    "text": "9  Nov 2024<br>Done -<br>1. Raised PR for #2580.<br>Next -<br>1. Found a bug in <code>mobile_number</code> validation , will work to fix it.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-10-30_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -194,94 +282,6 @@
     "occured_at": "2025-01-17T06:27:25.120Z",
     "link": null,
     "text": "15th 16th and 17th Jan<br>• Went through the questionnaire viewsets and validations<br>• Completed the test cases for questionnaire viewset and value validations while submitting<br>Next -<br>• Go through the swagger documentation and learn how it work with drf",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-18_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-18T10:34:43.363Z",
-    "link": null,
-    "text": "18th November<br>Done -<br>• Finalising the work on plugin, had a meeting with Rithvik and Khavin , was able to successfully separate and install the camera as a plugin.<br>Next -<br>• Will be adding signals to plugin for validations<br>• Start working on the data migration , from core app to plugin",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-28_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-27T22:34:55.993Z",
-    "link": null,
-    "text": "27 Jan<br>• Fixed bugs with schema tags<br>• Investigated the db call bug while schema generation and implemented the solution<br>Next <br>• Go through fhir docs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-24_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-24T05:47:45.066Z",
-    "link": null,
-    "text": "20 and 21 Nov<br>• Done with the updates in template PR<br>• Raised PR for deadlocks in tag config<br>• reviewing some PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-04_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-04T08:05:09.342Z",
-    "link": null,
-    "text": "4 Nov 2024<br>Done -<br>1. Updating olders PRs after reviews<br>2. Working on creating basic setup for React component testing.<br>Up next - <br>1. Will be working on completing the unit test for asset form",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-24_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-23T22:14:43.662Z",
-    "link": null,
-    "text": "December 23<br>• No updates/ on leave ( sick due to food poisoning from the past 2 days )",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-09_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-09T17:19:18.261Z",
-    "link": null,
-    "text": "9  Nov 2024<br>Done -<br>1. Raised PR for #2580.<br>Next -<br>1. Found a bug in <code>mobile_number</code> validation , will work to fix it.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-21_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-21T16:29:25.390Z",
-    "link": null,
-    "text": "21 December <br>• Continued working on boundary PR for camera plugin <br>Next<br>• Get this done by tonight",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-20_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-20T08:08:54.514Z",
-    "link": null,
-    "text": "Nov 18 and Nov 19<br>• Attended DPG call<br>• Going through the templating docs for jinja, to understand how can multi level nesting can be applied for templates",
     "points": null,
     "meta": null
   },
@@ -484,6 +484,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-10-29_praffq",
+    "contributor": "praffq",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-28T19:50:27.336Z",
+    "link": null,
+    "text": "28th October<br>• Working on finishing reports , but facing some issues with implementation<br>Next<br>• Finish up the report issue and get it into a working stage\n\n28th October<br>• Working on finishing reports , but facing some issues with implementation<br>Next<br>• Finish up the report issue and get it into a working stage",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-25_praffq",
     "contributor": "praffq",
     "activity_definition": "eod_update",
@@ -656,17 +667,6 @@
     "occured_at": "2025-01-20T15:59:08.135Z",
     "link": null,
     "text": "20 Jan 2025<br>• Going through swagger code and understanding how it works with drf<br>• Added few more tests to increase the coverage for the quesionnaire viewset<br>Next<br>• Read more code and find way to integrate swagger in backend",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-29_praffq",
-    "contributor": "praffq",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-28T19:50:27.336Z",
-    "link": null,
-    "text": "28th October<br>• Working on finishing reports , but facing some issues with implementation<br>Next<br>• Finish up the report issue and get it into a working stage\n\n28th October<br>• Working on finishing reports , but facing some issues with implementation<br>Next<br>• Finish up the report issue and get it into a working stage",
     "points": null,
     "meta": null
   },
