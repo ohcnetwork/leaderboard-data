@@ -1,5 +1,60 @@
 [
   {
+    "slug": "pr_merged_care_fe#14250",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14250",
+    "occured_at": "2025-11-12T19:44:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
+    "text": "Fix Observation Definition delete by including required slug_value field",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_erd#8",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8",
+    "occured_at": "2025-10-03T01:35:07.000Z",
+    "link": "https://github.com/ohcnetwork/erd/pull/8",
+    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14207",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14207",
+    "occured_at": "2025-11-01T00:29:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
+    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14254",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14254",
+    "occured_at": "2025-11-06T23:39:44.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14254",
+    "text": "Add cursor: not-allowed for disabled textarea elements",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#13577",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #13577",
+    "occured_at": "2025-09-30T05:59:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13577",
+    "text": "🧹 Clean up unnecessary console logs and unused parameters from development code",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#13634",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_merged",
@@ -227,61 +282,6 @@
     "occured_at": "2025-11-21T15:16:20.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14468",
     "text": "Remove all Cypress test infrastructure, references, and configurations",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14250",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14250",
-    "occured_at": "2025-11-12T19:44:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14250",
-    "text": "Fix Observation Definition delete by including required slug_value field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_erd#8",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8",
-    "occured_at": "2025-10-03T01:35:07.000Z",
-    "link": "https://github.com/ohcnetwork/erd/pull/8",
-    "text": "✨ Set up comprehensive Copilot instructions for ERD tool",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14207",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14207",
-    "occured_at": "2025-11-01T00:29:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
-    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14254",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14254",
-    "occured_at": "2025-11-06T23:39:44.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14254",
-    "text": "Add cursor: not-allowed for disabled textarea elements",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#13577",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #13577",
-    "occured_at": "2025-09-30T05:59:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13577",
-    "text": "🧹 Clean up unnecessary console logs and unused parameters from development code",
     "points": null,
     "meta": {}
   },
@@ -1595,6 +1595,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#14416",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14416",
+    "occured_at": "2025-11-19T09:14:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14416",
+    "text": "Add Playwright test for questionnaire status management in encounters",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#14128_COMMENTED_PRR_kwDODtfaXs7JfEzm",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_reviewed",
@@ -1919,17 +1930,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #14416",
     "occured_at": "2025-11-18T12:04:58.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14416",
-    "text": "Add Playwright test for questionnaire status management in encounters",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14416",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14416",
-    "occured_at": "2025-11-19T09:14:43.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14416",
     "text": "Add Playwright test for questionnaire status management in encounters",
     "points": null,
@@ -2563,35 +2563,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_odoo_connector#121",
+    "slug": "pr_opened_care_fe#14971",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
-    "title": "Opened pull request #121",
-    "occured_at": "2026-01-02T21:08:24.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/121",
-    "text": "Add clickable Care back links to replace plain UUID displays",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_odoo_connector#119",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #119",
-    "occured_at": "2026-01-02T21:01:20.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/119",
-    "text": "Rename ssmm_id to x_identifier in Invoice model",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_odoo_connector#120_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #120 assigned",
-    "occured_at": "2026-01-02T21:08:18.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/issues/120",
-    "text": "Allow back linking to care",
+    "title": "Opened pull request #14971",
+    "occured_at": "2025-12-29T11:28:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14971",
+    "text": "Fix: Display \"Locked\" badge for locked invoices instead of ₹0.00 in Total column",
     "points": null,
     "meta": {}
   },
@@ -2607,13 +2585,46 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14971",
+    "slug": "issue_assigned_odoo_connector#120_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #120 assigned",
+    "occured_at": "2026-01-02T21:08:18.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/issues/120",
+    "text": "Allow back linking to care",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_odoo_connector#119",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
-    "title": "Opened pull request #14971",
-    "occured_at": "2025-12-29T11:28:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14971",
-    "text": "Fix: Display \"Locked\" badge for locked invoices instead of ₹0.00 in Total column",
+    "title": "Opened pull request #119",
+    "occured_at": "2026-01-02T21:01:20.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/119",
+    "text": "Rename ssmm_id to x_identifier in Invoice model",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_odoo_connector#119",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #119",
+    "occured_at": "2026-01-03T05:13:11.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/119",
+    "text": "Rename ssmm_id to x_identifier in Invoice model",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_odoo_connector#121",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #121",
+    "occured_at": "2026-01-02T21:08:24.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/121",
+    "text": "Add clickable Care back links to replace plain UUID displays",
     "points": null,
     "meta": {}
   }

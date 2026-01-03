@@ -1221,6 +1221,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-23_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-23T12:28:20.142Z",
+    "link": null,
+    "text": "<strong>December 22</strong><br>• Attended engineering review call.<br>• Sync with Rohit for running hiring task for a candidate and running related automations.<br>• Linked some of the shortlisted candidates back to facilities as per Rohit request.<br>• Replied to some threads on Slack.<br>• Huddle and discussion with Aditya regarding query he had with GSoC and intern conflict.<br>• Reviewed some PR&#x27;s and understanding code around it.<br><strong>Next</strong><br>• Work on issue#14930, issue#14936<br>• Review PR&#x27;s<br>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-08_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1349,6 +1360,17 @@
     "occured_at": "2025-06-12T04:35:54.863Z",
     "link": null,
     "text": "<strong>June 10</strong><br>• Discussions and huddles with Aravind regarding:<br>    ◦ Fixed a mistake in metabase question and made some tiny changes.<br>    ◦ Added the submission links into interview sheet prepared by Aravind.<br>    ◦ Sent a mailer prepared by Aravind to GDC task passed students.<br>• Reviewed couple of WD201 capstone submissions.<br>• Cleared couple of stuck submissions by VTA.<br>• Some quick async discussion regarding GSoC with Amjith and Vignesh.<br>• Debugged and Replied to some GDC support emails.<br>    ◦ Debugged an issue where email validation works on real browsers but not in cypress browser, the simplest thing would have been manually accepting the submission, For 2 hours used all famous <code>llm</code> models to find and solve the actual issue but none them solved, eventually need to put in my brain to find the actual issue and solved it.<br>    ◦ Debugging.<br>• Huddle with Amjith<br>• Fixed an issue reported  by Suma in a target for auto-generated feedback.<br><strong>June 11</strong><br><br><em>On leave</em><br><br>Next<br>• Noticed there are some GDC task submissions that are stuck in pending review, find the issue what caused it and re-rerun them.<br>• Interviews.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-24_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-24T08:58:33.141Z",
+    "link": null,
+    "text": "<strong>December 23</strong><br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14930\">issues/14930</a>, <a href=\"https://github.com/ohcnetwork/care_fe/issues/14936\">issues/14936</a><br>• Made PR#14933. PR#14934.<br>• Reviewed PR&#x27;s<br>• Made <a href=\"https://github.com/ohcnetwork/care/pull/3431\">care/pull/3431</a><br>• Tuesday weekly call<br><strong>Next</strong><br>• Holidays<br>• Write specs<br>• Review PR&#x27;s<br>",
     "points": null,
     "meta": null
   },
@@ -1551,6 +1573,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-19_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-18T20:49:02.921Z",
+    "link": null,
+    "text": "<strong>August 18</strong><br>• Engineering review call.<br>• Replied to Praneeth DM of assigning issues.<br>• Huddle with Amjith - Daily sync, and a quick discussion regarding GSoC.<br>• Had a call with Praff for debugging couple of errors he was facing:<br>    ◦ First one turned out to be because of updated <a href=\"https://github.com/ohcnetwork/care/commit/8ed2a5c68aabb00eda06cf675e9f15d77aac4526\">user spec</a> in BE and Helped Praff make his <a href=\"https://github.com/ohcnetwork/care_fe/pull/13403\">first PR</a> in FE.<br>    ◦ Second one turned out to be LONIC Lipid panel code invalid in fixtures.<br>    ◦ Asking him some questions related to how ValueSet work in BE to get some more clarity for me.<br>• Looked into failing cypress  on PR#13403 turned out to be flaky one&#x27;s<br>• 1-1 intro call with Siddanth and clearing his queries.<br>• EOD call.<br>• File and triage some issues.<br>• Call with Aditya regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/12222\">issues#12222</a> and during discussion and testing on different devices it turned to be <a href=\"https://github.com/ohcnetwork/care_fe/pull/13240#issuecomment-3197262436\">[1]</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13240#issuecomment-3197383150\">[2]</a>.<br><strong>Next</strong><br>• Work on my PR&#x27;s.<br>• Tuesday weekly call.<br>• Finalize some things on GSoC after discussion with Amjith.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-08-06_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1602,17 +1635,6 @@
     "occured_at": "2025-08-17T21:35:10.881Z",
     "link": null,
     "text": "<strong>August 13</strong> <br>• Worked on finding some issues for interns who couldn&#x27;t not find their first issue for the last two weeks.<br>    ◦ Had a quick huddle with Aditya to get some stale issues.<br>    ◦ coordinated with  GauriTejus for some info.<br>    ◦ quick check with Bodhi and Shivank for triaging a issue,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/11531\">[1]</a><br>• Discussion with Bodhi regarding, <a href=\"https://github.com/ohcnetwork/roadmap/issues/127\">[1]</a>.<br>• DPG review call.<br>• Had a call with Praff regarding a query he had for displaying the reference ranges for observation interpretation and then asking him to explain me a bit about his interpretation engine and general catch up and quick catch up on report builder.<br>• Worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13357\">PR#13357</a> and reading docs of RHF<br>• EOD call -&gt; Finally having some productive EOD calls.<br><strong>August 14</strong><br>• Worked on <a href=\"https://github.com/ohcnetwork/care_fe/pull/13357\">PR#13357</a>.<br>• Discussion with Aditya regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13002#discussion_r2276897114\">facility-departments</a> and which we ending up breaking via swagger/UI and identified by Abhimanyu and  <a href=\"https://github.com/ohcnetwork/care/pull/3195/files\">fixed</a> by Praff.<br>• EOD call.<br>• Follow up with Spandan on wrapping up of the happy flow for care diet/food service.<br>• Accidently ended up reading some ops docs.<br><strong>August 15 &amp; 16</strong><br>• EOD call.<br>• GSoC discussion and looking at some queries.<br>• Planning travel to Kochi.<br><strong>Next</strong> <br>• Engineering review call.<br>• Write EOD.<br>• Triage some issues and review PR&#x27;s<br>• Work on my PR&#x27;s",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-19_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-18T20:49:02.921Z",
-    "link": null,
-    "text": "<strong>August 18</strong><br>• Engineering review call.<br>• Replied to Praneeth DM of assigning issues.<br>• Huddle with Amjith - Daily sync, and a quick discussion regarding GSoC.<br>• Had a call with Praff for debugging couple of errors he was facing:<br>    ◦ First one turned out to be because of updated <a href=\"https://github.com/ohcnetwork/care/commit/8ed2a5c68aabb00eda06cf675e9f15d77aac4526\">user spec</a> in BE and Helped Praff make his <a href=\"https://github.com/ohcnetwork/care_fe/pull/13403\">first PR</a> in FE.<br>    ◦ Second one turned out to be LONIC Lipid panel code invalid in fixtures.<br>    ◦ Asking him some questions related to how ValueSet work in BE to get some more clarity for me.<br>• Looked into failing cypress  on PR#13403 turned out to be flaky one&#x27;s<br>• 1-1 intro call with Siddanth and clearing his queries.<br>• EOD call.<br>• File and triage some issues.<br>• Call with Aditya regarding <a href=\"https://github.com/ohcnetwork/care_fe/issues/12222\">issues#12222</a> and during discussion and testing on different devices it turned to be <a href=\"https://github.com/ohcnetwork/care_fe/pull/13240#issuecomment-3197262436\">[1]</a>,  <a href=\"https://github.com/ohcnetwork/care_fe/pull/13240#issuecomment-3197383150\">[2]</a>.<br><strong>Next</strong><br>• Work on my PR&#x27;s.<br>• Tuesday weekly call.<br>• Finalize some things on GSoC after discussion with Amjith.",
     "points": null,
     "meta": null
   },
@@ -1672,6 +1694,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-19_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-19T07:05:45.027Z",
+    "link": null,
+    "text": "<strong>December 17</strong><br>• Reviewed PR&#x27;s<br>• Made changes on PR#14315<br>• DPG review call.<br><strong>December 18</strong><br><em>on leave</em><br>• Huddle with Khavin regarding a PR.<br>• Took EOD call - answering questions of OSS contributor.<br><strong>Next</strong><br>• Review PR&#x27;s<br>• Write specs<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-22_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-22T08:47:09.984Z",
+    "link": null,
+    "text": "<strong>December 19</strong><br>• Reviewed PR&#x27;s.<br>• Made changes on PR#14785, PR#14856.<br>• EOD call.<br>• Huddle with Rohith regarding JH hiring.<br>• Async discussion with Amjith regarding a PR.<br>Next<br>• Sync with Rohit<br>• Review PRs<br>• Write specs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-10-13_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1723,50 +1767,6 @@
     "occured_at": "2025-12-02T20:19:30.007Z",
     "link": null,
     "text": "<strong>November 28</strong><br><em>Travelling to Bangalore -  Working partly</em><br>• Reviewed a PR and triaging issue <br>• Discussion around <a href=\"https://rebuildearth.slack.com/archives/C080225HC6B/p1764329103618819\">https://rebuildearth.slack.com/archives/C080225HC6B/p1764329103618819</a><br><strong>December 01</strong><br><em>Travelling back from Bangalore - working partly</em><br>• Joined Engineering review call.<br>• Reviewed a PR<br>• Filed issue,  <a href=\"https://github.com/ohcnetwork/care_fe/issues/14557\">issues/14557</a><br>• Eat..Eat..Eat food from Duronto PC and trying to work.<br><strong>December 02</strong><br>• Quick Scan/glance through interns feedback form responses. <br>• Huddle with Amjith for discussion items from <a href=\"https://github.com/ohcnetwork/roadmap/issues/122#issuecomment-3565536184\">roadmap/issues/122#issuecomment-3565536184</a>.<br>• Got <a href=\"https://github.com/ohcnetwork/care_fe/pull/14108\">pull/14108</a> merged with help of Amjith.<br>• Filed issues <a href=\"https://github.com/ohcnetwork/care_fe/issues/14592\">issues/14592</a>, <a href=\"https://github.com/ohcnetwork/roadmap/issues/159\">roadmap/issues/159</a> and going through some related BE code.<br>• Closed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14407\">issues/14407</a><br>• Fixed merge conflicts on 4 of my open PR&#x27;s.<br>• Made changes on SR PW tests, <a href=\"https://github.com/ohcnetwork/care_fe/commits/issues/14296/add-tests-for-service-request/?author=yash-learner&amp;since=2025-12-01&amp;until=2025-12-03\">[1]</a><br>• Joined weekly tuesday call.<br><strong>Next</strong><br>• More specs<br>• Review PR&#x27;s<br>• Looking into stale PR&#x27;s",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-19_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-19T07:05:45.027Z",
-    "link": null,
-    "text": "<strong>December 17</strong><br>• Reviewed PR&#x27;s<br>• Made changes on PR#14315<br>• DPG review call.<br><strong>December 18</strong><br><em>on leave</em><br>• Huddle with Khavin regarding a PR.<br>• Took EOD call - answering questions of OSS contributor.<br><strong>Next</strong><br>• Review PR&#x27;s<br>• Write specs<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-22_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-22T08:47:09.984Z",
-    "link": null,
-    "text": "<strong>December 19</strong><br>• Reviewed PR&#x27;s.<br>• Made changes on PR#14785, PR#14856.<br>• EOD call.<br>• Huddle with Rohith regarding JH hiring.<br>• Async discussion with Amjith regarding a PR.<br>Next<br>• Sync with Rohit<br>• Review PRs<br>• Write specs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-23_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-23T12:28:20.142Z",
-    "link": null,
-    "text": "<strong>December 22</strong><br>• Attended engineering review call.<br>• Sync with Rohit for running hiring task for a candidate and running related automations.<br>• Linked some of the shortlisted candidates back to facilities as per Rohit request.<br>• Replied to some threads on Slack.<br>• Huddle and discussion with Aditya regarding query he had with GSoC and intern conflict.<br>• Reviewed some PR&#x27;s and understanding code around it.<br><strong>Next</strong><br>• Work on issue#14930, issue#14936<br>• Review PR&#x27;s<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-24_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-24T08:58:33.141Z",
-    "link": null,
-    "text": "<strong>December 23</strong><br>• Filed <a href=\"https://github.com/ohcnetwork/care_fe/issues/14930\">issues/14930</a>, <a href=\"https://github.com/ohcnetwork/care_fe/issues/14936\">issues/14936</a><br>• Made PR#14933. PR#14934.<br>• Reviewed PR&#x27;s<br>• Made <a href=\"https://github.com/ohcnetwork/care/pull/3431\">care/pull/3431</a><br>• Tuesday weekly call<br><strong>Next</strong><br>• Holidays<br>• Write specs<br>• Review PR&#x27;s<br>",
     "points": null,
     "meta": null
   }
