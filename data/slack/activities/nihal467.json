@@ -1,38 +1,5 @@
 [
   {
-    "slug": "eod_update_2023-08-03_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-08-03T06:49:36.428Z",
-    "link": null,
-    "text": "<strong>EOD 03/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong><br><br><strong>How did the day go?</strong><br><br>• tested and got merged on priority issues<br>• start E2E testing of care",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-20_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-20T13:24:38.021Z",
-    "link": null,
-    "text": "Nov 20<br>• Migrated prescription cypress test to playwright<br>• Pushed changes requested by <span class=\"s-mention s-user\">@U07NXCASM89</span> towards by playwright PRs<br>• Tested most of the need testing labelled PRs<br>Next<br>• Social media plan for linkedin<br>• Wrap the testing doc<br>• Test all PR marked need testing<br>• test the Oodo changes<br>• Migrate all cypress test and uninstall cypress",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-16_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-15T19:05:43.073Z",
-    "link": null,
-    "text": "EOD 14/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>how did the day go ?<br><br>• completed the E2E testing of care<br>what&#x27;s next<br><br>• work on cypress command.ts file<br>• update testing doc",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-06-03_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -62,6 +29,39 @@
     "occured_at": "2025-05-26T08:16:39.688Z",
     "link": null,
     "text": "May 26th<br>• Cypress test for specimen<br>• tested the scribe PR<br>• fixed the cypress failure due to accidental id deletion<br>• tested all PR marked need testing",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-08-03_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-08-03T06:49:36.428Z",
+    "link": null,
+    "text": "<strong>EOD 03/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong><br><br><strong>How did the day go?</strong><br><br>• tested and got merged on priority issues<br>• start E2E testing of care",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-20_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-20T13:24:38.021Z",
+    "link": null,
+    "text": "Nov 20<br>• Migrated prescription cypress test to playwright<br>• Pushed changes requested by <span class=\"s-mention s-user\">@U07NXCASM89</span> towards by playwright PRs<br>• Tested most of the need testing labelled PRs<br>Next<br>• Social media plan for linkedin<br>• Wrap the testing doc<br>• Test all PR marked need testing<br>• test the Oodo changes<br>• Migrate all cypress test and uninstall cypress",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-16_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-15T19:05:43.073Z",
+    "link": null,
+    "text": "EOD 14/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>how did the day go ?<br><br>• completed the E2E testing of care<br>what&#x27;s next<br><br>• work on cypress command.ts file<br>• update testing doc",
     "points": null,
     "meta": null
   },
@@ -436,6 +436,17 @@
     "occured_at": "2024-11-18T11:15:14.688Z",
     "link": null,
     "text": "<strong>18th November</strong><br><br><strong>Done</strong><br>• Tested and reviewed 21 PRs<br>• Debugged and fixed a flaky Cypress test occurring only in forked PRs<br>• Published today’s LinkedIn post<br>• Retested the production release branch after a minor bug fix<br><strong>Next</strong><br>• Test and review all 9 pending PRs.<br>• Work on the test coverage documentation.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-17_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-17T17:54:26.118Z",
+    "link": null,
+    "text": "16-17 June 2025<br>Done<br>• Follow-up on multiple priorities<br>• Debugging multiple issues in questionnaire<br>• Got observation cypress PR merged<br>• Monthly community call with cypress team<br>• Shifted base to Kochi<br>• Interviewed gdc interns",
     "points": null,
     "meta": null
   },
@@ -1041,17 +1052,6 @@
     "occured_at": "2025-04-13T01:42:42.965Z",
     "link": null,
     "text": "April 10th<br>Done<br>• tested PRs marked need testing<br>• understanding the valueset <br>• Investigated cypress crash<br>April 11th<br>Done<br>• tested the manipur migration<br>• meeting with @ dr siri and ops team to understand the requirement<br>• tested PRs marked need testing<br>April 12th<br>Done<br>• tested the react v19 and priority PR&#x27;s<br>• fixed the flaky test in prescriptions and brought back cypress online",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-17_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-17T17:54:26.118Z",
-    "link": null,
-    "text": "16-17 June 2025<br>Done<br>• Follow-up on multiple priorities<br>• Debugging multiple issues in questionnaire<br>• Got observation cypress PR merged<br>• Monthly community call with cypress team<br>• Shifted base to Kochi<br>• Interviewed gdc interns",
     "points": null,
     "meta": null
   },
@@ -1958,6 +1958,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-30_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-30T12:10:20.356Z",
+    "link": null,
+    "text": "Dec 30th<br>• Scout through the priority PRs<br>• Fixed the Flakiness in PW develop Branch<br>• Pushed Minor Lint Fixes to some PRs<br>• Followed up with <span class=\"s-mention s-user\">@U02D0NA6RHR</span> on priority PRs #14693, #14912<br>• Huddle with <span class=\"s-mention s-user\">@U02D0NA6RHR</span> to discuss edge cases in patient archive <br>• Multiple huddle with <span class=\"s-mention s-user\">@U07NXCASM89</span> to discuss random PRs<br>• Tested 20+ PRs, 28 more to go <br>Next<br>• Review the product interns feature doc<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-06_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -2057,17 +2068,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-12-30_nihal467",
-    "contributor": "nihal467",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-30T12:10:20.356Z",
-    "link": null,
-    "text": "Dec 30th<br>• Scout through the priority PRs<br>• Fixed the Flakiness in PW develop Branch<br>• Pushed Minor Lint Fixes to some PRs<br>• Followed up with <span class=\"s-mention s-user\">@U02D0NA6RHR</span> on priority PRs #14693, #14912<br>• Huddle with <span class=\"s-mention s-user\">@U02D0NA6RHR</span> to discuss edge cases in patient archive <br>• Multiple huddle with <span class=\"s-mention s-user\">@U07NXCASM89</span> to discuss random PRs<br>• Tested 20+ PRs, 28 more to go <br>Next<br>• Review the product interns feature doc<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2026-01-01_nihal467",
     "contributor": "nihal467",
     "activity_definition": "eod_update",
@@ -2075,6 +2075,17 @@
     "occured_at": "2026-01-01T04:16:47.192Z",
     "link": null,
     "text": "Dec 31st<br>• New Year Celebration, Happy New Year Everyone <span class=\"s-emoji\">🥳</span><br>Next<br>• Review the product interns feature doc<br>• Wrap up the testing of opened PRs<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage\n\nDec 31st<br>• New Year Celebration, Happy New Year Everyone <span class=\"s-emoji\">🥳</span><br>Next<br>• Review the product interns feature doc<br>• Wrap up the testing of opened PRs<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage\n\n01 Jan<br>• Gone through all p1/p2 issues List<br>• Tested few PRs<br>Next<br>• Review the product interns feature doc<br>• Wrap up the testing of opened PRs<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage\n\nDec 31st<br>• New Year Celebration, Happy New Year Everyone <span class=\"s-emoji\">🥳</span><br>Next<br>• Review the product interns feature doc<br>• Wrap up the testing of opened PRs<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage\n\n01 Jan<br>• Gone through all p1/p2 issues List<br>• Tested few PRs<br>Next<br>• Review the product interns feature doc<br>• Wrap up the testing of opened PRs<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2026-01-02_nihal467",
+    "contributor": "nihal467",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2026-01-02T12:20:11.214Z",
+    "link": null,
+    "text": "02 Jan<br>• Tested All PR marked need testing &amp;amp; Priorities<br>• Interviewed the new devrel candidate<br>• Huddle with <span class=\"s-mention s-user\">@U07NXCASM89</span> on new dispense medicine workflow<br>Next<br>• Review the product interns feature doc<br>• Wrap up the testing of opened PRs<br>• Test Odoo workflow and HR<br>• Social media plan for LinkedIn<br>• Wrap the testing doc<br>• Evaluate current test coverage",
     "points": null,
     "meta": null
   }

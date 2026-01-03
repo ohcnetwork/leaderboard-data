@@ -506,6 +506,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-06-20_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-20T04:12:22.563Z",
+    "link": null,
+    "text": "PRs:<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2781\">https://github.com/ohcnetwork/care_fe/pull/2781</a><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2780\">https://github.com/ohcnetwork/care_fe/pull/2780</a>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-11-22_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -909,17 +920,6 @@
     "occured_at": "2023-05-27T03:10:41.168Z",
     "link": null,
     "text": "EOD 27/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Reviewed 4 react for all submissions<br>• Reviewed couple of open source PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-20_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-20T04:12:22.563Z",
-    "link": null,
-    "text": "PRs:<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2781\">https://github.com/ohcnetwork/care_fe/pull/2781</a><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2780\">https://github.com/ohcnetwork/care_fe/pull/2780</a>",
     "points": null,
     "meta": null
   },
@@ -1606,6 +1606,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-10-13_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-10-13T04:41:47.765Z",
+    "link": null,
+    "text": "<strong>EOD 13/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Played around django timezones and updated admission_date clean time migration to correct for timezone (with help from <span class=\"s-mention s-user\">@U02TB8XHZD1</span>)<br>• Worked on consultation: route to facility",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-11-28_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1738,6 +1749,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-05-30_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-05-30T03:06:13.500Z",
+    "link": null,
+    "text": "EOD 30/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Minor fix that caused all phone number fields to be focused by default. <a href=\"https://github.com/ohcnetwork/care_fe/pull/5569\">care_fe/5569</a><br>• Reviewed 3 react for all submissions<br>• Minor clean up: removed unused legacy component ConfirmDialog <a href=\"https://github.com/ohcnetwork/care_fe/pull/5571\">care_fe#5571</a><br>• Reviewed couple of PRs<br>• Helped <span class=\"s-mention s-user\">@U022THM4U2U</span> to test centralize linting PR by setting up local django  with staging replica DB.<br>What&#x27;s next?<br><br>• Review react for all submissions<br>• Integrate Medibase",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-05-15_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1855,28 +1877,6 @@
     "occured_at": "2025-06-03T22:31:47.162Z",
     "link": null,
     "text": "<strong>june 3rd</strong><br>• fixed peer dependency issues and lockfile in care_fe<br>• fixed teleicu_gateway rejecting certain ecg wave-name options in vitals monitor<br>• reviewed prs<br>• <span class=\"s-mention s-user\">@UC8TSEGCQ</span>’s <span class=\"s-emoji\">🍕</span> treat<br><strong>next</strong><br>• new <span class=\"s-emoji\">🏍️</span> delivery<br>• reschedule appointment: select another practitioner<br>• other scheduling related issues on roadmap",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-05-30_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-05-30T03:06:13.500Z",
-    "link": null,
-    "text": "EOD 30/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Minor fix that caused all phone number fields to be focused by default. <a href=\"https://github.com/ohcnetwork/care_fe/pull/5569\">care_fe/5569</a><br>• Reviewed 3 react for all submissions<br>• Minor clean up: removed unused legacy component ConfirmDialog <a href=\"https://github.com/ohcnetwork/care_fe/pull/5571\">care_fe#5571</a><br>• Reviewed couple of PRs<br>• Helped <span class=\"s-mention s-user\">@U022THM4U2U</span> to test centralize linting PR by setting up local django  with staging replica DB.<br>What&#x27;s next?<br><br>• Review react for all submissions<br>• Integrate Medibase",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-10-13_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-10-13T04:41:47.765Z",
-    "link": null,
-    "text": "<strong>EOD 13/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Played around django timezones and updated admission_date clean time migration to correct for timezone (with help from <span class=\"s-mention s-user\">@U02TB8XHZD1</span>)<br>• Worked on consultation: route to facility",
     "points": null,
     "meta": null
   },
@@ -2013,6 +2013,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-07-08_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-08T03:17:09.895Z",
+    "link": null,
+    "text": "EOD 08/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br><strong>How did the day go?</strong><br><br>• Optimizing in-memory db and memory issues with medibase.<br>• Bought it down to ~700mb idle and sub 900mb with 100 series requests, no leaks.<br>• <span class=\"s-emoji\">☝️</span> docker constraints (0.25cpu; 1GB) no workers were harmed too during the benchmark<br>cc: <span class=\"s-mention s-user\">@UC8TSEGCQ</span> <span class=\"s-mention s-user\">@U02TB8XHZD1</span>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-05-20_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2130,17 +2141,6 @@
     "occured_at": "2023-06-07T17:43:04.426Z",
     "link": null,
     "text": "EOD 08/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Fixed cypress issues with <code>PhoneNumberFormField</code> <br>• Created sheet for 1to1 mapping and updated medibase to show &amp;amp; copy medicine ID<br>• Worked on moving medibase to postgres instead of in-memory db<br>• Went for MUI hunting and replaced 7 files with CareUI (<a href=\"https://github.com/ohcnetwork/care_fe/pull/5613\">5613</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5614\">5614</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5615\">5615</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5616\">5616</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5617\">5617</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5618\">5618</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/5619\">5619</a>)<br>What&#x27;s next?<br>• Complete medibase to psql<br>• Add stats for nerds to vitals monitor<br>• Work on zoom script",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-08_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-08T03:17:09.895Z",
-    "link": null,
-    "text": "EOD 08/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br><strong>How did the day go?</strong><br><br>• Optimizing in-memory db and memory issues with medibase.<br>• Bought it down to ~700mb idle and sub 900mb with 100 series requests, no leaks.<br>• <span class=\"s-emoji\">☝️</span> docker constraints (0.25cpu; 1GB) no workers were harmed too during the benchmark<br>cc: <span class=\"s-mention s-user\">@UC8TSEGCQ</span> <span class=\"s-mention s-user\">@U02TB8XHZD1</span>",
     "points": null,
     "meta": null
   },
@@ -2816,6 +2816,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-09-04_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-09-04T05:11:16.214Z",
+    "link": null,
+    "text": "<strong>EOD 02/08/2023 - 04/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6218\">#6218</a> <a href=\"https://github.com/ohcnetwork/care/pull/1573\">#1573</a>: Adds Principal Diagnosis field to consultation form<br>• Fixed brought dead being pre-filled in verified by<br>• Worked on tracking consultation re-admission and create custom migration <a href=\"https://github.com/ohcnetwork/care/pull/1572\">#1572</a><br>• Reviewed 1 react for all submissions<br><strong>What&#x27;s next?</strong><br>• Review react for all submissions<br>• Test consultation re-admission migration on staging copy db and make required changes in FE<br>• Allow MAR to be archived.<br>• Follow up on prescription enhancements.<br>• Follow up on <code>useQuery</code> implementation<br>• Rename fields admission_date and discharge_date to encounter_start/end (DateTime)",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-07-24_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2900,6 +2911,28 @@
     "occured_at": "2025-09-07T20:27:29.361Z",
     "link": null,
     "text": "<strong>sep 6, 7</strong><br>• <a href=\"https://github.com/ohcnetwork/care/pull/3236\">#3236</a>: fixes appointment list being empty, minor refactoring in permissions, fixed tests related to scheduling and appointments<br>• couple of improvements to queue management<br>• debugging few things and imported roles to test facility<br>• <span class=\"s-emoji\">🚗</span> to kochi<br><strong>next</strong><br>• queue management enhancements / anything related to sudeendhra",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-09-27_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-09-27T06:02:03.047Z",
+    "link": null,
+    "text": "<strong>EOD 27/09/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6358\">#6358</a>: Adds type inference from route and type check for <code>request</code> body param.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6003\">#6003</a>: Followed up on a bug in remove axios PR and resolved merge conflicts.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/6184\">#6184</a>: Resolved conflicts and added tests in backend for archive medicine administrations<br>• Worked on splitting routes of app router into multiple sub routes.<br><strong>What&#x27;s next?</strong><br>• Fix cypress in remove axios PR<br>• Complete splitting of routes of app router.<br>• Follow up on making medicine administration editable",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-12-11_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-11T06:40:46.199Z",
+    "link": null,
+    "text": "<strong>dec 10</strong><br>• <em>lazy day... just reached home, mostly slept.</em><br>• debugging sparsh camera stream not being received in rtsp to web server<br><strong>next</strong><br>• debug sparsh camera stream<br>• queue board enhancements<br>• vitals observation enhancements<br>• leaderboard",
     "points": null,
     "meta": null
   },
@@ -3098,39 +3131,6 @@
     "occured_at": "2025-06-09T18:16:58.365Z",
     "link": null,
     "text": "<strong>june 9th</strong><br>• <span class=\"s-emoji\">🎧</span> w. <span class=\"s-mention s-user\">@U0168MBTGL8</span> on pharmacy internal transfers<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/12554\">#12554</a>: couple more improvements to encounter questionnaire response list view<br>• discussions with aravind on issues, reviewed and assigned them to contributors<br>• reviewed prs<br>• <span class=\"s-emoji\">🎧</span> w. <span class=\"s-mention s-user\">@U07NXCASM89</span> on debugging why file uploads were not working<br><strong>next</strong><br>• pharmacy internal transfers",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-09-04_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-09-04T05:11:16.214Z",
-    "link": null,
-    "text": "<strong>EOD 02/08/2023 - 04/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6218\">#6218</a> <a href=\"https://github.com/ohcnetwork/care/pull/1573\">#1573</a>: Adds Principal Diagnosis field to consultation form<br>• Fixed brought dead being pre-filled in verified by<br>• Worked on tracking consultation re-admission and create custom migration <a href=\"https://github.com/ohcnetwork/care/pull/1572\">#1572</a><br>• Reviewed 1 react for all submissions<br><strong>What&#x27;s next?</strong><br>• Review react for all submissions<br>• Test consultation re-admission migration on staging copy db and make required changes in FE<br>• Allow MAR to be archived.<br>• Follow up on prescription enhancements.<br>• Follow up on <code>useQuery</code> implementation<br>• Rename fields admission_date and discharge_date to encounter_start/end (DateTime)",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-09-27_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-09-27T06:02:03.047Z",
-    "link": null,
-    "text": "<strong>EOD 27/09/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6358\">#6358</a>: Adds type inference from route and type check for <code>request</code> body param.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6003\">#6003</a>: Followed up on a bug in remove axios PR and resolved merge conflicts.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/6184\">#6184</a>: Resolved conflicts and added tests in backend for archive medicine administrations<br>• Worked on splitting routes of app router into multiple sub routes.<br><strong>What&#x27;s next?</strong><br>• Fix cypress in remove axios PR<br>• Complete splitting of routes of app router.<br>• Follow up on making medicine administration editable",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-11_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-11T06:40:46.199Z",
-    "link": null,
-    "text": "<strong>dec 10</strong><br>• <em>lazy day... just reached home, mostly slept.</em><br>• debugging sparsh camera stream not being received in rtsp to web server<br><strong>next</strong><br>• debug sparsh camera stream<br>• queue board enhancements<br>• vitals observation enhancements<br>• leaderboard",
     "points": null,
     "meta": null
   },

@@ -3949,17 +3949,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_care_fe#14022",
-    "contributor": "yash-learner",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #14022",
-    "occured_at": "2025-10-17T14:44:11.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14022",
-    "text": "Duplicate key warning in Tax Components",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#12085_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "issue_assigned",
@@ -8202,6 +8191,17 @@
     "occured_at": "2025-07-28T06:25:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13002#pullrequestreview-3060587383",
     "text": "Move facility and department routes  and related type clean up",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3439",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3439",
+    "occured_at": "2026-01-01T11:58:22.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3439",
+    "text": "Fix title and description  for manage users permission",
     "points": null,
     "meta": {}
   },
@@ -13288,17 +13288,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14934",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14934",
-    "occured_at": "2025-12-23T11:18:48.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14934",
-    "text": "Remove common api file",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#14304",
     "contributor": "yash-learner",
     "activity_definition": "issue_opened",
@@ -13431,17 +13420,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14857",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14857",
-    "occured_at": "2025-12-17T08:39:21.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14857",
-    "text": "Add tests for Service Request Create",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14839_CHANGES_REQUESTED_PRR_kwDODtfaXs7WdKT-",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -13486,17 +13464,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_care#3439",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3439",
-    "occured_at": "2026-01-01T11:58:22.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3439",
-    "text": "Fix title and description  for manage users permission",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_develop_be4842a1bda3f7606cb89adc26b58aaf77c9d78d",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -13504,6 +13471,83 @@
     "occured_at": "2026-01-01T11:58:22.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/be4842a1bda3f7606cb89adc26b58aaf77c9d78d",
     "text": "Fix title and description  for manage users permission (#3439)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14909_APPROVED_PRR_kwDODtfaXs7W_y1S",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14909",
+    "occured_at": "2025-12-23T08:16:31.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14909#pullrequestreview-3607047506",
+    "text": "fix: disabled create button in Add Location form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#14022",
+    "contributor": "yash-learner",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14022",
+    "occured_at": "2025-10-17T14:44:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14022",
+    "text": "Duplicate key warning in Tax Components",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14857",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14857",
+    "occured_at": "2025-12-17T08:39:21.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14857",
+    "text": "Add tests for Service Request Create",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14934",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14934",
+    "occured_at": "2025-12-23T11:18:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14934",
+    "text": "Remove common api file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14934_COMMENTED_PRR_kwDODtfaXs7X9BNG",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14934",
+    "occured_at": "2026-01-02T13:06:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14934#pullrequestreview-3623097158",
+    "text": "Remove common api file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14934_COMMENTED_PRR_kwDODtfaXs7X9BO3",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14934",
+    "occured_at": "2026-01-02T13:06:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14934#pullrequestreview-3623097271",
+    "text": "Remove common api file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14934_COMMENTED_PRR_kwDODtfaXs7X9CWE",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14934",
+    "occured_at": "2026-01-02T13:10:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14934#pullrequestreview-3623101828",
+    "text": "Remove common api file",
     "points": null,
     "meta": {}
   },
@@ -13552,13 +13596,112 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14909_APPROVED_PRR_kwDODtfaXs7W_y1S",
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_6a249331555586cd71f93336831701ee2ead1023",
     "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14909",
-    "occured_at": "2025-12-23T08:16:31.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14909#pullrequestreview-3607047506",
-    "text": "fix: disabled create button in Add Location form",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-02T19:06:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/6a249331555586cd71f93336831701ee2ead1023",
+    "text": "Merge branch 'develop' into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_c63ede8700191e0f12ec9c0db1b2749bd86fbd87",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-02T13:27:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/c63ede8700191e0f12ec9c0db1b2749bd86fbd87",
+    "text": "refactor: remove outdated encounter setup test file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_43749c87e033fdb107c77d908bb6d341a0f7236c",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-02T13:27:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/43749c87e033fdb107c77d908bb6d341a0f7236c",
+    "text": "Merge branch 'issues/14296/add-tests-for-service-request' of https://github.com/ohcnetwork/care_fe into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_55a40302e8acbb137792afb8bf04f1248baa03a7",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-02T13:20:57.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/55a40302e8acbb137792afb8bf04f1248baa03a7",
+    "text": "Merge branch 'develop' into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_712e6dc5e47ce05333df67f475b5e09cea2e247c",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2026-01-02T13:11:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/712e6dc5e47ce05333df67f475b5e09cea2e247c",
+    "text": "Merge branch 'develop' into remove-common-api-file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_c48495b8f77da74653a161128a308d57425d9e9a",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2026-01-02T13:03:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/c48495b8f77da74653a161128a308d57425d9e9a",
+    "text": "Address some copilot review comments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_e8d1240e334400c33829f5f7752fce403fc80c4e",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2026-01-02T13:04:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/e8d1240e334400c33829f5f7752fce403fc80c4e",
+    "text": "Merge branch 'remove-common-api-file' of https://github.com/ohcnetwork/care_fe into remove-common-api-file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_4a79c7cd14f0de448c72fabfa8e0a79dd1cfc967",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2026-01-02T12:49:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/4a79c7cd14f0de448c72fabfa8e0a79dd1cfc967",
+    "text": "Merge branch 'develop' into remove-common-api-file",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_82d1d5eca7223b6d7297cb75d840d86087f9af96",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-02T12:46:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/82d1d5eca7223b6d7297cb75d840d86087f9af96",
+    "text": "Merge branch 'develop' into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_3b17eda74de3abd3c82d9aac57adf4f8075ad0ae",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-02T12:46:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/3b17eda74de3abd3c82d9aac57adf4f8075ad0ae",
+    "text": "Merge branch 'issues/14296/add-tests-for-service-request' of https://github.com/ohcnetwork/care_fe into issues/14296/add-tests-for-service-request",
     "points": null,
     "meta": {}
   }

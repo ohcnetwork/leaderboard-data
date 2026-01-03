@@ -1595,6 +1595,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#14599_StephZam",
+    "contributor": "StephZam",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14599 assigned",
+    "occured_at": "2025-12-03T09:22:58.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14599",
+    "text": "fix: limit in Locations",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_manyu/fx/14515_401d6c2dbdeb492783b0de8a2b5eac7740241010",
     "contributor": "StephZam",
     "activity_definition": "commit_created",
@@ -1899,17 +1910,6 @@
     "occured_at": "2025-12-04T07:09:42.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14613",
     "text": "Username field fires requests rapidly",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14599_StephZam",
-    "contributor": "StephZam",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14599 assigned",
-    "occured_at": "2025-12-03T09:22:58.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14599",
-    "text": "fix: limit in Locations",
     "points": null,
     "meta": {}
   },
@@ -2757,6 +2757,17 @@
     "occured_at": "2025-12-04T09:08:24.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14615",
     "text": "fix: Username field triggers requests rapidly",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14625_StephZam",
+    "contributor": "StephZam",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14625 assigned",
+    "occured_at": "2025-12-04T09:21:03.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14625",
+    "text": "Back button not working within invoice",
     "points": null,
     "meta": {}
   },
@@ -3949,17 +3960,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14625_StephZam",
-    "contributor": "StephZam",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14625 assigned",
-    "occured_at": "2025-12-04T09:21:03.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14625",
-    "text": "Back button not working within invoice",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14809",
     "contributor": "StephZam",
     "activity_definition": "pr_opened",
@@ -4213,6 +4213,28 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#14909",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14909",
+    "occured_at": "2025-12-22T08:58:46.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
+    "text": "fix: disabled create button in Add Location form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14909",
+    "contributor": "StephZam",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14909",
+    "occured_at": "2026-01-01T12:10:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
+    "text": "fix: disabled create button in Add Location form",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#14848",
     "contributor": "StephZam",
     "activity_definition": "pr_opened",
@@ -4235,24 +4257,145 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14909",
+    "slug": "commit_created_khavinshankar/feat/config-envs-for-plugs_e872f9f491bd8f6e36c9e04f92bf3ee57ee9c8b2",
     "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14909",
-    "occured_at": "2025-12-22T08:58:46.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
-    "text": "fix: disabled create button in Add Location form",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/feat/config-envs-for-plugs",
+    "occured_at": "2025-12-29T08:10:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/e872f9f491bd8f6e36c9e04f92bf3ee57ee9c8b2",
+    "text": "fix: questionnaire search in Encounter Actions (#14795)",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_merged_care_fe#14909",
+    "slug": "commit_created_khavinshankar/feat/config-envs-for-plugs_5b46e5771e53a9d67c0236a1ba5a82e8a29e5b2d",
     "contributor": "StephZam",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14909",
-    "occured_at": "2026-01-01T12:10:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14909",
-    "text": "fix: disabled create button in Add Location form",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/feat/config-envs-for-plugs",
+    "occured_at": "2025-12-30T06:24:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/5b46e5771e53a9d67c0236a1ba5a82e8a29e5b2d",
+    "text": " fix: back button in new tabs (#14806)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_khavinshankar/feat/config-envs-for-plugs_d138447ac2b5a920d13a275ddb1c7ec95dc520db",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/feat/config-envs-for-plugs",
+    "occured_at": "2025-12-30T10:36:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d138447ac2b5a920d13a275ddb1c7ec95dc520db",
+    "text": " fix: questionnaire title in Responses tab (#14809)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_khavinshankar/feat/config-envs-for-plugs_caf6618602f4377c539b8359d75a9dfb7f3b60cb",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/feat/config-envs-for-plugs",
+    "occured_at": "2026-01-01T07:03:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/caf6618602f4377c539b8359d75a9dfb7f3b60cb",
+    "text": " fix: permission check to rebalance (#14807)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_khavinshankar/feat/config-envs-for-plugs_bedea227c30468892e0974f3f1562af3c0563d05",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/feat/config-envs-for-plugs",
+    "occured_at": "2026-01-01T12:10:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/bedea227c30468892e0974f3f1562af3c0563d05",
+    "text": "fix: disabled create button in Add Location form (#14909)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_e872f9f491bd8f6e36c9e04f92bf3ee57ee9c8b2",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2025-12-29T08:10:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/e872f9f491bd8f6e36c9e04f92bf3ee57ee9c8b2",
+    "text": "fix: questionnaire search in Encounter Actions (#14795)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_5b46e5771e53a9d67c0236a1ba5a82e8a29e5b2d",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2025-12-30T06:24:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/5b46e5771e53a9d67c0236a1ba5a82e8a29e5b2d",
+    "text": " fix: back button in new tabs (#14806)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_d138447ac2b5a920d13a275ddb1c7ec95dc520db",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2025-12-30T10:36:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d138447ac2b5a920d13a275ddb1c7ec95dc520db",
+    "text": " fix: questionnaire title in Responses tab (#14809)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_caf6618602f4377c539b8359d75a9dfb7f3b60cb",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2026-01-01T07:03:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/caf6618602f4377c539b8359d75a9dfb7f3b60cb",
+    "text": " fix: permission check to rebalance (#14807)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_remove-common-api-file_bedea227c30468892e0974f3f1562af3c0563d05",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to remove-common-api-file",
+    "occured_at": "2026-01-01T12:10:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/bedea227c30468892e0974f3f1562af3c0563d05",
+    "text": "fix: disabled create button in Add Location form (#14909)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_d138447ac2b5a920d13a275ddb1c7ec95dc520db",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2025-12-30T10:36:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/d138447ac2b5a920d13a275ddb1c7ec95dc520db",
+    "text": " fix: questionnaire title in Responses tab (#14809)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_caf6618602f4377c539b8359d75a9dfb7f3b60cb",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-01T07:03:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/caf6618602f4377c539b8359d75a9dfb7f3b60cb",
+    "text": " fix: permission check to rebalance (#14807)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_bedea227c30468892e0974f3f1562af3c0563d05",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-01T12:10:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/bedea227c30468892e0974f3f1562af3c0563d05",
+    "text": "fix: disabled create button in Add Location form (#14909)",
     "points": null,
     "meta": {}
   }
