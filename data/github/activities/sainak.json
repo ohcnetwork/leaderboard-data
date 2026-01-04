@@ -1,82 +1,5 @@
 [
   {
-    "slug": "issue_assigned_care#1593_sainak",
-    "contributor": "sainak",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #1593 assigned",
-    "occured_at": "2023-09-11T11:07:23.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1593",
-    "text": "Switch to Pipenv",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#1542_sainak",
-    "contributor": "sainak",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #1542 assigned",
-    "occured_at": "2023-08-22T09:43:03.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1542",
-    "text": "Merge ip_no and op_no",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1988",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1988",
-    "occured_at": "2024-03-19T05:50:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1988",
-    "text": "fix deploy",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#1766",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1766",
-    "occured_at": "2023-12-11T14:26:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1766",
-    "text": "rename skills with incorrect spelling",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1392",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1392",
-    "occured_at": "2023-06-20T12:28:59.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1392",
-    "text": "drop the usage of POSTGIS_URL",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care#1338",
-    "contributor": "sainak",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #1338",
-    "occured_at": "2023-06-02T11:39:52.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1338",
-    "text": "Fix N+1 queries in `/api/v1/bed/`",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1394",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1394",
-    "occured_at": "2023-06-20T13:52:03.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1394",
-    "text": "fix celery invocation command",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care#2214",
     "contributor": "sainak",
     "activity_definition": "issue_closed",
@@ -194,6 +117,83 @@
     "occured_at": "2024-03-11T14:11:50.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1951",
     "text": "Merge Staging into Master",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care#1593_sainak",
+    "contributor": "sainak",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #1593 assigned",
+    "occured_at": "2023-09-11T11:07:23.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1593",
+    "text": "Switch to Pipenv",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care#1542_sainak",
+    "contributor": "sainak",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #1542 assigned",
+    "occured_at": "2023-08-22T09:43:03.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1542",
+    "text": "Merge ip_no and op_no",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1988",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1988",
+    "occured_at": "2024-03-19T05:50:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1988",
+    "text": "fix deploy",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#1766",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1766",
+    "occured_at": "2023-12-11T14:26:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1766",
+    "text": "rename skills with incorrect spelling",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#1392",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1392",
+    "occured_at": "2023-06-20T12:28:59.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1392",
+    "text": "drop the usage of POSTGIS_URL",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care#1338",
+    "contributor": "sainak",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #1338",
+    "occured_at": "2023-06-02T11:39:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1338",
+    "text": "Fix N+1 queries in `/api/v1/bed/`",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#1394",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1394",
+    "occured_at": "2023-06-20T13:52:03.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1394",
+    "text": "fix celery invocation command",
     "points": null,
     "meta": {}
   },
@@ -5489,6 +5489,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2491",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2491",
+    "occured_at": "2024-09-23T17:34:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2491",
+    "text": "Production release v24.39.0",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3321_APPROVED_PRR_kwDODsgdF87K1RZL",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -5874,17 +5885,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2491",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2491",
-    "occured_at": "2024-09-23T17:34:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2491",
-    "text": "Production release v24.39.0",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#2491",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -6259,6 +6259,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_citizen#44",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #44",
+    "occured_at": "2024-03-17T17:59:25.000Z",
+    "link": "https://github.com/ohcnetwork/citizen/pull/44",
+    "text": "Quick changes to get the app running again",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/adding-reports_babce35032c69360ca9fb5e4fb2fff4892ee4da7",
     "contributor": "sainak",
     "activity_definition": "commit_created",
@@ -6574,17 +6585,6 @@
     "occured_at": "2025-11-05T15:10:29.000Z",
     "link": "https://github.com/ohcnetwork/care_teleicu_devices/commit/89fbadcfef9e7528370e733ff739c2e578118fa9",
     "text": "disable auto interpretation",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_citizen#44",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #44",
-    "occured_at": "2024-03-17T17:59:25.000Z",
-    "link": "https://github.com/ohcnetwork/citizen/pull/44",
-    "text": "Quick changes to get the app running again",
     "points": null,
     "meta": {}
   },
@@ -8910,6 +8910,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2612",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2612",
+    "occured_at": "2024-11-21T14:32:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2612",
+    "text": "Revert \"Add qodana CI checks (#2607)\"",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#8589",
     "contributor": "sainak",
     "activity_definition": "pr_merged",
@@ -10901,6 +10912,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2723",
+    "contributor": "sainak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2723",
+    "occured_at": "2025-01-09T13:36:42.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2723",
+    "text": "Fix delete method in viewsets",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care#1339",
     "contributor": "sainak",
     "activity_definition": "issue_opened",
@@ -12162,17 +12184,6 @@
     "occured_at": "2025-01-13T14:13:20.000Z",
     "link": "https://github.com/ohcnetwork/care/issues/2388",
     "text": "Add support for i18l for error responses from the backend",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2612",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2612",
-    "occured_at": "2024-11-21T14:32:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2612",
-    "text": "Revert \"Add qodana CI checks (#2607)\"",
     "points": null,
     "meta": {}
   },
@@ -17545,17 +17556,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2723",
-    "contributor": "sainak",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2723",
-    "occured_at": "2025-01-09T13:36:42.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2723",
-    "text": "Fix delete method in viewsets",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3041_COMMENTED_PRR_kwDODsgdF86qTlHz",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -19833,6 +19833,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2432",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2432",
+    "occured_at": "2024-09-19T15:15:26.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2432",
+    "text": "update unique_bed_name_per_location to ignore deleted beds",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2534_APPROVED_PRR_kwDODsgdF86RmR0h",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -20181,6 +20192,17 @@
     "occured_at": "2024-10-21T03:47:43.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2544#pullrequestreview-2380847732",
     "text": "added check for email provider check before sending reset password email",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2314",
+    "contributor": "sainak",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2314",
+    "occured_at": "2024-07-22T16:38:22.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2314",
+    "text": "Production release v24.30.0",
     "points": null,
     "meta": {}
   },
@@ -21263,6 +21285,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#1829_COMMENTED_PRR_kwDODsgdF85tsr9G",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #1829",
+    "occured_at": "2024-01-24T05:14:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1829#pullrequestreview-1840430918",
+    "text": "ABDM M3",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2089_CHANGES_REQUESTED_PRR_kwDODsgdF853tRWL",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -21631,17 +21664,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #2432",
     "occured_at": "2024-09-07T13:01:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2432",
-    "text": "update unique_bed_name_per_location to ignore deleted beds",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2432",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2432",
-    "occured_at": "2024-09-19T15:15:26.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2432",
     "text": "update unique_bed_name_per_location to ignore deleted beds",
     "points": null,
@@ -22392,28 +22414,6 @@
     "occured_at": "2024-07-10T10:00:40.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2223#pullrequestreview-2168619729",
     "text": "migrating feature field  to array field ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2314",
-    "contributor": "sainak",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2314",
-    "occured_at": "2024-07-22T16:38:22.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2314",
-    "text": "Production release v24.30.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#1829_COMMENTED_PRR_kwDODsgdF85tsr9G",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #1829",
-    "occured_at": "2024-01-24T05:14:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1829#pullrequestreview-1840430918",
-    "text": "ABDM M3",
     "points": null,
     "meta": {}
   },
@@ -36036,17 +36036,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_odoo_connector#114_COMMENTED_PRR_kwDOP4w6is7XD4-K",
-    "contributor": "sainak",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #114",
-    "occured_at": "2025-12-23T15:03:13.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/114#pullrequestreview-3608121226",
-    "text": "Odoo Connector Review",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3423_APPROVED_PRR_kwDODsgdF87XBO8y",
     "contributor": "sainak",
     "activity_definition": "pr_reviewed",
@@ -36054,6 +36043,17 @@
     "occured_at": "2025-12-23T10:03:58.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3423#pullrequestreview-3607424818",
     "text": "Enforce Django password validation on password change",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_odoo_connector#114_COMMENTED_PRR_kwDOP4w6is7XD4-K",
+    "contributor": "sainak",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #114",
+    "occured_at": "2025-12-23T15:03:13.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/114#pullrequestreview-3608121226",
+    "text": "Odoo Connector Review",
     "points": null,
     "meta": {}
   }
