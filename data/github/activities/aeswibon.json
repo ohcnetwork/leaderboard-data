@@ -1,45 +1,12 @@
 [
   {
-    "slug": "issue_opened_care#827",
+    "slug": "pr_opened_care#1575",
     "contributor": "aeswibon",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #827",
-    "occured_at": "2022-06-06T19:04:27.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/827",
-    "text": "Update to Postgres",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#888",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #888",
-    "occured_at": "2022-06-26T16:10:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/888",
-    "text": "Fixed created_by field in patient log",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#827_aeswibon",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #827 assigned",
-    "occured_at": "2022-06-06T19:04:28.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/827",
-    "text": "Update to Postgres",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#2340",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2340",
-    "occured_at": "2022-05-17T18:20:51.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2340",
-    "text": "add options before typing",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1575",
+    "occured_at": "2023-09-04T12:02:54.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1575",
+    "text": "fix: tests for ambulance APIs",
     "points": null,
     "meta": {}
   },
@@ -88,13 +55,46 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#1575",
+    "slug": "issue_opened_care#827",
     "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1575",
-    "occured_at": "2023-09-04T12:02:54.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1575",
-    "text": "fix: tests for ambulance APIs",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #827",
+    "occured_at": "2022-06-06T19:04:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/827",
+    "text": "Update to Postgres",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#888",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #888",
+    "occured_at": "2022-06-26T16:10:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/888",
+    "text": "Fixed created_by field in patient log",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care#827_aeswibon",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #827 assigned",
+    "occured_at": "2022-06-06T19:04:28.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/827",
+    "text": "Update to Postgres",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#2340",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2340",
+    "occured_at": "2022-05-17T18:20:51.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2340",
+    "text": "add options before typing",
     "points": null,
     "meta": {}
   },
@@ -4037,6 +4037,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#3159_aeswibon",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #3159 assigned",
+    "occured_at": "2022-07-18T09:20:53.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/3159",
+    "text": "Issue in facility select in add user",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#3953_aeswibon",
     "contributor": "aeswibon",
     "activity_definition": "issue_assigned",
@@ -4418,17 +4429,6 @@
     "occured_at": "2022-06-24T12:25:01.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/2845",
     "text": "Filter are malfunctioning : Facility Page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#3159_aeswibon",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #3159 assigned",
-    "occured_at": "2022-07-18T09:20:53.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/3159",
-    "text": "Issue in facility select in add user",
     "points": null,
     "meta": {}
   },
@@ -6721,6 +6721,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care#1031_aeswibon",
+    "contributor": "aeswibon",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #1031 assigned",
+    "occured_at": "2022-09-21T17:56:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/issues/1031",
+    "text": "Symptoms: Building depth in consultation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#3306_APPROVED_PRR_kwDODtfaXs4_hMtB",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -7432,17 +7443,6 @@
     "occured_at": "2022-07-10T07:03:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/3093#pullrequestreview-1033598432",
     "text": "Made the Physical Examination info field fetched in Treatment Summary",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care#1031_aeswibon",
-    "contributor": "aeswibon",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #1031 assigned",
-    "occured_at": "2022-09-21T17:56:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/issues/1031",
-    "text": "Symptoms: Building depth in consultation",
     "points": null,
     "meta": {}
   },
@@ -10384,6 +10384,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#1024",
+    "contributor": "aeswibon",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #1024",
+    "occured_at": "2022-09-17T09:10:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/1024",
+    "text": "Fixed: Conflicting migrations found",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#969_APPROVED_PRR_kwDODsgdF84_hKjn",
     "contributor": "aeswibon",
     "activity_definition": "pr_reviewed",
@@ -10776,17 +10787,6 @@
     "occured_at": "2022-09-05T09:32:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/1000",
     "text": "Fixed: Added occupation field for text support",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#1024",
-    "contributor": "aeswibon",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #1024",
-    "occured_at": "2022-09-17T09:10:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/1024",
-    "text": "Fixed: Conflicting migrations found",
     "points": null,
     "meta": {}
   },

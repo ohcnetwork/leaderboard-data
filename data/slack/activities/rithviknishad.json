@@ -385,6 +385,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-10-03_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-10-03T05:14:52.534Z",
+    "link": null,
+    "text": "Working on:<br>• Redesign Patient Filters <a href=\"https://github.com/ohcnetwork/care_fe/pull/3697\">#3697</a><br>• Facility cover image upload feat.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-05-31_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -579,6 +590,17 @@
     "occured_at": "2022-06-17T03:40:14.815Z",
     "link": null,
     "text": "Issues Raised:<br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/2737\">https://github.com/ohcnetwork/care_fe/issues/2737</a><br>PRs:<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/2653\">https://github.com/ohcnetwork/care_fe/pull/2653</a>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-29_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-28T19:45:15.751Z",
+    "link": null,
+    "text": "<strong>may 28</strong><br>• visit to sudheendhra hospital<br>• discussions related to it<br><strong>next</strong><br>• scheduling<br>• billing and related",
     "points": null,
     "meta": null
   },
@@ -814,28 +836,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2022-10-03_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-10-03T05:14:52.534Z",
-    "link": null,
-    "text": "Working on:<br>• Redesign Patient Filters <a href=\"https://github.com/ohcnetwork/care_fe/pull/3697\">#3697</a><br>• Facility cover image upload feat.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-29_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-28T19:45:15.751Z",
-    "link": null,
-    "text": "<strong>may 28</strong><br>• visit to sudheendhra hospital<br>• discussions related to it<br><strong>next</strong><br>• scheduling<br>• billing and related",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2022-10-07_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1008,6 +1008,17 @@
     "occured_at": "2022-06-16T03:00:50.742Z",
     "link": null,
     "text": "Nothing much today. Went for a loooong drive and was tired.<br>Worked on and almost completed adding custom select menu (<a href=\"https://github.com/ohcnetwork/care_fe/pull/2653\">https://github.com/ohcnetwork/care_fe/pull/2653</a>).<br>Will be pushing it by tonight mostly.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-09-05_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-05T07:04:43.309Z",
+    "link": null,
+    "text": "<strong>sept 4</strong><br>• built queue management ui for both practitioner and location<br>• fixing import scripts to adjust for upsert limit, added missing base_dosage and tax components. ran import script on demo facility.<br><strong>next</strong><br>• enhancements to queue management ui",
     "points": null,
     "meta": null
   },
@@ -1353,6 +1364,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-03-10_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-10T17:34:39.166Z",
+    "link": null,
+    "text": "<strong>march 10</strong><br>• eng. sync call<br>• wired ptz controls for camera; debugged weird issues<br>• reviews<br><strong>next</strong><br>• complete camera feed ui<br>• position presets<br>• add authzn. checks for actions APIs<br>• migrations<br>• setup translations<br>• show it on encounter page<br>• fix update device gateway problem",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-18_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1525,6 +1547,17 @@
     "occured_at": "2023-08-12T04:37:12.856Z",
     "link": null,
     "text": "<strong>EOD 12/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Fixed infinite re-render issues and refined the implementation of <code>useQuery</code> hook to be type-safe!<br>• Worked on a side project",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-16_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-16T14:22:19.351Z",
+    "link": null,
+    "text": "Jan 16th<br>• writing tests for scheduling... &amp;gt;89% coverage so far.<br>• fixed few minor bugs caught along the way...<br>Next<br>• fix get_slots_for_day API not accounting for Availability Exception.<br>• 100% coverage on scheduling.",
     "points": null,
     "meta": null
   },
@@ -1793,6 +1826,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-08-03_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-08-03T06:47:44.054Z",
+    "link": null,
+    "text": "<strong>EOD 03/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• <a href=\"https://github.com/ohcnetwork/care/pull/1508\">#1508</a> Added utility class validator <code>PhoneNumberValidator</code> <br>• <a href=\"https://github.com/ohcnetwork/care/pull/1509\">#1509</a> Added pre-commit hook to ensure no migrations are missing<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/5999\">#5999</a> Updated FE too to reflect the new RegExp&#x27;s of <code>PhoneNumberValidator</code><br><strong>What&#x27;s next?</strong><br><br>• Follow up on previous PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-11_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1925,50 +1969,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-09-05_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-05T07:04:43.309Z",
-    "link": null,
-    "text": "<strong>sept 4</strong><br>• built queue management ui for both practitioner and location<br>• fixing import scripts to adjust for upsert limit, added missing base_dosage and tax components. ran import script on demo facility.<br><strong>next</strong><br>• enhancements to queue management ui",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-10_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-10T17:34:39.166Z",
-    "link": null,
-    "text": "<strong>march 10</strong><br>• eng. sync call<br>• wired ptz controls for camera; debugged weird issues<br>• reviews<br><strong>next</strong><br>• complete camera feed ui<br>• position presets<br>• add authzn. checks for actions APIs<br>• migrations<br>• setup translations<br>• show it on encounter page<br>• fix update device gateway problem",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-08-03_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-08-03T06:47:44.054Z",
-    "link": null,
-    "text": "<strong>EOD 03/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• <a href=\"https://github.com/ohcnetwork/care/pull/1508\">#1508</a> Added utility class validator <code>PhoneNumberValidator</code> <br>• <a href=\"https://github.com/ohcnetwork/care/pull/1509\">#1509</a> Added pre-commit hook to ensure no migrations are missing<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/5999\">#5999</a> Updated FE too to reflect the new RegExp&#x27;s of <code>PhoneNumberValidator</code><br><strong>What&#x27;s next?</strong><br><br>• Follow up on previous PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-16_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-16T14:22:19.351Z",
-    "link": null,
-    "text": "Jan 16th<br>• writing tests for scheduling... &amp;gt;89% coverage so far.<br>• fixed few minor bugs caught along the way...<br>Next<br>• fix get_slots_for_day API not accounting for Availability Exception.<br>• 100% coverage on scheduling.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-04-03_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2086,6 +2086,17 @@
     "occured_at": "2023-06-05T04:23:22.751Z",
     "link": null,
     "text": "EOD 05/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• Tried resolving cypress fails in phone number form field.<br>• Finished the Front-end for Medibase.<br>• Created a script that would map out old medicines to medibase medicines and have insights on its coverage.<br>What&#x27;s next?<br>• Draft the migrations for medibase<br>• Follow up on cypress fails on Phone Number PR<br>• Work on zoom recordings to drive automation script",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-08-17_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-08-17T04:39:19.045Z",
+    "link": null,
+    "text": "<strong>EOD 17/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Worked on Grouping Medicine Administration Records<br><strong>What&#x27;s next?</strong><br><br>• Review react for all submissions.<br>• Finalize changes and push PR.<br>• Make necessary backend and front-end changes for preventing multiple active prescriptions of same medicine.",
     "points": null,
     "meta": null
   },
@@ -2211,6 +2222,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-10-27_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-26T19:56:26.895Z",
+    "link": null,
+    "text": "<strong>oct 10 - oct 26th</strong><br>• travelling, followed by sick leaves....<br><strong>next</strong><br>• fix leaderboard\n\n<strong>oct 10 - oct 26th</strong><br>• travelling, followed by sick leaves....<br><strong>next</strong><br>• fix leaderboard",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-28_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2306,6 +2328,17 @@
     "occured_at": "2025-06-06T18:57:02.514Z",
     "link": null,
     "text": "<strong>june 5th</strong><br>• minor pr: inventory item net content range filter <a href=\"https://github.com/ohcnetwork/care/pull/3065\">#3065</a><br>• improved the questionnaire visualisation on encounter dashboard <a href=\"https://github.com/ohcnetwork/care_fe/pull/12522\">#12522</a><br><strong>next</strong><br>• 3 days holidays… <em>spend time with my new</em> <span class=\"s-emoji\">🏍️</span> <em>?</em>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-09-21_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-21T06:54:21.192Z",
+    "link": null,
+    "text": "sep 20:<br>• nothing, worked on a side project<br>next:<br>• queue management enhancements\n\nsep 20:<br>• nothing, worked on a side project<br>next:<br>• queue management enhancements",
     "points": null,
     "meta": null
   },
@@ -2427,17 +2460,6 @@
     "occured_at": "2023-09-14T05:18:28.896Z",
     "link": null,
     "text": "<strong>EOD 14/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6285\">#6285</a>: fixed an issue with <code>goBack</code> method&#x27;s precedence on how it resolves to a previous url.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6284\">#6284</a>: Skip showing selected option search results when query is present in medibase search<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6287\">#6287</a>: Refactored <code>App.tsx</code> and removed other usages of redux&#x27;s state<br><strong>What&#x27;s next?</strong><br>• Review react for all submissions<br>• Follow up on uninstall axios PR<br>• Create EPIC issue for <code>useDispatch</code> to <code>useQuery/request</code> migration with documentation on how to use those and migrate.<br>• Support for archiving medicine administrations",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-08-17_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-08-17T04:39:19.045Z",
-    "link": null,
-    "text": "<strong>EOD 17/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Worked on Grouping Medicine Administration Records<br><strong>What&#x27;s next?</strong><br><br>• Review react for all submissions.<br>• Finalize changes and push PR.<br>• Make necessary backend and front-end changes for preventing multiple active prescriptions of same medicine.",
     "points": null,
     "meta": null
   },
@@ -2772,6 +2794,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-11-28_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-28T17:36:19.749Z",
+    "link": null,
+    "text": "<strong>28th November</strong><br>• <a href=\"https://github.com/ohcnetwork/leaderboard-data/pull/74\">leaderboard-data#74</a>: updated scraper to scrape thrice a day (every 8 hours) and add existing missing data.<br>• <a href=\"https://github.com/ohcnetwork/leaderboard/commit/675f2e5b07bf58ea99d20f13b43062f992d76394\">leaderboard/675f2e5</a>: Adds time at which scraper was run in leaderboard’s footer<br>• <a href=\"https://github.com/ohcnetwork/leaderboard/pull/549\">leaderboard#549</a>: Scraper to fetch everything provided by GH’s events API instead of just between a date range and other misc. cleanups and type fixes.<br>• Reviewed couple of PRs.<br><strong>Next</strong><br>• Work on appointments UI components.<br>• Complete writing script to generate summary data based on cross-referenced issue/pr story points.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-09_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2856,6 +2889,17 @@
     "occured_at": "2023-09-04T05:11:16.214Z",
     "link": null,
     "text": "<strong>EOD 02/08/2023 - 04/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6218\">#6218</a> <a href=\"https://github.com/ohcnetwork/care/pull/1573\">#1573</a>: Adds Principal Diagnosis field to consultation form<br>• Fixed brought dead being pre-filled in verified by<br>• Worked on tracking consultation re-admission and create custom migration <a href=\"https://github.com/ohcnetwork/care/pull/1572\">#1572</a><br>• Reviewed 1 react for all submissions<br><strong>What&#x27;s next?</strong><br>• Review react for all submissions<br>• Test consultation re-admission migration on staging copy db and make required changes in FE<br>• Allow MAR to be archived.<br>• Follow up on prescription enhancements.<br>• Follow up on <code>useQuery</code> implementation<br>• Rename fields admission_date and discharge_date to encounter_start/end (DateTime)",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-10-06_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-10-06T05:09:34.550Z",
+    "link": null,
+    "text": "<strong>oct 6</strong><br>• fixing bugs in new inventory<br>• debugging couple of other bugs related to appointments and queue<br><strong>next</strong><br>• finish fixing bugs in new inventory\n\n<strong>oct 6</strong><br>• fixing bugs in new inventory<br>• debugging couple of other bugs related to appointments and queue<br><strong>next</strong><br>• finish fixing bugs in new inventory",
     "points": null,
     "meta": null
   },
@@ -3256,28 +3300,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-11-28_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-28T17:36:19.749Z",
-    "link": null,
-    "text": "<strong>28th November</strong><br>• <a href=\"https://github.com/ohcnetwork/leaderboard-data/pull/74\">leaderboard-data#74</a>: updated scraper to scrape thrice a day (every 8 hours) and add existing missing data.<br>• <a href=\"https://github.com/ohcnetwork/leaderboard/commit/675f2e5b07bf58ea99d20f13b43062f992d76394\">leaderboard/675f2e5</a>: Adds time at which scraper was run in leaderboard’s footer<br>• <a href=\"https://github.com/ohcnetwork/leaderboard/pull/549\">leaderboard#549</a>: Scraper to fetch everything provided by GH’s events API instead of just between a date range and other misc. cleanups and type fixes.<br>• Reviewed couple of PRs.<br><strong>Next</strong><br>• Work on appointments UI components.<br>• Complete writing script to generate summary data based on cross-referenced issue/pr story points.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-06_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-06T05:09:34.550Z",
-    "link": null,
-    "text": "<strong>oct 6</strong><br>• fixing bugs in new inventory<br>• debugging couple of other bugs related to appointments and queue<br><strong>next</strong><br>• finish fixing bugs in new inventory\n\n<strong>oct 6</strong><br>• fixing bugs in new inventory<br>• debugging couple of other bugs related to appointments and queue<br><strong>next</strong><br>• finish fixing bugs in new inventory",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2024-12-06_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3619,6 +3641,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-12-04_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-12-04T05:09:56.431Z",
+    "link": null,
+    "text": "<strong>dec 3</strong><br>• updated care deployments registry to include keralacare (<a href=\"https://github.com/ohcnetwork/deployments_registry/commit/5dbcd69b58f693805269ca51fc0a0f2f923f34af\">commit</a>)<br>• updated documentation of teleicu gateway automated observations to convey breaking changes<br>• reviewed dependency update pr&#x27;s and fixed prettier formatting (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14600\">#14600</a>)<br>• fixed styling, code cleanup and other minor fixes in token tv display (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14525\">#14525</a>)<br>• participated in care trial run<br><strong>next</strong><br>• schedule import script<br>• teleicu cleanups<br>• leaderboard refinements",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-17_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3692,6 +3725,17 @@
     "occured_at": "2024-12-23T18:43:54.024Z",
     "link": null,
     "text": "<strong>23 Dec</strong><br>• Added NGO and CBO facility types in FE<br>• Added env toggle to disable querying heatmap API<br>• Added slot filter to appointments<br>• Almost done with appointment show page<br>• Reviewed PRs<br>• Fixed an issue with Medication Reqeust’s API Path that was changed, and Site and Encounter required error.<br>• <em>Unproductive - debugging things with macos surprises</em> <br>    ◦ tried to troubleshoot why cf tunnels, twingate stopped working on mac but works on linux, traceroute unable to reach anything.<br>    ◦ ended up upgrading to macos sequoia (fixed the above in exchange for: charging stopped working, unable to turn on wifi, doesn’t detect both my monitor and ethernet hub)<br>    ◦ couple of restarts and tweaking some settings fixed it all in the end. hope there’s no more surprises left.<br><strong>Up next</strong><br>• Add practicioner and search filter for appointments in BE<br>• Add list view for appointments<br>• Subtract exceptions in calendar view in user availability<br>• Write validations<br>• Med Req: make req. modifications necessary to align with fhir spec in BE.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-18_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-17T20:58:28.878Z",
+    "link": null,
+    "text": "<strong>march 17th</strong><br>• <span class=\"s-emoji\">🚌</span> from bangalore to home<br>• debugged why creating schedules doesn’t reflect slots for some users in deployment; couldn’t replicate locally; yet to figure out…<br>• prevent browser translate <a href=\"https://github.com/ohcnetwork/care_fe/pull/11333\">#11333</a><br>• pushed some fixes and cleanups to <span class=\"s-mention s-user\">@U086E5U2CSJ</span>’s location search map picker PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/11337/commits/10808d03f0622d34259d9555d74f63771db3d505\">#11337</a><br>• Appointment Question: show availability heatmap and improved slot picking workflow <a href=\"https://github.com/ohcnetwork/care_fe/pull/11351\">#11351</a><br>• some miscellaneous things on teleicu plugs<br><strong>next</strong><br>• complete device encounter overview page and get it ready for first round of testing<br>• look into appointments/scheduling related feedbacks<br>• fix update device’s gateway problem<br>• catch value errors and re-throw drf validation errors in device registry handlers",
     "points": null,
     "meta": null
   },
@@ -3949,6 +3993,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-13_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-13T18:25:22.585Z",
+    "link": null,
+    "text": "<strong>august 12</strong><br>• tried deploying middleware for a demo, didn’t go well<br>    ◦ ended up learning that i can <a href=\"https://sshuttle.readthedocs.io/en/stable/manpage.html\">shuttle</a> my remote device to office network <br>• helped sam with couple of things related to teleicu<br>• discussions with amrutha on care v2 vs v3 and reviewing demo video<br><strong>august 13</strong><br>• worked on encounter redesign along w. nikhila<br>    ◦ moved action triggers to encounter provider<br>    ◦ fixed couple of ui responsiveness issues<br>    ◦ fixed cypress tests for the above<br>    ◦ fixed QA issues reported by nihal, ready for final testing.<br><strong>next</strong><br>• sudeendhra checklist items<br>• cursor pagination for appointments",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-03-14_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-03-14T00:36:32.658Z",
+    "link": null,
+    "text": "<strong>march 13</strong><br>• completed camera presets managements<br>• tried a lot of ways to fix command input crashing in plug; ended up writing a custom autocomplete without using command input;<br>• <a href=\"https://github.com/kyeotic/raviger/pull/135\">raviger#135</a>: Added support for history replace in <code>useQueryParams</code> in raviger routing library, to solve an issue in <a href=\"https://github.com/ohcnetwork/care_fe/issues/10657\">care_fe#10657</a><br><strong>next</strong><br>• show camera in encounter page; test out hl7 monitor as well;<br>• miscellaneous things before making it production ready: translations and other cleanups;<br>• fix update device’s gateway problem<br>• catch value errors and re-throw drf validation errors in device registry handlers;",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-23_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -4026,6 +4092,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-06_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-05T21:28:57.629Z",
+    "link": null,
+    "text": "<strong>may 5</strong><br>• billing<br><strong>next</strong><br>• billing",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-01-13_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -4088,61 +4165,6 @@
     "occured_at": "2025-01-30T21:26:53.082Z",
     "link": null,
     "text": "<strong>Jan 30</strong><br>• tests for overlapping session validation, but need to debug why it’s failing in CI alone<br>• removed pin-code autofill <a href=\"https://github.com/ohcnetwork/care_fe/pull/10291\">#10291</a><br>• update theme color and icons for pwa, and removed unused assets <a href=\"https://github.com/ohcnetwork/care_fe/pull/10292\">#10292</a><br>• fixed responsiveness issues with date-field and gender input <a href=\"https://github.com/ohcnetwork/care_fe/pull/10294\">#10294</a><br>• discussions with team on switching to tanstack router<br><strong>Next</strong><br>• fix so many random bugs\n\n<strong>31 Jan</strong><br>• remove automatic picker show for date and time inputs <a href=\"https://github.com/ohcnetwork/care_fe/pull/10331\">#10331</a><br>• fixed authzn. header when having both user and patient token set in storage <a href=\"https://github.com/ohcnetwork/care_fe/pull/10333/files\">#10333</a><br>• updated vite dev server config to listen on all network interfaces (easier to now test locally on mobile devices on same network) <a href=\"https://github.com/ohcnetwork/care_fe/pull/10330\">#10330</a><br>• make autocomplete component mobile friendly <a href=\"https://github.com/ohcnetwork/care_fe/pull/10336\">#10336</a><br>• removed index being shown in appointments list <a href=\"https://github.com/ohcnetwork/care_fe/pull/10338\">#10338</a><br>• fixed heatmap api not returning last day result and improved tests <a href=\"https://github.com/ohcnetwork/care/pull/2805\">#2805</a><br>• removed unnecessary workflow actions <a href=\"https://github.com/ohcnetwork/care_fe/pull/10342\">#10342</a><br>• received a bunch of calls from <span class=\"s-mention s-user\">@U022THM4U2U</span> :melting_face: <br>• office dinner party<br><strong>Next</strong><br>• debug why overlapping availability tests failing in CI<br>• go back home",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-18_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-17T20:58:28.878Z",
-    "link": null,
-    "text": "<strong>march 17th</strong><br>• <span class=\"s-emoji\">🚌</span> from bangalore to home<br>• debugged why creating schedules doesn’t reflect slots for some users in deployment; couldn’t replicate locally; yet to figure out…<br>• prevent browser translate <a href=\"https://github.com/ohcnetwork/care_fe/pull/11333\">#11333</a><br>• pushed some fixes and cleanups to <span class=\"s-mention s-user\">@U086E5U2CSJ</span>’s location search map picker PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/11337/commits/10808d03f0622d34259d9555d74f63771db3d505\">#11337</a><br>• Appointment Question: show availability heatmap and improved slot picking workflow <a href=\"https://github.com/ohcnetwork/care_fe/pull/11351\">#11351</a><br>• some miscellaneous things on teleicu plugs<br><strong>next</strong><br>• complete device encounter overview page and get it ready for first round of testing<br>• look into appointments/scheduling related feedbacks<br>• fix update device’s gateway problem<br>• catch value errors and re-throw drf validation errors in device registry handlers",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-13_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-13T18:25:22.585Z",
-    "link": null,
-    "text": "<strong>august 12</strong><br>• tried deploying middleware for a demo, didn’t go well<br>    ◦ ended up learning that i can <a href=\"https://sshuttle.readthedocs.io/en/stable/manpage.html\">shuttle</a> my remote device to office network <br>• helped sam with couple of things related to teleicu<br>• discussions with amrutha on care v2 vs v3 and reviewing demo video<br><strong>august 13</strong><br>• worked on encounter redesign along w. nikhila<br>    ◦ moved action triggers to encounter provider<br>    ◦ fixed couple of ui responsiveness issues<br>    ◦ fixed cypress tests for the above<br>    ◦ fixed QA issues reported by nihal, ready for final testing.<br><strong>next</strong><br>• sudeendhra checklist items<br>• cursor pagination for appointments",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-03-14_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-03-14T00:36:32.658Z",
-    "link": null,
-    "text": "<strong>march 13</strong><br>• completed camera presets managements<br>• tried a lot of ways to fix command input crashing in plug; ended up writing a custom autocomplete without using command input;<br>• <a href=\"https://github.com/kyeotic/raviger/pull/135\">raviger#135</a>: Added support for history replace in <code>useQueryParams</code> in raviger routing library, to solve an issue in <a href=\"https://github.com/ohcnetwork/care_fe/issues/10657\">care_fe#10657</a><br><strong>next</strong><br>• show camera in encounter page; test out hl7 monitor as well;<br>• miscellaneous things before making it production ready: translations and other cleanups;<br>• fix update device’s gateway problem<br>• catch value errors and re-throw drf validation errors in device registry handlers;",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-06_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-05T21:28:57.629Z",
-    "link": null,
-    "text": "<strong>may 5</strong><br>• billing<br><strong>next</strong><br>• billing",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-10-27_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-10-26T19:56:26.895Z",
-    "link": null,
-    "text": "<strong>oct 10 - oct 26th</strong><br>• travelling, followed by sick leaves....<br><strong>next</strong><br>• fix leaderboard\n\n<strong>oct 10 - oct 26th</strong><br>• travelling, followed by sick leaves....<br><strong>next</strong><br>• fix leaderboard",
     "points": null,
     "meta": null
   },
@@ -4220,17 +4242,6 @@
     "occured_at": "2025-02-28T19:16:39.087Z",
     "link": null,
     "text": "<strong>feb 28th</strong><br><em>probably the most annoying day i had so far…</em><br><br>• most of the day: debugging weird issues with building camera configure forms via MFE. <br>    ◦ debugged why command inside popover doesn’t work w. <span class=\"s-mention s-user\">@UC99MFPU1</span>; breaks when used in plug for some reason; gave up for now;<br>    ◦ a state of a useState being undefined out of nowhere. hours burnt on this; gave up and closed everything at the end of the day;<br>    ◦ restarted things back to show <span class=\"s-mention s-user\">@UV5PPBE2D</span> abt it, and it started working out of nowhere <span class=\"s-emoji\">🙂</span> (i still have no clue what i’m dealing with)<br>• <span class=\"s-emoji\">🎧</span><span class=\"s-emoji\">🎧</span> with <span class=\"s-mention s-user\">@U02TB8XHZD1</span> related to devices and asset bed migrations<br>• <span class=\"s-emoji\">🎧</span><span class=\"s-emoji\">🎧</span> with <span class=\"s-mention s-user\">@U022THM4U2U</span> on some minor things i don’t remember<br>• pushed some cleanups in tests and some minor fixes for meta-artifact backend (co-authored by <span class=\"s-mention s-user\">@U083HFWFESD</span>) <a href=\"https://github.com/ohcnetwork/care/pull/2880\">#2880</a><br>• reviewed some PRs<br><strong>next</strong><br>• teleicu plugs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-09-21_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-21T06:54:21.192Z",
-    "link": null,
-    "text": "sep 20:<br>• nothing, worked on a side project<br>next:<br>• queue management enhancements\n\nsep 20:<br>• nothing, worked on a side project<br>next:<br>• queue management enhancements",
     "points": null,
     "meta": null
   },
@@ -4616,17 +4627,6 @@
     "occured_at": "2025-11-27T05:18:10.408Z",
     "link": null,
     "text": "<strong>nov 26</strong><br>• setup teleicu gateway in tofu server and deployed camera and vitals device for demo (thanks to <span class=\"s-mention s-user\">@U02TB8XHZD1</span> and <span class=\"s-mention s-user\">@U06CY7RUZ9S</span> for their help)<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> debug issues w. product knowledge import script and some bug fixes (<a href=\"https://github.com/ohcnetwork/care_fe/commit/269915e02335c154f1dfba6febfefacb0fabc36c\">commit</a>)<br><strong>next</strong><br>• automated daily rounds<br>• run bulk import script after confirming w. <span class=\"s-mention s-user\">@U07PUJLCSH1</span> <br>• queue tv display<br>• build standard schema sheet for inventory import<br>• leaderboard refinements\n\n<strong>nov 26</strong><br>• setup teleicu gateway in tofu server and deployed camera and vitals device for demo (thanks to <span class=\"s-mention s-user\">@U02TB8XHZD1</span> and <span class=\"s-mention s-user\">@U06CY7RUZ9S</span> for their help)<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> debug issues w. product knowledge import script and some bug fixes (<a href=\"https://github.com/ohcnetwork/care_fe/commit/269915e02335c154f1dfba6febfefacb0fabc36c\">commit</a>)<br><strong>next</strong><br>• automated daily rounds<br>• run bulk import script after confirming w. <span class=\"s-mention s-user\">@U07PUJLCSH1</span> <br>• queue tv display<br>• build standard schema sheet for inventory import<br>• leaderboard refinements\n\n<strong>nov 27</strong><br>• sync w. <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> on how old automated daily rounds worked<br>• sync w. <span class=\"s-mention s-user\">@U07NP23BWQH</span> and <span class=\"s-mention s-user\">@U083HFWFESD</span> on token display page<br>• worked on automated observations<br>• some testing and debugging for instance level product knowledge listing (<a href=\"https://github.com/ohcnetwork/care/pull/3381\">care#3381</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14527\">care_fe#14527</a>)<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> find parts of <span class=\"s-mention s-user\">@U0168MBTGL8</span>&#x27;s mclaren <span class=\"s-emoji\">🏎️</span> she broke at office<br><strong>next</strong><br>• automated observations<br>• leaderboard\n\n<strong>nov 26</strong><br>• setup teleicu gateway in tofu server and deployed camera and vitals device for demo (thanks to <span class=\"s-mention s-user\">@U02TB8XHZD1</span> and <span class=\"s-mention s-user\">@U06CY7RUZ9S</span> for their help)<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> debug issues w. product knowledge import script and some bug fixes (<a href=\"https://github.com/ohcnetwork/care_fe/commit/269915e02335c154f1dfba6febfefacb0fabc36c\">commit</a>)<br><strong>next</strong><br>• automated daily rounds<br>• run bulk import script after confirming w. <span class=\"s-mention s-user\">@U07PUJLCSH1</span> <br>• queue tv display<br>• build standard schema sheet for inventory import<br>• leaderboard refinements\n\n<strong>nov 27</strong><br>• sync w. <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> on how old automated daily rounds worked<br>• sync w. <span class=\"s-mention s-user\">@U07NP23BWQH</span> and <span class=\"s-mention s-user\">@U083HFWFESD</span> on token display page<br>• worked on automated observations<br>• some testing and debugging for instance level product knowledge listing (<a href=\"https://github.com/ohcnetwork/care/pull/3381\">care#3381</a>, <a href=\"https://github.com/ohcnetwork/care_fe/pull/14527\">care_fe#14527</a>)<br>• helped <span class=\"s-mention s-user\">@U083HFWFESD</span> find parts of <span class=\"s-mention s-user\">@U0168MBTGL8</span>&#x27;s mclaren <span class=\"s-emoji\">🏎️</span> she broke at office<br><strong>next</strong><br>• automated observations<br>• leaderboard",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-12-04_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-12-04T05:09:56.431Z",
-    "link": null,
-    "text": "<strong>dec 3</strong><br>• updated care deployments registry to include keralacare (<a href=\"https://github.com/ohcnetwork/deployments_registry/commit/5dbcd69b58f693805269ca51fc0a0f2f923f34af\">commit</a>)<br>• updated documentation of teleicu gateway automated observations to convey breaking changes<br>• reviewed dependency update pr&#x27;s and fixed prettier formatting (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14600\">#14600</a>)<br>• fixed styling, code cleanup and other minor fixes in token tv display (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14525\">#14525</a>)<br>• participated in care trial run<br><strong>next</strong><br>• schedule import script<br>• teleicu cleanups<br>• leaderboard refinements",
     "points": null,
     "meta": null
   },
