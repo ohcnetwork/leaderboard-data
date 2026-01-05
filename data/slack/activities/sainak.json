@@ -1,5 +1,60 @@
 [
   {
+    "slug": "eod_update_2025-11-07_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-06T20:55:58.316Z",
+    "link": null,
+    "text": "6th Nov<br>• Made changes to the lab analyzer based on feedbacks\n\n6th Nov<br>• Made changes to the lab analyzer based on feedbacks",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-26_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-25T22:57:46.483Z",
+    "link": null,
+    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-04_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-04T05:55:38.516Z",
+    "link": null,
+    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-20_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-20T09:08:33.143Z",
+    "link": null,
+    "text": "Created a PR <a href=\"https://github.com/ohcnetwork/care/pull/772\">https://github.com/ohcnetwork/care/pull/772</a><br>Tracked the error in <a href=\"https://github.com/ohcnetwork/care_fe/issues/2452\">https://github.com/ohcnetwork/care_fe/issues/2452</a><br>Tried to reproduce <a href=\"https://github.com/ohcnetwork/care_fe/issues/2422\">https://github.com/ohcnetwork/care_fe/issues/2422</a>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-18_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-18T07:25:48.644Z",
+    "link": null,
+    "text": "Nov 17<br>• Reviewed and made adjustments to the backend test PRs",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-05-10_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -84,61 +139,6 @@
     "occured_at": "2025-01-20T06:46:28.781Z",
     "link": null,
     "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-07_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-06T20:55:58.316Z",
-    "link": null,
-    "text": "6th Nov<br>• Made changes to the lab analyzer based on feedbacks\n\n6th Nov<br>• Made changes to the lab analyzer based on feedbacks",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-25T22:57:46.483Z",
-    "link": null,
-    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-20T09:08:33.143Z",
-    "link": null,
-    "text": "Created a PR <a href=\"https://github.com/ohcnetwork/care/pull/772\">https://github.com/ohcnetwork/care/pull/772</a><br>Tracked the error in <a href=\"https://github.com/ohcnetwork/care_fe/issues/2452\">https://github.com/ohcnetwork/care_fe/issues/2452</a><br>Tried to reproduce <a href=\"https://github.com/ohcnetwork/care_fe/issues/2422\">https://github.com/ohcnetwork/care_fe/issues/2422</a>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-18_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-18T07:25:48.644Z",
-    "link": null,
-    "text": "Nov 17<br>• Reviewed and made adjustments to the backend test PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-04_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-04T05:55:38.516Z",
-    "link": null,
-    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
     "points": null,
     "meta": null
   },

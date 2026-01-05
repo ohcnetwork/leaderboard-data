@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2022-08-31_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-08-31T04:29:31.220Z",
+    "link": null,
+    "text": "Updated asset manage page and warranty card",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-05-20_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -194,17 +205,6 @@
     "occured_at": "2022-10-17T06:09:31.123Z",
     "link": null,
     "text": "Worked on <code>FieldValidator</code> for form field components",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-08-31_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-08-31T04:29:31.220Z",
-    "link": null,
-    "text": "Updated asset manage page and warranty card",
     "points": null,
     "meta": null
   },
@@ -1441,6 +1441,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-07-02_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-02T07:53:31.907Z",
+    "link": null,
+    "text": "<strong>july 2</strong><br>• discussions with bodhi on encounter history and overview redesign<br>• discussions with nikhila on camera switcher<br>• progress on encounter overview redesign <br>next<br>• encounter overview redesign",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-03-08_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -1602,6 +1613,17 @@
     "occured_at": "2023-07-21T06:12:30.276Z",
     "link": null,
     "text": "<strong>EOD 21/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Ran the zoomdrive for past 3 months. Couple of issues encountered.<br>• Fixed all of those issues.<br>• Reviewed some PRs.<br>• Fix FE Deploy CI to use <code>package-lock.json</code> instead of <code>yarn.lock</code> for docker build cache<br><strong>What&#x27;s next?</strong><br><br>• Configurable gain for vitals monitor<br>• Index medibase, pickle and dump",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-11-21_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-11-21T05:46:44.290Z",
+    "link": null,
+    "text": "<strong>EOD 21/11/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Moved leaderboard org. data to separate repo. and added workflow to deploy to vercel.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6685\">#6685</a>: Fix administration timeline showing <code>created_date</code> instead of <code>administered_date</code><br><strong>What&#x27;s next?</strong><br>• Fix failing vercel deploy in new leaderboard data repo.",
     "points": null,
     "meta": null
   },
@@ -1855,28 +1877,6 @@
     "occured_at": "2023-05-17T03:43:50.556Z",
     "link": null,
     "text": "EOD 17/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Discharge Summary &amp;amp; Prescriptions: Fixed some issues in discharge summary during testing and <strong>finally it&#x27;s tested</strong> <span class=\"s-emoji\">😃</span> <br>• Huddles with <span class=\"s-mention s-user\">@U022THM4U2U</span> on the same. <br>• Vitals Monitor: Worked on making necessary back-end changes to have an endpoint dedicated to retrieve patient and asset beds together.<br>• Huddled with <span class=\"s-mention s-user\">@U051NJK18KU</span> to clear minor doubts.<br>What&#x27;s next?<br><br>• Vitals Monitor (P1): Complete creating API and mark Vitals Monitor for testing.<br>• Vitals Monitor (P2): clear buffer on overflow and setup auto-reconnect if disconnected<br>• Vitals Monitor (P3): Programmatically modify mock vitals <code>data.json</code> to have more <code>blood-pressure</code> entries<br>• Look into issues suitable for Code4GovTech",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-11-21_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-11-21T05:46:44.290Z",
-    "link": null,
-    "text": "<strong>EOD 21/11/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• Moved leaderboard org. data to separate repo. and added workflow to deploy to vercel.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6685\">#6685</a>: Fix administration timeline showing <code>created_date</code> instead of <code>administered_date</code><br><strong>What&#x27;s next?</strong><br>• Fix failing vercel deploy in new leaderboard data repo.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-02_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-02T07:53:31.907Z",
-    "link": null,
-    "text": "<strong>july 2</strong><br>• discussions with bodhi on encounter history and overview redesign<br>• discussions with nikhila on camera switcher<br>• progress on encounter overview redesign <br>next<br>• encounter overview redesign",
     "points": null,
     "meta": null
   },
@@ -2255,6 +2255,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2024-12-13_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-13T16:38:54.748Z",
+    "link": null,
+    "text": "<strong>13 Dec</strong><br>• Tested and wired appointment APIs (available doctors, slots, and create). Create failing due to Slot Not Found from BE.<br>• Changed from Tokens Allowed to slot size in mins + tokens per slot when creating schedule. (Else BE doesn’t create slots)<br>• Cleaned up Amjith’s <code>query</code> util. function and merged it.<br>• Made some changes to med req. UI.<br><strong>Up Next</strong><br>• Merge develop with scheduling and resolve conflicts.<br>• Wire APIs for Appointments board and list UI once APIs for that are ready.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-05-24_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2365,17 +2376,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2024-12-13_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-13T16:38:54.748Z",
-    "link": null,
-    "text": "<strong>13 Dec</strong><br>• Tested and wired appointment APIs (available doctors, slots, and create). Create failing due to Slot Not Found from BE.<br>• Changed from Tokens Allowed to slot size in mins + tokens per slot when creating schedule. (Else BE doesn’t create slots)<br>• Cleaned up Amjith’s <code>query</code> util. function and merged it.<br>• Made some changes to med req. UI.<br><strong>Up Next</strong><br>• Merge develop with scheduling and resolve conflicts.<br>• Wire APIs for Appointments board and list UI once APIs for that are ready.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2023-10-10_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2482,6 +2482,28 @@
     "occured_at": "2023-08-16T05:53:15.622Z",
     "link": null,
     "text": "<strong>EOD 16/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Reviewed 6 react-for-all submissions<br>• Cleared merge conflicts on 3 of my PRs<br>• Worked on grouping prescription medicine administrations<br><strong>What&#x27;s next?</strong><br><br>• Complete grouping of medicine administrations<br>• Make necessary backend and front-end changes for preventing multiple active prescriptions of same medicine.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-04-12_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-04-12T01:25:23.040Z",
+    "link": null,
+    "text": "<strong>april 12</strong><br>• completed abdm upgrade to react 19; <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> helped w. hi-profiles upgrade.<br>• upgraded all other plugs (hcx, scribe, doctor connect) as well to react 19<br>• :heads-down: w. <span class=\"s-mention s-user\">@U022THM4U2U</span> on getting it tested (introduced him to tailscale for him to access my all plugs setup, but <em>windows being windows</em>…, that didn’t go well)<br><strong>next</strong><br>• camera stream authn.<br>• app auto updates",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-04_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-04T17:29:19.718Z",
+    "link": null,
+    "text": "<strong>4th December</strong><br>Unplanned things happened… so couldn’t do much. Will catchup for this on Sat.<br>• Minor: Prettifying Appointment token card.<br>• Rooftop PV installation happened at home. So was taking care of that pretty much the entire day.<br><strong>Up Next</strong><br>• review cookiecutter template for plugins implemented by <span class=\"s-mention s-user\">@U06L50QL1AQ</span><br>• complete appointments ui and start integrating apis",
     "points": null,
     "meta": null
   },
@@ -2702,28 +2724,6 @@
     "occured_at": "2023-07-19T06:04:15.891Z",
     "link": null,
     "text": "EOD 19/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br><strong>How did the day go?</strong><br><br>• zoomdrive: Setup husky pre-commit to automatically run <code>pnpm package (ncc build)</code> <br>• zoomdrive: Streamline local development by using <code>main.ts</code> directly instead of having a parallel <code>local.js</code> file to run the action.<br>• zoomdrive: Added support for optionally deleting recodings post upload to drive success.<br>• care_fe: Fixed failed deploy preview / incorrectly resolved merge conflicts for Create Multiple Beds PR of <span class=\"s-mention s-user\">@U02TB823H8A</span> <br>• care_fe: External Results: Apply mobile_number filter only if number is valid instead of on input change.<br><br><strong>What&#x27;s next?</strong><br>• care_fe: Patient List Page: Fix last updated to show <code>max(last_consultation.modified_date, patient_registration.modified_date, last_dailyround.modified_date)</code> instead of <code>patient_registration.modified_date</code> <br>• zoomdrive: add readme and contributing.md &amp;amp; publish to market place",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-04-12_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-04-12T01:25:23.040Z",
-    "link": null,
-    "text": "<strong>april 12</strong><br>• completed abdm upgrade to react 19; <span class=\"s-mention s-user\">@U01JB8L8P7Y</span> helped w. hi-profiles upgrade.<br>• upgraded all other plugs (hcx, scribe, doctor connect) as well to react 19<br>• :heads-down: w. <span class=\"s-mention s-user\">@U022THM4U2U</span> on getting it tested (introduced him to tailscale for him to access my all plugs setup, but <em>windows being windows</em>…, that didn’t go well)<br><strong>next</strong><br>• camera stream authn.<br>• app auto updates",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-04_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-04T17:29:19.718Z",
-    "link": null,
-    "text": "<strong>4th December</strong><br>Unplanned things happened… so couldn’t do much. Will catchup for this on Sat.<br>• Minor: Prettifying Appointment token card.<br>• Rooftop PV installation happened at home. So was taking care of that pretty much the entire day.<br><strong>Up Next</strong><br>• review cookiecutter template for plugins implemented by <span class=\"s-mention s-user\">@U06L50QL1AQ</span><br>• complete appointments ui and start integrating apis",
     "points": null,
     "meta": null
   },
@@ -3047,6 +3047,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-11-06_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-11-06T04:00:29.615Z",
+    "link": null,
+    "text": "<strong>EOD 06/11/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6528\">#6528</a>: follow up: Consultation Diagnosis: made principal diagnosis as dropdown and fixed some minor bugs in QA.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: follow up: Fixed minor issues with grouped administrations view PR, got it merged.<br>• <a href=\"https://github.com/ohcnetwork/care/pull/1700\">#1700</a>: made PR: Fixed N+1 queries in Daily Rounds view<br>• Reviewed couple of PRs<br><strong>What&#x27;s next?</strong><br>• Follow up on fixing issues in uninstall axios PR",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-07_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3318,17 +3329,6 @@
     "occured_at": "2023-10-18T02:56:14.014Z",
     "link": null,
     "text": "EOD 18/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6462\">#6462</a>: Fixes missing <code>offset</code> in query params of <code>PaginatedList</code> component which prevented query from not being dispatched upon page navigations.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6458\">#6458</a>: Fixes upon QA on consultation: route to facility PR<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: Fixes upon QA (more responsiveness issues) on medicine administration group by 4 hour PR.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6464\">#6464</a>: Added nurse user type (front-end)<br>• <a href=\"https://github.com/ohcnetwork/care/pull/1670\">#1670</a>: optimized and rebased migrations of updating consciousness level choices aligning to MEWS<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6435\">#6435</a>: Fixed issues with front-end PR of updating consciousness level choices aligning to MEWS<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6466\">#6466</a>: Fixed accidental edit to the fallback value of JWT refresh token interval<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6465\">#6465</a>: Fixed unintended RTL styles present in Neurological Monitoring table.<br>• Partially worked on zoomdrive serverless.<br><strong>What&#x27;s next?</strong><br>• Complete tests for consultation route to facility backend and follow up on QA.<br>• Work on zoomdrive on vercel serverless functions.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-11-06_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-11-06T04:00:29.615Z",
-    "link": null,
-    "text": "<strong>EOD 06/11/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6528\">#6528</a>: follow up: Consultation Diagnosis: made principal diagnosis as dropdown and fixed some minor bugs in QA.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: follow up: Fixed minor issues with grouped administrations view PR, got it merged.<br>• <a href=\"https://github.com/ohcnetwork/care/pull/1700\">#1700</a>: made PR: Fixed N+1 queries in Daily Rounds view<br>• Reviewed couple of PRs<br><strong>What&#x27;s next?</strong><br>• Follow up on fixing issues in uninstall axios PR",
     "points": null,
     "meta": null
   },
@@ -3608,6 +3608,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-20_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-20T05:14:25.722Z",
+    "link": null,
+    "text": "<strong>june 20</strong><br>• worked on scheduling optimizations <a href=\"https://github.com/ohcnetwork/care/pull/3081\">#3081</a> to dump token slot information to token booking’s meta for expired slots. almost done.<br>    ◦ kinda stuck on what to do with filters that filter on related token slot object’s values.<br>• spent a while debugging a weird issue when radio group was used along with form field. race condition on onValueChange with radix-ui’s useControllableState in our specific use case due to our button needing a parent div for styling.<br>• reviewed prs<br><strong>next</strong><br>• more scheduling related optimizations",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-05_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3773,17 +3784,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-20_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-20T05:14:25.722Z",
-    "link": null,
-    "text": "<strong>june 20</strong><br>• worked on scheduling optimizations <a href=\"https://github.com/ohcnetwork/care/pull/3081\">#3081</a> to dump token slot information to token booking’s meta for expired slots. almost done.<br>    ◦ kinda stuck on what to do with filters that filter on related token slot object’s values.<br>• spent a while debugging a weird issue when radio group was used along with form field. race condition on onValueChange with radix-ui’s useControllableState in our specific use case due to our button needing a parent div for styling.<br>• reviewed prs<br><strong>next</strong><br>• more scheduling related optimizations",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-12-05_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -3868,6 +3868,17 @@
     "occured_at": "2025-07-24T04:03:57.318Z",
     "link": null,
     "text": "<strong>july 24</strong><br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13069\">#13069</a>: disable send message shortcut key on touch devices due to auto capitalization making the shift key to be enabled on virtual/on-screen keyboards<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/13071\">#13071</a>:<br>    ◦ support for selectively caching certain queries to local storage<br>    ◦ appointments page: move selected tags to query params instead of client state<br>    ◦ cache tag config retrieve calls to persistent storage<br>• reviewed prs<br><strong>next</strong><br>• encounter show redesigns…",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-05-07_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-06T18:37:16.303Z",
+    "link": null,
+    "text": "<strong>may 6</strong><br>• manage discounts in facility billing settings done;<br>• monetary value reusable UI comopnent for formatting and displaying factor or amount<br>• couple of fixes/refactor/cleanpus here and there<br>• pr reviews<br><strong>next</strong><br>• billing\n\n<strong>may 7</strong><br>• discussions related to behaviour when applying multiple discounts<br>• bug fixes to charge item def. form (pretty much an entire re-write of an ai generated code)<br>• some fixes to discount management in billing settings<br>• corrected spellings of <code>monetory</code> to <code>monetary</code> in FE<br>• pr reviews<br><strong>next</strong><br>• mrp as informational for charge item<br>• more billing related things…",
     "points": null,
     "meta": null
   },
@@ -4033,17 +4044,6 @@
     "occured_at": "2025-12-19T05:29:20.326Z",
     "link": null,
     "text": "<strong>dec 17</strong><br>• ssmm inventory upload script<br>• queue board enhancements<br>• <em>rest i don&#x27;t remember...</em><br><strong>dec 18</strong><br>• ssmm inventory upload script<br>• token display debugging for legacy devices<br><strong>next</strong><br>• token display debugging for legacy devices<br>• ssmm inventory upload script<br>• standard inventory import script<br>• vitals observation enhancements<br>• leaderboard",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-07_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-06T18:37:16.303Z",
-    "link": null,
-    "text": "<strong>may 6</strong><br>• manage discounts in facility billing settings done;<br>• monetary value reusable UI comopnent for formatting and displaying factor or amount<br>• couple of fixes/refactor/cleanpus here and there<br>• pr reviews<br><strong>next</strong><br>• billing\n\n<strong>may 7</strong><br>• discussions related to behaviour when applying multiple discounts<br>• bug fixes to charge item def. form (pretty much an entire re-write of an ai generated code)<br>• some fixes to discount management in billing settings<br>• corrected spellings of <code>monetory</code> to <code>monetary</code> in FE<br>• pr reviews<br><strong>next</strong><br>• mrp as informational for charge item<br>• more billing related things…",
     "points": null,
     "meta": null
   },

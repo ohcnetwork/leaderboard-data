@@ -3872,6 +3872,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3401",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3401",
+    "occured_at": "2025-12-07T06:40:44.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3401",
+    "text": "fix:save updated_by user data for custom invoice apis",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_develop_8b79fe4e51e5f8e5edd0ccc309fbc9b89a0758c3",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4653,6 +4664,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_vigneshhari/report-builder-v2_4767adb3842de4188026c496da4376d05b45c33f",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to vigneshhari/report-builder-v2",
+    "occured_at": "2025-12-08T07:02:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/4767adb3842de4188026c496da4376d05b45c33f",
+    "text": "fix:added sr context builder to encounter report",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_prafful/feat/user-and-facility-flag_55a4b53f9f3e0f170cea901e4213b046a072ac92",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4913,28 +4935,6 @@
     "occured_at": "2025-12-22T09:38:06.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3421",
     "text": "fix:updated BaseMedicationDispenseOrderSpec",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_vigneshhari/report-builder-v2_4767adb3842de4188026c496da4376d05b45c33f",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to vigneshhari/report-builder-v2",
-    "occured_at": "2025-12-08T07:02:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/4767adb3842de4188026c496da4376d05b45c33f",
-    "text": "fix:added sr context builder to encounter report",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3401",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3401",
-    "occured_at": "2025-12-07T06:40:44.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3401",
-    "text": "fix:save updated_by user data for custom invoice apis",
     "points": null,
     "meta": {}
   },
@@ -5423,17 +5423,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3419",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3419",
-    "occured_at": "2025-12-16T20:21:38.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3419",
-    "text": " Data points for patient level report builder",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_dependabot/pip/boto-ad2b878303_bbde68d7c881c026aa6116f1611a116523dc9915",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -5815,6 +5804,83 @@
     "occured_at": "2025-12-16T20:26:18.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3411#pullrequestreview-3584817215",
     "text": "add identifiers and tag details for patient in multiple endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3419",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3419",
+    "occured_at": "2025-12-16T20:21:38.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3419",
+    "text": " Data points for patient level report builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3419_COMMENTED_PRR_kwDODsgdF87YKGD4",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3419",
+    "occured_at": "2026-01-05T11:42:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3419#pullrequestreview-3626524920",
+    "text": " Data points for patient level report builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_02582c19f82389147002b08e3bcfd293c557d013",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-22T09:38:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/02582c19f82389147002b08e3bcfd293c557d013",
+    "text": "fix:updated BaseMedicationDispenseOrderSpec (#3421)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_cca551e011875c69afc5bcbf855d24c86ed36907",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-22T17:02:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/cca551e011875c69afc5bcbf855d24c86ed36907",
+    "text": "fix:updated chargeitem in sr cancel api (#3429)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_aca81db773d8d23830e12f1ac0548280a7c66256",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-23T07:45:06.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/aca81db773d8d23830e12f1ac0548280a7c66256",
+    "text": "fix:updated medication dispense specs (#3428)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_d9c841cac2cc83fc2f2d7b29ccaa04da6b727a70",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2026-01-05T11:51:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d9c841cac2cc83fc2f2d7b29ccaa04da6b727a70",
+    "text": "Merge branch 'develop' into datapoint/patient",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_435c47ba9787f4c92a7ad7012ff44aa98b464d76",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "occured_at": "2026-01-05T10:41:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/435c47ba9787f4c92a7ad7012ff44aa98b464d76",
+    "text": "Merge branch 'develop' into prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
     "points": null,
     "meta": {}
   },
