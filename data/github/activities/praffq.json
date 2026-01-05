@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_opened_care#3217",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3217",
+    "occured_at": "2025-08-25T08:56:44.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3217",
+    "text": "using enum choice in resource request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3077",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3077",
+    "occured_at": "2025-06-17T08:27:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3077",
+    "text": "bug with enable when repeatable groups",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2903",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2903",
+    "occured_at": "2025-03-10T16:04:11.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2903",
+    "text": "added prefix and suffix to user",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3264",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3264",
+    "occured_at": "2025-09-15T19:40:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3264",
+    "text": "charge item def tests",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#2947",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -447,39 +491,6 @@
     "occured_at": "2025-04-07T14:53:07.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2984",
     "text": "fixed recent views duplications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3077",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3077",
-    "occured_at": "2025-06-17T08:27:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3077",
-    "text": "bug with enable when repeatable groups",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2903",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2903",
-    "occured_at": "2025-03-10T16:04:11.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2903",
-    "text": "added prefix and suffix to user",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3264",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3264",
-    "occured_at": "2025-09-15T19:40:18.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3264",
-    "text": "charge item def tests",
     "points": null,
     "meta": {}
   },
@@ -4121,17 +4132,6 @@
     "occured_at": "2025-08-20T17:37:18.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3178#pullrequestreview-3137638328",
     "text": "Api test cases for patient identifier config",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3217",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3217",
-    "occured_at": "2025-08-25T08:56:44.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3217",
-    "text": "using enum choice in resource request",
     "points": null,
     "meta": {}
   },
@@ -8085,17 +8085,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3411",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3411",
-    "occured_at": "2025-12-14T21:44:09.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3411",
-    "text": "add identifiers and tag details for patient in multiple endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_44f91777dedfa85bf54b56b9fe8e19cc669a851e",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -8213,6 +8202,72 @@
     "occured_at": "2026-01-03T07:40:58.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/c2e077a8fba9d14e01d86ea820feb9fcc6b5e3bd",
     "text": "added permissions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3411",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3411",
+    "occured_at": "2025-12-14T21:44:09.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3411",
+    "text": "add identifiers and tag details for patient in multiple endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_de10137388029ae9edab2556eeb91400b679f83c",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "occured_at": "2026-01-04T15:00:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/de10137388029ae9edab2556eeb91400b679f83c",
+    "text": "fix from comments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#3435_IC_kwDODsgdF87dBhcb",
+    "contributor": "praffq",
+    "activity_definition": "comment_created",
+    "title": "Commented on #3435",
+    "occured_at": "2026-01-04T15:06:16.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3435#issuecomment-3708163867",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3435_COMMENTED_PRR_kwDODsgdF87YEdW6",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3435",
+    "occured_at": "2026-01-04T15:05:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3435#pullrequestreview-3625047482",
+    "text": "Fix favorite_lists returning null on cache miss and add regression coverage",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_d29248ac0dcf56a2d920005a3b19671f48db722c",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "occured_at": "2026-01-04T14:52:44.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d29248ac0dcf56a2d920005a3b19671f48db722c",
+    "text": "Merge branch 'develop' into prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14693_IC_kwDODtfaXs7dBgg9",
+    "contributor": "praffq",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14693",
+    "occured_at": "2026-01-04T15:01:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14693#issuecomment-3708160061",
+    "text": null,
     "points": null,
     "meta": {}
   }

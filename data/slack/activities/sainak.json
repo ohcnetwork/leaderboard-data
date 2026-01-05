@@ -1,38 +1,5 @@
 [
   {
-    "slug": "eod_update_2025-01-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-20T06:46:28.781Z",
-    "link": null,
-    "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-07_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-06T20:55:58.316Z",
-    "link": null,
-    "text": "6th Nov<br>• Made changes to the lab analyzer based on feedbacks\n\n6th Nov<br>• Made changes to the lab analyzer based on feedbacks",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-25T22:57:46.483Z",
-    "link": null,
-    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2022-05-10_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -84,6 +51,61 @@
     "occured_at": "2022-05-15T02:23:04.985Z",
     "link": null,
     "text": "created a minor PR on care_fe and another PR on care to add a new field for saving the creator of a user",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-25_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-24T20:18:37.853Z",
+    "link": null,
+    "text": "June 24<br>• Took intern interviews",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-11-25_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-11-25T05:48:39.674Z",
+    "link": null,
+    "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-20_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-20T06:46:28.781Z",
+    "link": null,
+    "text": "20th Jan<br>• Created migrations for patients and consultations to the new models<br>• Created model/admin for tracking migration of fields that will need manual review after migrations",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-07_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-06T20:55:58.316Z",
+    "link": null,
+    "text": "6th Nov<br>• Made changes to the lab analyzer based on feedbacks\n\n6th Nov<br>• Made changes to the lab analyzer based on feedbacks",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-26_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-25T22:57:46.483Z",
+    "link": null,
+    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
     "points": null,
     "meta": null
   },
@@ -359,28 +381,6 @@
     "occured_at": "2023-07-20T08:54:31.940Z",
     "link": null,
     "text": "EOD 20/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on refactoring notification handler<br>• Reviewed and updated backend backend PRs to get them to mergeable state<br>• Reviewed ABDM<br>Whats up next?<br>• Work on notification handler<br>• Fix more issues reported by sentry",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-25_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-24T20:18:37.853Z",
-    "link": null,
-    "text": "June 24<br>• Took intern interviews",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-11-25_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-11-25T05:48:39.674Z",
-    "link": null,
-    "text": "25th Nov<br>• made workflow changes for loading the database from db dump for cypress tests",
     "points": null,
     "meta": null
   },
