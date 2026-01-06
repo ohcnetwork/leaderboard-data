@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_opened_care#3372",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3372",
+    "occured_at": "2025-11-22T07:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3372",
+    "text": "fix deadlock in TagConfig endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2361",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -425,17 +436,6 @@
     "occured_at": "2025-09-10T09:04:18.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3246",
     "text": "fix spes in NoteThread viewset",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3372",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3372",
-    "occured_at": "2025-11-22T07:36:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3372",
-    "text": "fix deadlock in TagConfig endpoints",
     "points": null,
     "meta": {}
   },
@@ -5291,6 +5291,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2564",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2564",
+    "occured_at": "2024-10-24T20:50:07.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2564",
+    "text": "added tests for patient transfer",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#2585_COMMENTED_PRR_kwDODsgdF86TWfFC",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -6061,17 +6072,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#2564",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2564",
-    "occured_at": "2024-10-24T20:50:07.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2564",
-    "text": "added tests for patient transfer",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#2564",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -6413,6 +6413,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_roadmap#117_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #117 assigned",
+    "occured_at": "2025-06-16T10:33:59.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/117",
+    "text": "Allow option fields in questionnaire to support metadata",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_25087847df5bdafa3fc94436d9c697b4bba9554f",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -6728,17 +6739,6 @@
     "occured_at": "2025-07-08T18:29:54.000Z",
     "link": "https://github.com/ohcnetwork/roadmap/issues/121",
     "text": "N+1 Issues with Scheduling and Appointment pages",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_roadmap#117_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #117 assigned",
-    "occured_at": "2025-06-16T10:33:59.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/117",
-    "text": "Allow option fields in questionnaire to support metadata",
     "points": null,
     "meta": {}
   },
@@ -8173,6 +8173,50 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care#3435_IC_kwDODsgdF87dBhcb",
+    "contributor": "praffq",
+    "activity_definition": "comment_created",
+    "title": "Commented on #3435",
+    "occured_at": "2026-01-04T15:06:16.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3435#issuecomment-3708163867",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3435_COMMENTED_PRR_kwDODsgdF87YEdW6",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3435",
+    "occured_at": "2026-01-04T15:05:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3435#pullrequestreview-3625047482",
+    "text": "Fix favorite_lists returning null on cache miss and add regression coverage",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_de10137388029ae9edab2556eeb91400b679f83c",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "occured_at": "2026-01-04T15:00:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/de10137388029ae9edab2556eeb91400b679f83c",
+    "text": "fix from comments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_d29248ac0dcf56a2d920005a3b19671f48db722c",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "occured_at": "2026-01-04T14:52:44.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/d29248ac0dcf56a2d920005a3b19671f48db722c",
+    "text": "Merge branch 'develop' into prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3440",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -8217,17 +8261,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care#3435_IC_kwDODsgdF87dBhcb",
-    "contributor": "praffq",
-    "activity_definition": "comment_created",
-    "title": "Commented on #3435",
-    "occured_at": "2026-01-04T15:06:16.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3435#issuecomment-3708163867",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3411",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -8239,13 +8272,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care#3435_COMMENTED_PRR_kwDODsgdF87YEdW6",
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_e12dc55ca1d36de8c337829f0a624ced60529e3f",
     "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #3435",
-    "occured_at": "2026-01-04T15:05:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3435#pullrequestreview-3625047482",
-    "text": "Fix favorite_lists returning null on cache miss and add regression coverage",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-05T18:18:22.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/e12dc55ca1d36de8c337829f0a624ced60529e3f",
+    "text": "added filter to  OrganizationViewSet",
     "points": null,
     "meta": {}
   },
@@ -8279,28 +8312,6 @@
     "occured_at": "2026-01-05T09:57:00.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/88463adcc96bccea4e02d7242929fd9ad7527234",
     "text": "bugs fixes and comments",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_de10137388029ae9edab2556eeb91400b679f83c",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
-    "occured_at": "2026-01-04T15:00:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/de10137388029ae9edab2556eeb91400b679f83c",
-    "text": "fix from comments",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_d29248ac0dcf56a2d920005a3b19671f48db722c",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
-    "occured_at": "2026-01-04T14:52:44.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/d29248ac0dcf56a2d920005a3b19671f48db722c",
-    "text": "Merge branch 'develop' into prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints",
     "points": null,
     "meta": {}
   }

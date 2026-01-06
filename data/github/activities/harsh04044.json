@@ -484,6 +484,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#14717",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14717",
+    "occured_at": "2025-12-11T14:17:48.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14717",
+    "text": "Facility type not displaying on facility cards",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_cleanup-inventory-create_b6d5678702c321d57643e61e3b3cf341e3b5b5b7",
     "contributor": "harsh04044",
     "activity_definition": "commit_created",
@@ -843,17 +854,6 @@
     "occured_at": "2025-12-12T13:48:03.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14749",
     "text": "Replace custom loading spinners with skeleton components in FacilityDetailsPage and UserDepartmentsTab",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14717",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14717",
-    "occured_at": "2025-12-11T14:17:48.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14717",
-    "text": "Facility type not displaying on facility cards",
     "points": null,
     "meta": {}
   },
@@ -1441,13 +1441,24 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14951",
+    "slug": "commit_created_issues/14592/wire-hc-in-af_0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
     "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14951",
-    "occured_at": "2025-12-26T16:37:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14951",
-    "text": "Bug: Consent form displays success message despite file upload failure",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14592/wire-hc-in-af",
+    "occured_at": "2026-01-02T06:07:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "text": "fix: add loading indicator to UserForm submit button (#14861)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14592/wire-hc-in-af_51f4410b89596427909e250ad788ec6bbb3058f7",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14592/wire-hc-in-af",
+    "occured_at": "2026-01-02T06:11:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
+    "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",
     "points": null,
     "meta": {}
   },
@@ -1459,6 +1470,17 @@
     "occured_at": "2026-01-05T10:34:42.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/15016",
     "text": "Add E2E tests for CriticalActionConfirmationDialog",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14951",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14951",
+    "occured_at": "2025-12-26T16:37:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14951",
+    "text": "Bug: Consent form displays success message despite file upload failure",
     "points": null,
     "meta": {}
   },
@@ -1503,6 +1525,17 @@
     "occured_at": "2026-01-05T08:40:33.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14981#issuecomment-3709443153",
     "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15020",
+    "contributor": "harsh04044",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #15020",
+    "occured_at": "2026-01-05T14:54:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15020",
+    "text": "fix: prevent success message on consent form when file upload fails",
     "points": null,
     "meta": {}
   },
@@ -1606,6 +1639,39 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data_b773af0594d8f6835a30170f2b854e97446c0c6d",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data",
+    "occured_at": "2025-12-30T12:04:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/b773af0594d8f6835a30170f2b854e97446c0c6d",
+    "text": "Fix/facility card type display (#14879)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data_0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data",
+    "occured_at": "2026-01-02T06:07:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "text": "fix: add loading indicator to UserForm submit button (#14861)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data_51f4410b89596427909e250ad788ec6bbb3058f7",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data",
+    "occured_at": "2026-01-02T06:11:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
+    "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_enhance-patient-home_b773af0594d8f6835a30170f2b854e97446c0c6d",
     "contributor": "harsh04044",
     "activity_definition": "commit_created",
@@ -1654,28 +1720,6 @@
     "contributor": "harsh04044",
     "activity_definition": "commit_created",
     "title": "Pushed commit to renovate/rollup-rollup-linux-arm64-gnu-4.x",
-    "occured_at": "2026-01-02T06:11:54.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
-    "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_issues/14592/wire-hc-in-af_0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
-    "contributor": "harsh04044",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to issues/14592/wire-hc-in-af",
-    "occured_at": "2026-01-02T06:07:17.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
-    "text": "fix: add loading indicator to UserForm submit button (#14861)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_issues/14592/wire-hc-in-af_51f4410b89596427909e250ad788ec6bbb3058f7",
-    "contributor": "harsh04044",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to issues/14592/wire-hc-in-af",
     "occured_at": "2026-01-02T06:11:54.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
     "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",

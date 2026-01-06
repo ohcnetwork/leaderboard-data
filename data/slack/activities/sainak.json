@@ -1,67 +1,12 @@
 [
   {
-    "slug": "eod_update_2025-11-07_sainak",
+    "slug": "eod_update_2022-06-06_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-11-06T20:55:58.316Z",
+    "occured_at": "2022-06-06T04:37:08.645Z",
     "link": null,
-    "text": "6th Nov<br>• Made changes to the lab analyzer based on feedbacks\n\n6th Nov<br>• Made changes to the lab analyzer based on feedbacks",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-26_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-25T22:57:46.483Z",
-    "link": null,
-    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-04_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-04T05:55:38.516Z",
-    "link": null,
-    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-20_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-20T09:08:33.143Z",
-    "link": null,
-    "text": "Created a PR <a href=\"https://github.com/ohcnetwork/care/pull/772\">https://github.com/ohcnetwork/care/pull/772</a><br>Tracked the error in <a href=\"https://github.com/ohcnetwork/care_fe/issues/2452\">https://github.com/ohcnetwork/care_fe/issues/2452</a><br>Tried to reproduce <a href=\"https://github.com/ohcnetwork/care_fe/issues/2422\">https://github.com/ohcnetwork/care_fe/issues/2422</a>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-18_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-18T07:25:48.644Z",
-    "link": null,
-    "text": "Nov 17<br>• Reviewed and made adjustments to the backend test PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-10_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-10T05:04:19.155Z",
-    "link": null,
-    "text": "Explored care repo and looked for issue that I can work on also discussed some possible upgrades for care container",
+    "text": "Trying to debug a wierd issue with django",
     "points": null,
     "meta": null
   },
@@ -143,6 +88,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2023-07-13_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-13T08:33:23.437Z",
+    "link": null,
+    "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-06-21_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -165,6 +121,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-27_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-26T19:43:19.883Z",
+    "link": null,
+    "text": "June 26th<br>• fixes to the suppliers field<br>• added additional filters for labs endpoints<br>• worked on migrations for investigations",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-06-07_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -172,6 +139,28 @@
     "occured_at": "2022-06-07T07:04:48.783Z",
     "link": null,
     "text": "Created an epic to track dependency updates in care<br>And made a pr <a href=\"https://github.com/ohcnetwork/care/pull/836\"><a href=\"https://github.com/ohcnetwork/care/pull/836\">https://github.com/ohcnetwork/care/pull/836</a></a>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-11-07_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-06T20:55:58.316Z",
+    "link": null,
+    "text": "6th Nov<br>• Made changes to the lab analyzer based on feedbacks\n\n6th Nov<br>• Made changes to the lab analyzer based on feedbacks",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-26_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-25T22:57:46.483Z",
+    "link": null,
+    "text": "June 25<br>• added supplier field to service requests<br>• updated scribe deployments for staging instance<br>• reviewed PRs",
     "points": null,
     "meta": null
   },
@@ -198,35 +187,46 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2022-06-06_sainak",
+    "slug": "eod_update_2023-07-04_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2022-06-06T04:37:08.645Z",
+    "occured_at": "2023-07-04T05:55:38.516Z",
     "link": null,
-    "text": "Trying to debug a wierd issue with django",
+    "text": "EOD 04/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go?<br>• Worked on Bed types v2<br>• Debugged issues with cypress failing due the backend<br>• Reviewed some Backend PRs<br>Whats up next?<br>• finish working on a basic implementation of bed types v2<br>• start working on new RBAC",
     "points": null,
     "meta": null
   },
   {
-    "slug": "eod_update_2023-07-13_sainak",
+    "slug": "eod_update_2022-05-20_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2023-07-13T08:33:23.437Z",
+    "occured_at": "2022-05-20T09:08:33.143Z",
     "link": null,
-    "text": "EOD 13/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>how did the day go ?<br>• added tests and migration to backfill user facility allocation tracking<br>• removed unused feed components from fe<br>• worked on making openID auth (care-&amp;gt;muddleware) configurable<br>what&#x27;s next<br>• remove unessary token dependencies (currently 4 in middleware and 3 in care)",
+    "text": "Created a PR <a href=\"https://github.com/ohcnetwork/care/pull/772\">https://github.com/ohcnetwork/care/pull/772</a><br>Tracked the error in <a href=\"https://github.com/ohcnetwork/care_fe/issues/2452\">https://github.com/ohcnetwork/care_fe/issues/2452</a><br>Tried to reproduce <a href=\"https://github.com/ohcnetwork/care_fe/issues/2422\">https://github.com/ohcnetwork/care_fe/issues/2422</a>",
     "points": null,
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-27_sainak",
+    "slug": "eod_update_2025-11-18_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
     "title": "EOD Update",
-    "occured_at": "2025-06-26T19:43:19.883Z",
+    "occured_at": "2025-11-18T07:25:48.644Z",
     "link": null,
-    "text": "June 26th<br>• fixes to the suppliers field<br>• added additional filters for labs endpoints<br>• worked on migrations for investigations",
+    "text": "Nov 17<br>• Reviewed and made adjustments to the backend test PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-10_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-10T05:04:19.155Z",
+    "link": null,
+    "text": "Explored care repo and looked for issue that I can work on also discussed some possible upgrades for care container",
     "points": null,
     "meta": null
   },

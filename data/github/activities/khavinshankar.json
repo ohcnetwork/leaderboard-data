@@ -1,16 +1,5 @@
 [
   {
-    "slug": "issue_opened_docs#21",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #21",
-    "occured_at": "2024-04-15T04:30:43.000Z",
-    "link": "https://github.com/ohcnetwork/docs/issues/21",
-    "text": "ABDM Integration",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care_fe#7506",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -29,6 +18,17 @@
     "occured_at": "2025-02-10T08:24:00.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10534",
     "text": "SSO Support",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_docs#21",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #21",
+    "occured_at": "2024-04-15T04:30:43.000Z",
+    "link": "https://github.com/ohcnetwork/docs/issues/21",
+    "text": "ABDM Integration",
     "points": null,
     "meta": {}
   },
@@ -2090,6 +2090,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#2046",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2046",
+    "occured_at": "2024-04-03T10:45:21.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2046",
+    "text": "Staging Release for v24.15.0",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#4972_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "issue_assigned",
@@ -2449,6 +2460,17 @@
     "occured_at": "2025-03-01T12:41:10.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2692185907",
     "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2046",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2046",
+    "occured_at": "2024-04-03T13:18:28.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2046",
+    "text": "Staging Release for v24.15.0",
     "points": null,
     "meta": {}
   },
@@ -2845,28 +2867,6 @@
     "occured_at": "2025-03-01T08:52:06.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10634#issuecomment-2692077435",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2046",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2046",
-    "occured_at": "2024-04-03T10:45:21.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2046",
-    "text": "Staging Release for v24.15.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2046",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2046",
-    "occured_at": "2024-04-03T13:18:28.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2046",
-    "text": "Staging Release for v24.15.0",
     "points": null,
     "meta": {}
   },
@@ -3608,6 +3608,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#8943",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #8943",
+    "occured_at": "2024-10-28T07:02:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8943",
+    "text": "HCX Plug FE",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13607_APPROVED_PRR_kwDODtfaXs69mVas",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -4330,6 +4341,17 @@
     "occured_at": "2025-04-14T14:42:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/11934",
     "text": "handle undefined case for encounter_diet_preference",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#9585",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #9585",
+    "occured_at": "2024-12-27T02:57:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/9585",
+    "text": "Wired the components in Consultation Medication Tab with latest FHIR based models",
     "points": null,
     "meta": {}
   },
@@ -5397,28 +5419,6 @@
     "occured_at": "2025-01-19T00:18:59.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/10009#pullrequestreview-2560712913",
     "text": "Feat: Disallow Relative import",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#8943",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #8943",
-    "occured_at": "2024-10-28T07:02:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8943",
-    "text": "HCX Plug FE",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#9585",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #9585",
-    "occured_at": "2024-12-27T02:57:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/9585",
-    "text": "Wired the components in Consultation Medication Tab with latest FHIR based models",
     "points": null,
     "meta": {}
   },
@@ -7931,6 +7931,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_arike#137",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #137",
+    "occured_at": "2021-12-08T05:07:38.000Z",
+    "link": "https://github.com/ohcnetwork/arike/issues/137",
+    "text": "In Agenda, make goto sticky",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_teleicu_devices_fe#46",
     "contributor": "khavinshankar",
     "activity_definition": "pr_merged",
@@ -9086,6 +9097,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_arike#142",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #142",
+    "occured_at": "2021-12-17T12:51:16.000Z",
+    "link": "https://github.com/ohcnetwork/arike/issues/142",
+    "text": "In Agenda, add a browser confirmation for unscheduling",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_deploy_configs#20_APPROVED_PRR_kwDOIrXtFs5ta483",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -9467,28 +9489,6 @@
     "occured_at": "2021-05-23T08:40:31.000Z",
     "link": "https://github.com/ohcnetwork/prescription-builder/pull/20",
     "text": "added new medicines, (https://github.com/coronasafe/care_fe/issues/1153)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_arike#142",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #142",
-    "occured_at": "2021-12-17T12:51:16.000Z",
-    "link": "https://github.com/ohcnetwork/arike/issues/142",
-    "text": "In Agenda, add a browser confirmation for unscheduling",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_arike#137",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #137",
-    "occured_at": "2021-12-08T05:07:38.000Z",
-    "link": "https://github.com/ohcnetwork/arike/issues/137",
-    "text": "In Agenda, make goto sticky",
     "points": null,
     "meta": {}
   },
@@ -11737,6 +11737,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#8540",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #8540",
+    "occured_at": "2024-09-18T12:31:41.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8540",
+    "text": "Remove all direct API calls from frontend to middleware",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#6376",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -12118,17 +12129,6 @@
     "occured_at": "2024-09-17T10:49:03.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/8543",
     "text": "Add Cypress to verify the user workflow of the discussion notes",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#8540",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #8540",
-    "occured_at": "2024-09-18T12:31:41.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8540",
-    "text": "Remove all direct API calls from frontend to middleware",
     "points": null,
     "meta": {}
   },
@@ -16764,6 +16764,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#6530",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #6530",
+    "occured_at": "2023-12-06T07:57:18.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/6530",
+    "text": "Replace useDispatch w. useQuery/request: Users (src/Components/Users/**)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#6391",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -17145,17 +17156,6 @@
     "occured_at": "2023-12-06T07:57:19.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/6652",
     "text": "Multiple Same API Calls are been called in linked skills section",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#6530",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #6530",
-    "occured_at": "2023-12-06T07:57:18.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/6530",
-    "text": "Replace useDispatch w. useQuery/request: Users (src/Components/Users/**)",
     "points": null,
     "meta": {}
   },
@@ -17930,6 +17930,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#6425",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #6425",
+    "occured_at": "2023-10-11T03:03:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/6425",
+    "text": "Incorrect browser tab page title in Consultation: Medicines Tab",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#6429",
     "contributor": "khavinshankar",
     "activity_definition": "issue_closed",
@@ -18311,17 +18322,6 @@
     "occured_at": "2023-09-11T13:50:42.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/6233",
     "text": "Bug in Back buttons (asset management)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#6425",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #6425",
-    "occured_at": "2023-10-11T03:03:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/6425",
-    "text": "Incorrect browser tab page title in Consultation: Medicines Tab",
     "points": null,
     "meta": {}
   },
@@ -30195,6 +30195,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#8511_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #8511 assigned",
+    "occured_at": "2024-09-17T10:09:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/8511",
+    "text": "Patient sorting: Bed 1-N",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_opened_care_fe#2005",
     "contributor": "khavinshankar",
     "activity_definition": "issue_opened",
@@ -30569,6 +30580,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_care_fe#7296_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #7296 assigned",
+    "occured_at": "2024-05-27T05:47:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/7296",
+    "text": "Bed Capacity- facilities",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#11681_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "issue_assigned",
@@ -30928,28 +30950,6 @@
     "occured_at": "2023-08-11T06:23:32.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/6050",
     "text": "Use absolute paths for imports & Introduce Frontend Plugins",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#8511_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #8511 assigned",
-    "occured_at": "2024-09-17T10:09:36.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/8511",
-    "text": "Patient sorting: Bed 1-N",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#7296_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #7296 assigned",
-    "occured_at": "2024-05-27T05:47:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/7296",
-    "text": "Bed Capacity- facilities",
     "points": null,
     "meta": {}
   },
@@ -34639,6 +34639,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#2788",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2788",
+    "occured_at": "2022-06-20T15:16:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2788",
+    "text": "Push notifications",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#14240",
     "contributor": "khavinshankar",
     "activity_definition": "pr_merged",
@@ -35295,6 +35306,17 @@
     "occured_at": "2025-10-07T13:35:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13992#pullrequestreview-3310161703",
     "text": "fix workflow: support team roles and current sprint options",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#2215",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2215",
+    "occured_at": "2022-04-05T10:11:46.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/2215",
+    "text": "fixed dropdown update issue in InvestigationsTable",
     "points": null,
     "meta": {}
   },
@@ -36982,6 +37004,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#7526",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #7526",
+    "occured_at": "2024-04-03T16:19:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
+    "text": "Added github workflow for automated release",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#10988_APPROVED_PRR_kwDODtfaXs6ezYHN",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -37638,6 +37671,17 @@
     "occured_at": "2024-05-14T11:58:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/7817",
     "text": "Frontend Adjustments for ABDM Plug Conversion",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#4529",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #4529",
+    "occured_at": "2023-01-06T13:19:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/4529",
+    "text": "Fixed patient link in FacilityCard",
     "points": null,
     "meta": {}
   },
@@ -38342,28 +38386,6 @@
     "occured_at": "2022-05-26T12:26:15.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/2538",
     "text": "swapped classnames with clsx",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#2788",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2788",
-    "occured_at": "2022-06-20T15:16:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2788",
-    "text": "Push notifications",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#2215",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2215",
-    "occured_at": "2022-04-05T10:11:46.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/2215",
-    "text": "fixed dropdown update issue in InvestigationsTable",
     "points": null,
     "meta": {}
   },
@@ -39695,28 +39717,6 @@
     "occured_at": "2024-10-09T14:51:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8749#pullrequestreview-2357402396",
     "text": "Staging release v24.42.0",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#7526",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #7526",
-    "occured_at": "2024-04-03T16:19:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/7526",
-    "text": "Added github workflow for automated release",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#4529",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #4529",
-    "occured_at": "2023-01-06T13:19:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/4529",
-    "text": "Fixed patient link in FacilityCard",
     "points": null,
     "meta": {}
   },
@@ -42372,6 +42372,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#8075_APPROVED_PRR_kwDODtfaXs6BKSJQ",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #8075",
+    "occured_at": "2024-07-09T17:22:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8075#pullrequestreview-2166956624",
+    "text": "Adds additional units and route to prescriptions",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#8185_APPROVED_PRR_kwDODtfaXs6Cm7AR",
     "contributor": "khavinshankar",
     "activity_definition": "pr_reviewed",
@@ -42687,17 +42698,6 @@
     "occured_at": "2024-07-09T17:24:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8109#pullrequestreview-2166960524",
     "text": "Progress Notes: Adds support for filing Resp. support and Neurological Monitoring data",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#8075_APPROVED_PRR_kwDODtfaXs6BKSJQ",
-    "contributor": "khavinshankar",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #8075",
-    "occured_at": "2024-07-09T17:22:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8075#pullrequestreview-2166956624",
-    "text": "Adds additional units and route to prescriptions",
     "points": null,
     "meta": {}
   },
@@ -78111,13 +78111,13 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14910",
+    "slug": "commit_created_khavinshankar/fix/14641_75426e579ada0a0f8083b2f64b7ca50a08af498d",
     "contributor": "khavinshankar",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14910",
-    "occured_at": "2025-12-22T11:58:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14910",
-    "text": "Updated bed status icons",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to khavinshankar/fix/14641",
+    "occured_at": "2026-01-05T06:31:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/75426e579ada0a0f8083b2f64b7ca50a08af498d",
+    "text": "added aria labels for the icons",
     "points": null,
     "meta": {}
   },
@@ -78129,6 +78129,28 @@
     "occured_at": "2026-01-05T09:57:43.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/15015",
     "text": "show sub locations and sub departments while searching",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14910",
+    "contributor": "khavinshankar",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14910",
+    "occured_at": "2025-12-22T11:58:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14910",
+    "text": "Updated bed status icons",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data_8c4ea986703d985d5c61388f4df1ddd8ccce28c1",
+    "contributor": "khavinshankar",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data",
+    "occured_at": "2025-12-30T04:29:34.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/8c4ea986703d985d5c61388f4df1ddd8ccce28c1",
+    "text": "fixed validation error while editing charge items (#14913)",
     "points": null,
     "meta": {}
   },
@@ -78162,17 +78184,6 @@
     "occured_at": "2025-12-30T04:29:34.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/8c4ea986703d985d5c61388f4df1ddd8ccce28c1",
     "text": "fixed validation error while editing charge items (#14913)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_khavinshankar/fix/14641_75426e579ada0a0f8083b2f64b7ca50a08af498d",
-    "contributor": "khavinshankar",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to khavinshankar/fix/14641",
-    "occured_at": "2026-01-05T06:31:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/75426e579ada0a0f8083b2f64b7ca50a08af498d",
-    "text": "added aria labels for the icons",
     "points": null,
     "meta": {}
   }

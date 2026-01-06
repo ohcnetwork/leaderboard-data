@@ -869,6 +869,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#14486_IC_kwDODtfaXs7U3-8E",
+    "contributor": "Copilot",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14486",
+    "occured_at": "2025-11-24T15:39:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14486#issuecomment-3571445508",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/14174/ad-list-specs_598701a70dbc74ad022ddb9e007cd2ca4aed233d",
     "contributor": "Copilot",
     "activity_definition": "commit_created",
@@ -1107,17 +1118,6 @@
     "occured_at": "2025-11-21T15:16:19.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/598701a70dbc74ad022ddb9e007cd2ca4aed233d",
     "text": "Remove all Cypress test infrastructure, references, and configurations (#14468)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14486_IC_kwDODtfaXs7U3-8E",
-    "contributor": "Copilot",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14486",
-    "occured_at": "2025-11-24T15:39:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14486#issuecomment-3571445508",
-    "text": null,
     "points": null,
     "meta": {}
   },
@@ -2277,17 +2277,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_datapoint/patient_61717cd692a372d36c4b6421ab10424bbf2482c1",
-    "contributor": "Copilot",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to datapoint/patient",
-    "occured_at": "2025-12-23T10:19:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/61717cd692a372d36c4b6421ab10424bbf2482c1",
-    "text": "Document all backend environment variables in .env.example (#3425)",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_prafful/add-identifiers-and-tag-details-for-patient-in-multiple-endpoints_61717cd692a372d36c4b6421ab10424bbf2482c1",
     "contributor": "Copilot",
     "activity_definition": "commit_created",
@@ -2317,6 +2306,28 @@
     "occured_at": "2026-01-05T05:34:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/9347e88052b0ac7312f91d59e5ca3042b1e98434",
     "text": "Fix hardcoded toast messages - replace with i18n keys",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_datapoint/patient_61717cd692a372d36c4b6421ab10424bbf2482c1",
+    "contributor": "Copilot",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2025-12-23T10:19:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/61717cd692a372d36c4b6421ab10424bbf2482c1",
+    "text": "Document all backend environment variables in .env.example (#3425)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data_77f727714fc284dabacc1c3f1eeea3d598ef72bb",
+    "contributor": "Copilot",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to rithviknishad/fix/enhance-ui-when-no-perm-to-view-encounter-clinical-data",
+    "occured_at": "2025-12-30T07:29:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/77f727714fc284dabacc1c3f1eeea3d598ef72bb",
+    "text": "Fix Playwright CI failures from JWT token expiration (#14967)",
     "points": null,
     "meta": {}
   }
