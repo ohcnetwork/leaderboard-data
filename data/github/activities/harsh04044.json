@@ -1474,28 +1474,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14951",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14951",
-    "occured_at": "2025-12-26T16:37:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14951",
-    "text": "Bug: Consent form displays success message despite file upload failure",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#14951_harsh04044",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14951 assigned",
-    "occured_at": "2026-01-05T11:51:16.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14951",
-    "text": "Bug: Consent form displays success message despite file upload failure",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#15016_IC_kwDODtfaXs7dIEmi",
     "contributor": "harsh04044",
     "activity_definition": "comment_created",
@@ -1525,17 +1503,6 @@
     "occured_at": "2026-01-05T08:40:33.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14981#issuecomment-3709443153",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#15020",
-    "contributor": "harsh04044",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #15020",
-    "occured_at": "2026-01-05T14:54:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15020",
-    "text": "fix: prevent success message on consent form when file upload fails",
     "points": null,
     "meta": {}
   },
@@ -1613,28 +1580,6 @@
     "occured_at": "2026-01-05T09:54:41.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14881#pullrequestreview-3626185562",
     "text": "Replace hardcoded \"Loading...\" text with skeleton loaders ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14880",
-    "contributor": "harsh04044",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14880",
-    "occured_at": "2025-12-18T14:59:01.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14880",
-    "text": "fix: replace custom loading spinners with skeleton components",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14880_COMMENTED_PRR_kwDODtfaXs7X63U_",
-    "contributor": "harsh04044",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14880",
-    "occured_at": "2026-01-02T09:14:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14880#pullrequestreview-3622532415",
-    "text": "fix: replace custom loading spinners with skeleton components",
     "points": null,
     "meta": {}
   },
@@ -1723,6 +1668,61 @@
     "occured_at": "2026-01-02T06:11:54.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
     "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14951",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14951",
+    "occured_at": "2025-12-26T16:37:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14951",
+    "text": "Bug: Consent form displays success message despite file upload failure",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14951_harsh04044",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14951 assigned",
+    "occured_at": "2026-01-05T11:51:16.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14951",
+    "text": "Bug: Consent form displays success message despite file upload failure",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15020",
+    "contributor": "harsh04044",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #15020",
+    "occured_at": "2026-01-05T14:54:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15020",
+    "text": "fix: prevent success message on consent form when file upload fails",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14880",
+    "contributor": "harsh04044",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14880",
+    "occured_at": "2025-12-18T14:59:01.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14880",
+    "text": "fix: replace custom loading spinners with skeleton components",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14880_COMMENTED_PRR_kwDODtfaXs7X63U_",
+    "contributor": "harsh04044",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14880",
+    "occured_at": "2026-01-02T09:14:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14880#pullrequestreview-3622532415",
+    "text": "fix: replace custom loading spinners with skeleton components",
     "points": null,
     "meta": {}
   }

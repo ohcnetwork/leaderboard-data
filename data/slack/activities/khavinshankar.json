@@ -231,6 +231,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-05-16_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-05-15T19:11:27.929Z",
+    "link": null,
+    "text": "May 15<br>• Fixed hcx fhir mapping mismatches<br>• Planned out integrating charge items into hcx claims flow along with other details like care_team, diagnosis, ...<br>Next<br>• Make changes to abha number linking ui suggested by Vinu<br>• Biometrics auth in abdm<br>• Integrate charge items into hcx workflow<br>• Review PHR Enrollment PR by Siva",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-11-27_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -469,17 +480,6 @@
     "occured_at": "2024-11-21T16:54:08.519Z",
     "link": null,
     "text": "<strong>19th November (missed an update previously)</strong><br>• Fixed diagnosis display in abdm plug<br>• Tried to resolve fhir.resources dependency issue<br>• Reviewed and merged the tested PRs<br><strong>21st November</strong><br>• Replicated the ServiceRequest and procedure Valueset in emr app, just experimented with the structure<br>• Had a call with Prafful to help with migration in camera plugin<br>• Was debugging 404 issue with the endpoints in camera plugin<br><strong>Up Next</strong><br>• Resolve fhir.resources dependency issue<br>• Sync with Vinu to discuss on labs UI<br>• Get started on Labs module and come up with an estimated time of completion",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-05-16_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-05-15T19:11:27.929Z",
-    "link": null,
-    "text": "May 15<br>• Fixed hcx fhir mapping mismatches<br>• Planned out integrating charge items into hcx claims flow along with other details like care_team, diagnosis, ...<br>Next<br>• Make changes to abha number linking ui suggested by Vinu<br>• Biometrics auth in abdm<br>• Integrate charge items into hcx workflow<br>• Review PHR Enrollment PR by Siva",
     "points": null,
     "meta": null
   },

@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_opened_odoo_connector#47",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #47",
+    "occured_at": "2025-11-14T09:07:31.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/47",
+    "text": "[ADD]:grn_number_in_vendor_bill",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_odoo_connector#35",
     "contributor": "Visakhdc",
     "activity_definition": "pr_merged",
@@ -326,17 +337,6 @@
     "occured_at": "2025-11-06T05:17:01.000Z",
     "link": "https://github.com/ohcnetwork/odoo_connector/pull/35",
     "text": "[FIX]: separate from accounting kit reports",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_odoo_connector#47",
-    "contributor": "Visakhdc",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #47",
-    "occured_at": "2025-11-14T09:07:31.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/47",
-    "text": "[ADD]:grn_number_in_vendor_bill",
     "points": null,
     "meta": {}
   },
@@ -2684,6 +2684,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_odoo_connector#55",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #55",
+    "occured_at": "2025-11-19T08:46:35.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/55",
+    "text": "[FIX]:Discount application is only applicable to invoices.",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_main_3141c945be2a96f42a4cf8b7b297ce3e7f236287",
     "contributor": "Visakhdc",
     "activity_definition": "commit_created",
@@ -3278,17 +3289,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_odoo_connector#55",
-    "contributor": "Visakhdc",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #55",
-    "occured_at": "2025-11-19T08:46:35.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/55",
-    "text": "[FIX]:Discount application is only applicable to invoices.",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_main_0b931f76f6a791af9f5d4817fa1217f9ea876b0c",
     "contributor": "Visakhdc",
     "activity_definition": "commit_created",
@@ -3608,6 +3608,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_odoo_connector#105",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #105",
+    "occured_at": "2025-12-16T07:08:44.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/105",
+    "text": "[FIX]:remove discounts and subtotal calculation",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_visakh_ssmm_bank_reconciliation_15a58ab034ebb8140c8cd47a6135a283a9f906ef",
     "contributor": "Visakhdc",
     "activity_definition": "commit_created",
@@ -3901,17 +3912,6 @@
     "occured_at": "2025-12-01T10:15:07.000Z",
     "link": "https://github.com/ohcnetwork/odoo_connector/pull/80",
     "text": "[IMP]:Updating partner details in user endpoint",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_odoo_connector#105",
-    "contributor": "Visakhdc",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #105",
-    "occured_at": "2025-12-16T07:08:44.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/105",
-    "text": "[FIX]:remove discounts and subtotal calculation",
     "points": null,
     "meta": {}
   },
@@ -4224,6 +4224,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_odoo_connector#101",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #101",
+    "occured_at": "2025-12-15T09:40:25.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/101",
+    "text": "[IMP]:validation for insurance lines",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_main_75a213b4994e40c8b04fe5350f00d264ae8ef63e",
     "contributor": "Visakhdc",
     "activity_definition": "commit_created",
@@ -4473,6 +4484,17 @@
     "occured_at": "2025-12-02T09:00:09.000Z",
     "link": "https://github.com/ohcnetwork/odoo_connector/pull/82",
     "text": "[ADD]:Api oca_adjust_label",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_odoo_connector#115",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #115",
+    "occured_at": "2025-12-23T15:50:00.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/115",
+    "text": "[IMP]:Changed cash transfer accept",
     "points": null,
     "meta": {}
   },
@@ -5012,17 +5034,6 @@
     "occured_at": "2025-12-02T06:48:07.000Z",
     "link": "https://github.com/ohcnetwork/odoo_connector/commit/8de22ccc3fb0b65966cbd0e132d2d8d7dc453f75",
     "text": "[IMP]:Api for chart of accounts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_odoo_connector#101",
-    "contributor": "Visakhdc",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #101",
-    "occured_at": "2025-12-15T09:40:25.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/101",
-    "text": "[IMP]:validation for insurance lines",
     "points": null,
     "meta": {}
   },
@@ -7425,17 +7436,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_merged_odoo_connector#115",
-    "contributor": "Visakhdc",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #115",
-    "occured_at": "2025-12-23T15:50:00.000Z",
-    "link": "https://github.com/ohcnetwork/odoo_connector/pull/115",
-    "text": "[IMP]:Changed cash transfer accept",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_main_90f4813b1164047e0b6e0c9bdd993f0b64d5d6aa",
     "contributor": "Visakhdc",
     "activity_definition": "commit_created",
@@ -7535,6 +7535,28 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_odoo_connector#123",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #123",
+    "occured_at": "2026-01-06T04:19:27.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/123",
+    "text": "[IMP]:Counter name update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_odoo_connector#123",
+    "contributor": "Visakhdc",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #123",
+    "occured_at": "2026-01-06T04:19:36.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/pull/123",
+    "text": "[IMP]:Counter name update",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_odoo_connector#122",
     "contributor": "Visakhdc",
     "activity_definition": "pr_opened",
@@ -7553,6 +7575,28 @@
     "occured_at": "2026-01-05T19:56:49.000Z",
     "link": "https://github.com/ohcnetwork/odoo_connector/pull/122",
     "text": "[IMP]:Added a new button for submit the denomination",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_a9688275753f6700dd494a33c93effe325a4f388",
+    "contributor": "Visakhdc",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2026-01-06T04:18:45.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/commit/a9688275753f6700dd494a33c93effe325a4f388",
+    "text": "[IMP]:Counter name update",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_main_8b3dcda0dda73df681747f803e0682af517c2077",
+    "contributor": "Visakhdc",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to main",
+    "occured_at": "2026-01-06T04:19:36.000Z",
+    "link": "https://github.com/ohcnetwork/odoo_connector/commit/8b3dcda0dda73df681747f803e0682af517c2077",
+    "text": "Merge pull request #123 from ohcnetwork/care_connector_counter_name_update",
     "points": null,
     "meta": {}
   },

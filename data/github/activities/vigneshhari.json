@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_opened_care#449",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #449",
+    "occured_at": "2020-08-01T08:11:45.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/449",
+    "text": "July Last week Release",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_docs#62",
     "contributor": "vigneshhari",
     "activity_definition": "issue_closed",
@@ -150,17 +161,6 @@
     "occured_at": "2021-10-18T15:37:59.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/635",
     "text": "Added Health Checks",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#449",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #449",
-    "occured_at": "2020-08-01T08:11:45.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/449",
-    "text": "July Last week Release",
     "points": null,
     "meta": {}
   },
@@ -48961,28 +48961,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care#3419_IC_kwDODsgdF87dLMXu",
-    "contributor": "vigneshhari",
-    "activity_definition": "comment_created",
-    "title": "Commented on #3419",
-    "occured_at": "2026-01-05T14:37:41.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3419#issuecomment-3710698990",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3419_APPROVED_PRR_kwDODsgdF87YMUlA",
-    "contributor": "vigneshhari",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3419",
-    "occured_at": "2026-01-05T14:37:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3419#pullrequestreview-3627108672",
-    "text": " Data points for patient level report builder",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3442_APPROVED_PRR_kwDODsgdF87YHx3C",
     "contributor": "vigneshhari",
     "activity_definition": "pr_reviewed",
@@ -49045,6 +49023,105 @@
     "occured_at": "2025-12-28T17:02:57.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/108fe9e783cbab1ffc310e60ddc6c6b56e972f21",
     "text": "Disallow issuing invoice without charge items",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#3411_IC_kwDODsgdF87dVSbn",
+    "contributor": "vigneshhari",
+    "activity_definition": "comment_created",
+    "title": "Commented on #3411",
+    "occured_at": "2026-01-06T06:43:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3411#issuecomment-3713345255",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care#3419_IC_kwDODsgdF87dLMXu",
+    "contributor": "vigneshhari",
+    "activity_definition": "comment_created",
+    "title": "Commented on #3419",
+    "occured_at": "2026-01-05T14:37:41.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3419#issuecomment-3710698990",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3411_APPROVED_PRR_kwDODsgdF87YV_BZ",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3411",
+    "occured_at": "2026-01-06T06:43:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3411#pullrequestreview-3629641817",
+    "text": "add identifiers and tag details for patient in multiple endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3441_CHANGES_REQUESTED_PRR_kwDODsgdF87YZCsq",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #3441",
+    "occured_at": "2026-01-06T10:48:58.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3441#pullrequestreview-3630443306",
+    "text": "Add extensions in Account",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3430_CHANGES_REQUESTED_PRR_kwDODsgdF87YZD-P",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #3430",
+    "occured_at": "2026-01-06T10:50:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3430#pullrequestreview-3630448527",
+    "text": "Fix PlugConfig cache miss for empty list",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3445_APPROVED_PRR_kwDODsgdF87YZA1T",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3445",
+    "occured_at": "2026-01-06T10:47:01.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3445#pullrequestreview-3630435667",
+    "text": "Added patient field to Account context builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3445_APPROVED_PRR_kwDODsgdF87YZBgI",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3445",
+    "occured_at": "2026-01-06T10:47:57.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3445#pullrequestreview-3630438408",
+    "text": "Added patient field to Account context builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3443_APPROVED_PRR_kwDODsgdF87YV9_z",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3443",
+    "occured_at": "2026-01-06T06:41:22.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3443#pullrequestreview-3629637619",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3419_APPROVED_PRR_kwDODsgdF87YMUlA",
+    "contributor": "vigneshhari",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3419",
+    "occured_at": "2026-01-05T14:37:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3419#pullrequestreview-3627108672",
+    "text": " Data points for patient level report builder",
     "points": null,
     "meta": {}
   }
