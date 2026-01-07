@@ -2893,6 +2893,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_production_0395cb62d9aa088b88b45fb9c93570f0048bdf0a",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to production",
+    "occured_at": "2025-12-09T13:34:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0395cb62d9aa088b88b45fb9c93570f0048bdf0a",
+    "text": "Removed extra scrollbar in Observations (#14568)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/14592/wire-hc-in-af_681f747e84070626bc3fb9d7628f35066b479501",
     "contributor": "StephZam",
     "activity_definition": "commit_created",
@@ -3762,17 +3773,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_production_0395cb62d9aa088b88b45fb9c93570f0048bdf0a",
-    "contributor": "StephZam",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to production",
-    "occured_at": "2025-12-09T13:34:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/commit/0395cb62d9aa088b88b45fb9c93570f0048bdf0a",
-    "text": "Removed extra scrollbar in Observations (#14568)",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_production_8b8ec1e7e0e2f11a64f76fe3626d4085937dfd4a",
     "contributor": "StephZam",
     "activity_definition": "commit_created",
@@ -4224,17 +4224,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14973",
-    "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14973",
-    "occured_at": "2025-12-29T12:11:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14973",
-    "text": "Added a skeleton loader in Encounter Actions",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_khavinshankar/feat/config-envs-for-plugs_e872f9f491bd8f6e36c9e04f92bf3ee57ee9c8b2",
     "contributor": "StephZam",
     "activity_definition": "commit_created",
@@ -4374,28 +4363,6 @@
     "occured_at": "2026-01-01T12:10:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/commit/bedea227c30468892e0974f3f1562af3c0563d05",
     "text": "fix: disabled create button in Add Location form (#14909)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#15008",
-    "contributor": "StephZam",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #15008",
-    "occured_at": "2026-01-05T06:51:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/15008",
-    "text": "Questionnaire search in Encounter Actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_assigned_care_fe#15008_StephZam",
-    "contributor": "StephZam",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #15008 assigned",
-    "occured_at": "2026-01-05T06:51:58.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/15008",
-    "text": "Questionnaire search in Encounter Actions",
     "points": null,
     "meta": {}
   },
@@ -4565,13 +4532,24 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#15026_StephZam",
+    "slug": "pr_opened_care_fe#14802",
     "contributor": "StephZam",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #15026 assigned",
-    "occured_at": "2026-01-06T06:24:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/15026",
-    "text": "fix: Report type in Template Builder",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14802",
+    "occured_at": "2025-12-16T08:37:25.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14802",
+    "text": "Facility organization selector redesigned",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#15008",
+    "contributor": "StephZam",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #15008",
+    "occured_at": "2026-01-05T06:51:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15008",
+    "text": "Questionnaire search in Encounter Actions",
     "points": null,
     "meta": {}
   },
@@ -4583,6 +4561,61 @@
     "occured_at": "2026-01-06T06:24:18.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/15026",
     "text": "fix: Report type in Template Builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#15008_StephZam",
+    "contributor": "StephZam",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #15008 assigned",
+    "occured_at": "2026-01-05T06:51:58.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15008",
+    "text": "Questionnaire search in Encounter Actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#15026_StephZam",
+    "contributor": "StephZam",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #15026 assigned",
+    "occured_at": "2026-01-06T06:24:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15026",
+    "text": "fix: Report type in Template Builder",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14973",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14973",
+    "occured_at": "2025-12-29T12:11:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14973",
+    "text": "Added a skeleton loader in Encounter Actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15009",
+    "contributor": "StephZam",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #15009",
+    "occured_at": "2026-01-05T07:02:45.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15009",
+    "text": "fix: questionnaire search in encounter actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#15009",
+    "contributor": "StephZam",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #15009",
+    "occured_at": "2026-01-06T12:25:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15009",
+    "text": "fix: questionnaire search in encounter actions",
     "points": null,
     "meta": {}
   },
@@ -4609,24 +4642,35 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#15009",
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_987a7c22c49ca59cbf8f08cab417fba55429ae76",
     "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #15009",
-    "occured_at": "2026-01-05T07:02:45.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15009",
-    "text": "fix: questionnaire search in encounter actions",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-06T12:25:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/987a7c22c49ca59cbf8f08cab417fba55429ae76",
+    "text": "fix: questionnaire search in encounter actions (#15009)",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#14802",
+    "slug": "commit_created_renovate/all-dependencies-(patch)_987a7c22c49ca59cbf8f08cab417fba55429ae76",
     "contributor": "StephZam",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14802",
-    "occured_at": "2025-12-16T08:37:25.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14802",
-    "text": "Facility organization selector redesigned",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/all-dependencies-(patch)",
+    "occured_at": "2026-01-06T12:25:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/987a7c22c49ca59cbf8f08cab417fba55429ae76",
+    "text": "fix: questionnaire search in encounter actions (#15009)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_987a7c22c49ca59cbf8f08cab417fba55429ae76",
+    "contributor": "StephZam",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2026-01-06T12:25:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/987a7c22c49ca59cbf8f08cab417fba55429ae76",
+    "text": "fix: questionnaire search in encounter actions (#15009)",
     "points": null,
     "meta": {}
   },
