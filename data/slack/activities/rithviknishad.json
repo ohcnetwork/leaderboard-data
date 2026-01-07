@@ -528,6 +528,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2022-05-19_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-19T03:52:42.358Z",
+    "link": null,
+    "text": "• Working on <a href=\"https://github.com/ohcnetwork/care_fe/issues/2436\">#2436</a> <br>• Created issue <a href=\"https://github.com/ohcnetwork/care_fe/issues/2438\">#2438</a>",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2022-08-16_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -737,17 +748,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2022-05-19_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-19T03:52:42.358Z",
-    "link": null,
-    "text": "• Working on <a href=\"https://github.com/ohcnetwork/care_fe/issues/2436\">#2436</a> <br>• Created issue <a href=\"https://github.com/ohcnetwork/care_fe/issues/2438\">#2438</a>",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2022-06-18_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -931,6 +931,17 @@
     "occured_at": "2023-05-27T03:10:41.168Z",
     "link": null,
     "text": "EOD 27/05/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go?<br><br>• Reviewed 4 react for all submissions<br>• Reviewed couple of open source PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-09-13_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-09-13T05:12:24.877Z",
+    "link": null,
+    "text": "Implemented Tailwind Component <code>SwitchV2</code> . Coming via <a href=\"https://github.com/ohcnetwork/care_fe/pull/3458\">care_fe/3458</a><br>Working on data fetching hooks for dashboard and combobox tailwind component",
     "points": null,
     "meta": null
   },
@@ -1294,17 +1305,6 @@
     "occured_at": "2022-09-07T04:24:18.594Z",
     "link": null,
     "text": "• <a href=\"https://github.com/ohcnetwork/care/pull/1006\">care/#1006</a> Marked <code>warranty_details</code> as deprecated in BE.<br>• <a href=\"https://github.com/ohcnetwork/care/pull/885\">care/#885</a> Resolved conflicts for modify covid category to patient category BE PR.<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/3458\">care_fe/#3458</a> Cleaned asset reg v2 PR and made ready for testing.<br>• Working on <code>SearchSelectV2</code> tailwind component.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-09-13_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-09-13T05:12:24.877Z",
-    "link": null,
-    "text": "Implemented Tailwind Component <code>SwitchV2</code> . Coming via <a href=\"https://github.com/ohcnetwork/care_fe/pull/3458\">care_fe/3458</a><br>Working on data fetching hooks for dashboard and combobox tailwind component",
     "points": null,
     "meta": null
   },
@@ -1892,6 +1892,28 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-08-19_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-08-18T19:05:20.953Z",
+    "link": null,
+    "text": "<strong>august 18</strong><br>• script for bulk importing prod. knowledge<br>• script for bulk creating roles<br>• reviewed prs<br><strong>next</strong><br>• sudeendhra checklist items<br>• cursor pagination for appointments",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-07-08_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-07-08T07:39:20.465Z",
+    "link": null,
+    "text": "<strong>july 8</strong><br>• encounter overview (mainly mobile ui) and clinical history related things along with <span class=\"s-mention s-user\">@U083HFWFESD</span> <br><strong>next</strong><br>• fix issues reported during QA for the above",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-05-17_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2020,28 +2042,6 @@
     "occured_at": "2023-09-06T04:44:18.893Z",
     "link": null,
     "text": "<strong>EOD 06/08/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong> <br><br><strong>How did the day go?</strong><br><br>• Reviewed 4 react for all submissions<br>• Reviewed 1 C4GT PR<br>• Fixed cypress tests on Principal Diagnosis PR<br>• Tried debugging why tests were unrelated tests were failing (prescriptions) in consultation verified by field PR in backend. Seems like random tests are failing on existing PRs. Rebased migrations on the way while debugging it.<br>• <a href=\"https://github.com/ohcnetwork/care/pull/1583\">#1583</a>: Updated ICD11 Meta Table to include a shorter chapter name and deleted field",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-08-19_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-08-18T19:05:20.953Z",
-    "link": null,
-    "text": "<strong>august 18</strong><br>• script for bulk importing prod. knowledge<br>• script for bulk creating roles<br>• reviewed prs<br><strong>next</strong><br>• sudeendhra checklist items<br>• cursor pagination for appointments",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-07-08_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-07-08T07:39:20.465Z",
-    "link": null,
-    "text": "<strong>july 8</strong><br>• encounter overview (mainly mobile ui) and clinical history related things along with <span class=\"s-mention s-user\">@U083HFWFESD</span> <br><strong>next</strong><br>• fix issues reported during QA for the above",
     "points": null,
     "meta": null
   },
@@ -2640,6 +2640,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-01-20_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-20T06:52:39.740Z",
+    "link": null,
+    "text": "<strong>Jan 20th</strong><br>• Removed a hack from FE that did conversion for timezone adjustments <a href=\"https://github.com/ohcnetwork/care_fe/pull/10061\">#10061</a><br>• Fixed edge case in tests<br>• Played around with tanstack router migration - brain wasn’t braining when doing that, so jumped to:<br>• Worked on improving global error handler<br>• Reviewed PRs<br><strong>Next</strong><br>• Build utility to extract field errors from bad request responses and set to react hook form’s error state and rethrow if any extras.<br>• Tanstack router",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-31_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2860,6 +2871,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-06_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-05T19:00:23.004Z",
+    "link": null,
+    "text": "<strong>nov 5</strong><br>• worked on leaderboard scraper<br><strong>next</strong><br>• leaderboard\n\n<strong>nov 5</strong><br>• worked on leaderboard scraper<br><strong>next</strong><br>• leaderboard\n\n<strong>nov 6</strong><br>• spent little time on leaderboard scraper<br>• wrote a new script to upload inventory items to pallium<br><strong>next</strong><br>• leaderboard\n\n<strong>nov 6</strong><br>• spent little time on leaderboard scraper<br>• wrote a new script to upload inventory items to pallium<br><strong>next</strong><br>• leaderboard",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2023-08-02_rithviknishad",
     "contributor": "rithviknishad",
     "activity_definition": "eod_update",
@@ -2955,28 +2977,6 @@
     "occured_at": "2023-10-11T04:17:13.826Z",
     "link": null,
     "text": "<strong>EOD 11/10/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span></strong><br><br><strong>How did the day go?</strong><br>• reviewed all useQuery migration PRs<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6437\">#6437</a>: fixed nutrition tab showing nursing analysis tab bug<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/6396\">#6396</a>: completed suggested changes in medicine administration table<br>• <a href=\"https://github.com/ohcnetwork/care_fe/issues/6442\">#6442</a>: migrated useDispatch to useQuery/request in medicines/prescriptions module.<br><strong>What&#x27;s next?</strong><br>• Work consultation form: route to facility.<br>• Publish zoomdrive zoom app and make demo video.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-20_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-20T06:52:39.740Z",
-    "link": null,
-    "text": "<strong>Jan 20th</strong><br>• Removed a hack from FE that did conversion for timezone adjustments <a href=\"https://github.com/ohcnetwork/care_fe/pull/10061\">#10061</a><br>• Fixed edge case in tests<br>• Played around with tanstack router migration - brain wasn’t braining when doing that, so jumped to:<br>• Worked on improving global error handler<br>• Reviewed PRs<br><strong>Next</strong><br>• Build utility to extract field errors from bad request responses and set to react hook form’s error state and rethrow if any extras.<br>• Tanstack router",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-06_rithviknishad",
-    "contributor": "rithviknishad",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-05T19:00:23.004Z",
-    "link": null,
-    "text": "<strong>nov 5</strong><br>• worked on leaderboard scraper<br><strong>next</strong><br>• leaderboard\n\n<strong>nov 5</strong><br>• worked on leaderboard scraper<br><strong>next</strong><br>• leaderboard\n\n<strong>nov 6</strong><br>• spent little time on leaderboard scraper<br>• wrote a new script to upload inventory items to pallium<br><strong>next</strong><br>• leaderboard\n\n<strong>nov 6</strong><br>• spent little time on leaderboard scraper<br>• wrote a new script to upload inventory items to pallium<br><strong>next</strong><br>• leaderboard",
     "points": null,
     "meta": null
   },
@@ -4649,6 +4649,17 @@
     "occured_at": "2026-01-06T05:12:07.652Z",
     "link": null,
     "text": "<strong>jan 5</strong><br>• updated <a href=\"https://github.com/ohcnetwork/care_fe/pull/14964\">#14964</a> encounter overview: to navigate to overview tab from invisible tabs due to insufficient permissions (<a href=\"https://github.com/ohcnetwork/care_fe/pull/14964/changes/a2679a17492546323ffcec07fb9170939f8e751a\">commit</a>)<br>• <a href=\"https://github.com/ohcnetwork/care_fe/pull/15014\">#15014</a> fixes patient identifier not editable after making an auto maintained identifier as user entered<br>• <span class=\"s-emoji\">🎧</span>s w. <span class=\"s-mention s-user\">@U083HFWFESD</span> on testing token display on legacy device, service account FE, debugging BE related bugs on it, patient home token related enhancements<br>• engineering sync call<br>• leaderboard: aggregates and badges, refactoring plugin API<br><strong>next</strong><br>• add authzn. checks in token display<br>• on leave for next three days",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2026-01-07_rithviknishad",
+    "contributor": "rithviknishad",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2026-01-07T05:14:38.589Z",
+    "link": null,
+    "text": "<strong>jan 6</strong><br>• <em>half day leave</em><br>• <span class=\"s-emoji\">🎧</span> w. <span class=\"s-mention s-user\">@U083HFWFESD</span> on charge item def. import script and service account FE related<br>• <span class=\"s-emoji\">🎧</span> w. <span class=\"s-mention s-user\">@U06L50QL1AQ</span> on service account related things<br>• debugged an issue reported by <span class=\"s-mention s-user\">@U022THM4U2U</span> on patient identifier thing<br><strong>next</strong><br>• on leave for next two days<br>• add authzn. checks in token display",
     "points": null,
     "meta": null
   }

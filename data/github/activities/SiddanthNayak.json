@@ -3938,17 +3938,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14889_CHANGES_REQUESTED_PRR_kwDODtfaXs7XGQsi",
-    "contributor": "SiddanthNayak",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14889",
-    "occured_at": "2025-12-23T17:02:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14889#pullrequestreview-3608742690",
-    "text": "feat: implement duplicate check for allergies, diagnoses, and symptoms",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14981_COMMENTED_PRR_kwDODtfaXs7XyjBV",
     "contributor": "SiddanthNayak",
     "activity_definition": "pr_reviewed",
@@ -3971,35 +3960,46 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#15001_CHANGES_REQUESTED_PRR_kwDODtfaXs7YIIsi",
+    "slug": "issue_closed_care_fe#14902",
     "contributor": "SiddanthNayak",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #15001",
-    "occured_at": "2026-01-05T09:07:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15001#pullrequestreview-3626011426",
-    "text": "Add token status labels and “call next patient” button tooltip",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14902",
+    "occured_at": "2026-01-07T10:45:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14902",
+    "text": "Docs : Adding separate Contributing.md for better user experience",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14986_APPROVED_PRR_kwDODtfaXs7X509D",
+    "slug": "issue_closed_care_fe#14653",
     "contributor": "SiddanthNayak",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14986",
-    "occured_at": "2026-01-02T06:01:12.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14986#pullrequestreview-3622260547",
-    "text": "fix: keyboard navigation in search bar component",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14653",
+    "occured_at": "2026-01-07T10:39:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14653",
+    "text": "Flaky tests: \"verify duplicate symptom/diagnosis cannot be added\" tests fail due to race conditions",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14986_CHANGES_REQUESTED_PRR_kwDODtfaXs7YbB1q",
+    "slug": "comment_created_care_fe#14902_IC_kwDODtfaXs7doKUC",
     "contributor": "SiddanthNayak",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14986",
-    "occured_at": "2026-01-06T13:55:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14986#pullrequestreview-3630964074",
-    "text": "fix: keyboard navigation in search bar component",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14902",
+    "occured_at": "2026-01-07T10:45:25.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14902#issuecomment-3718292738",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14653_IC_kwDODtfaXs7doFxt",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14653",
+    "occured_at": "2026-01-07T10:39:42.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14653#issuecomment-3718274157",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -4022,6 +4022,50 @@
     "occured_at": "2026-01-02T07:03:29.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14975#pullrequestreview-3622348098",
     "text": "Added breadcrumbs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#15001_CHANGES_REQUESTED_PRR_kwDODtfaXs7YIIsi",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #15001",
+    "occured_at": "2026-01-05T09:07:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15001#pullrequestreview-3626011426",
+    "text": "Add token status labels and “call next patient” button tooltip",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14889_CHANGES_REQUESTED_PRR_kwDODtfaXs7XGQsi",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14889",
+    "occured_at": "2025-12-23T17:02:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14889#pullrequestreview-3608742690",
+    "text": "feat: implement duplicate check for allergies, diagnoses, and symptoms",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14986_APPROVED_PRR_kwDODtfaXs7X509D",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14986",
+    "occured_at": "2026-01-02T06:01:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14986#pullrequestreview-3622260547",
+    "text": "fix: keyboard navigation in search bar component",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14986_CHANGES_REQUESTED_PRR_kwDODtfaXs7YbB1q",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14986",
+    "occured_at": "2026-01-06T13:55:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14986#pullrequestreview-3630964074",
+    "text": "fix: keyboard navigation in search bar component",
     "points": null,
     "meta": {}
   }
