@@ -1,49 +1,5 @@
 [
   {
-    "slug": "issue_assigned_care_fe#14421_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14421 assigned",
-    "occured_at": "2025-11-20T05:50:33.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14421",
-    "text": "refactor: <FilterSelect>",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14207",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14207",
-    "occured_at": "2025-11-01T04:13:22.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
-    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14319",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14319",
-    "occured_at": "2025-11-13T06:44:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14319",
-    "text": "Revert i18n pattern changes for FilterSelect component",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#13737",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13737",
-    "occured_at": "2025-09-17T14:50:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13737",
-    "text": "Fix cross icon overlapping text in supplier select dropdown on mobile view",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14157",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -84,6 +40,50 @@
     "occured_at": "2025-09-14T20:04:15.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3259",
     "text": "Add medication requests to prescription API responses",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14421_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14421 assigned",
+    "occured_at": "2025-11-20T05:50:33.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14421",
+    "text": "refactor: <FilterSelect>",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14207",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14207",
+    "occured_at": "2025-11-01T04:13:22.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
+    "text": "Add confirmation dialogs for destructive payment reconciliation actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14319",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14319",
+    "occured_at": "2025-11-13T06:44:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14319",
+    "text": "Revert i18n pattern changes for FilterSelect component",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#13737",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13737",
+    "occured_at": "2025-09-17T14:50:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13737",
+    "text": "Fix cross icon overlapping text in supplier select dropdown on mobile view",
     "points": null,
     "meta": {}
   },
@@ -2662,17 +2662,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#15033_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #15033 assigned",
-    "occured_at": "2026-01-07T09:04:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/15033",
-    "text": "Cursor not changing to pointer on Profile and Logout menu items",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_care_fe#14988_copilot-swe-agent",
     "contributor": "copilot-swe-agent",
     "activity_definition": "issue_assigned",
@@ -2684,17 +2673,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#15040",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #15040",
-    "occured_at": "2026-01-07T09:04:37.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15040",
-    "text": "Fix cursor style for dropdown menu items",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#15037",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2702,6 +2680,28 @@
     "occured_at": "2026-01-06T13:48:04.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/15037",
     "text": "Remove obsolete TODO comment for schedule exception warning callout",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#15033_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #15033 assigned",
+    "occured_at": "2026-01-07T09:04:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15033",
+    "text": "Cursor not changing to pointer on Profile and Logout menu items",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15040",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #15040",
+    "occured_at": "2026-01-07T09:04:37.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15040",
+    "text": "Fix cursor style for dropdown menu items",
     "points": null,
     "meta": {}
   }

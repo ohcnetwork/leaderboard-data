@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_merged_care#2898",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2898",
+    "occured_at": "2025-03-10T10:30:50.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2898",
+    "text": "adding limit and some contrainsts",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#3261",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -29,17 +40,6 @@
     "occured_at": "2025-11-25T15:58:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3379",
     "text": "adding validation for facility name",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2898",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2898",
-    "occured_at": "2025-03-10T10:30:50.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2898",
-    "text": "adding limit and some contrainsts",
     "points": null,
     "meta": {}
   },
@@ -4950,6 +4950,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3379",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3379",
+    "occured_at": "2025-11-25T10:48:30.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3379",
+    "text": "adding validation for facility name",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2988",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -6457,6 +6468,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_assigned_roadmap#44_praffq",
+    "contributor": "praffq",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #44 assigned",
+    "occured_at": "2025-04-28T08:11:03.000Z",
+    "link": "https://github.com/ohcnetwork/roadmap/issues/44",
+    "text": "Allow role orgs in facilities",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_4599de1882c694b17e992b77681964c0bc716704",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -6787,17 +6809,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_roadmap#44_praffq",
-    "contributor": "praffq",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #44 assigned",
-    "occured_at": "2025-04-28T08:11:03.000Z",
-    "link": "https://github.com/ohcnetwork/roadmap/issues/44",
-    "text": "Allow role orgs in facilities",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_assigned_roadmap#40_praffq",
     "contributor": "praffq",
     "activity_definition": "issue_assigned",
@@ -7106,17 +7117,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3379",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3379",
-    "occured_at": "2025-11-25T10:48:30.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3379",
-    "text": "adding validation for facility name",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "commit_created_prafful/adding-reports_d6a0ea79f7934fd4cd05fc7e4ea32f9afda27f29",
     "contributor": "praffq",
     "activity_definition": "commit_created",
@@ -7388,6 +7388,17 @@
     "occured_at": "2025-12-09T11:24:06.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/4ba70ad4ea3612d08741861f1473fc783a7d99cf",
     "text": "Completed some todos and typo (#3378)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/fixing-options-in-template_03ca011ed20a1f510928fba1aec113859412b33a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/fixing-options-in-template",
+    "occured_at": "2025-12-09T12:29:42.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/03ca011ed20a1f510928fba1aec113859412b33a",
+    "text": "moved to pydantic models",
     "points": null,
     "meta": {}
   },
@@ -7942,17 +7953,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_prafful/fixing-options-in-template_03ca011ed20a1f510928fba1aec113859412b33a",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to prafful/fixing-options-in-template",
-    "occured_at": "2025-12-09T12:29:42.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/03ca011ed20a1f510928fba1aec113859412b33a",
-    "text": "moved to pydantic models",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care#3382_IC_kwDODsgdF87Yf9ON",
     "contributor": "praffq",
     "activity_definition": "comment_created",
@@ -8283,50 +8283,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3440",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3440",
-    "occured_at": "2026-01-02T11:57:31.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3440",
-    "text": "added service account flag and token generation endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3440_COMMENTED_PRR_kwDODsgdF87X_t4O",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #3440",
-    "occured_at": "2026-01-02T19:57:10.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3623804430",
-    "text": "added service account flag and token generation endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3440_COMMENTED_PRR_kwDODsgdF87YBYLo",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #3440",
-    "occured_at": "2026-01-03T07:04:33.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3624239848",
-    "text": "added service account flag and token generation endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3440_COMMENTED_PRR_kwDODsgdF87YBaQp",
-    "contributor": "praffq",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #3440",
-    "occured_at": "2026-01-03T07:41:35.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3624248361",
-    "text": "added service account flag and token generation endpoints",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care#3435_COMMENTED_PRR_kwDODsgdF87YEdW6",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -8375,6 +8331,94 @@
     "contributor": "praffq",
     "activity_definition": "commit_created",
     "title": "Pushed commit to develop",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3440",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3440",
+    "occured_at": "2026-01-02T11:57:31.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3440",
+    "text": "added service account flag and token generation endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3440_COMMENTED_PRR_kwDODsgdF87X_t4O",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3440",
+    "occured_at": "2026-01-02T19:57:10.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3623804430",
+    "text": "added service account flag and token generation endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3440_COMMENTED_PRR_kwDODsgdF87YBYLo",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3440",
+    "occured_at": "2026-01-03T07:04:33.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3624239848",
+    "text": "added service account flag and token generation endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3440_COMMENTED_PRR_kwDODsgdF87YBaQp",
+    "contributor": "praffq",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3440",
+    "occured_at": "2026-01-03T07:41:35.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3624248361",
+    "text": "added service account flag and token generation endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_57b02551d7bc8f7b4205e96b4e9368005c3ac7a0",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-07T19:01:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/57b02551d7bc8f7b4205e96b4e9368005c3ac7a0",
+    "text": "comments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
     "occured_at": "2026-01-06T12:10:51.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
     "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",

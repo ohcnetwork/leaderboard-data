@@ -935,6 +935,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3313",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3313",
+    "occured_at": "2025-10-23T04:31:47.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3313",
+    "text": "Filters for delivery orders endpoint",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_supply_delivery/delivery_orders/filters_4c12cd8eba81f7669b11a3d526d5ad7ab78b16c7",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -1580,17 +1591,6 @@
     "occured_at": "2025-11-07T08:46:12.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3343#pullrequestreview-3432315689",
     "text": "fix:rename internal version field to _version",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3313",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3313",
-    "occured_at": "2025-10-23T04:31:47.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3313",
-    "text": "Filters for delivery orders endpoint",
     "points": null,
     "meta": {}
   },
@@ -4345,6 +4345,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_fix/dispense_order_spec_ebf79aaf6312dac3cc7057a32c2ee2960ea88bd4",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to fix/dispense_order_spec",
+    "occured_at": "2025-12-22T07:11:04.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ebf79aaf6312dac3cc7057a32c2ee2960ea88bd4",
+    "text": "fix import issue",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/fix/patient/identifier_validation_7eaf20729983ece9bdfa293895f7b7e0e0987170",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4609,6 +4620,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3429",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3429",
+    "occured_at": "2025-12-22T16:43:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3429",
+    "text": "fix:updated chargeitem in sr cancel api",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/fix/product_knowledge_spec_39099575689b4172e68df3fa5c9a10d7fb1a5e6a",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4858,6 +4880,17 @@
     "occured_at": "2025-10-28T07:26:55.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/b1bb1c35727db1440e6f52f28ff87a1c9c168362",
     "text": "Api test cases for tag config viewset (#3169)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3429",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3429",
+    "occured_at": "2025-12-22T17:02:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3429",
+    "text": "fix:updated chargeitem in sr cancel api",
     "points": null,
     "meta": {}
   },
@@ -5665,39 +5698,6 @@
     "meta": {}
   },
   {
-    "slug": "commit_created_fix/dispense_order_spec_ebf79aaf6312dac3cc7057a32c2ee2960ea88bd4",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to fix/dispense_order_spec",
-    "occured_at": "2025-12-22T07:11:04.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/ebf79aaf6312dac3cc7057a32c2ee2960ea88bd4",
-    "text": "fix import issue",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3429",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3429",
-    "occured_at": "2025-12-22T16:43:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3429",
-    "text": "fix:updated chargeitem in sr cancel api",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3429",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3429",
-    "occured_at": "2025-12-22T17:02:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3429",
-    "text": "fix:updated chargeitem in sr cancel api",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_merged_care#3428",
     "contributor": "nandkishorr",
     "activity_definition": "pr_merged",
@@ -6079,6 +6079,72 @@
     "occured_at": "2025-12-16T20:26:18.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3411#pullrequestreview-3584817215",
     "text": "add identifiers and tag details for patient in multiple endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
     "points": null,
     "meta": {}
   }
