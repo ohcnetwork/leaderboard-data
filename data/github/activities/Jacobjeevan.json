@@ -1,38 +1,5 @@
 [
   {
-    "slug": "pr_merged_care_fe#8790",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #8790",
-    "occured_at": "2024-10-18T22:09:02.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/8790",
-    "text": "Shifting csv generation fix",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_opened_care_fe#14916",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14916",
-    "occured_at": "2025-12-22T15:09:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14916",
-    "text": "Bed hold default behavior",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#13562",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #13562",
-    "occured_at": "2025-09-16T10:47:09.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13562",
-    "text": "Multi Filter V2",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_opened_care_fe#10846",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_opened",
@@ -161,6 +128,39 @@
     "occured_at": "2025-07-14T08:19:51.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12866",
     "text": "RBAC role creation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#8790",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #8790",
+    "occured_at": "2024-10-18T22:09:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/8790",
+    "text": "Shifting csv generation fix",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14916",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14916",
+    "occured_at": "2025-12-22T15:09:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14916",
+    "text": "Bed hold default behavior",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#13562",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #13562",
+    "occured_at": "2025-09-16T10:47:09.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13562",
+    "text": "Multi Filter V2",
     "points": null,
     "meta": {}
   },
@@ -6743,6 +6743,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#13758",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #13758",
+    "occured_at": "2025-09-22T08:46:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13758",
+    "text": "UI Bug: Loading skeleton overflows on Location page",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_supply_delivery/delivery_orders/filters_b5781d805df2e8b985ea830fbcc915c93a799583",
     "contributor": "Jacobjeevan",
     "activity_definition": "commit_created",
@@ -7102,17 +7113,6 @@
     "occured_at": "2025-09-22T09:05:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13739",
     "text": "Replace the Sheet with Drawer on mobile",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#13758",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #13758",
-    "occured_at": "2025-09-22T08:46:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13758",
-    "text": "UI Bug: Loading skeleton overflows on Location page",
     "points": null,
     "meta": {}
   },
@@ -7487,6 +7487,17 @@
     "occured_at": "2025-08-08T04:12:59.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13289",
     "text": "Bug: Date of Birth (DOB) Inputs Allow Unlimited Characters - In Create New Patient Form",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#12446",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #12446",
+    "occured_at": "2025-05-29T04:05:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/12446",
+    "text": "Add option to delete location from the map view",
     "points": null,
     "meta": {}
   },
@@ -8224,6 +8235,17 @@
     "occured_at": "2025-03-19T21:41:09.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/11338",
     "text": "Show Update Banner on Login if updates are available.",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#11573",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #11573",
+    "occured_at": "2025-04-03T17:48:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/11573",
+    "text": "Next button not showing in Discharge Summary",
     "points": null,
     "meta": {}
   },
@@ -8976,17 +8998,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_care_fe#12446",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #12446",
-    "occured_at": "2025-05-29T04:05:20.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/12446",
-    "text": "Add option to delete location from the map view",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "issue_closed_care_fe#12445",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -9357,17 +9368,6 @@
     "occured_at": "2025-04-22T03:19:24.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12018",
     "text": "Duplicate Search Dropdown Appears When Clicking Search Icon",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#11573",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #11573",
-    "occured_at": "2025-04-03T17:48:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/11573",
-    "text": "Next button not showing in Discharge Summary",
     "points": null,
     "meta": {}
   },
@@ -10879,6 +10879,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#9842",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #9842",
+    "occured_at": "2025-02-12T06:14:47.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/9842",
+    "text": "Enhancements in Encounter Discussion",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#10259",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -11271,17 +11282,6 @@
     "occured_at": "2025-02-12T06:18:46.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/10361",
     "text": "BUG: Patient form is accepting wrong dates in date field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "issue_closed_care_fe#9842",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #9842",
-    "occured_at": "2025-02-12T06:14:47.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/9842",
-    "text": "Enhancements in Encounter Discussion",
     "points": null,
     "meta": {}
   },
@@ -13464,6 +13464,17 @@
     "meta": {}
   },
   {
+    "slug": "comment_created_care_fe#13850_IC_kwDODtfaXs7Mevle",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #13850",
+    "occured_at": "2025-10-22T05:57:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13850#issuecomment-3430611294",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_assigned_care_fe#9179_Jacobjeevan",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_assigned",
@@ -13822,17 +13833,6 @@
     "title": "Commented on #13618",
     "occured_at": "2025-10-27T04:51:05.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/13618#issuecomment-3449508651",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#13850_IC_kwDODtfaXs7Mevle",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "comment_created",
-    "title": "Commented on #13850",
-    "occured_at": "2025-10-22T05:57:38.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13850#issuecomment-3430611294",
     "text": null,
     "points": null,
     "meta": {}
@@ -25223,6 +25223,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care_fe#12936",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #12936",
+    "occured_at": "2025-07-15T10:02:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12936",
+    "text": "add multi selector for appointments",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#13757_APPROVED_PRR_kwDODtfaXs7BKQkm",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -25846,17 +25857,6 @@
     "occured_at": "2025-08-26T07:27:32.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/13339#pullrequestreview-3154316550",
     "text": "Enhancement for Card design of Tag config listing page",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#12936",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #12936",
-    "occured_at": "2025-07-15T10:02:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12936",
-    "text": "add multi selector for appointments",
     "points": null,
     "meta": {}
   },
@@ -27456,6 +27456,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#12602_CHANGES_REQUESTED_PRR_kwDODtfaXs6yo_EX",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #12602",
+    "occured_at": "2025-07-08T10:59:10.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/12602#pullrequestreview-2997088535",
+    "text": "Made User Rendering Consistent across the App",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#12651_CHANGES_REQUESTED_PRR_kwDODtfaXs6wupO9",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -27775,17 +27786,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#12602_CHANGES_REQUESTED_PRR_kwDODtfaXs6yo_EX",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #12602",
-    "occured_at": "2025-07-08T10:59:10.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/12602#pullrequestreview-2997088535",
-    "text": "Made User Rendering Consistent across the App",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#12602_APPROVED_PRR_kwDODtfaXs61UD6Y",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -28090,6 +28090,17 @@
     "occured_at": "2025-07-18T11:27:47.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12913#pullrequestreview-3033205538",
     "text": "Patient identifier filter",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#10334",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #10334",
+    "occured_at": "2025-01-31T06:41:10.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10334",
+    "text": "Rm whatsapp phone number, hide email for updates",
     "points": null,
     "meta": {}
   },
@@ -28717,17 +28728,6 @@
     "occured_at": "2025-07-16T11:56:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/12956",
     "text": "fix: handle download for files/images",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#10334",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #10334",
-    "occured_at": "2025-01-31T06:41:10.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10334",
-    "text": "Rm whatsapp phone number, hide email for updates",
     "points": null,
     "meta": {}
   },
@@ -29678,6 +29678,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care_fe#10093",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #10093",
+    "occured_at": "2025-01-22T14:10:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/10093",
+    "text": "Organization Filter Tweaks",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#12289_COMMENTED_PRR_kwDODtfaXs6pST0Y",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -30609,17 +30620,6 @@
     "occured_at": "2025-04-09T06:17:55.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/11152#pullrequestreview-2752163339",
     "text": "Added Validation block for large image upload error in edit Avatar Form",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#10093",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #10093",
-    "occured_at": "2025-01-22T14:10:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/10093",
-    "text": "Organization Filter Tweaks",
     "points": null,
     "meta": {}
   },
@@ -33693,6 +33693,17 @@
     "meta": {}
   },
   {
+    "slug": "issue_closed_care_fe#14215",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #14215",
+    "occured_at": "2025-12-02T12:41:40.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14215",
+    "text": "Unable to create new observation definition with 0 interpretations; No error messages",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care_fe#11124_APPROVED_PRR_kwDODtfaXs6fYjk9",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -34305,6 +34316,17 @@
     "occured_at": "2025-03-11T08:51:45.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/11066#pullrequestreview-2673445651",
     "text": "Redesigned the dashboard for the user organisation page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14513_IC_kwDODtfaXs7WpOX-",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14513",
+    "occured_at": "2025-12-02T09:43:51.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14513#issuecomment-3601131006",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -35255,17 +35277,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_closed_care_fe#14215",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_closed",
-    "title": "Closed issue #14215",
-    "occured_at": "2025-12-02T12:41:40.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14215",
-    "text": "Unable to create new observation definition with 0 interpretations; No error messages",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#10546_CHANGES_REQUESTED_PRR_kwDODtfaXs6b2d2S",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -35882,6 +35893,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3438",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3438",
+    "occured_at": "2025-12-29T11:42:43.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3438",
+    "text": "do not merge: added load scripts for definitions",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "issue_closed_care_fe#14577",
     "contributor": "Jacobjeevan",
     "activity_definition": "issue_closed",
@@ -36197,6 +36219,17 @@
     "occured_at": "2024-11-20T18:53:53.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/9080#pullrequestreview-2449453580",
     "text": "User Management Redesign and User Details Page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#14981_IC_kwDODtfaXs7czfqz",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14981",
+    "occured_at": "2026-01-02T05:25:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14981#issuecomment-3704486579",
+    "text": null,
     "points": null,
     "meta": {}
   },
@@ -41228,17 +41261,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#14513_IC_kwDODtfaXs7WpOX-",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14513",
-    "occured_at": "2025-12-02T09:43:51.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14513#issuecomment-3601131006",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#9138_APPROVED_PRR_kwDODtfaXs6TX8qL",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -41851,17 +41873,6 @@
     "occured_at": "2024-09-18T08:34:55.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/8489#pullrequestreview-2312004657",
     "text": "Bust cover image cache after uploading a new image",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3438",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3438",
-    "occured_at": "2025-12-29T11:42:43.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3438",
-    "text": "do not merge: added load scripts for definitions",
     "points": null,
     "meta": {}
   },
@@ -45804,17 +45815,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14863_CHANGES_REQUESTED_PRR_kwDODtfaXs7XfGTp",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14863",
-    "occured_at": "2025-12-29T07:41:08.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14863#pullrequestreview-3615253737",
-    "text": "add playwright coverage reporting",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14927_APPROVED_PRR_kwDODtfaXs7XgWPL",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -45887,17 +45887,6 @@
     "title": "Commented on #14952",
     "occured_at": "2026-01-02T09:45:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14952#issuecomment-3704899626",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "comment_created_care_fe#14981_IC_kwDODtfaXs7czfqz",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14981",
-    "occured_at": "2026-01-02T05:25:05.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14981#issuecomment-3704486579",
     "text": null,
     "points": null,
     "meta": {}
@@ -46101,17 +46090,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#14998_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #14998 assigned",
-    "occured_at": "2026-01-05T05:25:56.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14998",
-    "text": "Fix: Hardcoded toast messages in some files",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#14992_IC_kwDODtfaXs7dEpNC",
     "contributor": "Jacobjeevan",
     "activity_definition": "comment_created",
@@ -46119,28 +46097,6 @@
     "occured_at": "2026-01-05T05:23:20.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14992#issuecomment-3708982082",
     "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14896_CHANGES_REQUESTED_PRR_kwDODtfaXs7YGgm4",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14896",
-    "occured_at": "2026-01-05T06:03:55.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14896#pullrequestreview-3625585080",
-    "text": "fix: improve microphone permission guidance",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14981_CHANGES_REQUESTED_PRR_kwDODtfaXs7XzJ8d",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14981",
-    "occured_at": "2025-12-31T09:08:17.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14981#pullrequestreview-3620511517",
-    "text": "fix: prevent duplicate error toasts and improve error message for appointment creation",
     "points": null,
     "meta": {}
   },
@@ -46387,17 +46343,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#15033_Jacobjeevan",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #15033 assigned",
-    "occured_at": "2026-01-07T09:04:30.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/15033",
-    "text": "Cursor not changing to pointer on Profile and Logout menu items",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#15025_IC_kwDODtfaXs7dm0-F",
     "contributor": "Jacobjeevan",
     "activity_definition": "comment_created",
@@ -46409,28 +46354,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14824_APPROVED_PRR_kwDODtfaXs7XLD9T",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14824",
-    "occured_at": "2025-12-24T05:55:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14824#pullrequestreview-3610001235",
-    "text": "Fix: validation bypass when removing items from questionnaire",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14975",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14975",
-    "occured_at": "2025-12-29T14:11:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14975",
-    "text": "Added breadcrumbs",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14964_COMMENTED_PRR_kwDODtfaXs7XfKyR",
     "contributor": "Jacobjeevan",
     "activity_definition": "pr_reviewed",
@@ -46438,17 +46361,6 @@
     "occured_at": "2025-12-29T07:55:08.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14964#pullrequestreview-3615272081",
     "text": "enhance encounter ui when user does not have perm. to view clinical data",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14973_COMMENTED_PRR_kwDODtfaXs7X5tP2",
-    "contributor": "Jacobjeevan",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14973",
-    "occured_at": "2026-01-02T05:29:27.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14973#pullrequestreview-3622228982",
-    "text": "Added a skeleton loader in Encounter Actions",
     "points": null,
     "meta": {}
   },
@@ -46526,6 +46438,116 @@
     "occured_at": "2025-12-24T06:12:48.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14782#pullrequestreview-3610024862",
     "text": "Shows service point dialog when more than one service point present otherwise auto assign",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#15043",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #15043",
+    "occured_at": "2026-01-08T06:18:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15043",
+    "text": "[CRITICAL SECURITY]:  Arbitrary Code Execution via Function Constructor in Keyboard Shortcuts",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_closed_care_fe#15044",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_closed",
+    "title": "Closed issue #15044",
+    "occured_at": "2026-01-08T06:05:38.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15044",
+    "text": "[CRITICAL SECURITY] : JWT Tokens Stored in localStorage - XSS Vulnerability",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#14998_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #14998 assigned",
+    "occured_at": "2026-01-05T05:25:56.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14998",
+    "text": "Fix: Hardcoded toast messages in some files",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#15033_Jacobjeevan",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #15033 assigned",
+    "occured_at": "2026-01-07T09:04:30.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15033",
+    "text": "Cursor not changing to pointer on Profile and Logout menu items",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14896_CHANGES_REQUESTED_PRR_kwDODtfaXs7YGgm4",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14896",
+    "occured_at": "2026-01-05T06:03:55.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14896#pullrequestreview-3625585080",
+    "text": "fix: improve microphone permission guidance",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14824_APPROVED_PRR_kwDODtfaXs7XLD9T",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14824",
+    "occured_at": "2025-12-24T05:55:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14824#pullrequestreview-3610001235",
+    "text": "Fix: validation bypass when removing items from questionnaire",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14975",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14975",
+    "occured_at": "2025-12-29T14:11:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14975",
+    "text": "Added breadcrumbs",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14973_COMMENTED_PRR_kwDODtfaXs7X5tP2",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #14973",
+    "occured_at": "2026-01-02T05:29:27.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14973#pullrequestreview-3622228982",
+    "text": "Added a skeleton loader in Encounter Actions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14981_CHANGES_REQUESTED_PRR_kwDODtfaXs7XzJ8d",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14981",
+    "occured_at": "2025-12-31T09:08:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14981#pullrequestreview-3620511517",
+    "text": "fix: prevent duplicate error toasts and improve error message for appointment creation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#14863_CHANGES_REQUESTED_PRR_kwDODtfaXs7XfGTp",
+    "contributor": "Jacobjeevan",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14863",
+    "occured_at": "2025-12-29T07:41:08.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14863#pullrequestreview-3615253737",
+    "text": "add playwright coverage reporting",
     "points": null,
     "meta": {}
   }

@@ -1,5 +1,49 @@
 [
   {
+    "slug": "pr_merged_care#2790",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2790",
+    "occured_at": "2025-01-29T13:04:13.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2790",
+    "text": "Adding cache for swagger",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#2968",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2968",
+    "occured_at": "2025-04-03T05:05:53.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2968",
+    "text": "fixed the custom class validator",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#2898",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2898",
+    "occured_at": "2025-03-07T14:20:05.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2898",
+    "text": "adding limit and some contrainsts",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3372",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3372",
+    "occured_at": "2025-11-22T07:36:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3372",
+    "text": "fix deadlock in TagConfig endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2898",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -62,50 +106,6 @@
     "occured_at": "2025-03-16T14:25:28.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2891",
     "text": "add endpoint for sync file upload",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2790",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2790",
-    "occured_at": "2025-01-29T13:04:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2790",
-    "text": "Adding cache for swagger",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2968",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2968",
-    "occured_at": "2025-04-03T05:05:53.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2968",
-    "text": "fixed the custom class validator",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2898",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2898",
-    "occured_at": "2025-03-07T14:20:05.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2898",
-    "text": "adding limit and some contrainsts",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3372",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3372",
-    "occured_at": "2025-11-22T07:36:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3372",
-    "text": "fix deadlock in TagConfig endpoints",
     "points": null,
     "meta": {}
   },
@@ -4620,6 +4620,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#2971",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #2971",
+    "occured_at": "2025-04-07T11:20:58.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2971",
+    "text": "added discharge summary advice field to encounter",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3060_APPROVED_PRR_kwDODsgdF86tHDuP",
     "contributor": "praffq",
     "activity_definition": "pr_reviewed",
@@ -5021,17 +5032,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #2971",
     "occured_at": "2025-04-03T16:51:01.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2971",
-    "text": "added discharge summary advice field to encounter",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#2971",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #2971",
-    "occured_at": "2025-04-07T11:20:58.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/2971",
     "text": "added discharge summary advice field to encounter",
     "points": null,
@@ -8378,6 +8378,17 @@
     "occured_at": "2026-01-03T07:41:35.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3624248361",
     "text": "added service account flag and token generation endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
     "points": null,
     "meta": {}
   },

@@ -13409,6 +13409,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_datapoint/patient_be4842a1bda3f7606cb89adc26b58aaf77c9d78d",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to datapoint/patient",
+    "occured_at": "2026-01-01T11:58:22.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/be4842a1bda3f7606cb89adc26b58aaf77c9d78d",
+    "text": "Fix title and description  for manage users permission (#3439)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_issues/14296/add-tests-for-service-request_43749c87e033fdb107c77d908bb6d341a0f7236c",
     "contributor": "yash-learner",
     "activity_definition": "commit_created",
@@ -13636,17 +13647,6 @@
     "occured_at": "2025-12-30T08:36:56.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/152e44279a137767d078c0f54acdd5fc5dc58f03",
     "text": "fix: handle None case for healthcare_service in AD Write (#3431)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_datapoint/patient_be4842a1bda3f7606cb89adc26b58aaf77c9d78d",
-    "contributor": "yash-learner",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to datapoint/patient",
-    "occured_at": "2026-01-01T11:58:22.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/be4842a1bda3f7606cb89adc26b58aaf77c9d78d",
-    "text": "Fix title and description  for manage users permission (#3439)",
     "points": null,
     "meta": {}
   },
@@ -13992,17 +13992,6 @@
     "meta": {}
   },
   {
-    "slug": "comment_created_care_fe#14857_IC_kwDODtfaXs7drgJi",
-    "contributor": "yash-learner",
-    "activity_definition": "comment_created",
-    "title": "Commented on #14857",
-    "occured_at": "2026-01-07T14:36:28.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14857#issuecomment-3719168610",
-    "text": null,
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#14857_IC_kwDODtfaXs7doY57",
     "contributor": "yash-learner",
     "activity_definition": "comment_created",
@@ -14047,24 +14036,46 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#15046",
+    "slug": "pr_opened_care#3446",
     "contributor": "yash-learner",
     "activity_definition": "pr_opened",
-    "title": "Opened pull request #15046",
-    "occured_at": "2026-01-07T20:12:35.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15046",
-    "text": "Add tests for Lab flow",
+    "title": "Opened pull request #3446",
+    "occured_at": "2026-01-07T17:42:59.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3446",
+    "text": "fix: update location in AD fixture to use lab location Id instead of HealthService ID",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14885_CHANGES_REQUESTED_PRR_kwDODtfaXs7WbsN-",
+    "slug": "comment_created_care_fe#14857_IC_kwDODtfaXs7drgJi",
+    "contributor": "yash-learner",
+    "activity_definition": "comment_created",
+    "title": "Commented on #14857",
+    "occured_at": "2026-01-07T14:36:28.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14857#issuecomment-3719168610",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#15019_COMMENTED_PRR_kwDODtfaXs7Y1XMs",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14885",
-    "occured_at": "2025-12-19T08:45:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14885#pullrequestreview-3597583230",
-    "text": "fixing navigate links for forms",
+    "title": "Reviewed PR #15019",
+    "occured_at": "2026-01-08T06:17:05.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15019#pullrequestreview-3637867308",
+    "text": "feat: add report date and requester fields to diagnostic report",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#15019_APPROVED_PRR_kwDODtfaXs7Y54qk",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #15019",
+    "occured_at": "2026-01-08T11:50:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15019#pullrequestreview-3639052964",
+    "text": "feat: add report date and requester fields to diagnostic report",
     "points": null,
     "meta": {}
   },
@@ -14124,17 +14135,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#15041_APPROVED_PRR_kwDODtfaXs7Yow9M",
-    "contributor": "yash-learner",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #15041",
-    "occured_at": "2026-01-07T12:04:39.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15041#pullrequestreview-3634564940",
-    "text": "Fixed the flakiness in account page",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_reviewed_care_fe#14973_COMMENTED_PRR_kwDODtfaXs7X6Tnr",
     "contributor": "yash-learner",
     "activity_definition": "pr_reviewed",
@@ -14146,13 +14146,68 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3446",
+    "slug": "pr_reviewed_care_fe#14885_CHANGES_REQUESTED_PRR_kwDODtfaXs7WbsN-",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #14885",
+    "occured_at": "2025-12-19T08:45:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14885#pullrequestreview-3597583230",
+    "text": "fixing navigate links for forms",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#15041_APPROVED_PRR_kwDODtfaXs7Yow9M",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #15041",
+    "occured_at": "2026-01-07T12:04:39.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15041#pullrequestreview-3634564940",
+    "text": "Fixed the flakiness in account page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15046",
     "contributor": "yash-learner",
     "activity_definition": "pr_opened",
-    "title": "Opened pull request #3446",
-    "occured_at": "2026-01-07T17:42:59.000Z",
+    "title": "Opened pull request #15046",
+    "occured_at": "2026-01-07T20:12:35.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15046",
+    "text": "Add tests for Lab flow",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_issues/14296/add-tests-for-service-request_34de50689176befcfc9478a5c07a1cde29eb7008",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to issues/14296/add-tests-for-service-request",
+    "occured_at": "2026-01-08T10:21:02.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/34de50689176befcfc9478a5c07a1cde29eb7008",
+    "text": "Merge branch 'develop' into issues/14296/add-tests-for-service-request",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3446",
+    "contributor": "yash-learner",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3446",
+    "occured_at": "2026-01-08T07:43:52.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3446",
     "text": "fix: update location in AD fixture to use lab location Id instead of HealthService ID",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_develop_a1921a1d2b49de66a45862beda551ea980fbf1e0",
+    "contributor": "yash-learner",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to develop",
+    "occured_at": "2026-01-08T07:43:52.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/a1921a1d2b49de66a45862beda551ea980fbf1e0",
+    "text": "fix: update location in AD fixture to use lab location Id instead of HealthService ID (#3446)",
     "points": null,
     "meta": {}
   }

@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_merged_care_odoo_be#1",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #1",
+    "occured_at": "2025-11-20T10:25:07.000Z",
+    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
+    "text": "Initial plugin setup",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3106",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3106",
+    "occured_at": "2025-07-01T12:39:00.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3106",
+    "text": "Test cases for User viewset",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#3106",
     "contributor": "nandkishorr",
     "activity_definition": "pr_merged",
@@ -62,28 +84,6 @@
     "occured_at": "2025-10-27T14:41:47.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3317",
     "text": "fix: fixtures in inventory item",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_odoo_be#1",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #1",
-    "occured_at": "2025-11-20T10:25:07.000Z",
-    "link": "https://github.com/ohcnetwork/care_odoo_be/pull/1",
-    "text": "Initial plugin setup",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3106",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3106",
-    "occured_at": "2025-07-01T12:39:00.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3106",
-    "text": "Test cases for User viewset",
     "points": null,
     "meta": {}
   },
@@ -1463,6 +1463,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care#3209_COMMENTED_PRR_kwDODsgdF867XVaU",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_reviewed",
+    "title": "Reviewed PR #3209",
+    "occured_at": "2025-08-22T07:35:25.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3209#pullrequestreview-3143456404",
+    "text": "refact:fixed facility check",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_tests/token_sub_queue_9ea179e2c83d58df5bcccd67b5e134814882ec4e",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -1855,17 +1866,6 @@
     "occured_at": "2025-09-02T17:11:12.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3221",
     "text": "Test cases for Product knowledge",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3209_COMMENTED_PRR_kwDODsgdF867XVaU",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #3209",
-    "occured_at": "2025-08-22T07:35:25.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3209#pullrequestreview-3143456404",
-    "text": "refact:fixed facility check",
     "points": null,
     "meta": {}
   },
@@ -3707,6 +3707,17 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_test/token_b97a5c8f897d351a9e3a838f33126e4b40ccff84",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to test/token",
+    "occured_at": "2025-11-25T15:32:47.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/b97a5c8f897d351a9e3a838f33126e4b40ccff84",
+    "text": "feat:added testcases for set next endpoint",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/fix/product_knowledge_spec_a05ec28c0f595ab50f293eafa264820df3f7ada2",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -4242,17 +4253,6 @@
     "occured_at": "2025-11-07T12:00:05.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3350",
     "text": "Added validation for sync charge item costs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_test/token_b97a5c8f897d351a9e3a838f33126e4b40ccff84",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to test/token",
-    "occured_at": "2025-11-25T15:32:47.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/b97a5c8f897d351a9e3a838f33126e4b40ccff84",
-    "text": "feat:added testcases for set next endpoint",
     "points": null,
     "meta": {}
   },
@@ -6079,6 +6079,83 @@
     "occured_at": "2025-12-16T20:26:18.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3411#pullrequestreview-3584817215",
     "text": "add identifiers and tag details for patient in multiple endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3449",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3449",
+    "occured_at": "2026-01-08T10:53:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3449",
+    "text": "fix:added createdby and updatedby for charge item ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3448",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3448",
+    "occured_at": "2026-01-08T09:17:56.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3448",
+    "text": "fix:updated delete_model_cache ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3440_APPROVED_PRR_kwDODsgdF87Y1DJ_",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3440",
+    "occured_at": "2026-01-08T05:48:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3637785215",
+    "text": "added service account flag and token generation endpoints",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_2aceefed8ceeabcdcb1d524d7694a1a57e6a3d3f",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-05T14:37:18.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/2aceefed8ceeabcdcb1d524d7694a1a57e6a3d3f",
+    "text": " Data points for patient level report builder (#3419)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_e481ed38ab869328a991cc98c8f1319261479d66",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-08T05:43:27.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/e481ed38ab869328a991cc98c8f1319261479d66",
+    "text": "Merge branch 'develop' into prafful/feat/adding-service-account-and-token-support",
     "points": null,
     "meta": {}
   },

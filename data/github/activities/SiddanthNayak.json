@@ -2475,6 +2475,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_reviewed_care_fe#14818_APPROVED_PRR_kwDODtfaXs7W0CMI",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #14818",
+    "occured_at": "2025-12-22T12:47:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14818#pullrequestreview-3603964680",
+    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_renovate/all-dependencies-(patch)_47d5ffe8aeedfd1ba8bee0a17a8cf4552855a976",
     "contributor": "SiddanthNayak",
     "activity_definition": "commit_created",
@@ -3883,17 +3894,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14818_APPROVED_PRR_kwDODtfaXs7W0CMI",
-    "contributor": "SiddanthNayak",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #14818",
-    "occured_at": "2025-12-22T12:47:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14818#pullrequestreview-3603964680",
-    "text": "Fix:  slug validation not clearing when manually edited in ValueSet form",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#14906_IC_kwDODtfaXs7c1oeh",
     "contributor": "SiddanthNayak",
     "activity_definition": "comment_created",
@@ -3934,17 +3934,6 @@
     "occured_at": "2026-01-02T10:36:13.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14906#pullrequestreview-3622897832",
     "text": "Home Page redesign",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care_fe#14981_COMMENTED_PRR_kwDODtfaXs7XyjBV",
-    "contributor": "SiddanthNayak",
-    "activity_definition": "pr_reviewed",
-    "title": "Reviewed PR #14981",
-    "occured_at": "2025-12-31T06:45:29.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14981#pullrequestreview-3620352085",
-    "text": "fix: prevent duplicate error toasts and improve error message for appointment creation",
     "points": null,
     "meta": {}
   },
@@ -4026,13 +4015,46 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#15041_APPROVED_PRR_kwDODtfaXs7Ypota",
+    "slug": "pr_reviewed_care_fe#14889_CHANGES_REQUESTED_PRR_kwDODtfaXs7XGQsi",
     "contributor": "SiddanthNayak",
     "activity_definition": "pr_reviewed",
-    "title": "Approved PR #15041",
-    "occured_at": "2026-01-07T13:06:58.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15041#pullrequestreview-3634793306",
-    "text": "Fixed the flakiness in account page",
+    "title": "Changes requested on PR #14889",
+    "occured_at": "2025-12-23T17:02:43.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14889#pullrequestreview-3608742690",
+    "text": "feat: implement duplicate check for allergies, diagnoses, and symptoms",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#15052_SiddanthNayak",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #15052 assigned",
+    "occured_at": "2026-01-08T07:00:50.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15052",
+    "text": "Show proper * in the patient registration based on the max level org .env config",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15055",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #15055",
+    "occured_at": "2026-01-08T09:58:36.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15055",
+    "text": "Fixed Max level org required * not displaying",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care_fe#15001_CHANGES_REQUESTED_PRR_kwDODtfaXs7YIIsi",
+    "contributor": "SiddanthNayak",
+    "activity_definition": "pr_reviewed",
+    "title": "Changes requested on PR #15001",
+    "occured_at": "2026-01-05T09:07:19.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15001#pullrequestreview-3626011426",
+    "text": "Add token status labels and “call next patient” button tooltip",
     "points": null,
     "meta": {}
   },
@@ -4059,24 +4081,24 @@
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#15001_CHANGES_REQUESTED_PRR_kwDODtfaXs7YIIsi",
+    "slug": "pr_reviewed_care_fe#14981_COMMENTED_PRR_kwDODtfaXs7XyjBV",
     "contributor": "SiddanthNayak",
     "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #15001",
-    "occured_at": "2026-01-05T09:07:19.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15001#pullrequestreview-3626011426",
-    "text": "Add token status labels and “call next patient” button tooltip",
+    "title": "Reviewed PR #14981",
+    "occured_at": "2025-12-31T06:45:29.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14981#pullrequestreview-3620352085",
+    "text": "fix: prevent duplicate error toasts and improve error message for appointment creation",
     "points": null,
     "meta": {}
   },
   {
-    "slug": "pr_reviewed_care_fe#14889_CHANGES_REQUESTED_PRR_kwDODtfaXs7XGQsi",
+    "slug": "pr_reviewed_care_fe#15041_APPROVED_PRR_kwDODtfaXs7Ypota",
     "contributor": "SiddanthNayak",
     "activity_definition": "pr_reviewed",
-    "title": "Changes requested on PR #14889",
-    "occured_at": "2025-12-23T17:02:43.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14889#pullrequestreview-3608742690",
-    "text": "feat: implement duplicate check for allergies, diagnoses, and symptoms",
+    "title": "Approved PR #15041",
+    "occured_at": "2026-01-07T13:06:58.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15041#pullrequestreview-3634793306",
+    "text": "Fixed the flakiness in account page",
     "points": null,
     "meta": {}
   }

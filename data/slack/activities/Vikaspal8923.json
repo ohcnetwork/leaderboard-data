@@ -1,5 +1,27 @@
 [
   {
+    "slug": "eod_update_2025-06-05_Vikaspal8923",
+    "contributor": "Vikaspal8923",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-05T06:18:41.647Z",
+    "link": null,
+    "text": "June 4  &amp;amp; 5<br>•  update <code>usequery</code>  of  Add patient and search patient workflows to make them capable to cache data in persistor<br>• same for  patient profile workflow<br>Next<br>• update  <code>usequery</code>   for appointment workflow<br>• update <code>usequery</code>    for encounter workflow",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-06-08_Vikaspal8923",
+    "contributor": "Vikaspal8923",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-08T16:59:15.180Z",
+    "link": null,
+    "text": "June 6-8<br>• Done with updation in all <code>usequery</code>   call in appointment workflow.<br>• Same for encounter and questionnaire workflow.<br>Next<br>• Add functionality to remove cache data during logout and session expired.<br>• Go through some edge cases of caching.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-24_Vikaspal8923",
     "contributor": "Vikaspal8923",
     "activity_definition": "eod_update",
@@ -194,28 +216,6 @@
     "occured_at": "2025-06-12T17:19:10.984Z",
     "link": null,
     "text": "June 11 -12<br>• Test PWA precaching for UI assets after build<br>• add navigation fallback to handle route navigation  during offline<br>• still testing caching performance",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-05_Vikaspal8923",
-    "contributor": "Vikaspal8923",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-05T06:18:41.647Z",
-    "link": null,
-    "text": "June 4  &amp;amp; 5<br>•  update <code>usequery</code>  of  Add patient and search patient workflows to make them capable to cache data in persistor<br>• same for  patient profile workflow<br>Next<br>• update  <code>usequery</code>   for appointment workflow<br>• update <code>usequery</code>    for encounter workflow",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-06-08_Vikaspal8923",
-    "contributor": "Vikaspal8923",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-08T16:59:15.180Z",
-    "link": null,
-    "text": "June 6-8<br>• Done with updation in all <code>usequery</code>   call in appointment workflow.<br>• Same for encounter and questionnaire workflow.<br>Next<br>• Add functionality to remove cache data during logout and session expired.<br>• Go through some edge cases of caching.",
     "points": null,
     "meta": null
   },

@@ -1254,6 +1254,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-06-25_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-06-24T23:11:09.627Z",
+    "link": null,
+    "text": "<strong>June 24</strong><br>• Huddle with Amjith for review of internal transfer flow.<br>• Made changes based on above discussion and some other changes and clean up <span class=\"s-emoji\">☝️</span>, <a href=\"https://github.com/ohcnetwork/care_fe/commits/inventory-internal-transfers/?author=yash-learner&amp;amp;since=2025-06-24&amp;amp;until=2025-06-25\">[1]</a><br>• Had a long huddle with Amjith reviewing the models prepared by Spandan for Food service aka Nutrition/Diet Module, going through FHIR and BE.<br>• Cleaned up the discussion and feedback and shared with Spandan and Amjith, <span class=\"s-emoji\">☝️</span><br>• Tuesday weekly call.<br>• Replied to a GDC support email.<br><strong>Next</strong><br>• Huddle with Amjith for clearing a query.<br>• DPG review call.<br>• One final testing of supply internal transfer flow.<br>• Review the WD capstone submissions and look at support emails.<br>• GDC-KTU close up things.<br>• Review PR&#x27;s.",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-04-08_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1320,17 +1331,6 @@
     "meta": null
   },
   {
-    "slug": "eod_update_2025-06-25_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-06-24T23:11:09.627Z",
-    "link": null,
-    "text": "<strong>June 24</strong><br>• Huddle with Amjith for review of internal transfer flow.<br>• Made changes based on above discussion and some other changes and clean up <span class=\"s-emoji\">☝️</span>, <a href=\"https://github.com/ohcnetwork/care_fe/commits/inventory-internal-transfers/?author=yash-learner&amp;amp;since=2025-06-24&amp;amp;until=2025-06-25\">[1]</a><br>• Had a long huddle with Amjith reviewing the models prepared by Spandan for Food service aka Nutrition/Diet Module, going through FHIR and BE.<br>• Cleaned up the discussion and feedback and shared with Spandan and Amjith, <span class=\"s-emoji\">☝️</span><br>• Tuesday weekly call.<br>• Replied to a GDC support email.<br><strong>Next</strong><br>• Huddle with Amjith for clearing a query.<br>• DPG review call.<br>• One final testing of supply internal transfer flow.<br>• Review the WD capstone submissions and look at support emails.<br>• GDC-KTU close up things.<br>• Review PR&#x27;s.",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-08-20_yash-learner",
     "contributor": "yash-learner",
     "activity_definition": "eod_update",
@@ -1393,6 +1393,17 @@
     "occured_at": "2025-05-10T01:01:29.136Z",
     "link": null,
     "text": "<strong>May 07 -  08</strong><br>• Added support for files attached getting printed in Diagnostic report results print.<br>• Reviewed and tested some PR&#x27;s and played sometime with responsive design in appointments page.<br>• Investigated why some submissions were not getting reviewed by ARS, and for now ran the fix from backend and shared the info on Discord.<br>• Fixed the bug related to specimen discard and discussions around it with Amjith, Bodhi and Vignesh.<br>• Some tiny style fixes in Labs.<br>• GDC chores<br>• Got some of my old PR&#x27;s merged.<br>• DPG review call.<br><strong>May 09</strong><br>• Call with Vinu regarding the design of workflowprogress  for small devices and discussion regarding multiple design things.<br>• Huddle with Muneer regarding, <a href=\"https://github.com/ohcnetwork/care_fe/issues/11946\">issues#11946</a><br>• Huddles and discussion with Amjith.<br>• Worked on Labs<br>    ◦ Fixed a propagation issue with the Dialog and dropdown in SR.<br>    ◦ Hidden the sidebar on SR show page, as suggested by Vinu and played sometime with fixing the width of the some cards.<br>    ◦ Added the workflow progress to render in sheet on small devices.<br>    ◦ Added sheet for specimen history.<br>    ◦ Fixed a small bug with creating a new draft specimen after discarding previous specimen. <br>    ◦ Just glancing and hovering over some BE code.<br>• Replied to a GDC support email regarding feedback from automated review system.<br><strong>Next</strong><br>• Labs<br>• GDC<br>• Look into the issue reported by Rithvik and Nikhila with Consent dates.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-09-17_yash-learner",
+    "contributor": "yash-learner",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-09-17T04:12:55.532Z",
+    "link": null,
+    "text": "<strong>Sept 16</strong><br>• Huddle with Praff, regarding <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1758002071389049?thread_ts=1758002071.389049&amp;amp;cid=C06KGMUAB0V\">[1]</a>.<br>• Most of time spent understanding observations and diagnostic report.<br>    ◦ Huddle with Jeevan regarding <span class=\"s-emoji\">☝️</span>.<br>    ◦ Trying to clear as type casting at some places.<br>    ◦ Made <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.<br>• Fixed a tiny review from Aditya and discussion, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674#discussion_r2351680084\">[1]</a>.<br>• Huddle with Siddanth <br>• Tuesday weekly call.<br>• Triaging issues and understanding code around UpdateApp for triaging a issue.<br>• Replied <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758049514951699?thread_ts=1758040545.494849&amp;amp;cid=C010GQBMFJ9\">here</a>.<br><strong>Next</strong><br>• Sync with Jeevan regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.",
     "points": null,
     "meta": null
   },
@@ -1547,17 +1558,6 @@
     "occured_at": "2026-01-05T06:23:45.392Z",
     "link": null,
     "text": "<strong>January 2</strong><br>• Reviewed PR&#x27;s<br>• Made changes on PR#14934, PR#14857<br>• Writing specs for ServiceRequest lab flow.<br><strong>Next</strong><br>• Write specs<br>• Review PR&#x27;s<br>",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-09-17_yash-learner",
-    "contributor": "yash-learner",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-09-17T04:12:55.532Z",
-    "link": null,
-    "text": "<strong>Sept 16</strong><br>• Huddle with Praff, regarding <a href=\"https://rebuildearth.slack.com/archives/C06KGMUAB0V/p1758002071389049?thread_ts=1758002071.389049&amp;amp;cid=C06KGMUAB0V\">[1]</a>.<br>• Most of time spent understanding observations and diagnostic report.<br>    ◦ Huddle with Jeevan regarding <span class=\"s-emoji\">☝️</span>.<br>    ◦ Trying to clear as type casting at some places.<br>    ◦ Made <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.<br>• Fixed a tiny review from Aditya and discussion, <a href=\"https://github.com/ohcnetwork/care_fe/pull/13674#discussion_r2351680084\">[1]</a>.<br>• Huddle with Siddanth <br>• Tuesday weekly call.<br>• Triaging issues and understanding code around UpdateApp for triaging a issue.<br>• Replied <a href=\"https://rebuildearth.slack.com/archives/C010GQBMFJ9/p1758049514951699?thread_ts=1758040545.494849&amp;amp;cid=C010GQBMFJ9\">here</a>.<br><strong>Next</strong><br>• Sync with Jeevan regarding <a href=\"https://github.com/ohcnetwork/care_fe/pull/13719\">PR#13719</a>.",
     "points": null,
     "meta": null
   },
