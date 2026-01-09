@@ -1,5 +1,16 @@
 [
   {
+    "slug": "pr_merged_care#3209",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3209",
+    "occured_at": "2025-08-29T07:01:48.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3209",
+    "text": "refact:fixed facility check",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_odoo_be#1",
     "contributor": "nandkishorr",
     "activity_definition": "pr_merged",
@@ -183,17 +194,6 @@
     "occured_at": "2025-07-16T15:08:58.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/12959",
     "text": "Not accepting underscores in slug text field",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3209",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3209",
-    "occured_at": "2025-08-29T07:01:48.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3209",
-    "text": "refact:fixed facility check",
     "points": null,
     "meta": {}
   },
@@ -2640,6 +2640,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_opened_care#3220",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3220",
+    "occured_at": "2025-08-26T12:36:40.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3220",
+    "text": "Slug validation for Product Knowledge",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "commit_created_nandkishorr/test/inventory_0ab94cfab09be1de77bf653f8512aebbd84c2a3f",
     "contributor": "nandkishorr",
     "activity_definition": "commit_created",
@@ -3219,17 +3230,6 @@
     "occured_at": "2025-11-10T12:24:15.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/a0bfe6dda03ca06fcd65fc516d04260856eac872",
     "text": "Test cases for activity definitions (#3190)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#3220",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3220",
-    "occured_at": "2025-08-26T12:36:40.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3220",
-    "text": "Slug validation for Product Knowledge",
     "points": null,
     "meta": {}
   },
@@ -6083,6 +6083,72 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2026-01-06T06:41:29.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
+    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "contributor": "nandkishorr",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2026-01-06T10:48:08.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
+    "text": "Added patient field to Account context builder (#3445)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3449",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -6156,72 +6222,6 @@
     "occured_at": "2026-01-08T05:43:27.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/e481ed38ab869328a991cc98c8f1319261479d66",
     "text": "Merge branch 'develop' into prafful/feat/adding-service-account-and-token-support",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/pip/boto-ad2b878303_00ad7099226e859dcb9a740a6f24ba643931d2b3",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
-    "occured_at": "2026-01-06T06:41:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
-    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/pip/boto-ad2b878303_1e6d231eb06099643c87005ed93d311fa64e0e5c",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
-    "occured_at": "2026-01-06T10:48:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
-    "text": "Added patient field to Account context builder (#3445)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_00ad7099226e859dcb9a740a6f24ba643931d2b3",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
-    "occured_at": "2026-01-06T06:41:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
-    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_1e6d231eb06099643c87005ed93d311fa64e0e5c",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
-    "occured_at": "2026-01-06T10:48:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
-    "text": "Added patient field to Account context builder (#3445)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_00ad7099226e859dcb9a740a6f24ba643931d2b3",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
-    "occured_at": "2026-01-06T06:41:29.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/00ad7099226e859dcb9a740a6f24ba643931d2b3",
-    "text": "fix:added requester field in DiagnosticReportRetrieveSpec (#3443)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_1e6d231eb06099643c87005ed93d311fa64e0e5c",
-    "contributor": "nandkishorr",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
-    "occured_at": "2026-01-06T10:48:08.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/1e6d231eb06099643c87005ed93d311fa64e0e5c",
-    "text": "Added patient field to Account context builder (#3445)",
     "points": null,
     "meta": {}
   }

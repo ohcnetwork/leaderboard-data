@@ -1397,17 +1397,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#15000",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #15000",
-    "occured_at": "2026-01-04T10:26:52.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/15000",
-    "text": "Refactor CareIcon component to improve type safety and remove hardcoded values",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "comment_created_care_fe#15000_IC_kwDODtfaXs7dAt1o",
     "contributor": "harsh04044",
     "activity_definition": "comment_created",
@@ -1617,17 +1606,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_opened_care_fe#14999",
-    "contributor": "harsh04044",
-    "activity_definition": "issue_opened",
-    "title": "Opened issue #14999",
-    "occured_at": "2026-01-04T09:50:49.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/14999",
-    "text": "Add loading skeleton for Queue Management page",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14881",
     "contributor": "harsh04044",
     "activity_definition": "pr_opened",
@@ -1716,6 +1694,72 @@
     "meta": {}
   },
   {
+    "slug": "issue_opened_care_fe#15000",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #15000",
+    "occured_at": "2026-01-04T10:26:52.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15000",
+    "text": "Refactor CareIcon component to improve type safety and remove hardcoded values",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#14999",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #14999",
+    "occured_at": "2026-01-04T09:50:49.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/14999",
+    "text": "Add loading skeleton for Queue Management page",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#15062",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #15062",
+    "occured_at": "2026-01-08T12:48:11.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15062",
+    "text": "Fix memory leak in useVoiceRecorder hook",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_opened_care_fe#15060",
+    "contributor": "harsh04044",
+    "activity_definition": "issue_opened",
+    "title": "Opened issue #15060",
+    "occured_at": "2026-01-08T12:15:12.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15060",
+    "text": "Missing AbortController Cleanup in useEffect Hooks Causing Memory Leaks and Race Conditions",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#15062_IC_kwDODtfaXs7d87wt",
+    "contributor": "harsh04044",
+    "activity_definition": "comment_created",
+    "title": "Commented on #15062",
+    "occured_at": "2026-01-08T12:51:13.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15062#issuecomment-3723738157",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "comment_created_care_fe#15060_IC_kwDODtfaXs7d8ehQ",
+    "contributor": "harsh04044",
+    "activity_definition": "comment_created",
+    "title": "Commented on #15060",
+    "occured_at": "2026-01-08T12:19:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/15060#issuecomment-3723618384",
+    "text": null,
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care_fe#15020",
     "contributor": "harsh04044",
     "activity_definition": "pr_opened",
@@ -1756,6 +1800,50 @@
     "occured_at": "2025-12-31T12:19:44.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14981#pullrequestreview-3620806464",
     "text": "fix: prevent duplicate error toasts and improve error message for appointment creation",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/hookform-resolvers-5.x-lockfile_0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/hookform-resolvers-5.x-lockfile",
+    "occured_at": "2026-01-02T06:07:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "text": "fix: add loading indicator to UserForm submit button (#14861)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/hookform-resolvers-5.x-lockfile_51f4410b89596427909e250ad788ec6bbb3058f7",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/hookform-resolvers-5.x-lockfile",
+    "occured_at": "2026-01-02T06:11:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
+    "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/tailwindcss-forms-0.x-lockfile_0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/tailwindcss-forms-0.x-lockfile",
+    "occured_at": "2026-01-02T06:07:17.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/0dd3f2e1ce71a1f18b6b45bf61784c51f2a31152",
+    "text": "fix: add loading indicator to UserForm submit button (#14861)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_renovate/tailwindcss-forms-0.x-lockfile_51f4410b89596427909e250ad788ec6bbb3058f7",
+    "contributor": "harsh04044",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to renovate/tailwindcss-forms-0.x-lockfile",
+    "occured_at": "2026-01-02T06:11:54.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/commit/51f4410b89596427909e250ad788ec6bbb3058f7",
+    "text": "fix: use AbortSignal from TanStack Query in queryFn functions (#14874)",
     "points": null,
     "meta": {}
   }

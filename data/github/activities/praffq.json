@@ -1,5 +1,27 @@
 [
   {
+    "slug": "pr_opened_care#2790",
+    "contributor": "praffq",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #2790",
+    "occured_at": "2025-01-29T09:00:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/2790",
+    "text": "Adding cache for swagger",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care#3379",
+    "contributor": "praffq",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3379",
+    "occured_at": "2025-11-25T15:58:39.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3379",
+    "text": "adding validation for facility name",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care#2790",
     "contributor": "praffq",
     "activity_definition": "pr_merged",
@@ -62,28 +84,6 @@
     "occured_at": "2025-09-15T12:25:39.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3261",
     "text": "fix test cases for slugs",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care#2790",
-    "contributor": "praffq",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #2790",
-    "occured_at": "2025-01-29T09:00:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/2790",
-    "text": "Adding cache for swagger",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3379",
-    "contributor": "praffq",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3379",
-    "occured_at": "2025-11-25T15:58:39.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3379",
-    "text": "adding validation for facility name",
     "points": null,
     "meta": {}
   },
@@ -8338,6 +8338,50 @@
     "meta": {}
   },
   {
+    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_57b02551d7bc8f7b4205e96b4e9368005c3ac7a0",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
+    "occured_at": "2026-01-07T19:01:37.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/57b02551d7bc8f7b4205e96b4e9368005c3ac7a0",
+    "text": "comments",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/pip/boto-ad2b878303_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "contributor": "praffq",
+    "activity_definition": "commit_created",
+    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
+    "occured_at": "2026-01-06T12:10:51.000Z",
+    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
+    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_opened_care#3440",
     "contributor": "praffq",
     "activity_definition": "pr_opened",
@@ -8386,50 +8430,6 @@
     "contributor": "praffq",
     "activity_definition": "commit_created",
     "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
-    "occured_at": "2026-01-06T12:10:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
-    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_prafful/feat/adding-service-account-and-token-support_57b02551d7bc8f7b4205e96b4e9368005c3ac7a0",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to prafful/feat/adding-service-account-and-token-support",
-    "occured_at": "2026-01-07T19:01:37.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/57b02551d7bc8f7b4205e96b4e9368005c3ac7a0",
-    "text": "comments",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/pip/boto-ad2b878303_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/pip/boto-ad2b878303",
-    "occured_at": "2026-01-06T12:10:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
-    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/github_actions/all-dependencies-1dbe788063_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/github_actions/all-dependencies-1dbe788063",
-    "occured_at": "2026-01-06T12:10:51.000Z",
-    "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
-    "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "commit_created_dependabot/docker/docker/all-dependencies-d30b82f7c3_ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
-    "contributor": "praffq",
-    "activity_definition": "commit_created",
-    "title": "Pushed commit to dependabot/docker/docker/all-dependencies-d30b82f7c3",
     "occured_at": "2026-01-06T12:10:51.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/ad216a76a4f8da80ea5b781b36b1b1ed2609142a",
     "text": "add identifiers and tag details for patient in multiple endpoints (#3411)",
