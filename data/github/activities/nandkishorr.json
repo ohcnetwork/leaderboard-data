@@ -1573,6 +1573,17 @@
     "meta": {}
   },
   {
+    "slug": "pr_merged_care#3183",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #3183",
+    "occured_at": "2025-08-05T03:09:55.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3183",
+    "text": "fix:added item save before orm filtering",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_reviewed_care#3343_COMMENTED_PRR_kwDODsgdF87MlD1d",
     "contributor": "nandkishorr",
     "activity_definition": "pr_reviewed",
@@ -1974,17 +1985,6 @@
     "activity_definition": "pr_opened",
     "title": "Opened pull request #3183",
     "occured_at": "2025-08-04T12:04:13.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3183",
-    "text": "fix:added item save before orm filtering",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care#3183",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #3183",
-    "occured_at": "2025-08-05T03:09:55.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3183",
     "text": "fix:added item save before orm filtering",
     "points": null,
@@ -6149,17 +6149,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care#3449",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #3449",
-    "occured_at": "2026-01-08T10:53:19.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3449",
-    "text": "fix:added createdby and updatedby for charge item ",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care#3448",
     "contributor": "nandkishorr",
     "activity_definition": "pr_opened",
@@ -6167,17 +6156,6 @@
     "occured_at": "2026-01-08T09:17:56.000Z",
     "link": "https://github.com/ohcnetwork/care/pull/3448",
     "text": "fix:updated delete_model_cache ",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_reviewed_care#3440_APPROVED_PRR_kwDODsgdF87Y1DJ_",
-    "contributor": "nandkishorr",
-    "activity_definition": "pr_reviewed",
-    "title": "Approved PR #3440",
-    "occured_at": "2026-01-08T05:48:02.000Z",
-    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3637785215",
-    "text": "added service account flag and token generation endpoints",
     "points": null,
     "meta": {}
   },
@@ -6222,6 +6200,28 @@
     "occured_at": "2026-01-08T05:43:27.000Z",
     "link": "https://github.com/ohcnetwork/care/commit/e481ed38ab869328a991cc98c8f1319261479d66",
     "text": "Merge branch 'develop' into prafful/feat/adding-service-account-and-token-support",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care#3449",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #3449",
+    "occured_at": "2026-01-08T10:53:19.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3449",
+    "text": "fix:added createdby and updatedby for charge item ",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_reviewed_care#3440_APPROVED_PRR_kwDODsgdF87Y1DJ_",
+    "contributor": "nandkishorr",
+    "activity_definition": "pr_reviewed",
+    "title": "Approved PR #3440",
+    "occured_at": "2026-01-08T05:48:02.000Z",
+    "link": "https://github.com/ohcnetwork/care/pull/3440#pullrequestreview-3637785215",
+    "text": "added service account flag and token generation endpoints",
     "points": null,
     "meta": {}
   }

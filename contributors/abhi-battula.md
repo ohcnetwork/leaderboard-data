@@ -11,5 +11,4 @@ social_profiles:
   slack: https://rebuildearth.slack.com/team/U0A4CG34BV1
 ---
 
-
 Hello! I'm Abhinav Battula. Excited to make contributions to the OHC Network.

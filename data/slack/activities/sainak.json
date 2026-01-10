@@ -1,93 +1,5 @@
 [
   {
-    "slug": "eod_update_2024-12-25_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-24T19:01:48.378Z",
-    "link": null,
-    "text": "24 Dec<br>Whole day went into diagnosing the problem with my laptops built-in display<br>• Worked on adding maintenance mode to django admin",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-01-31_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-01-30T21:23:33.111Z",
-    "link": null,
-    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2023-07-19_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2023-07-19T06:11:17.493Z",
-    "link": null,
-    "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-12_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-12T01:17:03.713Z",
-    "link": null,
-    "text": "I need to prepare for exams so not much for today just some minor stuff here and there.",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-04_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-04T05:29:23.583Z",
-    "link": null,
-    "text": "Worked on <a href=\"https://github.com/ohcnetwork/care/pull/811\"><a href=\"https://github.com/ohcnetwork/care/pull/811\">https://github.com/ohcnetwork/care/pull/811</a></a><br>Cleared few issues from sentry<br>Reviewed some PRs",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-05-21_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-05-21T09:52:17.003Z",
-    "link": null,
-    "text": "created <a href=\"https://github.com/ohcnetwork/care/pull/777\">#777</a> to handle an integrity error",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2022-06-05_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2022-06-05T06:25:26.923Z",
-    "link": null,
-    "text": "Nothing for today, worked on improving the performance of my laptop&#x27;s kernel",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2024-12-02_sainak",
-    "contributor": "sainak",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2024-12-02T05:51:39.413Z",
-    "link": null,
-    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
-    "points": null,
-    "meta": null
-  },
-  {
     "slug": "eod_update_2025-11-05_sainak",
     "contributor": "sainak",
     "activity_definition": "eod_update",
@@ -315,6 +227,94 @@
     "occured_at": "2025-12-10T14:50:57.796Z",
     "link": null,
     "text": "9th Dec<br>• Added condition severity for migrated data<br>• Reviewed backend prs<br>10th Dec<br>• Update dependencies<br>• Cleanup old models and migrations<br>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-25_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-24T19:01:48.378Z",
+    "link": null,
+    "text": "24 Dec<br>Whole day went into diagnosing the problem with my laptops built-in display<br>• Worked on adding maintenance mode to django admin",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2025-01-31_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-01-30T21:23:33.111Z",
+    "link": null,
+    "text": "30th Jan<br>• Refactored the github workflows to reduce build times by 25+ minutes<br>• Fixed caching issues in test workflows",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2023-07-19_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2023-07-19T06:11:17.493Z",
+    "link": null,
+    "text": "EOD 18/07/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br>How did the day go ?<br>• Converted zoomdrive to typescript<br>EOD 19/07/2023<br>How did the day go ?<br>• Fixed issues on the backend #1459 #1461 #1464<br>• Reviewed some PRs and sent them to be merged<br>What&#x27;s next?<br>• clear up more PRs and sentry issues",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-12_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-12T01:17:03.713Z",
+    "link": null,
+    "text": "I need to prepare for exams so not much for today just some minor stuff here and there.",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-06-04_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-04T05:29:23.583Z",
+    "link": null,
+    "text": "Worked on <a href=\"https://github.com/ohcnetwork/care/pull/811\"><a href=\"https://github.com/ohcnetwork/care/pull/811\">https://github.com/ohcnetwork/care/pull/811</a></a><br>Cleared few issues from sentry<br>Reviewed some PRs",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-05-21_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-05-21T09:52:17.003Z",
+    "link": null,
+    "text": "created <a href=\"https://github.com/ohcnetwork/care/pull/777\">#777</a> to handle an integrity error",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2022-06-05_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2022-06-05T06:25:26.923Z",
+    "link": null,
+    "text": "Nothing for today, worked on improving the performance of my laptop&#x27;s kernel",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2024-12-02_sainak",
+    "contributor": "sainak",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2024-12-02T05:51:39.413Z",
+    "link": null,
+    "text": "No updates for 26-29th November as I was on leave<br>2nd December<br>• Reviewed pending PRs<br>• Checked for re-rendering issues on FE<br>• Debugged the cache issue on the build workflows<br>• Updated the test workflow to only upload db dump from develop branch in the backend",
     "points": null,
     "meta": null
   },

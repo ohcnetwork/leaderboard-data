@@ -1,5 +1,38 @@
 [
   {
+    "slug": "pr_opened_care_fe#13737",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #13737",
+    "occured_at": "2025-09-17T14:50:15.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/13737",
+    "text": "Fix cross icon overlapping text in supplier select dropdown on mobile view",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_merged_care_fe#14468",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_merged",
+    "title": "Merged pull request #14468",
+    "occured_at": "2025-11-21T15:16:20.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14468",
+    "text": "Remove all Cypress test infrastructure, references, and configurations",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#14319",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #14319",
+    "occured_at": "2025-11-13T06:44:32.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/14319",
+    "text": "Revert i18n pattern changes for FilterSelect component",
+    "points": null,
+    "meta": {}
+  },
+  {
     "slug": "pr_merged_care_fe#14306",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_merged",
@@ -117,39 +150,6 @@
     "occured_at": "2025-11-01T04:13:22.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/pull/14207",
     "text": "Add confirmation dialogs for destructive payment reconciliation actions",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#14319",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #14319",
-    "occured_at": "2025-11-13T06:44:32.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14319",
-    "text": "Revert i18n pattern changes for FilterSelect component",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_opened_care_fe#13737",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #13737",
-    "occured_at": "2025-09-17T14:50:15.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/13737",
-    "text": "Fix cross icon overlapping text in supplier select dropdown on mobile view",
-    "points": null,
-    "meta": {}
-  },
-  {
-    "slug": "pr_merged_care_fe#14468",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_merged",
-    "title": "Merged pull request #14468",
-    "occured_at": "2025-11-21T15:16:20.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/14468",
-    "text": "Remove all Cypress test infrastructure, references, and configurations",
     "points": null,
     "meta": {}
   },
@@ -2387,17 +2387,6 @@
     "meta": {}
   },
   {
-    "slug": "issue_assigned_care_fe#13006_copilot-swe-agent",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "issue_assigned",
-    "title": "Issue #13006 assigned",
-    "occured_at": "2025-11-09T18:02:14.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/issues/13006",
-    "text": "Bug: Generalise the text when there is no entry for a search input in Patient earch",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#14583",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2662,17 +2651,6 @@
     "meta": {}
   },
   {
-    "slug": "pr_opened_care_fe#15037",
-    "contributor": "copilot-swe-agent",
-    "activity_definition": "pr_opened",
-    "title": "Opened pull request #15037",
-    "occured_at": "2026-01-06T13:48:04.000Z",
-    "link": "https://github.com/ohcnetwork/care_fe/pull/15037",
-    "text": "Remove obsolete TODO comment for schedule exception warning callout",
-    "points": null,
-    "meta": {}
-  },
-  {
     "slug": "pr_opened_care_fe#15040",
     "contributor": "copilot-swe-agent",
     "activity_definition": "pr_opened",
@@ -2713,6 +2691,28 @@
     "occured_at": "2026-01-05T05:25:56.000Z",
     "link": "https://github.com/ohcnetwork/care_fe/issues/14998",
     "text": "Fix: Hardcoded toast messages in some files",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "issue_assigned_care_fe#13006_copilot-swe-agent",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "issue_assigned",
+    "title": "Issue #13006 assigned",
+    "occured_at": "2025-11-09T18:02:14.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/issues/13006",
+    "text": "Bug: Generalise the text when there is no entry for a search input in Patient earch",
+    "points": null,
+    "meta": {}
+  },
+  {
+    "slug": "pr_opened_care_fe#15037",
+    "contributor": "copilot-swe-agent",
+    "activity_definition": "pr_opened",
+    "title": "Opened pull request #15037",
+    "occured_at": "2026-01-06T13:48:04.000Z",
+    "link": "https://github.com/ohcnetwork/care_fe/pull/15037",
+    "text": "Remove obsolete TODO comment for schedule exception warning callout",
     "points": null,
     "meta": {}
   },

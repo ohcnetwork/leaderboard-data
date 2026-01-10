@@ -1,5 +1,16 @@
 [
   {
+    "slug": "eod_update_2025-11-13_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-13T16:58:15.316Z",
+    "link": null,
+    "text": "Nov 13<br>• Added encounter filter to consent requests in abdm<br>• Replaced the usage of get_facility_queryset with updated logic<br>• Went over the ABDM demo flow with Amrutha",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2025-03-24_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -161,6 +172,17 @@
     "occured_at": "2023-06-05T03:21:48.122Z",
     "link": null,
     "text": "EOD 05/06/2023 <span class=\"s-mention s-usergroup\">^@care_engineering</span><br><br>How did the day go ?<br>• Connected with Saurabh to understand where to get recipient-code from.<br>• Made recipient-code dynamic<br>• Had back and forth with WASA testing team on testing<br>What&#x27;s next<br>• Work on <a href=\"https://github.com/ohcnetwork/ayushma/issues/75\">https://github.com/ohcnetwork/ayushma/issues/75</a>",
+    "points": null,
+    "meta": null
+  },
+  {
+    "slug": "eod_update_2026-01-05_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2026-01-05T06:57:38.618Z",
+    "link": null,
+    "text": "Dec 29 - Jan 2<br>• lazy week<br>• completed pinelabs integration<br>• pushed suggested changes in my old prs<br>• started UHI integration, but still waiting for sandbox access<br>Next:<br>• UHI integration",
     "points": null,
     "meta": null
   },
@@ -616,6 +638,17 @@
     "meta": null
   },
   {
+    "slug": "eod_update_2025-11-12_khavinshankar",
+    "contributor": "khavinshankar",
+    "activity_definition": "eod_update",
+    "title": "EOD Update",
+    "occured_at": "2025-11-11T18:45:29.513Z",
+    "link": null,
+    "text": "Nov 11<br>• Added scan and share functionality in PHR<br>Next<br>• Scan and share as a token queue\n\nNov 11<br>• Added scan and share functionality in PHR<br>Next<br>• Scan and share as a token queue\n\nNov 12<br>• Fixed 2 ABDM related recurring issues on Sentry in v3 instances<br>• Huddle with Amrutha to walk over the ABDM demo flow<br>• Fixed issues noticed during the demo rehearsal with Amrutha<br>Next<br>• Scan and share as a token queue<br>• Final walk through of ABDM demo with Amrutha<br>• Go over the assigned issues across all the repos and plan accordingly\n\nNov 12<br>• Fixed 2 ABDM related recurring issues on Sentry in v3 instances<br>• Huddle with Amrutha to walk over the ABDM demo flow<br>• Fixed issues noticed during the demo rehearsal with Amrutha<br>Next<br>• Scan and share as a token queue<br>• Final walk through of ABDM demo with Amrutha<br>• Go over the assigned issues across all the repos and plan accordingly",
+    "points": null,
+    "meta": null
+  },
+  {
     "slug": "eod_update_2024-12-23_khavinshankar",
     "contributor": "khavinshankar",
     "activity_definition": "eod_update",
@@ -678,39 +711,6 @@
     "occured_at": "2025-11-09T19:26:45.912Z",
     "link": null,
     "text": "Nov 7<br>• Deployed ABDM PHR in teleicu instance<br>• Raised a PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268\">14268</a> for making discharge disposition mandatory<br>• Made translations dynamic in dynamic plugs poc PR<br>• Dropped the plugin registry idea and will be moving on with dynamic plugs<br>\n\nNov 7<br>• Deployed ABDM PHR in teleicu instance<br>• Raised a PR <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268\">14268</a> for making discharge disposition mandatory<br>• Made translations dynamic in dynamic plugs poc PR<br>• Dropped the plugin registry idea and will be moving on with dynamic plugs\n\nNov 10<br>• Followed up on feedbacks on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268\">#14268</a><br>• Huddle with Yaswanth to discuss Playwright tests<br>• Meeting with Amrutha to help out with ABDM demo setup and recordings<br>Next<br>• Add Scan and share in PHR<br>• Scan and share as TokenQueue\n\nNov 10<br>• Followed up on feedbacks on <a href=\"https://github.com/ohcnetwork/care_fe/pull/14268\">#14268</a><br>• Huddle with Yaswanth to discuss Playwright tests<br>• Meeting with Amrutha to help out with ABDM demo setup and recordings<br>Next<br>• Add Scan and share in PHR<br>• Scan and share as TokenQueue",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-12_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-11T18:45:29.513Z",
-    "link": null,
-    "text": "Nov 11<br>• Added scan and share functionality in PHR<br>Next<br>• Scan and share as a token queue\n\nNov 11<br>• Added scan and share functionality in PHR<br>Next<br>• Scan and share as a token queue\n\nNov 12<br>• Fixed 2 ABDM related recurring issues on Sentry in v3 instances<br>• Huddle with Amrutha to walk over the ABDM demo flow<br>• Fixed issues noticed during the demo rehearsal with Amrutha<br>Next<br>• Scan and share as a token queue<br>• Final walk through of ABDM demo with Amrutha<br>• Go over the assigned issues across all the repos and plan accordingly\n\nNov 12<br>• Fixed 2 ABDM related recurring issues on Sentry in v3 instances<br>• Huddle with Amrutha to walk over the ABDM demo flow<br>• Fixed issues noticed during the demo rehearsal with Amrutha<br>Next<br>• Scan and share as a token queue<br>• Final walk through of ABDM demo with Amrutha<br>• Go over the assigned issues across all the repos and plan accordingly",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2025-11-13_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2025-11-13T16:58:15.316Z",
-    "link": null,
-    "text": "Nov 13<br>• Added encounter filter to consent requests in abdm<br>• Replaced the usage of get_facility_queryset with updated logic<br>• Went over the ABDM demo flow with Amrutha",
-    "points": null,
-    "meta": null
-  },
-  {
-    "slug": "eod_update_2026-01-05_khavinshankar",
-    "contributor": "khavinshankar",
-    "activity_definition": "eod_update",
-    "title": "EOD Update",
-    "occured_at": "2026-01-05T06:57:38.618Z",
-    "link": null,
-    "text": "Dec 29 - Jan 2<br>• lazy week<br>• completed pinelabs integration<br>• pushed suggested changes in my old prs<br>• started UHI integration, but still waiting for sandbox access<br>Next:<br>• UHI integration",
     "points": null,
     "meta": null
   }
