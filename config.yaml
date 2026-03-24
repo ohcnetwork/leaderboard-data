@@ -3,7 +3,7 @@ org:
   description: Open Healthcare Network(OHC) is an open-source platform that helps governments, hospitals, and innovators build connected healthcare systems faster, safer, and at national scale.
   url: https://ohc.network
   logo_url: https://avatars.githubusercontent.com/u/62014451?v=4
-  start_date: '2020-03-05'
+  start_date: "2020-03-05"
 meta:
   title: Open Healthcare Network Leaderboard
   description: Open Healthcare Network contributor leaderboard
@@ -28,20 +28,20 @@ leaderboard:
       hidden: true
 
   # Example plugin configurations (uncomment and configure as needed):
-  # plugins:
-  #   github:
-  #     name: GitHub Plugin
-  #     source: https://raw.githubusercontent.com/your-org/leaderboard-github-plugin/main/manifest.js
-  #     config:
-  #       githubToken: ${{ env.GITHUB_TOKEN }}
-  #       githubOrg: your-org-name
-  #
-  #   slack:
-  #     name: Slack Plugin
-  #     source: https://raw.githubusercontent.com/your-org/leaderboard-slack-plugin/main/manifest.js
-  #     config:
-  #       slackApiToken: ${{ env.SLACK_API_TOKEN }}
-  #       slackChannel: ${{ env.SLACK_CHANNEL }}
+  plugins:
+    github:
+      name: GitHub Plugin
+      source: "file:///Users/rithviknishad/ohc.network/leaderboard-github-plugin/dist/index.js"
+      config:
+        githubToken: ${{ env.GITHUB_TOKEN }}
+        githubOrg: ohcnetwork
+
+    slack:
+      name: Slack Plugin
+      source: "file:///Users/rithviknishad/ohc.network/leaderboard-slack-plugin/dist/index.js"
+      config:
+        slackApiToken: ${{ env.SLACK_API_TOKEN }}
+        slackChannel: C04CJHYJR17
   #
   # Optional: Specify aggregates to display
   # aggregates:

@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "active_contributors_last_30d",
+    "name": "Active Contributors (Last 30 Days)",
+    "description": "Number of contributors with activity in the last 30 days",
+    "value": {
+      "type": "number",
+      "value": 58,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "calculated_at": "2026-03-24T06:54:18.334Z",
+      "period_start": "2026-02-22",
+      "period_end": "2026-03-24"
+    }
+  },
+  {
+    "slug": "total_activities",
+    "name": "Total Activities",
+    "description": "Total number of activities",
+    "value": {
+      "type": "number",
+      "value": 939,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "calculated_at": "2026-03-24T06:54:18.328Z"
+    }
+  },
+  {
+    "slug": "total_contributors",
+    "name": "Total Contributors",
+    "description": "Total number of contributors",
+    "value": {
+      "type": "number",
+      "value": 77,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "calculated_at": "2026-03-24T06:54:18.327Z"
+    }
+  }
+]
