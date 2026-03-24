@@ -33,15 +33,20 @@ leaderboard:
       name: GitHub Plugin
       source: "file://${{ env.LEADERBOARD_DATA_DIR }}/plugins/github.js"
       config:
-        githubToken: ${{ env.GITHUB_TOKEN }}
         githubOrg: ${{ env.GITHUB_ORG }}
+        githubTokens:
+          - ${{ env.GITHUB_TOKEN_1 }}
+          - ${{ env.GITHUB_TOKEN_2 }}
+          - ${{ env.GITHUB_TOKEN_3 }}
+          - ${{ env.GITHUB_TOKEN_4 }}
+          - ${{ env.GITHUB_TOKEN_5 }}
 
-    slack:
-      name: Slack Plugin
-      source: "file://${{ env.LEADERBOARD_DATA_DIR }}/plugins/slack.js"
-      config:
-        slackApiToken: ${{ env.SLACK_API_TOKEN }}
-        slackChannel: ${{ env.SLACK_CHANNEL }}
+    # slack:
+    #   name: Slack Plugin
+    #   source: "file://${{ env.LEADERBOARD_DATA_DIR }}/plugins/slack.js"
+    #   config:
+    #     slackApiToken: ${{ env.SLACK_API_TOKEN }}
+    #     slackChannel: ${{ env.SLACK_CHANNEL }}
   #
   # Optional: Specify aggregates to display
   # aggregates:
