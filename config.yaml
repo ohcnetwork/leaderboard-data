@@ -31,17 +31,17 @@ leaderboard:
   plugins:
     github:
       name: GitHub Plugin
-      source: "file:///Users/rithviknishad/ohc.network/leaderboard-github-plugin/dist/index.js"
+      source: "file://${{ env.LEADERBOARD_DATA_DIR }}/plugins/github.js"
       config:
         githubToken: ${{ env.GITHUB_TOKEN }}
-        githubOrg: ohcnetwork
+        githubOrg: ${{ env.GITHUB_ORG }}
 
     slack:
       name: Slack Plugin
-      source: "file:///Users/rithviknishad/ohc.network/leaderboard-slack-plugin/dist/index.js"
+      source: "file://${{ env.LEADERBOARD_DATA_DIR }}/plugins/slack.js"
       config:
         slackApiToken: ${{ env.SLACK_API_TOKEN }}
-        slackChannel: C04CJHYJR17
+        slackChannel: ${{ env.SLACK_CHANNEL }}
   #
   # Optional: Specify aggregates to display
   # aggregates:
