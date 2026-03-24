@@ -1,0 +1,59 @@
+org:
+  name: Open Healthcare Network
+  description: Open Healthcare Network(OHC) is an open-source platform that helps governments, hospitals, and innovators build connected healthcare systems faster, safer, and at national scale.
+  url: https://ohc.network
+  logo_url: https://avatars.githubusercontent.com/u/62014451?v=4
+  start_date: '2020-03-05'
+meta:
+  title: Open Healthcare Network Leaderboard
+  description: Open Healthcare Network contributor leaderboard
+  image_url: https://avatars.githubusercontent.com/u/62014451?v=4
+  site_url: https://contributors.ohc.network
+  favicon_url: https://avatars.githubusercontent.com/u/62014451?v=4
+leaderboard:
+  data_source: https://github.com/ohcnetwork/leaderboard-data
+  roles:
+    core:
+      name: Core
+      description: Core team member
+    contributor:
+      name: Contributor
+      description: Open source contributor
+    intern:
+      name: Intern
+      description: Intern
+    bot:
+      name: Bot
+      description: Bot
+      hidden: true
+
+  # Example plugin configurations (uncomment and configure as needed):
+  # plugins:
+  #   github:
+  #     name: GitHub Plugin
+  #     source: https://raw.githubusercontent.com/your-org/leaderboard-github-plugin/main/manifest.js
+  #     config:
+  #       githubToken: ${{ env.GITHUB_TOKEN }}
+  #       githubOrg: your-org-name
+  #
+  #   slack:
+  #     name: Slack Plugin
+  #     source: https://raw.githubusercontent.com/your-org/leaderboard-slack-plugin/main/manifest.js
+  #     config:
+  #       slackApiToken: ${{ env.SLACK_API_TOKEN }}
+  #       slackChannel: ${{ env.SLACK_CHANNEL }}
+  #
+  # Optional: Specify aggregates to display
+  # aggregates:
+  #   global:
+  #     - total_activities
+  #     - total_contributors
+  #   contributor:
+  #     - total_activity_points
+  #     - activity_count
+  #
+  # Optional: Specify top contributors sidebar activities
+  # top_contributors:
+  #   - pr_merged
+  #   - pr_opened
+  #   - issue_opened
