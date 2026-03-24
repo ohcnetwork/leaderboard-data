@@ -1,10 +1,10 @@
 {
   "org": "ohcnetwork",
   "startedAt": "2026-03-24T13:36:07.803Z",
-  "updatedAt": "2026-03-24T15:15:28.220Z",
-  "totalRepos": 199,
+  "updatedAt": "2026-03-24T16:46:09.173Z",
+  "totalRepos": 164,
   "completedRepos": 159,
-  "failedRepos": 40,
+  "failedRepos": 1,
   "totalActivities": 36792,
   "repos": {
     "care_imports_fe": {
@@ -23,8 +23,8 @@
       "repo": "care_fe",
       "status": "failed",
       "activitiesCount": 0,
-      "error": "Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
-      "completedAt": "2026-03-24T15:12:52.215Z"
+      "error": "Cannot read properties of undefined (reading 'repository')",
+      "completedAt": "2026-03-24T16:46:09.170Z"
     },
     "leaderboard-data": {
       "repo": "leaderboard-data",
@@ -970,273 +970,273 @@
     },
     "stay_fe": {
       "repo": "stay_fe",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
       "completedAt": "2026-03-24T15:14:56.704Z"
     },
     "deployment-k8": {
       "repo": "deployment-k8",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/issues/comments#list-issue-comments-for-a-repository",
       "completedAt": "2026-03-24T15:12:58.608Z"
     },
     "agent-workflows": {
       "repo": "agent-workflows",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/agent-workflows'.",
       "completedAt": "2026-03-24T15:12:59.997Z"
     },
     "medication_experiment": {
       "repo": "medication_experiment",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/issues/comments#list-issue-comments-for-a-repository",
       "completedAt": "2026-03-24T15:13:04.419Z"
     },
     "care-ecs-terraform": {
       "repo": "care-ecs-terraform",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/care-ecs-terraform'.",
       "completedAt": "2026-03-24T15:13:05.053Z"
     },
     "terraform-gcp": {
       "repo": "terraform-gcp",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/terraform-gcp'.",
       "completedAt": "2026-03-24T15:13:06.413Z"
     },
     "ops": {
       "repo": "ops",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/activity/events#list-repository-events",
       "completedAt": "2026-03-24T15:13:11.989Z"
     },
     "Terraform-DO": {
       "repo": "Terraform-DO",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/issues/comments#list-issue-comments-for-a-repository",
       "completedAt": "2026-03-24T15:13:14.087Z"
     },
     "testing-automation": {
       "repo": "testing-automation",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/testing-automation'.",
       "completedAt": "2026-03-24T15:13:14.619Z"
     },
     "deploy-aws": {
       "repo": "deploy-aws",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/deploy-aws'.",
       "completedAt": "2026-03-24T15:13:20.762Z"
     },
     "care-staging-gcp": {
       "repo": "care-staging-gcp",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/care-staging-gcp'.",
       "completedAt": "2026-03-24T15:13:26.694Z"
     },
     "ksitm-infra": {
       "repo": "ksitm-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/ksitm-infra'.",
       "completedAt": "2026-03-24T15:13:27.196Z"
     },
     "devops_internal": {
       "repo": "devops_internal",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/devops_internal'.",
       "completedAt": "2026-03-24T15:13:27.721Z"
     },
     "sk-care-infra": {
       "repo": "sk-care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/sk-care-infra'.",
       "completedAt": "2026-03-24T15:13:28.246Z"
     },
     "nl-care-infra": {
       "repo": "nl-care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/nl-care-infra'.",
       "completedAt": "2026-03-24T15:13:29.292Z"
     },
     "mn-care-infra": {
       "repo": "mn-care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/mn-care-infra'.",
       "completedAt": "2026-03-24T15:13:31.396Z"
     },
     "ml-care-infra": {
       "repo": "ml-care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/activity/events#list-repository-events",
       "completedAt": "2026-03-24T15:13:32.160Z"
     },
     "ka-care-infra": {
       "repo": "ka-care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/ka-care-infra'.",
       "completedAt": "2026-03-24T15:13:35.068Z"
     },
     "as-care-infra": {
       "repo": "as-care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/as-care-infra'.",
       "completedAt": "2026-03-24T15:13:35.461Z"
     },
     "care-infra": {
       "repo": "care-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/care-infra'.",
       "completedAt": "2026-03-24T15:13:35.952Z"
     },
     "cloudflare-workers": {
       "repo": "cloudflare-workers",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/issues/comments#list-issue-comments-for-a-repository",
       "completedAt": "2026-03-24T15:13:38.013Z"
     },
     "care-terraform-gcp": {
       "repo": "care-terraform-gcp",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/care-terraform-gcp'.",
       "completedAt": "2026-03-24T15:13:38.480Z"
     },
     "cns_req_receiver": {
       "repo": "cns_req_receiver",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/cns_req_receiver'.",
       "completedAt": "2026-03-24T15:13:38.897Z"
     },
     "terraform": {
       "repo": "terraform",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/terraform'.",
       "completedAt": "2026-03-24T15:13:39.412Z"
     },
     "stories": {
       "repo": "stories",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/stories'.",
       "completedAt": "2026-03-24T15:13:39.879Z"
     },
     "django_project_questions": {
       "repo": "django_project_questions",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/activity/events#list-repository-events",
       "completedAt": "2026-03-24T15:13:48.966Z"
     },
     "gdc_infra": {
       "repo": "gdc_infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/gdc_infra'.",
       "completedAt": "2026-03-24T15:13:54.660Z"
     },
     "care-terraform-aws": {
       "repo": "care-terraform-aws",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/care-terraform-aws'.",
       "completedAt": "2026-03-24T15:13:56.655Z"
     },
     "kerala-stats": {
       "repo": "kerala-stats",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/activity/events#list-repository-events",
       "completedAt": "2026-03-24T15:14:02.950Z"
     },
     "rrt-kerala": {
       "repo": "rrt-kerala",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/rrt-kerala'.",
       "completedAt": "2026-03-24T15:14:03.444Z"
     },
     "future-hospitals-infra": {
       "repo": "future-hospitals-infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/future-hospitals-infra'.",
       "completedAt": "2026-03-24T15:14:03.902Z"
     },
     "infra": {
       "repo": "infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/infra'.",
       "completedAt": "2026-03-24T15:14:05.761Z"
     },
     "life-data": {
       "repo": "life-data",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/life-data'.",
       "completedAt": "2026-03-24T15:14:06.238Z"
     },
     "10bedicuinfra": {
       "repo": "10bedicuinfra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/activity/events#list-repository-events",
       "completedAt": "2026-03-24T15:14:11.093Z"
     },
     "care_infra": {
       "repo": "care_infra",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Request failed due to following response errors:\n - Could not resolve to a Repository with the name 'ohcnetwork/care_infra'.",
       "completedAt": "2026-03-24T15:14:44.847Z"
     },
     "azure-k8": {
       "repo": "azure-k8",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Not Found - https://docs.github.com/rest/activity/events#list-repository-events",
       "completedAt": "2026-03-24T15:14:46.600Z"
     },
     "kerala-map": {
       "repo": "kerala-map",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
       "completedAt": "2026-03-24T15:15:07.206Z"
     },
     "kerala-stats-source": {
       "repo": "kerala-stats-source",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
       "completedAt": "2026-03-24T15:15:17.708Z"
     },
     "coronasafe.in": {
       "repo": "coronasafe.in",
-      "status": "failed",
+      "status": "completed",
       "activitiesCount": 0,
       "error": "Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
       "completedAt": "2026-03-24T15:15:28.206Z"
