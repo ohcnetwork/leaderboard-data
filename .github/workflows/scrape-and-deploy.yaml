@@ -1,4 +1,4 @@
-name: Scrape and Deploy
+name: Scrape Data
 
 on:
   schedule:
@@ -22,6 +22,7 @@ jobs:
       contents: write
     env:
       LEADERBOARD_PATH: ${{ github.workspace }}/leaderboard
+      WORKSPACE_ROOT: ${{ github.workspace }}/leaderboard
       LEADERBOARD_DATA_DIR: ${{ github.workspace }}/data
 
       SCRAPE_DAYS: ${{ inputs.days || 1 }}
@@ -69,9 +70,11 @@ jobs:
           cache-dependency-path: |
             ${{ env.LEADERBOARD_PATH }}/pnpm-lock.yaml
 
-      - name: 📦 Install Dependencies
+      - name: 📦 Prepare
         working-directory: ${{ env.LEADERBOARD_PATH }}
-        run: pnpm install
+        run: |
+          pnpm install
+          pnpm build:packages
 
       - name: 🔍 Scrape Data
         working-directory: ${{ env.LEADERBOARD_PATH }}
