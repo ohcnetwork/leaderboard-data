@@ -101,8 +101,8 @@ jobs:
           # Configure remote with app token for authentication
           git remote set-url origin https://x-access-token:${{ steps.app-token.outputs.token }}@github.com/${{ github.repository }}.git
 
-          # Ensure pushing to the correct branch (default = main)
-          git push origin HEAD:main
+          # Ensure pushing to the correct branch (default = production)
+          git push origin HEAD:production
 
       - name: 📦 Upload SQLite Database Artifact
         uses: actions/upload-artifact@v4
