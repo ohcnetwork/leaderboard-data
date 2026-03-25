@@ -33,20 +33,6 @@ jobs:
           path: ${{ env.LEADERBOARD_PATH }}
           fetch-depth: 1
 
-      - name: 📥 Checkout GitHub Scraper
-        uses: actions/checkout@v5
-        with:
-          repository: ohcnetwork/leaderboard-github-scraper
-          path: ${{ github.workspace }}/leaderboard-github-scraper
-          fetch-depth: 1
-
-      - name: 📥 Checkout Slack Scraper
-        uses: actions/checkout@v5
-        with:
-          repository: ohcnetwork/leaderboard-slack-scraper
-          path: ${{ github.workspace }}/leaderboard-slack-scraper
-          fetch-depth: 1
-
       - name: 📥 Checkout Leaderboard Data
         uses: actions/checkout@v5
         with:
