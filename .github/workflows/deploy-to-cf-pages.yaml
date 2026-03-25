@@ -72,7 +72,7 @@ jobs:
 
       - name: 🚦 Import DB
         working-directory: ${{ env.LEADERBOARD_PATH }}
-        run: pnpm db:import
+        run: pnpm data:import
 
       - name: 🛠️ Build Leaderboard
         working-directory: ${{ env.LEADERBOARD_PATH }}
