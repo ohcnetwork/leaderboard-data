@@ -66,13 +66,12 @@ jobs:
           cache-dependency-path: |
             ${{ env.LEADERBOARD_PATH }}/pnpm-lock.yaml
 
-      - name: 📦 Install Dependencies
+      - name: 📦 Prepare
         working-directory: ${{ env.LEADERBOARD_PATH }}
-        run: pnpm install
-
-      - name: 🚦 Import DB
-        working-directory: ${{ env.LEADERBOARD_PATH }}
-        run: pnpm data:import
+        run: |
+          pnpm install
+          pnpm build:packages
+          pnpm data:import
 
       - name: 🛠️ Build Leaderboard
         working-directory: ${{ env.LEADERBOARD_PATH }}
