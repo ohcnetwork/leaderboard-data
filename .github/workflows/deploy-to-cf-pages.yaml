@@ -1,0 +1,87 @@
+name: Build & Deploy to Cloudflare Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: deploy-to-cf-pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    name: Build & Deploy to Cloudflare Pages
+    runs-on: ubuntu-latest
+    env:
+      LEADERBOARD_PATH: ${{ github.workspace }}/leaderboard
+      LEADERBOARD_DATA_DIR: ${{ github.workspace }}/data
+
+      GITHUB_ORG: ${{ github.repository_owner }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      SLACK_API_TOKEN: ${{ secrets.SLACK_API_TOKEN }}
+      SLACK_CHANNEL: ${{ vars.SLACK_EOD_CHANNEL }}
+
+    steps:
+      - name: 📥 Checkout Leaderboard
+        uses: actions/checkout@v5
+        with:
+          repository: ohcnetwork/leaderboard
+          path: ${{ env.LEADERBOARD_PATH }}
+          fetch-depth: 1
+
+      - name: 📥 Checkout GitHub Scraper
+        uses: actions/checkout@v5
+        with:
+          repository: ohcnetwork/leaderboard-github-scraper
+          path: ${{ github.workspace }}/leaderboard-github-scraper
+          fetch-depth: 1
+
+      - name: 📥 Checkout Slack Scraper
+        uses: actions/checkout@v5
+        with:
+          repository: ohcnetwork/leaderboard-slack-scraper
+          path: ${{ github.workspace }}/leaderboard-slack-scraper
+          fetch-depth: 1
+
+      - name: 📥 Checkout Leaderboard Data
+        uses: actions/checkout@v5
+        with:
+          path: ${{ env.LEADERBOARD_DATA_DIR }}
+          fetch-depth: 1
+
+      - name: 📦 Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+          run_install: false
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+          cache: "pnpm"
+          cache-dependency-path: |
+            ${{ env.LEADERBOARD_PATH }}/pnpm-lock.yaml
+
+      - name: 📦 Install Dependencies
+        working-directory: ${{ env.LEADERBOARD_PATH }}
+        run: pnpm install
+
+      - name: 🚦 Import DB
+        working-directory: ${{ env.LEADERBOARD_PATH }}
+        run: pnpm db:import
+
+      - name: 🛠️ Build Leaderboard
+        working-directory: ${{ env.LEADERBOARD_PATH }}
+        run: pnpm build:web
+
+      - name: 🌐 Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{ env.LEADERBOARD_PATH }}/out --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
