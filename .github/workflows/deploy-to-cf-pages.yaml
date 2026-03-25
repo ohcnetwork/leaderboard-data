@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       LEADERBOARD_PATH: ${{ github.workspace }}/leaderboard
+      WORKSPACE_ROOT: ${{ github.workspace }}/leaderboard
       LEADERBOARD_DATA_DIR: ${{ github.workspace }}/data
 
       GITHUB_ORG: ${{ github.repository_owner }}
