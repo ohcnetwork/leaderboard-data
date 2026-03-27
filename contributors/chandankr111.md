@@ -1,5 +1,4 @@
 ---
-role: contributor
 avatar_url: 'https://avatars.githubusercontent.com/chandankr111'
 social_profiles:
   github: 'https://github.com/chandankr111'
