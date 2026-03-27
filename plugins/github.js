@@ -5013,7 +5013,7 @@ async function persistRepoActivities(db, activities, logger) {
   return saved;
 }
 async function getActivities({ db, config, logger }) {
-  const scrapeDays = 3e3;
+  const scrapeDays = 7;
   const pool2 = getOctokitPool(config, logger);
   const org = config.githubOrg;
   const dataDir2 = config.dataDir || void 0;
