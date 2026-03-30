@@ -4359,13 +4359,13 @@ function getOctokitPool(config, logger) {
 }
 
 // src/db.ts
-async function addNewContributors(db, contributors) {
+async function addNewContributors(db, contributors, role = null) {
   contributors = [...new Set(contributors)];
   for (const contributor of contributors) {
     await contributorQueries.insertOrIgnore(db, {
       username: contributor,
       name: null,
-      role: null,
+      role,
       title: null,
       bio: null,
       joining_date: null,
@@ -4995,9 +4995,9 @@ function getActivitiesFromCommits(commits) {
   }
   return activities;
 }
-async function persistRepoActivities(db, activities, logger) {
+async function persistRepoActivities(db, activities, logger, defaultRole) {
   const contributorUsernames = activities.map((a) => a.contributor);
-  await addNewContributors(db, contributorUsernames);
+  await addNewContributors(db, contributorUsernames, defaultRole);
   let saved = 0;
   for (const activity of activities) {
     try {
@@ -5068,7 +5068,13 @@ async function getActivities({ db, config, logger }) {
         ...activitiesFromPullRequests(pullRequests, repository),
         ...getActivitiesFromCommits(commits)
       ]);
-      const saved = await persistRepoActivities(db, repoActivities, logger);
+      const defaultRole = typeof config.defaultRole === "string" ? config.defaultRole : null;
+      const saved = await persistRepoActivities(
+        db,
+        repoActivities,
+        logger,
+        defaultRole
+      );
       progress.repos[repository] = {
         repo: repository,
         status: "completed",

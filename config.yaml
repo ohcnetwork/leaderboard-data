@@ -50,6 +50,7 @@ leaderboard:
         #   - ${{ env.GITHUB_TOKEN_3 }}
         #   - ${{ env.GITHUB_TOKEN_4 }}
         #   - ${{ env.GITHUB_TOKEN_5 }}
+        defaultRole: contributor
 
     # slack:
     #   name: Slack Plugin
