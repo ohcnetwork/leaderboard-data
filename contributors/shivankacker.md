@@ -2,17 +2,16 @@
 name: Shivank Kacker
 role: core
 title: Software Engineer
-avatar_url: https://avatars.githubusercontent.com/shivankacker
-joining_date: '2022-09-04'
+avatar_url: 'https://avatars.githubusercontent.com/shivankacker'
 social_profiles:
-  github: https://github.com/shivankacker
-  twitter: https://twitter.com/shivankacker
-  linkedin: https://linkedin.com/in/shivankkacker
-  slack: https://rebuildearth.slack.com/team/U02TB83Q5V0
+  github: 'https://github.com/shivankacker'
+  twitter: 'https://twitter.com/shivankacker'
+  linkedin: 'https://linkedin.com/in/shivankkacker'
+  slack: 'https://rebuildearth.slack.com/team/U02TB83Q5V0'
+joining_date: '2022-09-04'
 meta:
   slack_user_id: U02TB83Q5V0
 ---
-
 # Hey👋!!
 
 I like making stuff that people love!
