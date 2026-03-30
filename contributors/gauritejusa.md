@@ -1,8 +1,13 @@
 ---
-role: contributor
-avatar_url: 'https://avatars.githubusercontent.com/gauritejusa'
+name: Gauritejus A
+role: core
+title: Product Operations Manager
+avatar_url: https://avatars.githubusercontent.com/gauritejusa
+joining_date: '2026-02-06'
 social_profiles:
-  github: 'https://github.com/gauritejusa'
-meta: {}
+  github: https://github.com/gauritejusa
+  linkedin: https://linkedin.com/in/gauritejus-a
+  slack: https://rebuildearth.slack.com/team/U095LRJJCAE
+meta:
+  slack_user_id: U095LRJJCAE
 ---
-
