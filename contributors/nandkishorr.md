@@ -1,8 +1,13 @@
 ---
-role: contributor
-avatar_url: 'https://avatars.githubusercontent.com/nandkishorr'
+name: NANDKISHOR R
+role: core
+title: Software Engineer
+avatar_url: https://avatars.githubusercontent.com/nandkishorr
+joining_date: '2025-02-04'
 social_profiles:
-  github: 'https://github.com/nandkishorr'
-meta: {}
+  github: https://github.com/nandkishorr
+  linkedin: https://linkedin.com/in/nandkishorr
+  slack: https://rebuildearth.slack.com/team/U08PN8QTCMN
+meta:
+  slack_user_id: U08PN8QTCMN
 ---
-
