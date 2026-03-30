@@ -31,6 +31,10 @@ leaderboard:
       name: Emeritus
       description: Emeritus Member of Open Healthcare Network
 
+    alumni:
+      name: Alumni
+      description: Former team members who have made significant contributions to Open Healthcare Network.
+
     bot:
       name: Bot
       description: Bot performing automated chores, maintenance, and other tasks.
@@ -69,10 +73,10 @@ leaderboard:
   #     - activity_count
   #
   # Optional: Specify top contributors sidebar activities
-  # top_contributors:
-  #   - pr_merged
-  #   - pr_opened
-  #   - issue_opened
+  top_contributors:
+    - pr_merged
+    - pr_opened
+    - issue_opened
 
   social_profiles:
     github:
