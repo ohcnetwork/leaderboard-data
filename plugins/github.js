@@ -4480,15 +4480,22 @@ async function getRepositories({
       "GET /orgs/{org}/repos",
       {
         org,
-        sort: "pushed"
+        sort: "updated",
+        type: "sources"
       }
     )) {
       logger.info(`Found ${response.data.length} repositories`);
       for (const repo of response.data) {
-        if (since && repo.pushed_at && new Date(repo.pushed_at) < new Date(since)) {
+        if (since && repo.updated_at && new Date(repo.updated_at) < new Date(since)) {
+          logger.debug(
+            `Skipping repository ${repo.name} as it is older than ${since}`
+          );
           return repos;
         }
-        if (!repo.pushed_at) continue;
+        if (!repo.updated_at) {
+          logger.warn(`Repository ${repo.name} has no updated_at`);
+          continue;
+        }
         repos.push({
           name: repo.name,
           url: repo.html_url,
@@ -4801,7 +4808,8 @@ async function getCommitsFromPushEvents({
               commitMessage: commit.commit.message?.split("\n")[0] ?? "",
               committedDate: commit.commit.committer?.date ?? null,
               author: commit.author?.login ?? null,
-              url: commit.html_url
+              url: commit.html_url,
+              stats: commit.stats ?? null
             });
           }
         } catch (error) {
@@ -4821,21 +4829,29 @@ async function getBranchCommits({
   pool: pool2,
   org,
   repo,
-  branch
+  branch,
+  logger,
+  since
 }) {
   return withTokenRotation(
     pool2,
     (octokit) => octokit.paginate(
       "GET /repos/{owner}/{repo}/commits",
-      { owner: org, repo, sha: branch },
-      (response) => response.data.map((commit) => ({
-        commitId: commit.sha,
-        branchName: branch,
-        commitMessage: commit.commit.message,
-        committedDate: commit.commit.committer?.date ?? null,
-        author: commit.author?.login ?? null,
-        url: commit.html_url
-      }))
+      { owner: org, repo, sha: branch, since },
+      (response) => {
+        logger.debug(
+          `Found ${response.data.length} commits on branch ${branch}`
+        );
+        return response.data.map((commit) => ({
+          commitId: commit.sha,
+          branchName: branch,
+          commitMessage: commit.commit.message,
+          committedDate: commit.commit.committer?.date ?? null,
+          author: commit.author?.login ?? null,
+          url: commit.html_url,
+          stats: commit.stats ?? null
+        }));
+      }
     )
   );
 }
@@ -4975,11 +4991,15 @@ function activitiesFromPullRequests(pullRequests, repo) {
   }
   return activities;
 }
-function getActivitiesFromCommits(commits) {
+function getActivitiesFromCommits(commits, opts) {
   const activities = [];
   for (const commit of commits) {
     if (!commit.author || !commit.committedDate) {
       continue;
+    }
+    let points = null;
+    if (commit.branchName && opts.defaultBranch && opts.defaultBranch === commit.branchName) {
+      points = 2;
     }
     activities.push({
       slug: `${"commited" /* COMMITED */}_${commit.branchName}_${commit.commitId}`,
@@ -4989,8 +5009,11 @@ function getActivitiesFromCommits(commits) {
       text: commit.commitMessage,
       occured_at: new Date(commit.committedDate).toISOString(),
       link: commit.url,
-      points: null,
-      meta: {}
+      points,
+      meta: {
+        branch: commit.branchName,
+        stats: commit.stats
+      }
     });
   }
   return activities;
@@ -5040,7 +5063,7 @@ async function getActivities({ db, config, logger }) {
     repos: existingProgress?.repos ?? {}
   };
   const skippedRepos = [];
-  for (const { name: repository } of repositories) {
+  for (const { name: repository, defaultBranch } of repositories) {
     const existing = progress.repos[repository];
     if (existing?.status === "completed") {
       skippedRepos.push(repository);
@@ -5056,17 +5079,27 @@ async function getActivities({ db, config, logger }) {
       `[${Object.values(progress.repos).filter((r) => r.status === "completed").length + 1}/${repositories.length}] Scraping ${repository}...`
     );
     try {
-      const opts = { pool: pool2, org, repo: repository, since, botUsers, logger };
+      const opts = {
+        pool: pool2,
+        org,
+        repo: repository,
+        since,
+        botUsers,
+        logger,
+        branch: defaultBranch
+      };
       const repoActivities = await Promise.all([
         getIssues(opts),
         getComments(opts),
         getPRsAndReviews(opts),
-        scrapeDays ? getCommitsFromPushEvents(opts) : getBranchCommits(opts)
+        getBranchCommits(opts),
+        scrapeDays ? getCommitsFromPushEvents(opts) : Promise.resolve([])
       ]).then(([issues, comments, pullRequests, commits]) => [
         ...activitiesFromIssues(issues, repository),
         ...activitiesFromComments(comments, repository),
         ...activitiesFromPullRequests(pullRequests, repository),
-        ...getActivitiesFromCommits(commits)
+        ...getActivitiesFromCommits(commits, { defaultBranch }),
+        ...getActivitiesFromCommits(commits, { defaultBranch })
       ]);
       const defaultRole = typeof config.defaultRole === "string" ? config.defaultRole : null;
       const saved = await persistRepoActivities(
@@ -5182,7 +5215,7 @@ var plugin = {
         slug: "commited" /* COMMITED */,
         name: "Commit Created",
         description: "Pushed a commit",
-        points: 0,
+        points: null,
         icon: "git-commit-horizontal"
       }
     ];
