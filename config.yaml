@@ -19,6 +19,7 @@ meta:
 
 leaderboard:
   data_source: https://github.com/ohcnetwork/leaderboard-data
+  data_update_frequency: 0 */12 * * *
   data_explorer:
     source: https://ohcnetwork.github.io/leaderboard-data/data.db
 
