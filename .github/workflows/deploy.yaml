@@ -10,14 +10,17 @@ concurrency:
   group: deploy-to-cf-pages
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  pages: write
+  deployments: write
+  id-token: write
+
 jobs:
   build-and-deploy:
-    name: Build & Deploy to Cloudflare Pages
+    name: Build & Deploy Web and DB
     runs-on: ubuntu-latest
     environment: production
-    permissions:
-      contents: read
-      deployments: write
     env:
       LEADERBOARD_PATH: ${{ github.workspace }}/leaderboard
       WORKSPACE_ROOT: ${{ github.workspace }}/leaderboard
@@ -78,6 +81,14 @@ jobs:
         working-directory: ${{ env.LEADERBOARD_PATH }}
         run: pnpm build:web
 
+      - name: Prepare Leaderboard DB artifact
+        run: |
+          mkdir -p _site
+          cp ${{ env.LEADERBOARD_DATA_DIR }}/.leaderboard.db _site/data.db
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+
       - name: 🌐 Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
@@ -85,3 +96,15 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy ${{ env.LEADERBOARD_PATH }}/apps/leaderboard-web/out/ --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
+  deploy-db:
+    name: Deploy Leaderboard Database
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
