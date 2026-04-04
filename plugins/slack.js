@@ -192,7 +192,7 @@ async function ingestEodUpdates(ctx) {
         contributor: contributorUsername,
         activity_definition: "eod_update",
         title: "EOD Update",
-        occured_at: timestamp.toISOString(),
+        occurred_at: timestamp.toISOString(),
         link: null,
         text: mergedText,
         points: null,
