@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   build-and-deploy:
-    name: Build & Deploy Web and DB
+    name: Build & Deploy to Cloudflare Pages
     runs-on: ubuntu-latest
     environment: production
     env:
