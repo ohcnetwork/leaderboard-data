@@ -23,6 +23,16 @@ leaderboard:
   data_explorer:
     source: https://ohcnetwork.github.io/leaderboard-data/data.db
 
+  leaderboard:
+    all_contributors:
+      activity_definitions:
+        - pr_opened
+        - pr_merged
+        - pr_reviewed
+        - commited
+        - commented
+        - issue_opened
+
   roles:
     core:
       name: Core
