@@ -47,5 +47,9 @@ yarn-error.log*
 *.temp
 .cache/
 
+# Wrangler
+.wrangler/
+
+# Scrape progress
 .scrape-progress.json
 scrape-status.md

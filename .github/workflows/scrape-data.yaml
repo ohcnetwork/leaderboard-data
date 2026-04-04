@@ -104,10 +104,29 @@ jobs:
           # Ensure pushing to the correct branch (default = production)
           git push origin HEAD:production
 
-      - name: 📦 Upload SQLite Database Artifact
+      - name: 📦 Upload Database to GitHub Artifacts
         uses: actions/upload-artifact@v7
         with:
-          name: data-${{ github.run_id }}-${{ github.run_attempt }}.sqlite
+          name: data-${{ github.run_id }}-${{ github.run_attempt }}.db
           path: ${{ env.LEADERBOARD_DATA_DIR }}/.leaderboard.db
           retention-days: 30
           include-hidden-files: true
+
+  upload-db:
+    name: Upload Database to Cloudflare R2
+    needs: scrape-data
+    runs-on: ubuntu-latest
+    environment: prod-db
+    steps:
+      - name: 📦 Download Database from GitHub Artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: data-${{ github.run_id }}-${{ github.run_attempt }}.db
+          path: data.db
+
+      - name: 📦 Upload Database to Cloudflare R2
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: r2 object put leaderboard-data/data.db --file data.db --content-type application/octet-stream
