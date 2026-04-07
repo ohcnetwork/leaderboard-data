@@ -5558,6 +5558,14 @@ async function getActivities({ db, config, logger }) {
   const commitConfig = activityDefConfig?.["commited" /* COMMITED */] ?? {};
   const pointsOnDefaultBranch = commitConfig.pointsOnDefaultBranch ?? 2;
   const pointsOnNonDefaultBranch = commitConfig.pointsOnNonDefaultBranch ?? 0;
+  const contributorBlacklist = new Set(
+    config.blacklist || []
+  );
+  if (contributorBlacklist.size > 0) {
+    logger.info(
+      `Blacklisting ${contributorBlacklist.size} contributors: ${Array.from(contributorBlacklist).join(", ")}`
+    );
+  }
   const botUsers = /* @__PURE__ */ new Set();
   const repositories = await getRepositories({
     pool: pool2,
@@ -5622,7 +5630,7 @@ async function getActivities({ db, config, logger }) {
         ...activitiesFromPullRequests(pullRequests, repository),
         ...getActivitiesFromCommits(commits, commitOpts),
         ...getActivitiesFromCommits(commits, commitOpts)
-      ])).filter((a) => !disabledSlugs.has(a.activity_definition));
+      ])).filter((a) => !disabledSlugs.has(a.activity_definition)).filter((a) => !contributorBlacklist.has(a.contributor));
       const defaultRole = typeof config.defaultRole === "string" ? config.defaultRole : "contributor";
       const saved = await persistRepoActivities(
         db,
@@ -5687,17 +5695,20 @@ async function queryContributorAvgTat(db) {
     ["pr_merged" /* PR_MERGED */]
   );
 }
-async function queryGlobalAvgTat(db, since) {
-  const sql = since ? `SELECT AVG(json_extract(meta, '$.pr_avg_tat')) as avg_tat, COUNT(*) as pr_count
-       FROM activity
-       WHERE activity_definition = ?
-         AND json_extract(meta, '$.pr_avg_tat') IS NOT NULL
-         AND occurred_at >= ?` : `SELECT AVG(json_extract(meta, '$.pr_avg_tat')) as avg_tat, COUNT(*) as pr_count
+async function queryGlobalAvgTat(db, since, until) {
+  let sql = `SELECT AVG(json_extract(meta, '$.pr_avg_tat')) as avg_tat, COUNT(*) as pr_count
        FROM activity
        WHERE activity_definition = ?
          AND json_extract(meta, '$.pr_avg_tat') IS NOT NULL`;
   const params = ["pr_merged" /* PR_MERGED */];
-  if (since) params.push(since);
+  if (since) {
+    sql += ` AND occurred_at >= ?`;
+    params.push(since);
+  }
+  if (until) {
+    sql += ` AND occurred_at < ?`;
+    params.push(until);
+  }
   return db.execute(sql, params);
 }
 async function computePrAvgTurnAroundTime({ db, logger }) {
@@ -5732,27 +5743,50 @@ async function computeGlobalPrAvgTurnAroundTime({ db, logger }) {
     {
       slug: "pr_avg_turn_around_time",
       name: "Avg PR Turn Around Time",
-      days: null
+      since: null,
+      until: null
     },
     {
-      slug: "pr_avg_turn_around_time_7d",
-      name: "Avg PR Turn Around Time (7d)",
-      days: 7
+      slug: "pr_avg_turn_around_time_week",
+      name: "Avg PR Turn Around Time (Week)",
+      since: subDays(now, 7),
+      until: null
     },
     {
-      slug: "pr_avg_turn_around_time_30d",
-      name: "Avg PR Turn Around Time (30d)",
-      days: 30
+      slug: "pr_avg_turn_around_time_month",
+      name: "Avg PR Turn Around Time (Month)",
+      since: subDays(now, 30),
+      until: null
     },
     {
-      slug: "pr_avg_turn_around_time_365d",
-      name: "Avg PR Turn Around Time (1y)",
-      days: 365
+      slug: "pr_avg_turn_around_time_year",
+      name: "Avg PR Turn Around Time (Year)",
+      since: subDays(now, 365),
+      until: null
+    },
+    {
+      slug: "pr_avg_turn_around_time_previous_week",
+      name: "Avg PR Turn Around Time (Previous Week)",
+      since: subDays(now, 14),
+      until: subDays(now, 7)
+    },
+    {
+      slug: "pr_avg_turn_around_time_previous_month",
+      name: "Avg PR Turn Around Time (Previous Month)",
+      since: subDays(now, 60),
+      until: subDays(now, 30)
+    },
+    {
+      slug: "pr_avg_turn_around_time_previous_year",
+      name: "Avg PR Turn Around Time (Previous Year)",
+      since: subDays(now, 730),
+      until: subDays(now, 365)
     }
   ];
   for (const window of windows) {
-    const since = window.days ? subDays(now, window.days).toISOString() : null;
-    const result = await queryGlobalAvgTat(db, since);
+    const sinceStr = window.since?.toISOString() ?? null;
+    const untilStr = window.until?.toISOString() ?? null;
+    const result = await queryGlobalAvgTat(db, sinceStr, untilStr);
     const row = result.rows[0];
     if (!row?.avg_tat) continue;
     const avgTat = row.avg_tat;
@@ -5760,7 +5794,7 @@ async function computeGlobalPrAvgTurnAroundTime({ db, logger }) {
     await globalAggregateQueries.upsert(db, {
       slug: window.slug,
       name: window.name,
-      description: `Average time taken for PRs to get merged${window.days ? ` (last ${window.days} days)` : ""}`,
+      description: null,
       value: {
         type: "number",
         value: avgTat,

@@ -74,6 +74,8 @@ leaderboard:
         #   - ${{ env.GITHUB_TOKEN_4 }}
         #   - ${{ env.GITHUB_TOKEN_5 }}
         defaultRole: contributor
+        blacklist:
+          - invalid-email-address
 
     # slack:
     #   name: Slack Plugin
