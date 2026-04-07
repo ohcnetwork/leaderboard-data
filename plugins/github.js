@@ -160,10 +160,10 @@ function subDays(date, amount, options) {
   return addDays(date, -amount, options);
 }
 
-// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.1.1/node_modules/@ohcnetwork/leaderboard-api/dist/client.js
+// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.2.0/node_modules/@ohcnetwork/leaderboard-api/dist/client.js
 import { createClient } from "@libsql/client";
 
-// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.1.1/node_modules/@ohcnetwork/leaderboard-api/dist/queries.js
+// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.2.0/node_modules/@ohcnetwork/leaderboard-api/dist/queries.js
 function parseContributor(row) {
   return {
     ...row,
@@ -657,8 +657,270 @@ var activityQueries = {
     return result.rows;
   }
 };
+var globalAggregateQueries = {
+  /**
+   * Get all global aggregates
+   */
+  async getAll(db) {
+    const result = await db.execute("SELECT * FROM global_aggregate ORDER BY slug");
+    return result.rows.map((row) => ({
+      ...row,
+      value: JSON.parse(row.value),
+      meta: row.meta ? JSON.parse(row.meta) : null
+    }));
+  },
+  /**
+   * Get global aggregate by slug
+   */
+  async getBySlug(db, slug) {
+    const result = await db.execute("SELECT * FROM global_aggregate WHERE slug = ?", [slug]);
+    if (result.rows.length === 0)
+      return null;
+    const row = result.rows[0];
+    return {
+      ...row,
+      value: JSON.parse(row.value),
+      meta: row.meta ? JSON.parse(row.meta) : null
+    };
+  },
+  /**
+   * Insert or update global aggregate
+   */
+  async upsert(db, aggregate) {
+    await db.execute(`INSERT INTO global_aggregate (slug, name, description, value, hidden, meta)
+       VALUES (?, ?, ?, ?, ?, ?)
+       ON CONFLICT(slug) DO UPDATE SET
+         name = excluded.name,
+         description = excluded.description,
+         value = excluded.value,
+         hidden = excluded.hidden,
+         meta = excluded.meta`, [
+      aggregate.slug,
+      aggregate.name,
+      aggregate.description,
+      JSON.stringify(aggregate.value),
+      aggregate.hidden ?? false,
+      aggregate.meta ? JSON.stringify(aggregate.meta) : null
+    ]);
+  },
+  /**
+   * Get all visible global aggregates (not hidden)
+   */
+  async getAllVisible(db) {
+    const result = await db.execute("SELECT * FROM global_aggregate WHERE hidden = FALSE OR hidden IS NULL ORDER BY slug");
+    return result.rows.map((row) => ({
+      ...row,
+      value: JSON.parse(row.value),
+      meta: row.meta ? JSON.parse(row.meta) : null
+    }));
+  },
+  /**
+   * Delete global aggregate
+   */
+  async delete(db, slug) {
+    await db.execute("DELETE FROM global_aggregate WHERE slug = ?", [slug]);
+  },
+  /**
+   * Get global aggregates by slugs with visibility filtering
+   * Optimized with WHERE IN clause
+   */
+  async getBySlugs(db, slugs) {
+    if (slugs.length === 0) {
+      return [];
+    }
+    const placeholders = slugs.map(() => "?").join(",");
+    const sql = `
+      SELECT slug, name, value, description
+      FROM global_aggregate
+      WHERE slug IN (${placeholders}) 
+        AND (hidden = FALSE OR hidden IS NULL)
+      ORDER BY slug
+    `;
+    const result = await db.execute(sql, slugs);
+    return result.rows.map((row) => ({
+      slug: row.slug,
+      name: row.name,
+      value: JSON.parse(row.value),
+      description: row.description || null
+    }));
+  }
+};
+var contributorAggregateDefinitionQueries = {
+  /**
+   * Get all contributor aggregate definitions
+   */
+  async getAll(db) {
+    const result = await db.execute("SELECT * FROM contributor_aggregate_definition ORDER BY slug");
+    return result.rows;
+  },
+  /**
+   * Get contributor aggregate definition by slug
+   */
+  async getBySlug(db, slug) {
+    const result = await db.execute("SELECT * FROM contributor_aggregate_definition WHERE slug = ?", [slug]);
+    return result.rows[0] || null;
+  },
+  /**
+   * Insert or ignore contributor aggregate definition
+   */
+  async insertOrIgnore(db, definition) {
+    await db.execute(`INSERT OR IGNORE INTO contributor_aggregate_definition (slug, name, description, hidden)
+       VALUES (?, ?, ?, ?)`, [
+      definition.slug,
+      definition.name,
+      definition.description,
+      definition.hidden ?? false
+    ]);
+  },
+  /**
+   * Insert or update contributor aggregate definition
+   */
+  async upsert(db, definition) {
+    await db.execute(`INSERT INTO contributor_aggregate_definition (slug, name, description, hidden)
+       VALUES (?, ?, ?, ?)
+       ON CONFLICT(slug) DO UPDATE SET
+         name = excluded.name,
+         description = excluded.description,
+         hidden = excluded.hidden`, [
+      definition.slug,
+      definition.name,
+      definition.description,
+      definition.hidden ?? false
+    ]);
+  },
+  /**
+   * Get all visible contributor aggregate definitions (not hidden)
+   */
+  async getAllVisible(db) {
+    const result = await db.execute("SELECT * FROM contributor_aggregate_definition WHERE hidden = FALSE OR hidden IS NULL ORDER BY slug");
+    return result.rows;
+  }
+};
+var contributorAggregateQueries = {
+  /**
+   * Get all contributor aggregates
+   */
+  async getAll(db) {
+    const result = await db.execute("SELECT * FROM contributor_aggregate ORDER BY contributor, aggregate");
+    return result.rows.map((row) => ({
+      ...row,
+      value: JSON.parse(row.value),
+      meta: row.meta ? JSON.parse(row.meta) : null
+    }));
+  },
+  /**
+   * Get aggregates for a specific contributor
+   */
+  async getByContributor(db, username) {
+    const result = await db.execute("SELECT * FROM contributor_aggregate WHERE contributor = ? ORDER BY aggregate", [username]);
+    return result.rows.map((row) => ({
+      ...row,
+      value: JSON.parse(row.value),
+      meta: row.meta ? JSON.parse(row.meta) : null
+    }));
+  },
+  /**
+   * Get a specific aggregate for a contributor
+   */
+  async getByContributorAndAggregate(db, username, aggregateSlug) {
+    const result = await db.execute("SELECT * FROM contributor_aggregate WHERE contributor = ? AND aggregate = ?", [username, aggregateSlug]);
+    if (result.rows.length === 0)
+      return null;
+    const row = result.rows[0];
+    return {
+      ...row,
+      value: JSON.parse(row.value),
+      meta: row.meta ? JSON.parse(row.meta) : null
+    };
+  },
+  /**
+   * Insert or update contributor aggregate
+   */
+  async upsert(db, aggregate) {
+    await db.execute(`INSERT INTO contributor_aggregate (aggregate, contributor, value, meta)
+       VALUES (?, ?, ?, ?)
+       ON CONFLICT(aggregate, contributor) DO UPDATE SET
+         value = excluded.value,
+         meta = excluded.meta`, [
+      aggregate.aggregate,
+      aggregate.contributor,
+      JSON.stringify(aggregate.value),
+      aggregate.meta ? JSON.stringify(aggregate.meta) : null
+    ]);
+  },
+  /**
+   * Delete contributor aggregate
+   */
+  async delete(db, username, aggregateSlug) {
+    await db.execute("DELETE FROM contributor_aggregate WHERE contributor = ? AND aggregate = ?", [username, aggregateSlug]);
+  },
+  /**
+   * Delete all aggregates for a contributor
+   */
+  async deleteByContributor(db, username) {
+    await db.execute("DELETE FROM contributor_aggregate WHERE contributor = ?", [username]);
+  },
+  /**
+   * Get contributors where aggregate value meets threshold
+   * Optimized for threshold-based badge rules
+   */
+  async getContributorsAboveThreshold(db, aggregateSlug, minValue) {
+    const result = await db.execute(`SELECT contributor, value
+       FROM contributor_aggregate
+       WHERE aggregate = ? 
+         AND json_extract(value, '$.value') >= ?
+         AND json_extract(value, '$.type') = 'number'
+       ORDER BY json_extract(value, '$.value') DESC`, [aggregateSlug, minValue]);
+    return result.rows.map((row) => ({
+      contributor: row.contributor,
+      value: JSON.parse(row.value).value
+    }));
+  },
+  /**
+   * Get contributors with specific aggregate (for composite rules)
+   */
+  async getContributorsWithAggregate(db, aggregateSlug) {
+    const result = await db.execute(`SELECT contributor, value
+       FROM contributor_aggregate
+       WHERE aggregate = ?`, [aggregateSlug]);
+    return result.rows.map((row) => ({
+      contributor: row.contributor,
+      value: JSON.parse(row.value)
+    }));
+  },
+  /**
+   * Get contributor aggregates enriched with definition details
+   * Optimized with JOIN and filtering
+   */
+  async getByContributorEnriched(db, username, slugs) {
+    if (slugs.length === 0) {
+      return [];
+    }
+    const placeholders = slugs.map(() => "?").join(",");
+    const sql = `
+      SELECT 
+        ca.aggregate,
+        cad.name,
+        ca.value,
+        cad.description
+      FROM contributor_aggregate ca
+      JOIN contributor_aggregate_definition cad ON ca.aggregate = cad.slug
+      WHERE ca.contributor = ?
+        AND ca.aggregate IN (${placeholders})
+        AND (cad.hidden = FALSE OR cad.hidden IS NULL)
+      ORDER BY ca.aggregate
+    `;
+    const result = await db.execute(sql, [username, ...slugs]);
+    return result.rows.map((row) => ({
+      aggregate: row.aggregate,
+      name: row.name,
+      value: JSON.parse(row.value),
+      description: row.description || null
+    }));
+  }
+};
 
-// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.1.1/node_modules/@ohcnetwork/leaderboard-api/dist/utils.js
+// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.2.0/node_modules/@ohcnetwork/leaderboard-api/dist/utils.js
 import { homedir } from "os";
 import path from "path";
 var getDataDir = (dataDir2) => {
@@ -5408,6 +5670,113 @@ async function getActivities({ db, config, logger }) {
   );
 }
 
+// src/compute-aggregates.ts
+async function computeAggregates(ctx) {
+  ctx.logger.info("Computing aggregates...");
+  await computePrAvgTurnAroundTime(ctx);
+  await computeGlobalPrAvgTurnAroundTime(ctx);
+  ctx.logger.info("Aggregates computed");
+}
+async function queryContributorAvgTat(db) {
+  return db.execute(
+    `SELECT contributor, AVG(json_extract(meta, '$.pr_avg_tat')) as avg_tat, COUNT(*) as pr_count
+     FROM activity
+     WHERE activity_definition = ?
+       AND json_extract(meta, '$.pr_avg_tat') IS NOT NULL
+     GROUP BY contributor`,
+    ["pr_merged" /* PR_MERGED */]
+  );
+}
+async function queryGlobalAvgTat(db, since) {
+  const sql = since ? `SELECT AVG(json_extract(meta, '$.pr_avg_tat')) as avg_tat, COUNT(*) as pr_count
+       FROM activity
+       WHERE activity_definition = ?
+         AND json_extract(meta, '$.pr_avg_tat') IS NOT NULL
+         AND occurred_at >= ?` : `SELECT AVG(json_extract(meta, '$.pr_avg_tat')) as avg_tat, COUNT(*) as pr_count
+       FROM activity
+       WHERE activity_definition = ?
+         AND json_extract(meta, '$.pr_avg_tat') IS NOT NULL`;
+  const params = ["pr_merged" /* PR_MERGED */];
+  if (since) params.push(since);
+  return db.execute(sql, params);
+}
+async function computePrAvgTurnAroundTime({ db, logger }) {
+  const result = await queryContributorAvgTat(db);
+  for (const row of result.rows) {
+    const contributor = row.contributor;
+    const avgTat = row.avg_tat;
+    const prCount = row.pr_count;
+    await contributorAggregateQueries.upsert(db, {
+      aggregate: "pr_avg_turn_around_time",
+      contributor,
+      value: {
+        type: "number",
+        value: avgTat,
+        unit: "ms",
+        format: "duration"
+      },
+      meta: {
+        source: "github_api",
+        calculated_at: (/* @__PURE__ */ new Date()).toISOString(),
+        pr_count: prCount
+      }
+    });
+  }
+  logger.info(
+    `Computed pr_avg_turn_around_time for ${result.rows.length} contributors`
+  );
+}
+async function computeGlobalPrAvgTurnAroundTime({ db, logger }) {
+  const now = /* @__PURE__ */ new Date();
+  const windows = [
+    {
+      slug: "pr_avg_turn_around_time",
+      name: "Avg PR Turn Around Time",
+      days: null
+    },
+    {
+      slug: "pr_avg_turn_around_time_7d",
+      name: "Avg PR Turn Around Time (7d)",
+      days: 7
+    },
+    {
+      slug: "pr_avg_turn_around_time_30d",
+      name: "Avg PR Turn Around Time (30d)",
+      days: 30
+    },
+    {
+      slug: "pr_avg_turn_around_time_365d",
+      name: "Avg PR Turn Around Time (1y)",
+      days: 365
+    }
+  ];
+  for (const window of windows) {
+    const since = window.days ? subDays(now, window.days).toISOString() : null;
+    const result = await queryGlobalAvgTat(db, since);
+    const row = result.rows[0];
+    if (!row?.avg_tat) continue;
+    const avgTat = row.avg_tat;
+    const prCount = row.pr_count;
+    await globalAggregateQueries.upsert(db, {
+      slug: window.slug,
+      name: window.name,
+      description: `Average time taken for PRs to get merged${window.days ? ` (last ${window.days} days)` : ""}`,
+      value: {
+        type: "number",
+        value: avgTat,
+        unit: "ms",
+        format: "duration"
+      },
+      meta: {
+        source: "github_api",
+        calculated_at: now.toISOString(),
+        pr_count: prCount
+      }
+    });
+    logger.info(`Computed global ${window.slug} from ${prCount} PRs`);
+  }
+}
+
 // src/index.ts
 var plugin = {
   name: "@leaderboard/plugin-leaderboard-github-plugin",
@@ -5498,12 +5867,24 @@ var plugin = {
         ]
       );
     }
+    await contributorAggregateDefinitionQueries.upsert(ctx.db, {
+      slug: "pr_avg_turn_around_time",
+      name: "Avg PR Turn Around Time",
+      description: "Average time taken for PRs to get merged"
+    });
     ctx.logger.info("Setup complete");
   },
   async scrape(ctx) {
     ctx.logger.info("Starting leaderboard-github-plugin data scraping...");
     await getActivities(ctx);
     ctx.logger.info("Scraping complete");
+  },
+  async aggregate(ctx) {
+    ctx.logger.info(
+      "Starting leaderboard-github-plugin aggregate computations..."
+    );
+    await computeAggregates(ctx);
+    ctx.logger.info("Aggregate computations complete");
   }
 };
 var index_default = plugin;
