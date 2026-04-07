@@ -1,6 +1,10 @@
-{"aggregate":"active_days","contributor":"Suhail2701","value":{"type":"number","value":2,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:09.267Z"}}
-{"aggregate":"activity_count","contributor":"Suhail2701","value":{"type":"number","value":3,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:09.264Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"Suhail2701","value":{"type":"number","value":2.67,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:09.268Z"}}
-{"aggregate":"first_activity_date","contributor":"Suhail2701","value":{"type":"string","value":"2024-11-01"},"meta":{"calculated_at":"2026-04-07T00:42:09.265Z"}}
-{"aggregate":"last_activity_date","contributor":"Suhail2701","value":{"type":"string","value":"2024-11-12"},"meta":{"calculated_at":"2026-04-07T00:42:09.266Z"}}
-{"aggregate":"total_activity_points","contributor":"Suhail2701","value":{"type":"number","value":8,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:09.263Z"}}
+{"aggregate":"active_days","contributor":"Suhail2701","value":{"type":"number","value":2,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:44.148Z"}}
+{"aggregate":"activity_count","contributor":"Suhail2701","value":{"type":"number","value":3,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:44.145Z"}}
+{"aggregate":"activity_count:commited","contributor":"Suhail2701","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"commited","calculated_at":"2026-04-07T12:28:44.150Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"Suhail2701","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:44.151Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"Suhail2701","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:44.152Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"Suhail2701","value":{"type":"number","value":2.67,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:44.149Z"}}
+{"aggregate":"first_activity_date","contributor":"Suhail2701","value":{"type":"string","value":"2024-11-01"},"meta":{"calculated_at":"2026-04-07T12:28:44.146Z"}}
+{"aggregate":"last_activity_date","contributor":"Suhail2701","value":{"type":"string","value":"2024-11-12"},"meta":{"calculated_at":"2026-04-07T12:28:44.147Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"Suhail2701","value":{"type":"number","value":980069000,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:45.999Z","pr_count":1}}
+{"aggregate":"total_activity_points","contributor":"Suhail2701","value":{"type":"number","value":8,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:44.144Z"}}

@@ -1,6 +1,9 @@
-{"aggregate":"active_days","contributor":"abidhkm","value":{"type":"number","value":2,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:00.099Z"}}
-{"aggregate":"activity_count","contributor":"abidhkm","value":{"type":"number","value":2,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:00.096Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"abidhkm","value":{"type":"number","value":3,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:00.100Z"}}
-{"aggregate":"first_activity_date","contributor":"abidhkm","value":{"type":"string","value":"2021-05-14"},"meta":{"calculated_at":"2026-04-07T00:42:00.097Z"}}
-{"aggregate":"last_activity_date","contributor":"abidhkm","value":{"type":"string","value":"2021-05-15"},"meta":{"calculated_at":"2026-04-07T00:42:00.098Z"}}
-{"aggregate":"total_activity_points","contributor":"abidhkm","value":{"type":"number","value":6,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:00.095Z"}}
+{"aggregate":"active_days","contributor":"abidhkm","value":{"type":"number","value":2,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:32.095Z"}}
+{"aggregate":"activity_count","contributor":"abidhkm","value":{"type":"number","value":2,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:32.093Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"abidhkm","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:32.097Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"abidhkm","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:32.098Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"abidhkm","value":{"type":"number","value":3,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:32.096Z"}}
+{"aggregate":"first_activity_date","contributor":"abidhkm","value":{"type":"string","value":"2021-05-14"},"meta":{"calculated_at":"2026-04-07T12:28:32.093Z"}}
+{"aggregate":"last_activity_date","contributor":"abidhkm","value":{"type":"string","value":"2021-05-15"},"meta":{"calculated_at":"2026-04-07T12:28:32.094Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"abidhkm","value":{"type":"number","value":26868000,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.032Z","pr_count":1}}
+{"aggregate":"total_activity_points","contributor":"abidhkm","value":{"type":"number","value":6,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:32.092Z"}}

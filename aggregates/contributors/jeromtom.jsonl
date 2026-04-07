@@ -1,6 +1,11 @@
-{"aggregate":"active_days","contributor":"jeromtom","value":{"type":"number","value":6,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:04.471Z"}}
-{"aggregate":"activity_count","contributor":"jeromtom","value":{"type":"number","value":12,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:04.468Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"jeromtom","value":{"type":"number","value":2.25,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:04.472Z"}}
-{"aggregate":"first_activity_date","contributor":"jeromtom","value":{"type":"string","value":"2023-02-25"},"meta":{"calculated_at":"2026-04-07T00:42:04.468Z"}}
-{"aggregate":"last_activity_date","contributor":"jeromtom","value":{"type":"string","value":"2023-03-06"},"meta":{"calculated_at":"2026-04-07T00:42:04.470Z"}}
-{"aggregate":"total_activity_points","contributor":"jeromtom","value":{"type":"number","value":27,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:04.467Z"}}
+{"aggregate":"active_days","contributor":"jeromtom","value":{"type":"number","value":6,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:37.575Z"}}
+{"aggregate":"activity_count","contributor":"jeromtom","value":{"type":"number","value":12,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:37.572Z"}}
+{"aggregate":"activity_count:commited","contributor":"jeromtom","value":{"type":"number","value":3,"format":"integer"},"meta":{"activity_definition":"commited","calculated_at":"2026-04-07T12:28:37.577Z"}}
+{"aggregate":"activity_count:issue_assigned","contributor":"jeromtom","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"issue_assigned","calculated_at":"2026-04-07T12:28:37.578Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"jeromtom","value":{"type":"number","value":3,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:37.579Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"jeromtom","value":{"type":"number","value":5,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:37.580Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"jeromtom","value":{"type":"number","value":2.25,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:37.576Z"}}
+{"aggregate":"first_activity_date","contributor":"jeromtom","value":{"type":"string","value":"2023-02-25"},"meta":{"calculated_at":"2026-04-07T12:28:37.573Z"}}
+{"aggregate":"last_activity_date","contributor":"jeromtom","value":{"type":"string","value":"2023-03-06"},"meta":{"calculated_at":"2026-04-07T12:28:37.574Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"jeromtom","value":{"type":"number","value":107288666.66666667,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.162Z","pr_count":3}}
+{"aggregate":"total_activity_points","contributor":"jeromtom","value":{"type":"number","value":27,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:37.571Z"}}

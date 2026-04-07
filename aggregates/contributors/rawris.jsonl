@@ -1,6 +1,11 @@
-{"aggregate":"active_days","contributor":"rawris","value":{"type":"number","value":4,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:07.222Z"}}
-{"aggregate":"activity_count","contributor":"rawris","value":{"type":"number","value":13,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:07.219Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"rawris","value":{"type":"number","value":1.15,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:07.223Z"}}
-{"aggregate":"first_activity_date","contributor":"rawris","value":{"type":"string","value":"2021-04-23"},"meta":{"calculated_at":"2026-04-07T00:42:07.220Z"}}
-{"aggregate":"last_activity_date","contributor":"rawris","value":{"type":"string","value":"2021-05-03"},"meta":{"calculated_at":"2026-04-07T00:42:07.221Z"}}
-{"aggregate":"total_activity_points","contributor":"rawris","value":{"type":"number","value":15,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:07.218Z"}}
+{"aggregate":"active_days","contributor":"rawris","value":{"type":"number","value":4,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:41.468Z"}}
+{"aggregate":"activity_count","contributor":"rawris","value":{"type":"number","value":13,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:41.465Z"}}
+{"aggregate":"activity_count:commented","contributor":"rawris","value":{"type":"number","value":6,"format":"integer"},"meta":{"activity_definition":"commented","calculated_at":"2026-04-07T12:28:41.469Z"}}
+{"aggregate":"activity_count:issue_assigned","contributor":"rawris","value":{"type":"number","value":2,"format":"integer"},"meta":{"activity_definition":"issue_assigned","calculated_at":"2026-04-07T12:28:41.470Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"rawris","value":{"type":"number","value":2,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:41.471Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"rawris","value":{"type":"number","value":3,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:41.472Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"rawris","value":{"type":"number","value":1.15,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:41.469Z"}}
+{"aggregate":"first_activity_date","contributor":"rawris","value":{"type":"string","value":"2021-04-23"},"meta":{"calculated_at":"2026-04-07T12:28:41.466Z"}}
+{"aggregate":"last_activity_date","contributor":"rawris","value":{"type":"string","value":"2021-05-03"},"meta":{"calculated_at":"2026-04-07T12:28:41.467Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"rawris","value":{"type":"number","value":3397500,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.251Z","pr_count":2}}
+{"aggregate":"total_activity_points","contributor":"rawris","value":{"type":"number","value":15,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:41.465Z"}}

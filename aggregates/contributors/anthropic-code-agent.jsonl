@@ -1,6 +1,10 @@
-{"aggregate":"active_days","contributor":"anthropic-code-agent","value":{"type":"number","value":14,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:00.947Z"}}
-{"aggregate":"activity_count","contributor":"anthropic-code-agent","value":{"type":"number","value":43,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:00.943Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"anthropic-code-agent","value":{"type":"number","value":2.4,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:00.948Z"}}
-{"aggregate":"first_activity_date","contributor":"anthropic-code-agent","value":{"type":"string","value":"2026-02-05"},"meta":{"calculated_at":"2026-04-07T00:42:00.945Z"}}
-{"aggregate":"last_activity_date","contributor":"anthropic-code-agent","value":{"type":"string","value":"2026-04-06"},"meta":{"calculated_at":"2026-04-07T00:42:00.946Z"}}
-{"aggregate":"total_activity_points","contributor":"anthropic-code-agent","value":{"type":"number","value":103,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:00.942Z"}}
+{"aggregate":"active_days","contributor":"anthropic-code-agent","value":{"type":"number","value":15,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:33.255Z"}}
+{"aggregate":"activity_count","contributor":"anthropic-code-agent","value":{"type":"number","value":51,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:33.252Z"}}
+{"aggregate":"activity_count:issue_assigned","contributor":"anthropic-code-agent","value":{"type":"number","value":12,"format":"integer"},"meta":{"activity_definition":"issue_assigned","calculated_at":"2026-04-07T12:28:33.256Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"anthropic-code-agent","value":{"type":"number","value":17,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:33.257Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"anthropic-code-agent","value":{"type":"number","value":22,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:33.258Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"anthropic-code-agent","value":{"type":"number","value":2.33,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:33.256Z"}}
+{"aggregate":"first_activity_date","contributor":"anthropic-code-agent","value":{"type":"string","value":"2026-02-05"},"meta":{"calculated_at":"2026-04-07T12:28:33.253Z"}}
+{"aggregate":"last_activity_date","contributor":"anthropic-code-agent","value":{"type":"string","value":"2026-04-07"},"meta":{"calculated_at":"2026-04-07T12:28:33.254Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"anthropic-code-agent","value":{"type":"number","value":126865176.47058824,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.066Z","pr_count":17}}
+{"aggregate":"total_activity_points","contributor":"anthropic-code-agent","value":{"type":"number","value":119,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:33.251Z"}}

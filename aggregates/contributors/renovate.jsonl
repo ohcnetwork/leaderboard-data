@@ -1,6 +1,10 @@
-{"aggregate":"active_days","contributor":"renovate","value":{"type":"number","value":126,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:07.288Z"}}
-{"aggregate":"activity_count","contributor":"renovate","value":{"type":"number","value":418,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:07.285Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"renovate","value":{"type":"number","value":2.78,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:07.290Z"}}
-{"aggregate":"first_activity_date","contributor":"renovate","value":{"type":"string","value":"2025-01-24"},"meta":{"calculated_at":"2026-04-07T00:42:07.286Z"}}
-{"aggregate":"last_activity_date","contributor":"renovate","value":{"type":"string","value":"2026-03-30"},"meta":{"calculated_at":"2026-04-07T00:42:07.287Z"}}
-{"aggregate":"total_activity_points","contributor":"renovate","value":{"type":"number","value":1163,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:07.284Z"}}
+{"aggregate":"active_days","contributor":"renovate","value":{"type":"number","value":127,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:41.565Z"}}
+{"aggregate":"activity_count","contributor":"renovate","value":{"type":"number","value":419,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:41.563Z"}}
+{"aggregate":"activity_count:issue_opened","contributor":"renovate","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"issue_opened","calculated_at":"2026-04-07T12:28:41.567Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"renovate","value":{"type":"number","value":186,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:41.568Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"renovate","value":{"type":"number","value":232,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:41.569Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"renovate","value":{"type":"number","value":2.78,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:41.566Z"}}
+{"aggregate":"first_activity_date","contributor":"renovate","value":{"type":"string","value":"2025-01-24"},"meta":{"calculated_at":"2026-04-07T12:28:41.564Z"}}
+{"aggregate":"last_activity_date","contributor":"renovate","value":{"type":"string","value":"2026-04-07"},"meta":{"calculated_at":"2026-04-07T12:28:41.564Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"renovate","value":{"type":"number","value":444770537.6344086,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.256Z","pr_count":186}}
+{"aggregate":"total_activity_points","contributor":"renovate","value":{"type":"number","value":1164,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:41.562Z"}}

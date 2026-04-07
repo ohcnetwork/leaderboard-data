@@ -10,9 +10,278 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-04-07T00:41:59.730Z",
+      "calculated_at": "2026-04-07T12:28:29.989Z",
       "period_start": "2026-03-08",
       "period_end": "2026-04-07"
+    }
+  },
+  {
+    "slug": "activity_count:commented",
+    "name": "Commented Count",
+    "description": "Total number of Commented activities",
+    "value": {
+      "type": "number",
+      "value": 43146,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "commented",
+      "calculated_at": "2026-04-07T12:28:31.558Z"
+    }
+  },
+  {
+    "slug": "activity_count:commited",
+    "name": "Commit Created Count",
+    "description": "Total number of Commit Created activities",
+    "value": {
+      "type": "number",
+      "value": 33892,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "commited",
+      "calculated_at": "2026-04-07T12:28:31.559Z"
+    }
+  },
+  {
+    "slug": "activity_count:eod_update",
+    "name": "EOD Update Count",
+    "description": "Total number of EOD Update activities",
+    "value": {
+      "type": "number",
+      "value": 0,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "eod_update",
+      "calculated_at": "2026-04-07T12:28:31.560Z"
+    }
+  },
+  {
+    "slug": "activity_count:issue_assigned",
+    "name": "Issue Assigned Count",
+    "description": "Total number of Issue Assigned activities",
+    "value": {
+      "type": "number",
+      "value": 8869,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "issue_assigned",
+      "calculated_at": "2026-04-07T12:28:31.561Z"
+    }
+  },
+  {
+    "slug": "activity_count:issue_closed",
+    "name": "Issue Closed Count",
+    "description": "Total number of Issue Closed activities",
+    "value": {
+      "type": "number",
+      "value": 9013,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "issue_closed",
+      "calculated_at": "2026-04-07T12:28:31.562Z"
+    }
+  },
+  {
+    "slug": "activity_count:issue_opened",
+    "name": "Issue Opened Count",
+    "description": "Total number of Issue Opened activities",
+    "value": {
+      "type": "number",
+      "value": 9964,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "issue_opened",
+      "calculated_at": "2026-04-07T12:28:31.563Z"
+    }
+  },
+  {
+    "slug": "activity_count:pr_collaborated",
+    "name": "PR Collaborated Count",
+    "description": "Total number of PR Collaborated activities",
+    "value": {
+      "type": "number",
+      "value": 0,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "pr_collaborated",
+      "calculated_at": "2026-04-07T12:28:31.564Z"
+    }
+  },
+  {
+    "slug": "activity_count:pr_merged",
+    "name": "PR Merged Count",
+    "description": "Total number of PR Merged activities",
+    "value": {
+      "type": "number",
+      "value": 10562,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "pr_merged",
+      "calculated_at": "2026-04-07T12:28:31.565Z"
+    }
+  },
+  {
+    "slug": "activity_count:pr_opened",
+    "name": "PR Opened Count",
+    "description": "Total number of PR Opened activities",
+    "value": {
+      "type": "number",
+      "value": 16797,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "pr_opened",
+      "calculated_at": "2026-04-07T12:28:31.566Z"
+    }
+  },
+  {
+    "slug": "activity_count:pr_reviewed",
+    "name": "PR Reviewed Count",
+    "description": "Total number of PR Reviewed activities",
+    "value": {
+      "type": "number",
+      "value": 29606,
+      "format": "integer"
+    },
+    "hidden": 0,
+    "meta": {
+      "activity_definition": "pr_reviewed",
+      "calculated_at": "2026-04-07T12:28:31.567Z"
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time",
+    "name": "Avg PR Turn Around Time",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 539534875.0236697,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 10562
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time_month",
+    "name": "Avg PR Turn Around Time (Month)",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 1025272246.9135803,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 162
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time_previous_month",
+    "name": "Avg PR Turn Around Time (Previous Month)",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 632332325,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 160
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time_previous_week",
+    "name": "Avg PR Turn Around Time (Previous Week)",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 186338545.45454547,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 22
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time_previous_year",
+    "name": "Avg PR Turn Around Time (Previous Year)",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 566611411.4989733,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 2435
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time_week",
+    "name": "Avg PR Turn Around Time (Week)",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 1081974240.506329,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 79
+    }
+  },
+  {
+    "slug": "pr_avg_turn_around_time_year",
+    "name": "Avg PR Turn Around Time (Year)",
+    "description": null,
+    "value": {
+      "type": "number",
+      "value": 621751785.7680722,
+      "unit": "ms",
+      "format": "duration"
+    },
+    "hidden": 0,
+    "meta": {
+      "source": "github_api",
+      "calculated_at": "2026-04-07T12:28:46.348Z",
+      "pr_count": 2656
     }
   },
   {
@@ -21,12 +290,12 @@
     "description": "Total number of activities",
     "value": {
       "type": "number",
-      "value": 163118,
+      "value": 161849,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-04-07T00:41:59.683Z"
+      "calculated_at": "2026-04-07T12:28:29.950Z"
     }
   },
   {
@@ -35,12 +304,12 @@
     "description": "Total number of contributors",
     "value": {
       "type": "number",
-      "value": 1372,
+      "value": 1371,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-04-07T00:41:59.680Z"
+      "calculated_at": "2026-04-07T12:28:29.947Z"
     }
   }
 ]

@@ -1,6 +1,10 @@
-{"aggregate":"active_days","contributor":"christeen24","value":{"type":"number","value":1,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:02.101Z"}}
-{"aggregate":"activity_count","contributor":"christeen24","value":{"type":"number","value":3,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:02.097Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"christeen24","value":{"type":"number","value":2.67,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:02.102Z"}}
-{"aggregate":"first_activity_date","contributor":"christeen24","value":{"type":"string","value":"2020-10-02"},"meta":{"calculated_at":"2026-04-07T00:42:02.098Z"}}
-{"aggregate":"last_activity_date","contributor":"christeen24","value":{"type":"string","value":"2020-10-02"},"meta":{"calculated_at":"2026-04-07T00:42:02.099Z"}}
-{"aggregate":"total_activity_points","contributor":"christeen24","value":{"type":"number","value":8,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:02.096Z"}}
+{"aggregate":"active_days","contributor":"christeen24","value":{"type":"number","value":1,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:34.724Z"}}
+{"aggregate":"activity_count","contributor":"christeen24","value":{"type":"number","value":3,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:34.721Z"}}
+{"aggregate":"activity_count:commited","contributor":"christeen24","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"commited","calculated_at":"2026-04-07T12:28:34.726Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"christeen24","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:34.727Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"christeen24","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:34.728Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"christeen24","value":{"type":"number","value":2.67,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:34.725Z"}}
+{"aggregate":"first_activity_date","contributor":"christeen24","value":{"type":"string","value":"2020-10-02"},"meta":{"calculated_at":"2026-04-07T12:28:34.722Z"}}
+{"aggregate":"last_activity_date","contributor":"christeen24","value":{"type":"string","value":"2020-10-02"},"meta":{"calculated_at":"2026-04-07T12:28:34.723Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"christeen24","value":{"type":"number","value":13341000,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.107Z","pr_count":1}}
+{"aggregate":"total_activity_points","contributor":"christeen24","value":{"type":"number","value":8,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:34.720Z"}}

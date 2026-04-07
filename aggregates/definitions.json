@@ -12,6 +12,66 @@
     "hidden": 0
   },
   {
+    "slug": "activity_count:commented",
+    "name": "Commented Count",
+    "description": "Number of Commented activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:commited",
+    "name": "Commit Created Count",
+    "description": "Number of Commit Created activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:eod_update",
+    "name": "EOD Update Count",
+    "description": "Number of EOD Update activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:issue_assigned",
+    "name": "Issue Assigned Count",
+    "description": "Number of Issue Assigned activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:issue_closed",
+    "name": "Issue Closed Count",
+    "description": "Number of Issue Closed activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:issue_opened",
+    "name": "Issue Opened Count",
+    "description": "Number of Issue Opened activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:pr_collaborated",
+    "name": "PR Collaborated Count",
+    "description": "Number of PR Collaborated activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:pr_merged",
+    "name": "PR Merged Count",
+    "description": "Number of PR Merged activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:pr_opened",
+    "name": "PR Opened Count",
+    "description": "Number of PR Opened activities by the contributor",
+    "hidden": 0
+  },
+  {
+    "slug": "activity_count:pr_reviewed",
+    "name": "PR Reviewed Count",
+    "description": "Number of PR Reviewed activities by the contributor",
+    "hidden": 0
+  },
+  {
     "slug": "avg_points_per_activity",
     "name": "Average Points Per Activity",
     "description": "Average points earned per activity",
@@ -27,6 +87,12 @@
     "slug": "last_activity_date",
     "name": "Last Activity Date",
     "description": "Date of the contributor's most recent activity",
+    "hidden": 0
+  },
+  {
+    "slug": "pr_avg_turn_around_time",
+    "name": "Avg PR Turn Around Time",
+    "description": "Average time taken for PRs to get merged",
     "hidden": 0
   },
   {

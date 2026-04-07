@@ -1,6 +1,10 @@
-{"aggregate":"active_days","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":5,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:06.194Z"}}
-{"aggregate":"activity_count","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":10,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:06.191Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":2.8,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:06.195Z"}}
-{"aggregate":"first_activity_date","contributor":"NikhilChandrasenanNair","value":{"type":"string","value":"2020-03-23"},"meta":{"calculated_at":"2026-04-07T00:42:06.192Z"}}
-{"aggregate":"last_activity_date","contributor":"NikhilChandrasenanNair","value":{"type":"string","value":"2020-03-31"},"meta":{"calculated_at":"2026-04-07T00:42:06.193Z"}}
-{"aggregate":"total_activity_points","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":28,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:06.190Z"}}
+{"aggregate":"active_days","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":5,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:40.000Z"}}
+{"aggregate":"activity_count","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":10,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:39.997Z"}}
+{"aggregate":"activity_count:commited","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":2,"format":"integer"},"meta":{"activity_definition":"commited","calculated_at":"2026-04-07T12:28:40.003Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":4,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:40.004Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":4,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:40.005Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":2.8,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:40.003Z"}}
+{"aggregate":"first_activity_date","contributor":"NikhilChandrasenanNair","value":{"type":"string","value":"2020-03-23"},"meta":{"calculated_at":"2026-04-07T12:28:39.998Z"}}
+{"aggregate":"last_activity_date","contributor":"NikhilChandrasenanNair","value":{"type":"string","value":"2020-03-31"},"meta":{"calculated_at":"2026-04-07T12:28:39.999Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":85220000,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:45.954Z","pr_count":4}}
+{"aggregate":"total_activity_points","contributor":"NikhilChandrasenanNair","value":{"type":"number","value":28,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:39.996Z"}}

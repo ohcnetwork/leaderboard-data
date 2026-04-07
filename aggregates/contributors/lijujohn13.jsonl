@@ -1,6 +1,11 @@
-{"aggregate":"active_days","contributor":"lijujohn13","value":{"type":"number","value":2,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:05.250Z"}}
-{"aggregate":"activity_count","contributor":"lijujohn13","value":{"type":"number","value":9,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:05.247Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"lijujohn13","value":{"type":"number","value":2.11,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:05.251Z"}}
-{"aggregate":"first_activity_date","contributor":"lijujohn13","value":{"type":"string","value":"2020-03-25"},"meta":{"calculated_at":"2026-04-07T00:42:05.248Z"}}
-{"aggregate":"last_activity_date","contributor":"lijujohn13","value":{"type":"string","value":"2020-03-29"},"meta":{"calculated_at":"2026-04-07T00:42:05.249Z"}}
-{"aggregate":"total_activity_points","contributor":"lijujohn13","value":{"type":"number","value":19,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:05.246Z"}}
+{"aggregate":"active_days","contributor":"lijujohn13","value":{"type":"number","value":2,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:38.673Z"}}
+{"aggregate":"activity_count","contributor":"lijujohn13","value":{"type":"number","value":9,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:38.670Z"}}
+{"aggregate":"activity_count:commited","contributor":"lijujohn13","value":{"type":"number","value":6,"format":"integer"},"meta":{"activity_definition":"commited","calculated_at":"2026-04-07T12:28:38.677Z"}}
+{"aggregate":"activity_count:issue_assigned","contributor":"lijujohn13","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"issue_assigned","calculated_at":"2026-04-07T12:28:38.678Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"lijujohn13","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:38.679Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"lijujohn13","value":{"type":"number","value":1,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:38.680Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"lijujohn13","value":{"type":"number","value":2.11,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:38.676Z"}}
+{"aggregate":"first_activity_date","contributor":"lijujohn13","value":{"type":"string","value":"2020-03-25"},"meta":{"calculated_at":"2026-04-07T12:28:38.671Z"}}
+{"aggregate":"last_activity_date","contributor":"lijujohn13","value":{"type":"string","value":"2020-03-29"},"meta":{"calculated_at":"2026-04-07T12:28:38.672Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"lijujohn13","value":{"type":"number","value":103000,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.187Z","pr_count":1}}
+{"aggregate":"total_activity_points","contributor":"lijujohn13","value":{"type":"number","value":19,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:38.669Z"}}

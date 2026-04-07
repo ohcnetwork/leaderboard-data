@@ -1,6 +1,11 @@
-{"aggregate":"active_days","contributor":"technoknol","value":{"type":"number","value":5,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T00:42:09.488Z"}}
-{"aggregate":"activity_count","contributor":"technoknol","value":{"type":"number","value":17,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:09.485Z"}}
-{"aggregate":"avg_points_per_activity","contributor":"technoknol","value":{"type":"number","value":1.29,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T00:42:09.490Z"}}
-{"aggregate":"first_activity_date","contributor":"technoknol","value":{"type":"string","value":"2021-04-26"},"meta":{"calculated_at":"2026-04-07T00:42:09.486Z"}}
-{"aggregate":"last_activity_date","contributor":"technoknol","value":{"type":"string","value":"2021-05-11"},"meta":{"calculated_at":"2026-04-07T00:42:09.487Z"}}
-{"aggregate":"total_activity_points","contributor":"technoknol","value":{"type":"number","value":22,"format":"integer"},"meta":{"calculated_at":"2026-04-07T00:42:09.485Z"}}
+{"aggregate":"active_days","contributor":"technoknol","value":{"type":"number","value":5,"format":"integer","unit":"days"},"meta":{"calculated_at":"2026-04-07T12:28:44.480Z"}}
+{"aggregate":"activity_count","contributor":"technoknol","value":{"type":"number","value":17,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:44.478Z"}}
+{"aggregate":"activity_count:commented","contributor":"technoknol","value":{"type":"number","value":8,"format":"integer"},"meta":{"activity_definition":"commented","calculated_at":"2026-04-07T12:28:44.482Z"}}
+{"aggregate":"activity_count:issue_opened","contributor":"technoknol","value":{"type":"number","value":5,"format":"integer"},"meta":{"activity_definition":"issue_opened","calculated_at":"2026-04-07T12:28:44.484Z"}}
+{"aggregate":"activity_count:pr_merged","contributor":"technoknol","value":{"type":"number","value":2,"format":"integer"},"meta":{"activity_definition":"pr_merged","calculated_at":"2026-04-07T12:28:44.485Z"}}
+{"aggregate":"activity_count:pr_opened","contributor":"technoknol","value":{"type":"number","value":2,"format":"integer"},"meta":{"activity_definition":"pr_opened","calculated_at":"2026-04-07T12:28:44.487Z"}}
+{"aggregate":"avg_points_per_activity","contributor":"technoknol","value":{"type":"number","value":1.29,"format":"decimal","decimals":2},"meta":{"calculated_at":"2026-04-07T12:28:44.482Z"}}
+{"aggregate":"first_activity_date","contributor":"technoknol","value":{"type":"string","value":"2021-04-26"},"meta":{"calculated_at":"2026-04-07T12:28:44.478Z"}}
+{"aggregate":"last_activity_date","contributor":"technoknol","value":{"type":"string","value":"2021-05-11"},"meta":{"calculated_at":"2026-04-07T12:28:44.479Z"}}
+{"aggregate":"pr_avg_turn_around_time","contributor":"technoknol","value":{"type":"number","value":30952000,"unit":"ms","format":"duration"},"meta":{"source":"github_api","calculated_at":"2026-04-07T12:28:46.316Z","pr_count":2}}
+{"aggregate":"total_activity_points","contributor":"technoknol","value":{"type":"number","value":22,"format":"integer"},"meta":{"calculated_at":"2026-04-07T12:28:44.477Z"}}
