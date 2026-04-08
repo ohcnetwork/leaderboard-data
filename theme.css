@@ -55,6 +55,20 @@
   --shadow-2xl: 0 1px 3px 0px hsl(0 0% 0% / 0.25);
   --tracking-normal: 0em;
   --spacing: 0.25rem;
+
+  /* People Page Avatar Grid Configuration */
+  /* Adjust these values based on org size:
+     - Large orgs (500+ contributors): 12-24 columns, smaller avatars
+     - Medium orgs (100-500): 8-16 columns
+     - Small orgs (<100): 4-8 columns, larger avatars
+  */
+  --people-grid-cols-mobile: 10; /* Mobile: smallest screens */
+  --people-grid-cols-sm: 12; /* Small: 640px+ */
+  --people-grid-cols-md: 16; /* Medium: 768px+ */
+  --people-grid-cols-lg: 20; /* Large: 1024px+ */
+  --people-grid-cols-xl: 28; /* XL: 1280px+ */
+  --people-grid-cols-2xl: 36; /* 2XL: 1536px+ */
+  --people-grid-gap: 0.275rem; /* Gap between avatars (1.5 = 6px) */
 }
 
 .dark {
