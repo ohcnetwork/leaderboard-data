@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="cg-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFE066" />
+            <stop offset="35%" stop-color="#FFD700" />
+            <stop offset="65%" stop-color="#DAA520" />
+            <stop offset="100%" stop-color="#B8860B" />
+        </linearGradient>
+        <linearGradient id="cg-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2E2206" />
+            <stop offset="100%" stop-color="#1A1400" />
+        </linearGradient>
+        <linearGradient id="cg-flame-outer" x1="0.5" y1="1" x2="0.5" y2="0">
+            <stop offset="0%" stop-color="#B8420E" />
+            <stop offset="25%" stop-color="#E86020" />
+            <stop offset="50%" stop-color="#FF8C00" />
+            <stop offset="75%" stop-color="#FFC040" />
+            <stop offset="100%" stop-color="#FFE880" />
+        </linearGradient>
+        <linearGradient id="cg-flame-inner" x1="0.5" y1="1" x2="0.5" y2="0">
+            <stop offset="0%" stop-color="#FF6000" />
+            <stop offset="40%" stop-color="#FFB020" />
+            <stop offset="70%" stop-color="#FFD760" />
+            <stop offset="100%" stop-color="#FFFFA0" />
+        </linearGradient>
+        <linearGradient id="cg-flame-core" x1="0.5" y1="1" x2="0.5" y2="0">
+            <stop offset="0%" stop-color="#FFD700" />
+            <stop offset="100%" stop-color="#FFFFFF" />
+        </linearGradient>
+        <linearGradient id="cg-flame-side" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0%" stop-color="#C84010" />
+            <stop offset="50%" stop-color="#E86020" />
+            <stop offset="100%" stop-color="#FF9030" />
+        </linearGradient>
+        <filter id="flame-glow-g">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <filter id="ember-glow">
+            <feGaussianBlur stdDeviation="1.5" />
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#cg-ring)" />
+    <circle cx="64" cy="64" r="57" fill="none" stroke="#FFE066" stroke-width="0.5" opacity="0.5" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#cg-bg)" />
+    <circle cx="64" cy="64" r="50" fill="none" stroke="#FFD700" stroke-width="0.3" opacity="0.3" />
+    <!-- Large dramatic flame - 30 day streak -->
+    <g filter="url(#flame-glow-g)" transform="translate(64,58)">
+        <!-- Side flames -->
+        <path d="M-16,-14 C-24,-26 -28,-10 -20,4 C-16,12 -18,6 -16,-14 Z"
+            fill="url(#cg-flame-side)" opacity="0.7" />
+        <path d="M16,-14 C24,-26 28,-10 20,4 C16,12 18,6 16,-14 Z"
+            fill="url(#cg-flame-side)" opacity="0.7" />
+        <!-- Extra side wisps -->
+        <path d="M-10,-4 C-16,-14 -22,-4 -14,6 Z"
+            fill="#E86020" opacity="0.4" />
+        <path d="M10,-4 C16,-14 22,-4 14,6 Z"
+            fill="#E86020" opacity="0.4" />
+        <!-- Main outer flame -->
+        <path
+            d="M0,-38 C12,-28 24,-14 24,2 C24,18 14,28 0,28 C-14,28 -24,18 -24,2 C-24,-14 -12,-28 0,-38 Z"
+            fill="url(#cg-flame-outer)" opacity="0.95" />
+        <!-- Inner flame -->
+        <path
+            d="M0,-26 C8,-18 14,-8 14,4 C14,16 8,22 0,22 C-8,22 -14,16 -14,4 C-14,-8 -8,-18 0,-26 Z"
+            fill="url(#cg-flame-inner)" opacity="0.85" />
+        <!-- Core flame -->
+        <path d="M0,-14 C4,-8 8,-2 8,6 C8,14 4,16 0,16 C-4,16 -8,14 -8,6 C-8,-2 -4,-8 0,-14 Z"
+            fill="url(#cg-flame-core)" opacity="0.6" />
+        <!-- White-hot center -->
+        <ellipse cx="0" cy="8" rx="3" ry="6" fill="white" opacity="0.4" />
+    </g>
+    <!-- Floating embers -->
+    <g filter="url(#ember-glow)" opacity="0.6">
+        <circle cx="42" cy="38" r="1.2" fill="#FF8C00" />
+        <circle cx="86" cy="42" r="1" fill="#FFC040" />
+        <circle cx="48" cy="30" r="0.8" fill="#FFD700" />
+        <circle cx="80" cy="34" r="0.9" fill="#FF8C00" />
+        <circle cx="44" cy="50" r="0.6" fill="#FFC040" />
+        <circle cx="84" cy="52" r="0.7" fill="#FFE880" />
+    </g>
+    <ellipse cx="48" cy="34" rx="22" ry="14" fill="white" opacity="0.06" />
+</svg>

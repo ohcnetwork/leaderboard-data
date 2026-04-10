@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="g-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#FFE066" />
+            <stop offset="35%" stop-color="#FFD700" />
+            <stop offset="65%" stop-color="#DAA520" />
+            <stop offset="100%" stop-color="#B8860B" />
+        </linearGradient>
+        <linearGradient id="g-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2E2206" />
+            <stop offset="100%" stop-color="#1A1400" />
+        </linearGradient>
+        <linearGradient id="g-gem" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFF8D0" />
+            <stop offset="35%" stop-color="#FFD700" />
+            <stop offset="100%" stop-color="#B8860B" />
+        </linearGradient>
+        <linearGradient id="g-gem-face" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FFE880" />
+            <stop offset="100%" stop-color="#DAA520" />
+        </linearGradient>
+        <filter id="gem-glow-g">
+            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <filter id="sparkle-glow-g">
+            <feGaussianBlur stdDeviation="1.5" />
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#g-ring)" />
+    <circle cx="64" cy="64" r="57" fill="none" stroke="#FFE066" stroke-width="0.5" opacity="0.5" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#g-bg)" />
+    <circle cx="64" cy="64" r="50" fill="none" stroke="#FFD700" stroke-width="0.3" opacity="0.3" />
+    <!-- Radiating lines behind star -->
+    <g transform="translate(64,56)" opacity="0.15">
+        <line x1="0" y1="-36" x2="0" y2="-44" stroke="#FFD700" stroke-width="1.5" />
+        <line x1="20" y1="-28" x2="26" y2="-36" stroke="#FFD700" stroke-width="1.2" />
+        <line x1="-20" y1="-28" x2="-26" y2="-36" stroke="#FFD700" stroke-width="1.2" />
+        <line x1="32" y1="-6" x2="40" y2="-8" stroke="#FFD700" stroke-width="1" />
+        <line x1="-32" y1="-6" x2="-40" y2="-8" stroke="#FFD700" stroke-width="1" />
+        <line x1="24" y1="16" x2="30" y2="22" stroke="#FFD700" stroke-width="0.8" />
+        <line x1="-24" y1="16" x2="-30" y2="22" stroke="#FFD700" stroke-width="0.8" />
+    </g>
+    <!-- Five-pointed star - larger -->
+    <g filter="url(#gem-glow-g)" transform="translate(64,56)">
+        <polygon points="0,-32 9,-12 30,-12 13,2 20,26 0,14 -20,26 -13,2 -30,-12 -9,-12"
+            fill="url(#g-gem)" stroke="#B8860B" stroke-width="0.5" />
+        <polygon points="0,-20 6,-10 18,-10 8,0 11,14 0,8 -11,14 -8,0 -18,-10 -6,-10"
+            fill="url(#g-gem-face)" opacity="0.5" />
+        <!-- Bright highlight -->
+        <polygon points="0,-32 9,-12 0,-18 -9,-12" fill="white" opacity="0.25" />
+        <!-- Sparkles -->
+        <circle cx="18" cy="-18" r="2" fill="#FFF8D0" opacity="0.9" />
+        <circle cx="-16" cy="10" r="1.5" fill="#FFE880" opacity="0.7" />
+        <circle cx="12" cy="12" r="1.2" fill="white" opacity="0.8" />
+        <circle cx="-10" cy="-16" r="1" fill="#FFF8D0" opacity="0.6" />
+    </g>
+    <!-- Ambient sparkles -->
+    <g filter="url(#sparkle-glow-g)" opacity="0.6">
+        <circle cx="38" cy="40" r="1" fill="#FFD700" />
+        <circle cx="90" cy="46" r="0.8" fill="#FFE066" />
+        <circle cx="86" cy="80" r="1" fill="#FFD700" />
+        <circle cx="42" cy="84" r="0.7" fill="#DAA520" />
+    </g>
+    <ellipse cx="48" cy="34" rx="22" ry="14" fill="white" opacity="0.07" />
+</svg>

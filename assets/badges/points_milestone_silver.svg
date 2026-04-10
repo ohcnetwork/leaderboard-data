@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="s-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#E8E8E8" />
+            <stop offset="40%" stop-color="#C0C0C0" />
+            <stop offset="70%" stop-color="#A8A8A8" />
+            <stop offset="100%" stop-color="#808080" />
+        </linearGradient>
+        <linearGradient id="s-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2A2A3A" />
+            <stop offset="100%" stop-color="#12121C" />
+        </linearGradient>
+        <linearGradient id="s-gem" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F8F8F8" />
+            <stop offset="40%" stop-color="#D0D0D0" />
+            <stop offset="100%" stop-color="#909090" />
+        </linearGradient>
+        <linearGradient id="s-gem-face" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#E0E0E0" />
+            <stop offset="100%" stop-color="#A0A0A0" />
+        </linearGradient>
+        <filter id="gem-glow-s">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#s-ring)" />
+    <circle cx="64" cy="64" r="57" fill="none" stroke="#E0E0E0" stroke-width="0.5" opacity="0.4" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#s-bg)" />
+    <!-- Five-pointed star -->
+    <g filter="url(#gem-glow-s)" transform="translate(64,56)">
+        <polygon points="0,-30 8,-11 28,-11 12,2 18,24 0,13 -18,24 -12,2 -28,-11 -8,-11"
+            fill="url(#s-gem)" stroke="#808080" stroke-width="0.5" />
+        <polygon points="0,-18 5,-9 16,-9 7,0 10,13 0,7 -10,13 -7,0 -16,-9 -5,-9"
+            fill="url(#s-gem-face)" opacity="0.5" />
+        <!-- Highlight -->
+        <polygon points="0,-30 8,-11 0,-16 -8,-11" fill="white" opacity="0.2" />
+        <!-- Sparkle dots -->
+        <circle cx="16" cy="-16" r="1.5" fill="white" opacity="0.7" />
+        <circle cx="-14" cy="8" r="1" fill="#E0E0E0" opacity="0.5" />
+    </g>
+    <ellipse cx="48" cy="36" rx="22" ry="14" fill="white" opacity="0.08" />
+</svg>

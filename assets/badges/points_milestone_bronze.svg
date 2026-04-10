@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="b-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#D4945A" />
+            <stop offset="45%" stop-color="#CD7F32" />
+            <stop offset="100%" stop-color="#8B5E3C" />
+        </linearGradient>
+        <linearGradient id="b-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3D2B1F" />
+            <stop offset="100%" stop-color="#1A0F07" />
+        </linearGradient>
+        <linearGradient id="b-gem" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F0C080" />
+            <stop offset="40%" stop-color="#CD7F32" />
+            <stop offset="100%" stop-color="#8B5E3C" />
+        </linearGradient>
+        <linearGradient id="b-gem-face" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#E8A96A" />
+            <stop offset="100%" stop-color="#A06828" />
+        </linearGradient>
+        <filter id="gem-glow-b">
+            <feGaussianBlur stdDeviation="2.5" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#b-ring)" />
+    <circle cx="64" cy="64" r="56" fill="none" stroke="#B8733A" stroke-width="0.5" opacity="0.5" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#b-bg)" />
+    <!-- Five-pointed star -->
+    <g filter="url(#gem-glow-b)" transform="translate(64,56)">
+        <polygon points="0,-28 7,-10 26,-10 11,2 17,22 0,12 -17,22 -11,2 -26,-10 -7,-10"
+            fill="url(#b-gem)" stroke="#8B5E3C" stroke-width="0.5" />
+        <!-- Star inner facet for depth -->
+        <polygon points="0,-16 4,-8 14,-8 6,0 9,12 0,6 -9,12 -6,0 -14,-8 -4,-8"
+            fill="url(#b-gem-face)" opacity="0.6" />
+        <!-- Highlight -->
+        <polygon points="0,-28 7,-10 0,-14 -7,-10" fill="white" opacity="0.15" />
+    </g>
+    <ellipse cx="48" cy="36" rx="20" ry="12" fill="white" opacity="0.06" />
+</svg>

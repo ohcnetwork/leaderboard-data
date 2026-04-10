@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="bronze-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#D4945A" />
+            <stop offset="45%" stop-color="#CD7F32" />
+            <stop offset="100%" stop-color="#8B5E3C" />
+        </linearGradient>
+        <linearGradient id="bronze-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3D2B1F" />
+            <stop offset="100%" stop-color="#1A0F07" />
+        </linearGradient>
+        <linearGradient id="bronze-bolt" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#E8A96A" />
+            <stop offset="100%" stop-color="#CD7F32" />
+        </linearGradient>
+        <filter id="glow-b">
+            <feGaussianBlur stdDeviation="2" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#bronze-ring)" />
+    <circle cx="64" cy="64" r="56" fill="none" stroke="#B8733A" stroke-width="0.5" opacity="0.5" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#bronze-bg)" />
+    <circle cx="64" cy="64" r="50" fill="none" stroke="#CD7F32" stroke-width="0.3" opacity="0.3" />
+    <!-- Lightning bolt icon -->
+    <g filter="url(#glow-b)" transform="translate(64,58)">
+        <path d="M-4,-28 L8,-28 L2,-6 L14,-6 L-6,28 L0,4 L-12,4 Z" fill="url(#bronze-bolt)"
+            stroke="#8B5E3C" stroke-width="0.5" />
+    </g>
+    <!-- Subtle shine -->
+    <ellipse cx="48" cy="36" rx="20" ry="12" fill="white" opacity="0.06" />
+</svg>
