@@ -1,1 +1,109 @@
-[]
+[
+  {
+    "slug": "activity_milestone",
+    "name": "Activity Milestone",
+    "description": "Awarded for reaching activity count milestones",
+    "variants": {
+      "bronze": {
+        "description": "10+ activities",
+        "svg_url": "/assets/badges/activity_milestone_bronze.svg"
+      },
+      "silver": {
+        "description": "50+ activities",
+        "svg_url": "/assets/badges/activity_milestone_silver.svg"
+      },
+      "gold": {
+        "description": "100+ activities",
+        "svg_url": "/assets/badges/activity_milestone_gold.svg"
+      },
+      "platinum": {
+        "description": "500+ activities",
+        "svg_url": "/assets/badges/activity_milestone_platinum.svg"
+      }
+    }
+  },
+  {
+    "slug": "consistency_champion",
+    "name": "Consistency Champion",
+    "description": "Awarded for maintaining activity streaks",
+    "variants": {
+      "bronze": {
+        "description": "7 day streak",
+        "svg_url": "/assets/badges/consistency_champion_bronze.svg"
+      },
+      "silver": {
+        "description": "14 day streak",
+        "svg_url": "/assets/badges/consistency_champion_silver.svg"
+      },
+      "gold": {
+        "description": "30 day streak",
+        "svg_url": "/assets/badges/consistency_champion_gold.svg"
+      }
+    }
+  },
+  {
+    "slug": "points_milestone",
+    "name": "Points Milestone",
+    "description": "Awarded for reaching points milestones",
+    "variants": {
+      "bronze": {
+        "description": "100+ points",
+        "svg_url": "/assets/badges/points_milestone_bronze.svg"
+      },
+      "silver": {
+        "description": "500+ points",
+        "svg_url": "/assets/badges/points_milestone_silver.svg"
+      },
+      "gold": {
+        "description": "1,000+ points",
+        "svg_url": "/assets/badges/points_milestone_gold.svg"
+      }
+    }
+  },
+  {
+    "slug": "pr_consistency",
+    "name": "PR Consistency",
+    "description": "Awarded for maintaining a consistent pull request contribution streak",
+    "variants": {
+      "bronze": {
+        "description": "4 day PR streak",
+        "svg_url": "/assets/badges/pr_consistency_bronze.svg"
+      },
+      "silver": {
+        "description": "8 day PR streak",
+        "svg_url": "/assets/badges/pr_consistency_silver.svg"
+      },
+      "gold": {
+        "description": "16 day PR streak",
+        "svg_url": "/assets/badges/pr_consistency_gold.svg"
+      },
+      "platinum": {
+        "description": "32 day PR streak",
+        "svg_url": "/assets/badges/pr_consistency_platinum.svg"
+      }
+    }
+  },
+  {
+    "slug": "review_champion",
+    "name": "Review Champion",
+    "description": "Awarded for consistent code review participation",
+    "variants": {
+      "bronze": {
+        "description": "4 days of reviews",
+        "svg_url": "/assets/badges/review_champion_bronze.svg"
+      },
+      "silver": {
+        "description": "8 days of reviews",
+        "svg_url": "/assets/badges/review_champion_silver.svg"
+      },
+      "gold": {
+        "description": "16 days of reviews",
+        "svg_url": "/assets/badges/review_champion_gold.svg"
+      },
+      "platinum": {
+        "description": "32 days of reviews",
+        "svg_url": "/assets/badges/review_champion_platinum.svg"
+      }
+    }
+  }
+]
