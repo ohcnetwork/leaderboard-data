@@ -153,15 +153,15 @@ leaderboard:
       source: "file://${{ env.LEADERBOARD_DATA_DIR }}/plugins/github.js"
       config:
         githubOrg: ${{ env.GITHUB_ORG }}
-        # githubToken: ${{ env.GITHUB_TOKEN }}
-        githubTokens:
-          - ${{ env.GITHUB_TOKEN_1 }}
-          - ${{ env.GITHUB_TOKEN_2 }}
-          - ${{ env.GITHUB_TOKEN_3 }}
-          - ${{ env.GITHUB_TOKEN_4 }}
-          - ${{ env.GITHUB_TOKEN_6 }}
-          - ${{ env.GITHUB_TOKEN_7 }}
-          - ${{ env.GITHUB_TOKEN_8 }}
+        githubToken: ${{ env.GITHUB_TOKEN }}
+        # githubTokens:
+        #   - ${{ env.GITHUB_TOKEN_1 }}
+        #   - ${{ env.GITHUB_TOKEN_2 }}
+        #   - ${{ env.GITHUB_TOKEN_3 }}
+        #   - ${{ env.GITHUB_TOKEN_4 }}
+        #   - ${{ env.GITHUB_TOKEN_6 }}
+        #   - ${{ env.GITHUB_TOKEN_7 }}
+        #   - ${{ env.GITHUB_TOKEN_8 }}
         defaultRole: contributor
         blacklist:
           - invalid-email-address
