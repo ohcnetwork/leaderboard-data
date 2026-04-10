@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4945A" />
+      <stop offset="45%" stop-color="#CD7F32" />
+      <stop offset="100%" stop-color="#8B5E3C" />
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3D2B1F" />
+      <stop offset="100%" stop-color="#1A0F07" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0C080" />
+      <stop offset="100%" stop-color="#CD7F32" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="60" fill="url(#ring)" />
+  <circle cx="64" cy="64" r="52" fill="url(#bg)" />
+  <!-- PR icon: two circles connected by branching lines -->
+  <g filter="url(#glow)" transform="translate(64,64)">
+    <!-- Main vertical line -->
+    <line x1="0" y1="-28" x2="0" y2="28" stroke="url(#icon)" stroke-width="3" stroke-linecap="round" />
+    <!-- Branch line -->
+    <path d="M0,-28 C-16,-20 -16,-4 0,4" fill="none" stroke="url(#icon)" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Top circle (source) -->
+    <circle cx="0" cy="-28" r="5" fill="#1A0F07" stroke="url(#icon)" stroke-width="2.5" />
+    <!-- Branch circle -->
+    <circle cx="-16" cy="-12" r="4" fill="url(#icon)" />
+    <!-- Bottom circle (merge target) -->
+    <circle cx="0" cy="28" r="5" fill="#1A0F07" stroke="url(#icon)" stroke-width="2.5" />
+    <!-- Arrow in bottom circle -->
+    <path d="M-2,26 L0,30 L2,26" fill="none" stroke="url(#icon)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <ellipse cx="48" cy="36" rx="20" ry="12" fill="white" opacity="0.06" />
+</svg>

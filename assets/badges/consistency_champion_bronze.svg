@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="cb-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#D4945A" />
+            <stop offset="45%" stop-color="#CD7F32" />
+            <stop offset="100%" stop-color="#8B5E3C" />
+        </linearGradient>
+        <linearGradient id="cb-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3D2B1F" />
+            <stop offset="100%" stop-color="#1A0F07" />
+        </linearGradient>
+        <linearGradient id="cb-flame-outer" x1="0.5" y1="1" x2="0.5" y2="0">
+            <stop offset="0%" stop-color="#8B5E3C" />
+            <stop offset="40%" stop-color="#CD7F32" />
+            <stop offset="70%" stop-color="#E8A040" />
+            <stop offset="100%" stop-color="#F0C060" />
+        </linearGradient>
+        <linearGradient id="cb-flame-inner" x1="0.5" y1="1" x2="0.5" y2="0">
+            <stop offset="0%" stop-color="#CD7F32" />
+            <stop offset="50%" stop-color="#E8A96A" />
+            <stop offset="100%" stop-color="#F0D0A0" />
+        </linearGradient>
+        <filter id="flame-glow-b">
+            <feGaussianBlur stdDeviation="2.5" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#cb-ring)" />
+    <circle cx="64" cy="64" r="56" fill="none" stroke="#B8733A" stroke-width="0.5" opacity="0.5" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#cb-bg)" />
+    <!-- Small flame - 7 day streak -->
+    <g filter="url(#flame-glow-b)" transform="translate(64,62)">
+        <!-- Outer flame -->
+        <path
+            d="M0,-30 C8,-22 16,-10 16,2 C16,14 10,22 0,22 C-10,22 -16,14 -16,2 C-16,-10 -8,-22 0,-30 Z"
+            fill="url(#cb-flame-outer)" opacity="0.9" />
+        <!-- Inner flame -->
+        <path d="M0,-18 C5,-12 9,-4 9,4 C9,12 5,16 0,16 C-5,16 -9,12 -9,4 C-9,-4 -5,-12 0,-18 Z"
+            fill="url(#cb-flame-inner)" opacity="0.8" />
+        <!-- Core highlight -->
+        <ellipse cx="0" cy="6" rx="3" ry="6" fill="#F0D0A0" opacity="0.6" />
+    </g>
+    <ellipse cx="48" cy="36" rx="20" ry="12" fill="white" opacity="0.06" />
+</svg>

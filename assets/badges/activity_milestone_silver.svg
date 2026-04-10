@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <defs>
+        <linearGradient id="silver-ring" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#E8E8E8" />
+            <stop offset="40%" stop-color="#C0C0C0" />
+            <stop offset="70%" stop-color="#A8A8A8" />
+            <stop offset="100%" stop-color="#808080" />
+        </linearGradient>
+        <linearGradient id="silver-bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2A2A3A" />
+            <stop offset="100%" stop-color="#12121C" />
+        </linearGradient>
+        <linearGradient id="silver-bolt" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#F0F0F0" />
+            <stop offset="50%" stop-color="#C0C0C0" />
+            <stop offset="100%" stop-color="#909090" />
+        </linearGradient>
+        <filter id="glow-s">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <!-- Outer ring -->
+    <circle cx="64" cy="64" r="60" fill="url(#silver-ring)" />
+    <circle cx="64" cy="64" r="57" fill="none" stroke="#E0E0E0" stroke-width="0.5" opacity="0.4" />
+    <!-- Inner circle -->
+    <circle cx="64" cy="64" r="52" fill="url(#silver-bg)" />
+    <circle cx="64" cy="64" r="50" fill="none" stroke="#C0C0C0" stroke-width="0.3" opacity="0.3" />
+    <!-- Lightning bolt with spark effect -->
+    <g filter="url(#glow-s)" transform="translate(64,56)">
+        <path d="M-5,-28 L9,-28 L2,-6 L16,-6 L-8,30 L0,4 L-14,4 Z" fill="url(#silver-bolt)"
+            stroke="#808080" stroke-width="0.5" />
+        <!-- Spark particles -->
+        <circle cx="12" cy="-14" r="1.5" fill="#E8E8E8" opacity="0.8" />
+        <circle cx="-8" cy="10" r="1" fill="#D0D0D0" opacity="0.6" />
+    </g>
+    <!-- Subtle shine -->
+    <ellipse cx="48" cy="36" rx="22" ry="14" fill="white" opacity="0.08" />
+</svg>
