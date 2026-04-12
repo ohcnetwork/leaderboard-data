@@ -130,3 +130,22 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: r2 object put leaderboard-data/data.db --file data.db --content-type application/octet-stream
+
+  upload-db-d1:
+    name: Upload Database to Cloudflare D1
+    needs: scrape-data
+    runs-on: ubuntu-latest
+    environment: prod-db
+    steps:
+      - name: 📦 Download Database from GitHub Artifacts
+        uses: actions/download-artifact@v7
+        with:
+          name: data-${{ github.run_id }}.db
+          path: .
+
+      - name: 📦 Import Database to Cloudflare D1
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: d1 import ${{ vars.CLOUDFLARE_D1_DATABASE_NAME }} --file .leaderboard.db
