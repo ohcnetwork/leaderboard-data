@@ -5,14 +5,14 @@
     "description": "Number of contributors with activity in the last 30 days",
     "value": {
       "type": "number",
-      "value": 108,
+      "value": 106,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-04-19T12:18:41.693Z",
-      "period_start": "2026-03-20",
-      "period_end": "2026-04-19"
+      "calculated_at": "2026-04-20T00:45:00.204Z",
+      "period_start": "2026-03-21",
+      "period_end": "2026-04-20"
     }
   },
   {
@@ -21,13 +21,13 @@
     "description": "Total number of Commented activities",
     "value": {
       "type": "number",
-      "value": 43331,
+      "value": 43334,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "commented",
-      "calculated_at": "2026-04-19T12:18:43.304Z"
+      "calculated_at": "2026-04-20T00:45:01.678Z"
     }
   },
   {
@@ -42,7 +42,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "commited",
-      "calculated_at": "2026-04-19T12:18:43.305Z"
+      "calculated_at": "2026-04-20T00:45:01.679Z"
     }
   },
   {
@@ -57,7 +57,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "eod_update",
-      "calculated_at": "2026-04-19T12:18:43.306Z"
+      "calculated_at": "2026-04-20T00:45:01.680Z"
     }
   },
   {
@@ -72,7 +72,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_assigned",
-      "calculated_at": "2026-04-19T12:18:43.307Z"
+      "calculated_at": "2026-04-20T00:45:01.681Z"
     }
   },
   {
@@ -87,7 +87,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_closed",
-      "calculated_at": "2026-04-19T12:18:43.308Z"
+      "calculated_at": "2026-04-20T00:45:01.682Z"
     }
   },
   {
@@ -102,7 +102,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_opened",
-      "calculated_at": "2026-04-19T12:18:43.309Z"
+      "calculated_at": "2026-04-20T00:45:01.683Z"
     }
   },
   {
@@ -117,7 +117,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_collaborated",
-      "calculated_at": "2026-04-19T12:18:43.310Z"
+      "calculated_at": "2026-04-20T00:45:01.683Z"
     }
   },
   {
@@ -132,7 +132,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_merged",
-      "calculated_at": "2026-04-19T12:18:43.311Z"
+      "calculated_at": "2026-04-20T00:45:01.684Z"
     }
   },
   {
@@ -141,13 +141,13 @@
     "description": "Total number of PR Opened activities",
     "value": {
       "type": "number",
-      "value": 16847,
+      "value": 16848,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_opened",
-      "calculated_at": "2026-04-19T12:18:43.312Z"
+      "calculated_at": "2026-04-20T00:45:01.685Z"
     }
   },
   {
@@ -156,13 +156,13 @@
     "description": "Total number of PR Reviewed activities",
     "value": {
       "type": "number",
-      "value": 29772,
+      "value": 29773,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_reviewed",
-      "calculated_at": "2026-04-19T12:18:43.313Z"
+      "calculated_at": "2026-04-20T00:45:01.685Z"
     }
   },
   {
@@ -178,7 +178,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
+      "calculated_at": "2026-04-20T00:45:13.288Z",
       "pr_count": 10590
     }
   },
@@ -195,7 +195,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
+      "calculated_at": "2026-04-20T00:45:13.288Z",
       "pr_count": 141
     }
   },
@@ -212,7 +212,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
+      "calculated_at": "2026-04-20T00:45:13.288Z",
       "pr_count": 139
     }
   },
@@ -229,7 +229,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
+      "calculated_at": "2026-04-20T00:45:13.288Z",
       "pr_count": 41
     }
   },
@@ -239,15 +239,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 550526342.7533306,
+      "value": 551440718.1560857,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
-      "pr_count": 2477
+      "calculated_at": "2026-04-20T00:45:13.288Z",
+      "pr_count": 2473
     }
   },
   {
@@ -263,7 +263,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
+      "calculated_at": "2026-04-20T00:45:13.288Z",
       "pr_count": 6
     }
   },
@@ -273,15 +273,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 632577778.6821705,
+      "value": 632797777.4331136,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-04-19T12:18:57.593Z",
-      "pr_count": 2580
+      "calculated_at": "2026-04-20T00:45:13.288Z",
+      "pr_count": 2579
     }
   },
   {
@@ -290,12 +290,12 @@
     "description": "Total number of activities",
     "value": {
       "type": "number",
-      "value": 162397,
+      "value": 162402,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-04-19T12:18:41.655Z"
+      "calculated_at": "2026-04-20T00:45:00.177Z"
     }
   },
   {
@@ -309,7 +309,7 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-04-19T12:18:41.653Z"
+      "calculated_at": "2026-04-20T00:45:00.175Z"
     }
   }
 ]
