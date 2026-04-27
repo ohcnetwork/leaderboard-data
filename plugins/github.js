@@ -5000,12 +5000,6 @@ async function getRepositories({
     )) {
       logger.info(`Found ${response.data.length} repositories`);
       for (const repo of response.data) {
-        if (since && repo.updated_at && new Date(repo.updated_at) < new Date(since)) {
-          logger.debug(
-            `Skipping repository ${repo.name} as it is older than ${since}`
-          );
-          return repos;
-        }
         if (!repo.updated_at) {
           logger.warn(`Repository ${repo.name} has no updated_at`);
           continue;
@@ -5185,7 +5179,7 @@ async function getIssues({
     const query = `
       query($owner: String!, $repo: String!, $cursor: String) {
         repository(owner: $owner, name: $repo) {
-          issues(first: 50, orderBy: { field: UPDATED_AT, direction: DESC }, after: $cursor) {
+          issues(first: 50, states: [OPEN, CLOSED], orderBy: { field: UPDATED_AT, direction: DESC }, after: $cursor) {
             pageInfo {
               hasNextPage
               endCursor
@@ -5445,6 +5439,17 @@ function activitiesFromComments(comments, repo) {
   }
   return activities;
 }
+function resolveScrapeDays(config, logger) {
+  const rawValue = config.scrapeDays ?? process.env.SCRAPE_DAYS ?? 7;
+  const scrapeDays = Number(rawValue);
+  if (!Number.isFinite(scrapeDays) || scrapeDays < 0) {
+    logger.warn(
+      `Invalid SCRAPE_DAYS value "${rawValue}", defaulting to 7 days`
+    );
+    return 7;
+  }
+  return scrapeDays;
+}
 function activitiesFromPullRequests(pullRequests, repo) {
   const activities = [];
   for (const pullRequest of pullRequests) {
@@ -5548,7 +5553,7 @@ async function persistRepoActivities(db, activities, logger, defaultRole) {
   return saved;
 }
 async function getActivities({ db, config, logger }) {
-  const scrapeDays = 7;
+  const scrapeDays = resolveScrapeDays(config, logger);
   const pool2 = getOctokitPool(config, logger);
   const org = config.githubOrg;
   const dataDir2 = config.dataDir || void 0;
