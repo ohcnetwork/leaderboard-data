@@ -5,14 +5,14 @@
     "description": "Number of contributors with activity in the last 30 days",
     "value": {
       "type": "number",
-      "value": 69,
+      "value": 68,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-06-11T13:29:48.841Z",
-      "period_start": "2026-05-12",
-      "period_end": "2026-06-11"
+      "calculated_at": "2026-06-12T01:06:19.038Z",
+      "period_start": "2026-05-13",
+      "period_end": "2026-06-12"
     }
   },
   {
@@ -27,7 +27,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "commented",
-      "calculated_at": "2026-06-11T13:29:50.218Z"
+      "calculated_at": "2026-06-12T01:06:20.632Z"
     }
   },
   {
@@ -42,7 +42,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "commited",
-      "calculated_at": "2026-06-11T13:29:51.061Z"
+      "calculated_at": "2026-06-12T01:06:20.634Z"
     }
   },
   {
@@ -57,7 +57,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "eod_update",
-      "calculated_at": "2026-06-11T13:29:51.063Z"
+      "calculated_at": "2026-06-12T01:06:20.635Z"
     }
   },
   {
@@ -72,7 +72,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_assigned",
-      "calculated_at": "2026-06-11T13:29:51.064Z"
+      "calculated_at": "2026-06-12T01:06:20.636Z"
     }
   },
   {
@@ -87,7 +87,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_closed",
-      "calculated_at": "2026-06-11T13:29:51.065Z"
+      "calculated_at": "2026-06-12T01:06:20.637Z"
     }
   },
   {
@@ -102,7 +102,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_opened",
-      "calculated_at": "2026-06-11T13:29:51.066Z"
+      "calculated_at": "2026-06-12T01:06:20.638Z"
     }
   },
   {
@@ -117,7 +117,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_collaborated",
-      "calculated_at": "2026-06-11T13:29:51.066Z"
+      "calculated_at": "2026-06-12T01:06:20.639Z"
     }
   },
   {
@@ -132,7 +132,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_merged",
-      "calculated_at": "2026-06-11T13:29:51.067Z"
+      "calculated_at": "2026-06-12T01:06:20.639Z"
     }
   },
   {
@@ -147,7 +147,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_opened",
-      "calculated_at": "2026-06-11T13:29:51.068Z"
+      "calculated_at": "2026-06-12T01:06:20.640Z"
     }
   },
   {
@@ -162,7 +162,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_reviewed",
-      "calculated_at": "2026-06-11T13:29:51.069Z"
+      "calculated_at": "2026-06-12T01:06:20.641Z"
     }
   },
   {
@@ -178,7 +178,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
+      "calculated_at": "2026-06-12T01:06:33.784Z",
       "pr_count": 10828
     }
   },
@@ -195,7 +195,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
+      "calculated_at": "2026-06-12T01:06:33.784Z",
       "pr_count": 156
     }
   },
@@ -212,7 +212,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
+      "calculated_at": "2026-06-12T01:06:33.784Z",
       "pr_count": 88
     }
   },
@@ -222,15 +222,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 3660051543.859649,
+      "value": 3136275500,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
-      "pr_count": 57
+      "calculated_at": "2026-06-12T01:06:33.784Z",
+      "pr_count": 58
     }
   },
   {
@@ -246,7 +246,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
+      "calculated_at": "2026-06-12T01:06:33.784Z",
       "pr_count": 2510
     }
   },
@@ -256,15 +256,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 508815684.2105263,
+      "value": 688568071.4285715,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
-      "pr_count": 19
+      "calculated_at": "2026-06-12T01:06:33.784Z",
+      "pr_count": 14
     }
   },
   {
@@ -280,7 +280,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-06-11T13:30:11.076Z",
+      "calculated_at": "2026-06-12T01:06:33.784Z",
       "pr_count": 2485
     }
   },
@@ -295,7 +295,7 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-06-11T13:29:48.190Z"
+      "calculated_at": "2026-06-12T01:06:19.016Z"
     }
   },
   {
@@ -309,7 +309,7 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-06-11T13:29:48.034Z"
+      "calculated_at": "2026-06-12T01:06:19.013Z"
     }
   }
 ]
