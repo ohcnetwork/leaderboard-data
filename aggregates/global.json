@@ -5,14 +5,14 @@
     "description": "Number of contributors with activity in the last 30 days",
     "value": {
       "type": "number",
-      "value": 60,
+      "value": 59,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-08-01T12:26:52.935Z",
-      "period_start": "2026-07-02",
-      "period_end": "2026-08-01"
+      "calculated_at": "2026-08-02T00:44:12.660Z",
+      "period_start": "2026-07-03",
+      "period_end": "2026-08-02"
     }
   },
   {
@@ -21,13 +21,13 @@
     "description": "Total number of Commented activities",
     "value": {
       "type": "number",
-      "value": 45901,
+      "value": 45903,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "commented",
-      "calculated_at": "2026-08-01T12:26:54.632Z"
+      "calculated_at": "2026-08-02T00:44:14.373Z"
     }
   },
   {
@@ -36,13 +36,13 @@
     "description": "Total number of Commit Created activities",
     "value": {
       "type": "number",
-      "value": 34809,
+      "value": 34810,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "commited",
-      "calculated_at": "2026-08-01T12:26:54.633Z"
+      "calculated_at": "2026-08-02T00:44:14.374Z"
     }
   },
   {
@@ -57,7 +57,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "eod_update",
-      "calculated_at": "2026-08-01T12:26:54.634Z"
+      "calculated_at": "2026-08-02T00:44:14.376Z"
     }
   },
   {
@@ -72,7 +72,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_assigned",
-      "calculated_at": "2026-08-01T12:26:54.635Z"
+      "calculated_at": "2026-08-02T00:44:14.377Z"
     }
   },
   {
@@ -87,7 +87,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_closed",
-      "calculated_at": "2026-08-01T12:26:54.636Z"
+      "calculated_at": "2026-08-02T00:44:14.378Z"
     }
   },
   {
@@ -102,7 +102,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_opened",
-      "calculated_at": "2026-08-01T12:26:54.637Z"
+      "calculated_at": "2026-08-02T00:44:14.378Z"
     }
   },
   {
@@ -117,7 +117,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_collaborated",
-      "calculated_at": "2026-08-01T12:26:54.638Z"
+      "calculated_at": "2026-08-02T00:44:14.379Z"
     }
   },
   {
@@ -132,7 +132,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_merged",
-      "calculated_at": "2026-08-01T12:26:54.639Z"
+      "calculated_at": "2026-08-02T00:44:14.380Z"
     }
   },
   {
@@ -141,13 +141,13 @@
     "description": "Total number of PR Opened activities",
     "value": {
       "type": "number",
-      "value": 17456,
+      "value": 17458,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_opened",
-      "calculated_at": "2026-08-01T12:26:54.640Z"
+      "calculated_at": "2026-08-02T00:44:14.381Z"
     }
   },
   {
@@ -156,13 +156,13 @@
     "description": "Total number of PR Reviewed activities",
     "value": {
       "type": "number",
-      "value": 32514,
+      "value": 32515,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_reviewed",
-      "calculated_at": "2026-08-01T12:26:54.640Z"
+      "calculated_at": "2026-08-02T00:44:14.382Z"
     }
   },
   {
@@ -178,7 +178,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
+      "calculated_at": "2026-08-02T00:44:28.848Z",
       "pr_count": 10977
     }
   },
@@ -188,15 +188,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 936341977.2727273,
+      "value": 944614965.1162791,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
-      "pr_count": 88
+      "calculated_at": "2026-08-02T00:44:28.848Z",
+      "pr_count": 86
     }
   },
   {
@@ -205,15 +205,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 2431763918.918919,
+      "value": 2461189669.7247705,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
-      "pr_count": 111
+      "calculated_at": "2026-08-02T00:44:28.848Z",
+      "pr_count": 109
     }
   },
   {
@@ -229,7 +229,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
+      "calculated_at": "2026-08-02T00:44:28.848Z",
       "pr_count": 15
     }
   },
@@ -239,15 +239,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 514409853.40123683,
+      "value": 514259337.09090906,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
-      "pr_count": 2749
+      "calculated_at": "2026-08-02T00:44:28.848Z",
+      "pr_count": 2750
     }
   },
   {
@@ -263,7 +263,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
+      "calculated_at": "2026-08-02T00:44:28.848Z",
       "pr_count": 13
     }
   },
@@ -273,15 +273,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 837236200.7089056,
+      "value": 837562772.606383,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-01T12:27:08.096Z",
-      "pr_count": 2257
+      "calculated_at": "2026-08-02T00:44:28.848Z",
+      "pr_count": 2256
     }
   },
   {
@@ -290,12 +290,12 @@
     "description": "Total number of activities",
     "value": {
       "type": "number",
-      "value": 169691,
+      "value": 169697,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-08-01T12:26:52.906Z"
+      "calculated_at": "2026-08-02T00:44:12.630Z"
     }
   },
   {
@@ -309,7 +309,7 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-08-01T12:26:52.904Z"
+      "calculated_at": "2026-08-02T00:44:12.627Z"
     }
   }
 ]
