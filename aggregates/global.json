@@ -5,14 +5,14 @@
     "description": "Number of contributors with activity in the last 30 days",
     "value": {
       "type": "number",
-      "value": 60,
+      "value": 59,
       "format": "integer"
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-08-19T12:11:51.730Z",
-      "period_start": "2026-07-20",
-      "period_end": "2026-08-19"
+      "calculated_at": "2026-08-20T00:18:19.009Z",
+      "period_start": "2026-07-21",
+      "period_end": "2026-08-20"
     }
   },
   {
@@ -27,7 +27,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "commented",
-      "calculated_at": "2026-08-19T12:11:53.319Z"
+      "calculated_at": "2026-08-20T00:18:20.557Z"
     }
   },
   {
@@ -42,7 +42,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "commited",
-      "calculated_at": "2026-08-19T12:11:53.320Z"
+      "calculated_at": "2026-08-20T00:18:20.558Z"
     }
   },
   {
@@ -57,7 +57,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "eod_update",
-      "calculated_at": "2026-08-19T12:11:53.321Z"
+      "calculated_at": "2026-08-20T00:18:20.559Z"
     }
   },
   {
@@ -72,7 +72,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_assigned",
-      "calculated_at": "2026-08-19T12:11:53.322Z"
+      "calculated_at": "2026-08-20T00:18:20.560Z"
     }
   },
   {
@@ -87,7 +87,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_closed",
-      "calculated_at": "2026-08-19T12:11:53.323Z"
+      "calculated_at": "2026-08-20T00:18:20.560Z"
     }
   },
   {
@@ -102,7 +102,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "issue_opened",
-      "calculated_at": "2026-08-19T12:11:53.323Z"
+      "calculated_at": "2026-08-20T00:18:20.561Z"
     }
   },
   {
@@ -117,7 +117,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_collaborated",
-      "calculated_at": "2026-08-19T12:11:53.324Z"
+      "calculated_at": "2026-08-20T00:18:20.562Z"
     }
   },
   {
@@ -132,7 +132,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_merged",
-      "calculated_at": "2026-08-19T12:11:53.325Z"
+      "calculated_at": "2026-08-20T00:18:20.563Z"
     }
   },
   {
@@ -147,7 +147,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_opened",
-      "calculated_at": "2026-08-19T12:11:53.326Z"
+      "calculated_at": "2026-08-20T00:18:20.563Z"
     }
   },
   {
@@ -162,7 +162,7 @@
     "hidden": 0,
     "meta": {
       "activity_definition": "pr_reviewed",
-      "calculated_at": "2026-08-19T12:11:53.326Z"
+      "calculated_at": "2026-08-20T00:18:20.564Z"
     }
   },
   {
@@ -178,7 +178,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
+      "calculated_at": "2026-08-20T00:18:32.211Z",
       "pr_count": 11034
     }
   },
@@ -195,7 +195,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
+      "calculated_at": "2026-08-20T00:18:32.211Z",
       "pr_count": 89
     }
   },
@@ -212,7 +212,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
+      "calculated_at": "2026-08-20T00:18:32.211Z",
       "pr_count": 99
     }
   },
@@ -222,15 +222,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 925660205.882353,
+      "value": 601729466.6666666,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
-      "pr_count": 34
+      "calculated_at": "2026-08-20T00:18:32.211Z",
+      "pr_count": 30
     }
   },
   {
@@ -239,15 +239,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 534073997.12126666,
+      "value": 534122198.9189189,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
-      "pr_count": 2779
+      "calculated_at": "2026-08-20T00:18:32.211Z",
+      "pr_count": 2775
     }
   },
   {
@@ -263,7 +263,7 @@
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
+      "calculated_at": "2026-08-20T00:18:32.211Z",
       "pr_count": 21
     }
   },
@@ -273,15 +273,15 @@
     "description": null,
     "value": {
       "type": "number",
-      "value": 830739913.5913591,
+      "value": 830766942.7927928,
       "unit": "ms",
       "format": "duration"
     },
     "hidden": 0,
     "meta": {
       "source": "github_api",
-      "calculated_at": "2026-08-19T12:12:05.108Z",
-      "pr_count": 2222
+      "calculated_at": "2026-08-20T00:18:32.211Z",
+      "pr_count": 2220
     }
   },
   {
@@ -295,7 +295,7 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-08-19T12:11:51.708Z"
+      "calculated_at": "2026-08-20T00:18:18.987Z"
     }
   },
   {
@@ -309,7 +309,7 @@
     },
     "hidden": 0,
     "meta": {
-      "calculated_at": "2026-08-19T12:11:51.706Z"
+      "calculated_at": "2026-08-20T00:18:18.985Z"
     }
   }
 ]
