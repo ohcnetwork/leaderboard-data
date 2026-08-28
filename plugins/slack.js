@@ -99,6 +99,11 @@ function getSlackWebClient(config) {
 }
 
 // src/lib/scrape.ts
+function describeError(error, maxLength = 200) {
+  const raw = error instanceof Error ? error.message : String(error ?? "unknown error");
+  const collapsed = raw.replace(/\s+/g, " ").trim();
+  return collapsed.length > maxLength ? `${collapsed.slice(0, maxLength)}\u2026` : collapsed;
+}
 function generateTimestamp(date) {
   return (date.getTime() / 1e3).toString();
 }
@@ -113,30 +118,53 @@ async function getSlackMessages(ctx, since) {
   const { oldest, latest } = getDateRange(since);
   const slack = getSlackWebClient(ctx.config);
   const slackChannel = ctx.config.slackChannel;
-  ctx.logger.info(
+  const logger = ctx.logger;
+  logger.info(
     `Fetching Slack messages from ${slackChannel} between ${oldest.toISOString()} and ${latest.toISOString()}...`
   );
-  for await (const page of slack.paginate("conversations.history", {
-    channel: slackChannel,
-    oldest: generateTimestamp(oldest),
-    latest: generateTimestamp(latest),
-    limit: 100
-  })) {
-    const messages = page.messages.filter(
-      (msg) => msg.type === "message" && msg.user && msg.text && msg.text.trim().length > 5
-      // ignore very short messages
-    ).map((msg) => ({
-      id: parseInt((parseFloat(msg.ts) * 1e3).toString()),
-      // slack's ts is a float, so we multiply by 1000 to get the timestamp in milliseconds
-      user_id: msg.user,
-      text: toHTML(msg.text ?? ""),
-      timestamp: new Date(Number(msg.ts) * 1e3).toISOString()
-    }));
-    ctx.logger.info(`Writing ${messages.length} messages to database`);
-    for (const message of messages) {
-      await anonymousEodUpdateQueries.upsert(ctx.db, message);
+  let stored = 0;
+  let failed = 0;
+  try {
+    for await (const page of slack.paginate("conversations.history", {
+      channel: slackChannel,
+      oldest: generateTimestamp(oldest),
+      latest: generateTimestamp(latest),
+      limit: 100
+    })) {
+      const messages = page.messages.filter(
+        (msg) => msg.type === "message" && msg.user && msg.text && msg.text.trim().length > 5
+        // ignore very short messages
+      ).map((msg) => ({
+        id: parseInt((parseFloat(msg.ts) * 1e3).toString()),
+        // slack's ts is a float, so we multiply by 1000 to get the timestamp in milliseconds
+        user_id: msg.user,
+        text: toHTML(msg.text ?? ""),
+        timestamp: new Date(Number(msg.ts) * 1e3).toISOString()
+      }));
+      logger.info(`Writing ${messages.length} messages to database`);
+      for (const message of messages) {
+        try {
+          await anonymousEodUpdateQueries.upsert(ctx.db, message);
+          stored++;
+        } catch (error) {
+          failed++;
+          logger.debug(
+            `Failed to store Slack message ${message.id}: ${describeError(error)}`
+          );
+        }
+      }
     }
+  } catch (error) {
+    logger.error(
+      `Stopped fetching Slack messages after storing ${stored}`,
+      error,
+      { channel: slackChannel }
+    );
   }
+  if (failed > 0) {
+    logger.warn(`Failed to store ${failed} Slack messages`);
+  }
+  return { stored, failed };
 }
 async function ingestEodUpdates(ctx) {
   ctx.logger.info("Starting EOD updates ingestion...");
@@ -152,6 +180,7 @@ async function ingestEodUpdates(ctx) {
   const warnings = [];
   const allActivities = [];
   const processedMessageIds = [];
+  const activityMessageIds = /* @__PURE__ */ new Map();
   updates.forEach((userUpdates, user_id) => {
     const contributorUsername = contributorMap.get(user_id);
     if (!contributorUsername) {
@@ -186,8 +215,9 @@ async function ingestEodUpdates(ctx) {
       { texts: dayTexts, timestamp, ids }
     ] of messagesByDate.entries()) {
       const mergedText = dayTexts.join("\n\n");
+      const slug = `eod_update_${date}_${contributorUsername}`;
       allActivities.push({
-        slug: `eod_update_${date}_${contributorUsername}`,
+        slug,
         contributor: contributorUsername,
         activity_definition: "eod_update",
         title: "EOD Update",
@@ -197,6 +227,7 @@ async function ingestEodUpdates(ctx) {
         points: null,
         meta: null
       });
+      activityMessageIds.set(slug, ids);
       processedMessageIds.push(...ids);
       processedCount += ids.length;
     }
@@ -205,14 +236,41 @@ async function ingestEodUpdates(ctx) {
     );
   });
   if (allActivities.length > 0) {
+    let inserted = 0;
+    const failedSlugs = /* @__PURE__ */ new Set();
     for (const activity of allActivities) {
-      await activityQueries.upsert(ctx.db, activity);
+      try {
+        await activityQueries.upsert(ctx.db, activity);
+        inserted++;
+      } catch (error) {
+        failedSlugs.add(activity.slug);
+        ctx.logger.debug(
+          `Failed to upsert EOD activity ${activity.slug}: ${describeError(error)}`
+        );
+      }
     }
-    ctx.logger.info(`\u2713 Inserted ${allActivities.length} total EOD activities`);
+    ctx.logger.info(`\u2713 Inserted ${inserted} total EOD activities`);
+    if (failedSlugs.size > 0) {
+      ctx.logger.error(
+        `Failed to upsert ${failedSlugs.size} of ${allActivities.length} EOD activities`
+      );
+      for (const [slug, ids] of activityMessageIds) {
+        if (failedSlugs.has(slug)) {
+          for (const id of ids) {
+            const index = processedMessageIds.indexOf(id);
+            if (index !== -1) processedMessageIds.splice(index, 1);
+          }
+        }
+      }
+    }
   }
-  if (processedMessageIds.length > 0) {
-    for (const id of processedMessageIds) {
+  for (const id of processedMessageIds) {
+    try {
       await anonymousEodUpdateQueries.delete(ctx.db, id);
+    } catch (error) {
+      ctx.logger.debug(
+        `Failed to delete processed Slack message ${id}: ${describeError(error)}`
+      );
     }
   }
   ctx.logger.info("\n=== EOD Ingestion Summary ===");

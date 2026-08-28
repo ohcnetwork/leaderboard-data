@@ -1,126 +1,4 @@
-var __create = Object.create;
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __getProtoOf = Object.getPrototypeOf;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __commonJS = (cb, mod) => function __require() {
-  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
-  // If the importer is in node compatibility mode or this is not an ESM
-  // file that has been converted to a CommonJS file using a Babel-
-  // compatible transform (i.e. "__esModule" has not been set), then set
-  // "default" to the CommonJS "module.exports" for node compatibility.
-  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
-  mod
-));
-
-// node_modules/.pnpm/fast-content-type-parse@3.0.0/node_modules/fast-content-type-parse/index.js
-var require_fast_content_type_parse = __commonJS({
-  "node_modules/.pnpm/fast-content-type-parse@3.0.0/node_modules/fast-content-type-parse/index.js"(exports, module) {
-    "use strict";
-    var NullObject = function NullObject2() {
-    };
-    NullObject.prototype = /* @__PURE__ */ Object.create(null);
-    var paramRE = /; *([!#$%&'*+.^\w`|~-]+)=("(?:[\v\u0020\u0021\u0023-\u005b\u005d-\u007e\u0080-\u00ff]|\\[\v\u0020-\u00ff])*"|[!#$%&'*+.^\w`|~-]+) */gu;
-    var quotedPairRE = /\\([\v\u0020-\u00ff])/gu;
-    var mediaTypeRE = /^[!#$%&'*+.^\w|~-]+\/[!#$%&'*+.^\w|~-]+$/u;
-    var defaultContentType = { type: "", parameters: new NullObject() };
-    Object.freeze(defaultContentType.parameters);
-    Object.freeze(defaultContentType);
-    function parse2(header) {
-      if (typeof header !== "string") {
-        throw new TypeError("argument header is required and must be a string");
-      }
-      let index = header.indexOf(";");
-      const type = index !== -1 ? header.slice(0, index).trim() : header.trim();
-      if (mediaTypeRE.test(type) === false) {
-        throw new TypeError("invalid media type");
-      }
-      const result = {
-        type: type.toLowerCase(),
-        parameters: new NullObject()
-      };
-      if (index === -1) {
-        return result;
-      }
-      let key;
-      let match;
-      let value;
-      paramRE.lastIndex = index;
-      while (match = paramRE.exec(header)) {
-        if (match.index !== index) {
-          throw new TypeError("invalid parameter format");
-        }
-        index += match[0].length;
-        key = match[1].toLowerCase();
-        value = match[2];
-        if (value[0] === '"') {
-          value = value.slice(1, value.length - 1);
-          quotedPairRE.test(value) && (value = value.replace(quotedPairRE, "$1"));
-        }
-        result.parameters[key] = value;
-      }
-      if (index !== header.length) {
-        throw new TypeError("invalid parameter format");
-      }
-      return result;
-    }
-    function safeParse2(header) {
-      if (typeof header !== "string") {
-        return defaultContentType;
-      }
-      let index = header.indexOf(";");
-      const type = index !== -1 ? header.slice(0, index).trim() : header.trim();
-      if (mediaTypeRE.test(type) === false) {
-        return defaultContentType;
-      }
-      const result = {
-        type: type.toLowerCase(),
-        parameters: new NullObject()
-      };
-      if (index === -1) {
-        return result;
-      }
-      let key;
-      let match;
-      let value;
-      paramRE.lastIndex = index;
-      while (match = paramRE.exec(header)) {
-        if (match.index !== index) {
-          return defaultContentType;
-        }
-        index += match[0].length;
-        key = match[1].toLowerCase();
-        value = match[2];
-        if (value[0] === '"') {
-          value = value.slice(1, value.length - 1);
-          quotedPairRE.test(value) && (value = value.replace(quotedPairRE, "$1"));
-        }
-        result.parameters[key] = value;
-      }
-      if (index !== header.length) {
-        return defaultContentType;
-      }
-      return result;
-    }
-    module.exports.default = { parse: parse2, safeParse: safeParse2 };
-    module.exports.parse = parse2;
-    module.exports.safeParse = safeParse2;
-    module.exports.defaultContentType = defaultContentType;
-  }
-});
-
-// node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/constants.js
+// node_modules/.pnpm/date-fns@4.4.0/node_modules/date-fns/constants.js
 var daysInYear = 365.2425;
 var maxTime = Math.pow(10, 8) * 24 * 60 * 60 * 1e3;
 var minTime = -maxTime;
@@ -132,7 +10,7 @@ var secondsInMonth = secondsInYear / 12;
 var secondsInQuarter = secondsInMonth * 3;
 var constructFromSymbol = /* @__PURE__ */ Symbol.for("constructDateFrom");
 
-// node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/constructFrom.js
+// node_modules/.pnpm/date-fns@4.4.0/node_modules/date-fns/constructFrom.js
 function constructFrom(date, value) {
   if (typeof date === "function") return date(value);
   if (date && typeof date === "object" && constructFromSymbol in date)
@@ -141,12 +19,12 @@ function constructFrom(date, value) {
   return new Date(value);
 }
 
-// node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/toDate.js
+// node_modules/.pnpm/date-fns@4.4.0/node_modules/date-fns/toDate.js
 function toDate(argument, context) {
   return constructFrom(context || argument, argument);
 }
 
-// node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/addDays.js
+// node_modules/.pnpm/date-fns@4.4.0/node_modules/date-fns/addDays.js
 function addDays(date, amount, options) {
   const _date = toDate(date, options?.in);
   if (isNaN(amount)) return constructFrom(options?.in || date, NaN);
@@ -155,15 +33,13 @@ function addDays(date, amount, options) {
   return _date;
 }
 
-// node_modules/.pnpm/date-fns@4.1.0/node_modules/date-fns/subDays.js
+// node_modules/.pnpm/date-fns@4.4.0/node_modules/date-fns/subDays.js
 function subDays(date, amount, options) {
   return addDays(date, -amount, options);
 }
 
-// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.2.0/node_modules/@ohcnetwork/leaderboard-api/dist/client.js
+// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.4.0/node_modules/@ohcnetwork/leaderboard-api/dist/index.js
 import { createClient } from "@libsql/client";
-
-// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.2.0/node_modules/@ohcnetwork/leaderboard-api/dist/queries.js
 function parseContributor(row) {
   return {
     ...row,
@@ -176,46 +52,58 @@ var contributorQueries = {
    * Get all contributors
    */
   async getAll(db) {
-    const result = await db.execute("SELECT * FROM contributor ORDER BY username");
+    const result = await db.execute(
+      "SELECT * FROM contributor ORDER BY username"
+    );
     return result.rows.map(parseContributor);
   },
   /**
    * Get contributor by username
    */
   async getByUsername(db, username) {
-    const result = await db.execute("SELECT * FROM contributor WHERE username = ?", [username]);
+    const result = await db.execute(
+      "SELECT * FROM contributor WHERE username = ?",
+      [username]
+    );
     return result.rows[0] ? parseContributor(result.rows[0]) : null;
   },
   /**
    * Get contributors by role
    */
   async getByRole(db, role) {
-    const result = await db.execute("SELECT * FROM contributor WHERE role = ? ORDER BY username", [role]);
+    const result = await db.execute(
+      "SELECT * FROM contributor WHERE role = ? ORDER BY username",
+      [role]
+    );
     return result.rows.map(parseContributor);
   },
   /**
    * Insert or ignore contributor (used by plugins)
    */
   async insertOrIgnore(db, contributor) {
-    await db.execute(`INSERT OR IGNORE INTO contributor (
+    await db.execute(
+      `INSERT OR IGNORE INTO contributor (
         username, name, role, title, avatar_url, bio, social_profiles, joining_date, meta
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`, [
-      contributor.username,
-      contributor.name,
-      contributor.role,
-      contributor.title,
-      contributor.avatar_url,
-      contributor.bio,
-      contributor.social_profiles ? JSON.stringify(contributor.social_profiles) : null,
-      contributor.joining_date,
-      contributor.meta ? JSON.stringify(contributor.meta) : null
-    ]);
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      [
+        contributor.username,
+        contributor.name,
+        contributor.role,
+        contributor.title,
+        contributor.avatar_url,
+        contributor.bio,
+        contributor.social_profiles ? JSON.stringify(contributor.social_profiles) : null,
+        contributor.joining_date,
+        contributor.meta ? JSON.stringify(contributor.meta) : null
+      ]
+    );
   },
   /**
    * Insert or update contributor
    */
   async upsert(db, contributor) {
-    await db.execute(`INSERT INTO contributor (
+    await db.execute(
+      `INSERT INTO contributor (
         username, name, role, title, avatar_url, bio, social_profiles, joining_date, meta
       ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
       ON CONFLICT(username) DO UPDATE SET
@@ -226,17 +114,19 @@ var contributorQueries = {
         bio = excluded.bio,
         social_profiles = excluded.social_profiles,
         joining_date = excluded.joining_date,
-        meta = excluded.meta`, [
-      contributor.username,
-      contributor.name,
-      contributor.role,
-      contributor.title,
-      contributor.avatar_url,
-      contributor.bio,
-      contributor.social_profiles ? JSON.stringify(contributor.social_profiles) : null,
-      contributor.joining_date,
-      contributor.meta ? JSON.stringify(contributor.meta) : null
-    ]);
+        meta = excluded.meta`,
+      [
+        contributor.username,
+        contributor.name,
+        contributor.role,
+        contributor.title,
+        contributor.avatar_url,
+        contributor.bio,
+        contributor.social_profiles ? JSON.stringify(contributor.social_profiles) : null,
+        contributor.joining_date,
+        contributor.meta ? JSON.stringify(contributor.meta) : null
+      ]
+    );
   },
   /**
    * Delete contributor
@@ -248,14 +138,18 @@ var contributorQueries = {
    * Count total contributors
    */
   async count(db) {
-    const result = await db.execute("SELECT COUNT(*) as count FROM contributor");
+    const result = await db.execute(
+      "SELECT COUNT(*) as count FROM contributor"
+    );
     return result.rows[0].count;
   },
   /**
    * Get all contributor usernames (optimized - returns only usernames)
    */
   async getAllUsernames(db) {
-    const result = await db.execute("SELECT username FROM contributor ORDER BY username");
+    const result = await db.execute(
+      "SELECT username FROM contributor ORDER BY username"
+    );
     return result.rows.map((row) => row.username);
   },
   /**
@@ -373,33 +267,42 @@ var activityQueries = {
    * Get raw activities by contributor. No points coalescing.
    */
   async getRawByContributor(db, username) {
-    const result = await db.execute(`SELECT * FROM activity WHERE contributor = ?`, [username]);
+    const result = await db.execute(
+      `SELECT * FROM activity WHERE contributor = ?`,
+      [username]
+    );
     return result.rows.map(parseActivity);
   },
   /**
    * Get activities by date range
    */
   async getByDateRange(db, startDate, endDate) {
-    const result = await db.execute(`SELECT 
+    const result = await db.execute(
+      `SELECT 
         a.*,
         COALESCE(a.points, ad.points, 0) as points
       FROM activity a
       LEFT JOIN activity_definition ad ON a.activity_definition = ad.slug
       WHERE a.occurred_at >= ? AND a.occurred_at <= ?
-      ORDER BY a.occurred_at DESC`, [startDate, endDate]);
+      ORDER BY a.occurred_at DESC`,
+      [startDate, endDate]
+    );
     return result.rows.map(parseActivity);
   },
   /**
    * Get activities by definition
    */
   async getByDefinition(db, definitionSlug) {
-    const result = await db.execute(`SELECT 
+    const result = await db.execute(
+      `SELECT 
         a.*,
         COALESCE(a.points, ad.points, 0) as points
       FROM activity a
       LEFT JOIN activity_definition ad ON a.activity_definition = ad.slug
       WHERE a.activity_definition = ?
-      ORDER BY a.occurred_at DESC`, [definitionSlug]);
+      ORDER BY a.occurred_at DESC`,
+      [definitionSlug]
+    );
     return result.rows.map(parseActivity);
   },
   /**
@@ -411,13 +314,16 @@ var activityQueries = {
       return this.getAll(db);
     }
     const placeholders = activityDefinitionSlugs.map(() => "?").join(",");
-    const result = await db.execute(`SELECT 
+    const result = await db.execute(
+      `SELECT 
         a.*,
         COALESCE(a.points, ad.points, 0) as points
       FROM activity a
       LEFT JOIN activity_definition ad ON a.activity_definition = ad.slug
       WHERE a.activity_definition IN (${placeholders})
-      ORDER BY a.occurred_at ASC`, activityDefinitionSlugs);
+      ORDER BY a.occurred_at ASC`,
+      activityDefinitionSlugs
+    );
     return result.rows.map(parseActivity);
   },
   /**
@@ -429,49 +335,74 @@ var activityQueries = {
       return this.getByContributor(db, contributor);
     }
     const placeholders = activityDefinitionSlugs.map(() => "?").join(",");
-    const result = await db.execute(`SELECT 
+    const result = await db.execute(
+      `SELECT 
         a.*,
         COALESCE(a.points, ad.points, 0) as points
       FROM activity a
       LEFT JOIN activity_definition ad ON a.activity_definition = ad.slug
       WHERE a.contributor = ? 
         AND a.activity_definition IN (${placeholders})
-      ORDER BY a.occurred_at ASC`, [contributor, ...activityDefinitionSlugs]);
+      ORDER BY a.occurred_at ASC`,
+      [contributor, ...activityDefinitionSlugs]
+    );
     return result.rows.map(parseActivity);
+  },
+  /**
+   * Get the date of the Nth activity for a contributor (sorted by occurred_at ASC).
+   * Used to determine when a contributor crossed an activity count threshold.
+   * @param offset 0-based offset (e.g., offset=9 returns the 10th activity)
+   * @param activityDefinition Optional activity definition slug to filter by
+   */
+  async getDateAtOffset(db, contributor, offset, activityDefinition) {
+    const params = [contributor];
+    let whereClause = "WHERE a.contributor = ?";
+    if (activityDefinition) {
+      whereClause += " AND a.activity_definition = ?";
+      params.push(activityDefinition);
+    }
+    params.push(offset);
+    const result = await db.execute(
+      `SELECT a.occurred_at
+       FROM activity a
+       ${whereClause}
+       ORDER BY a.occurred_at ASC
+       LIMIT 1 OFFSET ?`,
+      params
+    );
+    if (result.rows.length === 0) return null;
+    const date = result.rows[0].occurred_at;
+    return date.split("T")[0];
+  },
+  /**
+   * Get the date when a contributor's cumulative points crossed a threshold.
+   * Activities are sorted by occurred_at ASC and points are summed progressively.
+   */
+  async getDateAtPointsThreshold(db, contributor, threshold) {
+    const result = await db.execute(
+      `SELECT occurred_at, COALESCE(a.points, ad.points, 0) as points
+       FROM activity a
+       LEFT JOIN activity_definition ad ON a.activity_definition = ad.slug
+       WHERE a.contributor = ?
+       ORDER BY a.occurred_at ASC`,
+      [contributor]
+    );
+    let cumulative = 0;
+    for (const row of result.rows) {
+      cumulative += row.points || 0;
+      if (cumulative >= threshold) {
+        const date = row.occurred_at;
+        return date.split("T")[0];
+      }
+    }
+    return null;
   },
   /**
    * Insert or update activity
    */
   async upsert(db, activity) {
-    await db.execute(`INSERT INTO activity (
-        slug, contributor, activity_definition, title, occurred_at, link, text, points, meta
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-      ON CONFLICT(slug) DO UPDATE SET
-        contributor = excluded.contributor,
-        activity_definition = excluded.activity_definition,
-        title = excluded.title,
-        occurred_at = excluded.occurred_at,
-        link = excluded.link,
-        text = excluded.text,
-        points = excluded.points,
-        meta = excluded.meta`, [
-      activity.slug,
-      activity.contributor,
-      activity.activity_definition,
-      activity.title,
-      activity.occurred_at,
-      activity.link,
-      activity.text,
-      activity.points,
-      activity.meta ? JSON.stringify(activity.meta) : null
-    ]);
-  },
-  /**
-   * Insert or update multiple activities
-   */
-  async upsertMany(db, activities) {
-    await db.batch(activities.map((activity) => ({
-      sql: `INSERT INTO activity (
+    await db.execute(
+      `INSERT INTO activity (
         slug, contributor, activity_definition, title, occurred_at, link, text, points, meta
       ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
       ON CONFLICT(slug) DO UPDATE SET
@@ -483,7 +414,7 @@ var activityQueries = {
         text = excluded.text,
         points = excluded.points,
         meta = excluded.meta`,
-      params: [
+      [
         activity.slug,
         activity.contributor,
         activity.activity_definition,
@@ -494,7 +425,39 @@ var activityQueries = {
         activity.points,
         activity.meta ? JSON.stringify(activity.meta) : null
       ]
-    })));
+    );
+  },
+  /**
+   * Insert or update multiple activities
+   */
+  async upsertMany(db, activities) {
+    await db.batch(
+      activities.map((activity) => ({
+        sql: `INSERT INTO activity (
+        slug, contributor, activity_definition, title, occurred_at, link, text, points, meta
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+      ON CONFLICT(slug) DO UPDATE SET
+        contributor = excluded.contributor,
+        activity_definition = excluded.activity_definition,
+        title = excluded.title,
+        occurred_at = excluded.occurred_at,
+        link = excluded.link,
+        text = excluded.text,
+        points = excluded.points,
+        meta = excluded.meta`,
+        params: [
+          activity.slug,
+          activity.contributor,
+          activity.activity_definition,
+          activity.title,
+          activity.occurred_at,
+          activity.link,
+          activity.text,
+          activity.points,
+          activity.meta ? JSON.stringify(activity.meta) : null
+        ]
+      }))
+    );
   },
   /**
    * Delete activity
@@ -513,10 +476,13 @@ var activityQueries = {
    * Get total points by contributor
    */
   async getTotalPointsByContributor(db, username) {
-    const result = await db.execute(`SELECT COALESCE(SUM(COALESCE(a.points, ad.points, 0)), 0) as total 
+    const result = await db.execute(
+      `SELECT COALESCE(SUM(COALESCE(a.points, ad.points, 0)), 0) as total 
        FROM activity a
        LEFT JOIN activity_definition ad ON a.activity_definition = ad.slug
-       WHERE a.contributor = ?`, [username]);
+       WHERE a.contributor = ?`,
+      [username]
+    );
     return result.rows[0].total;
   },
   /**
@@ -662,7 +628,9 @@ var globalAggregateQueries = {
    * Get all global aggregates
    */
   async getAll(db) {
-    const result = await db.execute("SELECT * FROM global_aggregate ORDER BY slug");
+    const result = await db.execute(
+      "SELECT * FROM global_aggregate ORDER BY slug"
+    );
     return result.rows.map((row) => ({
       ...row,
       value: JSON.parse(row.value),
@@ -673,9 +641,11 @@ var globalAggregateQueries = {
    * Get global aggregate by slug
    */
   async getBySlug(db, slug) {
-    const result = await db.execute("SELECT * FROM global_aggregate WHERE slug = ?", [slug]);
-    if (result.rows.length === 0)
-      return null;
+    const result = await db.execute(
+      "SELECT * FROM global_aggregate WHERE slug = ?",
+      [slug]
+    );
+    if (result.rows.length === 0) return null;
     const row = result.rows[0];
     return {
       ...row,
@@ -687,27 +657,32 @@ var globalAggregateQueries = {
    * Insert or update global aggregate
    */
   async upsert(db, aggregate) {
-    await db.execute(`INSERT INTO global_aggregate (slug, name, description, value, hidden, meta)
+    await db.execute(
+      `INSERT INTO global_aggregate (slug, name, description, value, hidden, meta)
        VALUES (?, ?, ?, ?, ?, ?)
        ON CONFLICT(slug) DO UPDATE SET
          name = excluded.name,
          description = excluded.description,
          value = excluded.value,
          hidden = excluded.hidden,
-         meta = excluded.meta`, [
-      aggregate.slug,
-      aggregate.name,
-      aggregate.description,
-      JSON.stringify(aggregate.value),
-      aggregate.hidden ?? false,
-      aggregate.meta ? JSON.stringify(aggregate.meta) : null
-    ]);
+         meta = excluded.meta`,
+      [
+        aggregate.slug,
+        aggregate.name,
+        aggregate.description,
+        JSON.stringify(aggregate.value),
+        aggregate.hidden ?? false,
+        aggregate.meta ? JSON.stringify(aggregate.meta) : null
+      ]
+    );
   },
   /**
    * Get all visible global aggregates (not hidden)
    */
   async getAllVisible(db) {
-    const result = await db.execute("SELECT * FROM global_aggregate WHERE hidden = FALSE OR hidden IS NULL ORDER BY slug");
+    const result = await db.execute(
+      "SELECT * FROM global_aggregate WHERE hidden = FALSE OR hidden IS NULL ORDER BY slug"
+    );
     return result.rows.map((row) => ({
       ...row,
       value: JSON.parse(row.value),
@@ -750,49 +725,62 @@ var contributorAggregateDefinitionQueries = {
    * Get all contributor aggregate definitions
    */
   async getAll(db) {
-    const result = await db.execute("SELECT * FROM contributor_aggregate_definition ORDER BY slug");
+    const result = await db.execute(
+      "SELECT * FROM contributor_aggregate_definition ORDER BY slug"
+    );
     return result.rows;
   },
   /**
    * Get contributor aggregate definition by slug
    */
   async getBySlug(db, slug) {
-    const result = await db.execute("SELECT * FROM contributor_aggregate_definition WHERE slug = ?", [slug]);
+    const result = await db.execute(
+      "SELECT * FROM contributor_aggregate_definition WHERE slug = ?",
+      [slug]
+    );
     return result.rows[0] || null;
   },
   /**
    * Insert or ignore contributor aggregate definition
    */
   async insertOrIgnore(db, definition) {
-    await db.execute(`INSERT OR IGNORE INTO contributor_aggregate_definition (slug, name, description, hidden)
-       VALUES (?, ?, ?, ?)`, [
-      definition.slug,
-      definition.name,
-      definition.description,
-      definition.hidden ?? false
-    ]);
+    await db.execute(
+      `INSERT OR IGNORE INTO contributor_aggregate_definition (slug, name, description, hidden)
+       VALUES (?, ?, ?, ?)`,
+      [
+        definition.slug,
+        definition.name,
+        definition.description,
+        definition.hidden ?? false
+      ]
+    );
   },
   /**
    * Insert or update contributor aggregate definition
    */
   async upsert(db, definition) {
-    await db.execute(`INSERT INTO contributor_aggregate_definition (slug, name, description, hidden)
+    await db.execute(
+      `INSERT INTO contributor_aggregate_definition (slug, name, description, hidden)
        VALUES (?, ?, ?, ?)
        ON CONFLICT(slug) DO UPDATE SET
          name = excluded.name,
          description = excluded.description,
-         hidden = excluded.hidden`, [
-      definition.slug,
-      definition.name,
-      definition.description,
-      definition.hidden ?? false
-    ]);
+         hidden = excluded.hidden`,
+      [
+        definition.slug,
+        definition.name,
+        definition.description,
+        definition.hidden ?? false
+      ]
+    );
   },
   /**
    * Get all visible contributor aggregate definitions (not hidden)
    */
   async getAllVisible(db) {
-    const result = await db.execute("SELECT * FROM contributor_aggregate_definition WHERE hidden = FALSE OR hidden IS NULL ORDER BY slug");
+    const result = await db.execute(
+      "SELECT * FROM contributor_aggregate_definition WHERE hidden = FALSE OR hidden IS NULL ORDER BY slug"
+    );
     return result.rows;
   }
 };
@@ -801,7 +789,9 @@ var contributorAggregateQueries = {
    * Get all contributor aggregates
    */
   async getAll(db) {
-    const result = await db.execute("SELECT * FROM contributor_aggregate ORDER BY contributor, aggregate");
+    const result = await db.execute(
+      "SELECT * FROM contributor_aggregate ORDER BY contributor, aggregate"
+    );
     return result.rows.map((row) => ({
       ...row,
       value: JSON.parse(row.value),
@@ -812,7 +802,10 @@ var contributorAggregateQueries = {
    * Get aggregates for a specific contributor
    */
   async getByContributor(db, username) {
-    const result = await db.execute("SELECT * FROM contributor_aggregate WHERE contributor = ? ORDER BY aggregate", [username]);
+    const result = await db.execute(
+      "SELECT * FROM contributor_aggregate WHERE contributor = ? ORDER BY aggregate",
+      [username]
+    );
     return result.rows.map((row) => ({
       ...row,
       value: JSON.parse(row.value),
@@ -823,9 +816,11 @@ var contributorAggregateQueries = {
    * Get a specific aggregate for a contributor
    */
   async getByContributorAndAggregate(db, username, aggregateSlug) {
-    const result = await db.execute("SELECT * FROM contributor_aggregate WHERE contributor = ? AND aggregate = ?", [username, aggregateSlug]);
-    if (result.rows.length === 0)
-      return null;
+    const result = await db.execute(
+      "SELECT * FROM contributor_aggregate WHERE contributor = ? AND aggregate = ?",
+      [username, aggregateSlug]
+    );
+    if (result.rows.length === 0) return null;
     const row = result.rows[0];
     return {
       ...row,
@@ -837,40 +832,52 @@ var contributorAggregateQueries = {
    * Insert or update contributor aggregate
    */
   async upsert(db, aggregate) {
-    await db.execute(`INSERT INTO contributor_aggregate (aggregate, contributor, value, meta)
+    await db.execute(
+      `INSERT INTO contributor_aggregate (aggregate, contributor, value, meta)
        VALUES (?, ?, ?, ?)
        ON CONFLICT(aggregate, contributor) DO UPDATE SET
          value = excluded.value,
-         meta = excluded.meta`, [
-      aggregate.aggregate,
-      aggregate.contributor,
-      JSON.stringify(aggregate.value),
-      aggregate.meta ? JSON.stringify(aggregate.meta) : null
-    ]);
+         meta = excluded.meta`,
+      [
+        aggregate.aggregate,
+        aggregate.contributor,
+        JSON.stringify(aggregate.value),
+        aggregate.meta ? JSON.stringify(aggregate.meta) : null
+      ]
+    );
   },
   /**
    * Delete contributor aggregate
    */
   async delete(db, username, aggregateSlug) {
-    await db.execute("DELETE FROM contributor_aggregate WHERE contributor = ? AND aggregate = ?", [username, aggregateSlug]);
+    await db.execute(
+      "DELETE FROM contributor_aggregate WHERE contributor = ? AND aggregate = ?",
+      [username, aggregateSlug]
+    );
   },
   /**
    * Delete all aggregates for a contributor
    */
   async deleteByContributor(db, username) {
-    await db.execute("DELETE FROM contributor_aggregate WHERE contributor = ?", [username]);
+    await db.execute(
+      "DELETE FROM contributor_aggregate WHERE contributor = ?",
+      [username]
+    );
   },
   /**
    * Get contributors where aggregate value meets threshold
    * Optimized for threshold-based badge rules
    */
   async getContributorsAboveThreshold(db, aggregateSlug, minValue) {
-    const result = await db.execute(`SELECT contributor, value
+    const result = await db.execute(
+      `SELECT contributor, value
        FROM contributor_aggregate
        WHERE aggregate = ? 
          AND json_extract(value, '$.value') >= ?
          AND json_extract(value, '$.type') = 'number'
-       ORDER BY json_extract(value, '$.value') DESC`, [aggregateSlug, minValue]);
+       ORDER BY json_extract(value, '$.value') DESC`,
+      [aggregateSlug, minValue]
+    );
     return result.rows.map((row) => ({
       contributor: row.contributor,
       value: JSON.parse(row.value).value
@@ -880,9 +887,12 @@ var contributorAggregateQueries = {
    * Get contributors with specific aggregate (for composite rules)
    */
   async getContributorsWithAggregate(db, aggregateSlug) {
-    const result = await db.execute(`SELECT contributor, value
+    const result = await db.execute(
+      `SELECT contributor, value
        FROM contributor_aggregate
-       WHERE aggregate = ?`, [aggregateSlug]);
+       WHERE aggregate = ?`,
+      [aggregateSlug]
+    );
     return result.rows.map((row) => ({
       contributor: row.contributor,
       value: JSON.parse(row.value)
@@ -919,29 +929,6 @@ var contributorAggregateQueries = {
     }));
   }
 };
-
-// node_modules/.pnpm/@ohcnetwork+leaderboard-api@0.2.0/node_modules/@ohcnetwork/leaderboard-api/dist/utils.js
-import { homedir } from "os";
-import path from "path";
-var getDataDir = (dataDir2) => {
-  const workspaceRoot = process.env.WORKSPACE_ROOT;
-  if (!workspaceRoot) {
-    throw new Error("'WORKSPACE_ROOT' is not set in the environment");
-  }
-  const raw = dataDir2 || process.env.LEADERBOARD_DATA_DIR;
-  if (!raw) {
-    return path.resolve(workspaceRoot, "./data");
-  }
-  let p = raw;
-  if (p.startsWith("~")) {
-    p = path.join(homedir(), p.slice(1));
-  }
-  if (path.isAbsolute(p)) {
-    return path.resolve(p);
-  }
-  return path.resolve(workspaceRoot, p);
-};
-var dataDir = getDataDir();
 
 // src/activity.ts
 function getDisabledSlugs(configOverrides) {
@@ -1095,7 +1082,7 @@ function Collection() {
 }
 var before_after_hook_default = { Singular, Collection };
 
-// node_modules/.pnpm/@octokit+endpoint@11.0.3/node_modules/@octokit/endpoint/dist-bundle/index.js
+// node_modules/.pnpm/@octokit+endpoint@11.0.4/node_modules/@octokit/endpoint/dist-bundle/index.js
 var VERSION = "0.0.0-development";
 var userAgent = `octokit-endpoint.js/${VERSION} ${getUserAgent()}`;
 var DEFAULTS = {
@@ -1408,49 +1395,324 @@ function withDefaults(oldDefaults, newDefaults) {
 }
 var endpoint = withDefaults(null, DEFAULTS);
 
-// node_modules/.pnpm/@octokit+request@10.0.8/node_modules/@octokit/request/dist-bundle/index.js
-var import_fast_content_type_parse = __toESM(require_fast_content_type_parse(), 1);
+// node_modules/.pnpm/content-type@3.0.0/node_modules/content-type/dist/index.js
+var NullObject = /* @__PURE__ */ (() => {
+  const C = function() {
+  };
+  C.prototype = /* @__PURE__ */ Object.create(null);
+  return C;
+})();
+function parse2(header, options) {
+  const stopChar = options?.comma === true ? COMMA : 65536;
+  const len = header.length;
+  let index = skipOWS(header, options?.start ?? 0, len);
+  const valueStart = index;
+  index = skipValue(header, index, len, stopChar);
+  const valueEnd = trailingOWS(header, valueStart, index);
+  const type = header.slice(valueStart, valueEnd).toLowerCase();
+  if (options?.parameters === false) {
+    return { type, index, parameters: new NullObject() };
+  }
+  return parseParameters(header, type, index, len, stopChar);
+}
+var SP = 32;
+var HTAB = 9;
+var SEMI = 59;
+var EQ = 61;
+var DQUOTE = 34;
+var BSLASH = 92;
+var COMMA = 44;
+function parseParameters(header, type, index, len, stopChar) {
+  const parameters = new NullObject();
+  parameter: while (index < len) {
+    if (header.charCodeAt(index) === stopChar)
+      break;
+    index = skipOWS(header, index + 1, len);
+    const keyStart = index;
+    while (index < len) {
+      const code = header.charCodeAt(index);
+      if (code === stopChar)
+        break parameter;
+      if (code === SEMI)
+        continue parameter;
+      if (code === EQ) {
+        const keyEnd = trailingOWS(header, keyStart, index);
+        const key = header.slice(keyStart, keyEnd).toLowerCase();
+        index = skipOWS(header, index + 1, len);
+        if (index < len && header.charCodeAt(index) === DQUOTE) {
+          index++;
+          let value = "";
+          while (index < len) {
+            const code2 = header.charCodeAt(index++);
+            if (code2 === DQUOTE) {
+              index = skipValue(header, index, len, stopChar);
+              if (parameters[key] === void 0)
+                parameters[key] = value;
+              break;
+            }
+            if (code2 === BSLASH && index < len) {
+              value += header[index++];
+              continue;
+            }
+            value += String.fromCharCode(code2);
+          }
+          continue parameter;
+        }
+        const valueStart = index;
+        index = skipValue(header, index, len, stopChar);
+        if (parameters[key] === void 0) {
+          const valueEnd = trailingOWS(header, valueStart, index);
+          parameters[key] = header.slice(valueStart, valueEnd);
+        }
+        continue parameter;
+      }
+      index++;
+    }
+  }
+  return { type, index, parameters };
+}
+function skipValue(str, index, len, stopChar) {
+  while (index < len) {
+    const code = str.charCodeAt(index);
+    if (code === SEMI || code === stopChar)
+      break;
+    index++;
+  }
+  return index;
+}
+function skipOWS(header, index, len) {
+  while (index < len) {
+    const char = header.charCodeAt(index);
+    if (char !== SP && char !== HTAB)
+      break;
+    index++;
+  }
+  return index;
+}
+function trailingOWS(header, start, end) {
+  while (end > start) {
+    const char = header.charCodeAt(end - 1);
+    if (char !== SP && char !== HTAB)
+      break;
+    end--;
+  }
+  return end;
+}
 
-// node_modules/.pnpm/json-with-bigint@3.5.8/node_modules/json-with-bigint/json-with-bigint.js
+// node_modules/.pnpm/json-with-bigint@3.5.12/node_modules/json-with-bigint/json-with-bigint.js
 var intRegex = /^-?\d+$/;
 var noiseValue = /^-?\d+n+$/;
 var originalStringify = JSON.stringify;
 var originalParse = JSON.parse;
 var customFormat = /^-?\d+n$/;
-var bigIntsStringify = /([\[:])?"(-?\d+)n"($|([\\n]|\s)*(\s|[\\n])*[,\}\]])/g;
-var noiseStringify = /([\[:])?("-?\d+n+)n("$|"([\\n]|\s)*(\s|[\\n])*[,\}\]])/g;
+var bigIntsStringify = /([\[:])?"(-?\d+)n"($|\s*[,\}\]])/g;
+var noiseStringify = /([\[:])?("-?\d+n+)n("$|"\s*[,\}\]])/g;
+var isUnstringifiable = (val) => val === void 0 || typeof val === "function" || typeof val === "symbol";
+var isRawJSON = (val) => val !== null && typeof val === "object" && val.constructor && val.constructor.name === "RawJSON";
+var stringifyIteratively = (rootValue, replacer, spaceParam) => {
+  let space = "";
+  if (typeof spaceParam === "number") {
+    space = " ".repeat(Math.min(10, Math.max(0, Math.floor(spaceParam))));
+  } else if (typeof spaceParam === "string") {
+    space = spaceParam.slice(0, 10);
+  }
+  const isFunctionReplacer = typeof replacer === "function";
+  const propertyList = Array.isArray(replacer) ? new Set(replacer.map(String)) : null;
+  const prepareVal = (parent, key, val) => {
+    const isObject2 = val !== null && typeof val === "object";
+    const hasToJSON = isObject2 && typeof val.toJSON === "function";
+    if (hasToJSON) {
+      val = val.toJSON(key);
+    }
+    const isNoise = typeof val === "string" && noiseValue.test(val);
+    if (isNoise) return val + "n";
+    const isBigInt = typeof val === "bigint";
+    if (isBigInt) {
+      const supportsRawJSON = "rawJSON" in JSON;
+      if (supportsRawJSON) return JSON.rawJSON(val.toString());
+      return val.toString() + "n";
+    }
+    if (isFunctionReplacer) {
+      val = replacer.call(parent, key, val);
+    }
+    const isPostReplacerObject = val !== null && typeof val === "object";
+    if (isPostReplacerObject) {
+      const isPrimitiveWrapper = val instanceof Number || val instanceof String || val instanceof Boolean;
+      if (isPrimitiveWrapper) {
+        val = val.valueOf();
+      }
+    }
+    return val;
+  };
+  const rootProcessed = prepareVal({ "": rootValue }, "", rootValue);
+  if (isUnstringifiable(rootProcessed)) {
+    return void 0;
+  }
+  const isRootPrimitive = rootProcessed === null || typeof rootProcessed !== "object";
+  const isRootNativeRawJSON = isRawJSON(rootProcessed);
+  if (isRootPrimitive || isRootNativeRawJSON) {
+    return originalStringify(rootProcessed);
+  }
+  const chunks = [];
+  let level = 0;
+  const stack = [
+    {
+      parent: { "": rootProcessed },
+      key: "",
+      val: rootProcessed,
+      isArray: Array.isArray(rootProcessed),
+      keys: Array.isArray(rootProcessed) ? null : Object.keys(rootProcessed),
+      index: 0,
+      first: true
+    }
+  ];
+  const visited = new WeakSet([rootProcessed]);
+  while (stack.length > 0) {
+    const node = stack[stack.length - 1];
+    if (node.index === 0) {
+      chunks.push(node.isArray ? "[" : "{");
+      level++;
+    }
+    let isDone = false;
+    if (node.isArray) {
+      if (node.index < node.val.length) {
+        if (!node.first) chunks.push(",");
+        if (space) chunks.push("\n" + space.repeat(level));
+        const childRaw = node.val[node.index];
+        const childVal = prepareVal(node.val, String(node.index), childRaw);
+        if (isUnstringifiable(childVal)) {
+          chunks.push("null");
+          node.first = false;
+          node.index++;
+        } else {
+          const isComplexObject = childVal !== null && typeof childVal === "object";
+          const isNativeRaw = isRawJSON(childVal);
+          if (isComplexObject && !isNativeRaw) {
+            if (visited.has(childVal)) {
+              throw new TypeError("Converting circular structure to JSON");
+            }
+            visited.add(childVal);
+            stack.push({
+              parent: node.val,
+              key: String(node.index),
+              val: childVal,
+              isArray: Array.isArray(childVal),
+              keys: Array.isArray(childVal) ? null : Object.keys(childVal),
+              index: 0,
+              first: true
+            });
+            node.first = false;
+            node.index++;
+          } else {
+            chunks.push(originalStringify(childVal));
+            node.first = false;
+            node.index++;
+          }
+        }
+      } else {
+        isDone = true;
+      }
+    } else {
+      while (node.index < node.keys.length) {
+        const k = node.keys[node.index++];
+        const isFilteredOutByArray = propertyList && !propertyList.has(k);
+        if (isFilteredOutByArray) continue;
+        const childRaw = node.val[k];
+        const childVal = prepareVal(node.val, k, childRaw);
+        if (isUnstringifiable(childVal)) continue;
+        if (!node.first) chunks.push(",");
+        if (space) {
+          chunks.push("\n" + space.repeat(level) + originalStringify(k) + ": ");
+        } else {
+          chunks.push(originalStringify(k) + ":");
+        }
+        const isComplexObject = childVal !== null && typeof childVal === "object";
+        const isNativeRaw = isRawJSON(childVal);
+        if (isComplexObject && !isNativeRaw) {
+          if (visited.has(childVal)) {
+            throw new TypeError("Converting circular structure to JSON");
+          }
+          visited.add(childVal);
+          stack.push({
+            parent: node.val,
+            key: k,
+            val: childVal,
+            isArray: Array.isArray(childVal),
+            keys: Array.isArray(childVal) ? null : Object.keys(childVal),
+            index: 0,
+            first: true
+          });
+          node.first = false;
+          break;
+        } else {
+          chunks.push(originalStringify(childVal));
+          node.first = false;
+        }
+      }
+      const isNodeFullyProcessed = node.index >= node.keys.length && stack[stack.length - 1] === node;
+      if (isNodeFullyProcessed) {
+        isDone = true;
+      }
+    }
+    if (isDone) {
+      level--;
+      if (!node.first && space) chunks.push("\n" + space.repeat(level));
+      chunks.push(node.isArray ? "]" : "}");
+      visited.delete(node.val);
+      stack.pop();
+    }
+  }
+  return chunks.join("");
+};
 var JSONStringify = (value, replacer, space) => {
-  if ("rawJSON" in JSON) {
-    return originalStringify(
+  try {
+    const supportsRawJSON = "rawJSON" in JSON;
+    if (supportsRawJSON) {
+      return originalStringify(
+        value,
+        (key, val) => {
+          if (typeof val === "bigint") return JSON.rawJSON(val.toString());
+          const hasFunctionReplacer = typeof replacer === "function";
+          if (hasFunctionReplacer) return replacer(key, val);
+          const isKeyInArrayReplacer = Array.isArray(replacer) && replacer.includes(key);
+          if (isKeyInArrayReplacer) return val;
+          return val;
+        },
+        space
+      );
+    }
+    if (!value) return originalStringify(value, replacer, space);
+    const convertedToCustomJSON = originalStringify(
       value,
-      (key, value2) => {
-        if (typeof value2 === "bigint") return JSON.rawJSON(value2.toString());
-        if (typeof replacer === "function") return replacer(key, value2);
-        if (Array.isArray(replacer) && replacer.includes(key)) return value2;
-        return value2;
+      (key, val) => {
+        const isNoise = typeof val === "string" && noiseValue.test(val);
+        if (isNoise) return val.toString() + "n";
+        if (typeof val === "bigint") return val.toString() + "n";
+        const hasFunctionReplacer = typeof replacer === "function";
+        if (hasFunctionReplacer) return replacer(key, val);
+        const isKeyInArrayReplacer = Array.isArray(replacer) && replacer.includes(key);
+        if (isKeyInArrayReplacer) return val;
+        return val;
       },
       space
     );
+    const processedJSON = convertedToCustomJSON.replace(
+      bigIntsStringify,
+      "$1$2$3"
+    );
+    const denoisedJSON = processedJSON.replace(noiseStringify, "$1$2$3");
+    return denoisedJSON;
+  } catch (error) {
+    if (error instanceof RangeError) {
+      const convertedJSON = stringifyIteratively(value, replacer, space);
+      if (convertedJSON === void 0) return void 0;
+      const supportsRawJSON = "rawJSON" in JSON;
+      if (supportsRawJSON) return convertedJSON;
+      const processedJSON = convertedJSON.replace(bigIntsStringify, "$1$2$3");
+      return processedJSON.replace(noiseStringify, "$1$2$3");
+    }
+    throw error;
   }
-  if (!value) return originalStringify(value, replacer, space);
-  const convertedToCustomJSON = originalStringify(
-    value,
-    (key, value2) => {
-      const isNoise = typeof value2 === "string" && noiseValue.test(value2);
-      if (isNoise) return value2.toString() + "n";
-      if (typeof value2 === "bigint") return value2.toString() + "n";
-      if (typeof replacer === "function") return replacer(key, value2);
-      if (Array.isArray(replacer) && replacer.includes(key)) return value2;
-      return value2;
-    },
-    space
-  );
-  const processedJSON = convertedToCustomJSON.replace(
-    bigIntsStringify,
-    "$1$2$3"
-  );
-  const denoisedJSON = processedJSON.replace(noiseStringify, "$1$2$3");
-  return denoisedJSON;
 };
 var featureCache = /* @__PURE__ */ new Map();
 var isContextSourceSupported = () => {
@@ -1475,46 +1737,104 @@ var convertMarkedBigIntsReviver = (key, value, context, userReviver) => {
   if (isCustomFormatBigInt) return BigInt(value.slice(0, -1));
   const isNoiseValue = typeof value === "string" && noiseValue.test(value);
   if (isNoiseValue) return value.slice(0, -1);
-  if (typeof userReviver !== "function") return value;
+  const hasUserReviver = typeof userReviver === "function";
+  if (!hasUserReviver) return value;
   return userReviver(key, value, context);
 };
 var JSONParseV2 = (text, reviver) => {
   return JSON.parse(text, (key, value, context) => {
-    const isBigNumber = typeof value === "number" && (value > Number.MAX_SAFE_INTEGER || value < Number.MIN_SAFE_INTEGER);
+    const isNumber = typeof value === "number";
+    const isOutOfBounds = value > Number.MAX_SAFE_INTEGER || value < Number.MIN_SAFE_INTEGER;
+    const isBigNumber = isNumber && isOutOfBounds;
     const isInt = context && intRegex.test(context.source);
     const isBigInt = isBigNumber && isInt;
     if (isBigInt) return BigInt(context.source);
-    if (typeof reviver !== "function") return value;
+    const hasCustomReviver = typeof reviver === "function";
+    if (!hasCustomReviver) return value;
     return reviver(key, value, context);
   });
 };
 var MAX_INT = Number.MAX_SAFE_INTEGER.toString();
 var MAX_DIGITS = MAX_INT.length;
-var stringsOrLargeNumbers = /"(?:\\.|[^"])*"|-?(0|[1-9][0-9]*)(\.[0-9]+)?([eE][+-]?[0-9]+)?/g;
+var stringsOrLargeNumbers = /"(?:[^"\\]|\\.)*"|-?(0|[1-9][0-9]*)(\.[0-9]+)?([eE][+-]?[0-9]+)?/g;
 var noiseValueWithQuotes = /^"-?\d+n+"$/;
-var JSONParse = (text, reviver) => {
-  if (!text) return originalParse(text, reviver);
-  if (isContextSourceSupported()) return JSONParseV2(text, reviver);
-  const serializedData = text.replace(
+var applyReviverIteratively = (parsed, userReviver) => {
+  const rootHolder = { "": parsed };
+  const stack = [{ parent: rootHolder, key: "", visited: false }];
+  while (stack.length > 0) {
+    const node = stack[stack.length - 1];
+    if (!node.visited) {
+      node.visited = true;
+      const value = node.parent[node.key];
+      const isComplexObject = value !== null && typeof value === "object";
+      if (isComplexObject) {
+        const keys = Object.keys(value);
+        for (let i = keys.length - 1; i >= 0; i--) {
+          stack.push({ parent: value, key: keys[i], visited: false });
+        }
+      }
+    } else {
+      const { parent, key } = node;
+      let value = parent[key];
+      if (typeof value === "string") {
+        const isCustomFormatBigInt = customFormat.test(value);
+        if (isCustomFormatBigInt) {
+          value = BigInt(value.slice(0, -1));
+        } else {
+          const isNoise = noiseValue.test(value);
+          if (isNoise) value = value.slice(0, -1);
+        }
+      }
+      const hasUserReviver = typeof userReviver === "function";
+      if (hasUserReviver) {
+        value = userReviver.call(parent, key, value);
+      }
+      const isDeleted = value === void 0;
+      if (isDeleted) {
+        delete parent[key];
+      } else {
+        parent[key] = value;
+      }
+      stack.pop();
+    }
+  }
+  return rootHolder[""];
+};
+var serializeBigInts = (text) => {
+  return text.replace(
     stringsOrLargeNumbers,
-    (text2, digits, fractional, exponential) => {
-      const isString = text2[0] === '"';
-      const isNoise = isString && noiseValueWithQuotes.test(text2);
-      if (isNoise) return text2.substring(0, text2.length - 1) + 'n"';
-      const isFractionalOrExponential = fractional || exponential;
+    (match, digits, fractional, exponential) => {
+      const isString = match[0] === '"';
+      const isNoise = isString && noiseValueWithQuotes.test(match);
+      if (isNoise) return match.substring(0, match.length - 1) + 'n"';
+      const hasFractionalOrExponential = fractional || exponential;
       const isLessThanMaxSafeInt = digits && (digits.length < MAX_DIGITS || digits.length === MAX_DIGITS && digits <= MAX_INT);
-      if (isString || isFractionalOrExponential || isLessThanMaxSafeInt)
-        return text2;
-      return '"' + text2 + 'n"';
+      const isStandardValue = isString || hasFractionalOrExponential || isLessThanMaxSafeInt;
+      if (isStandardValue) return match;
+      return '"' + match + 'n"';
     }
   );
-  return originalParse(
-    serializedData,
-    (key, value, context) => convertMarkedBigIntsReviver(key, value, context, reviver)
-  );
+};
+var JSONParse = (text, reviver) => {
+  if (!text) return originalParse(text, reviver);
+  try {
+    if (isContextSourceSupported()) return JSONParseV2(text, reviver);
+    const serializedData = serializeBigInts(text);
+    return originalParse(
+      serializedData,
+      (key, value, context) => convertMarkedBigIntsReviver(key, value, context, reviver)
+    );
+  } catch (error) {
+    if (error instanceof RangeError) {
+      const serializedData = serializeBigInts(text);
+      const parsed = originalParse(serializedData);
+      return applyReviverIteratively(parsed, reviver);
+    }
+    throw error;
+  }
 };
 
-// node_modules/.pnpm/@octokit+request-error@7.1.0/node_modules/@octokit/request-error/dist-src/index.js
+// node_modules/.pnpm/@octokit+request-error@7.1.1/node_modules/@octokit/request-error/dist-src/index.js
 var RequestError = class extends Error {
   name;
   /**
@@ -1553,8 +1873,8 @@ var RequestError = class extends Error {
   }
 };
 
-// node_modules/.pnpm/@octokit+request@10.0.8/node_modules/@octokit/request/dist-bundle/index.js
-var VERSION2 = "10.0.8";
+// node_modules/.pnpm/@octokit+request@10.0.15/node_modules/@octokit/request/dist-bundle/index.js
+var VERSION2 = "10.0.15";
 var defaults_default = {
   headers: {
     "user-agent": `octokit-request.js/${VERSION2} ${getUserAgent()}`
@@ -1672,7 +1992,7 @@ async function getResponseData(response) {
   if (!contentType) {
     return response.text().catch(noop);
   }
-  const mimetype = (0, import_fast_content_type_parse.safeParse)(contentType);
+  const mimetype = parse2(contentType);
   if (isJSONResponse(mimetype)) {
     let text = "";
     try {
@@ -1681,7 +2001,10 @@ async function getResponseData(response) {
     } catch (err) {
       return text;
     }
-  } else if (mimetype.type.startsWith("text/") || mimetype.parameters.charset?.toLowerCase() === "utf-8") {
+  } else if (mimetype.type.startsWith("text/") || // `application/octet-stream` is the canonical "arbitrary binary" type
+  // (RFC 2046) and must never be decoded as text, even when the response
+  // carries a (misleading) `charset=utf-8` parameter — see #751.
+  mimetype.parameters.charset?.toLowerCase() === "utf-8" && mimetype.type !== "application/octet-stream") {
     return response.text().catch(noop);
   } else {
     return response.arrayBuffer().catch(
@@ -1700,9 +2023,10 @@ function toErrorMessage(data) {
   if (data instanceof ArrayBuffer) {
     return "Unknown error";
   }
-  if ("message" in data) {
-    const suffix = "documentation_url" in data ? ` - ${data.documentation_url}` : "";
-    return Array.isArray(data.errors) ? `${data.message}: ${data.errors.map((v) => JSON.stringify(v)).join(", ")}${suffix}` : `${data.message}${suffix}`;
+  if (typeof data === "object" && data !== null && "message" in data) {
+    const objectData = data;
+    const suffix = "documentation_url" in objectData ? ` - ${objectData.documentation_url}` : "";
+    return Array.isArray(objectData.errors) ? `${objectData.message}: ${objectData.errors.map((v) => JSON.stringify(v)).join(", ")}${suffix}` : `${objectData.message}${suffix}`;
   }
   return `Unknown error: ${JSON.stringify(data)}`;
 }
@@ -1731,7 +2055,7 @@ function withDefaults2(oldEndpoint, newDefaults) {
 }
 var request = withDefaults2(endpoint, defaults_default);
 
-// node_modules/.pnpm/@octokit+graphql@9.0.3/node_modules/@octokit/graphql/dist-bundle/index.js
+// node_modules/.pnpm/@octokit+graphql@9.0.4/node_modules/@octokit/graphql/dist-bundle/index.js
 var VERSION3 = "0.0.0-development";
 function _buildMessageForResponseErrors(data) {
   return `Request failed due to following response errors:
@@ -1749,6 +2073,9 @@ var GraphqlResponseError = class extends Error {
       Error.captureStackTrace(this, this.constructor);
     }
   }
+  request;
+  headers;
+  response;
   name = "GraphqlResponseError";
   errors;
   data;
@@ -1883,10 +2210,10 @@ var createTokenAuth = function createTokenAuth2(token) {
   });
 };
 
-// node_modules/.pnpm/@octokit+core@7.0.6/node_modules/@octokit/core/dist-src/version.js
-var VERSION4 = "7.0.6";
+// node_modules/.pnpm/@octokit+core@7.0.7/node_modules/@octokit/core/dist-src/version.js
+var VERSION4 = "7.0.7";
 
-// node_modules/.pnpm/@octokit+core@7.0.6/node_modules/@octokit/core/dist-src/index.js
+// node_modules/.pnpm/@octokit+core@7.0.7/node_modules/@octokit/core/dist-src/index.js
 var noop2 = () => {
 };
 var consoleWarn = console.warn.bind(console);
@@ -2020,7 +2347,7 @@ var Octokit = class {
   auth;
 };
 
-// node_modules/.pnpm/@octokit+plugin-paginate-rest@14.0.0_@octokit+core@7.0.6/node_modules/@octokit/plugin-paginate-rest/dist-bundle/index.js
+// node_modules/.pnpm/@octokit+plugin-paginate-rest@14.0.0_@octokit+core@7.0.7/node_modules/@octokit/plugin-paginate-rest/dist-bundle/index.js
 var VERSION5 = "0.0.0-development";
 function normalizePaginatedListResponse(response) {
   if (!response.data) {
@@ -2136,8 +2463,8 @@ function paginateRest(octokit) {
 }
 paginateRest.VERSION = VERSION5;
 
-// node_modules/.pnpm/@octokit+plugin-paginate-graphql@6.0.0_@octokit+core@7.0.6/node_modules/@octokit/plugin-paginate-graphql/dist-bundle/index.js
-var generateMessage = (path2, cursorValue) => `The cursor at "${path2.join(
+// node_modules/.pnpm/@octokit+plugin-paginate-graphql@6.0.0_@octokit+core@7.0.7/node_modules/@octokit/plugin-paginate-graphql/dist-bundle/index.js
+var generateMessage = (path, cursorValue) => `The cursor at "${path.join(
   ","
 )}" did not change its value "${cursorValue}" after a page transition. Please make sure your that your query is set up correctly.`;
 var MissingCursorChange = class extends Error {
@@ -2178,9 +2505,9 @@ function findPaginatedResourcePath(responseData) {
   }
   return paginatedResourcePath;
 }
-var deepFindPathToProperty = (object, searchProp, path2 = []) => {
+var deepFindPathToProperty = (object, searchProp, path = []) => {
   for (const key of Object.keys(object)) {
-    const currentPath = [...path2, key];
+    const currentPath = [...path, key];
     const currentValue = object[key];
     if (isObject(currentValue)) {
       if (currentValue.hasOwnProperty(searchProp)) {
@@ -2198,12 +2525,12 @@ var deepFindPathToProperty = (object, searchProp, path2 = []) => {
   }
   return [];
 };
-var get = (object, path2) => {
-  return path2.reduce((current, nextProperty) => current[nextProperty], object);
+var get = (object, path) => {
+  return path.reduce((current, nextProperty) => current[nextProperty], object);
 };
-var set = (object, path2, mutator) => {
-  const lastProperty = path2[path2.length - 1];
-  const parentPath = [...path2].slice(0, -1);
+var set = (object, path, mutator) => {
+  const lastProperty = path[path.length - 1];
+  const parentPath = [...path].slice(0, -1);
   const parent = get(object, parentPath);
   if (typeof mutator === "function") {
     parent[lastProperty] = mutator(parent[lastProperty]);
@@ -2255,22 +2582,22 @@ var mergeResponses = (response1, response2) => {
   if (Object.keys(response1).length === 0) {
     return Object.assign(response1, response2);
   }
-  const path2 = findPaginatedResourcePath(response1);
-  const nodesPath = [...path2, "nodes"];
+  const path = findPaginatedResourcePath(response1);
+  const nodesPath = [...path, "nodes"];
   const newNodes = get(response2, nodesPath);
   if (newNodes) {
     set(response1, nodesPath, (values) => {
       return [...values, ...newNodes];
     });
   }
-  const edgesPath = [...path2, "edges"];
+  const edgesPath = [...path, "edges"];
   const newEdges = get(response2, edgesPath);
   if (newEdges) {
     set(response1, edgesPath, (values) => {
       return [...values, ...newEdges];
     });
   }
-  const pageInfoPath = [...path2, "pageInfo"];
+  const pageInfoPath = [...path, "pageInfo"];
   set(response1, pageInfoPath, get(response2, pageInfoPath));
   return response1;
 };
@@ -2297,10 +2624,10 @@ function paginateGraphQL(octokit) {
   };
 }
 
-// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.6/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/version.js
+// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.7/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/version.js
 var VERSION6 = "17.0.0";
 
-// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.6/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/generated/endpoints.js
+// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.7/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/generated/endpoints.js
 var Endpoints = {
   actions: {
     addCustomLabelsToSelfHostedRunnerForOrg: [
@@ -4592,7 +4919,7 @@ var Endpoints = {
 };
 var endpoints_default = Endpoints;
 
-// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.6/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/endpoints-to-methods.js
+// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.7/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/endpoints-to-methods.js
 var endpointMethodsMap = /* @__PURE__ */ new Map();
 for (const [scope, endpoints] of Object.entries(endpoints_default)) {
   for (const [methodName, endpoint2] of Object.entries(endpoints)) {
@@ -4715,7 +5042,7 @@ function decorate(octokit, scope, methodName, defaults, decorations) {
   return Object.assign(withDecorations, requestWithDefaults);
 }
 
-// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.6/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/index.js
+// node_modules/.pnpm/@octokit+plugin-rest-endpoint-methods@17.0.0_@octokit+core@7.0.7/node_modules/@octokit/plugin-rest-endpoint-methods/dist-src/index.js
 function restEndpointMethods(octokit) {
   const api = endpointsToMethods(octokit);
   return {
@@ -4795,6 +5122,12 @@ var OctokitPool = class {
     return earliest;
   }
 };
+var GitHubResponseShapeError = class extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "GitHubResponseShapeError";
+  }
+};
 function parseRetryAfter(error) {
   const err = error;
   const retryHeader = err.response?.headers?.["retry-after"];
@@ -4825,25 +5158,86 @@ function isRateLimitError(error) {
   }
   return false;
 }
-async function withTokenRotation(pool2, fn) {
+var TRANSIENT_STATUSES = /* @__PURE__ */ new Set([408, 500, 502, 503, 504, 520, 522, 524]);
+var TRANSIENT_MESSAGE_PATTERNS = [
+  "couldn't respond to your request in time",
+  "<!doctype html",
+  "timeout",
+  "timed out",
+  "socket hang up",
+  "econnreset",
+  "etimedout",
+  "econnrefused",
+  "eai_again",
+  "fetch failed",
+  "terminated",
+  "bad gateway",
+  "service unavailable",
+  "server error"
+];
+function isTransientError(error) {
+  if (error instanceof GitHubResponseShapeError) return true;
+  const err = error;
+  const status = err.status ?? err.response?.status;
+  if (status !== void 0 && TRANSIENT_STATUSES.has(status)) return true;
+  const message = (err.message ?? "").toLowerCase();
+  return TRANSIENT_MESSAGE_PATTERNS.some(
+    (pattern) => message.includes(pattern)
+  );
+}
+function isNodeLimitError(error) {
+  const message = error.message ?? "";
+  return message.includes("MAX_NODE_LIMIT_EXCEEDED") || message.includes("exceeds the maximum number of nodes");
+}
+function describeError(error, maxLength = 200) {
+  const raw = error instanceof Error ? error.message : String(error ?? "unknown error");
+  const collapsed = raw.replace(/\s+/g, " ").trim();
+  return collapsed.length > maxLength ? `${collapsed.slice(0, maxLength)}\u2026` : collapsed;
+}
+var DEFAULT_MAX_TRANSIENT_RETRIES = 4;
+var BASE_BACKOFF_MS = 1e3;
+var MAX_BACKOFF_MS = 3e4;
+function backoffDelay(attempt) {
+  const ceiling = Math.min(BASE_BACKOFF_MS * 2 ** attempt, MAX_BACKOFF_MS);
+  return ceiling / 2 + Math.random() * (ceiling / 2);
+}
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+async function withTokenRotation(pool2, fn, options = {}) {
+  const maxTransientRetries = options.maxTransientRetries ?? DEFAULT_MAX_TRANSIENT_RETRIES;
+  const label = options.label ? ` for ${options.label}` : "";
+  let transientAttempts = 0;
   while (true) {
     try {
       return await fn(pool2.current);
     } catch (error) {
-      if (!isRateLimitError(error)) throw error;
-      const retryAfterMs = parseRetryAfter(error);
-      pool2.markRateLimited(retryAfterMs);
-      if (pool2.rotate()) {
+      if (isRateLimitError(error)) {
+        const retryAfterMs = parseRetryAfter(error);
+        pool2.markRateLimited(retryAfterMs);
+        if (pool2.rotate()) {
+          continue;
+        }
+        const waitUntil = pool2.earliestAvailableAt();
+        const waitMs = waitUntil - Date.now();
+        if (waitMs > 0) {
+          pool2.logger.warn(
+            `All ${pool2.size} tokens rate-limited. Waiting ${Math.ceil(waitMs / 1e3)}s for next available token...`
+          );
+          await sleep(waitMs + 1e3);
+        }
         continue;
       }
-      const waitUntil = pool2.earliestAvailableAt();
-      const waitMs = waitUntil - Date.now();
-      if (waitMs > 0) {
+      if (isTransientError(error) && transientAttempts < maxTransientRetries) {
+        const delay = backoffDelay(transientAttempts);
+        transientAttempts++;
         pool2.logger.warn(
-          `All ${pool2.size} tokens rate-limited. Waiting ${Math.ceil(waitMs / 1e3)}s for next available token...`
+          `Transient GitHub error${label} (attempt ${transientAttempts}/${maxTransientRetries}), retrying in ${Math.ceil(delay / 1e3)}s: ${describeError(error)}`
         );
-        await new Promise((resolve) => setTimeout(resolve, waitMs + 1e3));
+        await sleep(delay);
+        continue;
       }
+      throw error;
     }
   }
 }
@@ -4913,37 +5307,44 @@ async function updateBotRoles(db, botUsernames, logger) {
 // src/get-activities.ts
 import { writeFile, readFile, mkdir } from "fs/promises";
 import { join, dirname } from "path";
-function getProgressFilePath(dataDir2) {
-  const base = dataDir2 || process.env.LEADERBOARD_DATA_DIR || "./data";
+function complete(items) {
+  return { items, partial: false };
+}
+function getProgressFilePath(dataDir) {
+  const base = dataDir || process.env.LEADERBOARD_DATA_DIR || "./data";
   return join(base, ".scrape-progress.json");
 }
-function getProgressMdPath(dataDir2) {
-  const base = dataDir2 || process.env.LEADERBOARD_DATA_DIR || "./data";
+function getProgressMdPath(dataDir) {
+  const base = dataDir || process.env.LEADERBOARD_DATA_DIR || "./data";
   return join(base, "scrape-status.md");
 }
-async function loadProgress(dataDir2) {
+async function loadProgress(dataDir) {
   try {
-    const raw = await readFile(getProgressFilePath(dataDir2), "utf-8");
+    const raw = await readFile(getProgressFilePath(dataDir), "utf-8");
     return JSON.parse(raw);
   } catch {
     return null;
   }
 }
-async function saveProgress(progress, dataDir2) {
+async function saveProgress(progress, dataDir) {
   progress.updatedAt = (/* @__PURE__ */ new Date()).toISOString();
-  const filePath = getProgressFilePath(dataDir2);
+  const filePath = getProgressFilePath(dataDir);
   await mkdir(dirname(filePath), { recursive: true });
   await writeFile(filePath, JSON.stringify(progress, null, 2), "utf-8");
-  await writeProgressMarkdown(progress, dataDir2);
+  await writeProgressMarkdown(progress, dataDir);
 }
-async function writeProgressMarkdown(progress, dataDir2) {
-  const completedRepos = Object.values(progress.repos).filter(
-    (r) => r.status === "completed"
-  );
-  const failedRepos = Object.values(progress.repos).filter(
-    (r) => r.status === "failed"
-  );
-  const pendingCount = progress.totalRepos - completedRepos.length - failedRepos.length;
+var STATUS_ICONS = {
+  completed: "\u2705",
+  partial: "\u26A0\uFE0F",
+  failed: "\u274C",
+  in_progress: "\u23F3"
+};
+async function writeProgressMarkdown(progress, dataDir) {
+  const countByStatus = (status) => Object.values(progress.repos).filter((r) => r.status === status).length;
+  const completedCount = countByStatus("completed");
+  const partialCount = countByStatus("partial");
+  const failedCount = countByStatus("failed");
+  const pendingCount = progress.totalRepos - completedCount - partialCount - failedCount;
   const lines = [
     `# Scrape Progress`,
     ``,
@@ -4956,8 +5357,9 @@ async function writeProgressMarkdown(progress, dataDir2) {
     `| Metric | Value |`,
     `|--------|-------|`,
     `| Total Repos | ${progress.totalRepos} |`,
-    `| Completed | ${completedRepos.length} |`,
-    `| Failed | ${failedRepos.length} |`,
+    `| Completed | ${completedCount} |`,
+    `| Partial | ${partialCount} |`,
+    `| Failed | ${failedCount} |`,
     `| Pending | ${pendingCount} |`,
     `| Total Activities | ${progress.totalActivities} |`,
     ``,
@@ -4970,17 +5372,37 @@ async function writeProgressMarkdown(progress, dataDir2) {
   let i = 1;
   for (const name of allRepoNames) {
     const r = progress.repos[name];
-    const icon = r.status === "completed" ? "\u2705" : r.status === "failed" ? "\u274C" : "\u23F3";
+    const icon = STATUS_ICONS[r.status] ?? "\u23F3";
     const err = r.error ? ` (${r.error})` : "";
     lines.push(
       `| ${i++} | ${r.repo} | ${icon} ${r.status}${err} | ${r.activitiesCount} | ${r.completedAt ?? "-"} |`
     );
   }
+  const degraded = allRepoNames.map((name) => progress.repos[name]).filter(
+    (r) => Object.values(r.sources ?? {}).some((s) => s.status !== "completed")
+  );
+  if (degraded.length > 0) {
+    lines.push(
+      ``,
+      `## Source Failures`,
+      ``,
+      `| Repository | Source | Status | Error |`,
+      `|------------|--------|--------|-------|`
+    );
+    for (const repo of degraded) {
+      for (const [source, state] of Object.entries(repo.sources ?? {})) {
+        if (state.status === "completed") continue;
+        lines.push(
+          `| ${repo.repo} | ${source} | ${STATUS_ICONS[state.status] ?? ""} ${state.status} | ${state.error ?? "-"} |`
+        );
+      }
+    }
+  }
   if (pendingCount > 0) {
     lines.push(``, `*${pendingCount} repositories not yet started.*`);
   }
   lines.push(``);
-  await writeFile(getProgressMdPath(dataDir2), lines.join("\n"), "utf-8");
+  await writeFile(getProgressMdPath(dataDir), lines.join("\n"), "utf-8");
 }
 async function getRepositories({
   pool: pool2,
@@ -5020,6 +5442,17 @@ async function getRepositories({
     return repos;
   });
 }
+function assertRepositoryPayload(response, repo, field) {
+  const repository = response?.repository;
+  if (repository == null || repository[field] == null) {
+    throw new GitHubResponseShapeError(
+      `GraphQL response for ${repo} did not include repository.${field}`
+    );
+  }
+}
+var PR_PAGE_SIZES = [50, 25, 10];
+var ISSUE_PAGE_SIZES = [50, 25, 10];
+var REST_PAGE_SIZE = 100;
 async function getPRsAndReviews({
   pool: pool2,
   org,
@@ -5031,13 +5464,14 @@ async function getPRsAndReviews({
   const pullRequests = [];
   let hasNextPage = true;
   let cursor = null;
+  let pageSizeIndex = 0;
   logger.info(`Fetching pull requests from ${repo}...`);
   while (hasNextPage) {
     const query = `
-      query($owner: String!, $repo: String!, $cursor: String) {
+      query($owner: String!, $repo: String!, $cursor: String, $pageSize: Int!, $reviewCount: Int!) {
         repository(owner: $owner, name: $repo) {
           pullRequests(
-            first: 100
+            first: $pageSize
             orderBy: { field: UPDATED_AT, direction: DESC }
             after: $cursor
           ) {
@@ -5060,7 +5494,7 @@ async function getPRsAndReviews({
                 __typename
                 login
               }
-              reviews(first: 100) {
+              reviews(first: $reviewCount) {
                 nodes {
                   id
                   author {
@@ -5085,19 +5519,44 @@ async function getPRsAndReviews({
         }
       }
     `;
-    const response = await withTokenRotation(
-      pool2,
-      (octokit) => octokit.graphql(query, {
-        owner: org,
-        repo,
-        cursor
-      })
-    );
+    const pageSize = PR_PAGE_SIZES[pageSizeIndex];
+    let response;
+    try {
+      const raw = await withTokenRotation(
+        pool2,
+        (octokit) => octokit.graphql(query, {
+          owner: org,
+          repo,
+          cursor,
+          pageSize,
+          reviewCount: pageSize
+        }),
+        { label: `pull requests of ${repo}` }
+      );
+      assertRepositoryPayload(raw, repo, "pullRequests");
+      response = raw;
+    } catch (error) {
+      if (pageSizeIndex < PR_PAGE_SIZES.length - 1) {
+        pageSizeIndex++;
+        logger.warn(
+          `Pull request query for ${repo} failed at page size ${pageSize}, retrying with ${PR_PAGE_SIZES[pageSizeIndex]}: ${describeError(error)}`
+        );
+        continue;
+      }
+      logger.warn(
+        `Giving up on pull requests for ${repo} after ${pullRequests.length} fetched${isNodeLimitError(error) ? " (query too large)" : ""}: ${describeError(error)}`
+      );
+      return {
+        items: pullRequests,
+        partial: true,
+        error: describeError(error)
+      };
+    }
     const prs = response.repository.pullRequests.nodes;
     logger.info(`Found ${prs.length} pull requests`);
     for (const pr of prs) {
       if (since && pr.updatedAt && new Date(pr.updatedAt) < new Date(since)) {
-        return pullRequests;
+        return complete(pullRequests);
       }
       if (!pr.updatedAt) continue;
       if (pr.author?.login && pr.author.__typename === "Bot") {
@@ -5135,7 +5594,7 @@ async function getPRsAndReviews({
     hasNextPage = response.repository.pullRequests.pageInfo.hasNextPage;
     cursor = response.repository.pullRequests.pageInfo.endCursor;
   }
-  return pullRequests;
+  return complete(pullRequests);
 }
 async function getComments({
   pool: pool2,
@@ -5146,28 +5605,53 @@ async function getComments({
   logger
 }) {
   logger.info(`Fetching comments from ${repo}...`);
-  const comments = await withTokenRotation(
-    pool2,
-    (octokit) => octokit.paginate(
-      "GET /repos/{owner}/{repo}/issues/comments",
-      { owner: org, repo, since, sort: "updated", direction: "desc" },
-      (response) => response.data.map((comment) => {
-        if (comment.user?.login && comment.user?.type === "Bot") {
-          botUsers.add(comment.user.login);
-        }
-        return {
-          id: comment.node_id,
-          issue_number: comment.issue_url.split("/").pop(),
-          body: comment.body,
-          created_at: comment.created_at,
-          author: comment.user?.login,
-          html_url: comment.html_url
-        };
-      })
-    )
-  );
+  const comments = [];
+  let page = 1;
+  while (true) {
+    let data;
+    try {
+      const response = await withTokenRotation(
+        pool2,
+        (octokit) => octokit.request("GET /repos/{owner}/{repo}/issues/comments", {
+          owner: org,
+          repo,
+          since,
+          sort: "updated",
+          direction: "desc",
+          per_page: REST_PAGE_SIZE,
+          page
+        }),
+        { label: `comments of ${repo} (page ${page})` }
+      );
+      data = response.data;
+    } catch (error) {
+      logger.warn(
+        `Giving up on comments for ${repo} after ${comments.length} fetched: ${describeError(error)}`
+      );
+      return {
+        items: comments,
+        partial: true,
+        error: describeError(error)
+      };
+    }
+    for (const comment of data) {
+      if (comment.user?.login && comment.user?.type === "Bot") {
+        botUsers.add(comment.user.login);
+      }
+      comments.push({
+        id: comment.node_id,
+        issue_number: comment.issue_url.split("/").pop(),
+        body: comment.body,
+        created_at: comment.created_at,
+        author: comment.user?.login,
+        html_url: comment.html_url
+      });
+    }
+    if (data.length < REST_PAGE_SIZE) break;
+    page++;
+  }
   logger.info(`Found ${comments.length} comments`);
-  return comments;
+  return complete(comments);
 }
 async function getIssues({
   pool: pool2,
@@ -5180,12 +5664,13 @@ async function getIssues({
   const issues = [];
   let hasNextPage = true;
   let cursor = null;
+  let pageSizeIndex = 0;
   logger.info(`Fetching issues from ${repo}...`);
   while (hasNextPage) {
     const query = `
-      query($owner: String!, $repo: String!, $cursor: String) {
+      query($owner: String!, $repo: String!, $cursor: String, $pageSize: Int!) {
         repository(owner: $owner, name: $repo) {
-          issues(first: 50, orderBy: { field: UPDATED_AT, direction: DESC }, after: $cursor) {
+          issues(first: $pageSize, orderBy: { field: UPDATED_AT, direction: DESC }, after: $cursor) {
             pageInfo {
               hasNextPage
               endCursor
@@ -5227,14 +5712,37 @@ async function getIssues({
         }
       }
     `;
-    const response = await withTokenRotation(
-      pool2,
-      (octokit) => octokit.graphql(query, { owner: org, repo, cursor })
-    );
+    const pageSize = ISSUE_PAGE_SIZES[pageSizeIndex];
+    let response;
+    try {
+      const raw = await withTokenRotation(
+        pool2,
+        (octokit) => octokit.graphql(query, { owner: org, repo, cursor, pageSize }),
+        { label: `issues of ${repo}` }
+      );
+      assertRepositoryPayload(raw, repo, "issues");
+      response = raw;
+    } catch (error) {
+      if (pageSizeIndex < ISSUE_PAGE_SIZES.length - 1) {
+        pageSizeIndex++;
+        logger.warn(
+          `Issue query for ${repo} failed at page size ${pageSize}, retrying with ${ISSUE_PAGE_SIZES[pageSizeIndex]}: ${describeError(error)}`
+        );
+        continue;
+      }
+      logger.warn(
+        `Giving up on issues for ${repo} after ${issues.length} fetched${isNodeLimitError(error) ? " (query too large)" : ""}: ${describeError(error)}`
+      );
+      return {
+        items: issues,
+        partial: true,
+        error: describeError(error)
+      };
+    }
     const allIssues = response.repository.issues.nodes;
     for (const issue of allIssues) {
       if (since && new Date(issue.updatedAt) < new Date(since)) {
-        return issues;
+        return complete(issues);
       }
       if (issue.author?.login && issue.author.__typename === "Bot") {
         botUsers.add(issue.author.login);
@@ -5271,7 +5779,7 @@ async function getIssues({
     hasNextPage = response.repository.issues.pageInfo.hasNextPage;
     cursor = response.repository.issues.pageInfo.endCursor;
   }
-  return issues;
+  return complete(issues);
 }
 async function getCommitsFromPushEvents({
   pool: pool2,
@@ -5281,63 +5789,75 @@ async function getCommitsFromPushEvents({
   botUsers,
   logger
 }) {
-  return withTokenRotation(pool2, async (octokit) => {
-    const commits = [];
-    for await (const response of octokit.paginate.iterator(
-      "GET /repos/{owner}/{repo}/events",
-      {
-        owner: org,
-        repo,
-        per_page: 100
+  const commits = [];
+  let page = 1;
+  while (true) {
+    let events;
+    try {
+      const response = await withTokenRotation(
+        pool2,
+        (octokit) => octokit.request("GET /repos/{owner}/{repo}/events", {
+          owner: org,
+          repo,
+          per_page: REST_PAGE_SIZE,
+          page
+        }),
+        { label: `events of ${repo} (page ${page})` }
+      );
+      events = response.data;
+    } catch (error) {
+      logger.warn(
+        `Giving up on push events for ${repo} after ${commits.length} commits: ${describeError(error)}`
+      );
+      return { items: commits, partial: true, error: describeError(error) };
+    }
+    for (const event of events) {
+      if (since && event.created_at && new Date(event.created_at) < new Date(since)) {
+        return complete(commits);
       }
-    )) {
-      for (const event of response.data) {
-        if (since && event.created_at && new Date(event.created_at) < new Date(since)) {
-          return commits;
-        }
-        if (event.type !== "PushEvent") {
-          continue;
-        }
-        const payload = event.payload;
-        if (!payload.head || !payload.before || !payload.ref) {
-          continue;
-        }
-        const branchName = payload.ref.replace("refs/heads/", "");
-        try {
-          const compareResponse = await withTokenRotation(
-            pool2,
-            (oct) => oct.request("GET /repos/{owner}/{repo}/compare/{basehead}", {
-              owner: org,
-              repo,
-              basehead: `${payload.before}...${payload.head}`
-            })
-          );
-          for (const commit of compareResponse.data.commits) {
-            if (commit.author?.login && commit.author?.type === "Bot") {
-              botUsers.add(commit.author.login);
-            }
-            commits.push({
-              commitId: commit.sha,
-              branchName,
-              commitMessage: commit.commit.message?.split("\n")[0] ?? "",
-              committedDate: commit.commit.committer?.date ?? null,
-              author: commit.author?.login ?? null,
-              url: commit.html_url,
-              stats: commit.stats ?? null
-            });
+      if (event.type !== "PushEvent") {
+        continue;
+      }
+      const payload = event.payload;
+      if (!payload.head || !payload.before || !payload.ref) {
+        continue;
+      }
+      const branchName = payload.ref.replace("refs/heads/", "");
+      try {
+        const compareResponse = await withTokenRotation(
+          pool2,
+          (oct) => oct.request("GET /repos/{owner}/{repo}/compare/{basehead}", {
+            owner: org,
+            repo,
+            basehead: `${payload.before}...${payload.head}`
+          }),
+          { label: `compare ${payload.before}...${payload.head} in ${repo}` }
+        );
+        for (const commit of compareResponse.data.commits) {
+          if (commit.author?.login && commit.author?.type === "Bot") {
+            botUsers.add(commit.author.login);
           }
-        } catch (error) {
-          if (isRateLimitError(error)) throw error;
-          logger.error(
-            `Failed to compare ${payload.before}...${payload.head} in ${repo}:`,
-            error
-          );
-          continue;
+          commits.push({
+            commitId: commit.sha,
+            branchName,
+            commitMessage: commit.commit.message?.split("\n")[0] ?? "",
+            committedDate: commit.commit.committer?.date ?? null,
+            author: commit.author?.login ?? null,
+            url: commit.html_url,
+            stats: commit.stats ?? null
+          });
         }
+      } catch (error) {
+        logger.warn(
+          `Failed to compare ${payload.before}...${payload.head} in ${repo}: ${describeError(error)}`
+        );
+        continue;
       }
     }
-    return commits;
-  });
+    if (events.length < REST_PAGE_SIZE) break;
+    page++;
+  }
+  return complete(commits);
 }
 async function getBranchCommits({
   pool: pool2,
@@ -5347,27 +5867,46 @@ async function getBranchCommits({
   logger,
   since
 }) {
-  return withTokenRotation(
-    pool2,
-    (octokit) => octokit.paginate(
-      "GET /repos/{owner}/{repo}/commits",
-      { owner: org, repo, sha: branch, since },
-      (response) => {
-        logger.debug(
-          `Found ${response.data.length} commits on branch ${branch}`
-        );
-        return response.data.map((commit) => ({
-          commitId: commit.sha,
-          branchName: branch,
-          commitMessage: commit.commit.message,
-          committedDate: commit.commit.committer?.date ?? null,
-          author: commit.author?.login ?? null,
-          url: commit.html_url,
-          stats: commit.stats ?? null
-        }));
-      }
-    )
-  );
+  const commits = [];
+  let page = 1;
+  while (true) {
+    let data;
+    try {
+      const response = await withTokenRotation(
+        pool2,
+        (octokit) => octokit.request("GET /repos/{owner}/{repo}/commits", {
+          owner: org,
+          repo,
+          sha: branch,
+          since,
+          per_page: REST_PAGE_SIZE,
+          page
+        }),
+        { label: `commits on ${branch} of ${repo} (page ${page})` }
+      );
+      data = response.data;
+    } catch (error) {
+      logger.warn(
+        `Giving up on branch commits for ${repo} after ${commits.length} fetched: ${describeError(error)}`
+      );
+      return { items: commits, partial: true, error: describeError(error) };
+    }
+    logger.debug(`Found ${data.length} commits on branch ${branch}`);
+    for (const commit of data) {
+      commits.push({
+        commitId: commit.sha,
+        branchName: branch,
+        commitMessage: commit.commit.message,
+        committedDate: commit.commit.committer?.date ?? null,
+        author: commit.author?.login ?? null,
+        url: commit.html_url,
+        stats: commit.stats ?? null
+      });
+    }
+    if (data.length < REST_PAGE_SIZE) break;
+    page++;
+  }
+  return complete(commits);
 }
 function activitiesFromIssues(issues, repo) {
   const activities = [];
@@ -5534,16 +6073,25 @@ async function persistRepoActivities(db, activities, logger, defaultRole) {
   const contributorUsernames = activities.map((a) => a.contributor);
   await addNewContributors(db, contributorUsernames, defaultRole);
   let saved = 0;
+  let failed = 0;
+  let firstError;
   for (const activity of activities) {
     try {
       await activityQueries.upsert(db, activity);
       saved++;
     } catch (error) {
-      logger.error(
-        `Failed to upsert activity: ${activity.slug}`,
-        error
+      failed++;
+      firstError ??= error;
+      logger.debug(
+        `Failed to upsert activity ${activity.slug}: ${describeError(error)}`
       );
     }
+  }
+  if (failed > 0) {
+    logger.error(
+      `Failed to upsert ${failed} of ${activities.length} activities`,
+      firstError
+    );
   }
   return saved;
 }
@@ -5551,7 +6099,7 @@ async function getActivities({ db, config, logger }) {
   const scrapeDays = 7;
   const pool2 = getOctokitPool(config, logger);
   const org = config.githubOrg;
-  const dataDir2 = config.dataDir || void 0;
+  const dataDir = config.dataDir || void 0;
   const since = scrapeDays ? subDays(/* @__PURE__ */ new Date(), scrapeDays).toISOString() : void 0;
   const activityDefConfig = config.activityDefinition;
   const disabledSlugs = getDisabledSlugs(activityDefConfig);
@@ -5576,18 +6124,28 @@ async function getActivities({ db, config, logger }) {
     logger
   });
   logger.info(`Found ${repositories.length} repositories to scrape`);
-  const existingProgress = await loadProgress(dataDir2);
+  const existingProgress = await loadProgress(dataDir);
   const progress = {
     org,
     startedAt: existingProgress?.startedAt ?? (/* @__PURE__ */ new Date()).toISOString(),
     updatedAt: (/* @__PURE__ */ new Date()).toISOString(),
     totalRepos: repositories.length,
     completedRepos: existingProgress?.completedRepos ?? 0,
+    partialRepos: existingProgress?.partialRepos ?? 0,
     failedRepos: existingProgress?.failedRepos ?? 0,
     totalActivities: existingProgress?.totalActivities ?? 0,
     repos: existingProgress?.repos ?? {}
   };
+  const recountStatuses = () => {
+    const values = Object.values(progress.repos);
+    progress.completedRepos = values.filter(
+      (r) => r.status === "completed"
+    ).length;
+    progress.partialRepos = values.filter((r) => r.status === "partial").length;
+    progress.failedRepos = values.filter((r) => r.status === "failed").length;
+  };
   const skippedRepos = [];
+  let processedRepos = 0;
   for (const { name: repository, defaultBranch } of repositories) {
     const existing = progress.repos[repository];
     if (existing?.status === "completed") {
@@ -5599,39 +6157,78 @@ async function getActivities({ db, config, logger }) {
       status: "in_progress",
       activitiesCount: 0
     };
-    await saveProgress(progress, dataDir2);
+    await saveProgress(progress, dataDir);
     logger.info(
-      `[${Object.values(progress.repos).filter((r) => r.status === "completed").length + 1}/${repositories.length}] Scraping ${repository}...`
+      `[${++processedRepos}/${repositories.length - skippedRepos.length}] Scraping ${repository}...`
+    );
+    const opts = {
+      pool: pool2,
+      org,
+      repo: repository,
+      since,
+      botUsers,
+      logger,
+      branch: defaultBranch
+    };
+    const commitOpts = {
+      defaultBranch,
+      pointsOnDefaultBranch,
+      pointsOnNonDefaultBranch
+    };
+    const sources = {};
+    const collect = async (name, fetch, toActivities) => {
+      try {
+        const result = await fetch();
+        sources[name] = result.partial ? { status: "partial", error: result.error } : { status: "completed" };
+        return toActivities(result.items);
+      } catch (error) {
+        sources[name] = { status: "failed", error: describeError(error) };
+        logger.error(
+          `Source '${name}' failed for ${repository}`,
+          error,
+          { repo: repository, source: name }
+        );
+        return [];
+      }
+    };
+    const collected = await Promise.all([
+      collect(
+        "issues",
+        () => getIssues(opts),
+        (items) => activitiesFromIssues(items, repository)
+      ),
+      collect(
+        "comments",
+        () => getComments(opts),
+        (items) => activitiesFromComments(items, repository)
+      ),
+      collect(
+        "pull_requests",
+        () => getPRsAndReviews(opts),
+        (items) => activitiesFromPullRequests(items, repository)
+      ),
+      collect(
+        "branch_commits",
+        () => getBranchCommits(opts),
+        (items) => getActivitiesFromCommits(items, commitOpts)
+      ),
+      collect(
+        "push_commits",
+        () => scrapeDays ? getCommitsFromPushEvents(opts) : Promise.resolve(complete([])),
+        (items) => getActivitiesFromCommits(items, commitOpts)
+      )
+    ]);
+    const seenSlugs = /* @__PURE__ */ new Set();
+    const repoActivities = collected.flat().filter((a) => !disabledSlugs.has(a.activity_definition)).filter((a) => !contributorBlacklist.has(a.contributor)).filter((a) => {
+      if (seenSlugs.has(a.slug)) return false;
+      seenSlugs.add(a.slug);
+      return true;
+    });
+    const defaultRole = typeof config.defaultRole === "string" ? config.defaultRole : "contributor";
+    const degradedSources = Object.entries(sources).filter(
+      ([, state]) => state.status !== "completed"
     );
     try {
-      const opts = {
-        pool: pool2,
-        org,
-        repo: repository,
-        since,
-        botUsers,
-        logger,
-        branch: defaultBranch
-      };
-      const commitOpts = {
-        defaultBranch,
-        pointsOnDefaultBranch,
-        pointsOnNonDefaultBranch
-      };
-      const repoActivities = (await Promise.all([
-        getIssues(opts),
-        getComments(opts),
-        getPRsAndReviews(opts),
-        getBranchCommits(opts),
-        scrapeDays ? getCommitsFromPushEvents(opts) : Promise.resolve([])
-      ]).then(([issues, comments, pullRequests, commits]) => [
-        ...activitiesFromIssues(issues, repository),
-        ...activitiesFromComments(comments, repository),
-        ...activitiesFromPullRequests(pullRequests, repository),
-        ...getActivitiesFromCommits(commits, commitOpts),
-        ...getActivitiesFromCommits(commits, commitOpts)
-      ])).filter((a) => !disabledSlugs.has(a.activity_definition)).filter((a) => !contributorBlacklist.has(a.contributor));
-      const defaultRole = typeof config.defaultRole === "string" ? config.defaultRole : "contributor";
       const saved = await persistRepoActivities(
         db,
         repoActivities,
@@ -5640,30 +6237,37 @@ async function getActivities({ db, config, logger }) {
       );
       progress.repos[repository] = {
         repo: repository,
-        status: "completed",
+        status: degradedSources.length > 0 ? "partial" : "completed",
         activitiesCount: saved,
-        completedAt: (/* @__PURE__ */ new Date()).toISOString()
+        completedAt: (/* @__PURE__ */ new Date()).toISOString(),
+        sources,
+        error: degradedSources.length > 0 ? `${degradedSources.length} of ${Object.keys(sources).length} sources degraded` : void 0
       };
-      progress.completedRepos = Object.values(progress.repos).filter(
-        (r) => r.status === "completed"
-      ).length;
       progress.totalActivities += saved;
-      logger.info(`Completed ${repository}: ${saved} activities saved`);
+      if (degradedSources.length > 0) {
+        logger.warn(
+          `Partially scraped ${repository}: ${saved} activities saved, degraded sources: ${degradedSources.map(([name]) => name).join(", ")}`
+        );
+      } else {
+        logger.info(`Completed ${repository}: ${saved} activities saved`);
+      }
     } catch (error) {
-      const errMsg = error instanceof Error ? error.message : String(error);
       progress.repos[repository] = {
         repo: repository,
         status: "failed",
         activitiesCount: 0,
-        error: errMsg.slice(0, 200),
-        completedAt: (/* @__PURE__ */ new Date()).toISOString()
+        error: describeError(error),
+        completedAt: (/* @__PURE__ */ new Date()).toISOString(),
+        sources
       };
-      progress.failedRepos = Object.values(progress.repos).filter(
-        (r) => r.status === "failed"
-      ).length;
-      logger.error(`Failed to scrape ${repository}: ${errMsg}`);
+      logger.error(
+        `Failed to persist activities for ${repository}`,
+        error,
+        { repo: repository }
+      );
     }
-    await saveProgress(progress, dataDir2);
+    recountStatuses();
+    await saveProgress(progress, dataDir);
   }
   if (skippedRepos.length > 0) {
     logger.info(
@@ -5672,9 +6276,10 @@ async function getActivities({ db, config, logger }) {
   }
   logger.info(`Found ${botUsers.size} bot users`);
   await updateBotRoles(db, Array.from(botUsers), logger);
-  await saveProgress(progress, dataDir2);
+  recountStatuses();
+  await saveProgress(progress, dataDir);
   logger.info(
-    `Scrape finished: ${progress.completedRepos} completed, ${progress.failedRepos} failed, ${progress.totalActivities} total activities`
+    `Scrape finished: ${progress.completedRepos} completed, ${progress.partialRepos} partial, ${progress.failedRepos} failed, ${progress.totalActivities} total activities`
   );
 }
 
@@ -5927,10 +6532,20 @@ export {
 };
 /*! Bundled license information:
 
+content-type/dist/index.js:
+  (*!
+   * content-type
+   * Copyright(c) 2015 Douglas Christopher Wilson
+   * MIT Licensed
+   *)
+
 @octokit/request-error/dist-src/index.js:
   (* v8 ignore else -- @preserve -- Bug with vitest coverage where it sees an else branch that doesn't exist *)
 
 @octokit/request/dist-bundle/index.js:
   (* v8 ignore next -- @preserve *)
   (* v8 ignore else -- @preserve *)
+
+@octokit/graphql/dist-bundle/index.js:
+  (* v8 ignore if -- @preserve *)
 */

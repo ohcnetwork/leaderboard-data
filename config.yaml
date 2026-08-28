@@ -17,6 +17,12 @@ meta:
   site_url: https://contributors.ohc.network
   favicon_url: https://raw.githubusercontent.com/ohcnetwork/landing/refs/heads/main/src/app/favicon.ico
 
+observability:
+  sentry:
+    dsn: ${{ env.SENTRY_DSN }}
+    environment: production
+    release: ${{ env.GITHUB_SHA }}
+
 leaderboard:
   data_source: https://github.com/ohcnetwork/leaderboard-data
   data_branch: production
